@@ -1,0 +1,16 @@
+name = "Quantum Skies"
+author = "jmoiron"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e003261a6a387cfabac47afd74116ab0dfd3e18494d3d915fe5cd8d55881ca08"
+
+[versions]
+forge = "47.2.19"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20"]

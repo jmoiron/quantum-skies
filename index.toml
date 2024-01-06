@@ -1,0 +1,150 @@
+hash-format = "sha256"
+
+[[files]]
+file = "README.md"
+hash = "2c9724fa53dc5e8921c24b8267e94959919bb2a04ff11c57947ae3f039f247c4"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "52614d4074179a2819bbb70aec41cf3dd181e6d4bf9763e181fb2fd2a539e189"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
+metafile = true
+
+[[files]]
+file = "mods/colossal-chests.pw.toml"
+hash = "569d1e7807823a657a5b6fd917102f270786d42ed78d59b67373f2e2a9558664"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "6152b2c847fd1703b036b5ab15bfc14ab25d59ae63fd2200670d4fc7947f1999"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "5550ba005fda73184df586093d052378c337382f63b08c63bc987b0023192903"
+metafile = true
+
+[[files]]
+file = "mods/ex-nihilo-sequentia.pw.toml"
+hash = "90999573c2b51e991c5f7d07ff5b4fda2cfbdafdae21d5a402622b4097d2f6ab"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "e5264eb103970e9148e18d2b6ed50584d1d897e679db8c74be7b34b940574867"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "03007dbec06967fadd517024dc8b8b1e1b01696fd79965fa8403da6585d161fa"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials-forge.pw.toml"
+hash = "e196c44c69785ae15eb47a10207fee12362d34e63d94f663a00aa58e26313c37"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "ba8611194b53a37c87f3531718f338b7f5275a84dc7d35730e660c9e7d5e680e"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "fdc5416acf4b032af2ce851001ecf6596cc7e65888b345d8e6c10c3256114775"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "f9923d413d98e0fdb3a15dccd597b389a77cab6546b94db46817d697814df00c"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "dcab54200a705f5a74544011849f8d77e73776124e7b144a2d27d6117c949b84"
+metafile = true
+
+[[files]]
+file = "mods/gregtechceu-modern.pw.toml"
+hash = "c2fdc30beb290f8f9d3dfba0d16624f92a22f4804effade77709438fd7f13f68"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorter.pw.toml"
+hash = "537f95eb95c08a7510b7151d2960904d2fae3ccd515a5f369063c11f707584fb"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "bdb4b62f139151049e9b26bea10b9cf1401a7638bea581e80ac5658e0eff5498"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "3c9b49b0ecd8bdca754479b7c1b032f0bc268ef0360c916d2080ab12e25f49ff"
+metafile = true
+
+[[files]]
+file = "mods/libx.pw.toml"
+hash = "83fa2899723c13dd3749bc7463237865736de1d1ecdea89114593e65365ef2a5"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "2a8e4c7488ddd420fc432717b9f4e76cb4cfbf8f02f351c6cd8f0390dde778ad"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "fac74cc46a4424c4a235a6efbb7e8b3b62c200ad95564e230857eec26b33f216"
+metafile = true
+
+[[files]]
+file = "mods/novacore.pw.toml"
+hash = "593899fa3133de24cdd943513530a0612ebf9ac48f0bc9b9da705744a7f4429f"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "31ae55a04e6bf3dd073be426cfd687505ebf9ab691d806d580e9a3305fc8a9ce"
+metafile = true
+
+[[files]]
+file = "mods/panorama.pw.toml"
+hash = "e5cee328a3edaf7f46897dde1bf330b813f7de21f365e50219bf2af23bec02e2"
+metafile = true
+
+[[files]]
+file = "mods/polylib.pw.toml"
+hash = "fddb460180a419e8e9fa292c465c7d41f6826e4c25e4be7a016d580390bf225c"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
+metafile = true
+
+[[files]]
+file = "mods/skyblock-builder.pw.toml"
+hash = "229498018f6f97e743e3add20100cd015b224d175512b2bf22b0e35e0ae3709f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/dramatic-skys.pw.toml"
+hash = "3203ee7933d56271067503fd5e68c0d14f128fd11b14bb4b47572dfef1a3bbf3"
+metafile = true
