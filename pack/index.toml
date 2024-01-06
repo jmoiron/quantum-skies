@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "2c9724fa53dc5e8921c24b8267e94959919bb2a04ff11c57947ae3f039f247c4"
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "52614d4074179a2819bbb70aec41cf3dd181e6d4bf9763e181fb2fd2a539e189"
 metafile = true
@@ -135,6 +131,16 @@ hash = "fddb460180a419e8e9fa292c465c7d41f6826e4c25e4be7a016d580390bf225c"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "e91ffac568d3823e1b6cbf7cf984b27a145ec4a9f23a00f2fe76445175484d1d"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "54980224a747a23832727baac223d407fd22f1a42d7fd50345429b3e13ef5252"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
 metafile = true
@@ -142,6 +148,16 @@ metafile = true
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
 hash = "229498018f6f97e743e3add20100cd015b224d175512b2bf22b0e35e0ae3709f"
+metafile = true
+
+[[files]]
+file = "mods/tempad.pw.toml"
+hash = "4453118c42c3364c51e577fbcc16e2ae5e85069902eee545cfa8db534e2f2d21"
+metafile = true
+
+[[files]]
+file = "mods/travel-anchors.pw.toml"
+hash = "a047d4d26d9d9742352136d14fabf7a461fc9cb397fa4c3b9a398ea3b688d482"
 metafile = true
 
 [[files]]
