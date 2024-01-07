@@ -26,7 +26,7 @@
 				type: "checkmark"
 			}]
 			title: "About"
-			x: 0.0d
+			x: -0.75d
 			y: -6.0d
 		}
 		{
@@ -47,7 +47,7 @@
 				type: "checkmark"
 			}]
 			title: "Credits and Thanks"
-			x: 3.0d
+			x: 3.75d
 			y: -6.0d
 		}
 		{
@@ -56,12 +56,15 @@
 				""
 				"Where did you come from?  Can you get back?"
 				""
-				"The &opeculiar&r physics of this world give you some hope for survival.  Dropping items has them fall into the void, but placing them does not.  It feels as though maybe falling into the void itself might not even be a death sentence..."
+				"The &opeculiar&r physics of this world give you some hope for survival.  Dropping things into the void sees them disappear, but placing them suspends them onto your island. It feels as though maybe falling into the void itself might not even be a death sentence..."
+				""
+				"If you're going to find a way back home, you'll have to do so &ofrom nothing&r."
 			]
 			icon: "kubejs:qs_icon"
 			id: "72482C44E847C15D"
-			shape: "gear"
+			shape: "hexagon"
 			size: 3.0d
+			subtitle: "And where exactly is that?"
 			tasks: [{
 				id: "1E5E158FE1DCC8F4"
 				title: "Quantum Skies"
@@ -70,6 +73,31 @@
 			title: "Welcome to &aQuantum Skies&r!"
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"The questbook is here to guide you through the pack.  It uses some basic conventions to make plotting your course a little bit easier:"
+				""
+				"Normal, &crounded-square&r quests are the basic quests that help you progress through the pack."
+				""
+				"&cLarger&r quests are important milestones."
+				""
+				"&cGear-shaped&r quests unlock the next tier of technology."
+				""
+				"&cHexagonal&r quests are lore and are there for a little &ospice&r."
+			]
+			icon: "ftbquests:book"
+			id: "5B3EAAFEB4649412"
+			shape: "circle"
+			size: 1.5d
+			subtitle: "About the Questbook"
+			tasks: [{
+				id: "4D4A30C88A642E77"
+				title: "The Questbook"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Welcome to &aQuantum Skies&r!"]

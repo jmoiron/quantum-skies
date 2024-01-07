@@ -1305,26 +1305,6 @@
 			x: 6.75d
 			y: -0.75d
 		}
-		{
-			dependencies: ["4024C831C77101CA"]
-			description: [
-				"If you're looking for a change of scene, the &5Void Dimension&r is a perfectly empty area for you to build your factory."
-				""
-				"It wouldn't be unwise to procure some manner of &aflight&r before venturing here - maybe look around and see if this pack has &6any options&r."
-			]
-			icon: "javd:portal_block"
-			id: "1011551290D3D7EA"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [{
-				id: "19CC2402A14AE77C"
-				item: "javd:portal_block"
-				type: "item"
-			}]
-			title: "Void Dimension Portal"
-			x: 9.0d
-			y: 0.375d
-		}
 	]
 	subtitle: ["Stainless Steel, Chip Fab and &6High Voltage&r"]
 	title: "[&6HV&r] High Voltage"

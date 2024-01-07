@@ -60,40 +60,6 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a Hang Glider. This might be a good item to grab before you hit up the &cNether&r."
-				""
-				"If you don't have enough Leather yet, make a &9Butchering Knife&r and employ its inherent Looting III to hunt some cows."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o The Hang Glider originally came from a mod known as OpenBlocks. As its utility was too great to be left on earlier versions, it was ported all the way up to modern versions."
-			]
-			id: "0C301014EC4D17B8"
-			rewards: [{
-				count: 8
-				id: "1A39F42877915C72"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "No, it's Steve with a glider!"
-			tasks: [{
-				id: "1D0F8D4470DFFD19"
-				item: {
-					Count: 1b
-					id: "hangglider:hang_glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Is it a Phantom? Is it an Elytra?"
-			x: 1.125d
-			y: -2.75d
-		}
-		{
-			dependencies: ["40DE888E6025C646"]
-			description: [
 				"&3High Pressure Boilers&r will be a better source of Steam for powering your Steam machines."
 				""
 				"Keep in mind that you will still be using Steam to power your Electric machines in &7LV&r via the miracles of energy conversion."
@@ -1358,41 +1324,6 @@
 			title: "Steam Compressor"
 			x: 1.125d
 			y: -0.375d
-		}
-		{
-			dependencies: ["40DE888E6025C646"]
-			description: [
-				"With your first &8Steel&r under your belt (ha!), you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
-				""
-				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you prefer. From this GUI, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
-				""
-				"The belt has a small initial inventory of a single tool. This can be expanded by combining the belt with &bBelt Pouches&r in an &aAnvil&r - the maximum slottage is &69 slots&r."
-			]
-			icon: "toolbelt:belt"
-			id: "4A993CC40AB6D35C"
-			rewards: [{
-				id: "38A84272E0407C69"
-				item: "toolbelt:pouch"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Take some weight off your inventory"
-			tasks: [
-				{
-					id: "281B54469C34A5E2"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-				{
-					id: "5FFC5866C6E85F86"
-					item: "toolbelt:pouch"
-					type: "item"
-				}
-			]
-			title: "Tool Belt"
-			x: 2.25d
-			y: -2.625d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
