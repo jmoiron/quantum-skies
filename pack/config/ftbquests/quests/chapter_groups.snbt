@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "693226878D58638A", title: "Climbing the Ranks" }
-		{ id: "1C1C4FB2AFCF489D", title: "Milestones" }
+		{ id: "5524D30A9D815436", title: "Logistics" }
+		{ id: "693226878D58638A", title: "The Age of Technology" }
+		{ id: "1C1C4FB2AFCF489D", title: "Progression" }
 	]
 }

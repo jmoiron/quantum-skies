@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "steam_age"
 	group: "693226878D58638A"
-	icon: "gtceu:bronze_brick_casing"
+	icon: "gtceu:bronze_firebox_casing"
 	id: "3B89FB8839204148"
 	order_index: 0
 	quest_links: [ ]
@@ -397,7 +397,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
 				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
 				""
@@ -578,7 +577,6 @@
 			y: -0.375d
 		}
 		{
-			dependencies: ["5193DD03C0742548"]
 			description: [
 				"Grow &dRubber Trees&r and cut them down to get &aSticky Resin&r."
 				""
@@ -730,7 +728,6 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["315DBB3B23F95E0D"]
 			description: [
 				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
 				""
@@ -1453,37 +1450,7 @@
 			x: 3.375d
 			y: 1.875d
 		}
-		{
-			dependencies: ["54AF8696674766B4"]
-			description: [
-				"After &lmany&r requests, &6Sophisticated Backpacks&r has now been integrated!"
-				""
-				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
-				""
-				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
-			]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "5E89BDA8943534AF"
-			rewards: [{
-				count: 4
-				id: "7193C5F82152C3EB"
-				item: "minecraft:leather"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "circle"
-			size: 0.66d
-			subtitle: "A lower-tech Personal Cell!"
-			tasks: [{
-				id: "193A62DF98B59838"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "Backpacks"
-			x: 4.5d
-			y: 1.875d
-		}
 	]
-	subtitle: ["Harness the power of Steam and learn the basics"]
-	title: "Steam Age"
+	subtitle: ["&6Bronze&r and the Age of Steam Power"]
+	title: "Steam"
 }

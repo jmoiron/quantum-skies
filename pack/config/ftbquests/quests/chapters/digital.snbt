@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital"
+	group: "5524D30A9D815436"
+	icon: "ae2:singularity"
+	id: "42187E283431FC42"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Digital"
+}

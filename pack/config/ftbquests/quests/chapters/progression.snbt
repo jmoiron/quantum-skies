@@ -246,7 +246,7 @@
 				"Pick up the &3Circuit Assembler&r to make them a lot more efficient."
 			]
 			hide_dependency_lines: true
-			icon: "gtceu:bronze_machine_casing"
+			icon: "gtceu:bronze_firebox_casing"
 			id: "4252B1AF36FFB4F6"
 			size: 0.85d
 			subtitle: "Hand crafted and artisanal"

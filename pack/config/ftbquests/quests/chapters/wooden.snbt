@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wooden"
+	group: "5524D30A9D815436"
+	icon: "toms_storage:ts.wireless_terminal"
+	id: "1E81309E653FAAC2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Analog"
+}

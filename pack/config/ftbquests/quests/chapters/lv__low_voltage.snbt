@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "lv__low_voltage"
 	group: "693226878D58638A"
-	icon: "gtceu:lv_electric_motor"
+	icon: "gtceu:lv_machine_hull"
 	id: "7D50771C3FE033D7"
 	order_index: 1
 	quest_links: [{
@@ -460,30 +460,6 @@
 			title: "Basic Polariser"
 			x: 5.625d
 			y: 1.125d
-		}
-		{
-			dependencies: ["29379C91D6E00436"]
-			description: [
-				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. This magnet will also work from your Curio slots."
-				""
-				"&9Note:&r If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them."
-			]
-			id: "3ECD9C9B909CCCCC"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Why can't these items I mine behave and enter my inventory!?"
-			tasks: [{
-				id: "2F5FB2546075FFE0"
-				item: {
-					Count: 1b
-					id: "simplemagnets:basicmagnet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Magnet"
-			x: 5.61d
-			y: 2.31d
 		}
 		{
 			dependencies: ["6431381FBE07D6EF"]
@@ -1514,33 +1490,6 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["3A8D7FC6F316C38C"]
-			description: [
-				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
-				""
-				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
-				""
-				"Charge this in the charger slot of any GregTech machine."
-			]
-			id: "0DAD0A6360448B39"
-			rewards: [{
-				count: 64
-				id: "754F6E206D20BC31"
-				item: "minecraft:bricks"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "A familiar face in the land of Greg"
-			tasks: [{
-				id: "65100C599DB0F30C"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
-			x: -2.25d
-			y: 6.75d
-		}
-		{
 			dependencies: [
 				"5263F866638D875C"
 				"32B08E6F414A00C0"
@@ -1981,6 +1930,6 @@
 			y: 0.0d
 		}
 	]
-	subtitle: ["Tame electricity and make your first machines"]
-	title: "&7LV&r - Low Voltage"
+	subtitle: ["Steel and &7Low Voltage&r Machines"]
+	title: "[&7LV&r] Low Voltage"
 }

@@ -31,6 +31,9 @@ preBuild:
 clean:
 	-rm -rf build
 
+dos2unix:
+	-cd pack && find . -type f -exec dos2unix {} \;
+
 refresh:
 	cd pack && packwiz refresh
 

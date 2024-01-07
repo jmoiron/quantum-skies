@@ -3,7 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "mv__medium_voltage"
 	group: "693226878D58638A"
-	icon: "gtceu:mv_electric_motor"
+	icon: "gtceu:mv_machine_hull"
 	id: "43E779CEEB25D55B"
 	order_index: 2
 	quest_links: [{
@@ -2173,6 +2173,6 @@
 			y: 3.75d
 		}
 	]
-	subtitle: ["Venture into petrochemistry and refine electronics"]
-	title: "&bMV&r - Medium Voltage"
+	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]
+	title: "[&bMV&r] Medium Voltage"
 }

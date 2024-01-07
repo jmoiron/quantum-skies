@@ -1306,26 +1306,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["6958029B5514D4EC"]
-			description: [
-				"With your new &bVacuum Freezer&r, you can now \"&ofreeze&r\" air into &aLiquid Air&r, granting access to &6Creative Flight&r! Do be sure to have a look at processing some additional &aLiquid Air&r - the products of its distillation are very appealing."
-				""
-				"&dXP Drain&r whilst flying has been &cdisabled&r in this pack."
-			]
-			icon: "better_angel_ring:angel_ring"
-			id: "4B4F53FB33DE1C62"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [{
-				id: "6E9FE61644EE53AB"
-				item: "better_angel_ring:angel_ring"
-				type: "item"
-			}]
-			title: "I believe I can fly"
-			x: 9.0d
-			y: -5.25d
-		}
-		{
 			dependencies: ["4024C831C77101CA"]
 			description: [
 				"If you're looking for a change of scene, the &5Void Dimension&r is a perfectly empty area for you to build your factory."
@@ -1346,6 +1326,6 @@
 			y: 0.375d
 		}
 	]
-	subtitle: ["Scale up your power and begin advanced chemistry"]
-	title: "&6HV&r - High Voltage"
+	subtitle: ["Stainless Steel, Chip Fab and &6High Voltage&r"]
+	title: "[&6HV&r] High Voltage"
 }

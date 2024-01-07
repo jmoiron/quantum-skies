@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "from_nothing"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "exnihilosequentia:golden_crook"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7E6BC8A786D3B741"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "itemfilters:tag"
+			tag: {
+				value: "minecraft:logs"
+			}
+		}
+		id: "450F9B10D8FC6FF7"
+		tasks: [{
+			count: 16L
+			id: "69E9E156D942455D"
+			item: {
+				Count: 1b
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			title: "Any Logs"
+			type: "item"
+		}]
+		title: "Tree Punching"
+		x: 0.5d
+		y: -0.5d
+	}]
+	title: "From Nothing"
+}
