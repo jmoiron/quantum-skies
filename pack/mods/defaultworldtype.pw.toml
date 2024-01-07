@@ -1,0 +1,13 @@
+name = "Default World Type [Forge]"
+filename = "DefaultWorldType-1.20.1-4.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b6e6f8c7a7c8433280486d841450aa6df0fbee4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4796884
+project-id = 373014
