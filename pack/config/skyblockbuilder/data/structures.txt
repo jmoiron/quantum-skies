@@ -7,6 +7,7 @@ minecraft:fortress
 minecraft:igloo
 minecraft:jungle_pyramid
 minecraft:mansion
+ae2:meteorite
 minecraft:mineshaft
 minecraft:mineshaft_mesa
 minecraft:monument

@@ -1,8 +1,8 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-PACKNAME := "Quantum-Skies"
-PACKURL := "https://github.com/jmoiron/quantum-skies"
-INSTALLPATH := "/mnt/c/Users/jmoir/AppData/Roaming/PrismLauncher/instances/Quantum Skies-0.0.1/minecraft/"
+PACKNAME := Quantum-Skies
+PACKURL := https://github.com/jmoiron/quantum-skies
+INSTALLPATH := /mnt/c/Users/jmoir/AppData/Roaming/PrismLauncher/instances/Quantum Skies-0.0.1/minecraft/
 
 build: refresh preBuild
 	-rm -rf build/config/*
@@ -28,8 +28,10 @@ pull:
 	# pull updates from INSTALLPATH
 	-rm -rf pack/config/*
 	-rm -rf pack/kubejs/*
-	-cp -r ${INSTALLPATH}/config/* pack/config/*
-	-cp -r ${INSTALLPATH}/kubejs/* pack/kubejs/*
+	-cp -r "${INSTALLPATH}/config/"* ./pack/config/
+	-cp -r "${INSTALLPATH}/kubejs/"* ./pack/kubejs/
+	-rm -rf pack/config/jei/world
+	-cd pack && find . -type f -exec chmod 644 {} \; && cd ..
 	$(MAKE) dos2unix
 
 preBuild:

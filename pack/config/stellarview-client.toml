@@ -7,7 +7,7 @@
 		#Removes Stars
 		disable_stars = false
 		#Stars will be visible during the day
-		day_stars = false
+		day_stars = true
 		#Makes Stars brighter
 		bright_stars = true
 		#Controls how much the sky rotates when moving

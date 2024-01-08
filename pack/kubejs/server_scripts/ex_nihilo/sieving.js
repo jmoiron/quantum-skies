@@ -79,13 +79,13 @@ ServerEvents.recipes(event => {
             ],
             gravel: [
                 /* iron group */
-                ["gtceu:iron_crushed_ore", 0.3],
+                ["gtceu:iron_crushed_ore", 0.35],
                 ["gtceu:magnetite_crushed_ore", 0.15],
                 /* copper group */
-                ["gtceu:copper_crushed_ore", 0.3],
+                ["gtceu:copper_crushed_ore", 0.15],
                 ["gtceu:malachite_crushed_ore", 0.15],
                 /* tin group */
-                ["gtceu:tin_crushed_ore", 0.3],
+                ["gtceu:tin_crushed_ore", 0.15],
                 ["gtceu:cassiterite_crushed_ore", 0.15]
             ]
             

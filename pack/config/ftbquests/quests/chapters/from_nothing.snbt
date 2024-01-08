@@ -223,6 +223,7 @@
 							value: "exnihilosequentia:hammer"
 						}
 					}
+					title: "Crushing Hammer"
 					type: "item"
 				}
 			]
@@ -311,9 +312,11 @@
 				"68A13B75D894A853"
 			]
 			description: [
-				"An &9Oak Crucible&r mulches organic material down into &9Water&r.  Making yourself an infinite water source with your first two buckets wouldn't be a bad idea."
+				"An &9Oak Crucible&r mulches organic material down into &9Water&r.  Making yourself an infinite water source with your first two &9Buckets&r wouldn't be a bad idea."
 				""
-				"If you put a bucket of water into an &9Oak Barrel&r, and then place some &9Dust&r inside, you'll get clay!"
+				"&9Buckets&r themselves, however, are a little more complicated than you remember.  You'll need to make a &9Wrought Iron Hammer&r in order to make the &9Iron Plates&r you need before you can make one."
+				""
+				"Once you do, put some water into an &9Oak Barrel&r, and then place some &9Dust&r inside, you'll get clay!"
 				""
 				"You'll be needing it."
 			]
