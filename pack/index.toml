@@ -507,6 +507,11 @@ hash = "5550ba005fda73184df586093d052378c337382f63b08c63bc987b0023192903"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "f0f4639e92802351443ff57c4f71c6ee67b879e088c61280cf39674d22bc4597"
+metafile = true
+
+[[files]]
 file = "mods/enderchests.pw.toml"
 hash = "7afb25a983355be8d33e51a063d6e85817e37b03ccc331fbecaa863bd1d2f292"
 metafile = true
@@ -609,6 +614,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "4b798f5f1c59f9ff4eb657f6ee899c2b6210d05e5812abf75ef33a0e98ed5475"
+metafile = true
+
+[[files]]
+file = "mods/jei-integration.pw.toml"
+hash = "06476837027569174dc086ae42b7c8055814f9b8d9f1376b862fc4c54e96e0bd"
 metafile = true
 
 [[files]]

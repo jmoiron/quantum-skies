@@ -2,6 +2,7 @@
 
 PACKNAME := "Quantum-Skies"
 PACKURL := "https://github.com/jmoiron/quantum-skies"
+INSTALLPATH := "/mnt/c/Users/jmoir/AppData/Roaming/PrismLauncher/instances/Quantum Skies-0.0.1/minecraft/"
 
 build: refresh preBuild
 	-rm -rf build/config/*
@@ -23,14 +24,13 @@ build: refresh preBuild
 	# move the build into the top directory
 	mv build/Quantum*.zip ./
 
-prism: refresh build
-	-rm -rf prism
-	-mkdir -p prism/.minecraft
-	-cp -r build/* prism/.minecraft/
-	-cp mmc-pack.json instance.cfg prism/
-	-rm -f prism/.minecraft/packwiz-installer.jar
-	cd prism && 7z a ${PACKNAME}-prism.zip ./* -r && cd ..
-	
+pull:
+	# pull updates from INSTALLPATH
+	-rm -rf pack/config/*
+	-rm -rf pack/kubejs/*
+	-cp -r ${INSTALLPATH}/config/* pack/config/*
+	-cp -r ${INSTALLPATH}/kubejs/* pack/kubejs/*
+	$(MAKE) dos2unix
 
 preBuild:
 	-rm -rf build/config/*
