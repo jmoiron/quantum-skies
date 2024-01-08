@@ -13,16 +13,24 @@ build: refresh preBuild
 	# use packwiz-installer to update mods
 	-cp cache/packwiz-installer.jar build/
 	cd build && java -jar ../packwiz-installer-bootstrap.jar ../pack/pack.toml && cd ..
-	-rm build/packwiz-installer.jar
+	-mv build/packwiz-installer.jar cache/
 	# copy the rest of the configuration
 	-cp pack/index.toml pack/pack.toml build/
 	-cp -r pack/config build/
 	-cp -r pack/kubejs build/
 	-cp pack/icon.png build/
-	-cp instance.cfg build/
 	cd build && packwiz cf export && cd ..
 	# move the build into the top directory
 	mv build/Quantum*.zip ./
+
+prism: refresh build
+	-rm -rf prism
+	-mkdir -p prism/.minecraft
+	-cp -r build/* prism/.minecraft/
+	-cp mmc-pack.json instance.cfg prism/
+	-rm -f prism/.minecraft/packwiz-installer.jar
+	cd prism && 7z a ${PACKNAME}-prism.zip ./* -r && cd ..
+	
 
 preBuild:
 	-rm -rf build/config/*

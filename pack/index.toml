@@ -9,6 +9,10 @@ file = "config/appleskin-client.toml"
 hash = "28c6ad7570268b02ec6f73fb7c39c49ecf90f0697d0db9447899e8aa96285200"
 
 [[files]]
+file = "config/attributefix.json"
+hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
+
+[[files]]
 file = "config/balm-common.toml"
 hash = "f24f7cede066400c657af13b1aff84e4920ac531bf24ab18cff1ef32fff72835"
 
@@ -62,7 +66,11 @@ hash = "0683b860972d2353400ad7714bbf9766af50e0b0a1aaa6d2aa626ed407aa5c2a"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
-hash = "3c5f6c8d970a4335948685d6055a7785533658cd11ebd73c979b88a3c7067a83"
+hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
+
+[[files]]
+file = "config/expatternprovider-common.toml"
+hash = "8acbd61e56e3a849c379c0634bf09ae0336e0299e5f62f72d6759bb002e7fdb3"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -98,7 +106,7 @@ hash = "a448ee5caa9337c711706bc711a7630e6c7a907b22c27d6c0d8fd7152d55058a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "8a27f70f089a762c7c9626e72a4dbfd3ee4c6b094d1482d8b8148817022cdab9"
+hash = "325bbe7536841022d639fd8bf09a350bc1261bb53990fda39bf085c2a449e9d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -106,11 +114,11 @@ hash = "7fc6642daada35331e565f2035be342461c8b9c99258b28ff2de748759537c94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "f7d864e1722ece47a05f0acec1e70acd31b169ac1ee61a69bd8e1380dab08709"
+hash = "830330dcf1fd6ec8cd51f9cd5c6839bdb8208567c1c66f3c6287495afff3fea7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "8eda9b2c11a33ff269f7b3e4b4a96af60ddc6934391eccbcf0193346b4045c3a"
+hash = "cbbbb1e3cae3c0c2a6c437c9384001eb0f1f04fac1bfcf8d371fb5fe464a4a53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -138,7 +146,7 @@ hash = "0315ede59bc06d150f2830dc9534c7a8d9e266b1528490f25f7e2057e19ed17f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "129ced2ed9550083371938376df2013283a1578cab4a32e337ce2260f80c2a5b"
+hash = "248fef3d29515d23c45efc61d2a1958a36c32efde90dbf9f889d3c7bad6dcad5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -163,6 +171,10 @@ hash = "971019ecfafb8a39bc4dc8690485beec4d8808726642b85f00f20b8142f058df"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
 hash = "a51f509ce2e07a630825ba37103f4bf33360a92343eddb70dc155a6d0379685e"
+
+[[files]]
+file = "config/ftbxmodcompat.snbt"
+hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -230,7 +242,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "2ccfa861c2972c2c1a433340aae0f3580ddc548f50185a56b39fa8bfa1508d79"
+hash = "c9ec12d6911c75e2b42082304b3eae31c7b383acf45d2ec3c44845aa1359ed8b"
 
 [[files]]
 file = "config/modnametooltip-client.toml"
@@ -238,7 +250,7 @@ hash = "2330307cb817e81581e21a51353a47091cd6c6ab25b676e94fb1ec7a748f08d0"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "605d769ec91ed3de4ce5df513130ffb8928718153ebf6e48c41817a38c7c4394"
+hash = "f406b6e9df488b0c2009efb29a28759cc420f0aa1c23ab7270da2e1107b832c4"
 
 [[files]]
 file = "config/panorama.json"
@@ -321,6 +333,10 @@ file = "config/skyblockbuilder/world.json5"
 hash = "5f0d4a7a1faef65f982e2949d6e71ceab277d51459b8118d392e2fa25a9d8084"
 
 [[files]]
+file = "config/smoothboot.json"
+hash = "01d4f83b3c788181b118d90c34d5176a21cd335dbae18b54310df19ca48e676f"
+
+[[files]]
 file = "config/squatgrow-common.yaml"
 hash = "0d1c33ac3204b8df9b4966db5dd2fdb6f5c85cc73c069f45043df27a1cfcef47"
 
@@ -335,6 +351,10 @@ hash = "d56d8431a85eeabaa8007550f4557112b813922a9036414cb6eea11fefd753ae"
 [[files]]
 file = "config/tempad.jsonc"
 hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
+
+[[files]]
+file = "config/toastcontrol-common.toml"
+hash = "509058ff43f6aa56f9e1e8a1445f16393c74e9c315024c42fc03a031d1bd10ea"
 
 [[files]]
 file = "config/toms_storage-common.toml"
@@ -370,7 +390,11 @@ hash = "6a77d89d5ce08fc71159be99c3a4af215cddd0480532619810fa49e8da1899c2"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+hash = "1412fdc0d28df8c03f17653e162f1b17114ca316148c11a0aa5c08e57dd6f571"
+
+[[files]]
+file = "kubejs/client_scripts/jei.js"
+hash = "17b2044f27fae2f4312a7e0920a9f1206dac99694e5263b50017f5a5c2f3d8cd"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -381,8 +405,20 @@ file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
+file = "kubejs/server_scripts/ex_nihilo/sieving.js"
+hash = "cd84e01cd83c39d0299aff37a246f9f4e8dd2f4ae1a6d7835e047bf6902a7120"
+
+[[files]]
 file = "kubejs/server_scripts/example.js"
-hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+hash = "bbe2862996366a3f2b4ec8c6ba46cacdf13ae66e063171800032c9eda148e6fb"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_removal.js"
+hash = "1c84166b602e0a0fed153f4b8435ecb918185c9583e8e50860080549444acbc0"
+
+[[files]]
+file = "kubejs/server_scripts/simplification.js"
+hash = "53c03a3917d4d0691dc557cc7207edcc73a3c4c6fca2ea8193cde01d6f335ac7"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"

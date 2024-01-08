@@ -3,3 +3,5 @@ packwiz-installer.jar
 build
 Quantum*.zip
 live
+cache/*
+prism/*
