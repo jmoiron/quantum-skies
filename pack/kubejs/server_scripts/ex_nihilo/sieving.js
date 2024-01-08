@@ -126,10 +126,10 @@ ServerEvents.recipes(event => {
                     "input": input,
                     "result": output[0],
                     "rolls": makeRolls(meshType, output[1])
-                });
-            });
-        });
-    });
+                })
+            })
+        })
+    })
 
     /*
     function hammer(input, result) {

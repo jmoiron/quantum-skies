@@ -614,6 +614,11 @@ hash = "3c9b49b0ecd8bdca754479b7c1b032f0bc268ef0360c916d2080ab12e25f49ff"
 metafile = true
 
 [[files]]
+file = "mods/laserio.pw.toml"
+hash = "4205c8912564c477a8762eb1ffcabef42bcea54d9b50a9dcc7d2196d0e63ae29"
+metafile = true
+
+[[files]]
 file = "mods/libx.pw.toml"
 hash = "83fa2899723c13dd3749bc7463237865736de1d1ecdea89114593e65365ef2a5"
 metafile = true

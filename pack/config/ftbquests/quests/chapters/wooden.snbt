@@ -1,12 +1,109 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "wooden"
 	group: "5524D30A9D815436"
 	icon: "toms_storage:ts.wireless_terminal"
 	id: "1E81309E653FAAC2"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["450F9B10D8FC6FF7"]
+			description: [
+				"The &9Crafting Station&r descends from &2Tinker's Construct&r."
+				""
+				"&9Crafting Stations&r are able to pull items from adjacent inventories, and hold crafting items even if you look away from them."
+				""
+				"A &9Crafting Station&r next to a double chest is probably enough to get you to &6Bronze&r."
+			]
+			icon: "craftingstation:crafting_station"
+			id: "7C14659AEF35480A"
+			subtitle: "A Better Crafting Table"
+			tasks: [
+				{
+					id: "19709828FE6A4426"
+					item: "craftingstation:crafting_station"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "26464AADF85D64C8"
+					item: "minecraft:chest"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &2Colossal Chests&r mod adds upgradable multiblock chests for powerful early game storage."
+				""
+				"Use the &9Colossal Chest Interface&r to connect to other inventories via pipes or exporters."
+				""
+				"The &9Chest Upgrade Tool&r allows you to upgrade a chest in place, just have the blocks in your inventory and right-click on the &9Colossal Chest Core&r."
+				""
+				"Your items are \"stored\" in the core, not the other blocks.  If you break the core, you might have a bad time."
+			]
+			icon: "colossalchests:colossal_chest_wood"
+			id: "1616579E1F43966D"
+			subtitle: "Where's that embiggening syringe?"
+			tasks: [
+				{
+					id: "796FB3807C6EB5C5"
+					item: "colossalchests:colossal_chest_wood"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "6F088FED2C36ABF5"
+					item: "colossalchests:chest_wall_wood"
+					type: "item"
+				}
+			]
+			title: "Colossal Chests"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&2Tom's Simple Storage System&r allows you to connect inventories together to form a simple storage network.  It is similar to the &2Simple Storage Netowrk&r mod, or an &2RFTools&r &9Storage Scanner&r, or an incredibly basic early-game &2Applied Energistics&r ME system."
+				""
+				"The simple \"wireless\" terminal extends your reach by about a chunk, which should save you from some running."
+				""
+				"Unlike some Gregtech packs (GTNH), AE2 is not gated too late in the tech tree.  Which is a good thing, because Tom's storage terminals do not play nicely with Gregtech tool durability."
+			]
+			icon: "toms_storage:ts.wireless_terminal"
+			id: "35FBF2C96DB9290A"
+			subtitle: "Deliver me from Chest Spam"
+			tasks: [
+				{
+					id: "74F43DD17463D529"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "7C531F0E972A3FDF"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "67CE8E9EDE0F396A"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "06A38A94DBC8412E"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "Tom's Simple Storage"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
 	title: "Analog"
 }
