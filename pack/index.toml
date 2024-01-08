@@ -158,7 +158,7 @@ hash = "887ec7c3c819e2c4a21397c5ad57d63d15a3622787ea65fd6509e23e88926606"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "ff77a492d825c439981d4b72ee73a91511e12919fff4b2cb9136d3d7bca829e5"
+hash = "c1b33c2f914c7c60bba2b6d50e2d37cf04cb02bb5749eafcd0623bfcad6ac3d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
@@ -394,7 +394,7 @@ hash = "1412fdc0d28df8c03f17653e162f1b17114ca316148c11a0aa5c08e57dd6f571"
 
 [[files]]
 file = "kubejs/client_scripts/jei.js"
-hash = "17b2044f27fae2f4312a7e0920a9f1206dac99694e5263b50017f5a5c2f3d8cd"
+hash = "57e676e321cca6c20c2fac729a351ac33781d51bfaafbb99e6f46ff7f328eb88"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -406,7 +406,7 @@ hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "cd84e01cd83c39d0299aff37a246f9f4e8dd2f4ae1a6d7835e047bf6902a7120"
+hash = "a5c43723832872ece8534959f5d1ca06c9d510b567107530b19a7c0f1e016521"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -476,6 +476,11 @@ metafile = true
 [[files]]
 file = "mods/colossal-chests.pw.toml"
 hash = "569d1e7807823a657a5b6fd917102f270786d42ed78d59b67373f2e2a9558664"
+metafile = true
+
+[[files]]
+file = "mods/crafting-station-jei-edition.pw.toml"
+hash = "2f932a0b605cadaea5e21a3c3f3d5d67a9c22245142801a352a9070abc477b1c"
 metafile = true
 
 [[files]]

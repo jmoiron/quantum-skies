@@ -419,6 +419,9 @@
 						id: "gtceu:wrought_iron_hammer"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -430,6 +433,9 @@
 						id: "gtceu:wrought_iron_file"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -441,6 +447,9 @@
 						id: "gtceu:wrought_iron_wrench"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -452,6 +461,9 @@
 						id: "gtceu:wrought_iron_saw"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -463,6 +475,9 @@
 						id: "gtceu:wrought_iron_screwdriver"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -474,6 +489,9 @@
 						id: "gtceu:wrought_iron_wire_cutter"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -514,6 +532,9 @@
 						id: "gtceu:wrought_iron_mortar"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					optional_task: true
@@ -609,5 +630,6 @@
 			y: -3.0d
 		}
 	]
+	subtitle: ["Ex Nihilo Ad Omnia"]
 	title: "From Nothing"
 }

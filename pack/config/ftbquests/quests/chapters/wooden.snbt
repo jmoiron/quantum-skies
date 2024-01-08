@@ -104,6 +104,59 @@
 			x: 0.0d
 			y: -3.0d
 		}
+		{
+			description: [
+				"&2Pipez&r provide convenient early game item and fluid transport."
+				""
+				"&2Gregtech CEu&r has a sophisticated item and fluid pipe system, but you can't &opull&r items and fluids with them before you have made it to [&7LV&r] Low Voltage and can create &9Motors&r and &9Pumps&r."
+				""
+				"It's worth noting all multiblock Gregtech hatches will auto push/pull to/from adjacent inventories/tanks, including the &9Primitive Pump&r.  These are completely optional, but they may help you automate some basic vanilla processes early on."
+			]
+			id: "578A130EEF32BF8E"
+			subtitle: "With a Z"
+			tasks: [
+				{
+					id: "501C4EBF3739E2C4"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "38A2E51C8200663A"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&2LaserIO&r is meant to be a modern replacement for the venerable &2EnderIO&r conduit system."
+				""
+				"It allows you to route items, fluids, and more to/from any face of any inventory, and provides some simple yet powerful tools for sorting, routing, and other basic logistics."
+				""
+				"They are, unfortunately, a good deal &ouglier&r than EIO conduits."
+			]
+			icon: "laserio:laser_wrench"
+			id: "2F6E4EC8FB210F1A"
+			subtitle: "Fricken Lasers"
+			tasks: [
+				{
+					id: "4C482CB2854662EC"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "1FF390462DD73334"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+			]
+			title: "LaserIO"
+			x: -1.5d
+			y: -1.5d
+		}
 	]
 	title: "Analog"
 }

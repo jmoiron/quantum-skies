@@ -90,7 +90,14 @@ ServerEvents.recipes(event => {
             ]
             
         },
-        "flint": {},
+        "flint": {
+            gravel: [
+                ["gtceu:silver_crushed_ore", 0.05],
+                ["gtceu:gold_crushed_ore", 0.025],
+                ["gtceu:pentlandite_crushed_ore", 0.05],
+                ["gtceu:galena_crushed_ore", 0.05]
+            ]
+        },
         "iron": {},
         "diamond": {},
         "netherite": {}

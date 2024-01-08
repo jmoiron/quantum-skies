@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "age_of_steam"
+	group: "693226878D58638A"
+	icon: "gtceu:bronze_firebox_casing"
+	id: "59A4BB1E592E2980"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D0B8F0841154E4C"]
+			description: [
+				"Although &6Iron&r and &6Wrought Iron&r make good tools, &6Bronze&r seems to have special thermal properties that make it suitable for high temperature applications."
+				""
+				"Using some &9Charcoal&r and suspiciously abundant water, you could build some simple steam boilers.  With that, you can start to mechanize.  Surely specialized machinery could produce these plates and crush this stone more efficiently than you can with your worn tools."
+			]
+			icon: "gtceu:bronze_firebox_casing"
+			id: "21913378FC451B5B"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Steam Powered"
+			tasks: [{
+				id: "25188BDF3238891B"
+				title: "The Bronze Age"
+				type: "checkmark"
+			}]
+			title: "The Bronze Age"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21913378FC451B5B"]
+			description: [
+				"The steam produced by your boilers will auto-output to a connected pipe."
+				""
+				"&6Bronze&r fluid pipes are good enough for your early needs.  A tiny or small pipe will complete the quest."
+			]
+			id: "614BCEF3ADD530AC"
+			subtitle: "Gregic Fluid Transfer"
+			tasks: [{
+				id: "3BA9B4D27EFC9391"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bronze_tiny_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_small_fluid_pipe"
+							}
+						]
+					}
+				}
+				title: "Bronze Fluid Pipe"
+				type: "item"
+			}]
+			title: "Basic Fluid Pipes"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21913378FC451B5B"]
+			description: [
+				"Boilers can be low/high-pressure and use solid or liquid fuel.  They all output the same kind of steam, but at different rates."
+				""
+				"You can run your &9Low Pressure Steam Solid Boiler&r on &9Charcoal&r and it will produce steam for a long time. Like a lot of things, you'll probably want to make more than one."
+				""
+				"(TODO: Buff Creosote and mention liquid boilers)"
+			]
+			id: "2A49DB74D9276F0A"
+			subtitle: "Now We're Cookin"
+			tasks: [{
+				id: "24EFB2B9A5D066A6"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A49DB74D9276F0A"]
+			description: [
+				"The &9Forge Hammer&r machine does what your hammer can do, but without losing durability."
+				""
+				"&9Forge hammers&r create 2 plates per 3 ingots, a 50% better yield than doing it manually!"
+				""
+				"Combine &9Forge Hammers&r with a &9Rock Crusher&r to hammer &6Cobblestone&r into &6Gravel&r, &6Gravel&r into &6Sand&r, &6Sand&r into &6Dust&r, and other sievables to passively automate material gathering."
+			]
+			id: "7EF6C86B728F04E0"
+			subtitle: "Not Quite Mjolnir"
+			tasks: [{
+				id: "1C08026B89CAC872"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A49DB74D9276F0A"]
+			description: [
+				"The &9Rock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
+				""
+				"To use, place a source block of &9Lava&r and a source block of &9Water&r on two of its faces, then feed it steam!"
+			]
+			id: "6CF2DB9AD2AC1A0A"
+			subtitle: "Cobblegen 2.0"
+			tasks: [{
+				id: "194343741E6FD138"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A49DB74D9276F0A"]
+			description: [
+				"The &9Compressor&r is a machine that can be used to create ingots from nuggets and blocks from ingots."
+				""
+				"We need it to create the &9Fireclay Bricks&r to build our &9Primitive Blast Furnace&r.  The brick mold we used for the coke oven cannot produce bricks with enough integrity to stand up to a heat we need to produce &6Steel&r."
+			]
+			id: "7015689EEBC11F93"
+			subtitle: "Nuggets Don't Craft?"
+			tasks: [{
+				id: "61AB628A5BC0E58D"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A49DB74D9276F0A"]
+			description: [
+				"The &9Alloy Smelter&r allows us to produce alloys without trying to mix dust blends with our hands."
+				""
+				"It enables us to make some new alloys that we were not able to make before, especially &6Invar&r, a &6Nickel&r-&6Iron&r alloy that will be useful in higher temperature applications than our &6Bronze&r can handle."
+			]
+			id: "03187CD57AEE511A"
+			subtitle: "Bronze in Bronze"
+			tasks: [{
+				id: "4C4BFB8044E29448"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7015689EEBC11F93"]
+			id: "133D5E0B6C137D0E"
+			size: 1.25d
+			tasks: [{
+				id: "7DA2ECBCFC93C1C0"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7015689EEBC11F93"]
+			description: [
+				"Now that we have the &9Compressor&r, we can compress flint into a flint block and craft the &9Flint Mesh&r."
+				""
+				"This mesh opens up some new materials to us, including &6Gold&r, &6Silver&r, &6Lead&r, and &6Nickel&r.  You will want a new bank of &9Sieves&r for these meshes, as you will still be needing plenty of the materials you can get out of &9String Meshes&r."
+			]
+			id: "3AEF5A87CDA225B6"
+			subtitle: "What a Mesh"
+			tasks: [{
+				id: "63A1BD0936AF8D61"
+				item: "exnihilosequentia:flint_mesh"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"03187CD57AEE511A"
+				"3AEF5A87CDA225B6"
+			]
+			id: "0FA3435DBFF62540"
+			tasks: [{
+				id: "20EDF19180E1721C"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2EE8EB681C6C29C9"
+			tasks: [{
+				id: "4FFAD123A89161E8"
+				item: "gtceu:ball_casting_mold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2EE8EB681C6C29C9"
+				"03187CD57AEE511A"
+			]
+			id: "3BA5CCEB0BEEB708"
+			tasks: [{
+				id: "10122B11D589DD9A"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["&6Bronze&r and the Age of Steam Power"]
+	title: "Steam Powered"
+}

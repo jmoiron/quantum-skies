@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:bronze_firebox_casing"
 	id: "3B89FB8839204148"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -252,6 +252,9 @@
 						id: "gtceu:red_steel_pickaxe"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -1055,6 +1058,9 @@
 							id: "minecraft:efficiency"
 							lvl: 1s
 						}]
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				type: "item"
@@ -1383,5 +1389,5 @@
 		}
 	]
 	subtitle: ["&6Bronze&r and the Age of Steam Power"]
-	title: "Steam"
+	title: "Steam Powered"
 }
