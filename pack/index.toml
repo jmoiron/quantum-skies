@@ -97,16 +97,20 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "6df96ce07b89b9c3e04dfab89b0bc9068db4554b976e95a0cc7b3b749ccaeb50"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
+hash = "425d8351e93d34e3f6162e5d878be0541849c97287464235f2ac2681175833aa"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "aa5125ec0675599b27a7ae34ba6949681f6a07161e44ac13060da60faad68b7c"
+hash = "d767315ad941cfed92d6310252fd78bce385b80428d721ad1bd092a4d43a1488"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "a448ee5caa9337c711706bc711a7630e6c7a907b22c27d6c0d8fd7152d55058a"
+hash = "086ca907cb39f1b853c714b75a39a135ffc7480374217da08515425fb58d3621"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "325bbe7536841022d639fd8bf09a350bc1261bb53990fda39bf085c2a449e9d0"
+hash = "bb966111a3e984a261f0397c1291b9fe4b389fa9eb6440acb985f9b7ab935377"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -114,23 +118,23 @@ hash = "7fc6642daada35331e565f2035be342461c8b9c99258b28ff2de748759537c94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "830330dcf1fd6ec8cd51f9cd5c6839bdb8208567c1c66f3c6287495afff3fea7"
+hash = "9592bfa71519b1223a79dac7f79517ba85522d3cc04eda0ea4f0265d4f28ae54"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "cbbbb1e3cae3c0c2a6c437c9384001eb0f1f04fac1bfcf8d371fb5fe464a4a53"
+hash = "f8d8a262cf8f27ec68e287bc4f9c7060f9df533f767aade4facd02ab935ab06b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "a3f7eb34f7237421eabb428c3439b111605a152ae6af3018fd601f233fe14286"
+hash = "1c1b86c455134812c00bc01e855f37867ca29c0a97712b94b525d48356a86b0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "05a11d28bdafc13eae6f70fa8236594e60cb1324307303aafa0239e711d60ae2"
+hash = "d68e027d3705fe078e1a99bc0dfcec0b5a0a243113bb4bb76348743fde52d321"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "043c4c1dff8c8752cde117917fdd00b1fbb6f27c9b54844dcdaac101883f95f8"
+hash = "bb282d8ae66578a30fba0c62e82839f86f30aead412c0f0cacf3f3d200edc536"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -138,7 +142,7 @@ hash = "5a41e4f4fc1b9ef29695a62ea56cac6498492229edba004714cb9e6ee6c854e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "f5563ae3e033a7eb308471e36560bc9cc46472c74115327fc4292ee958f93a36"
+hash = "66d2ae25fc17be5b49a1ad29260a6d5693cf8422f9694668151f9ab4881bc0bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -146,7 +150,7 @@ hash = "0315ede59bc06d150f2830dc9534c7a8d9e266b1528490f25f7e2057e19ed17f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "248fef3d29515d23c45efc61d2a1958a36c32efde90dbf9f889d3c7bad6dcad5"
+hash = "f57e73a2ac211f66dc93b6cabf5345c6ff91fdfedb2b9989f53562b56502b069"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -154,15 +158,15 @@ hash = "9447b76ebcdb6e5a111ca29fb4a97cbd7879ef52d48a7ccd7ccb45c50625cd7d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "887ec7c3c819e2c4a21397c5ad57d63d15a3622787ea65fd6509e23e88926606"
+hash = "030edb10329a979832a2aa4d3c1d596b005789778612bc1ca37dae900e875c5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "c1b33c2f914c7c60bba2b6d50e2d37cf04cb02bb5749eafcd0623bfcad6ac3d5"
+hash = "6ad46dd887bc0c802abf7d05692772fcced46213fe630ab368e2b189c389db64"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "eab24ddd84f495f05743e02397e90fcdfce900173f77073885710fc4fa24db18"
+hash = "8c0555851239f922e99c875aa1d0b190dc6a89bf6cc0a29031e4af2c7363dc9c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -405,8 +409,12 @@ file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
+file = "kubejs/server_scripts/ex_nihilo/recipes.js"
+hash = "81d6084b7c2625a73414360146c9008e2628a2198faac972902a781dce7aa7c9"
+
+[[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "a5c43723832872ece8534959f5d1ca06c9d510b567107530b19a7c0f1e016521"
+hash = "cf7b98cbafe46e9852f70bb99f3533a99e06b617d1f15e4d06ab877a92a251fa"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -481,11 +489,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-station-jei-edition.pw.toml"
 hash = "2f932a0b605cadaea5e21a3c3f3d5d67a9c22245142801a352a9070abc477b1c"
-metafile = true
-
-[[files]]
-file = "mods/crafting-station.pw.toml"
-hash = "ac40f69fcbf5eef36d3e884a3ae0fa7620fc54a3596fe9ab1b2d5251e5fc136e"
 metafile = true
 
 [[files]]
@@ -590,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "8d4df8d2333059129ae8418f842abf9cb41f370c7c6b5f5b2974001dd66d315a"
+hash = "d1583f0aa749f93b0cdb5eb9fa350c39815ca55d3be2e9edde71309bbb9039a6"
 metafile = true
 
 [[files]]
