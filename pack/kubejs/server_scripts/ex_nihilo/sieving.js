@@ -1,18 +1,17 @@
 
 
 ServerEvents.recipes(event => {
-    const dirt = 'minecraft:dirt';
     const gravel = '#forge:gravel';
-    const coarse_dirt = 'minecraft:coarse_dirt';
     const sand = '#minecraft:sand';
     const dust = 'exnihilosequentia:dust';
-    const blackstone = 'exnihilosequentia:crushed_blackstone'
-    const netherrack = 'exnihilosequentia:crushed_netherrack'
-    const endstone = 'exnihilo:crushed_end_stone'
+    const blackstone = 'exnihilosequentia:crushed_blackstone';
+    const netherrack = 'exnihilosequentia:crushed_netherrack';
+    const endstone = 'exnihilo:crushed_end_stone';
+    const waterloged = 'waterlogged';
 
     function sieve(mesh, chance, input, result, wlog) {
         event.custom({
-            "type": `exnihilosequentia:sieve`,
+            "type": 'exnihilosequentia:sifting',
             "input": input,
             "result": result,
             "rolls": [{
@@ -20,8 +19,117 @@ ServerEvents.recipes(event => {
                 mesh: mesh
             }],
             "waterlogged": wlog
-        })
+        });
     }
+
+    event.shapeless("minecraft:grass_block", [
+        "minecraft:dirt",
+        "exnihilosequentia:grass_seeds",
+    ]);
+
+    // mesh -> { inputBlock -> [output, chance] }
+    const sieveRecipes = {
+        "string": {
+            "minecraft:dirt": [
+                ["minecraft:cactus", 0.05],
+                ["minecraft:bamboo", 0.05],
+                ["minecraft:sugar_cane", 0.05],
+                ["gtceu:rubber_sapling", 0.05],
+                ["exnihilosequentia:grass_seeds", 0.05],
+                ["exnihilosequentia:mycelium_spores", 0.05],
+                ["exnihilosequentia:stone_pebble", [1.0, 1.0, 0.5, 0.5, 0.1, 0.1]],
+                ["exnihilosequentia:granite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:deepslate_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:andesite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:basalt_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:diorite_pebble", [0.5, 0.1]],
+            ],
+            "minecraft:oak_leaves": [
+                ["minecraft:oak_sapling", 0.07],
+                ["minecraft:spruce_sapling", 0.05],
+                ["minecraft:birch_sapling", 0.05],
+                ["minecraft:jungle_sapling", 0.05],
+                ["minecraft:acacia_sapling", 0.05],
+                ["minecraft:dark_oak_sapling", 0.05],
+                ["minecraft:cherry_sapling", 0.05],
+                ["gtceu:rubber_sapling", 0.05],
+                ["minecraft:apple", 0.02]
+            ],
+            "gtceu:rubber_leaves": [
+                ["gtceu:rubber_sapling", 0.1],
+                ["minecraft:slime_ball", 0.025]
+            ],
+            "minecraft:grass_block": [
+                ["minecraft:melon_seeds", 0.35],
+                ["minecraft:beetroot_seeds", 0.35],
+                ["minecraft:pumpkin_seeds", 0.35],
+                ["minecraft:wheat_seeds", 0.35],
+                ["minecraft:sweet_berries", 0.05],
+                ["minecraft:carrot", 0.05],
+                ["minecraft:potato", 0.05],
+                ["minecraft:large_fern", 0.05],
+            ],
+            "minecraft:coarse_dirt": [
+                ["minecraft:dirt", [1.0, 0.4]],
+                ["minecraft:gravel", 0.4],
+                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:calcite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:tuff_pebble", [0.5, 0.1]],
+            ],
+            gravel: [
+                /* iron group */
+                ["gtceu:iron_crushed_ore", 0.3],
+                ["gtceu:magnetite_crushed_ore", 0.15],
+                /* copper group */
+                ["gtceu:copper_crushed_ore", 0.3],
+                ["gtceu:malachite_crushed_ore", 0.15],
+                /* tin group */
+                ["gtceu:tin_crushed_ore", 0.3],
+                ["gtceu:cassiterite_crushed_ore", 0.15]
+            ]
+            
+        },
+        "flint": {},
+        "iron": {},
+        "diamond": {},
+        "netherite": {}
+    };
+
+    /* iron group
+        ["gtceu:granitic_mineral_sand_crushed_ore", 0.05],
+        ["gtceu:basaltic_mineral_sand_crushed_ore", 0.05],
+        ["gtceu:magnetite_crushed_ore", 0.05],
+        ["gtceu:hematite_crushed_ore", 0.05],
+        ["gtceu:yellow_limonite_crushed_ore", 0.05],
+    */
+
+    function makeRolls(meshType, rolls) {
+        if (typeof rolls === 'number' ) {
+            return [{
+                chance: rolls,
+                mesh: meshType,
+            }];
+        }
+        return rolls.map((roll) => ({
+            chance: roll,
+            mesh: meshType
+        }));
+    }
+
+    Object.entries(sieveRecipes).forEach([meshType, v] => {
+        Object.entries(v).forEach([input, outputs] => {
+            outputs.forEach((output) => {
+                console.log(input + " => " + output);
+                event.custom({
+                    "type": "exnihilosequentia:sifting",
+                    "input": input,
+                    "result": output[0],
+                    "rolls": makeRolls(meshType, output[1])
+                });
+            });
+        });
+    });
 
     /*
     function hammer(input, result) {
@@ -41,6 +149,7 @@ ServerEvents.recipes(event => {
     }
     */
 
+    /*
     sieve('string', 0.05, dirt, 'minecraft:cactus', false);
     sieve('string', 0.05, dirt, 'minecraft:sunflower', false);
     sieve('string', 0.05, dirt, 'minecraft:sugar_cane', false);
@@ -134,6 +243,6 @@ ServerEvents.recipes(event => {
     sieve('netherite', 0.01, dust, 'minecraft:echo_shard', false);
 
     sieve('flint', 0.25, dust, 'ae2:sky_dust', false);
-    
+    */
 });
 

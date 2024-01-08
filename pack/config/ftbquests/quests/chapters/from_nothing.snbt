@@ -186,8 +186,15 @@
 				""
 				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials.  Check JEI (by hovering over an item and pressing &3u&r) to see what they are."
 			]
+			icon: "exnihilosequentia:dust"
 			id: "1B5F2C95282B1E14"
-			subtitle: "You are using Ultimine, right?"
+			rewards: [{
+				count: 64
+				id: "33EF906D6126A84E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "You &nare&r using Ultimine, right?"
 			tasks: [
 				{
 					count: 16L
@@ -220,15 +227,17 @@
 				}
 			]
 			title: "Dust to Dust"
-			x: 2.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["583F3A986CA3A78A"]
 			description: [
-				"These pebbles create stone variants that can be processed and turned into useful materials later. "
+				"These pebbles can be used to craft stone variants that can be processed and turned into useful materials later. "
 				""
-				"Do not feel compelled to horde them, but it is useful to explore their possibilities now as they may make ease some chemistry requirements later."
+				"Don't bother hording them, but it may be worth exploring their possibilities now, as they represent reneable sources of those materials."
+				""
+				"You can find other stone variants by sifting &9Coarse Dirt&r."
 			]
 			id: "010C045C1EBA07C4"
 			shape: "circle"
@@ -258,6 +267,12 @@
 					item: "exnihilosequentia:deepslate_pebble"
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "1694818E0B469C50"
+					item: "exnihilosequentia:diorite_pebble"
+					type: "item"
+				}
 			]
 			title: "Fruity Pebbles"
 			x: -2.0d
@@ -265,8 +280,14 @@
 		}
 		{
 			dependencies: ["583F3A986CA3A78A"]
+			description: [
+				"The cornerstone of every minecraft world.  Slightly more difficult to come by up here in the sky, for now."
+				""
+				"You will want to build at least one vanilla &9Furnace&r early, because we will need one to make lava for a vanilla cobblestone generator so you can stop sifting dirt for all of your stone."
+			]
 			icon: "minecraft:cobblestone"
 			id: "2536E4A084745D5A"
+			subtitle: "Absolute Cobblers"
 			tasks: [
 				{
 					count: 8L
@@ -280,8 +301,312 @@
 					type: "item"
 				}
 			]
+			title: "Cobblestone"
 			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1B5F2C95282B1E14"
+				"68A13B75D894A853"
+			]
+			description: [
+				"An &9Oak Crucible&r mulches organic material down into &9Water&r.  Making yourself an infinite water source with your first two buckets wouldn't be a bad idea."
+				""
+				"If you put a bucket of water into an &9Oak Barrel&r, and then place some &9Dust&r inside, you'll get clay!"
+				""
+				"You'll be needing it."
+			]
+			id: "1596BF8DD48411AF"
+			subtitle: "Perfectly Balanced"
+			tasks: [
+				{
+					id: "0BC47FCE2ABF52F6"
+					item: "exnihilosequentia:oak_crucible"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3382CF3CB2C61E41"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "72106FF259096B90"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			title: "Clay"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B5F2C95282B1E14"]
+			description: [
+				"&6Iron&r, &6Copper&r, and &6Tin&r are the the foundational elements for early-game Gregtech."
+				""
+				"With &6Iron&r, you can make &6Wrought Iron&r and eventually &6Steel&r."
+				""
+				"With &6Copper&r and &6Tin&r you can make &6Bronze&r, the primary alloy for the Steam Age."
+			]
+			id: "505F907674D0821E"
+			tasks: [
+				{
+					id: "726D6E1F43461633"
+					item: "gtceu:iron_crushed_ore"
+					type: "item"
+				}
+				{
+					id: "0D67D35AC05C878C"
+					item: "gtceu:copper_crushed_ore"
+					type: "item"
+				}
+				{
+					id: "3E14C8CF07B3474A"
+					item: "gtceu:tin_crushed_ore"
+					type: "item"
+				}
+			]
+			title: "Starting Ores"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["505F907674D0821E"]
+			description: [
+				"Anachronistically, we will work &6Iron&r before we get to &6Bronze&r."
+				""
+				"Usually, Gregtech forces you to smelt &6Iron Nuggets&r for &6Wrought Iron&r, but the gods of this world are generous, and there is a &oblasting&r recipe for the vanilla &9Blast Furnace&r."
+				""
+				"&6Wrought Iron&r is the [&8ULV&r] Ultra Low Voltage tier material, but there is no power system for that tier.  Its primary use is for &oGregtech Tools&r, as tools made from it have 50% more durability than &6Iron&r ones."
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "338399548BB160E3"
+			subtitle: "Before Bronze?"
+			tasks: [
+				{
+					count: 5L
+					id: "1B0E7772B0050B67"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "42D9091200EE0429"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Iron"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["338399548BB160E3"]
+			description: [
+				"Gregtech tools can be used to create plates from ingots, cut plates into wires, crush ores, assemble hulls, and much more.  Eventually, you will use them for &onone&r of those things in favour of machines that do the job more efficiently."
+				""
+				"For now, we will start out with a basic set of &6Wrought Iron&r tools."
+			]
+			id: "1A30EE1EAD1165CA"
+			subtitle: "Microcrafting Time"
+			tasks: [
+				{
+					id: "68A13B75D894A853"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A1B6598855DAB39"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "105DFFF1B82A642F"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41751B2D3E98F093"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A0F4728BA39BBAF"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CACCAE4CA07EDC9"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gregtech Tools"
+			x: 2.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1A30EE1EAD1165CA"]
+			description: [
+				"If you crush down some &6Copper&r and &6Tin&r into dust using your &9Wrought Iron Mortar&r, you should be able to craft them together to get &6Bronze Powder&r."
+				""
+				"Bronze is the hull material for Steam powered generators and machinery.  On to the steam age!"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "5D0B8F0841154E4C"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Bronze Age"
+			tasks: [
+				{
+					count: 3L
+					id: "457440D0E3D99D5F"
+					item: "gtceu:bronze_dust"
+					type: "item"
+				}
+				{
+					id: "1CA608778E1B1F89"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "277866DB22C8A24E"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Bronze"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1596BF8DD48411AF"]
+			description: [
+				"Place a &9Fired Crucible&r on top of a heat source, and you can melt down &9Cobblestone&r and its variants into Lava.  The best heat source we will have for a while is a &9Campfire&r."
+				""
+				"When water touches a &osource&r lava block, it makes &9Obsidian&r, but if it touches flowing lava, it makes &9Cobblestone&r.  "
+				""
+				"It's a good idea to make a basic vanilla Cobblestone Generator so you can generate materials without having to go through dirt and pebbles.  If you make it wider than 1 block, you can take advantage of &2ultimine&r to get more than one stone at a time, or crush with a &9Hammer&r and get gravel directly!"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "69ADA2F357C4A3B4"
+			subtitle: "Liquid Hot Magma"
+			tasks: [
+				{
+					count: 7L
+					id: "6B9A135AB200C11F"
+					item: "exnihilosequentia:porcelain_clay"
+					type: "item"
+				}
+				{
+					id: "4A3CB1A9F74B68E8"
+					item: "exnihilosequentia:fired_crucible"
+					type: "item"
+				}
+				{
+					id: "54EAADFD3104D4A2"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "Lava Generation"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2536E4A084745D5A"]
+			description: [
+				"Another gift from the benevolent gods. In a normal world, you could go mine for &6Coal&r, but it doesn't seem obtainable here quite yet."
+				""
+				"In Gregtech, &6Charcoal&r requires a &6Coke Oven&r to produce, but the normal smelting recipe has been retained."
+				""
+				"Not to worry, we will need that &6Coke Oven&r soon enough for &6Creosote Oil&r."
+			]
+			id: "12289047D9E54B1E"
+			subtitle: "Activated"
+			tasks: [{
+				count: 16L
+				id: "5AF648DF08E8AAC1"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1596BF8DD48411AF"]
+			description: [
+				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first Gregtech multiblock machine!  "
+				""
+				"To build, make a hollow 3x3x3 cube with the &9Coke Oven&r controller block in the middle of one of the faces."
+				""
+				"You can also press &3u&r while hovering over the &9Coke Oven&r item and click the &lMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable doing this to build the many future multiblock machines you will need."
+			]
+			icon: "gtceu:coke_oven"
+			id: "518C743F49E7BA04"
+			size: 1.5d
+			subtitle: "What is this, Railcraft?"
+			tasks: [
+				{
+					id: "61EE929E9902AE17"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "309EEDE4395479AA"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "From Nothing"

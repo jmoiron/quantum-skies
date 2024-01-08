@@ -443,6 +443,11 @@ hash = "569d1e7807823a657a5b6fd917102f270786d42ed78d59b67373f2e2a9558664"
 metafile = true
 
 [[files]]
+file = "mods/crafting-station.pw.toml"
+hash = "ac40f69fcbf5eef36d3e884a3ae0fa7620fc54a3596fe9ab1b2d5251e5fc136e"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "6152b2c847fd1703b036b5ab15bfc14ab25d59ae63fd2200670d4fc7947f1999"
 metafile = true
@@ -480,6 +485,11 @@ metafile = true
 [[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "4da758690c2a7ac4d0e17283203d0b1bac670edfaf42f1863cd624941d3a0145"
+metafile = true
+
+[[files]]
+file = "mods/fastworkbench.pw.toml"
+hash = "8630a92c47c281994b920f446630b9832f0058a44eb21de12bcab8f2b6f307ed"
 metafile = true
 
 [[files]]
