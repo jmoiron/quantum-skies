@@ -585,7 +585,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "c2fdc30beb290f8f9d3dfba0d16624f92a22f4804effade77709438fd7f13f68"
+hash = "8d4df8d2333059129ae8418f842abf9cb41f370c7c6b5f5b2974001dd66d315a"
 metafile = true
 
 [[files]]
@@ -651,6 +651,11 @@ metafile = true
 [[files]]
 file = "mods/panorama.pw.toml"
 hash = "e5cee328a3edaf7f46897dde1bf330b813f7de21f365e50219bf2af23bec02e2"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "1ac2f1dd12beba63da748429f8f7478f193ea693c994c0b2582bccc88b803f7f"
 metafile = true
 
 [[files]]
