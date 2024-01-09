@@ -114,7 +114,7 @@ hash = "6df96ce07b89b9c3e04dfab89b0bc9068db4554b976e95a0cc7b3b749ccaeb50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "425d8351e93d34e3f6162e5d878be0541849c97287464235f2ac2681175833aa"
+hash = "38429c7aa8b0f3fd321df4f06717c552fc3a860f9609849752cb4b866ab623cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -126,7 +126,7 @@ hash = "086ca907cb39f1b853c714b75a39a135ffc7480374217da08515425fb58d3621"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "cc1b344982edc70e3a6f8b31439f11a93fa2c82ccf457a49f086e495be732054"
+hash = "5dd19098b274cea7c869c3557b0ab0b3b6d9f69fc7868d6bc6f5c4ac8c68e62f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -222,7 +222,7 @@ hash = "4699237b4cfc7f0bea1d1ae4c618aeeb4fe79d280bd85832b2d36ba6e4e31d41"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "8b58f3178918b0ba7c6331c8d9e7dc7a24a790320d7f718f89545fa07ac8d4b8"
+hash = "6c83b4e29a11d9ffde4a70634ec57d14f954759900a302366c88764af82126c1"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -257,6 +257,10 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "467fc90659fe0f14bf7201d5890355327a7b659541338fd436df8010fe37a160"
 
 [[files]]
+file = "config/jeiintegration-client.toml"
+hash = "467a6a8bb8af100599d9fae3bdaff1319389ddd55f86f4c166e63a39d46a1243"
+
+[[files]]
 file = "config/modernfix-common.toml"
 hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
@@ -270,7 +274,7 @@ hash = "2330307cb817e81581e21a51353a47091cd6c6ab25b676e94fb1ec7a748f08d0"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6865387349db1fbaa3e9f194771da890538e828a2ebf61d6f0af36a3b0daf729"
+hash = "5ff3cce74457897413ee7ffc2b3b03852b6da5b80e5ee116f86b6fb243ac6c4d"
 
 [[files]]
 file = "config/panorama.json"
