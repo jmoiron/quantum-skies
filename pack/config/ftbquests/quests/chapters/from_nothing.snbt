@@ -413,6 +413,12 @@
 				"For now, we will start out with a basic set of &6Wrought Iron&r tools."
 			]
 			id: "1A30EE1EAD1165CA"
+			rewards: [{
+				count: 32
+				id: "2B535AF4BC9155FD"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
 			subtitle: "Microcrafting Time"
 			tasks: [
 				{
