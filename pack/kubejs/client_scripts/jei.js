@@ -11,6 +11,9 @@ JEIEvents.hideItems(event => {
     event.hide(`exnihilosequentia:raw_${mat}`);
   });
 
+  // don't need mek gas and it might be confusing with steam
+  event.hide("pipez:gas_pipe")
+
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });
 

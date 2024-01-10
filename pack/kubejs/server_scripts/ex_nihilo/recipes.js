@@ -1,8 +1,6 @@
 ServerEvents.recipes(event => {
     const meshes = ["flint", "iron", "diamond", "emerald", "netherite"]
 
-    // remove the default recipes in favor of the loot tables in ex_nihilo/sieving.js
-    event.remove({type: "exnihilosequentia:sifting"});
     
     meshes.forEach((mesh) => {
         event.remove({output: `exnihilosequentia:${mesh}_mesh`});

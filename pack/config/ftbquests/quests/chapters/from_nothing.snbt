@@ -1,4 +1,5 @@
 {
+	autofocus_id: "6B3DFA8D8E7F6431"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "from_nothing"
@@ -11,12 +12,11 @@
 		{
 			dependencies: ["448AE4A9F041CC64"]
 			description: [
-				"This pack includes &2ultimine&r and &2squat grow&r."
+				"Every story has a beginning. It usually involves punching trees."
 				""
-				"&2Ultimine&r, aka &ovein mining&r or &oore excavation&r, allows you to mine all identical connected blocks at once by holding &o&3grave&r while mining. It makes you a little hungry, though."
-				""
-				"&2Squat grow&r, aka &otree twerking&r, allows you to apply a growth effect to trees and crops by squatting (&o&3shift&r) repeatedly."
+				"Have you checked out the circular info quests yet? This pack includes &2Ultimine&r and &2Squat Grow&r to streamline the lumberjacking you are about to do."
 			]
+			disable_toast: true
 			icon: "minecraft:oak_log"
 			id: "450F9B10D8FC6FF7"
 			subtitle: "These trees seem oddly punchable"
@@ -42,7 +42,7 @@
 			]
 			title: "El Classico"
 			x: -2.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -67,7 +67,7 @@
 			}]
 			title: "Ex Nihilo: From Nothing"
 			x: -3.75d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["450F9B10D8FC6FF7"]
@@ -111,7 +111,7 @@
 			]
 			title: "Crooked Ways"
 			x: -2.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["450F9B10D8FC6FF7"]
@@ -139,7 +139,7 @@
 			]
 			title: "Getting Dirty"
 			x: -0.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -177,7 +177,7 @@
 			]
 			title: "Sieving"
 			x: -0.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2536E4A084745D5A"]
@@ -276,8 +276,8 @@
 				}
 			]
 			title: "Fruity Pebbles"
-			x: -2.0d
-			y: 0.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["583F3A986CA3A78A"]
@@ -551,7 +551,7 @@
 				}
 			]
 			title: "Bronze"
-			x: 4.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -561,7 +561,9 @@
 				""
 				"When water touches a &osource&r lava block, it makes &9Obsidian&r, but if it touches flowing lava, it makes &9Cobblestone&r.  "
 				""
-				"It's a good idea to make a basic vanilla Cobblestone Generator so you can generate materials without having to go through dirt and pebbles.  If you make it wider than 1 block, you can take advantage of &2ultimine&r to get more than one stone at a time, or crush with a &9Hammer&r and get gravel directly!"
+				"It's a good idea to make a basic vanilla Cobblestone Generator so you can stop fiddling with pebbles."
+				""
+				"If you make it wider than 1 block, you can take advantage of &2Ultimine&r to get more than one stone at a time, or crush with a &9Hammer&r and get gravel directly!  Just don't make it out of cobblestone if you do this."
 			]
 			icon: "minecraft:lava_bucket"
 			id: "69ADA2F357C4A3B4"
@@ -619,7 +621,13 @@
 			]
 			icon: "gtceu:coke_oven"
 			id: "518C743F49E7BA04"
-			size: 1.5d
+			rewards: [{
+				count: 32
+				id: "0E52A364794F849A"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			size: 1.25d
 			subtitle: "What is this, Railcraft?"
 			tasks: [
 				{
@@ -635,8 +643,258 @@
 				}
 			]
 			title: "Coke Oven"
-			x: 4.5d
+			x: 4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["448AE4A9F041CC64"]
+			dependency_requirement: "one_started"
+			description: [
+				"This pack includes &2Effortless Building&r, bound by default to &3left-alt&r.  Holding the keybind will get you a radial menu from which you can select various different placement types."
+				""
+				"Place a block in one corner of your shape, then another, and the rest will be filled in."
+				""
+				"This is very useful for building our your platform to get more space, and for placing large amounts of material in the world to crush with your &9Hammer&r."
+			]
+			icon: "minecraft:brick"
+			id: "6AD11C92F9E92A01"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Look Ma, No Wands!"
+			tasks: [{
+				id: "46BAACC68BAB43C8"
+				title: "Effortless Building"
+				type: "checkmark"
+			}]
+			title: "Effortless Building"
+			x: -5.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["448AE4A9F041CC64"]
+			dependency_requirement: "one_started"
+			description: [
+				"This pack includes &2FTB Ultimine&r, bound by default to &2grave&r (the key above &2tab&r)."
+				""
+				"When the keybind is held, mining a block in the world will mine adjacent identical blocks.  This is great for &9Crooking&r leaves, &9Hammering&r various stones, or felling trees."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66A592F2E3BFD51A"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Vein Miner, Ore Excavator"
+			tasks: [{
+				id: "7B15484C83B279D8"
+				title: "Ultimine"
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: -5.625d
+		}
+		{
+			dependencies: ["448AE4A9F041CC64"]
+			dependency_requirement: "one_started"
+			description: [
+				"This pack includes &2Squat Grow&r."
+				""
+				"When you dash or squat repeatedly (&3shift&3) near trees or crops, a &9Bonemeal&r effect will be applied, speeding up their growth."
+				""
+				"Since you have started with only a tree and some dirt, this should come in handy."
+			]
+			icon: "minecraft:oak_sapling"
+			id: "036D6BE6D47E6D70"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Tree Twerking"
+			tasks: [{
+				id: "556C37465F140017"
+				title: "Squat Grow"
+				type: "checkmark"
+			}]
+			title: "Squat Grow"
+			x: -5.25d
+			y: -3.375d
+		}
+		{
+			dependencies: [
+				"1ECD7E6A67B32B50"
+				"69ADA2F357C4A3B4"
+			]
+			description: [
+				"&9Netherrack&r is obtained by placing &6Redstone&r in a stone barrel full of &9Lava&r."
+				""
+				"You can then crush it with your &9Hammer&r and sieve the resulting &9Crushed Netherrack&r."
+			]
+			icon: "minecraft:netherrack"
+			id: "57E5ED548029C284"
+			rewards: [{
+				count: 16
+				id: "0A491AAF07BA9712"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "271D1096605C67EF"
+					item: "exnihilosequentia:crushed_netherrack"
+					type: "item"
+				}
+				{
+					id: "361642862F1AA9C4"
+					item: "gtceu:gold_crushed_ore"
+					type: "item"
+				}
+				{
+					id: "725904069B296EB4"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+			]
+			title: "Netherrack"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69ADA2F357C4A3B4"]
+			description: [
+				"&9End Stone&r can be obtained by placing &6Glowstone Dust&r into a &9Stone Barrel&r full of &9Lava&r."
+				""
+				"You can then crush it down with your &9Hammer&r and sieve the resulting &9Crushed End Stone&r."
+				""
+				"At this point, we only need this for &9Ender Pearls&r, but when we get better meshes, we'll be back."
+			]
+			icon: "minecraft:end_stone"
+			id: "61898B593512B8B8"
+			rewards: [{
+				count: 16
+				id: "0B7CC67962AA97F0"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			subtitle: "The End of Stone"
+			tasks: [
+				{
+					id: "6E809852E8E7B1DD"
+					item: "exnihilosequentia:crushed_end_stone"
+					type: "item"
+				}
+				{
+					id: "21D7BAAD578BD1DC"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "End Stone"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["783B70A6165003BB"]
+			description: [
+				"&9Soul Sand&r is one of the primary uses of &9Witch Water&r."
+				""
+				"Put an &9Oak Barrel&r on some dirt that you have infected with &9Mycelium Spores&r and then fill it with water.  You should see a progress meter as it turns to &9Witch Water&r.  Add some &9Sand&r, and you've got &9Soul Sand&r!"
+				""
+				"Sieving this will be your primary source of &9Nether Quartz&r, though better meshes should yield other materials."
+				""
+				"Unfortunately, in 1.20, you can no longer use &9Witch Water&r to make dirt generators."
+			]
+			icon: "minecraft:soul_sand"
+			id: "4682B17BD9261921"
+			rewards: [{
+				count: 16
+				id: "12C31EC7F0F3DB20"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "Mr Dynamite"
+			tasks: [
+				{
+					id: "09ABA47FD0F52071"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "45BAF5F1913B703D"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The &9Crushed Redstone Ore&r you get out of the sieve needs to be processed into &6Redstone&r before it can be used in recipes."
+				""
+				"You can crush it into &9Dirty Redstone Dust&r with a &9Macerator&r, but if you are not mechanized yet, you can use your &9Gregtech Hammer&r."
+				""
+				"You can wash a stack of any dirty dust or crushed ore by right clicking it onto a &9Cauldron&r full of water.  You don't have to drop the items anymore!"
+			]
+			id: "1ECD7E6A67B32B50"
+			rewards: [
+				{
+					count: 16
+					id: "0D505597050288F8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1988A98F0D663867"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Washing Dirty Ore"
+			tasks: [
+				{
+					id: "070CD0B2C1298A1F"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "189530F6DEFE32BD"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Redstone"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A30EE1EAD1165CA"]
+			description: [
+				"Your primary sources of &6Clay&r, &9Soul Sand&r, &9Netherrack&r, &9End Stone&r, and &6Obsidian&r all involve putting things in barrels and filling them back up."
+				""
+				"Pretty tedious to do by hand!"
+				""
+				"Gregtech Item and Fluid pipes are very powerful, but they require &9Conveyors&r and &9Pumps&r, respectively, to extract from an inventory.  Someday, you'll need better logistics, but these can help you get started with &eautomation&r."
+			]
+			id: "6B3DFA8D8E7F6431"
+			subtitle: "\"Advanced\""
+			tasks: [
+				{
+					id: "7FC0E9F3C01EE2E4"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1113F2A1E6BD62ED"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+			]
+			title: "Extra Pipes"
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Ex Nihilo Ad Omnia"]

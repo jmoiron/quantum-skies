@@ -6,7 +6,20 @@
 	icon: "toms_storage:ts.wireless_terminal"
 	id: "1E81309E653FAAC2"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "6CC8020BAE0931BC"
+			linked_quest: "620AAE9DF52E2391"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "1B2D795D74276F09"
+			linked_quest: "6B3DFA8D8E7F6431"
+			x: -3.0d
+			y: -1.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["450F9B10D8FC6FF7"]
@@ -103,32 +116,6 @@
 			title: "Tom's Simple Storage"
 			x: 0.0d
 			y: -3.0d
-		}
-		{
-			description: [
-				"&2Pipez&r provide convenient early game item and fluid transport."
-				""
-				"&2Gregtech CEu&r has a sophisticated item and fluid pipe system, but you can't &opull&r items and fluids with them before you have made it to [&7LV&r] Low Voltage and can create &9Motors&r and &9Pumps&r."
-				""
-				"It's worth noting all multiblock Gregtech hatches will auto push/pull to/from adjacent inventories/tanks, including the &9Primitive Pump&r.  These are completely optional, but they may help you automate some basic vanilla processes early on."
-			]
-			id: "578A130EEF32BF8E"
-			subtitle: "With a Z"
-			tasks: [
-				{
-					id: "501C4EBF3739E2C4"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-				{
-					id: "38A2E51C8200663A"
-					item: "pipez:fluid_pipe"
-					type: "item"
-				}
-			]
-			title: "Pipez"
-			x: -3.0d
-			y: -1.5d
 		}
 		{
 			description: [

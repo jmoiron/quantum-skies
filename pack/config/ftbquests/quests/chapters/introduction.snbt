@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "introduction"
 	group: ""
-	icon: "minecraft:grass_block"
+	icon: "minecraft:writable_book"
 	id: "444E568D88DD596F"
 	order_index: 0
 	quest_links: [ ]
@@ -78,7 +78,9 @@
 			description: [
 				"The questbook is here to guide you through the pack.  It uses some basic conventions to make plotting your course a little bit easier:"
 				""
-				"Normal, &crounded-square&r quests are the basic quests that help you progress through the pack."
+				"Normal, &crounded-squares&r are part of the progression through the pack."
+				""
+				"&cCircles&r contain information to help you progress efficiently and plan ahead."
 				""
 				"&cLarger&r quests are important milestones."
 				""

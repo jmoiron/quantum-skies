@@ -1,31 +1,23 @@
 
 
 ServerEvents.recipes(event => {
-    const gravel = '#forge:gravel';
-    const sand = '#minecraft:sand';
-    const dust = 'exnihilosequentia:dust';
-    const blackstone = 'exnihilosequentia:crushed_blackstone';
-    const netherrack = 'exnihilosequentia:crushed_netherrack';
-    const endstone = 'exnihilo:crushed_end_stone';
-    const waterloged = 'waterlogged';
+    const gravel = "#forge:gravel";
+    const sand = "#minecraft:sand";
+    const dust = "exnihilosequentia:dust";
+    const blackstone = "exnihilosequentia:crushed_blackstone";
+    const netherrack = "exnihilosequentia:crushed_netherrack";
+    const endstone = "exnihilo:crushed_end_stone";
+    const soulsand = "minecraft:soul_sand"
+    const waterloged = "waterlogged";
 
-    function sieve(mesh, chance, input, result, wlog) {
-        event.custom({
-            "type": 'exnihilosequentia:sifting',
-            "input": input,
-            "result": result,
-            "rolls": [{
-                chance: chance,
-                mesh: mesh
-            }],
-            "waterlogged": wlog
-        });
-    }
-
+    // we've moved a bunch of seeds and food to the grass block
     event.shapeless("minecraft:grass_block", [
         "minecraft:dirt",
         "exnihilosequentia:grass_seeds",
     ]);
+    
+    // remove the default recipes in favor of the loot tables in ex_nihilo/sieving.js
+    event.remove({type: "exnihilosequentia:sifting"});
 
     // mesh -> { inputBlock -> [output, chance] }
     const sieveRecipes = {
@@ -67,17 +59,13 @@ ServerEvents.recipes(event => {
                 ["minecraft:sweet_berries", 0.05],
                 ["minecraft:carrot", 0.05],
                 ["minecraft:potato", 0.05],
-                ["minecraft:large_fern", 0.05],
+                ["minecraft:large_fern", 0.05]
             ],
             "minecraft:coarse_dirt": [
                 ["minecraft:dirt", [1.0, 0.4]],
-                ["minecraft:gravel", 0.4],
-                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:calcite_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:tuff_pebble", [0.5, 0.1]],
+                ["minecraft:gravel", 0.4]
             ],
-            gravel: [
+            "#forge:gravel": [
                 /* iron group */
                 ["gtceu:iron_crushed_ore", 0.35],
                 ["gtceu:magnetite_crushed_ore", 0.15],
@@ -87,15 +75,69 @@ ServerEvents.recipes(event => {
                 /* tin group */
                 ["gtceu:tin_crushed_ore", 0.15],
                 ["gtceu:cassiterite_crushed_ore", 0.15]
+            ],
+            "#minecraft:sand": [
+                ["gtceu:salt_crushed_ore", 0.25],
+                ["gtceu:rock_salt_crushed_ore", 0.25],
+                ["gtceu:lepidolite_crushed_ore", 0.10],
+                ["minecraft:lapis_lazuli", [0.2, 0.1]]
+            ],
+            "exnihilosequentia:dust": [
+                ["gtceu:redstone_crushed_ore", [0.5, 0.30]],
+                ["minecraft:glowstone_dust", [0.3, 0.20]],
+                ["minecraft:bone_meal", 0.1]
+            ],
+            "exnihilosequentia:crushed_netherrack": [
+                ["gtceu:gold_crushed_ore", [0.35, 0.2]],
+                ["gtceu:sulfur_dust", [0.5, 0.25]],
+                ["gtceu:tetrahedrite_crushed_ore", 0.25],
+                ["gtceu:stibnite_crushed_ore", 0.15]
+            ],
+            "exnihilosequentia:crushed_end_stone": [
+                ["minecraft:ender_pearl", [0.5, 0.5, 0.25, 0.25]]
+            ],
+            "exnihilosequentia:crushed_blackstone": [
+                ["gtceu:silver_crushed_ore", 0.25],
+                ["gtceu:galena_crushed_ore", 0.25],
+                ["gtceu:lead_crushed_ore", 0.10],
+            ],
+            "minecraft:soul_sand": [
+                ["minecraft:quartz", [1.0, 0.33]]
             ]
-            
         },
         "flint": {
-            gravel: [
-                ["gtceu:silver_crushed_ore", 0.05],
-                ["gtceu:gold_crushed_ore", 0.025],
-                ["gtceu:pentlandite_crushed_ore", 0.05],
-                ["gtceu:galena_crushed_ore", 0.05]
+            "#forge:gravel": [
+                ["gtceu:magnetite_crushed_ore", 0.25],
+                ["gtceu:gold_crushed_ore", 0.10],
+                ["gtceu:nickel_crushed_ore", 0.15],
+                ["gtceu:garnierite_crushed_ore",  0.10],
+                ["minecraft:coal", 0.25]
+            ],
+            "#minecraft:sand": [
+                ["gtceu:calcite_crushed_ore", 0.25],
+                ["gtceu:lazurite_crushed_ore", 0.20],
+                ["gtceu:gypsum_crushed_ore", 0.20],
+                ["gtceu:talc_crushed_ore", 0.20],
+                ["minecraft:diamond", 0.075]
+            ],
+            "minecraft:dirt": [
+                ["exnihilosequentia:granite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:deepslate_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:andesite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:basalt_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:diorite_pebble", [0.5, 0.1]]
+            ],
+            "minecraft:coarse_dirt": [
+                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:calcite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:tuff_pebble", [0.5, 0.1]]
+            ],
+            "exnihilosequentia:crushed_netherrack": [
+                ["gtceu:pyrite_crushed_ore", 0.30],
+                ["gtceu:sphalerite_crushed_ore", 0.25],
+                ["gtceu:beryllium_crushed_ore", 0.10],
+                ["gtceu:stibnite_crushed_ore", 0.10]
             ]
         },
         "iron": {},

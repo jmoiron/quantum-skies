@@ -27,15 +27,15 @@
 				type: "checkmark"
 			}]
 			title: "The Bronze Age"
-			x: -2.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["21913378FC451B5B"]
 			description: [
 				"The steam produced by your boilers will auto-output to a connected pipe."
 				""
-				"&6Bronze&r fluid pipes are good enough for your early needs.  A tiny or small pipe will complete the quest."
+				"&6Bronze&r fluid pipes are good enough for early game needs.  A tiny or small pipe will complete the quest."
 			]
 			id: "614BCEF3ADD530AC"
 			subtitle: "Gregic Fluid Transfer"
@@ -61,15 +61,17 @@
 				type: "item"
 			}]
 			title: "Basic Fluid Pipes"
-			x: -4.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["21913378FC451B5B"]
 			description: [
-				"Boilers can be low/high-pressure and use solid or liquid fuel.  They all output the same kind of steam, but at different rates."
+				"&dBoilers&r can be low/high-pressure and use solid or liquid fuel.  They all output the same kind of steam, but at different rates."
 				""
-				"You can run your &9Low Pressure Steam Solid Boiler&r on &9Charcoal&r and it will produce steam for a long time. Like a lot of things, you'll probably want to make more than one."
+				"To fill it with water, click the middle bar in the UI with a container.  A &9Bucket&r or &9Drum&r would work."
+				""
+				"You can run your &dLow Pressure Steam Solid Boiler&r on &9Charcoal&r and it will produce steam for a long time. Like a lot of things, you'll probably want to make more than one."
 				""
 				"(TODO: Buff Creosote and mention liquid boilers)"
 			]
@@ -86,11 +88,11 @@
 		{
 			dependencies: ["2A49DB74D9276F0A"]
 			description: [
-				"The &9Forge Hammer&r machine does what your hammer can do, but without losing durability."
+				"The &dForge Hammer&r machine does what your hammer can do, but without losing durability."
 				""
-				"&9Forge hammers&r create 2 plates per 3 ingots, a 50% better yield than doing it manually!"
+				"&dForge hammers&r create 2 plates per 3 ingots, a 50% better yield than doing it manually!"
 				""
-				"Combine &9Forge Hammers&r with a &9Rock Crusher&r to hammer &6Cobblestone&r into &6Gravel&r, &6Gravel&r into &6Sand&r, &6Sand&r into &6Dust&r, and other sievables to passively automate material gathering."
+				"Combine &dForge Hammers&r with a &dRock Crusher&r to hammer &6Cobblestone&r into &6Gravel&r, &6Gravel&r into &6Sand&r, &6Sand&r into &6Dust&r, and other sievables to passively automate material gathering."
 			]
 			id: "7EF6C86B728F04E0"
 			subtitle: "Not Quite Mjolnir"
@@ -100,12 +102,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2A49DB74D9276F0A"]
 			description: [
-				"The &9Rock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
+				"The &dRock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
 				""
 				"To use, place a source block of &9Lava&r and a source block of &9Water&r on two of its faces, then feed it steam!"
 			]
@@ -122,9 +124,9 @@
 		{
 			dependencies: ["2A49DB74D9276F0A"]
 			description: [
-				"The &9Compressor&r is a machine that can be used to create ingots from nuggets and blocks from ingots."
+				"The &dCompressor&r is a machine that can be used to create ingots from nuggets and blocks from ingots."
 				""
-				"We need it to create the &9Fireclay Bricks&r to build our &9Primitive Blast Furnace&r.  The brick mold we used for the coke oven cannot produce bricks with enough integrity to stand up to a heat we need to produce &6Steel&r."
+				"We need it to create the &9Fireclay Bricks&r to build our &dPrimitive Blast Furnace&r.  The brick mold we used for the coke oven cannot produce bricks with enough integrity to stand up to a heat we need to produce &6Steel&r."
 			]
 			id: "7015689EEBC11F93"
 			subtitle: "Nuggets Don't Craft?"
@@ -139,9 +141,9 @@
 		{
 			dependencies: ["2A49DB74D9276F0A"]
 			description: [
-				"The &9Alloy Smelter&r allows us to produce alloys without trying to mix dust blends with our hands."
+				"The &dAlloy Smelter&r allows us to produce alloys like &6Bronze&r without trying to mix dust blends with our hands."
 				""
-				"It enables us to make some new alloys that we were not able to make before, especially &6Invar&r, a &6Nickel&r-&6Iron&r alloy that will be useful in higher temperature applications than our &6Bronze&r can handle."
+				"It also unlocks some new alloys, like &6Invar&r, that we were not able to make by mixing dust."
 			]
 			id: "03187CD57AEE511A"
 			subtitle: "Bronze in Bronze"
@@ -185,8 +187,9 @@
 		{
 			dependencies: [
 				"03187CD57AEE511A"
-				"3AEF5A87CDA225B6"
+				"63A1BD0936AF8D61"
 			]
+			description: ["&6Invar&r is a &6Nickel&r-&6Iron&r alloy that we will need in high temperature applications where that our trusty &6Bronze&r won't handle."]
 			id: "0FA3435DBFF62540"
 			tasks: [{
 				id: "20EDF19180E1721C"
@@ -194,18 +197,45 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6FC2E9C3153249C9"]
+			description: [
+				"There are two types of molds: &eCasting Molds&r and &eExtruder Molds&r."
+				""
+				"Casting Molds like the &9Ball Mold&r and &9Block Mold&r can be used in your &9Alloy Smelter&r right now, and eventually in &9Fluid Solidifiers&r."
+				""
+				"Extrusder Molds are used in the &9Extruder&r, but most of the recipes that would be useful require [&bMV&r] Medium Voltage and above."
+			]
 			id: "2EE8EB681C6C29C9"
-			tasks: [{
-				id: "4FFAD123A89161E8"
-				item: "gtceu:ball_casting_mold"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
+			rewards: [
+				{
+					id: "78D23BA24EE8DABF"
+					item: "gtceu:small_gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "160B706D6274C1DB"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FFAD123A89161E8"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "38CE383029EC9F51"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+			]
+			title: "Casting Molds"
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -213,13 +243,20 @@
 				"03187CD57AEE511A"
 			]
 			id: "3BA5CCEB0BEEB708"
-			tasks: [{
-				id: "10122B11D589DD9A"
-				item: "minecraft:glass"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F7592295272B1DB"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+				{
+					id: "605D912EC0B91226"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
 			x: 3.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["133D5E0B6C137D0E"]
@@ -248,11 +285,12 @@
 				type: "item"
 			}]
 			title: "Steel"
-			x: 0.0d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["21913378FC451B5B"]
+			dependency_requirement: "one_started"
 			description: [
 				"Steam Machines come in two varieties, &blow-pressure&r and &bhigh-pressure&r.  They can handle LV recipes up to 32eu/t at a conversion of 2mb of steam to 1eu."
 				""
@@ -262,25 +300,333 @@
 				""
 				"{@pagebreak}"
 				""
-				"Steam machines have a &bsquare&r on one of their sides that looks like a machine output, but this is a &bsteam vent&r.  "
+				"Steam machines have a &bsquare&r on one of their sides.  This might look like a machine output, but it's a &bsteam vent&r.  "
 				""
-				"After each operation, the machine &omust&r be vent some steam, or it will stop processing.  Do not cover these up!"
+				"After each operation, steam powered machines &omust&r vent some steam, or they will stop processing.  Do not cover these up by placing blocks adjacent to the side with the vent!"
 				""
-				"You can move them with the &9Wrench&r."
+				"You can move vents without breaking the machine with the &9Wrench&r."
 				""
 				"To target any Gregtech tool, aim it at a block.  You will see a distorted 3x3 grid;  the large center region is the side you are aiming at, the long regions are the adjacent sides, and the small corners are the opposite side."
 			]
 			icon: "gtceu:steam_machine_casing"
 			id: "0AC40EB5B94CBC1C"
 			shape: "circle"
-			subtitle: "Not An App Store"
+			subtitle: "Steampunk"
 			tasks: [{
 				id: "5AF289AD250E528C"
 				title: "Steam Machines"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"518C743F49E7BA04"
+				"2A49DB74D9276F0A"
+			]
+			description: [
+				"The first infinite water source is the &dPrimitive Pump&r multiblock."
+				""
+				"The rate of water production is technically &ebiome dependent&r, but a single pump should provide enough water for your steam requirements until better methods are available."
+				""
+				"Ensure that the face of the &dPrimitive Pump&r block faces outward on the long side of the multiblock."
+				""
+				"If you want the pump hatch to auto-output, it must be &efacing down&e."
+				""
+				"Now, how to distribute it..?"
+			]
+			id: "3881AD90E85DE772"
+			size: 1.25d
+			subtitle: "Infinite Water Source"
+			tasks: [
+				{
+					id: "11EB7A7413527BF2"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "21CFD37E339DC2BA"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3F10749EA9274032"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "38DF01E293805351"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+			]
+			x: -1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D0B8F0841154E4C"
+				"3881AD90E85DE772"
+			]
+			description: [
+				"The tank from &2Ender Tanks&r is available, but it's a bit out of reach at the moment."
+				""
+				"Thanks to the exceptionally strong &equantum coherence&r of this world, you should be able to craft a &9Entangled Binder&r and &9Entangled Block&r to achieve similar effect!"
+				""
+				"&3Sneak-Right-Click&r with the Binder on a block, then &3Right-Click&r on an Entangled Block, and the Entangled block will behave like the bound block.  You can use this on your pump hatch, or make a &9Bronze Drum&r for some buffer and bind to that."
+			]
+			icon: "minecraft:ender_chest"
+			id: "620AAE9DF52E2391"
+			subtitle: "Spooky Action At A Distance"
+			tasks: [
+				{
+					id: "2BDC55C2CB67B45B"
+					item: {
+						Count: 1b
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2D05235A8BBE6A77"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Quantum Entanglement"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63A1BD0936AF8D61"
+				"3AEF5A87CDA225B6"
+			]
+			description: [
+				"&6Potin&r is an alloy of &6Copper&r, &6Tin&r, and &6Lead&r.  "
+				""
+				"Despite its humble ingredients, &9fluid pipes&r made with &6Potin&r are very fast.  &6Potin&r gears are also used in the &dSteam Grinder&r multiblock."
+			]
+			id: "38F040C814F383BB"
+			tasks: [{
+				id: "2DD39CBB0376870A"
+				item: "gtceu:potin_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38F040C814F383BB"]
+			description: [
+				"If you were wondering about early game ore processing, the answer is the &dSteam Grinder&r! There don't seem to be many ores around here, though."
+				""
+				"The &dSteam Grinder&r can run &dMacerator&r recipes up to [LV] Low Voltage 8 items at a time for a small amount of steam."
+				""
+				"It doesn't produce any by-products. Might be useful for grinding &6clay&r if the needs arise."
+			]
+			icon: "gtceu:steam_grinder"
+			id: "381E8B4BF9C33A9C"
+			subtitle: "Parallelized Maceration"
+			tasks: [
+				{
+					id: "61679402426DFCDC"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "571ABB7E0C193B01"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "79831F4D4149ECE8"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "02BBCA03A4348E62"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:steam_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_bus"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D1839CA1566B892"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:steam_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_bus"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FA3435DBFF62540"]
+			description: [
+				"If you were wondering about early game ore processing, the answer is the &dSteam Grinder&r! There don't seem to be many ores around here, though."
+				""
+				"The &dSteam Grinder&r can run &dMacerator&r recipes up to [LV] Low Voltage 8 items at a time for a small amount of steam."
+				""
+				"It doesn't produce any by-products. Might be useful for grinding &6clay&r if the needs arise."
+			]
+			icon: "gtceu:steam_oven"
+			id: "36913E1373798B1F"
+			subtitle: "Parallelized Smelting"
+			tasks: [
+				{
+					id: "2341AB61310AA731"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+				{
+					id: "33DE9E354180EFF9"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "726645A34077206D"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "74D6A94BB938C2C3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:steam_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ulv_input_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_input_bus"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "445CA76A357A4D21"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:steam_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:ulv_output_bus"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_output_bus"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21913378FC451B5B"]
+			description: [
+				"All &bSteam Boilers&r will output steam to a connected &9Pipe&r automatically from any face except the front.  This makes it easy to distribute steam in the early game, when &9Pumps&r are still expensive."
+				""
+				"Steam &bMachines&r and &bTurbines&r convert &e2mb of steam to 1eu&r of power, so if a recipe says it is &oLV 7 EU/t&r, it will need at least 14mb of steam per tick.  Thankfully, CEu shows fluid transfer rates &e&oper tick&r, so choosing the right &9Pipes&r should be easy."
+				""
+				"You may be tempted to &ebuffer steam&r, but has very poor energy density, and the &9Drums&r you have access to are not good options. Better to wait for electricity."
+			]
+			icon: "gtceu:steam_bucket"
+			id: "76629BD62DA7E658"
+			shape: "circle"
+			subtitle: "Not an App Store"
+			tasks: [{
+				id: "17AAF0D61790B95B"
+				title: "Steam Power"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BA5CCEB0BEEB708"]
+			id: "691D69D77D8399D8"
+			tasks: [{
+				id: "14D5A2986C591C18"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "38367B22FAB52D7B"
+			tasks: [{
+				id: "16BBEDC474B7CF50"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["&6Bronze&r and the Age of Steam Power"]
