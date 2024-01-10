@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
                 ["gtceu:tin_crushed_ore", 0.15],
                 ["gtceu:cassiterite_crushed_ore", 0.15]
             ],
-            "#minecraft:sand": [
+            "minecraft:sand": [
                 ["gtceu:salt_crushed_ore", 0.25],
                 ["gtceu:rock_salt_crushed_ore", 0.25],
                 ["gtceu:lepidolite_crushed_ore", 0.10],
@@ -111,14 +111,14 @@ ServerEvents.recipes(event => {
                 ["gtceu:gold_crushed_ore", 0.10],
                 ["gtceu:nickel_crushed_ore", 0.15],
                 ["gtceu:garnierite_crushed_ore",  0.10],
-                ["minecraft:coal", 0.25]
+                ["minecraft:coal", 0.25],
             ],
-            "#minecraft:sand": [
+            "minecraft:sand": [
                 ["gtceu:calcite_crushed_ore", 0.25],
                 ["gtceu:lazurite_crushed_ore", 0.20],
                 ["gtceu:gypsum_crushed_ore", 0.20],
                 ["gtceu:talc_crushed_ore", 0.20],
-                ["minecraft:diamond", 0.075]
+                ["minecraft:diamond", 0.05]
             ],
             "minecraft:dirt": [
                 ["exnihilosequentia:granite_pebble", [0.5, 0.1]],

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7lvr_low_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:lv_machine_hull"
+	id: "3A960D0053A93C1A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Steel and &7Low Voltage&r Machines"]
+	title: "[&7LV&r] Low Voltage"
+}

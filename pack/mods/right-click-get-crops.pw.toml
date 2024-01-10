@@ -1,0 +1,13 @@
+name = "Right Click, Get Crops"
+filename = "right_click_get_crops-1.20.1-1.6.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a70e3ac76ec65e003780bc5eaa020b05539f7744"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4970693
+project-id = 552442

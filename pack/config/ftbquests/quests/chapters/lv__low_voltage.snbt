@@ -6,14 +6,7 @@
 	icon: "gtceu:lv_machine_hull"
 	id: "7D50771C3FE033D7"
 	order_index: 2
-	quest_links: [{
-		id: "376725077649D2CC"
-		linked_quest: "5A8F0124E07D5025"
-		shape: "gear"
-		size: 1.2d
-		x: 2.25d
-		y: 0.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2F7617C0C4B330DE"]
@@ -66,7 +59,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"Less common as a component, but used in a number of critical machines."
 				""
@@ -87,7 +79,6 @@
 			y: 1.125d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
 				""
@@ -106,7 +97,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A8F0124E07D5025"]
 			description: [
 				"A specialized motor needed to make certain machines."
 				""
@@ -131,10 +121,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4B979482EF026BFF"
-				"5A8F0124E07D5025"
-			]
 			description: [
 				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
 				""
@@ -216,7 +202,6 @@
 			y: 3.360459183673477d
 		}
 		{
-			dependencies: ["4B979482EF026BFF"]
 			description: [
 				"Make some Battery Alloy, used for Battery Hulls."
 				""
@@ -352,10 +337,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"4B979482EF026BFF"
-				"5A8F0124E07D5025"
-			]
 			description: [
 				"You could make any other &7LV&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point."
 				""
@@ -1158,10 +1139,7 @@
 			y: 5.625d
 		}
 		{
-			dependencies: [
-				"32B08E6F414A00C0"
-				"4B979482EF026BFF"
-			]
+			dependencies: ["32B08E6F414A00C0"]
 			description: [
 				"With &7LV&r power, the only way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
 				""
@@ -1684,7 +1662,6 @@
 			dependencies: [
 				"3647B1B964A15E4E"
 				"7BE7DE4C0109D788"
-				"4B979482EF026BFF"
 			]
 			description: [
 				"Well... gotten any Aluminium Ingots yet?"

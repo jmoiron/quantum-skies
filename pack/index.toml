@@ -25,6 +25,10 @@ file = "config/carryon-common.toml"
 hash = "e309110397629770f5080b9ba81ab26e9476250c4372a051ece7c13557370f29"
 
 [[files]]
+file = "config/cofh_core-common.toml"
+hash = "a9c6ee5c60e634126d5b5b462f088a943beb73f6a0afc62570c59499b98a9a0f"
+
+[[files]]
 file = "config/colossalchests-common.toml"
 hash = "4c8bc0f790fdeca6706156dc8c3e119f631f24b5900c49a130d6783b33545775"
 
@@ -85,6 +89,10 @@ file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
 
 [[files]]
+file = "config/flib.toml"
+hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
+
+[[files]]
 file = "config/fml.toml"
 hash = "953c6cb21eb0898aa077589b474b0eec19db6ed1052e5d59fe2a25cba89b4ded"
 
@@ -101,8 +109,12 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "6179263b0aeaf3d52a25f56e61852955ad86f5f8f6b64f41cb08ab8cf369f11e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
+hash = "2670d7bd7b7989796fcb3a69d60300756eef9d0339070d83358bec29754a32ac"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "7cc2ff7de0f47b23cc3da1cb74d43eab82f13fcc743014fba980dde88b12aa04"
+hash = "78429d91ac88628bfedbd6d536c9e79280aa524ae7935b499b0f78850a29436f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -114,7 +126,7 @@ hash = "086ca907cb39f1b853c714b75a39a135ffc7480374217da08515425fb58d3621"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "2c7b54ffc2468c1946686f97476f336ecdb868ba176af733962e3909ad7a25ca"
+hash = "194c9135aecdd2529eca16297dfa0a066312bb7929d18e005f22a9fc4ef16d1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -138,31 +150,27 @@ hash = "d68e027d3705fe078e1a99bc0dfcec0b5a0a243113bb4bb76348743fde52d321"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "bb282d8ae66578a30fba0c62e82839f86f30aead412c0f0cacf3f3d200edc536"
+hash = "c48563655c7994727de8e91369ebad3fc17cda970ea8ea9d9e15f0c19f73c234"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
-hash = "c5b3e91b080560cf0119b6552fc8af702f8aedab5a2520e2e2d2a302ab99cb20"
+hash = "a008725be701303b43745056a8c86c22d7cbe128317e8732773dca60b05a4c4d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "66d2ae25fc17be5b49a1ad29260a6d5693cf8422f9694668151f9ab4881bc0bc"
+hash = "16aedde1286587dd51eb9fc71dfdfc9d11a35930d2d8a2d896cad110d43f3e33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "f71fb7257f3f80935d458302278cc12fbff1afe8f5a51878b934de8eced1496f"
+hash = "94b985afb1b4b78dea63a5565427f9dc2a84ec984090689f8139eccdb6c6471e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
 hash = "084c3defe5d84b5603ff2639412fa8e53816e8fae865ff9c517f7ee434f7523d"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "f57e73a2ac211f66dc93b6cabf5345c6ff91fdfedb2b9989f53562b56502b069"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "9447b76ebcdb6e5a111ca29fb4a97cbd7879ef52d48a7ccd7ccb45c50625cd7d"
+hash = "4fb2431daee8e1515c974621ca74129bf713ee102ab73010380b9ed482fcc7b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -258,7 +266,7 @@ hash = "c9ec12d6911c75e2b42082304b3eae31c7b383acf45d2ec3c44845aa1359ed8b"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c7bd522611d0cf5028bb61d08c54590d398a9f69055160e9ee84c80eb42f2ac5"
+hash = "7367e8ee6bd2172c8e81e2b55fdaae689017cecf7a786cf0c0b05e6269749622"
 
 [[files]]
 file = "config/panorama.json"
@@ -357,6 +365,10 @@ file = "config/tempad.jsonc"
 hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
 
 [[files]]
+file = "config/thermal-common.toml"
+hash = "1fc3d91e3ae90b1ed8881ca4a4277826f0e2d09771cc25e44c80042e3e143091"
+
+[[files]]
 file = "config/toastcontrol-common.toml"
 hash = "509058ff43f6aa56f9e1e8a1445f16393c74e9c315024c42fc03a031d1bd10ea"
 
@@ -422,7 +434,7 @@ hash = "0d7f3ed117bcc0721c0ec29acaf0615b64e062450778f8d7bbc48e87c82be041"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "6675d18694d83ad9ef2e666075bf8bd2072a7d14fc0debd4f98dad61caaa4ce8"
+hash = "9673bb4727f5745ada337abad21de42f9c141c19704259360b3df5f09308a53b"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
@@ -758,6 +770,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
+metafile = true
+
+[[files]]
+file = "mods/right-click-get-crops.pw.toml"
+hash = "afd85bbbbe4cababd97d1b9b7cdc647d0a595a8ad6641547ffdc98985cf2e73b"
 metafile = true
 
 [[files]]

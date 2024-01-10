@@ -66,7 +66,7 @@
 				type: "checkmark"
 			}]
 			title: "Ex Nihilo: From Nothing"
-			x: -3.75d
+			x: -3.5d
 			y: -4.5d
 		}
 		{
@@ -667,7 +667,7 @@
 				type: "checkmark"
 			}]
 			title: "Effortless Building"
-			x: -5.25d
+			x: -4.875d
 			y: -4.5d
 		}
 		{
@@ -694,7 +694,7 @@
 				title: "Ultimine"
 				type: "checkmark"
 			}]
-			x: -5.25d
+			x: -4.875d
 			y: -5.625d
 		}
 		{
@@ -718,7 +718,7 @@
 				type: "checkmark"
 			}]
 			title: "Squat Grow"
-			x: -5.25d
+			x: -4.875d
 			y: -3.375d
 		}
 		{

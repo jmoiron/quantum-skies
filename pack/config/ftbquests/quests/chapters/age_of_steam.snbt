@@ -242,7 +242,15 @@
 				"2EE8EB681C6C29C9"
 				"03187CD57AEE511A"
 			]
+			description: [
+				"&6Glass&r cannot be smelted directly, but must be formed while it's still hot."
+				""
+				"Vanilla &9Glass&r is the &bfirst tier&b of &6Glass Block&r.  As your technology improves, you will have to make more sophisticated glass to withstand your new industrial processes."
+				""
+				"&9Glass Tubes&r are an important crafting component in your first &bcircuit&r."
+			]
 			id: "3BA5CCEB0BEEB708"
+			subtitle: "Glaaask"
 			tasks: [
 				{
 					id: "0F7592295272B1DB"
@@ -337,6 +345,11 @@
 				"Now, how to distribute it..?"
 			]
 			id: "3881AD90E85DE772"
+			rewards: [{
+				id: "0591B6623CA248A1"
+				item: "gtceu:bronze_drum"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "Infinite Water Source"
 			tasks: [
@@ -604,6 +617,7 @@
 				title: "Steam Power"
 				type: "checkmark"
 			}]
+			title: "Steam Power Mechanics"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -619,14 +633,275 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"&9Sticky Resin&r descends from IC2.  In CEu, you get it as a chance drop when chopping &9Rubber Trees&r."
+				""
+				"It is useful as a primitive binder in several recipes, and is a good source of &9Rubber Pulp&9 for making rubber."
+				""
+				"Thankfully, it doesn't gum up your axe."
+			]
 			id: "38367B22FAB52D7B"
 			tasks: [{
 				id: "16BBEDC474B7CF50"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A49DB74D9276F0A"]
+			description: [
+				"Your first &dMacerator&r replaces your &aMortar&r for many simple crushing recipes."
+				""
+				"Most relevant right now, it's 4x more efficient at creating &9Clay Dust&r and &9Brick Dust&r than using a mortar, easing your creation of &9Firebricks&r for your &dPrimitive Blast Furnace&r."
+				""
+				"It also opens up by-products for ore processing, but by the time you need that you'll have better &dMacerators&r."
+			]
+			id: "6AFC58625C408E9C"
+			rewards: [
+				{
+					count: 32
+					id: "26BD78D425951A43"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					id: "633858C187BC8E86"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Pulverizer"
+			tasks: [{
+				id: "6B7181247ACFF929"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "7F92B79A5BDB1CF3"
+			tasks: [{
+				id: "7F0063AA0C3198B3"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BA5CCEB0BEEB708"]
+			description: [
+				"The &9Vacuum Tube&r is the &bfirst tier&r &9Diode&r."
+				""
+				"It's also technically the ULV-tier circuit."
+			]
+			id: "4EB039318FE075FB"
+			rewards: [{
+				count: 8
+				id: "5DC5FC58C3CECFA5"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			subtitle: "First Diode"
+			tasks: [{
+				count: 2L
+				id: "42C47D8DF583AE38"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["38367B22FAB52D7B"]
+			description: ["The &9Resin Printed Circuit Board&r is the &bfirst tier&r &9Circuit Board&r."]
+			id: "153FB81A91251B19"
+			rewards: [{
+				count: 4
+				id: "184EEE4E8411482D"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			subtitle: "First Circuit Board"
+			tasks: [{
+				id: "168444D5C9F33F52"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F92B79A5BDB1CF3"]
+			description: ["The &9Resistor&r is the &bfirst tier&r &9Resistor&r."]
+			id: "69547D83C3F20F38"
+			rewards: [{
+				count: 8
+				id: "3FA2503713B18F4A"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			subtitle: "First Resistor"
+			tasks: [{
+				count: 2L
+				id: "5B8350647BA4E2E1"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6Red Alloy&r has a long history dating back to the Tekkit/RedPower days."
+				""
+				"It is crude, but it will do on the primitive substrate of your &bfirst circuit&r."
+			]
+			id: "247B6BC1C8F5A491"
+			tasks: [{
+				id: "4B828C866329D0EF"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"38367B22FAB52D7B"
+				"691D69D77D8399D8"
+				"0D51859AFB996150"
+			]
+			description: [
+				"&6Rubber&r is an important industrial product:  it's renewable, durable, flexible, and a good insulator."
+				""
+				"You'll need to make &9Rubber Sheets&r in order to conver your wires and create &bcables&r."
+				""
+				"Your first use of cables is in constructing the &9Basic Electronic Circuit&r, but you will be using them soon to transport power."
+			]
+			id: "206489FD5D70CC39"
+			subtitle: "LaTeX"
+			tasks: [
+				{
+					id: "08FB3F6A6AD0820A"
+					item: "gtceu:rubber_ingot"
+					type: "item"
+				}
+				{
+					id: "47F4C0D989D7D860"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"206489FD5D70CC39"
+				"247B6BC1C8F5A491"
+			]
+			description: ["&6Red Alloy&r is the &bfirst tier wire component&r."]
+			id: "2BBFB81A740AC821"
+			rewards: [{
+				count: 12
+				id: "6C6B6AAC355F2CF4"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			subtitle: "First Wire Component"
+			tasks: [{
+				count: 3L
+				id: "583767CD26CF275C"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"153FB81A91251B19"
+				"4EB039318FE075FB"
+				"69547D83C3F20F38"
+				"2BBFB81A740AC821"
+			]
+			description: [
+				"The &bInformation Era&r beckons.  That was fast, we don't even have &belectricity&r yet!"
+				""
+				"This circuit unlocks the [&7LV&r] Low Voltage tier and its machines.  "
+				""
+				"While &7LV&r machines have the same processing speed to &dHigh-Pressure Steam&r machines, they run on electricity, do not need to vent steam, and can auto-output. Electricity can be buffered with high power density &bbatteries&r."
+				""
+				"Important machines like the &dBender&r, &dWiremill&r, and &dLathe&r start at &7LV&r and are much more material-efficient than your current processes."
+				""
+				"{@pagebreak}"
+				""
+				"For the next several tiers, each new &bCircuit&r you build will feature &9diodes&r, &9resistors&r, wire components, and a &9circuit board&r.  They are all tiered, aligned by voltage, and become more complex to produce as time goes on."
+				""
+				"As your level of technology increases, you will be able to produce simpler circuits with &bhigher yields&r, though they may require more sophisticated materials."
+				""
+				"See the &4Progression Tab&r for more information."
+			]
+			id: "4204A78817D2164E"
+			rewards: [{
+				count: 4
+				id: "6DBFF42528FF04BE"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "First Circuits"
+			tasks: [{
+				id: "01C41338061FB1D6"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57E5ED548029C284"]
+			description: [
+				"&6Sulfur&r is an important ingredient in the &evulcanization&r of &6Rubber&r."
+				""
+				"Without this treatment, rubber gets sticky at low temperatures and is not useful for industrial applications."
+				""
+				"You'll eventually find that there is &6Sulfur&r to be had from many types of ore, but for now, the easiest way to get it is to sieve &9Netherrack&r."
+			]
+			id: "0D51859AFB996150"
+			subtitle: "Brimstone"
+			tasks: [{
+				id: "0472C142C7D7AC11"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FC2E9C3153249C9"]
+			description: [
+				"Now that you have &6Steel&r, you can make &bHigh Pressure Steam&r machines."
+				""
+				"You should consider making a few &dBoilers&r as they are more fuel efficient, and you will need more steam as you start to mechanize and get into [&7LV&r] Low Voltage tier machines."
+				""
+				"The &dSolar Boiler&r is expensive, but produce a decent amount of steam, are trivial to automate at this stage, and won't calcify."
+			]
+			id: "756214B25FF18446"
+			subtitle: "RePressurized"
+			tasks: [{
+				id: "5517D1CD5C5912D5"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "High Pressure Steam"
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["&6Bronze&r and the Age of Steam Power"]
