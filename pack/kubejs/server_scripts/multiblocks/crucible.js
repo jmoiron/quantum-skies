@@ -14,6 +14,18 @@ ServerEvents.recipes(event => {
         }
     );
 
+    event.shaped(Item.of("gtceu:industrial_crucible"),
+        ["CGC", "WXH", "CLC"],
+        {
+            C: "gtceu:heatproof_machine_casing",
+            X: "gtceu:basic_crucible",
+            W: "#forge:tools/wrenches",
+            H: "#forge:tools/hammers",
+            L: "gtceu:stainless_steel_gearbox",
+            G: "gtceu:tempered_glass",
+        }
+    )
+
     event.recipes.gtceu.crucible("lava_from_stone")
         .itemInputs("#forge:cobblestone")
         .outputFluids("minecraft:lava 250")
@@ -38,5 +50,19 @@ ServerEvents.recipes(event => {
         .circuit(4)
         .itemOutputs("minecraft:obsidian")
         .duration(400)
+        .EUt(7)
+
+    event.recipes.gtceu.crucible("endstone")
+        .itemInputs("4x #forge:cobblestone", "minecraft:glowstone_dust")
+        .circuit(5)
+        .itemOutputs("4x minecraft:end_stone")
+        .duration(100)
+        .EUt(7)
+
+    event.recipes.gtceu.crucible("netherrack")
+        .itemInputs("4x #forge:cobblestone", "minecraft:redstone")
+        .circuit(6)
+        .itemOutputs("4x minecraft:netherrack")
+        .duration(100)
         .EUt(7)
 })

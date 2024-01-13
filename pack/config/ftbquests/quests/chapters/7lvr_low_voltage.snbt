@@ -1,13 +1,37 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "7lvr_low_voltage"
 	group: "693226878D58638A"
 	icon: "gtceu:lv_machine_hull"
 	id: "3A960D0053A93C1A"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7829B13B2DEA6D42"
+			tasks: [{
+				id: "60E0D0B6B60D945F"
+				item: "gtceu:primitive_woodcutter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: "gtceu:basic_electronic_circuit"
+			id: "62B333F50C74A0F3"
+			shape: "hexagon"
+			tasks: [{
+				id: "4B9D1465662D74C8"
+				title: "Low Voltage"
+				type: "checkmark"
+			}]
+			title: "Age of Electricity"
+			x: 2.0d
+			y: -1.0d
+		}
+	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
 	title: "[&7LV&r] Low Voltage"
 }

@@ -3,50 +3,69 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("crucible")
         .category("crucible")
         .setEUIO("in")
-        .setMaxIOSize(2, 1, 0, 1)
+        .setMaxIOSize(3, 1, 0, 1)
         .setSound(GTSoundEntries.BOILER);
 });
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
-    let blocks = Predicates.blocks;
-    let abilities = Predicates.abilities;
-    let controller = Predicates.controller;
+
+    let itemOut = Predicates.abilities(PartAbility.EXPORT_ITEMS)
+    let itemIn = Predicates.abilities(PartAbility.IMPORT_ITEMS)
+    let setCount = (pred, limit, preview) => { pred.setMaxGlobalLimited(limit).setPreviewCount(preview) }
 
     event.create("basic_crucible", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("crucible")
         .tier(GTValues.LV)
-        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
+        // .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
         .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
         .pattern(
             definition => FactoryBlockPattern.start()
                 .aisle("HHH", "HHH", "HHH")
                 .aisle("HHH", "HCH", "HGH")
                 .aisle("HHH", "HXH", "HHH")
-                .where("X", controller(blocks(definition.get())))
+                .where("X", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("H", Predicates.blocks(GTBlocks.MACHINE_CASING_ULV.get())
-                    .or(abilities(PartAbility.EXPORT_ITEMS).setMaxLayerLimited(1))
-                    .or(abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1))
-                    .or(abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2))
-                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, [GTValues.LV])))
+                    .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+                    .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+                    .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(3).setPreviewCount(1))
+                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.LV).setMaxGlobalLimited(1).setPreviewCount(1)))
                 .where("C", Predicates.blocks("minecraft:lava_cauldron"))
                 .where("G", Predicates.blocks("minecraft:glass"))
                 .build()
         )
         .workableCasingRenderer(
             "gtceu:block/casings/voltage/ulv/side", 
-            "gtceu:block/multiblock/blast_furnace", 
+            "gtceu:block/multiblock/cracking_unit", 
             false,
         );
-    
-        /*
+
     event.create("industrial_crucible", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("crucible")
-        .appearanceBlock(GTBlocks.MACHINE_CASING_HV)
+        .tier(GTValues.HV)
+        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
+        .appearanceBlock(GTBlocks.CASING_INVAR_HEATPROOF)
         .pattern(
             definition => FactoryBlockPattern.start()
-                .aisle("")
+                .aisle("HHH", "CCC", "CCC", "HHH")
+                .aisle("HHH", "CRC", "CNC", "HGH")
+                .aisle("HXH", "CCC", "CCC", "HHH")
+                .where("X", Predicates.controller(Predicates.blocks(definition.get())))
+                .where("H", Predicates.blocks(GTBlocks.CASING_INVAR_HEATPROOF.get())
+                    .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+                    .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+                    .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(3).setPreviewCount(1))
+                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.HV, GTValues.EV, GTValues.IV).setMaxGlobalLimited(1).setPreviewCount(1)))
+                .where("R", Predicates.blocks("gtceu:stainless_steel_gearbox"))
+                .where("C", Predicates.blocks("gtceu:kanthal_coil_block"))
+                .where("N", Predicates.blocks("minecraft:lava_cauldron"))
+                .where("G", Predicates.blocks("gtceu:tempered_glass"))
+                .build()
         )
-        */
+        .workableCasingRenderer(
+            "gtceu:block/casings/solid/machine_casing_heatproof",
+            "gtceu:block/multiblock/cracking_unit",
+            false
+        )
 });

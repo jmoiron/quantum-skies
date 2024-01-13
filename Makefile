@@ -1,8 +1,9 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
+WINUSER := $(ls /mnt/c/Users |grep moi |tr -d '/')
 PACKNAME := Quantum-Skies
 PACKURL := https://github.com/jmoiron/quantum-skies
-INSTALLPATH := /mnt/c/Users/jmoir/AppData/Roaming/PrismLauncher/instances/Quantum Skies-0.0.1/minecraft/
+INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/Quantum Skies-0.0.1/minecraft/
 
 build: refresh preBuild
 	-rm -rf build/config/*
@@ -51,3 +52,8 @@ refresh:
 	cd pack && packwiz refresh
 
 default: build
+
+bootstrap:
+	go install github.com/packwiz/packwiz@latest
+	sudo apt install ripgrep dos2unix openjdk-17-jre
+
