@@ -6,5 +6,6 @@ ServerEvents.recipes(event => {
 
     event.remove({ input: 'minecraft:fire_charge'});
     event.remove({ input: 'thermal:earth_charge'});
+
 });
 

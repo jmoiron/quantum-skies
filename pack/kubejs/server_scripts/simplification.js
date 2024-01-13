@@ -13,4 +13,19 @@ ServerEvents.recipes(event => {
     // with entangled earlier than the PBF
     // want people to be able to make basic clay automation for PBF
     event.recipes.blasting("minecraft:nether_brick", "minecraft:netherrack");
+
+    event.remove({output: "clickmachine:auto_clicker"});
+    event.shaped("clickmachine:auto_clicker",
+        [
+            'DDD',
+            'POR',
+            'DDD'
+        ],
+        {
+            D: "minecraft:diorite",
+            P: "minecraft:dispenser",
+            O: "minecraft:observer",
+            R: "minecraft:dropper",
+        },
+    )
 });

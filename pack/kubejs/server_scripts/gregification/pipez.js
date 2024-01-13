@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
 
     let mats = {
         T: "gtceu:tin_small_item_pipe",
-        C: "gtceu:potin_small_fluid_pipe",
+        C: "gtceu:copper_small_fluid_pipe",
         D: "gtceu:copper_double_wire",
         R: "minecraft:redstone_block",
         H: "minecraft:hopper",

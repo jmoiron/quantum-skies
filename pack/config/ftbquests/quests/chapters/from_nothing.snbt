@@ -48,21 +48,22 @@
 			description: [
 				"As you suspected!"
 				""
-				"While it appears normal, the physics here are quite bizarre."
+				"At first blush, this world &eappears&r normal, but the physics here are quite bizarre."
 				""
-				"Water, arranged in a 2x2 square, is limitless.  It flows forever, creating endless stone when contacting lava.  The resulting stone is &orich&r in minerals of all kinds.  "
+				"&9Water&r, arranged in a 2x2 square, is limitless.  It flows forever, creating endless stone when contacting lava.  The resulting stone is &erich in minerals&r of all kinds.  "
 				""
-				"Trees grow almost instantaneously, and organic matter breaks down into dirt readily. The dirt here &ooverflows&r with agricultural products that seemingly generate spontaneously."
+				"&9Trees&r seem to grow almost instantaneously, and organic matter breaks down into dirt readily. The dirt here overflows with &eagricultural products&r that generate spontaneously."
 				""
-				"Using the wood from this tree, you should be able to fashion all of the materials you need to get back."
+				"Using the wood from this tree, you should be able to establish yourself and start the hard work of getting back."
 			]
+			disable_toast: true
 			icon: "exnihilosequentia:jungle_sieve"
 			id: "448AE4A9F041CC64"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "2CE4D1A63D35BAE3"
-				title: "Ex Nihilo"
+				id: "2FC88C5939DFCB39"
+				title: "Lore"
 				type: "checkmark"
 			}]
 			title: "Ex Nihilo: From Nothing"
@@ -312,9 +313,7 @@
 				"68A13B75D894A853"
 			]
 			description: [
-				"An &9Oak Crucible&r mulches organic material down into &9Water&r.  Making yourself an infinite water source with your first two &9Buckets&r wouldn't be a bad idea."
-				""
-				"&9Buckets&r themselves, however, are a little more complicated than you remember.  You'll need to make a &9Wrought Iron Hammer&r in order to make the &9Iron Plates&r you need before you can make one."
+				"&9Buckets&r are a little more complicated than you remember.  You'll need to make a &aHammer&r in order to make the &9Iron Plates&r you need to craft one."
 				""
 				"Once you do, put some water into an &9Oak Barrel&r, and then place some &9Dust&r inside, you'll get clay!"
 				""
@@ -323,11 +322,6 @@
 			id: "1596BF8DD48411AF"
 			subtitle: "Perfectly Balanced"
 			tasks: [
-				{
-					id: "0BC47FCE2ABF52F6"
-					item: "exnihilosequentia:oak_crucible"
-					type: "item"
-				}
 				{
 					count: 16L
 					id: "3382CF3CB2C61E41"
@@ -408,13 +402,17 @@
 		{
 			dependencies: ["338399548BB160E3"]
 			description: [
-				"Gregtech tools can be used to create plates from ingots, cut plates into wires, crush ores, assemble hulls, and much more.  Eventually, you will use them for &onone&r of those things in favour of machines that do the job more efficiently."
+				"&aGregtech tools&r can be used to create plates from ingots, cut plates into wires, crush ores, assemble machine hulls, and much more.  Eventually, you will only use them to configure machines, as mechanization will do these jubs more efficiently."
 				""
-				"For now, we will start out with a basic set of &6Wrought Iron&r tools."
+				"The &aHammer&r is your first way to create &eplates&r, which are used by many other tools and machines."
+				""
+				"The &aWrench&r configures &epipes&r in the world, and is also used for crafting."
+				""
+				"The &aMortar&r can do some basic maceration tasks, and opens up your first alloys."
 			]
 			id: "1A30EE1EAD1165CA"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "2B535AF4BC9155FD"
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
@@ -426,20 +424,6 @@
 					item: {
 						Count: 1b
 						id: "gtceu:wrought_iron_hammer"
-						tag: {
-							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A1B6598855DAB39"
-					item: {
-						Count: 1b
-						id: "gtceu:wrought_iron_file"
 						tag: {
 							Damage: 0
 							GT.Tool: {
@@ -464,51 +448,27 @@
 					type: "item"
 				}
 				{
-					id: "41751B2D3E98F093"
+					id: "6AD94D8389DAA759"
 					item: {
 						Count: 1b
-						id: "gtceu:wrought_iron_saw"
+						id: "gtceu:wrought_iron_mortar"
 						tag: {
-							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
 							GT.Tool: {
 								Damage: 0
+								Enchantability: 5
+								MaxDamage: 383
 							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0A0F4728BA39BBAF"
-					item: {
-						Count: 1b
-						id: "gtceu:wrought_iron_screwdriver"
-						tag: {
-							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0CACCAE4CA07EDC9"
-					item: {
-						Count: 1b
-						id: "gtceu:wrought_iron_wire_cutter"
-						tag: {
-							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							HideFlags: 2
 						}
 					}
 					type: "item"
 				}
 			]
 			title: "Gregtech Tools"
-			x: 2.5d
-			y: -1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A30EE1EAD1165CA"]
@@ -551,7 +511,7 @@
 				}
 			]
 			title: "Bronze"
-			x: 4.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -758,7 +718,7 @@
 			]
 			title: "Netherrack"
 			x: 4.0d
-			y: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["69ADA2F357C4A3B4"]
@@ -791,11 +751,14 @@
 				}
 			]
 			title: "End Stone"
-			x: 4.0d
-			y: -4.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["783B70A6165003BB"]
+			dependencies: [
+				"783B70A6165003BB"
+				"183B84F55452A5A4"
+			]
 			description: [
 				"&9Soul Sand&r is one of the primary uses of &9Witch Water&r."
 				""
@@ -826,7 +789,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: -6.0d
 		}
 		{
@@ -866,7 +829,7 @@
 				}
 			]
 			title: "Redstone"
-			x: 2.5d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -893,8 +856,199 @@
 				}
 			]
 			title: "Extra Pipes"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4682B17BD9261921"
+				"61898B593512B8B8"
+			]
+			description: [
+				"The &9Click Machine&r can automatically use items in its inventory on your sieves."
+				""
+				"The &9Item Collector&r can pick up items dropped in the world, with more than enough coverage to pick up sieve drops."
+				""
+				"Combined, you can have basic sieve automation.  You'll have better options later, but any resources you can &ecreate passively&r will save you time later when you are crafting!"
+			]
+			id: "5500B7E9C7EA7240"
+			subtitle: "Slow But Steady"
+			tasks: [
+				{
+					id: "717EF6EEAC0B396B"
+					item: "itemcollectors:basic_collector"
+					type: "item"
+				}
+				{
+					id: "310A15B2BB346B8C"
+					item: "clickmachine:auto_clicker"
+					type: "item"
+				}
+			]
+			title: "Early Sieve Automation"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["450F9B10D8FC6FF7"]
+			description: [
+				"The &9Oak Crucible&r can break down organic material into water. Although it says it has heat, it doesn't need a heat source to do this."
+				""
+				"This process takes a while.  Making an infinite water source with your first two &9Buckets&r worth wouldn't be a bad idea."
+			]
+			id: "183B84F55452A5A4"
+			subtitle: "Not A Drop To Drink"
+			tasks: [{
+				id: "7B0DC7EE203A2E9D"
+				item: "exnihilosequentia:oak_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A30EE1EAD1165CA"]
+			description: [
+				"These are the rest of the &aGregtech tools&r you'll need for crafting and configuring."
+				""
+				"The &aScrewdriver&r and &aCrowbar&r help with configuring covers and sides of machines."
+				""
+				"&aWire Cutters&r configure cables.  &aSoft Hammers&r disable and enable running machines."
+			]
+			id: "43344C33B55461DB"
+			rewards: [{
+				count: 24
+				id: "31CE4CA79F2D5F37"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Rounding Out the Toolbox"
+			tasks: [
+				{
+					id: "0CA3E1D7D60B06EB"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 5
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23B3D9B3ABA52BCF"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B7D06CF6ED3394"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350FD02E7AADCE72"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43AD500D849A89BB"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 5
+								HarvestLevel: 2
+								MaxDamage: 383
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F05C24215BA9C03"
+					item: {
+						Count: 1b
+						id: "gtceu:wood_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Other Tools"
 			x: 4.0d
-			y: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"39A83FB885BCDBC2"
+				"583F3A986CA3A78A"
+			]
+			description: [
+				"If you need &emore dirt&r, you can craft &9Dirt&r and &9Gravel&r together to make &9Coarse Dirt&r."
+				""
+				"Coarse Dirt sieves favorably to more &9Dirt&r than you put in, at a slight loss of &9Gravel&r."
+				""
+				"If you want &ecertified organic&r, then your best bet for compostables right now is &eshearing leaves&r."
+			]
+			id: "767C6E7545D419F2"
+			subtitle: "More Dirt"
+			tasks: [{
+				id: "00664BB79EE9D3C9"
+				item: "minecraft:coarse_dirt"
+				type: "item"
+			}]
+			title: "Dirt Without Mulch"
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Ex Nihilo Ad Omnia"]

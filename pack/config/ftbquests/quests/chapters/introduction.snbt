@@ -16,6 +16,7 @@
 				""
 				"If you aren't sure what that is, not to worry!  The quest book is meant to be a guide good enough for Skyblock and Gregtech novices."
 			]
+			disable_toast: true
 			icon: "minecraft:oak_hanging_sign"
 			id: "3FEDF98EF8530DD0"
 			shape: "rsquare"
@@ -37,6 +38,7 @@
 				""
 				"Finally, the authors of the &6Gregtech Community Unofficial Pack Modern&r and &6Star Technologies&r, which were great examples on how to make a quest book and a modern skyblock, respectively."
 			]
+			disable_toast: true
 			icon: "gtceu:chocolate_coin"
 			id: "2230CD4C225C6362"
 			shape: "heart"
@@ -88,6 +90,7 @@
 				""
 				"&cHexagonal&r quests are lore and are there for a little &ospice&r."
 			]
+			disable_toast: true
 			icon: "ftbquests:book"
 			id: "5B3EAAFEB4649412"
 			shape: "circle"

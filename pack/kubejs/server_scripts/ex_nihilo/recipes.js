@@ -18,4 +18,51 @@ ServerEvents.recipes(event => {
         }
     );
     event.remove({output: "#ex"})
+
+    event.custom({
+      "type": "gtceu:forge_hammer",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "gtceu:sized",
+              "fabric:type": "gtceu:sized",
+              "count": 1,
+              "ingredient": {
+                "tag": "minecraft:sand"
+              }
+            },
+            "chance": 1.0,
+            "tierChanceBoost": 0.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "gtceu:sized",
+              "fabric:type": "gtceu:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "exnihilosequentia:dust"
+              }
+            },
+            "chance": 1.0,
+            "tierChanceBoost": 0.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "eu": [
+          {
+            "content": 16,
+            "chance": 1.0,
+            "tierChanceBoost": 0.0
+          }
+        ]
+      },
+      "tickOutputs": {}
+    })
 });

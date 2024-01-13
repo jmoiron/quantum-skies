@@ -8,6 +8,11 @@
 	order_index: 0
 	quest_links: [
 		{
+			icon: {
+				Count: 1b
+				id: "entangled:item"
+				tag: { }
+			}
 			id: "6CC8020BAE0931BC"
 			linked_quest: "620AAE9DF52E2391"
 			x: 0.0d

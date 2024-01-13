@@ -14,7 +14,9 @@
 			description: [
 				"Although &6Iron&r and &6Wrought Iron&r make good tools, &6Bronze&r seems to have special thermal properties that make it suitable for high temperature applications."
 				""
-				"Using some &9Charcoal&r and suspiciously abundant water, you could build some simple steam boilers.  With that, you can start to mechanize.  Surely specialized machinery could produce these plates and crush this stone more efficiently than you can with your worn tools."
+				"Using some &9Charcoal&r and suspiciously abundant water, you could build some simple steam boilers.  "
+				""
+				"With that, you can start to mechanize.  Surely steam powered machinery could produce these plates and crush this stone more efficiently than you can with your worn tools."
 			]
 			icon: "gtceu:bronze_firebox_casing"
 			id: "21913378FC451B5B"
@@ -86,7 +88,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2A49DB74D9276F0A"]
+			dependencies: ["7015689EEBC11F93"]
 			description: [
 				"The &dForge Hammer&r machine does what your hammer can do, but without losing durability."
 				""
@@ -102,7 +104,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2A49DB74D9276F0A"]
@@ -159,11 +161,19 @@
 			dependencies: ["7015689EEBC11F93"]
 			id: "133D5E0B6C137D0E"
 			size: 1.25d
-			tasks: [{
-				id: "7DA2ECBCFC93C1C0"
-				item: "gtceu:primitive_blast_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DA2ECBCFC93C1C0"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2CCBA7303D8A2BAA"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
@@ -172,7 +182,7 @@
 			description: [
 				"Now that we have the &9Compressor&r, we can compress flint into a flint block and craft the &9Flint Mesh&r."
 				""
-				"This mesh opens up some new materials to us, including &6Gold&r, &6Silver&r, &6Lead&r, and &6Nickel&r.  You will want a new bank of &9Sieves&r for these meshes, as you will still be needing plenty of the materials you can get out of &9String Meshes&r."
+				"This mesh opens up some new materials to us, including &6Gold&r, &6Silver&r, &6Lead&r, and &6Nickel&r.  You will want a new bank of &9Sieves&r for these meshes, as you will still be needing plenty of the materials you get from &9Flint Meshes&r."
 			]
 			id: "3AEF5A87CDA225B6"
 			subtitle: "What a Mesh"
@@ -329,10 +339,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"518C743F49E7BA04"
-				"2A49DB74D9276F0A"
-			]
+			dependencies: ["518C743F49E7BA04"]
 			description: [
 				"The first infinite water source is the &dPrimitive Pump&r multiblock."
 				""
@@ -391,7 +398,11 @@
 				""
 				"&3Sneak-Right-Click&r with the Binder on a block, then &3Right-Click&r on an Entangled Block, and the Entangled block will behave like the bound block.  You can use this on your pump hatch, or make a &9Bronze Drum&r for some buffer and bind to that."
 			]
-			icon: "minecraft:ender_chest"
+			icon: {
+				Count: 1b
+				id: "entangled:item"
+				tag: { }
+			}
 			id: "620AAE9DF52E2391"
 			subtitle: "Spooky Action At A Distance"
 			tasks: [
@@ -679,7 +690,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "7F92B79A5BDB1CF3"
@@ -756,9 +767,9 @@
 		}
 		{
 			description: [
-				"&6Red Alloy&r has a long history dating back to the Tekkit/RedPower days."
+				"&6Red Alloy&r has a long history, dating back to the Tekkit/RedPower days."
 				""
-				"It is crude, but it will do on the primitive substrate of your &bfirst circuit&r."
+				"It is crude, but it will do to carry signals on the primitive substrate of your &bfirst circuit&r."
 			]
 			id: "247B6BC1C8F5A491"
 			tasks: [{

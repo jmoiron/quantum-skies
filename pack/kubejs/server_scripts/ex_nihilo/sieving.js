@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
                 ["exnihilosequentia:andesite_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:basalt_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:diorite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
             ],
             "minecraft:oak_leaves": [
                 ["minecraft:oak_sapling", 0.07],
@@ -96,11 +97,6 @@ ServerEvents.recipes(event => {
             "exnihilosequentia:crushed_end_stone": [
                 ["minecraft:ender_pearl", [0.5, 0.5, 0.25, 0.25]]
             ],
-            "exnihilosequentia:crushed_blackstone": [
-                ["gtceu:silver_crushed_ore", 0.25],
-                ["gtceu:galena_crushed_ore", 0.25],
-                ["gtceu:lead_crushed_ore", 0.10],
-            ],
             "minecraft:soul_sand": [
                 ["minecraft:quartz", [1.0, 0.33]]
             ]
@@ -125,10 +121,10 @@ ServerEvents.recipes(event => {
                 ["exnihilosequentia:deepslate_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:andesite_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:basalt_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:diorite_pebble", [0.5, 0.1]]
+                ["exnihilosequentia:diorite_pebble", [0.5, 0.1]],
+                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
             ],
             "minecraft:coarse_dirt": [
-                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:calcite_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:tuff_pebble", [0.5, 0.1]]
@@ -138,7 +134,12 @@ ServerEvents.recipes(event => {
                 ["gtceu:sphalerite_crushed_ore", 0.25],
                 ["gtceu:beryllium_crushed_ore", 0.10],
                 ["gtceu:stibnite_crushed_ore", 0.10]
-            ]
+            ],
+            "exnihilosequentia:crushed_blackstone": [
+                ["gtceu:silver_crushed_ore", 0.35],
+                ["gtceu:galena_crushed_ore", 0.35],
+                ["gtceu:lead_crushed_ore", 0.20],
+            ],
         },
         "iron": {},
         "diamond": {},
@@ -179,6 +180,7 @@ ServerEvents.recipes(event => {
             })
         })
     })
+    
 
     /*
     function hammer(input, result) {
@@ -199,20 +201,6 @@ ServerEvents.recipes(event => {
     */
 
     /*
-    sieve('string', 0.05, dirt, 'minecraft:cactus', false);
-    sieve('string', 0.05, dirt, 'minecraft:sunflower', false);
-    sieve('string', 0.05, dirt, 'minecraft:sugar_cane', false);
-    sieve('string', 0.03, dirt, 'minecraft:cocoa_beans', false);
-    sieve('string', 0.3, dirt, 'thermal:slime_mushroom_spores', false);
-    sieve('string', 0.05, sand, 'exnihilosequentia:brain_coral_larva', true);
-    sieve('string', 0.05, sand, 'exnihilosequentia:tube_coral_larva', true);
-    sieve('string', 0.05, sand, 'exnihilosequentia:bubble_coral_larva', true);
-    sieve('string', 0.05, sand, 'exnihilosequentia:horn_coral_larva', true);
-    sieve('string', 0.05, sand, 'exnihilosequentia:fire_coral_larva', true);
-    sieve('string', 0.05, sand, 'minecraft:sea_pickle', true);
-    sieve('string', 0.05, sand, 'kelp', true);
-    sieve('string', 0.05, sand, 'minecraft:seagrass', true);
-
     // gravel and blackstone
     sieve('string', 0.45, gravel, 'gtceu:iron_crushed_ore', false);
     sieve('string', 0.25, gravel, 'gtceu:magnetite_crushed_ore', false);

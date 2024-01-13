@@ -1,12 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "sieving"
+	filename: "materials"
 	group: "1C1C4FB2AFCF489D"
-	icon: "exnihilosequentia:flint_mesh"
-	id: "21A83DC6B84B8A75"
-	order_index: 4
+	icon: "gtceu:ulv_machine_hull"
+	id: "12E6A054EA81E68F"
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
-	title: "Sieving"
+	title: "Material Tiers"
 }
