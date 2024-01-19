@@ -112,6 +112,8 @@
 				"The &dRock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
 				""
 				"To use, place a source block of &9Lava&r and a source block of &9Water&r on two of its faces, then feed it steam!"
+				""
+				"You will need a variety of stone variants to progress, as &bsome ores are restricted&r to certain crushed stones."
 			]
 			id: "6CF2DB9AD2AC1A0A"
 			subtitle: "Cobblegen 2.0"

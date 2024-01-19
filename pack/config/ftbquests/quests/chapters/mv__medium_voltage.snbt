@@ -3,9 +3,8 @@
 	default_quest_shape: "rsquare"
 	filename: "mv__medium_voltage"
 	group: "693226878D58638A"
-	icon: "gtceu:mv_machine_hull"
 	id: "43E779CEEB25D55B"
-	order_index: 3
+	order_index: 9
 	quest_links: [{
 		id: "6FCAD016C795DE93"
 		linked_quest: "7567E885B7166603"
@@ -778,45 +777,8 @@
 		}
 		{
 			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
-			description: [
-				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
-				""
-				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
-				""
-				"The &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
-				""
-				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
-				"{@pagebreak}"
-				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
-				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in JEI, even if they can draw enough EU/t with a lower tier hatch configuration."
-				""
-				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground."
-			]
-			icon: "minecraft:oak_sapling"
-			id: "2655B72C9FF3B372"
-			shape: "square"
-			size: 0.75d
-			subtitle: "The power of KubeJS"
-			tasks: [{
-				id: "35CFA225ADAD5D06"
-				item: "gtceu:greenhouse"
-				type: "item"
-			}]
-			title: "Greenhouse"
-			x: 0.0d
-			y: 2.625d
-		}
-		{
-			dependencies: [
 				"1646BF9194100E57"
 				"2AD44111B9B39C90"
-				"66805BB78A828C00"
 			]
 			description: [
 				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
@@ -2173,5 +2135,5 @@
 		}
 	]
 	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]
-	title: "[&bMV&r] Medium Voltage"
+	title: "old mv"
 }

@@ -21,17 +21,17 @@ ServerEvents.recipes(event => {
     woodTypes.forEach((type) => {
         event.recipes.gtceu.bonsai(`${type}_log`)
             .notConsumable(`minecraft:${type}_sapling`)
-            .inputFluids("minecraft:water 100")
+            .inputFluids("minecraft:water 250")
             .itemOutputs(`16x minecraft:${type}_log`)
-            .EUt(2)
+            .EUt(10)
             .duration(400);
     })
 
     event.recipes.gtceu.bonsai("rubber_log")
         .notConsumable("gtceu:rubber_sapling")
-        .inputFluids("minecraft:water 100")
+        .inputFluids("minecraft:water 250")
         .itemOutputs("16x gtceu:rubber_log")
-        .EUt(2)
+        .EUt(10)
         .duration(400);
 
 })

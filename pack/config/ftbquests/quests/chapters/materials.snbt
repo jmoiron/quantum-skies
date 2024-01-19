@@ -1,12 +1,404 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "materials"
 	group: "1C1C4FB2AFCF489D"
 	icon: "gtceu:ulv_machine_hull"
 	id: "12E6A054EA81E68F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5E18EFE09364CD3A"
+			tasks: [{
+				id: "0427FF00FA9A0A7D"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			id: "483577F5CECB60EB"
+			tasks: [{
+				id: "777022E44663C822"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			id: "673029EAA0B104ED"
+			tasks: [{
+				id: "28B148643B104402"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			id: "2DAA0299777208A1"
+			tasks: [{
+				id: "294D906AA5BF96EF"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			id: "047F30B06AB68A35"
+			tasks: [{
+				id: "0FC51F7E1CAC518B"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "782D9CD196714A34"
+			tasks: [{
+				id: "4E0DDC45BB958F6A"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "1FFC25CB85B92ED4"
+			tasks: [{
+				id: "0B72416FE9323607"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "26B017225CE841F3"
+			tasks: [{
+				id: "76104E406CBEBE8E"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "7E59E4790C70C9B0"
+			tasks: [{
+				id: "682B53167664BCB5"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			id: "516F589177ACCE1F"
+			tasks: [{
+				id: "78BD1398FF852068"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "324D014C85A9C5D9"
+			tasks: [{
+				id: "3E30A94A2B1BB739"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "35781027DE8E354D"
+			tasks: [{
+				id: "6A06D6E8DD69FAC0"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "5D2F19B9ED3AFC0A"
+			tasks: [{
+				id: "3F46385F6153057A"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "2D8678023BB3E7A7"
+			tasks: [{
+				id: "04AB5131D4C34161"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "6FEC938D7D4D3C2D"
+			tasks: [{
+				id: "6B6A7A4A9E98E0AD"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E18EFE09364CD3A"]
+			id: "6E6E4844E4059AEE"
+			tasks: [{
+				id: "428697181E38C39F"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["483577F5CECB60EB"]
+			id: "611ACC706E7A86D6"
+			tasks: [{
+				id: "379D314B0ECC8DB7"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["673029EAA0B104ED"]
+			id: "0F3F9E37FFD54B0B"
+			tasks: [{
+				id: "148239DCD1EEB914"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DAA0299777208A1"]
+			id: "352B46960FF5093B"
+			tasks: [{
+				id: "1DF77F0817BF2C01"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["047F30B06AB68A35"]
+			id: "5B20865683BB4D9A"
+			tasks: [{
+				id: "449319D65FA250FA"
+				item: "gtceu:ev_machine_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["782D9CD196714A34"]
+			id: "58BBF65C3C555A67"
+			tasks: [{
+				id: "6109AF892291E15C"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1FFC25CB85B92ED4"]
+			id: "7AA39E9CF6ED1B2F"
+			tasks: [{
+				id: "765EF4C996C1A54D"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26B017225CE841F3"]
+			id: "0487BD4AFAB3BB7C"
+			tasks: [{
+				id: "4BC6D05D2CFB7C83"
+				item: "gtceu:zpm_machine_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7E59E4790C70C9B0"]
+			id: "30ED41EF982F9843"
+			tasks: [{
+				id: "64BDA9966B30C1E2"
+				item: "gtceu:uv_machine_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			id: "004A3F5CB843FF0D"
+			tasks: [{
+				id: "0818C73055D1CA75"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "1140F1FFC337AB4F"
+			tasks: [{
+				id: "325BFE59F8DA05E2"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["516F589177ACCE1F"]
+			id: "30E16D695B7B9FA0"
+			tasks: [{
+				id: "7E4A5D90A141C8E3"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"324D014C85A9C5D9"
+				"30E16D695B7B9FA0"
+			]
+			id: "11210C757C3814D7"
+			tasks: [{
+				id: "5CB906CDDC68203F"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"11210C757C3814D7"
+				"35781027DE8E354D"
+			]
+			id: "43C91DC36125596D"
+			tasks: [{
+				id: "002FE60C9DE45DF2"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"43C91DC36125596D"
+				"5D2F19B9ED3AFC0A"
+			]
+			id: "4C5778808E7CEDFB"
+			tasks: [{
+				id: "2D988EDF1B9CC116"
+				item: "gtceu:tungstensteel_coil_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2D8678023BB3E7A7"
+				"4C5778808E7CEDFB"
+			]
+			id: "43EA4346274BD268"
+			tasks: [{
+				id: "2DED6923DB4AF029"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6FEC938D7D4D3C2D"
+				"43EA4346274BD268"
+			]
+			id: "1190CC62E02B9FF6"
+			tasks: [{
+				id: "2A2EB397302C5CF3"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"004A3F5CB843FF0D"
+				"1190CC62E02B9FF6"
+			]
+			id: "47834925781BD13B"
+			tasks: [{
+				id: "25864B4376F028F0"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"47834925781BD13B"
+				"1140F1FFC337AB4F"
+			]
+			id: "35D95D1841C5B45F"
+			tasks: [{
+				id: "140BE42162C6DB20"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:dark_oak_hanging_sign"
+			id: "6A0B0324501F0ECC"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "5C4B9EB0DE174E56"
+				title: "Material Tiers"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+	]
 	title: "Material Tiers"
 }

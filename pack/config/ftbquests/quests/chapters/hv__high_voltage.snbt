@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"
-	order_index: 4
+	order_index: 3
 	quest_links: [
 		{
 			id: "2583D0B64E51FAC8"
@@ -526,7 +526,6 @@
 			dependencies: [
 				"1C55AE6AD5BDE304"
 				"6958029B5514D4EC"
-				"1CBA5477CB7C45E7"
 			]
 			description: [
 				"&3Nichrome Heating Coils&r increase the temperature of your &3Blast Furnace&r to &d3,600K&r."

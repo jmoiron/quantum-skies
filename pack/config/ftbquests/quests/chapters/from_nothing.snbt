@@ -22,7 +22,7 @@
 			subtitle: "These trees seem oddly punchable"
 			tasks: [
 				{
-					count: 16L
+					count: 4L
 					id: "69E9E156D942455D"
 					item: {
 						Count: 1b
@@ -170,7 +170,7 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 4L
 					id: "49CE609E7C4AF894"
 					item: "exnihilosequentia:stone_pebble"
 					type: "item"
@@ -374,7 +374,7 @@
 			description: [
 				"Anachronistically, we will work &6Iron&r before we get to &6Bronze&r."
 				""
-				"Usually, Gregtech forces you to smelt &6Iron Nuggets&r for &6Wrought Iron&r, but the gods of this world are generous, and there is a &oblasting&r recipe for the vanilla &9Blast Furnace&r."
+				"Usually, Gregtech forces you to smelt &6Iron Nuggets&r for &6Wrought Iron&r, but the gods of this world are generous, and there is a &eblasting&r recipe for the vanilla &9Blast Furnace&r."
 				""
 				"&6Wrought Iron&r is the [&8ULV&r] Ultra Low Voltage tier material, but there is no power system for that tier.  Its primary use is for &oGregtech Tools&r, as tools made from it have 50% more durability than &6Iron&r ones."
 			]
@@ -553,20 +553,33 @@
 		{
 			dependencies: ["2536E4A084745D5A"]
 			description: [
-				"Another gift from the benevolent gods. In a normal world, you could go mine for &6Coal&r, but it doesn't seem obtainable here quite yet."
+				"The &6Charcoal&r furnace recipe has been moved into the &evanilla&r &9Blast Furnace&r."
 				""
-				"In Gregtech, &6Charcoal&r requires a &6Coke Oven&r to produce, but the normal smelting recipe has been retained."
+				"Usually, you'd need to get a &9Coke Oven&r to produce it, but in a normal world, you'd also be able to mine for &9Coal&r.  You won't be able to get &9Coal&r until you harness steam."
 				""
 				"Not to worry, we will need that &6Coke Oven&r soon enough for &6Creosote Oil&r."
 			]
 			id: "12289047D9E54B1E"
-			subtitle: "Activated"
-			tasks: [{
-				count: 16L
-				id: "5AF648DF08E8AAC1"
-				item: "minecraft:charcoal"
+			rewards: [{
+				count: 5
+				id: "63619809B3756ABD"
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			subtitle: "Activated"
+			tasks: [
+				{
+					id: "5AF648DF08E8AAC1"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "393307DD46C6B27A"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+			]
+			title: "Charcoal"
 			x: 1.0d
 			y: -4.5d
 		}
@@ -575,18 +588,26 @@
 			description: [
 				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first Gregtech multiblock machine!  "
 				""
-				"To build, make a hollow 3x3x3 cube with the &9Coke Oven&r controller block in the middle of one of the faces."
+				"It is a hollow 3x3x3 cube, but you can hover your cursor over the &9Coke Oven&r controller in your inventory and press &3u&r, then select the &eMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable with this UI for future multiblocks."
 				""
-				"You can also press &3u&r while hovering over the &9Coke Oven&r item and click the &lMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable doing this to build the many future multiblock machines you will need."
+				"Cells are &estackable buckets&r, and a bit more besides.  These should ease the tedium of crafting &9Treated Planks&r and &9Paper&r slightly."
 			]
 			icon: "gtceu:coke_oven"
 			id: "518C743F49E7BA04"
-			rewards: [{
-				count: 32
-				id: "0E52A364794F849A"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "0E52A364794F849A"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4775585A34C69697"
+					item: "gtceu:fluid_cell"
+					type: "item"
+				}
+			]
 			size: 1.25d
 			subtitle: "What is this, Railcraft?"
 			tasks: [

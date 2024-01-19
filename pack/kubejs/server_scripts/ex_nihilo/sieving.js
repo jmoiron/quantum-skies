@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         "exnihilosequentia:grass_seeds",
     ]);
     
-    // remove the default recipes in favor of the loot tables in ex_nihilo/sieving.js
+    // remove the default recipes in favor of the loot tables
     event.remove({type: "exnihilosequentia:sifting"});
 
     // mesh -> { inputBlock -> [output, chance] }
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
             ],
             "gtceu:rubber_leaves": [
                 ["gtceu:rubber_sapling", 0.1],
-                ["minecraft:slime_ball", 0.025]
+                ["minecraft:slime_ball", 0.1]
             ],
             "minecraft:grass_block": [
                 ["minecraft:melon_seeds", 0.35],
@@ -66,14 +66,12 @@ ServerEvents.recipes(event => {
                 ["minecraft:dirt", [1.0, 0.4]],
                 ["minecraft:gravel", 0.4]
             ],
-            "#forge:gravel": [
-                /* iron group */
+            "#forge:gravel": [ 
+                // iron + copper + tin for steam age
                 ["gtceu:iron_crushed_ore", 0.35],
                 ["gtceu:magnetite_crushed_ore", 0.15],
-                /* copper group */
                 ["gtceu:copper_crushed_ore", 0.15],
                 ["gtceu:malachite_crushed_ore", 0.15],
-                /* tin group */
                 ["gtceu:tin_crushed_ore", 0.15],
                 ["gtceu:cassiterite_crushed_ore", 0.15]
             ],
@@ -88,9 +86,14 @@ ServerEvents.recipes(event => {
                 ["minecraft:glowstone_dust", [0.3, 0.20]],
                 ["minecraft:bone_meal", 0.1]
             ],
+            "exnihilosequentia:crushed_andesite": [
+                ["gtceu:magnetite_crushed_ore", 0.25],
+                ["gtceu:vanadium_magnetite_crushed_ore", 0.20],
+                ["gtceu:gold_crushed_ore", 0.15],
+            ],
             "exnihilosequentia:crushed_netherrack": [
                 ["gtceu:gold_crushed_ore", [0.35, 0.2]],
-                ["gtceu:sulfur_dust", [0.5, 0.25]],
+                ["gtceu:sulfur_dust", [1, 0.5, 0.5, 0.25, 0.25]],
                 ["gtceu:tetrahedrite_crushed_ore", 0.25],
                 ["gtceu:stibnite_crushed_ore", 0.15]
             ],
@@ -116,6 +119,12 @@ ServerEvents.recipes(event => {
                 ["gtceu:talc_crushed_ore", 0.20],
                 ["minecraft:diamond", 0.05]
             ],
+            "minecraft:soul_sand": [
+                ["gtceu:oilsands_crushed_ore", [0.25, 0.1]],
+            ],
+            // TODO: flint unlocks at steam compressor, by which point
+            // the steam rockbreaker is available..  do we kill these?
+            /*
             "minecraft:dirt": [
                 ["exnihilosequentia:granite_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:deepslate_pebble", [0.5, 0.1]],
@@ -129,17 +138,35 @@ ServerEvents.recipes(event => {
                 ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
                 ["exnihilosequentia:tuff_pebble", [0.5, 0.1]]
             ],
+            */
             "exnihilosequentia:crushed_netherrack": [
                 ["gtceu:pyrite_crushed_ore", 0.30],
                 ["gtceu:sphalerite_crushed_ore", 0.25],
                 ["gtceu:beryllium_crushed_ore", 0.10],
-                ["gtceu:stibnite_crushed_ore", 0.10]
+                ["gtceu:stibnite_crushed_ore", 0.25]
             ],
             "exnihilosequentia:crushed_blackstone": [
                 ["gtceu:silver_crushed_ore", 0.35],
                 ["gtceu:galena_crushed_ore", 0.35],
                 ["gtceu:lead_crushed_ore", 0.20],
             ],
+            "exnihilosequentia:crushed_andesite": [
+                ["gtceu:realgar_crushed_ore", 0.25],
+                ["gtceu:zeolite_crushed_ore", 0.25],
+                ["gtceu:cassiterite_crushed_ore", 0.20],
+                ["gtceu:chalcopyrite_crushed_ore", 0.20],
+            ],
+            "exnihilosequentia:crushed_diorite": [
+                ["gtceu:almandine_crushed_ore", 0.25],
+                ["gtceu:pyrope_crushed_ore", 0.20],
+                ["gtceu:sapphire_crushed_ore", 0.20],
+                ["gtceu:green_sapphire_crushed_ore", 0.20],
+            ],
+            "exnihilosequentia:crushed_deepslate": [
+                ["gtceu:coal_crushed_ore", 0.30],
+                ["gtceu:graphite_crushed_ore", 0.25],
+                ["gtceu:diamond_crushed_ore", 0.15],
+            ]
         },
         "iron": {},
         "diamond": {},
@@ -167,10 +194,10 @@ ServerEvents.recipes(event => {
         }));
     }
 
-    Object.entries(sieveRecipes).forEach([meshType, v] => {
-        Object.entries(v).forEach([input, outputs] => {
+    Object.entries(sieveRecipes).forEach(([meshType, v]) => {
+        Object.entries(v).forEach(([input, outputs]) => {
             outputs.forEach((output) => {
-                // console.log(input + " => " + output);
+                console.log(input + " => " + output);
                 event.custom({
                     "type": "exnihilosequentia:sifting",
                     "input": input,

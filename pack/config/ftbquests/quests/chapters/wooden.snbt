@@ -33,7 +33,7 @@
 				""
 				"&9Crafting Stations&r are able to pull items from adjacent inventories, and hold crafting items even if you look away from them."
 				""
-				"A &9Crafting Station&r next to a double chest is probably enough to get you to &6Bronze&r."
+				"A &9Crafting Station&r next to a &9Colossal Chest&r is a great early crafting system that works with &eGregtech tool durability&r."
 			]
 			icon: "craftingstation:crafting_station"
 			id: "7C14659AEF35480A"
@@ -75,7 +75,7 @@
 					type: "item"
 				}
 				{
-					count: 25L
+					count: 7L
 					id: "6F088FED2C36ABF5"
 					item: "colossalchests:chest_wall_wood"
 					type: "item"

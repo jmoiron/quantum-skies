@@ -1,0 +1,937 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "bmvr_medium_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:mv_machine_hull"
+	id: "088DFF102425A2D5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3320E243E14A626A"]
+			id: "0EF63A0F090B2B21"
+			tasks: [{
+				id: "23D4E252E9909638"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"These &6Aluminium&r hulls seem to contain medium voltage mechanical components better than &6Steel&r did. The &bExtruder&r you can build with this new material can handle all sorts of industrial processes that were manual and time intensive before."
+				""
+				"Your &7LV&r &bCircuit Assembler&r makes it a lot easier to scale out circuit production, making it much easier to establish &dchemical processing lines&r. Most of these probably don't need to exploit the benefits of &6Aluminium&r just yet."
+				""
+				"Power derived from &6Coal&r and Steam has got you to this point, but it may be time to explore &dorganic chemistry&r, either derived from &dPetroleum&r or from further processing of the &6Coal&r and &6Charcoal&r already under production."
+			]
+			icon: "gtceu:aluminium_ingot"
+			id: "3320E243E14A626A"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "The Medium Voltage Age"
+			tasks: [{
+				id: "4104CC09B6F10C5F"
+				title: "Lore MV"
+				type: "checkmark"
+			}]
+			title: "The 2nd Age of Electricity"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["04FF202CCDE5A998"]
+			id: "025DB933BE24C8F9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1E4192799A6B8A61"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"207B8A217A5CB777"
+				"6DBFD1013B005FC5"
+			]
+			dependency_requirement: "one_completed"
+			id: "16935534AA79DBEE"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:light_fuel"
+				id: "2FF89DF3AD94E534"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["359E82FCC1CEC5FC"]
+			id: "1E1748C74140C63A"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:benzene"
+				id: "12FEA94CB94AA0B8"
+				type: "fluid"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3AE5A171DA834F6C"]
+			id: "6E4B65DC3B9FB178"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:lpg"
+				id: "71E5283B85F767EC"
+				type: "fluid"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55A31B874037ABC1"]
+			id: "3AE5A171DA834F6C"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:refinery_gas"
+				id: "01D400CFB5EDB22E"
+				type: "fluid"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"16935534AA79DBEE"
+				"5B6C29247F5D6E21"
+			]
+			id: "6FAB1CA9E78CC48F"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:diesel"
+				id: "48E91EF02A485E80"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			id: "53BB86F738A277C0"
+			tasks: [{
+				id: "63AFC9AFFF0D1261"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			id: "477DF29754485471"
+			tasks: [{
+				id: "0FCE03B26FC81C5F"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["477DF29754485471"]
+			id: "585CF7B0C315D9D0"
+			tasks: [{
+				id: "3A82F2366394940F"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["585CF7B0C315D9D0"]
+			id: "6123DCAA0F02CBD0"
+			tasks: [{
+				id: "2ECB101F817B4D7D"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "26B92581C3E5115F"
+			tasks: [{
+				id: "330D2C1A438C01D1"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"26B92581C3E5115F"
+				"6123DCAA0F02CBD0"
+			]
+			id: "152EA6F3161E2B26"
+			tasks: [{
+				id: "232CFFC644B28488"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"40C281751C24CBFA"
+				"77F7117768090539"
+				"6CEC31CA4F75BCF3"
+			]
+			id: "4BDC24DF26BB7502"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:ethylene"
+				id: "5856E641E7B7DF00"
+				type: "fluid"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BDC24DF26BB7502"]
+			id: "174CEACF8A92FDC3"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:polyethylene"
+				id: "6D25B10AEA151962"
+				type: "fluid"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["568C0E08EF8815AA"]
+			id: "6CEC31CA4F75BCF3"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:sulfuric_acid"
+				id: "7CA5448691A72C40"
+				type: "fluid"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7BF4BE21BD28B97E"
+				"7ABFC37B56E8847A"
+			]
+			dependency_requirement: "one_completed"
+			id: "207B8A217A5CB777"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:oil"
+				id: "6E6606744DBAFB59"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7ABFC37B56E8847A"
+				"7BF4BE21BD28B97E"
+			]
+			dependency_requirement: "one_completed"
+			id: "6DBFD1013B005FC5"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:oil_heavy"
+				id: "2DC14970EB557961"
+				type: "fluid"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39339A08E2BEF594"]
+			id: "7ABFC37B56E8847A"
+			tasks: [
+				{
+					id: "0791F83EF8F81210"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "3E6559BF487CDF45"
+					item: "gtceu:large_cauldron"
+					type: "item"
+				}
+			]
+			title: "From Nothing"
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39339A08E2BEF594"]
+			id: "7BF4BE21BD28B97E"
+			tasks: [{
+				id: "4375F93F89476165"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
+			title: "Also From Nothing"
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39339A08E2BEF594"]
+			id: "359E82FCC1CEC5FC"
+			tasks: [{
+				id: "785E7B34A931EA7D"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BF4BE21BD28B97E"]
+			id: "55A31B874037ABC1"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:oil_light"
+				id: "1712B4E9C0A41A2A"
+				type: "fluid"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"16935534AA79DBEE"
+				"6FAB1CA9E78CC48F"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C2239665B2C46C7"
+			tasks: [{
+				id: "3119CD29EE29D818"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6E4B65DC3B9FB178"
+				"1E1748C74140C63A"
+				"3AE5A171DA834F6C"
+			]
+			dependency_requirement: "one_completed"
+			id: "7719A6AF3B84B6B4"
+			tasks: [{
+				id: "7D12D120679C6758"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39339A08E2BEF594"]
+			id: "592A0965509B948F"
+			optional: true
+			tasks: [{
+				id: "341905D1C386B694"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["592A0965509B948F"]
+			dependency_requirement: "one_started"
+			id: "2F86FEB668A016D3"
+			tasks: [{
+				id: "08B1E003ADE74180"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3320E243E14A626A"]
+			icon: "gtceu:mv_transformer_1a"
+			id: "39339A08E2BEF594"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "2F8DDA974328041E"
+				title: "MV Power"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6DBFD1013B005FC5"
+				"207B8A217A5CB777"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B6C29247F5D6E21"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:heavy_fuel"
+				id: "1D6E52C534A7C74E"
+				type: "fluid"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "40C281751C24CBFA"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:severely_steam_cracked_naphtha"
+				id: "1E4D9BB415AB6DD5"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"04A283CCD426FB53"
+				"568C0E08EF8815AA"
+			]
+			id: "77F7117768090539"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:ethanol"
+				id: "3D395811BFD4EBD1"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "04A283CCD426FB53"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:biomass"
+				id: "1D0681A811B11410"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			id: "4E25CA8F5E23C247"
+			tasks: [{
+				id: "4F30B0B61D27FB12"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			id: "65E342F2BA8F6BED"
+			tasks: [{
+				id: "72D6882677D33455"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65E342F2BA8F6BED"]
+			description: [
+				"&6Clay&r is a good source of several important elements: &6Aluminium&r, &6Sodium&r, &6Lithium&r and &6Silicon&r.  Now that you have an &bAdvanced Electrolyzer&r, you can extract those materials from &9Clay Dust&r."
+				""
+				"You already need plenty of &6Aluminium&r for your &6MV&r machines, but &6Silicon&r required in bulk for &dcircuit wafers&r and &6Lithium&r is your best bet for battery chemistry until &5EV&r."
+			]
+			icon: "minecraft:clay_ball"
+			id: "7D4968D248C63872"
+			rewards: [{
+				count: 32
+				id: "10528C9ABBF42276"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			subtitle: "Maybe?"
+			tasks: [
+				{
+					count: 64L
+					id: "78D84F2FDA317029"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0C1F7D80C6819E1E"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "38FDEBC4A92CD992"
+					item: "gtceu:lithium_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1B3C7AB4C50A08D7"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+			]
+			title: "Perfectly Balanced"
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"5BE63899FFF5D09D"
+				"04FF202CCDE5A998"
+			]
+			id: "131C228C88F2DDBF"
+			tasks: [{
+				count: 16L
+				id: "00A97773E878B8D1"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4E25CA8F5E23C247"
+				"575C02BE8ACAF483"
+			]
+			id: "04FF202CCDE5A998"
+			tasks: [{
+				id: "7FFE360F82349A0D"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			id: "568C0E08EF8815AA"
+			tasks: [{
+				id: "26A8B138C83EDB10"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			hide_dependency_lines: true
+			id: "5BE63899FFF5D09D"
+			tasks: [{
+				id: "1BAA6D636137227C"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0EF63A0F090B2B21"]
+			hide_dependency_lines: true
+			id: "242BA23234A28A29"
+			tasks: [{
+				id: "4C34937E18888148"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"242BA23234A28A29"
+				"152EA6F3161E2B26"
+			]
+			id: "575C02BE8ACAF483"
+			tasks: [
+				{
+					id: "2434EF4408902CC1"
+					item: "gtceu:sapphire_lens"
+					type: "item"
+				}
+				{
+					id: "6D4BBC8985762353"
+					item: "gtceu:ulpic_wafer"
+					type: "item"
+				}
+				{
+					id: "297238D8C9C8C59B"
+					item: "gtceu:ulpic_chip"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"242BA23234A28A29"
+				"152EA6F3161E2B26"
+			]
+			id: "70A7D1359A978DFF"
+			tasks: [
+				{
+					id: "6A1D5D6219B97719"
+					item: "gtceu:emerald_lens"
+					type: "item"
+				}
+				{
+					id: "516D683FA2284A07"
+					item: "gtceu:ram_wafer"
+					type: "item"
+				}
+				{
+					id: "3B4132608A5196FD"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"242BA23234A28A29"
+				"152EA6F3161E2B26"
+			]
+			id: "6AD7A1A383E2B102"
+			tasks: [
+				{
+					id: "37DCDC92A502CD8C"
+					item: "gtceu:ruby_lens"
+					type: "item"
+				}
+				{
+					id: "757D652089CEDC6A"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+				{
+					id: "39E3FFC1B30BC623"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"174CEACF8A92FDC3"
+				"6448A28D81FCFBCF"
+			]
+			id: "78ECC25FA3649463"
+			tasks: [
+				{
+					id: "1B2F4C6582865771"
+					item: "gtceu:plastic_circuit_board"
+					type: "item"
+				}
+				{
+					id: "35E3B0C7B9F5C9C6"
+					item: "gtceu:plastic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "6448A28D81FCFBCF"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:iron_iii_chloride"
+					id: "742E233B0B7B88D3"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:sodium_persulfate"
+					id: "429DD177580D30C5"
+					type: "fluid"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"242BA23234A28A29"
+				"152EA6F3161E2B26"
+			]
+			id: "310C5F4765AAB929"
+			tasks: [
+				{
+					id: "3420ED1EF4E80B48"
+					item: "gtceu:diamond_lens"
+					type: "item"
+				}
+				{
+					id: "6448F4A9F71D25A0"
+					item: "gtceu:cpu_wafer"
+					type: "item"
+				}
+				{
+					id: "64A844FDF5C6C4A3"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AD7A1A383E2B102"
+				"70A7D1359A978DFF"
+				"7636E3994462BED8"
+			]
+			id: "37249933D652078D"
+			tasks: [
+				{
+					count: 2L
+					id: "6F46BDA33169B1B2"
+					item: "gtceu:basic_integrated_circuit"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6D4DFBF84252E578"
+					item: "gtceu:good_integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "2B0622FDCA3F86E4"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			title: "Integrated Circuits"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37249933D652078D"]
+			id: "0D09851FE262E870"
+			tasks: [{
+				id: "7EE115DFE7CA3500"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E25CA8F5E23C247"]
+			id: "7636E3994462BED8"
+			tasks: [{
+				id: "07775913E9E47535"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"78ECC25FA3649463"
+				"0D09851FE262E870"
+				"6996883D959ADED7"
+				"310C5F4765AAB929"
+			]
+			id: "1D131CBD6F52741F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "564600ED9AF432B7"
+					item: "gtceu:microchip_processor"
+					type: "item"
+				}
+				{
+					id: "06882364027DCE8C"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+				{
+					id: "1F6482B11F5E9CEF"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+			]
+			title: "Microprocessors"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174CEACF8A92FDC3"]
+			id: "6996883D959ADED7"
+			tasks: [
+				{
+					id: "10718DC413614C88"
+					item: "gtceu:capacitor"
+					type: "item"
+				}
+				{
+					id: "398E8158221C89CD"
+					item: "gtceu:inductor"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174CEACF8A92FDC3"]
+			id: "2AAF8EE73768D508"
+			tasks: [{
+				id: "6934ABA18EBA0D75"
+				item: "gtceu:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4C3FEE53F021D224"
+				"3320E243E14A626A"
+			]
+			description: [
+				"The &aEmitter&r is required to build both the &bLaser Engraver&r and &bMV Circuit Assembler&r."
+				""
+				"The &aSensor&r is only used for &bMiners&r, which don't seem particularly useful at the moment."
+			]
+			id: "0EC816CBF731A231"
+			tasks: [
+				{
+					id: "4ECFC32942577E74"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+				{
+					id: "058C8075C5E03DC5"
+					item: "gtceu:mv_sensor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3532782ACCC39715"]
+			id: "4C3FEE53F021D224"
+			tasks: [{
+				id: "0CF5521A201095C3"
+				item: "gtceu:emerald_flawless_gem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"The &bMV&r &aSensor&r and &aEmitter&r require a &9Flawless Emerald&r, which is as good a time as any to get into &dGem ore processing&r."
+				""
+				"The central machine in processing Gem Ores is the &bSifter&r. Seems to be a lot of sifting going around."
+				""
+				"An &7LV&r or &bMV&r one is sufficient for the &9Emerald&r we need."
+			]
+			id: "3532782ACCC39715"
+			tasks: [{
+				id: "60FD0631AE86F17A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_sifter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sifter"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sifting For Jewels"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3320E243E14A626A"]
+			id: "38EAB70E46A8C2C9"
+			tasks: [
+				{
+					id: "46585B742F49CD8E"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5C32CD089830A82E"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "28CF8FF8147D55C1"
+					item: "gtceu:mv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "5B483C938B2201A9"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "6A2F8F33D621E49A"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "New Mechanical Components"
+			x: 5.0d
+			y: -12.0d
+		}
+	]
+	title: "[&bMV&r] Medium Voltage"
+}

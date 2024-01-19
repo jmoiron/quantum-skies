@@ -9,27 +9,762 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1C2F4DA07C29D42F"]
+			description: [
+				"The &dPrimitive Woodcutter&r is an &7LV&r multiblock tree farm.  Given a sapling, water, and power, it will produce wood at a slow rate."
+				""
+				"Once you get to &bMV&r, you will be able to create the &dGreenhouse&r which is a strict upgrade.  It produces wood faster for less power, can overclock, and is boostable with &bfertilizer&r."
+			]
+			icon: "minecraft:oak_sapling"
 			id: "7829B13B2DEA6D42"
+			size: 1.25d
+			subtitle: "Is This A Greenhouse?"
 			tasks: [{
 				id: "60E0D0B6B60D945F"
 				item: "gtceu:primitive_woodcutter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			title: "Tree Farm"
+			x: 8.0d
+			y: -1.0d
 		}
 		{
+			description: [
+				"Some processes that were too delicate for &eSteam Power&r should now be automatable using the &ecircuits&r you've made."
+				""
+				"In order to harness their power, you are going to need to produce &belectricity&r.  It should be possible to build a simple &dSteam Turbine&r to turn our steam sources into &7low voltage&r electricity."
+				""
+				"Stepping this up with a transformer seems like it will probably require more exotic materials.  Seems like you'll need &ehigher temperature&r for that."
+				""
+				"With any luck, these machines will be faster and less wasteful with materials."
+			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "62B333F50C74A0F3"
 			shape: "hexagon"
+			size: 2.0d
+			subtitle: "The &7Low Voltage&r Age"
 			tasks: [{
 				id: "4B9D1465662D74C8"
 				title: "Low Voltage"
 				type: "checkmark"
 			}]
 			title: "Age of Electricity"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"There will be a &blot&r of power options soon, but for now, &9Steam Turbines&r are our best bet."
+				""
+				"Like steam era machines, these convert steam to power at a rate of &b2mb to 1EU&d."
+				""
+				"TODO: FAQ section on power;  amps, cables, loss, etc"
+			]
+			id: "1C2F4DA07C29D42F"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "5E12D580A81FE55E"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"All &7LV&r machines require a &9LV Machine Hull&r, and most will use &7LV&r machine parts like &emotors&r, &epistons&r, etc."
+				""
+				"The machines coming off of this quest increase the yield of important crafting components:"
+				""
+				"* The &dWiremill&r yields 2 wire/ingot"
+				""
+				"* The &dBender&r yields 1 plate/ingot"
+				""
+				"* The &dLathe&r yields 2 rods/ingot"
+				""
+				"* The &dChemical Reactor&r has a 3x yield on rubber"
+				""
+				"* The &dPolarizer&r magnetizes rods for free saving lots of &9Redstone&r"
+				""
+				"You can already automate a lot of resources, but these are still worth building first."
+			]
+			id: "3B65A8B097513381"
+			rewards: [{
+				id: "055698149F7B35F0"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			subtitle: "Start the Yield Ramp"
+			tasks: [{
+				id: "77127408A4374A5E"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "Early LV Machines"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "0987229A0CD65898"
+			tasks: [{
+				id: "175E8A8C6C1AF85C"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0987229A0CD65898"]
+			id: "1D23728F89A9C162"
+			tasks: [{
+				id: "09974386B8921936"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0987229A0CD65898"]
+			id: "7E94BB2221A3CF87"
+			tasks: [{
+				id: "11FC8502A7AC1964"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0987229A0CD65898"]
+			id: "338DC14E4887E00C"
+			tasks: [{
+				id: "528C8552D8C5305D"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D23728F89A9C162"]
+			id: "76D8D4B40CB4F201"
+			rewards: [{
+				id: "47E575BBAF1DFABF"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D326A68E6F193A1"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7E94BB2221A3CF87"
+				"4A021C94B02EFF7A"
+			]
+			id: "0E5FF28A0F8C13D6"
+			tasks: [{
+				id: "1B3E4B720E548191"
+				item: "gtceu:lv_fluid_regulator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B65A8B097513381"]
+			id: "78E9C3B250D8BC4A"
+			tasks: [{
+				id: "2D37CA97173C84C6"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["3B65A8B097513381"]
+			id: "4F19DD4E6A15ABE9"
+			tasks: [{
+				id: "5673D04B44B5F172"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B65A8B097513381"]
+			id: "318F72DBE839E3F1"
+			tasks: [{
+				id: "5F633593BBEF13B0"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B65A8B097513381"]
+			description: [
+				"The &7LV&r &dPolarizer&r can only magnetize &6Iron&r and &6Steel&r, but that will be enough for a while."
+				""
+				"Since &dPolarizers&r do not require any &ecircuits&r or &emechanical components&r to craft, it's worth getting one now.  With the number of &amotors&r you need, this will end up saving a lot of redstone."
+			]
+			id: "7911F1617EBE3F53"
+			subtitle: "Do One Thing and Do It Well"
+			tasks: [{
+				id: "3C05BEE14A168BB3"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These &9Small Battery Hulls&r will store 2 to 3 minutes of &7LV&r power, depending on what kind of chemistry we fill them with."
+				""
+				"Batteries can be used to build power tools and to transport power to places outside of your base, like a pump or a miner.  Unfortunately, there there &bdoesn't seem to be anywhere&r outside your base."
+			]
+			id: "53C7A4712CE74BFA"
+			tasks: [{
+				id: "71C0A2981F29250D"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53C7A4712CE74BFA"]
+			description: [
+				"The &dCanner&r can automatically fill vessels with fluids and items."
+				""
+				"This sees more use later, but right now their most important use is to fill empty battery hulls with &6Sodium&r, &6Cadmium&r or &6Lithium."
+			]
+			id: "031CC336213E598D"
+			tasks: [{
+				id: "0105BD8A9352D799"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"031CC336213E598D"
+				"1C2F4DA07C29D42F"
+			]
+			description: [
+				"A &dBattery Buffer&r can store energy in &bbatteries&r and output them into &bcables&b and &bmachines&r.  These &7LV&r buffers can output 1A of &7LV&r (32EU/t) per battery."
+				""
+				"Having more amps out than in allows you to run multiple machines simultaneously off of a smaller number of generators.  For a while, at least!"
+				""
+				"Any &7LV&r buffer and any battery chemistry will do for this quest.  "
+				""
+				"While &6Lithium&r is objectively the best, it's difficult to acquire before &bMV&r. &6Sodium&r is readily available from &6salt&r."
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "4935A04AEA0F26AA"
+			tasks: [
+				{
+					id: "3093B325A3BF214D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_4x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_8x"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_battery_buffer_16x"
+								}
+							]
+						}
+					}
+					title: "Battery Buffer"
+					type: "item"
+				}
+				{
+					id: "33D1A29BEF044A2E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:lv_sodium_battery"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_cadmium_battery"
+								}
+								{
+									Count: 1b
+									id: "gtceu:lv_lithium_battery"
+								}
+							]
+						}
+					}
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Buffering Power"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "50E2C70AAD733B7D"
+			tasks: [{
+				id: "20D4E130A187297A"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "1432E12120D51E99"
+			tasks: [{
+				id: "49618C7EABEA777C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:green_sapphire_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sapphire_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sapphire Dust"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"50E2C70AAD733B7D"
+				"1432E12120D51E99"
+			]
+			id: "4D96207354C83C46"
+			tasks: [{
+				id: "3B5D1B923D9A0453"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B65A8B097513381"]
+			description: [
+				"The &dChemical Reactor&r is a vital part of progression: nearly all materials after &bMV&r will require chemical processing of some kind."
+				""
+				"At &7LV&r, its most important function is to drastically increase the yield of &6Rubber&r.  9x &6rubber pulp&r and one &6sulfur dust&r will produce 9 ingots worth of &9rubber&r, but in &eliquid form&r."
+				""
+				"You can use this to craft cables by creating &9Rubber Plates&r in a &dFluid Solidifier&r, or directly from fluid with the &dAssembler&r.  "
+				""
+				"The &dSolidifier&r is cheaper at this stage, since the &dAssembler&r requires quite a bit of rubber itself to craft."
+			]
+			id: "466C6EE4E2E3D039"
+			subtitle: "Vulcanizer"
+			tasks: [{
+				id: "112196A0C0A63A43"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "3A36E2898F29340D"
+			tasks: [{
+				id: "32B7DD49E091CC55"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &dAssembler&r is one of the primary milestones of any voltage tier."
+				""
+				"The &7LV&r &dAssembler&r "
+			]
+			id: "7E8E4BD59374D8DB"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "0F80A2E107873F7B"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "1B2062222527BBAC"
+			tasks: [{
+				id: "7920C798FAB27426"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1B2062222527BBAC"
+				"3A36E2898F29340D"
+			]
+			description: [
+				"&6Gallium Arsenide&r is a key component in diodes."
+				""
+				"&9Diodes&r act as a valve for current, only allowing electricity to flow in one direction. This is important for protecting the &edelicate components&r in more advanced circuitry."
+				""
+				"&6Arsenic&r can be found in &bRealgar&r.  "
+				""
+				"Your best source of &6Gallium&r right now is in processing &bSphalerite&r."
+			]
+			id: "772F79B975654579"
+			tasks: [{
+				id: "680ABA6842CABDD2"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"772F79B975654579"
+				"7E8E4BD59374D8DB"
+			]
+			id: "79DB12604EBBF544"
+			subtitle: "Puny Single-Diode Rectifier"
+			tasks: [{
+				id: "41ABF569A28C8943"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E8E4BD59374D8DB"]
+			description: [
+				"&9Phenolic PCBs&r are a fibre-reinforced circuit board suitable for your next circuit."
+				""
+				"The cheaper recipe involves the production of &6Iron III Chloride&r or &6Sodium Persulfate&r, which are &btechnically&r &7LV&r-tier chemical chains, but have many stages and get easier when you can get &bbetter circuit yields&r and produce more &dChemical Reactors&r."
+				""
+				"For now, the &9Silver Wire&r recipe is recommended."
+			]
+			id: "097D6C3A0A6801F0"
+			tasks: [{
+				id: "21D450577487E690"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79DB12604EBBF544"
+				"097D6C3A0A6801F0"
+			]
+			id: "40587175AF3E64BC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5D8259C03705A319"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "First MV Circuit"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A021C94B02EFF7A"]
+			id: "7E378E8FADCE53D1"
+			tasks: [{
+				id: "04BA7F6843307148"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A021C94B02EFF7A"]
+			id: "1D1E0E7942066E3F"
+			tasks: [{
+				id: "62252E0A32E49FCA"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A021C94B02EFF7A"]
+			id: "28C1D0438CB141B6"
+			tasks: [{
+				id: "034EB0E7E3251300"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40587175AF3E64BC"]
+			id: "7A284CF12EA916D5"
+			tasks: [{
+				id: "5AB0E0561F5457E7"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "26EDFA674C0BC1C1"
+			tasks: [{
+				id: "5F9EDBB8643563AE"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"26EDFA674C0BC1C1"
+				"7E8E4BD59374D8DB"
+			]
+			id: "6E1D7468A66DB67F"
+			tasks: [{
+				id: "462D52BF6AEEAA47"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			id: "43668EE014EB3089"
+			tasks: [{
+				id: "631CA6627DAC91B2"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7742187BCE898BB6"
+				"4D96207354C83C46"
+			]
+			id: "4565F14B36E7CD6C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000D62627BBBB1FC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E1D7468A66DB67F"]
+			id: "7742187BCE898BB6"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "6F1129EDB0BCF239"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B2062222527BBAC"]
+			id: "05BAB2475041E34F"
+			tasks: [{
+				id: "3D73778888B541BF"
+				item: "gtceu:soldering_alloy_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			icon: "minecraft:dark_oak_hanging_sign"
+			id: "4A021C94B02EFF7A"
+			shape: "circle"
+			tasks: [{
+				id: "5792455F65F98EBE"
+				title: "Bits and Bobs"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43668EE014EB3089"]
+			id: "2D5E4C4A7A2D98B1"
+			tasks: [{
+				id: "7C8440D12705B129"
+				item: "gtceu:rotor_casting_mold"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C2F4DA07C29D42F"]
+			description: [
+				"The &dLarge Crucible&r is a multiblock that produces &6Lava&r from cobblestone."
+				""
+				"When not powered, it produces lava 10x faster than a &9Fired Crucible&r with its best heat source."
+				""
+				"When powered, it can produce lava 20x faster, and can also produce, at better yield, &6End Stone&r and &6Netherrack&r. "
+				""
+				"The &dLarge Crucible&r can only support &7LV&r energy hatches;  the &dIndustrial Crucible&r later can overclock to higher energy tiers."
+				""
+				"In order to form, the &9Cauldron&r at its center &bmust be filled with lava&r."
+			]
+			id: "1BE745C08F52CA4C"
+			size: 1.25d
+			subtitle: "The Trials of John Proctor"
+			tasks: [{
+				id: "0D7EE1322C63E286"
+				item: "gtceu:basic_crucible"
+				type: "item"
+			}]
+			title: "A Bigger Crucible"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &aPump&r, &aRegulator&r, &aConveyor&r and &aRobot Arm&r are usable as &bcovers&r."
+				""
+				"Covers allow you to control the input and output of fluids and items between Machines, Crates, Drums, and Multiblock buses and hatches."
+				""
+				"* The &aPump&r can push or pull &efluids&r from an inventory"
+				""
+				"* The &aConveyor&r can push or pull &eitems&r from an inventory"
+				""
+				"* The &aRegulator&r and &aRobot Arm&r give finer control over fluid and item transport, respectively"
+				""
+				"Check JEI for other other useful covers."
+			]
+			icon: "gtceu:advanced_item_voiding_cover"
+			id: "5EF5A636A012BFB1"
+			optional: true
+			progression_mode: "flexible"
+			shape: "circle"
+			subtitle: "Cover Me With Covers"
+			tasks: [{
+				id: "2B6DE20B845C731C"
+				title: "Covers"
+				type: "checkmark"
+			}]
+			title: "Covers"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &bArc Furnace&r is a high temperature furnace that uses &6Oxygen&r in its recipes."
+				""
+				"It is capable of &erecycling&r all sorts of pipes, cables, and machinery, so when it comes time to upgrade your processing lines, you can recouperate some of your costs."
+				""
+				"More importantly at this stage, it is capable of &eannealing copper&r and producing &9Glass&r very efficiently directly from sand."
+			]
+			id: "41350FB0F77E9D50"
+			subtitle: "With a Box Of Scraps"
+			tasks: [{
+				id: "0925EB7602047098"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41350FB0F77E9D50"]
+			id: "06E4483C49687A3B"
+			tasks: [{
+				id: "030E113DAF7179DD"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["41350FB0F77E9D50"]
+			id: "64BC2B144F520DD3"
+			rewards: [{
+				count: 32
+				id: "3B4395C35441DC5C"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5051DBC79921B240"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "Cheap Glass"
+			x: 0.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]

@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:lv_machine_hull"
 	id: "7D50771C3FE033D7"
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -886,10 +886,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"5B2696206205CB2E"
-				"70432F650591353C"
-			]
+			dependencies: ["5B2696206205CB2E"]
 			description: [
 				"Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
 				""
@@ -1908,5 +1905,5 @@
 		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
-	title: "[&7LV&r] Low Voltage"
+	title: "old lv"
 }
