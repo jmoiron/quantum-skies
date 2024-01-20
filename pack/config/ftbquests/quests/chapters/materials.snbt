@@ -399,6 +399,174 @@
 			x: -2.0d
 			y: -11.0d
 		}
+		{
+			id: "70F9EA6B2C28E8F8"
+			tasks: [{
+				id: "179ABF070FA96664"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70F9EA6B2C28E8F8"]
+			id: "4C5CD2E5B97B90CB"
+			tasks: [{
+				id: "419AF60C2750987A"
+				item: "gtceu:manganese_phosphide_double_wire"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "3D4498CF15186CF5"
+			tasks: [{
+				id: "6007E1AA625C43AF"
+				item: "gtceu:magnesium_diboride_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D4498CF15186CF5"]
+			id: "1DFE2BA15C0AD770"
+			tasks: [{
+				id: "597376AF973C7853"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "056EF3D2E4A74C2E"
+			tasks: [{
+				id: "7884D1857E7C0DEE"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["056EF3D2E4A74C2E"]
+			id: "7F6EFC648324E9A3"
+			tasks: [{
+				id: "0AA6E0F6573F69CA"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "121D746D85B978AC"
+			tasks: [{
+				id: "335AE8C33B51C1D9"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["121D746D85B978AC"]
+			id: "098BC5B549159704"
+			tasks: [{
+				id: "7379497CE1D9863C"
+				item: "gtceu:uranium_triplatinum_single_wire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "4241FB5CE8C7C01C"
+			tasks: [{
+				id: "1B893F3C771542BD"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4241FB5CE8C7C01C"]
+			id: "211D85D411A2EA79"
+			tasks: [{
+				id: "443F6B89CD9A1451"
+				item: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "58E3546712717A58"
+			tasks: [{
+				id: "0EEBCB7859C3572C"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58E3546712717A58"]
+			id: "4BDF5AD74FCE57BB"
+			tasks: [{
+				id: "772EB02D4BEC58F5"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5E6CF88304265435"
+			tasks: [{
+				id: "73E08EC93EB38178"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E6CF88304265435"]
+			id: "4F9CBD23B9127DAB"
+			tasks: [{
+				id: "2A6971FCA717DA10"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "59C4026AA0F4C06C"
+			tasks: [{
+				id: "2A77969A49BFE02F"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59C4026AA0F4C06C"]
+			id: "6264B143F69D1021"
+			tasks: [{
+				id: "02B512ADCB014C79"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
 	]
 	title: "Material Tiers"
 }

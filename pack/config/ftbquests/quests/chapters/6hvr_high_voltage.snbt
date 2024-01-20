@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6hvr_high_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:hv_machine_hull"
+	id: "74192A7C1519FB67"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "239B5AF886B64DEB"
+		tasks: [{
+			id: "1351E6534CA7E8CA"
+			title: "HV Lore"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -2.0d
+	}]
+	title: "[&6HV&r] High Voltage"
+}

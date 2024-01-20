@@ -6,19 +6,270 @@
 	icon: "ae2:singularity"
 	id: "42187E283431FC42"
 	order_index: 1
-	quest_links: [ ]
-	quests: [{
-		description: ["An AE2 system is almost a requirement to run the types of logistics you will need to complete this pack."]
-		id: "21ABAB8368EC167F"
-		size: 2.0d
-		subtitle: "The Daddy"
-		tasks: [{
-			id: "52DF65B9846516D5"
-			item: "ae2:controller"
-			type: "item"
-		}]
-		x: 1.0d
-		y: -1.0d
-	}]
+	quest_links: [
+		{
+			id: "2B9D0969E75D8EDC"
+			linked_quest: "242BA23234A28A29"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "556882DB894177F6"
+			linked_quest: "7E8E4BD59374D8DB"
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"4E29DB2C735AA76B"
+				"259EE6B2DA549B0D"
+				"55D4EFDE46787942"
+			]
+			description: ["An AE2 system is almost a requirement to run the types of logistics you will need to complete this pack."]
+			id: "21ABAB8368EC167F"
+			size: 1.0d
+			subtitle: "The Daddy"
+			tasks: [{
+				id: "52DF65B9846516D5"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "00DBE2D8FFBC55FB"
+			tasks: [{
+				id: "6C4B1861252D4215"
+				item: "gtceu:certus_quartz_dust"
+				type: "item"
+			}]
+			title: "Sky of Beginning?"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"00DBE2D8FFBC55FB"
+				"4F90F7E5E9817AA4"
+			]
+			id: "4455427485A44284"
+			tasks: [{
+				id: "53AEBD6F8AEEFA8D"
+				item: "gtceu:certus_quartz_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"00DBE2D8FFBC55FB"
+				"41427ECCF9CDFED3"
+			]
+			id: "41D4F6B077FF5B24"
+			tasks: [{
+				id: "59AB75287914B34C"
+				item: "gtceu:certus_quartz_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Turning &6Certus Dust&r into plates requires a &bCompressor&r."
+				""
+				"The &bSteam Compressor&r is needed for progression, but any compressor will do for this quest."
+			]
+			id: "4F90F7E5E9817AA4"
+			tasks: [{
+				id: "01A0B80F68E61C2D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_compressor"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_compressor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Compressor"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"An &bAutoclave&r of some kind is required to turn &6Certus Dust&r into &9Certus Quartz&r."
+				""
+				"The GTCEu version retains the classic iconography.  Most of the main recipes will use plates, but some still require crystals."
+			]
+			id: "41427ECCF9CDFED3"
+			tasks: [{
+				id: "206BDAFB9C464CD7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_autoclave"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_autoclave"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_autoclave"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_autoclave"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Autoclave"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00DBE2D8FFBC55FB"]
+			id: "63312388E17E8BC7"
+			tasks: [{
+				id: "299EA8CD2B43C4C0"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"41427ECCF9CDFED3"
+				"63312388E17E8BC7"
+			]
+			id: "259EE6B2DA549B0D"
+			tasks: [{
+				id: "00454764AF75A073"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["242BA23234A28A29"]
+			id: "3FF1C920472A2233"
+			tasks: [
+				{
+					id: "591660B947335AE9"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "5A88C490D5AB31FB"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "0962A6086B6AD869"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7B1D7C6B19612908"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Circuit Presses"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4455427485A44284"
+				"3FF1C920472A2233"
+			]
+			id: "4E29DB2C735AA76B"
+			tasks: [
+				{
+					id: "2A2E335D81F5D549"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "36069F1DA63C7C36"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "582FBF90FE3C7892"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "4DA09EEAC367EBE2"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "AE2 Circuits"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "55D4EFDE46787942"
+			tasks: [{
+				id: "35CCCBDC6E944EA0"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7E8E4BD59374D8DB"
+				"4455427485A44284"
+			]
+			id: "4FCEF52E1DBD423C"
+			tasks: [{
+				id: "1E37F4697A4BBD96"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
 	title: "Digital"
 }

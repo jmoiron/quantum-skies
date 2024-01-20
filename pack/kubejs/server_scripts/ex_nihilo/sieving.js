@@ -121,6 +121,7 @@ ServerEvents.recipes(event => {
             ],
             "minecraft:soul_sand": [
                 ["gtceu:oilsands_crushed_ore", [0.25, 0.1]],
+                ["gtceu:oilsands_ore", [0.1, 0.05]],
             ],
             // TODO: flint unlocks at steam compressor, by which point
             // the steam rockbreaker is available..  do we kill these?
@@ -166,6 +167,7 @@ ServerEvents.recipes(event => {
                 ["gtceu:coal_crushed_ore", 0.30],
                 ["gtceu:graphite_crushed_ore", 0.25],
                 ["gtceu:diamond_crushed_ore", 0.15],
+                ["ae2:sky_dust", 0.10],
             ]
         },
         "iron": {},

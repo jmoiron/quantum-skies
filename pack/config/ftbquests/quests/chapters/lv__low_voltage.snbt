@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:lv_machine_hull"
 	id: "7D50771C3FE033D7"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -106,7 +106,7 @@
 			rewards: [{
 				count: 4
 				id: "05D8932AEED073F8"
-				item: "gtceu:steel_small_gear"
+				item: "gtceu:small_steel_gear"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -799,7 +799,7 @@
 				""
 				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. That's a legitimate stat, by the way."
 			]
-			icon: "gtceu:sulfur_crushed_ore"
+			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
 			shape: "circle"
 			size: 0.66d

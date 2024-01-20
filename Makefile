@@ -33,6 +33,7 @@ pull:
 	-cp -r "${INSTALLPATH}/config/"* ./pack/config/
 	-cp -r "${INSTALLPATH}/kubejs/"* ./pack/kubejs/
 	-rm -rf pack/config/jei/world
+	-rm -rf pack/kubejs/probe
 	# do not copy client configs into the modpack; client config defaults
 	# should be set with kubejs or the defaultconfig
 	-rm -f pack/config/*-client.toml

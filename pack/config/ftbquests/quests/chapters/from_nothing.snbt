@@ -351,17 +351,17 @@
 			tasks: [
 				{
 					id: "726D6E1F43461633"
-					item: "gtceu:iron_crushed_ore"
+					item: "gtceu:crushed_iron_ore"
 					type: "item"
 				}
 				{
 					id: "0D67D35AC05C878C"
-					item: "gtceu:copper_crushed_ore"
+					item: "gtceu:crushed_copper_ore"
 					type: "item"
 				}
 				{
 					id: "3E14C8CF07B3474A"
-					item: "gtceu:tin_crushed_ore"
+					item: "gtceu:crushed_tin_ore"
 					type: "item"
 				}
 			]
@@ -728,7 +728,7 @@
 				}
 				{
 					id: "361642862F1AA9C4"
-					item: "gtceu:gold_crushed_ore"
+					item: "gtceu:crushed_gold_ore"
 					type: "item"
 				}
 				{
@@ -856,7 +856,7 @@
 		{
 			dependencies: ["1A30EE1EAD1165CA"]
 			description: [
-				"Your primary sources of &6Clay&r, &9Soul Sand&r, &9Netherrack&r, &9End Stone&r, and &6Obsidian&r all involve putting things in barrels and filling them back up."
+				"Early on, your primary sources of &6Clay&r, &9Soul Sand&r, &9Netherrack&r, &9End Stone&r, and &6Obsidian&r all involve putting things in barrels and filling them back up."
 				""
 				"Pretty tedious to do by hand!"
 				""

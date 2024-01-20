@@ -82,7 +82,7 @@ hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
-hash = "8acbd61e56e3a849c379c0634bf09ae0336e0299e5f62f72d6759bb002e7fdb3"
+hash = "63fa2f389e84b37121d0830465dc592669a357c68b267f44b8a95b2e0a0b7ab1"
 
 [[files]]
 file = "config/fastbench.cfg"
@@ -113,8 +113,12 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "6179263b0aeaf3d52a25f56e61852955ad86f5f8f6b64f41cb08ab8cf369f11e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
+hash = "753bc92f6bf290cd9016c5ad1cd316349e494779f94a4920ddedf019b01e00ff"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "69c411dac4e535b3b789043fe075c28d505a0bc71b07891d5ae28faed8150b40"
+hash = "72d4e485043dfa261c30cbdca3b9a3850c09a024a613838ea4888b64811582ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
@@ -122,7 +126,7 @@ hash = "a09afdbe1a4bb660510d6825b4c390165afd89b04305cc6f9674c5b2f8b5bc72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "7cbb20c94396c2ae2d01ff441aa40afc6b6edf56b17705b0810c376b6749815d"
+hash = "9ed2824bd68bc965ea4077e80156cc37d7fb4701f2ebc833a85cdb9fcf5645ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -134,7 +138,7 @@ hash = "086ca907cb39f1b853c714b75a39a135ffc7480374217da08515425fb58d3621"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "f63876d853a280433759998819767eb9ef5667826fdff04bf06327beebfd6730"
+hash = "0446e151318ad38c6ddfe2742b88a614fa4fa0859aa5cc0029bda6ebd7dbe5c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
@@ -146,7 +150,7 @@ hash = "e9076b860151d40a52e2762f1fc35eba7cbf17e992d62b4f986a323d565c342c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "1c1b86c455134812c00bc01e855f37867ca29c0a97712b94b525d48356a86b0a"
+hash = "4b08243de9e391522658bf575a5451ec0cb0a023e9f5609abdfa0e5dd1f14d9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
@@ -154,7 +158,7 @@ hash = "d68e027d3705fe078e1a99bc0dfcec0b5a0a243113bb4bb76348743fde52d321"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "fba31b50d62ed211ad4dd378fce84ef209a6ff841bff8aa6c7f538fb0e75b022"
+hash = "0bd93c00fb0f62cbeb61278e6e89c83e17c11defcafa6051e5e6b619f0f3e08b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -166,7 +170,7 @@ hash = "2317eeeae741394b28e2567cbb7ae79f711c8ac7d04911de73f375ba9ef3c6b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "dbabf4de23401b074955ac3842ddf638d16e5c22834338c9a08660204e03689b"
+hash = "69ad397f5998f4abcf3581c1b782dae6b07074fe0a8ce7b342160718da6b3d6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
@@ -178,7 +182,7 @@ hash = "084c3defe5d84b5603ff2639412fa8e53816e8fae865ff9c517f7ee434f7523d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "4fb2431daee8e1515c974621ca74129bf713ee102ab73010380b9ed482fcc7b8"
+hash = "5aee38afedc9ac5bbc08666d8e2f44a683d9dbb5c5970d0de2dfa233ec507504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -206,7 +210,7 @@ hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "f0b1ab482970e9ad6ab9896af904272f94d991adb899ba16112586dfeaf8d933"
+hash = "0d2754b097235f6aeaa29f1f02acd8f74d42a1b50ffbc27596c8a1d2e0467f59"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -238,7 +242,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "d00c3538ecdd3e24ca0ce4ee79e68bfe979dd5ea9c9aa9275d1dfbe3d55c88a4"
+hash = "d42dc403d93b40be65bc7cc21c5aeb17014f125edfd702e532a55ac85c233d8a"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -262,7 +266,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "967adb95d72732a574e65e6a9a4a049428e987fe9763b24cfcdb117571f13cd9"
+hash = "f2345295f6ccde8a3c13de305ba798430c6207f06ca59bd1e5cbb74491a30611"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -270,11 +274,11 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "c9ec12d6911c75e2b42082304b3eae31c7b383acf45d2ec3c44845aa1359ed8b"
+hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0dff474613edd161d459ce3a5e3ac94a2ab0f24e3c3bbaf60a0f28dbceda3841"
+hash = "51eda14b6905e7a4d8b5d8ccaaa488b51c322e17f35e55abaf7e552c5fb2befa"
 
 [[files]]
 file = "config/panorama.json"
@@ -354,7 +358,7 @@ hash = "5f0d4a7a1faef65f982e2949d6e71ceab277d51459b8118d392e2fa25a9d8084"
 
 [[files]]
 file = "config/smoothboot.json"
-hash = "01d4f83b3c788181b118d90c34d5176a21cd335dbae18b54310df19ca48e676f"
+hash = "8fb262662f6ee6d6f88256a2b628f7519f3eede1104d6e20a80523ce4a21cad1"
 
 [[files]]
 file = "config/squatgrow-common.yaml"
@@ -449,264 +453,76 @@ file = "kubejs/jsconfig.json"
 hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
-file = "kubejs/probe/cache/cachedForgeEvents.json"
-hash = "4fe5140de1f2094ec3f8859402648bcee4d60541935ba10172053ee02fb56add"
-
-[[files]]
-file = "kubejs/probe/cache/cachedJava.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
-file = "kubejs/probe/cache/javaClasses.json"
-hash = "cde14f74f95c3d414ca509d8da71fb1a6462813b46f09af8ba2d8b639ecd9338"
-
-[[files]]
-file = "kubejs/probe/cache/mergedClasses.json"
-hash = "ac0ebaa401417cfd5ed83c8a8de140b86a3cfe9fd27d29e3b5b90782fbbbea7a"
-
-[[files]]
-file = "kubejs/probe/cache/modHash.txt"
-hash = "62c17a9a8e470325154ac2350a43645b068390232a767f88ed43a5cf1b99e818"
-
-[[files]]
-file = "kubejs/probe/generated/constants.d.ts"
-hash = "494034a21c547011d0d60987bd22cf59949886b7dc6466796e0b7c3d27cd4569"
-
-[[files]]
-file = "kubejs/probe/generated/events.d.ts"
-hash = "e9909063ab1a3f0cca7f4634e2b1451976e574e8b65918c070ba379499af8fce"
-
-[[files]]
-file = "kubejs/probe/generated/globals.d.ts"
-hash = "5a74d41ec6fe1b97065c3976625a2c0e60a699d3b6c0ba570269984e23f4da7f"
-
-[[files]]
-file = "kubejs/probe/generated/internals/index.d.ts"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_0.d.ts"
-hash = "4e50d13c346c705f09a470c1972a31dc5da0e9484aeaea1ccc69c2c2cf0961bb"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_1.d.ts"
-hash = "bdb2fcbae3923f56402bf7242bf1e55da09858c5ceaf31e453be91f47515dff5"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_10.d.ts"
-hash = "9734098e6d91ecaf4ddf0537ca215dbafccde0b30ea5124f91bbdd27dd3f042a"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_11.d.ts"
-hash = "51b65181aa7c6ea60fc05390356a095f266db3c89dc6a59aabf25e7f93c70a55"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_12.d.ts"
-hash = "91076f1b6aa3bf07d5f327e41bc20d708d923e21e952dd269bdd3248661f5a91"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_13.d.ts"
-hash = "1f45d2edd311a37962a5bb925dc3d930d32c7f77b844064c9070be290c5ce2f8"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_14.d.ts"
-hash = "7554dac452eb0ca4f2394c6527c7feabe79368645e09adbd759f2410834b510e"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_15.d.ts"
-hash = "e0e8c4b8006c93d34a1687ce038c8e27495a7fd3adb927f3d81e1a1aa2592a5b"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_16.d.ts"
-hash = "fa271bec23d3586a56adf0698c85daaacdf7ed73c110ef0d855b307a36306ac0"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_17.d.ts"
-hash = "d36552dd2f6f567e200868c5265042c1bd48bbddf1919630f532d136c4bc066c"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_18.d.ts"
-hash = "f7fcdb43ae1fdc50821492177e79da6ecb4d5f5bce688f806bcdea89ad2a9518"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_19.d.ts"
-hash = "dec04b7beaf8bed6429c0f15410319601db26a2a0b844c40d1d47c66606cd2a5"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_2.d.ts"
-hash = "f638288e778eb7a6ad7f60d9a2a5a198305397cf80cf4f5e84ac14fee41d6b26"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_20.d.ts"
-hash = "a16f1565bbf02d85c0a64aec1234c8f85aa662daa7bccb407cd34e8610c8fb12"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_21.d.ts"
-hash = "508536805a616b0c39ee4b1652706f0aa37b852ebf77ce4c29b50417cb98d486"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_22.d.ts"
-hash = "26b973e0038834ad046c1bbd1c91e45952350bb3545278dec4a067dd5f01035b"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_23.d.ts"
-hash = "025675dfb27bc853f7c6528635fd8f33679255399084f50c5c675bb225ccbe11"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_24.d.ts"
-hash = "99968e0e7641b38e02694de59b0a856993aa315cd69d3c3a4b77674327041934"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_25.d.ts"
-hash = "00215d39fe1939a3e1d0bbfb253c39a2e899424e302ba48efa6402d5fe61a69f"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_26.d.ts"
-hash = "7c281e49fc792e698424a754405d7e5c39354f1af9b2d5dc88059de81a6fd341"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_27.d.ts"
-hash = "ce85828b9eb4362c4b7f730aecb1dc83c9a9a2929099884b5b53d75845d5cbf3"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_28.d.ts"
-hash = "5cd724ab1baa6840330185b02a4f15b08ebdf475054a9d29fe1798f8fb54181e"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_29.d.ts"
-hash = "7b341c9b7127e11d9a95f87e201008994cc9301dc8d437eb1d6698c46cab2d28"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_3.d.ts"
-hash = "1ac8f71a395ddec2520c334bf53b52fcab76f9be6c852d052af9bf440f3f9ed2"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_30.d.ts"
-hash = "8f92d3eaa185b9dffd633323c74e4b0c07062524898ba4eeaaa75b0d61715512"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_31.d.ts"
-hash = "24e78a31e07f3975f6ba5fb0ca60aab47375ec665a37f2f59bdf3b088bba3ac6"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_32.d.ts"
-hash = "04f4a90202f3bbf35563985a219b7a950a2f46be502f32e68e466f3ca582128f"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_33.d.ts"
-hash = "4b9b1adef1701a485b8aa985334bcf8999854a2c90911be9896c9e64b1f8c122"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_34.d.ts"
-hash = "465e8738f3c515034ba3ba0e183b47300334db71b5575e997edf043b3250e450"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_35.d.ts"
-hash = "b1c992c1e164b0de666275d70d449ccf5388dc843ea7d3fa1dae28adcf04e6b6"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_36.d.ts"
-hash = "120e038b3c11cf34009564f784a442a7cfdd65dd233661b08ae001c262970d7e"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_37.d.ts"
-hash = "3b200d7142ee71d0fedac47fe62e1c260dfd4a7f47c573d5e8bd44b044255e11"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_38.d.ts"
-hash = "d2a04e37a8da818c52d459f9bd0b0b0fc32c6a2e64b639fb73d5c1d486f636a4"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_39.d.ts"
-hash = "7dd5464711ee6799b7b67d0ac079688e380adc18351cf8dcb69e6bdcdea7ea5a"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_4.d.ts"
-hash = "231b84a93232f4c47fa050656edd0871c0b4cecbc81d7c843ff09c4a608e9600"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_40.d.ts"
-hash = "b691071735e5c65eba970d3814229655b1cfa5aa46b245f695c537f7f79b2317"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_41.d.ts"
-hash = "502fc3007fa9df544c299ed601f1c22f28191fdbe21f573499cca8f42445cac7"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_42.d.ts"
-hash = "4320e0744a32539dba97ec4cc1624316db592b6066f19f6792b45bd7324f3c95"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_43.d.ts"
-hash = "28ba8c79f9756d3035236720ddea8c85e13ad02eea11fe81eae6640d8ded9f0f"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_44.d.ts"
-hash = "452313a44ed6b535697c2e4682ea142ec9b0273830c74202c86725b326133643"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_45.d.ts"
-hash = "324f7be954866603f3d0877e2674ba4554f4fd14f19e9cecc1368ff2f10507be"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_46.d.ts"
-hash = "3bad8145ea23c5818ebd0c4bd829de727f7ca6c86547f6098919759980add7e0"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_47.d.ts"
-hash = "0a09999ae3663d1dc830231421410a9d21fba00adb00d94f99707187e05ff21e"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_48.d.ts"
-hash = "6536ed8fb00b224d4c3038121f76c5f4094ba4984f48ec726d434ccb5e379b22"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_49.d.ts"
-hash = "a360c8405914158495b716c90cc8190fc2a129a8ff0a595c93d1541793d58a39"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_5.d.ts"
-hash = "4b26561e6b3898b613ee1550b14cf8289c936abd87d30fc943207df2a5aa68b4"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_6.d.ts"
-hash = "2ca7889d567f3f55fe6576c8c539a11e187d550b38d4525bde938ec69017fa37"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_7.d.ts"
-hash = "08e6f4b1d4993f438ca6017865d6bccfa46ed45a9df73f35f0175cb088b03ac8"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_8.d.ts"
-hash = "046d4936afcbe520337ba83b27e20c59d2a7762d5c9c6bf4b91fdc12769d9d60"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_9.d.ts"
-hash = "220bfa6799ca567869caf01cdf09f9e46be7dbeb753e4b5508116d89693a7956"
-
-[[files]]
-file = "kubejs/probe/generated/names.d.ts"
-hash = "ded02704c450fa6da721fab2ed7e79e5c5d2d651d88dcfde6fe53a26125b7799"
-
-[[files]]
-file = "kubejs/probe/generated/raw.d.ts"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/probe/generated/registries.d.ts"
-hash = "aaea8f16bc9f58fb4bd650842528ec09ef1b1f2b23c3b59198f4eaa8ecef1d81"
-
-[[files]]
-file = "kubejs/probe/generated/tag_events.d.ts"
-hash = "93f537e6323b9597316edd65bc3a7efbc477f5c91eff6755dbdb506b823d13ec"
-
-[[files]]
 file = "kubejs/server_scripts/ex_nihilo/recipes.js"
 hash = "c65c1d07053d130903f4f1d2216ff9a26fcd8eb959b5ae80a1faceb31b36be13"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "1db6f2d4c0ef315c003a6def7021b010914961dd791f625114bdac8772a3d039"
+hash = "1192d79d47cc109579af86b39a6559124a93b3a7e9691a44913ebc8173ff9076"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/ae2.js"
+hash = "9bfc6b8d3730b35e28c8cfcf96e201a42ba7a87a6b4ae59eca55abe909cc7700"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/cables.js"
+hash = "6ba4287c88946d0f8835031fdd9a1be54730d0ab6b810398c4caac20f5c4bae8"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/cards.js"
+hash = "c7763bef203c59a9556f2f6eccef8499872fc31d9c361fe677736790a44202c5"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/cells.js"
+hash = "b97439a739b4a715d4690e6d8c8b74ed6e019d79f9a59a126a453f5e6bf6e675"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/certus_quartz.js"
+hash = "4b8db54232c2656870078377ea6c6a97ec84f963a983da808f9398bdd1939df4"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/circuitry.js"
+hash = "73324ad15e8345204a774e2df95ada95b5ac5cf3c93803ff279dfcc8b96dd2d0"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/crafting_storage.js"
+hash = "e68a97b24aa63aa8290b9891b02af7499ccd7f9a1dc2ef2cc3d183d660c48177"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/extendedae2.js"
+hash = "aef5a20fc675dff51d8a1f255d3f12e54b0a965bed1ed841909e8bc0cd486b6e"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/inter_providers.js"
+hash = "7b2903c315b6dd1b0fe938e7f8220f4ca621b945373aa82a6a40b326cdfe6044"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/molecular_assemblers.js"
+hash = "e1befac5352ea32dcf4a2261f4ff88f0bba327a2aaf7d4bb4230c2fbbcf85c0a"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/patterns.js"
+hash = "854111c81fbb2867b56d618083411048077bd264dfb637996ecf24016c6c5b73"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/portable_cells.js"
+hash = "1348601769c733d397f0aca13cbb341bb7712b7a979f09f127aeffb814aa0cb4"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/pressing.js"
+hash = "4a7d34021202b814ad578b2c217c6e4e893d232ef7e4cb4bd5ab793aec5a34ae"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/removals.js"
+hash = "72bee502356991cc10bf9ed8fb9dd213749e63671ef0b775b8db9b56920f0f98"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/storage_parts.js"
+hash = "c6f186ecf7247ae1993ed0d2020343505702eb8d86f27e1646ca0ab25cc92a6c"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/ae2/terminals.js"
+hash = "7626d71992cfa1e883d78006ad1878a08bac81e79391de1221aca8e341011c11"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/ender_storage.js"
@@ -723,6 +539,10 @@ hash = "8a94226bebf6acfcc6cbfa57a0544136297687787f7a64d4d0d89f94c47a8388"
 [[files]]
 file = "kubejs/server_scripts/multiblocks/bonsai.js"
 hash = "31420f756d83950e8fefd19ee67cd3f96ddc999631da96e83e0f6cfc44395f63"
+
+[[files]]
+file = "kubejs/server_scripts/multiblocks/cauldron.js"
+hash = "e3fdfd58304810ec81a9e91de84402f77dbdbbea11b84e8d3afcd8e44393300e"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/crucible.js"
@@ -755,6 +575,10 @@ hash = "e55ddf5a8498b44a9b2dcb332cc19f89bad31aad85efebfbf0497aa5beaabfcf"
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
 hash = "e0b608daf855fceeba67034c4c697da534fb06a1a9fc6e82cee4c0f862621441"
+
+[[files]]
+file = "kubejs/startup_scripts/multiblocks/cauldron.js"
+hash = "cf180c1f6b42c4dbe3c8642e515caf58c584f1b9923bb3845fb9ac934004d52c"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/crucible.js"
@@ -1009,6 +833,11 @@ hash = "83fa2899723c13dd3749bc7463237865736de1d1ecdea89114593e65365ef2a5"
 metafile = true
 
 [[files]]
+file = "mods/light-overlay.pw.toml"
+hash = "ec1dbea2c473bfd08357e3a31745ba28046debee77242e9c401169ddbc88bcd3"
+metafile = true
+
+[[files]]
 file = "mods/mod-name-tooltip.pw.toml"
 hash = "0f37846b5bc38059aad5800e48e22a7d24b915ef553e3241af2b63e9ba864237"
 metafile = true
@@ -1171,4 +1000,9 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
+metafile = true
+
+[[files]]
+file = "vanilla-plus-shader.pw.toml"
+hash = "1eb275496604d6743f17a7398ce68a57c8199bd19b5c2f174668d1c155c0c0e0"
 metafile = true

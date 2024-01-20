@@ -4,7 +4,7 @@
 	filename: "mv__medium_voltage"
 	group: "693226878D58638A"
 	id: "43E779CEEB25D55B"
-	order_index: 9
+	order_index: 10
 	quest_links: [{
 		id: "6FCAD016C795DE93"
 		linked_quest: "7567E885B7166603"

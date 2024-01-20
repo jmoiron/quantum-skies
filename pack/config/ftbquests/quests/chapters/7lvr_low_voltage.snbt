@@ -378,6 +378,7 @@
 				"1432E12120D51E99"
 			]
 			id: "4D96207354C83C46"
+			subtitle: "Is that Spelled Right?"
 			tasks: [{
 				id: "3B5D1B923D9A0453"
 				item: "gtceu:aluminium_dust"
@@ -618,14 +619,83 @@
 		}
 		{
 			dependencies: ["6E1D7468A66DB67F"]
+			description: [
+				"The &bElectric Blast Furnace&r is a high-temperature furnace capable of smelting &6Aluminium&r into ingots.  It's also a significant upgrade on your &bPrimitive Blast Furnace&r for smelting &6Steel&r."
+				""
+				"The &bEBF&r introduces a number of complex mechanics at once. We'll cover three new mechanics in the next pages:"
+				""
+				"* &dMaintenance Hatches&r and how to use them"
+				""
+				"* &dEnergy Input Hatches&r and how they function in multiblocks"
+				""
+				"* &dHeating Coils&r and how their impact on recipe cost and overclocking"
+				""
+				"{@pagebreak}"
+				""
+				"Most electric multiblocks require &dmaintenance&r via a &dMaintenance Hatch&r."
+				""
+				"The &dcontroller block&r will tell you what maintenance issues the multiblock has.  It starts with all of them, meaning you need to &3right-click&r the maintenance hatch with a &aWrench&r, &aScrewdriver&r, &aSoft Mallet&r, &aHammer&r, &aWire Cutter&r, and a &9Crowbar&r in your inventory, and then click the inventory slot inside."
+				""
+				"At &bMV&r, you will unlock &9Duct Tape&r, which as you know, fixes everything. At higher tiers, you will be able to automated maintenance hatches."
+				""
+				"{@pagebreak}"
+				""
+				"&bEBF&r recipes require at least 120EU/t. You can't make &bMV&r Energy Hatches yet, but the &bEBF&r allows you to use up to 2 Energy Hatches.  Since each hatch is rated for 2A input, 2 &7LV&r hatches can accept 4A &7LV&r, or 128EU/t."
+				""
+				"Not all multiblocks can take multiple energy input hatches, but those that can will allow you to run &bTIER+1&r recipes at &bTIER&b."
+				""
+				"4A &7LV&r is 256mb/t of Steam, or &d9 High Pressure Liquid Boilers&r and 4x &7LV&r Steam Turbines to power continuously. It may not be worth building that much steam infrastructure, since once you have &6Aluminium&r and get into &bMV&r, you will open up several more energy dense power sources."
+				""
+				"The suggested alternative is to place battery buffers on each &9Energy Input Hatch&r to buffer up power.  This way if you produce ~2A LV, you can still run the EBF half the time. If you want to continue to use steam, look into the &bLarge Bronze Boiler&r."
+				""
+				"{@pagebreak}"
+				""
+				"&bHeating Coils&r affect the maximum temperature the EBF can reach."
+				""
+				"Each EBF recipe has a minimum energy and temperature requirement, listed in JEI. If your EBF temperature isn't high enough, then smelting can't start. If you don't have enough energy, smelting can't start."
+				""
+				"Conversely, if you supply more than the required temperature or energy, several bonuses are available:"
+				""
+				"* Every &b900K&r over the required temperature applies a multiple of &a0.95x&r, reducing the required energy by 5%"
+				""
+				"* Every &b4x&r multiple EU/t you supply doubles the processing speed, reducing recipe time by half.  This is called &boverclocking&r and it happens in normal single-block machines, too."
+				""
+				"* Every &b1800K&r over the required temperature gives you one &rperfect overclock&r, which means spending &b4x&r the energy gets you a &b4x&r overclock rather than a &b2x&r one."
+			]
 			id: "7742187BCE898BB6"
+			min_width: 250
 			shape: "gear"
 			size: 1.25d
-			tasks: [{
-				id: "6F1129EDB0BCF239"
-				item: "gtceu:electric_blast_furnace"
-				type: "item"
-			}]
+			subtitle: "Electric Best Friend"
+			tasks: [
+				{
+					id: "6F1129EDB0BCF239"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E99F3CDF2C1DB9E"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C74EB74CA0D04B7"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0C7B901AF6943950"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "6B5152F741C57569"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 0.5d
 		}
@@ -724,7 +794,7 @@
 				""
 				"It is capable of &erecycling&r all sorts of pipes, cables, and machinery, so when it comes time to upgrade your processing lines, you can recouperate some of your costs."
 				""
-				"More importantly at this stage, it is capable of &eannealing copper&r and producing &9Glass&r very efficiently directly from sand."
+				"More importantly at this stage, you can use it to &eanneal copper&r and produce &9Glass&r very efficiently directly from sand."
 			]
 			id: "41350FB0F77E9D50"
 			subtitle: "With a Box Of Scraps"
@@ -738,6 +808,13 @@
 		}
 		{
 			dependencies: ["41350FB0F77E9D50"]
+			description: [
+				"When &6Copper&r is heated to high temperature and flushed with &6Oxygen&r (or, in some cases, &6Nitrogen&r), the crystalline structure of the metal changes and it becomes more maleable and workable at room temperature."
+				""
+				"Using &9Annealed Copper&r gets you better yields on most &7LV&r circuit components. Worth a shot, especially while &6Gallium&r may still be in short supply."
+				""
+				"In &bMV&r, &9Annealed Copper Cables&r will be your best non-superconductor option."
+			]
 			id: "06E4483C49687A3B"
 			tasks: [{
 				id: "030E113DAF7179DD"
@@ -749,6 +826,13 @@
 		}
 		{
 			dependencies: ["41350FB0F77E9D50"]
+			description: [
+				"The &bArc Furnace&r can produce &6Glass&r at twice the efficiency of the vanilla recipe, giving you 2 blocks per every 1 of &9Sand&r."
+				""
+				"You can crush glass up for glass dust, and melt it with the &bExtractor&r for molten glass for circuit components."
+				""
+				"If you are looking for &6Oxygen&r, the &6Sapphires&r you have to &bElectrolyze&r for your first &6Aluminium&r should provide enough for a while."
+			]
 			id: "64BC2B144F520DD3"
 			rewards: [{
 				count: 32
@@ -756,6 +840,7 @@
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
+			subtitle: "*Clink* ... Glass."
 			tasks: [{
 				count: 64L
 				id: "5051DBC79921B240"
