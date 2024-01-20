@@ -1,21 +1,407 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "6hvr_high_voltage"
 	group: "693226878D58638A"
 	icon: "gtceu:hv_machine_hull"
 	id: "74192A7C1519FB67"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "239B5AF886B64DEB"
-		tasks: [{
-			id: "1351E6534CA7E8CA"
-			title: "HV Lore"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: -2.0d
-	}]
+	quests: [
+		{
+			icon: "gtceu:micro_processor_assembly"
+			id: "239B5AF886B64DEB"
+			shape: "hexagon"
+			tasks: [{
+				id: "1351E6534CA7E8CA"
+				title: "HV Lore"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "778CAC851BC58AB8"
+			tasks: [{
+				id: "6444AE6963D52532"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "4EEC4260A8456C10"
+			tasks: [
+				{
+					id: "25B5C16E42AC559B"
+					item: "gtceu:hv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "0B3D0A25E1DB90CC"
+					item: "gtceu:hv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "54BCB3C188B02881"
+					item: "gtceu:hv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0A3B7B9063824F9E"
+					item: "gtceu:hv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "3F3A9934924C3C6F"
+					item: "gtceu:hv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "HV Mechanical Components"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "483F43EF65C69696"
+			tasks: [{
+				id: "0293C19C573BBCC8"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "6CD0F2C47B66169F"
+			tasks: [{
+				id: "3133BC92463D249D"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "4CDAB321466B88F6"
+			tasks: [{
+				id: "6754757BD96988BB"
+				item: "gtceu:hv_autoclave"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CDAB321466B88F6"]
+			id: "0CBB99D3A3A62D8F"
+			tasks: [
+				{
+					id: "48FFEF81D8F82109"
+					item: "gtceu:energium_dust"
+					type: "item"
+				}
+				{
+					id: "502702D87C73B770"
+					item: "gtceu:energy_crystal"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "5207A7F74C1204FC"
+			tasks: [{
+				id: "60B438D5B9150717"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "450C8C0AF82CB7FD"
+			tasks: [
+				{
+					id: "6DC27B1797B28ADC"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A05E4A11DB8E8C3"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+				{
+					count: 40L
+					id: "2F398ED87B03A5E2"
+					item: "gtceu:plascrete"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "052D83873F917583"
+			tasks: [{
+				id: "1B0475D8A301DF5B"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"052D83873F917583"
+				"5207A7F74C1204FC"
+			]
+			id: "126E88BE9207D849"
+			tasks: [
+				{
+					id: "70432EA8571D9CB7"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "7903D94534D28CEF"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5207A7F74C1204FC"]
+			id: "7B99E9A39EAA5490"
+			tasks: [
+				{
+					id: "6A1F3E3F765B0CA7"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+				{
+					id: "4EAEB82D68C2E981"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"483F43EF65C69696"
+				"7B99E9A39EAA5490"
+			]
+			id: "67668A321645BDFE"
+			tasks: [{
+				id: "29A66B73A37A8005"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["126E88BE9207D849"]
+			id: "496A339808DDDF51"
+			tasks: [{
+				id: "34975AC52EC7214F"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5207A7F74C1204FC"]
+			id: "268626C053A0F57A"
+			tasks: [
+				{
+					id: "05E090032FBF3999"
+					item: "gtceu:simple_soc_wafer"
+					type: "item"
+				}
+				{
+					id: "79C22F291BBAE65B"
+					item: "gtceu:cyan_glass_lens"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "40922DB70061C9AA"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:fluorine"
+				id: "3F081EEF2A4E8D60"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"40922DB70061C9AA"
+				"052D83873F917583"
+			]
+			id: "2C1CDE93A0BDB91C"
+			subtitle: "Teflon"
+			tasks: [{
+				id: "37B5D9A2BEE4B15A"
+				item: "gtceu:polytetrafluoroethylene_plate"
+				type: "item"
+			}]
+			title: "PTFE"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C1CDE93A0BDB91C"]
+			id: "699430D161A19BBC"
+			tasks: [{
+				id: "640857927A486282"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["450C8C0AF82CB7FD"]
+			id: "4710DCD2C83D3D38"
+			tasks: [{
+				id: "0722AEF5A4A1E05C"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4710DCD2C83D3D38"
+				"496A339808DDDF51"
+			]
+			id: "40AB84E3209DED53"
+			tasks: [{
+				id: "0983D5325043438C"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["450C8C0AF82CB7FD"]
+			id: "27698E1CFA6AC0B5"
+			tasks: [{
+				id: "51BB6C780430E970"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4710DCD2C83D3D38"]
+			id: "454242F0DA2FFBD0"
+			tasks: [{
+				id: "4670414E4389FDBF"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"483F43EF65C69696"
+				"454242F0DA2FFBD0"
+			]
+			id: "42E1E4B7FF33D3F7"
+			tasks: [{
+				id: "1C3A087A769314BD"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"450C8C0AF82CB7FD"
+				"496A339808DDDF51"
+			]
+			id: "18D57CCC26D52DA6"
+			tasks: [{
+				id: "6E83B34E8B3B4F49"
+				item: "gtceu:hv_laser_engraver"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"450C8C0AF82CB7FD"
+				"18D57CCC26D52DA6"
+			]
+			id: "1FCD75FBB1AF9A5C"
+			tasks: [{
+				id: "4C382DA2315BEE05"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			id: "10E6C543269AD20C"
+			tasks: [
+				{
+					id: "2DB33227FD7B3D06"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:titanium_tetrachloride"
+					id: "34E9C94E07488D3E"
+					type: "fluid"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"454242F0DA2FFBD0"
+				"10E6C543269AD20C"
+			]
+			id: "313EBA693444B4FB"
+			tasks: [{
+				id: "56526951C86CFBDF"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Stainless Steel, Chip Fab and &6High Voltage&r"]
 	title: "[&6HV&r] High Voltage"
 }

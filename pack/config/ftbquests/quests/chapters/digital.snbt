@@ -16,8 +16,38 @@
 		{
 			id: "556882DB894177F6"
 			linked_quest: "7E8E4BD59374D8DB"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "01DB4437C538798F"
+			linked_quest: "7A284CF12EA916D5"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "55486A872B953D2F"
+			linked_quest: "031CC336213E598D"
 			x: -2.0d
 			y: -1.0d
+		}
+		{
+			id: "488FDACE90D6EAFC"
+			linked_quest: "025DB933BE24C8F9"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "72BCD57C11AFFAEF"
+			linked_quest: "4565F14B36E7CD6C"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "38DF20CAABE59499"
+			linked_quest: "2AAF8EE73768D508"
+			x: -2.0d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -37,7 +67,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			id: "00DBE2D8FFBC55FB"
@@ -75,7 +105,7 @@
 				item: "gtceu:certus_quartz_gem"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -158,7 +188,7 @@
 			}]
 			title: "Autoclave"
 			x: 4.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["00DBE2D8FFBC55FB"]
@@ -168,7 +198,7 @@
 				item: "ae2:fluix_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -183,7 +213,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["242BA23234A28A29"]
@@ -268,7 +298,140 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4E29DB2C735AA76B"
+				"7A284CF12EA916D5"
+			]
+			id: "01F04D4897E61662"
+			tasks: [
+				{
+					id: "10A55FFD020A163F"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "17EE632DA7651215"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "5AC866F586A3B6D7"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "AE2 Processors"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4FCEF52E1DBD423C"
+				"031CC336213E598D"
+			]
+			id: "762A8F162DF3F141"
+			tasks: [{
+				id: "76C7A109FCE634B0"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"731503D145EF8FA0"
+				"01F04D4897E61662"
+				"762A8F162DF3F141"
+			]
+			id: "671A16FEF2628BA3"
+			tasks: [{
+				id: "242955A6F127A5C6"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E8E4BD59374D8DB"]
+			id: "731503D145EF8FA0"
+			tasks: [{
+				id: "5733234D2BC5BB98"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AAF8EE73768D508"]
+			id: "3D5E6D72AF9D1848"
+			tasks: [{
+				id: "2A97E3D5D791ED73"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4565F14B36E7CD6C"]
+			id: "487700CFD01DFE66"
+			tasks: [
+				{
+					id: "023DF529951FCD7A"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "46845CDC4DA70ADC"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["025DB933BE24C8F9"]
+			id: "50196D741C26FD78"
+			tasks: [{
+				id: "6342554A1375E530"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D5E6D72AF9D1848"]
+			id: "74E8CBEF0EC51BDF"
+			tasks: [{
+				id: "0AE5C3E3CEB65086"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["01F04D4897E61662"]
+			id: "7EA0694BD0A61B54"
+			tasks: [{
+				id: "076E72F3A8E4A621"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "Digital"

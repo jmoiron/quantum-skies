@@ -851,6 +851,24 @@
 			x: 0.5d
 			y: 6.5d
 		}
+		{
+			dependencies: ["7A284CF12EA916D5"]
+			description: [
+				"With the first &bCircuit Assembler&r in hand, you are now able to fabricate &dprocessors&r from &2Applied Energistics&r."
+				""
+				"You should be able to get basic digital storage and crafting up in &7LV&r era, but auto-crafting won't come til &6HV&r, and fluid storage til &5EV&r."
+			]
+			icon: "ae2:singularity"
+			id: "3780B38909F06843"
+			tasks: [{
+				id: "6FFA68846474B84E"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics"
+			x: -2.5d
+			y: 6.5d
+		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
 	title: "[&7LV&r] Low Voltage"

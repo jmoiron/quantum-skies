@@ -166,6 +166,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["7742187BCE898BB6"]
 			id: "26B92581C3E5115F"
 			tasks: [{
 				id: "330D2C1A438C01D1"
@@ -933,5 +934,6 @@
 			y: -12.0d
 		}
 	]
+	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]
 	title: "[&bMV&r] Medium Voltage"
 }
