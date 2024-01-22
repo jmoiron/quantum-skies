@@ -348,6 +348,7 @@
 				"With &6Copper&r and &6Tin&r you can make &6Bronze&r, the primary alloy for the Steam Age."
 			]
 			id: "505F907674D0821E"
+			subtitle: "Chalcolithic?"
 			tasks: [
 				{
 					id: "726D6E1F43461633"
@@ -684,7 +685,7 @@
 			description: [
 				"This pack includes &2Squat Grow&r."
 				""
-				"When you dash or squat repeatedly (&3shift&3) near trees or crops, a &9Bonemeal&r effect will be applied, speeding up their growth."
+				"When you dash or squat repeatedly (&3shift&r) near trees or crops, a &9Bonemeal&r effect will be applied, speeding up their growth."
 				""
 				"Since you have started with only a tree and some dirt, this should come in handy."
 			]
@@ -710,7 +711,7 @@
 			description: [
 				"&9Netherrack&r is obtained by placing &6Redstone&r in a stone barrel full of &9Lava&r."
 				""
-				"You can then crush it with your &9Hammer&r and sieve the resulting &9Crushed Netherrack&r."
+				"You can then crush it with your &9Hammer&r and sieve the resulting &9crushed netherrack&r to get some useful ores and &6sulfur&r."
 			]
 			icon: "minecraft:netherrack"
 			id: "57E5ED548029C284"

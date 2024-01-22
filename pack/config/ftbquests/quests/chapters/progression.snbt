@@ -9,14 +9,6 @@
 	order_index: 0
 	quest_links: [
 		{
-			id: "77A0335E38D755CA"
-			linked_quest: "0DBC148D92A9F69F"
-			shape: "rsquare"
-			size: 0.8d
-			x: 0.0d
-			y: 1.0d
-		}
-		{
 			id: "750818879C23F373"
 			linked_quest: "26394C1290D70AB6"
 			shape: "rsquare"
@@ -219,7 +211,6 @@
 	]
 	quests: [
 		{
-			dependencies: ["0DBC148D92A9F69F"]
 			description: [
 				"Early game Circuits are hand craftable."
 				""
@@ -405,7 +396,6 @@
 			dependencies: [
 				"60D7F6C1EE918B66"
 				"38DE506FF5B32031"
-				"0DBC148D92A9F69F"
 			]
 			description: [
 				"Circuits along this line are &bMV&r, and are interchangeable in recipes."

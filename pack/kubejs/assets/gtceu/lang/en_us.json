@@ -3,5 +3,7 @@
     "gtceu.crucible": "Crucible Melting",
     "block.gtceu.primitive_woodcutter": "Primitive Woodcutter",
     "block.gtceu.basic_crucible": "Large Crucible",
-    "block.gtceu.industrial_crucible": "Industrial Crucible"
+    "block.gtceu.industrial_crucible": "Industrial Crucible",
+    "block.gtceu.large_cauldron": "Large Cualdron",
+    "gtceu.cauldron": "Cauldron"
 }

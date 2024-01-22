@@ -38,7 +38,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6E186F9C57155BFA"]
 			description: [
 				"You have likely realised by now that the Energy system in &2GregTech&r is &cnowhere near as simple&r as the &1RF&r you may be used to using in modded Minecraft."
 				""
@@ -92,7 +91,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6E186F9C57155BFA"]
 			description: [
 				"Transporting EU is done via direct connection, using &aWires&r or &aCables&r."
 				""
@@ -124,7 +122,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7B0FF43022F6C2EC"]
 			description: [
 				"The quantity of 1 packet per tick is known as an Amp (1A for short)."
 				""
@@ -186,7 +183,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"There are two really important factors to know when building Multiblocks."
 				""
@@ -216,7 +212,6 @@
 			y: 0.99d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"&9-&r Check if the Multiblock is properly plugged in (we all make these mistakes!)."
 				""
@@ -243,7 +238,6 @@
 			y: 0.99d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"Maintenance in GregTech is not as bad as you think (promise!), and multiblocks with this hatch look pretty slick!"
 				"{@pagebreak}"
@@ -269,7 +263,6 @@
 			y: 0.99d
 		}
 		{
-			dependencies: ["1646BF9194100E57"]
 			description: [
 				"The &3Electric Blast Furnace&r, &3Pyrolyse Oven, &b&aMulti Smelter&r, and &3Cracking Unit&r all require Heating Coils. But why should you bother upgrading to higher tiers of Coil?"
 				""
@@ -308,7 +301,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"The &3Electric Blast Furnace&r requires a &3Muffler Hatch&r to run. This hatch must be &cunobstructed&r so it can output its beautiful smoke particles."
 				""
@@ -334,7 +326,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"Multiblocks do not look at the voltage of recipes when trying to craft. Instead, they simply check if they are being provided with enough Power."
 				""
@@ -355,7 +346,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2FC7B1E867E4194E"]
 			description: [
 				"Similarly to the Steam Multiblocks - hopefully, you made these! - you're going to need some &3Buses&r if you want to move items in and out."
 				""

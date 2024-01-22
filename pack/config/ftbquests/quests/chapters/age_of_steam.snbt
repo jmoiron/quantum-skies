@@ -38,6 +38,8 @@
 				"The steam produced by your boilers will auto-output to a connected pipe."
 				""
 				"&6Bronze&r fluid pipes are good enough for early game needs.  A tiny or small pipe will complete the quest."
+				""
+				"When you get access to &6Lead&r, &6Potin&r becomes the best pipe material for a while."
 			]
 			id: "614BCEF3ADD530AC"
 			subtitle: "Gregic Fluid Transfer"
@@ -161,8 +163,16 @@
 		}
 		{
 			dependencies: ["7015689EEBC11F93"]
+			description: [
+				"The &dPrimitive Blast Furnace&r is capable of reaching temperatures high enough to smelt &6Steel&r."
+				""
+				"Each tier of technology has its own machine hull.  The &blow pressure steam&r hulls you have been using are made of &6Bronze&r, but &6Steel&r opens up both high pressure steam and &7Low Voltage&r machines."
+				""
+				"Each ingot takes 45s, and you will need over 10 stacks before you have a faster method. Since &6Clay&r is easy to produce, you may want to make &dmore than one&r of these. &dPBFs&r can &bshare their outer walls&r, read up on this in the &3Multiblock Madness&r quest tab."
+			]
 			id: "133D5E0B6C137D0E"
 			size: 1.25d
+			subtitle: "Turn the Heat Up"
 			tasks: [
 				{
 					id: "7DA2ECBCFC93C1C0"
@@ -262,7 +272,13 @@
 				"&9Glass Tubes&r are an important crafting component in your first &bcircuit&r."
 			]
 			id: "3BA5CCEB0BEEB708"
-			subtitle: "Glaaask"
+			rewards: [{
+				count: 8
+				id: "52D439BA41D5293C"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			subtitle: "Glassk"
 			tasks: [
 				{
 					id: "0F7592295272B1DB"
@@ -312,11 +328,11 @@
 			dependencies: ["21913378FC451B5B"]
 			dependency_requirement: "one_started"
 			description: [
-				"Steam Machines come in two varieties, &blow-pressure&r and &bhigh-pressure&r.  They can handle LV recipes up to 32eu/t at a conversion of 2mb of steam to 1eu."
+				"Steam Machines come in two varieties, &blow pressure&r and &bhigh pressure&r.  They can handle LV recipes up to 32eu/t at a conversion of 2mb of steam to 1eu."
 				""
-				"Low-pressure machines have bronze hulls and are 50% slower, but consume steam at half of the rate.  "
+				"Low pressure machines have bronze hulls and are 50% slower, but consume steam at half of the rate.  "
 				""
-				"High-pressure machines all use their bronze counterparts as crafting ingredients, so don't hold back!"
+				"High pressure machines all use their bronze counterparts as crafting ingredients, so don't hold back!"
 				""
 				"{@pagebreak}"
 				""
@@ -439,7 +455,9 @@
 			description: [
 				"&6Potin&r is an alloy of &6Copper&r, &6Tin&r, and &6Lead&r.  "
 				""
-				"Despite its humble ingredients, &9fluid pipes&r made with &6Potin&r are very fast.  &6Potin&r gears are also used in the &dSteam Grinder&r multiblock."
+				"Despite its humble ingredients, &9fluid pipes&r made with &6Potin&r are very fast. "
+				""
+				"&6Potin&r gears are also used in the &dSteam Grinder&r multiblock."
 			]
 			id: "38F040C814F383BB"
 			tasks: [{
@@ -455,7 +473,7 @@
 			description: [
 				"If you were wondering about early game ore processing, the answer is the &dSteam Grinder&r! There don't seem to be many ores around here, though."
 				""
-				"The &dSteam Grinder&r can run &dMacerator&r recipes up to [LV] Low Voltage 8 items at a time for a small amount of steam."
+				"The &dSteam Grinder&r can run &dMacerator&r recipes up to &7Low Voltage&r 8 items at a time for a small amount of steam."
 				""
 				"It doesn't produce any by-products. Might be useful for grinding &6clay&r if the needs arise."
 			]
@@ -555,7 +573,7 @@
 					type: "item"
 				}
 				{
-					count: 22L
+					count: 8L
 					id: "726645A34077206D"
 					item: "gtceu:steam_machine_casing"
 					type: "item"
@@ -636,6 +654,11 @@
 		}
 		{
 			dependencies: ["3BA5CCEB0BEEB708"]
+			description: [
+				"You're going to need &bcables&r if you want to build and run machines on electricity. Cables require &6rubber&r for insulation."
+				""
+				"The &dExtractor&r can pull &9rubber pulp&r from &9sticky resin&r or &9rubber wood&r. It will need further processing before it's usable as wire insulation, though."
+			]
 			id: "691D69D77D8399D8"
 			tasks: [{
 				id: "14D5A2986C591C18"
@@ -649,7 +672,7 @@
 			description: [
 				"&9Sticky Resin&r descends from IC2.  In CEu, you get it as a chance drop when chopping &9Rubber Trees&r."
 				""
-				"It is useful as a primitive binder in several recipes, and is a good source of &9Rubber Pulp&9 for making rubber."
+				"It is useful as a primitive binder in several recipes, and is a good source of &9Rubber Pulp&r for making rubber."
 				""
 				"Thankfully, it doesn't gum up your axe."
 			]
@@ -695,6 +718,11 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"&9Paper&r is not quite as simple to make as you remember."
+				""
+				"You will need to grind up &9sugar cane&r into &9chad&r and then use some water to process it into paper. If you have built the &dCoke Oven&r, you can use the &9cells&r you received to craft several at a time."
+			]
 			id: "7F92B79A5BDB1CF3"
 			tasks: [{
 				id: "7F0063AA0C3198B3"
@@ -817,7 +845,11 @@
 				"206489FD5D70CC39"
 				"247B6BC1C8F5A491"
 			]
-			description: ["&6Red Alloy&r is the &bfirst tier wire component&r."]
+			description: [
+				"The primitive circuits you make in the early game require wires to carry signals between each component mounted on the board."
+				""
+				"&6Red Alloy&r cables will do for your first &7LV&r circuit."
+			]
 			id: "2BBFB81A740AC821"
 			rewards: [{
 				count: 12
@@ -825,7 +857,7 @@
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
 			}]
-			subtitle: "First Wire Component"
+			subtitle: "Circuit Wire Component"
 			tasks: [{
 				count: 3L
 				id: "583767CD26CF275C"

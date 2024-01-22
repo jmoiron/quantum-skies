@@ -9,26 +9,31 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "gtceu:micro_processor_assembly"
+			dependencies: ["025DB933BE24C8F9"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "gtceu:clean_machine_casing"
 			id: "239B5AF886B64DEB"
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "1351E6534CA7E8CA"
 				title: "HV Lore"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
+			dependencies: ["239B5AF886B64DEB"]
 			id: "778CAC851BC58AB8"
 			tasks: [{
 				id: "6444AE6963D52532"
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			id: "4EEC4260A8456C10"
@@ -60,7 +65,7 @@
 				}
 			]
 			title: "HV Mechanical Components"
-			x: -0.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -71,8 +76,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -82,7 +87,7 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -111,8 +116,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -3.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -123,10 +128,13 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["239B5AF886B64DEB"]
 			id: "450C8C0AF82CB7FD"
+			shape: "gear"
+			size: 1.25d
 			tasks: [
 				{
 					id: "6DC27B1797B28ADC"
@@ -157,8 +165,8 @@
 				item: "gtceu:hv_chemical_reactor"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -178,8 +186,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5207A7F74C1204FC"]
@@ -197,7 +205,7 @@
 				}
 			]
 			x: 5.5d
-			y: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -210,8 +218,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["126E88BE9207D849"]
@@ -221,8 +229,8 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5207A7F74C1204FC"]
@@ -240,7 +248,7 @@
 				}
 			]
 			x: 5.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "40922DB70061C9AA"
@@ -250,8 +258,8 @@
 				id: "3F081EEF2A4E8D60"
 				type: "fluid"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -0.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -266,30 +274,34 @@
 				type: "item"
 			}]
 			title: "PTFE"
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2C1CDE93A0BDB91C"]
 			id: "699430D161A19BBC"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "640857927A486282"
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["450C8C0AF82CB7FD"]
 			id: "4710DCD2C83D3D38"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "0722AEF5A4A1E05C"
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -302,18 +314,18 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 4.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["450C8C0AF82CB7FD"]
+			dependencies: ["4710DCD2C83D3D38"]
 			id: "27698E1CFA6AC0B5"
 			tasks: [{
 				id: "51BB6C780430E970"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -324,8 +336,8 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -338,8 +350,8 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -352,8 +364,8 @@
 				item: "gtceu:hv_laser_engraver"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: 5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -366,8 +378,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 5.5d
+			y: -9.0d
 		}
 		{
 			id: "10E6C543269AD20C"
@@ -385,20 +397,138 @@
 				}
 			]
 			x: 1.0d
-			y: -1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
 				"454242F0DA2FFBD0"
 				"10E6C543269AD20C"
+				"052D83873F917583"
 			]
 			id: "313EBA693444B4FB"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "56526951C86CFBDF"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["496A339808DDDF51"]
+			id: "698DF2D40A52773A"
+			tasks: [{
+				id: "46898CC8F598A9E7"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["40AB84E3209DED53"]
+			id: "59CD741B7208D333"
+			tasks: [{
+				id: "1340EECF67C23EBF"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["483F43EF65C69696"]
+			id: "6D8A803A97E65C1A"
+			tasks: [
+				{
+					id: "007454E2336D98AD"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "42DC4F4D8E343252"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "6E1A3822623C99D3"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "446E8FBE087137A3"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "6D6ABF95CB0F9D32"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["699430D161A19BBC"]
+			id: "63C6AF455771F032"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:nitric_acid"
+				id: "26D6002AD2514948"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63C6AF455771F032"]
+			id: "6BBECEEDC4DD2B56"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:nitration_mixture"
+				id: "469D3917D1746609"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63C6AF455771F032"]
+			id: "273648ED9BD786F9"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:tetranitromethane"
+				id: "1A13362B108F3607"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["273648ED9BD786F9"]
+			id: "23CB82881ABB5E72"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:cetane_boosted_diesel"
+				id: "5FFD75DDCF259421"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BBECEEDC4DD2B56"]
+			id: "3F4A0B22F5740A63"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:nitrobenzene"
+				id: "31131E4DCFEB5BB8"
+				type: "fluid"
+			}]
+			x: -2.0d
 			y: -1.5d
 		}
 	]

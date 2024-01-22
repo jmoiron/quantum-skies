@@ -29,6 +29,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4204A78817D2164E"]
 			description: [
 				"Some processes that were too delicate for &eSteam Power&r should now be automatable using the &ecircuits&r you've made."
 				""
@@ -79,17 +80,26 @@
 				""
 				"The machines coming off of this quest increase the yield of important crafting components:"
 				""
-				"* The &dWiremill&r yields 2 wire/ingot"
+				"* The &dWiremill&r yields 2x wire/ingot"
 				""
-				"* The &dBender&r yields 1 plate/ingot"
+				"* The &dBender&r yields 1x plate/ingot"
 				""
-				"* The &dLathe&r yields 2 rods/ingot"
+				"* The &dLathe&r yields 2x rods/ingot"
 				""
 				"* The &dChemical Reactor&r has a 3x yield on rubber"
 				""
 				"* The &dPolarizer&r magnetizes rods for free saving lots of &9Redstone&r"
 				""
-				"You can already automate a lot of resources, but these are still worth building first."
+				"You can already automate a lot of resources, but these are still worth building first.  But in which order?"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The &dWiremill&r is a popular first step. Motors need &b4x wires&r each, and the &dWiremill&r reduces the cost of those by 3x."
+				""
+				"The &dBender&r is usually second, because &bhulls&r require a lot of plates, even though it is only 50% more efficient than the &dForge Hammer&r."
+				""
+				"From there, it depends on circumstance. &6Redstone&r and &6Sulfur&r are probably more limited right now than &6Iron&r, so it might make sense to prioritize the &dPolarizer&r and &dChem Reactor&r over the &dLathe&r."
 			]
 			id: "3B65A8B097513381"
 			rewards: [{
@@ -109,7 +119,13 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"&dMotors&r are the basic mechanical component for each tier."
+				""
+				"The other mechanical components require &dMotors&r as part of their recipes, as to many machines. You will end up making more than a stack of these, so build them in bulk."
+			]
 			id: "0987229A0CD65898"
+			subtitle: "Hello, Moto"
 			tasks: [{
 				id: "175E8A8C6C1AF85C"
 				item: "gtceu:lv_electric_motor"
@@ -120,7 +136,13 @@
 		}
 		{
 			dependencies: ["0987229A0CD65898"]
+			description: [
+				"The &9Piston&r is a crafting component in &arobot arms&r as well as various machines."
+				""
+				"The small gear is there for added inconvenience. Use your molds for now, you'll find cheaper recipes later."
+			]
 			id: "1D23728F89A9C162"
+			subtitle: "Just Like Vanilla"
 			tasks: [{
 				id: "09974386B8921936"
 				item: "gtceu:lv_electric_piston"
@@ -131,6 +153,15 @@
 		}
 		{
 			dependencies: ["0987229A0CD65898"]
+			description: [
+				"&9Pumps&r are both crafting components &oand&r machine covers."
+				""
+				"They are configurable with a &ascrewdriver&r."
+				""
+				"You can configure &ddrums&r to auto-output out of their bottom face with a &ascrewdriver&r, and all electric machines and &boutput hatches&r also auto-output."
+				""
+				"If you use &2Gregtech&r fluid pipes, you will eventually find yourselve needing &9pumps&r as covers."
+			]
 			id: "7E94BB2221A3CF87"
 			tasks: [{
 				id: "11FC8502A7AC1964"
@@ -142,7 +173,17 @@
 		}
 		{
 			dependencies: ["0987229A0CD65898"]
+			description: [
+				"The &9Conveyor&r is to item pipes what &9Pumps&r are to fluid pipes."
+				""
+				"Unlike fluids, item storage typically will not auto output, making these slightly more useful as covers. They are also used in several machine recipes."
+				""
+				"High tier &9Conveyors&r transport &ba lot of items&r per operation, making them incredibly fast with good performance."
+				""
+				"These date from an era when pipes often needed something on one end to pump items from an inventory, whether that was a &2Buildcraft&r redstone engine or a &2Thermal Dynamics&r servo."
+			]
 			id: "338DC14E4887E00C"
+			subtitle: "Traveling Without Moving"
 			tasks: [{
 				id: "528C8552D8C5305D"
 				item: "gtceu:lv_conveyor_module"
@@ -153,6 +194,13 @@
 		}
 		{
 			dependencies: ["1D23728F89A9C162"]
+			description: [
+				"The &aRobot Arm&r is both a cover and a crafting component. "
+				""
+				"It's the first component that requires a circuit, and thus it is likely to be the most expensive component you craft for a while. It's primary use is in the recipe for &bAssemblers&r and &bCircuit Assemblers&r."
+				""
+				"As a &dcover&r, they can limit the number of items that get transported at once, which is very useful for some automation."
+			]
 			id: "76D8D4B40CB4F201"
 			rewards: [{
 				id: "47E575BBAF1DFABF"
@@ -172,6 +220,11 @@
 				"7E94BB2221A3CF87"
 				"4A021C94B02EFF7A"
 			]
+			description: [
+				"&aFluid regulators&r restrict the flow of fluids from one inventory to the next."
+				""
+				"They find more use later on when controling the transport rate can be critical to maintaining equilibrium in things like multiblock turbine generators."
+			]
 			id: "0E5FF28A0F8C13D6"
 			tasks: [{
 				id: "1B3E4B720E548191"
@@ -183,7 +236,13 @@
 		}
 		{
 			dependencies: ["3B65A8B097513381"]
+			description: [
+				"The &dBender&r produces &b1x plate&r per ingot, and &b4x foil&r per plate, making it a big efficiency upgrade."
+				""
+				"You are likely to find yourself waiting on &6Steel&r, so a 50% savings can amount to a lot of time saved in the &dPrimitive Blast Furnace&r."
+			]
 			id: "78E9C3B250D8BC4A"
+			subtitle: "Without Blackjack"
 			tasks: [{
 				id: "2D37CA97173C84C6"
 				item: "gtceu:lv_bender"
@@ -194,7 +253,13 @@
 		}
 		{
 			dependencies: ["3B65A8B097513381"]
+			description: [
+				"The &dWiremill&r produces &b2x wires&r per ingot, and &b4x fine wires&r per wire."
+				""
+				"It's a huge savings in material (and tools) over crafting wires manually."
+			]
 			id: "4F19DD4E6A15ABE9"
+			subtitle: "Run of the Mill"
 			tasks: [{
 				id: "5673D04B44B5F172"
 				item: "gtceu:lv_wiremill"
@@ -205,7 +270,13 @@
 		}
 		{
 			dependencies: ["3B65A8B097513381"]
+			description: [
+				"The &dLathe&r procues rods and screws twice as cheaply as your &afile&r has managed."
+				""
+				"You will be needing a lot of rods for &bmotors&r, which are used in many machines as well as in &bpistons&r and &bconveyors&r."
+			]
 			id: "318F72DBE839E3F1"
+			subtitle: "Spinning Steel"
 			tasks: [{
 				id: "5F633593BBEF13B0"
 				item: "gtceu:lv_lathe"
@@ -337,7 +408,13 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &dElectrolyzer&r can break down compounds into their constituent elements."
+				""
+				"Up here in the sky, this will be an important part of creating the &braw components&r for synthesyzing more complex materials for higher tier technology."
+			]
 			id: "50E2C70AAD733B7D"
+			subtitle: "Magic Anode"
 			tasks: [{
 				id: "20D4E130A187297A"
 				item: "gtceu:lv_electrolyzer"
@@ -347,7 +424,15 @@
 			y: -1.0d
 		}
 		{
+			description: [
+				"&6Aluminium&r is the 3rd most abundant element in the Earth's crust, but that's not where we are right now."
+				""
+				"There are plenty of excellent sources for it up here in the sky, but they require &bMV&r or higher tier machines to process and separate, and &bMV&r machines require &6Aluminium&r!"
+				""
+				"Electrolyzing &6Sapphire Dust&r is a good way to bootstrap some &6Aluminium&r so we can build machines that can prodice it in larger quantities."
+			]
 			id: "1432E12120D51E99"
+			subtitle: "First Source of Aluminium"
 			tasks: [{
 				id: "49618C7EABEA777C"
 				item: {
@@ -376,6 +461,11 @@
 			dependencies: [
 				"50E2C70AAD733B7D"
 				"1432E12120D51E99"
+			]
+			description: [
+				"&6Aluminium Dust&r smelts into ingots at a higher temperature than your &dPrimitive Blast Furnace&r can muster. You'll need the &dElectric Blast Furnace&r."
+				""
+				"It's useful in dust form as a part of some alloys that you can make in the &dMixer&r, especially &6Cobalt Brass&r, which you can use to make a &dCutter&r."
 			]
 			id: "4D96207354C83C46"
 			subtitle: "Is that Spelled Right?"
@@ -410,7 +500,13 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &bCentrifugre&r can physically separate mixtures into their individual components, even if those mixtures are, say, &9Rubber Wood&r."
+				""
+				"This is a central way to get some important materials out of ores, where they are found in trace amounts. The most pressing use is extracting &6Arsenic&r from &bRealgar&r for use in circuit component manufacturing."
+			]
 			id: "3A36E2898F29340D"
+			subtitle: "Mixing Things Apart"
 			tasks: [{
 				id: "32B7DD49E091CC55"
 				item: "gtceu:lv_centrifuge"
@@ -424,11 +520,14 @@
 			description: [
 				"The &dAssembler&r is one of the primary milestones of any voltage tier."
 				""
-				"The &7LV&r &dAssembler&r "
+				"Your first &dAssembler&r features simpler recipes for many vanilla items, like &9Hoppers&r.  It can also craft many things that required tools before, like &bmachine casings&r."
+				""
+				"IT also opens up many higher yield recipes, especially for &bcircuit components&r. Be sure to look into the &dAssembler&r tab in &2JEI&r before bulk crafting things moving forward, there may be cheaper versions of recipes that you've grown used to."
 			]
 			id: "7E8E4BD59374D8DB"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Avengers..."
 			tasks: [{
 				id: "0F80A2E107873F7B"
 				item: "gtceu:lv_assembler"
@@ -439,7 +538,13 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &dMixer&r can combine dusts and fluids together more thoroughly than can be done by hand."
+				""
+				"Alloys you have been crafting from dusts, like &6Potin&r, have higher yields in the mixer."
+			]
 			id: "1B2062222527BBAC"
+			subtitle: "Mixing Things Together"
 			tasks: [{
 				id: "7920C798FAB27426"
 				item: "gtceu:lv_mixer"
@@ -455,8 +560,6 @@
 			]
 			description: [
 				"&6Gallium Arsenide&r is a key component in diodes."
-				""
-				"&9Diodes&r act as a valve for current, only allowing electricity to flow in one direction. This is important for protecting the &edelicate components&r in more advanced circuitry."
 				""
 				"&6Arsenic&r can be found in &bRealgar&r.  "
 				""
@@ -476,6 +579,7 @@
 				"772F79B975654579"
 				"7E8E4BD59374D8DB"
 			]
+			description: ["&9Diodes&r act as a valve for current, only allowing electricity to flow in one direction. This is important for protecting the &edelicate components&r in more advanced circuitry."]
 			id: "79DB12604EBBF544"
 			subtitle: "Puny Single-Diode Rectifier"
 			tasks: [{
@@ -509,6 +613,11 @@
 				"79DB12604EBBF544"
 				"097D6C3A0A6801F0"
 			]
+			description: [
+				"Along with &6Aluminium&r, &9good electronic circuits&r are the last step out of &7LV&r and into &6MV&r."
+				""
+				"While these will soon be used in abundance for general &6MV&r machines, the most important use of them at this stage is in crafting the &7LV&r &bCircuit Assembler&r, which makes the process of creating these much more efficient."
+			]
 			id: "40587175AF3E64BC"
 			shape: "gear"
 			size: 1.5d
@@ -522,7 +631,13 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4A021C94B02EFF7A"]
+			dependencies: ["087D8C99062EFEFD"]
+			description: [
+				"&9Emitters&r are mostly used towards the end of each tier, as you build &dLaser Engravers&r and &dCircuit Assemblers&r in preparation to tier up."
+				""
+				"They typically feature a challenging &dgem&r component that you may not have prepared for. Very convenient!"
+			]
+			hide_dependent_lines: true
 			id: "7E378E8FADCE53D1"
 			tasks: [{
 				id: "04BA7F6843307148"
@@ -530,10 +645,15 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4A021C94B02EFF7A"]
+			description: [
+				"The &bSensor&r is used infrequently in the low tiers, finding their way only into &9Prospectors Scanners&r and &9Miners&r, which have limited uses up in the sky."
+				""
+				"Late on, you'll need higher tier &bSensors&r in &9Processing Arrays&r."
+			]
 			id: "1D1E0E7942066E3F"
 			tasks: [{
 				id: "62252E0A32E49FCA"
@@ -541,10 +661,15 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4A021C94B02EFF7A"]
+			description: [
+				"Included &omostly&r for completion, the &bField Generator&r for a given tier is typically used in higher tier recipes."
+				""
+				"The first use of these are for &9Super Tanks&r and &9Super Chests&r, which are not craftable until &6HV&r."
+			]
 			id: "28C1D0438CB141B6"
 			tasks: [{
 				id: "034EB0E7E3251300"
@@ -555,8 +680,17 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["40587175AF3E64BC"]
+			dependencies: [
+				"40587175AF3E64BC"
+				"7E378E8FADCE53D1"
+			]
+			description: [
+				"The &dCircuit Assembler&r one of the last machines you will make at each tier, and an important part of preparing for the following tier."
+				""
+				"This &7LV&r &dcircuit assembler&r unlocks a higher-yield &7LV&r electronic circuit and a cheaper &6MV&r electronic circuit, cutting the cost of the &6MV&r variant by 3x."
+			]
 			id: "7A284CF12EA916D5"
+			subtitle: "Another Assembler?"
 			tasks: [{
 				id: "5AB0E0561F5457E7"
 				item: "gtceu:lv_circuit_assembler"
@@ -567,6 +701,15 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"An upgrade the steam version, the &7LV&r &dExtractor&r can melt many basic metals.  The liquid form of these metals have a lot of uses at this tier:"
+				""
+				"* &6Red Alloy&r unlocks cheaper circuit component recipes in the &dAssembler&r"
+				""
+				"* &6Tin&r allows you to produce your first &bHeating Coils&r, needed for the &dElectric Blast Furnace&r"
+				""
+				"* &6Soldering Alloy&r opens up cheaper recipes in the &dCircuit Assembler&r"
+			]
 			id: "26EDFA674C0BC1C1"
 			tasks: [{
 				id: "5F9EDBB8643563AE"
@@ -581,6 +724,19 @@
 				"26EDFA674C0BC1C1"
 				"7E8E4BD59374D8DB"
 			]
+			description: [
+				"&bHeating Coils&r are used in 4 multiblocks:"
+				""
+				"* In the &dElectric Blast Furnace&r, they increase the available heat and impact overclocking"
+				""
+				"* In the &dMulti Smelter&r, they increase energy efficiency and parallelism"
+				""
+				"* In the &dPyrolyse Oven&r, they increase processing speed"
+				""
+				"* In the &dCracking Unit&r, they increase energy efficiency"
+				""
+				"You can see the impact of each coil type on these machines by holding &3shift&r while hovering in &2JEI&r."
+			]
 			id: "6E1D7468A66DB67F"
 			tasks: [{
 				id: "462D52BF6AEEAA47"
@@ -592,7 +748,13 @@
 		}
 		{
 			dependencies: ["62B333F50C74A0F3"]
+			description: [
+				"The &dFluid Solidifier&r is your cheapest bet for creating cheap &brubber sheets&r from the fluid rubber coming out of your &dChemical Reactor&r."
+				""
+				"It also allows you to create rotors in a single processing step, provided that you have made at least an &7LV&r &dExtractor&r."
+			]
 			id: "43668EE014EB3089"
+			subtitle: "It Solidifies Fluids"
 			tasks: [{
 				id: "631CA6627DAC91B2"
 				item: "gtceu:lv_fluid_solidifier"
@@ -606,9 +768,17 @@
 				"7742187BCE898BB6"
 				"4D96207354C83C46"
 			]
+			description: [
+				"&6Aluminium&r is the &dhull material&r for &bMedium Voltage&r, and producing them in your &dEBF&r is a major step towards forwards in your &2technological journey&r."
+				""
+				"If you are &dCentrifuging&r air for &6oxygen&r, you can use the &6nitrogen&r you are producing to increase the efficiency and reduce the power requirements of &6Aluminium&r."
+				""
+				"Unless you've built a lot of steam infrastructure, you might find running this recipe constantly a challenge. Not to worry, &6Aluminium&r is about to unlock better power options."
+			]
 			id: "4565F14B36E7CD6C"
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Aluminum... Whatever That Is"
 			tasks: [{
 				id: "000D62627BBBB1FC"
 				item: "gtceu:aluminium_ingot"
@@ -701,6 +871,11 @@
 		}
 		{
 			dependencies: ["1B2062222527BBAC"]
+			description: [
+				"Though optional until higher tiers, &6Soldering Alloy&r is twice as efficient in the &dCircuit Assembler&r than &6tin&r. "
+				""
+				"It will probably be a while until you are automating supply of soldering material, so will let you run twice the number of recipes off of one tank."
+			]
 			id: "05BAB2475041E34F"
 			tasks: [{
 				id: "3D73778888B541BF"
@@ -711,6 +886,13 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"Although &afluid regulators&r can be used as covers, they don't find their way into any recipes."
+				""
+				"&aField generators&r are likewise typically not used in recipes within their own tier, and &asensors&r are mostly used to craft things that have little relevance up here in the sky."
+				""
+				"These do all become useful later;  they are here so you are not surprised when you first encounter them."
+			]
 			icon: "minecraft:dark_oak_hanging_sign"
 			id: "4A021C94B02EFF7A"
 			shape: "circle"
@@ -724,7 +906,18 @@
 		}
 		{
 			dependencies: ["43668EE014EB3089"]
+			description: [
+				"Single step rotors are worth it in themselves, but we'll &brefund the steel&r in case you were on the fence."
+				""
+				"Earlier versions of &2Gregtech&r didn't have &9rotor molds&r, but the rotor recipe was apparently too painful even for GT enthusiasts."
+			]
 			id: "2D5E4C4A7A2D98B1"
+			rewards: [{
+				count: 4
+				id: "09677EADA57F6A18"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C8440D12705B129"
 				item: "gtceu:rotor_casting_mold"
@@ -762,7 +955,7 @@
 			description: [
 				"The &aPump&r, &aRegulator&r, &aConveyor&r and &aRobot Arm&r are usable as &bcovers&r."
 				""
-				"Covers allow you to control the input and output of fluids and items between Machines, Crates, Drums, and Multiblock buses and hatches."
+				"Covers allow you to control the input and output of fluids and items between machines, crates, drums, buses, and hatches. You can configure them with a &ascrewdriver&r."
 				""
 				"* The &aPump&r can push or pull &efluids&r from an inventory"
 				""
@@ -840,7 +1033,7 @@
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
-			subtitle: "*Clink* ... Glass."
+			subtitle: "*Clink*"
 			tasks: [{
 				count: 64L
 				id: "5051DBC79921B240"
@@ -868,6 +1061,41 @@
 			title: "Applied Energistics"
 			x: -2.5d
 			y: 6.5d
+		}
+		{
+			description: [
+				"The &dAutoclave&r is a machine that can create gems and crystals from dusts."
+				""
+				"We will need to use it extensively in later tiers, but right now it is required to make &9Quartzite&r, required for the &7LV&r emitter."
+				""
+				"&9Quartzite&r can be found by crushing &6sand&r in a &dmacerator&r to create quartz sand, then &dcentrifuging&r it."
+			]
+			id: "087D8C99062EFEFD"
+			tasks: [{
+				id: "56467B9593D4F3F7"
+				item: "gtceu:lv_autoclave"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D96207354C83C46"]
+			description: [
+				"The &dCutter&r uses a lubricant to cut blocks and rods into plates and bolts."
+				""
+				"The &dbolt&r recipe is more efficient than using your &asaw&r, and the &dCutter&r is the only way to get plates made out of &bgem materials&d like &6diamond&r or &6emerald&r."
+				""
+				"The &6Cobalt&r you need for the &6Cobalt Brass&r saw blade can be found in small amounts by processing &6Copper Ore&r."
+			]
+			id: "5429CD428279C6BA"
+			tasks: [{
+				id: "516814B10ABBC5E6"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]

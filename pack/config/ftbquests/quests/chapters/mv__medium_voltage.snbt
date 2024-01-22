@@ -4,21 +4,10 @@
 	filename: "mv__medium_voltage"
 	group: "693226878D58638A"
 	id: "43E779CEEB25D55B"
-	order_index: 10
-	quest_links: [{
-		id: "6FCAD016C795DE93"
-		linked_quest: "7567E885B7166603"
-		shape: "gear"
-		size: 1.2d
-		x: 0.0d
-		y: 0.375d
-	}]
+	order_index: 9
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"0DBC148D92A9F69F"
-				"7567E885B7166603"
-			]
 			description: [
 				"The &3Pyrolyse Oven&r is an electric equivalent to the &3Coke Oven&r. It can produce &9Coal Coke&r and &9Charcoal&r with a &9Creosote&r byproduct just as before, but also has additional &6Organic Byproducts&r, the most beneficial of these being &aWood Tar&r."
 				""
@@ -99,7 +88,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
 			description: [
 				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
 				""
@@ -247,11 +235,6 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"0DBC148D92A9F69F"
-				"7567E885B7166603"
-				"6E186F9C57155BFA"
-			]
 			description: [
 				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
 				""
@@ -326,10 +309,6 @@
 			y: 0.375d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: [
 				"&3Transformers&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
 				""
@@ -357,10 +336,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: [
 				"If you're wanting to dive into &bMV&r, start here."
 				""
@@ -381,7 +356,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7567E885B7166603"]
 			description: [
 				"Here's a list of the components you will need in &bMV&r. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
 				""
@@ -432,10 +406,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot easier!"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
@@ -503,7 +473,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0DBC148D92A9F69F"]
 			description: [
 				"This kind soul&r will mine ores for you when placed above a vein."
 				""
@@ -751,10 +720,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: [
 				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of &oproperly&r reaching said voltage."
 				""
@@ -776,10 +741,7 @@
 			y: -0.75d
 		}
 		{
-			dependencies: [
-				"1646BF9194100E57"
-				"2AD44111B9B39C90"
-			]
+			dependencies: ["2AD44111B9B39C90"]
 			description: [
 				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
 				""
@@ -949,10 +911,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4073577B7EF9B593"
-				"1E9BE8D3F8A602DC"
-			]
 			description: [
 				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r. Their primary purpose is engraving &6Circuit Wafers&r."
 				""
@@ -1154,7 +1112,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
 			description: [
 				"&aBlue Alloy&r is an excellent Cable material for &6HV&r power."
 				""
@@ -1321,11 +1278,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"5263F866638D875C"
-				"257DB4B39B2A928E"
-				"3D98819A799D2E64"
-			]
 			description: [
 				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It is completely optional, but pretty rewarding."
 				""
@@ -1371,10 +1323,6 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"3D98819A799D2E64"
-				"1A77CA35F054F988"
-			]
 			description: [
 				"JEI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
 				""
@@ -1402,10 +1350,6 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"32B08E6F414A00C0"
-				"3D98819A799D2E64"
-			]
 			description: [
 				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
 				""
@@ -1466,10 +1410,6 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"63CD0236B337EAAD"
-				"6D9D54FAB21EC086"
-			]
 			description: [
 				"&bMV&r Batteries will be convenient to buffer Energy, just like &7LV&r."
 				""
@@ -1500,10 +1440,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: [
 				"We &lSINCERELY&r hope at &cno&r point you made the &7LV&r Extruder, because only the &bMV&r Extruder is actually useful. If you did, immediately &arecycle it&r through the Arc Furnace."
 				""
@@ -1559,10 +1495,6 @@
 			y: 0.375d
 		}
 		{
-			dependencies: [
-				"7567E885B7166603"
-				"0DBC148D92A9F69F"
-			]
 			description: [
 				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
 				""
@@ -1609,7 +1541,6 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
 			description: [
 				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
 				""
@@ -1679,7 +1610,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["648BCF486E16CCB2"]
 			description: [
 				"The underground has pure Oilsands ore veins. You may &3centrifuge&r the Dust to get &aOil&r."
 				""
