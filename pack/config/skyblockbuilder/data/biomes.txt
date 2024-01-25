@@ -25,18 +25,12 @@ minecraft:frozen_peaks
 minecraft:frozen_river
 minecraft:grove
 minecraft:ice_spikes
-gcyr:infernal_venus_barrens
 minecraft:jagged_peaks
 minecraft:jungle
 minecraft:lukewarm_ocean
 minecraft:lush_caves
 minecraft:mangrove_swamp
-gcyr:martian_canyon_creek
-gcyr:martian_polar_caps
-gcyr:martian_wastelands
 minecraft:meadow
-gcyr:mercury_deltas
-gcyr:moon
 minecraft:mushroom_fields
 minecraft:nether_wastes
 minecraft:ocean
@@ -53,7 +47,6 @@ minecraft:snowy_plains
 minecraft:snowy_slopes
 minecraft:snowy_taiga
 minecraft:soul_sand_valley
-gcyr:space
 minecraft:sparse_jungle
 ae2:spatial_storage
 minecraft:stony_peaks
@@ -63,7 +56,6 @@ minecraft:swamp
 minecraft:taiga
 minecraft:the_end
 minecraft:the_void
-gcyr:venus_wastelands
 minecraft:warm_ocean
 minecraft:warped_forest
 minecraft:windswept_forest

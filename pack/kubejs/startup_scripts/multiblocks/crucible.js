@@ -9,9 +9,8 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
 
-    let itemOut = Predicates.abilities(PartAbility.EXPORT_ITEMS)
-    let itemIn = Predicates.abilities(PartAbility.IMPORT_ITEMS)
-    let setCount = (pred, limit, preview) => { pred.setMaxGlobalLimited(limit).setPreviewCount(preview) }
+    let setCount = (pred, limit, preview) => { return pred.setMaxGlobalLimited(limit).setPreviewCount(preview) }
+    let abilities = Predicates.abilities
 
     event.create("basic_crucible", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
@@ -26,10 +25,10 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .aisle("HHH", "HXH", "HHH")
                 .where("X", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("H", Predicates.blocks(GTBlocks.MACHINE_CASING_ULV.get())
-                    .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
-                    .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
-                    .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(3).setPreviewCount(1))
-                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.LV).setMaxGlobalLimited(1).setPreviewCount(1)))
+                    .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
+                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 2, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 3, 1))
+                    .or(setCount(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.LV), 1, 1)))
                 .where("C", Predicates.blocks("minecraft:lava_cauldron"))
                 .where("G", Predicates.blocks("minecraft:glass"))
                 .build()

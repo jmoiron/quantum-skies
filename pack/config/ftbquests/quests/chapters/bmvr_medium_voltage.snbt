@@ -15,6 +15,7 @@
 	quests: [
 		{
 			dependencies: ["3320E243E14A626A"]
+			description: ["As with every tier, the &9Machine Hull&r is the foundation of building out machines."]
 			id: "0EF63A0F090B2B21"
 			tasks: [{
 				id: "23D4E252E9909638"
@@ -126,6 +127,13 @@
 		}
 		{
 			dependencies: ["55A31B874037ABC1"]
+			description: [
+				"&6Refinery Gas&r is easy to produce, but it is an evolutionary dead end."
+				""
+				"The main use cases for &6Refinery Gas&r is to reduce the power footprint for a larger distillation and cracking facility that is producing higher tier fuels."
+				""
+				"Still, if you are over an enormous &6Light Oil&r vein, this would still be a step up from steam."
+			]
 			id: "3AE5A171DA834F6C"
 			tasks: [{
 				amount: 1000L
@@ -414,6 +422,13 @@
 		}
 		{
 			dependencies: ["39339A08E2BEF594"]
+			description: [
+				"The &dLarge Bronze Boiler&r is the first in a succession of large, multi-block boilers."
+				""
+				"They &bchew&r through fuel, but produce large amounts of steam.  The &dLBB&r produces 800mb/t, equivalent to 400EU/t or a little over 3 &6MV&r amps."
+				""
+				"&6Lava&r seems like a tempting fuel source, but you will need to produce 1 bucket every 3.5 seconds, which would require 72 crucibles or 12 large crucibles."
+			]
 			id: "592A0965509B948F"
 			optional: true
 			tasks: [{
@@ -532,6 +547,11 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"The new &bElectrolyzer&r opens up a number of important recipes."
+				""
+				"The most interesting one is probably &6Clay dust&r."
+			]
 			id: "65E342F2BA8F6BED"
 			tasks: [{
 				id: "72D6882677D33455"
@@ -981,6 +1001,17 @@
 		}
 		{
 			dependencies: ["3320E243E14A626A"]
+			description: [
+				"A new tier brings a new set of &bmechanical components&r."
+				""
+				"These use &6steel&r, &6aluminium&r, &6cupronickle&r, and &bcopper cables&r."
+				""
+				"If you didn't make a &dPolarizer&r to save on redstone before, you'll need one to magnetize &6steel&r."
+				""
+				"You'll have to start making cables in the &dAssembler&r; starting at &6MV&r, the components are too delicate to just wrap with a rubber plate."
+				""
+				"Melting &6aluminium&r for the small gear would require an &6MV&r &dExtractor&r, but an even better method is available in the &dExtruder&r."
+			]
 			id: "38EAB70E46A8C2C9"
 			tasks: [
 				{
@@ -1009,7 +1040,7 @@
 					type: "item"
 				}
 			]
-			title: "New Mechanical Components"
+			title: "New Machine Parts"
 			x: 5.0d
 			y: -12.0d
 		}

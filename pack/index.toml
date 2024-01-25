@@ -110,19 +110,19 @@ hash = "6179263b0aeaf3d52a25f56e61852955ad86f5f8f6b64f41cb08ab8cf369f11e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "419195d3148d2c6ffcac1f5b6f8240a59dd26764bddbd1c5acf518a6618a7e68"
+hash = "7966e08800dd923997a9755e06c084325798b31fde1bf58e2101942f5323ccd6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "fcc75c06161e739688567067a56159920b92017fbf3c62af71e94de5b1eb4ac9"
+hash = "8eb4bb9401c29009cce03013f7d35a153883cc2e62bf9519cd1996361079ae6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "a09afdbe1a4bb660510d6825b4c390165afd89b04305cc6f9674c5b2f8b5bc72"
+hash = "51191441e028f1c5ffa31deec21d5dbd89841ca3b010ef0e8c33111b05b61e93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "6ed8db31a200f03287154925b43b39350c3b5fec2a9592a40b9728fc7bada1b6"
+hash = "20f2651dfdb664764ee03e04d97ff38c8fa3eafbd5a775e69b1522e598280467"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -130,15 +130,15 @@ hash = "70594d1a72522f99bc6e16deba51817d55810da2077e100107b81f4683f0f260"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "a448ee5caa9337c711706bc711a7630e6c7a907b22c27d6c0d8fd7152d55058a"
+hash = "4069730dae4db25153efcfe37600bda0d4be52556f55309510b6482e14c83686"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "b82035561aa4b1ef096519305445c7c119939c75002dde506eb34c56832e93f1"
+hash = "c3c793239a971f68ea1351c757a84e742af3c86b86a0c6ae08df7ca998e4e520"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "09775325379e69836780aee830a81685eaa09016b794ad0fe3ab600f0a538630"
+hash = "cea00a09706170faea6fc99f0ade69d7d697a660d1906fee86dd8607e1c1a75d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
@@ -153,24 +153,20 @@ file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
 hash = "05a11d28bdafc13eae6f70fa8236594e60cb1324307303aafa0239e711d60ae2"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "3944ebe83e1818af253d6929481509a5fb3de25067dd8d940e2703672734fee4"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
 hash = "95459fedf468df735359866ee08ef2cee9bdc7b6a0c3b063f22340b183d5afe4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
-hash = "2317eeeae741394b28e2567cbb7ae79f711c8ac7d04911de73f375ba9ef3c6b6"
+hash = "b137078f782316765a1f26040dd733c5445882ead99b990a52c2d81f83725fbf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "69ad397f5998f4abcf3581c1b782dae6b07074fe0a8ce7b342160718da6b3d6f"
+hash = "877f39448ccaff774ec9e36f140f8b54893e65f881dbd13ee23a4289c8043874"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "94b985afb1b4b78dea63a5565427f9dc2a84ec984090689f8139eccdb6c6471e"
+hash = "09c8f9e8441d2558c444e56687cbfe3a014401c923dbb1830daf5a36f7039b97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -178,7 +174,7 @@ hash = "084c3defe5d84b5603ff2639412fa8e53816e8fae865ff9c517f7ee434f7523d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "5aee38afedc9ac5bbc08666d8e2f44a683d9dbb5c5970d0de2dfa233ec507504"
+hash = "f813a126fa0c199668ff697c2fd7d7890b865d80e2be6510e094921d1b0f8069"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -234,7 +230,7 @@ hash = "6ba6c7266d8b076ba21a68613f8aea643d8ebecf8aad9c6920587413f61c32f6"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "3aa85cf073f38492667390d042c5e14945a12dd8d2335f3b70722ae304a87212"
+hash = "6ad10ce98515dcaeab96007dbdaa7c9061018b2682f176e57c3d82206c666c0b"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -242,7 +238,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "d42dc403d93b40be65bc7cc21c5aeb17014f125edfd702e532a55ac85c233d8a"
+hash = "79c4e3c01552484175ff045eb581b173e15461d053148980a6cb4012e5b5a71f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -266,7 +262,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f2345295f6ccde8a3c13de305ba798430c6207f06ca59bd1e5cbb74491a30611"
+hash = "d7076472bdc1f706c783b4fb6ddf329e7bece43bf14551e47de37b42220c42da"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -282,7 +278,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "700cbc4bb2321b1aba2750bde060c7bf22c5a2c5abaa123af39098ac5062478d"
+hash = "faa8d29818ef6a1a1da57f7a509142a583eac5264b361476c05154c21e4b1df9"
 
 [[files]]
 file = "config/panorama.json"
@@ -302,7 +298,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "118eb34cd2b19c790b48e65ecf90a2968e73c1efe232ea6ab6369a6e3eedbafe"
+hash = "d83f0dbe3198d3d321de4351f7b9218d6b5989a814983a69987e864c6cf7b28c"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
@@ -310,7 +306,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "e7e7421451222696857594c48a8ca63c0796343705506d6919b6c726f36e1be5"
+hash = "c75435fb00efafc546f7ac7bf90c5b0ad1940b0152bdf4a149b75443092557bb"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -318,7 +314,7 @@ hash = "273c44a10e2d0a9f2c44653956d4b3fd8e68ac05cb5ca0f3e3d61ad22bb88860"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
-hash = "2be80e4d3eb8e1e6b631b473aa53b01a5044b0c40a7ffe5a944e6906012ece7b"
+hash = "6dba104979d0216a3d42c319cba1548acabf52702a219073aa532cc6a142a34b"
 
 [[files]]
 file = "config/skyblockbuilder/dimensions.json5"
@@ -418,7 +414,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "eb5054da10d080184c78315db3db0ce9a100c30aed6b5f7bb61330475d7004b7"
+hash = "92e5bb33fb14e60a72088a494de9554e5786159cf21cfec7789aec67e8908830"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -770,12 +766,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "ba8611194b53a37c87f3531718f338b7f5275a84dc7d35730e660c9e7d5e680e"
+hash = "0d2a80abab32de6a2094520dacb0fbca2d1a66f6c7f3c6f441c07320e2572856"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "16e3916838ca25a74bf2c9d89e78dfff74a5f6ebe7b873f5e8ea162d9e957475"
+hash = "390520484c4e0646294c1ca3e75985344565735caa84e3d00bddeb69cee88e39"
 metafile = true
 
 [[files]]
@@ -794,18 +790,13 @@ hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
 metafile = true
 
 [[files]]
-file = "mods/gcyr.pw.toml"
-hash = "315d9fdf34811f60b0e0b8aa423f7996bb70e0e382a43d21dd9de2e0dd267aaf"
-metafile = true
-
-[[files]]
 file = "mods/glodium.pw.toml"
 hash = "eda0e7e00a4de2a3a9400dc4f00b8c98d8b5751373bbf7548d530edd6a5a43b6"
 metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "a997f8359819f4de06deac6cc5178a20225155e3f03dce3e92b66720e2ba35ee"
+hash = "9fae1c752c8cda6ced46ab29d5c277348042425ad5a35a0e9b5be69584ed62aa"
 metafile = true
 
 [[files]]
@@ -910,7 +901,7 @@ metafile = true
 
 [[files]]
 file = "mods/probejs.pw.toml"
-hash = "40d3ed9c0c5e9436c0e9c26313052d5a0a782132bcaea8af185721c4b4cff080"
+hash = "7b68e55ac49b66e79da5ef7ab05cb41549d4bb17e9050aeacc465bac97c6548c"
 metafile = true
 
 [[files]]
