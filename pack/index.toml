@@ -201,12 +201,8 @@ file = "config/ftbxmodcompat.snbt"
 hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
-file = "config/gcyr.yaml"
-hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
-
-[[files]]
 file = "config/gtceu.yaml"
-hash = "0d2754b097235f6aeaa29f1f02acd8f74d42a1b50ffbc27596c8a1d2e0467f59"
+hash = "6e6d3882c50cc2e5e8a1fbdb9554ad053a675ea2a5d5a8ecfbfa1aa97658e615"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -230,7 +226,7 @@ hash = "6ba6c7266d8b076ba21a68613f8aea643d8ebecf8aad9c6920587413f61c32f6"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "6ad10ce98515dcaeab96007dbdaa7c9061018b2682f176e57c3d82206c666c0b"
+hash = "77d6d5d99ecc44c96d7ce8a556cb03426b19995915468a0e380fdb4435de39bd"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -238,7 +234,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "79c4e3c01552484175ff045eb581b173e15461d053148980a6cb4012e5b5a71f"
+hash = "d42dc403d93b40be65bc7cc21c5aeb17014f125edfd702e532a55ac85c233d8a"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -262,7 +258,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "d7076472bdc1f706c783b4fb6ddf329e7bece43bf14551e47de37b42220c42da"
+hash = "f2345295f6ccde8a3c13de305ba798430c6207f06ca59bd1e5cbb74491a30611"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -278,7 +274,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "faa8d29818ef6a1a1da57f7a509142a583eac5264b361476c05154c21e4b1df9"
+hash = "7c23e929645ee24d1211f21a7fe8699f5085daade035129cbfd7ec0d7bd2a13f"
 
 [[files]]
 file = "config/panorama.json"
@@ -298,7 +294,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "d83f0dbe3198d3d321de4351f7b9218d6b5989a814983a69987e864c6cf7b28c"
+hash = "118eb34cd2b19c790b48e65ecf90a2968e73c1efe232ea6ab6369a6e3eedbafe"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
@@ -306,7 +302,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "c75435fb00efafc546f7ac7bf90c5b0ad1940b0152bdf4a149b75443092557bb"
+hash = "e7e7421451222696857594c48a8ca63c0796343705506d6919b6c726f36e1be5"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -314,7 +310,7 @@ hash = "273c44a10e2d0a9f2c44653956d4b3fd8e68ac05cb5ca0f3e3d61ad22bb88860"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
-hash = "6dba104979d0216a3d42c319cba1548acabf52702a219073aa532cc6a142a34b"
+hash = "2be80e4d3eb8e1e6b631b473aa53b01a5044b0c40a7ffe5a944e6906012ece7b"
 
 [[files]]
 file = "config/skyblockbuilder/dimensions.json5"
@@ -375,10 +371,6 @@ hash = "d56d8431a85eeabaa8007550f4557112b813922a9036414cb6eea11fefd753ae"
 [[files]]
 file = "config/tempad.jsonc"
 hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
-
-[[files]]
-file = "config/thermal-common.toml"
-hash = "1fc3d91e3ae90b1ed8881ca4a4277826f0e2d09771cc25e44c80042e3e143091"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
@@ -446,7 +438,7 @@ hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
 file = "kubejs/config/probejs.json"
-hash = "5fc1af5cf2fda26d7fc20cd30b1b535c12b937ade933d241821845e8fc2df142"
+hash = "335e9cc8913071177e9a4becd696c010d73f5cd7f4788c8e4ad7c218a4e29c3c"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -590,11 +582,11 @@ hash = "e0b608daf855fceeba67034c4c697da534fb06a1a9fc6e82cee4c0f862621441"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/cauldron.js"
-hash = "cf180c1f6b42c4dbe3c8642e515caf58c584f1b9923bb3845fb9ac934004d52c"
+hash = "302b5947f8e6a9164ee44ab15ba13b9e4bfd9eb5e4413f1252583329861a472d"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/crucible.js"
-hash = "5a72b30655819a9af3e2a281986d597037d8b9a7a33e6ad9a28a0187eeda059e"
+hash = "9cb2ecfa9322f0dde03d14a5084e084af3a9075aa132e739257991b77a17b053"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/greenhouse.js"
@@ -1012,9 +1004,4 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7dbe376c64d52ddc3e52ca6ce6b07d8c5d76bf9ef68d58267bb9e9c6d8fb2c09"
-metafile = true
-
-[[files]]
-file = "vanilla-plus-shader.pw.toml"
-hash = "1eb275496604d6743f17a7398ce68a57c8199bd19b5c2f174668d1c155c0c0e0"
 metafile = true

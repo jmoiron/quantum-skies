@@ -146,10 +146,16 @@ ServerEvents.recipes(event => {
                 ["gtceu:beryllium_crushed_ore", 0.10],
                 ["gtceu:stibnite_crushed_ore", 0.25]
             ],
-            "exnihilosequentia:crushed_blackstone": [
+            "exnihilosequentia:crushed_granite": [
                 ["gtceu:silver_crushed_ore", 0.35],
                 ["gtceu:galena_crushed_ore", 0.35],
                 ["gtceu:lead_crushed_ore", 0.20],
+            ],
+            "exnihilosequentia:crushed_blackstone": [
+                ["gtceu:pyrolusite_crushed_ore", 0.25],
+                ["gtceu:crushed_grossular_ore", 0.25],
+                ["gtceu:crushed_spessartine_ore", 0.20],
+                ["gtceu:crushed_tantalite_ore", 0.20],
             ],
             "exnihilosequentia:crushed_andesite": [
                 ["gtceu:realgar_crushed_ore", 0.25],

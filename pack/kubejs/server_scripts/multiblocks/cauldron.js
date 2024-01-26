@@ -2,6 +2,7 @@
 ServerEvents.recipes(event => {
 
     // controller block recipe for the large crucible
+    // FIXME: should not eat the bucket
     event.shaped(Item.of("gtceu:large_cauldron"),
         ["CGC", "WXH", "CLC"],
         {

@@ -74,10 +74,9 @@
 			dependency_requirement: "one_completed"
 			id: "16935534AA79DBEE"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:light_fuel"
-				id: "2FF89DF3AD94E534"
-				type: "fluid"
+				id: "10EB0CE3D44EAA8B"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -4.5d
@@ -100,10 +99,9 @@
 			id: "1E1748C74140C63A"
 			subtitle: "Our Hexagonal Carcinogen"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:benzene"
-				id: "12FEA94CB94AA0B8"
-				type: "fluid"
+				id: "018EDDA49E6EFD7D"
+				item: "gtceu:benzene_bucket"
+				type: "item"
 			}]
 			x: 12.5d
 			y: -4.5d
@@ -117,10 +115,9 @@
 			]
 			id: "6E4B65DC3B9FB178"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:lpg"
-				id: "71E5283B85F767EC"
-				type: "fluid"
+				id: "6DAF3F105A0E004C"
+				item: "gtceu:lpg_bucket"
+				type: "item"
 			}]
 			x: 11.0d
 			y: -3.0d
@@ -136,10 +133,9 @@
 			]
 			id: "3AE5A171DA834F6C"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:refinery_gas"
-				id: "01D400CFB5EDB22E"
-				type: "fluid"
+				id: "3B8B532BF2C2A2D9"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
 			}]
 			x: 11.0d
 			y: -4.5d
@@ -151,10 +147,9 @@
 			]
 			id: "6FAB1CA9E78CC48F"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:diesel"
-				id: "48E91EF02A485E80"
-				type: "fluid"
+				id: "2ACEF64A129CBD96"
+				item: "gtceu:diesel_bucket"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -3.0d
@@ -236,10 +231,9 @@
 			]
 			id: "4BDC24DF26BB7502"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:ethylene"
-				id: "5856E641E7B7DF00"
-				type: "fluid"
+				id: "064D75DCB6FAE6F5"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
 			}]
 			x: 3.5d
 			y: -4.5d
@@ -248,12 +242,11 @@
 			dependencies: ["4BDC24DF26BB7502"]
 			id: "174CEACF8A92FDC3"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:polyethylene"
-				id: "6D25B10AEA151962"
-				type: "fluid"
+				id: "67EA80234F36B970"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
 			}]
 			x: 3.5d
 			y: -3.0d
@@ -262,10 +255,9 @@
 			dependencies: ["568C0E08EF8815AA"]
 			id: "6CEC31CA4F75BCF3"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:sulfuric_acid"
-				id: "7CA5448691A72C40"
-				type: "fluid"
+				id: "7545842C71ED0973"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
 			}]
 			x: 3.5d
 			y: -6.0d
@@ -278,10 +270,9 @@
 			dependency_requirement: "one_completed"
 			id: "207B8A217A5CB777"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oil"
-				id: "6E6606744DBAFB59"
-				type: "fluid"
+				id: "58F69DC77C80FA15"
+				item: "gtceu:oil_bucket"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -6.0d
@@ -294,10 +285,9 @@
 			dependency_requirement: "one_completed"
 			id: "6DBFD1013B005FC5"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oil_heavy"
-				id: "2DC14970EB557961"
-				type: "fluid"
+				id: "28FCE1B0A79677A6"
+				item: "gtceu:oil_heavy_bucket"
+				type: "item"
 			}]
 			x: 8.0d
 			y: -6.0d
@@ -377,13 +367,17 @@
 		}
 		{
 			dependencies: ["7BF4BE21BD28B97E"]
+			description: [
+				"If you're \"&olucky&r\" and your rig found &6light oil&r under your base, the most efficient way to use it as a power source is to &ddistill&r it into &6refinery gas&r."
+				""
+				"You will need to make other plans for later tiers."
+			]
 			id: "55A31B874037ABC1"
 			subtitle: "The Worst Oil"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oil_light"
-				id: "1712B4E9C0A41A2A"
-				type: "fluid"
+				id: "3FB6DCDDC0C4A748"
+				item: "gtceu:oil_light_bucket"
+				type: "item"
 			}]
 			x: 11.0d
 			y: -6.0d
@@ -488,10 +482,9 @@
 			dependency_requirement: "one_completed"
 			id: "5B6C29247F5D6E21"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:heavy_fuel"
-				id: "1D6E52C534A7C74E"
-				type: "fluid"
+				id: "1998031978AABA20"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
 			}]
 			x: 8.0d
 			y: -4.5d
@@ -515,10 +508,9 @@
 			]
 			id: "77F7117768090539"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:ethanol"
-				id: "3D395811BFD4EBD1"
-				type: "fluid"
+				id: "0783DC65BA35574C"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
 			}]
 			x: 2.0d
 			y: -4.5d
@@ -526,10 +518,9 @@
 		{
 			id: "04A283CCD426FB53"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:biomass"
-				id: "1D0681A811B11410"
-				type: "fluid"
+				id: "34130AE4490F1B5D"
+				item: "gtceu:biomass_bucket"
+				type: "item"
 			}]
 			x: 0.5d
 			y: -4.5d
@@ -1071,10 +1062,9 @@
 			dependency_requirement: "one_completed"
 			id: "16F8B12D38FAFB4E"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:naphtha"
-				id: "7859081D3CAA7D17"
-				type: "fluid"
+				id: "71DD265207C04D28"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
 			}]
 			x: 6.5d
 			y: -4.5d
@@ -1083,10 +1073,9 @@
 			dependencies: ["7BF4BE21BD28B97E"]
 			id: "51EB788B4C504D62"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oil_medium"
-				id: "3002FAE8EE16CD3F"
-				type: "fluid"
+				id: "2D5B87FD8398DA8A"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
 			}]
 			x: 6.5d
 			y: -6.0d
