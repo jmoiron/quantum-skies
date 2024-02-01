@@ -23,22 +23,28 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(
             definition => FactoryBlockPattern.start()
-                .aisle("HHH", "HHH", "HHH")
-                .aisle("HMH", "HCH", "HGH")
-                .aisle("HHH", "HXH", "HHH")
-                .where("X", Predicates.controller(Predicates.blocks(definition.get())))
-                .where("H", Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
+                .aisle("C   C", "C   C", "C   C", "CPPPC", "C M C")
+                .aisle(" MMM ", "     ", "  X  ", "PXXXP", " FFF ")
+                .aisle(" M M ", "  X  ", " X X ", "PX XP", "MFGFM")
+                .aisle(" MQM ", "     ", "  X  ", "PXXXP", " FFF ")
+                .aisle("C   C", "C   C", "C   C", "CPPPC", "C M C")
+                .where("C", Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()))
+                .where("P", Predicates.blocks(GTBlocks.CASING_STEEL_PIPE.get()))
+                .where("F", Predicates.blocks(GTBlocks.FILTER_CASING.get()))
+                .where("G", Predicates.blocks(GTBlocks.CASING_STEEL_GEARBOX.get()))
+                .where("X", Predicates.blocks("gtceu:stainless_steel_frame"))
+                .where("Q", Predicates.controller(Predicates.blocks(definition.get())))
+                .where("M", Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
-                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 2, 1))
-                    .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 3, 1))
-                    .or(setCount(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.LV, GTValues.MV, GTValues.HV), 1, 1)))
-                .where("C", Predicates.blocks("minecraft:water_cauldron"))
-                .where("M", Predicates.blocks("minecraft:mycelium"))
-                .where("G", Predicates.blocks("minecraft:glass"))
+                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 1, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 1, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 1))
+                    .or(setCount(abilities(PartAbility.INPUT_ENERGY), 1, 1)))
+                .where(" ", Predicates.any())
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/voltage/ulv/side", 
+            "gtceu:block/casings/solid/machine_casing_solid_steel", 
             "gtceu:block/multiblock/cracking_unit", 
             false,
         );

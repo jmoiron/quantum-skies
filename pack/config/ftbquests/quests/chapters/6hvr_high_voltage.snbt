@@ -186,7 +186,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["778CAC851BC58AB8"]
+			dependencies: [
+				"778CAC851BC58AB8"
+				"10E6C543269AD20C"
+			]
 			id: "052D83873F917583"
 			tasks: [{
 				id: "1B0475D8A301DF5B"
@@ -352,6 +355,7 @@
 		{
 			dependencies: ["4710DCD2C83D3D38"]
 			id: "27698E1CFA6AC0B5"
+			size: 1.25d
 			tasks: [{
 				id: "51BB6C780430E970"
 				item: "gtceu:distillation_tower"
@@ -363,13 +367,14 @@
 		{
 			dependencies: ["4710DCD2C83D3D38"]
 			id: "454242F0DA2FFBD0"
+			size: 1.25d
 			tasks: [{
 				id: "4670414E4389FDBF"
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -383,7 +388,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -405,11 +410,18 @@
 				"18D57CCC26D52DA6"
 			]
 			id: "1FCD75FBB1AF9A5C"
-			tasks: [{
-				id: "4C382DA2315BEE05"
-				item: "gtceu:phosphorus_wafer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "69398902F9D6040D"
+					item: "gtceu:phosphorus_boule"
+					type: "item"
+				}
+				{
+					id: "61B7C34BC96A0C53"
+					item: "gtceu:phosphorus_wafer"
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: -10.5d
 		}
@@ -427,14 +439,13 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -9.0d
+			x: 1.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
 				"454242F0DA2FFBD0"
 				"10E6C543269AD20C"
-				"052D83873F917583"
 			]
 			id: "313EBA693444B4FB"
 			shape: "gear"
@@ -445,7 +456,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["496A339808DDDF51"]
@@ -500,7 +511,7 @@
 				}
 			]
 			x: 2.5d
-			y: -10.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["699430D161A19BBC"]
@@ -574,7 +585,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -608,6 +619,24 @@
 			}]
 			x: 1.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1FCD75FBB1AF9A5C"]
+			id: "1845C371942ED415"
+			tasks: [
+				{
+					id: "38AC33679446228E"
+					item: "gtceu:soc_wafer"
+					type: "item"
+				}
+				{
+					id: "4753DD1A84D80C93"
+					item: "gtceu:soc"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -10.5d
 		}
 	]
 	subtitle: ["Stainless Steel, Chip Fab and &6High Voltage&r"]
