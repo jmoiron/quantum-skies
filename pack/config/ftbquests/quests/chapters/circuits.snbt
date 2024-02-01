@@ -1,0 +1,592 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "circuits"
+	group: "1C1C4FB2AFCF489D"
+	icon: "gtceu:plastic_printed_circuit_board"
+	id: "54593509D97E8388"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5564907BD6A87B7C"
+			tasks: [{
+				id: "77C1F4E13EFF01CA"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "3278620A21342DF8"
+			tasks: [{
+				id: "161B8BE8EF24A423"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "5335DAE50B5B06CF"
+			tasks: [{
+				id: "548F9A6DB49FD020"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5564907BD6A87B7C"]
+			hide_dependent_lines: true
+			id: "4928F27E780349EC"
+			tasks: [{
+				id: "5F9A07520196F6C8"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3278620A21342DF8"]
+			hide_dependent_lines: true
+			id: "5C37FF70119F540E"
+			tasks: [{
+				id: "21F22B304AE04AED"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5335DAE50B5B06CF"]
+			hide_dependent_lines: true
+			id: "35DFA22118697AB3"
+			tasks: [{
+				id: "173909C2E3F008C4"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			icon: "gtceu:ulv_machine_hull"
+			id: "3F1F5C9B2E01D04D"
+			tasks: [{
+				id: "197B79A2ECF7677A"
+				title: "ULV Circuits"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:lv_machine_hull"
+			id: "3EE413B82A7413FA"
+			tasks: [{
+				id: "76EB3A016E208AA4"
+				title: "LV Circuits"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "4CE49992F444A86A"
+			tasks: [{
+				id: "634E2647B14DF121"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4CE49992F444A86A"
+				"4928F27E780349EC"
+			]
+			id: "5F081EE3D001BC11"
+			tasks: [{
+				id: "3C4137BC28E9A48A"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"190D49223B184056"
+				"5C37FF70119F540E"
+			]
+			id: "5D7C663264DDD220"
+			tasks: [{
+				id: "18A5322F9DA0FE71"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			icon: "gtceu:mv_machine_hull"
+			id: "2F27B40A1F9ED194"
+			tasks: [{
+				id: "15FF350DDD307C44"
+				title: "MV Circuits"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "69CFA88C17C77E92"
+			tasks: [{
+				id: "42A8F969132FE890"
+				title: "HV Circuits"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4928F27E780349EC"]
+			id: "190D49223B184056"
+			tasks: [{
+				id: "450ECFE84990A963"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D7C663264DDD220"]
+			id: "472D5C9995092414"
+			tasks: [{
+				id: "41086000D264E0C8"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5F081EE3D001BC11"
+				"5C37FF70119F540E"
+			]
+			id: "15365A605B608013"
+			tasks: [{
+				id: "6BAA748D1507741F"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "2D05F173726DBCB5"
+			tasks: [{
+				id: "656AF6F98FF80392"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35DFA22118697AB3"]
+			id: "1314C72E8BB61252"
+			tasks: [{
+				id: "5C267815FD147B06"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35DFA22118697AB3"]
+			id: "096FA0FA09A94825"
+			tasks: [{
+				id: "1119AFF50D4B8BB5"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["096FA0FA09A94825"]
+			id: "395065CC7616698C"
+			tasks: [{
+				id: "1599150E915C89B5"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["395065CC7616698C"]
+			id: "2A9E68F0848E1DA2"
+			tasks: [{
+				id: "54B2E3D8AD860AAE"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A9E68F0848E1DA2"]
+			id: "1FF5EB0BEB5A9A56"
+			tasks: [{
+				id: "4BFC14107F32B4FB"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "736494A20646448B"
+			tasks: [{
+				id: "7E99CD46B9093ADE"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "41549ACF99BD36E0"
+			tasks: [{
+				id: "6561980DDE3011B4"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "4EDD7FBBB82FE328"
+			tasks: [{
+				id: "25112D34FD49DE12"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["736494A20646448B"]
+			hide_dependent_lines: true
+			id: "5E4D1A5728ED041C"
+			tasks: [{
+				id: "5313BF9866DCCE84"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41549ACF99BD36E0"]
+			hide_dependent_lines: true
+			id: "0DECB1A806553628"
+			tasks: [{
+				id: "6A2FA51206964EC8"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EDD7FBBB82FE328"]
+			hide_dependent_lines: true
+			id: "35D8ECAC7EBDC6DA"
+			tasks: [{
+				id: "3A103892471A6DFD"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E4D1A5728ED041C"]
+			id: "5E936C8C395591EC"
+			tasks: [{
+				id: "57E28C0CDE7138F4"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E936C8C395591EC"]
+			id: "1E642AF4106D6F73"
+			tasks: [{
+				id: "184033537276CC7D"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E642AF4106D6F73"]
+			id: "437E1731E9F82EB5"
+			tasks: [{
+				id: "1EDF18CAB29C92FC"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["437E1731E9F82EB5"]
+			id: "6444A8A6175A039D"
+			tasks: [{
+				id: "4D473F927F4621BC"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			icon: "gtceu:ev_machine_hull"
+			id: "50BDDC7C383598EF"
+			tasks: [{
+				id: "39A0497E2EF3CBAB"
+				title: "EV Circuits"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:iv_machine_hull"
+			id: "563D3989F3A29D03"
+			tasks: [{
+				id: "45D540C8D60E67E6"
+				title: "IV Circuits"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:luv_machine_hull"
+			id: "6EFA6455EBD44364"
+			tasks: [{
+				id: "2A835217DD5C1D6E"
+				title: "LuV Circuits"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DECB1A806553628"]
+			id: "588BE3202C39C075"
+			tasks: [{
+				id: "63745D46F9B649E4"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["588BE3202C39C075"]
+			id: "6431D70094656CB4"
+			tasks: [{
+				id: "260A38D4687E532E"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6431D70094656CB4"]
+			id: "31B466985B8C7CDF"
+			tasks: [{
+				id: "365B621C01D6950D"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31B466985B8C7CDF"]
+			id: "2F048880B049DE23"
+			tasks: [{
+				id: "16C86DB2474F96EC"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:zpm_machine_hull"
+			id: "1FC48AB99E843DF0"
+			tasks: [{
+				id: "118E8C1216A426F3"
+				title: "ZPM Circuits"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35D8ECAC7EBDC6DA"]
+			id: "1C72E9C3FB501D61"
+			tasks: [{
+				id: "35070E97A8B72EA7"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C72E9C3FB501D61"]
+			id: "1A850FA3065CD625"
+			tasks: [{
+				id: "76ED4CCD04589719"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1A850FA3065CD625"]
+			id: "5F2D60E3CA84A84B"
+			tasks: [{
+				id: "32043526521CB9B2"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F2D60E3CA84A84B"]
+			id: "46AE87AAF86A0626"
+			tasks: [{
+				id: "2F4C461C7AF0F0AB"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:uv_machine_hull"
+			id: "546404BC5365A4CA"
+			tasks: [{
+				id: "5C9CD999CE10688F"
+				title: "UV Circuits"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "099A22D915371988"
+			tasks: [{
+				id: "36B8D413EF1C0AF3"
+				item: "gtceu:wetware_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["099A22D915371988"]
+			hide_dependent_lines: true
+			id: "4625D1C3851976D8"
+			tasks: [{
+				id: "616C09684C3F31B2"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4625D1C3851976D8"]
+			id: "68F17F12F1CA7F41"
+			tasks: [{
+				id: "77DF0EB9ED64F998"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68F17F12F1CA7F41"]
+			id: "3452BE188DC53866"
+			tasks: [{
+				id: "0389F5B53BFDEAD0"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3452BE188DC53866"]
+			id: "5A9247C8D13D4C39"
+			tasks: [{
+				id: "799285E9C02B24C4"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A9247C8D13D4C39"]
+			id: "79A4A1CDC0B01C4D"
+			tasks: [{
+				id: "158C82DF1D6E312C"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:uhv_machine_hull"
+			id: "154D83ABE8A5C98F"
+			tasks: [{
+				id: "1439DEA3DA4450AF"
+				title: "UHV Circuits"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+	]
+	title: "Circuits"
+}
