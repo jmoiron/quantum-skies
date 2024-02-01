@@ -670,10 +670,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: [
-				"64CACABB48635904"
-				"5BACED5AE350EAB1"
-			]
+			dependencies: ["5BACED5AE350EAB1"]
 			description: [
 				"The &aPlatinum Group Metals&r are six rare metals with useful catalytic properties. They are &3Ruthenium&r, &dRhodium&r, &7Palladium&r, &9Osmium&r, &bIridium&r, and &ePlatinum&r."
 				""

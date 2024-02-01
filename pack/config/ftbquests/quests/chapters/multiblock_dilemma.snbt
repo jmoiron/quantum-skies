@@ -14,12 +14,6 @@
 			y: 0.0d
 		}
 		{
-			id: "29EFA88DBC897F46"
-			linked_quest: "05ADBAE5B6F38956"
-			x: 7.5d
-			y: 0.0d
-		}
-		{
 			id: "1C71CBF1424099CE"
 			linked_quest: "10987A49F647279E"
 			shape: "rsquare"
@@ -52,19 +46,6 @@
 			linked_quest: "16E7CAC7BC8BFD8E"
 			shape: "rsquare"
 			x: 7.5d
-			y: 1.5d
-		}
-		{
-			id: "7888064372044AD3"
-			linked_quest: "6DDDE2268B691F74"
-			shape: "rsquare"
-			x: 6.0d
-			y: 1.5d
-		}
-		{
-			id: "2637BCFD9681EABF"
-			linked_quest: "53DC6E32C41C94C3"
-			x: 3.0d
 			y: 1.5d
 		}
 		{

@@ -1097,6 +1097,31 @@
 			x: -1.0d
 			y: -2.5d
 		}
+		{
+			description: [
+				"&2Storage drawers&r and similar mods are not available."
+				""
+				"&9Super chests&r can be locked to a specific item, void overflow, and generally replace most logistical uses of storage drawers."
+				""
+				"They are a &ebit more expensive&r to make, and there's no controller, so you will need to be a little more deliberate. But that's no problem, right?"
+			]
+			id: "76DA9344BC162E4F"
+			rewards: [{
+				count: 3
+				id: "151128B431A86400"
+				item: "gtceu:lv_super_chest"
+				type: "item"
+			}]
+			subtitle: "No drawers?"
+			tasks: [{
+				id: "1F7259066B23995E"
+				item: "gtceu:lv_super_chest"
+				type: "item"
+			}]
+			title: "Super Chests"
+			x: 6.5d
+			y: 5.0d
+		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
 	title: "[&7LV&r] Low Voltage"

@@ -151,7 +151,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1BE0349B8F3890D3"]
 			description: [
 				"Why does every machine have a million variants across each tier? Well, overclocking is one reason!"
 				""

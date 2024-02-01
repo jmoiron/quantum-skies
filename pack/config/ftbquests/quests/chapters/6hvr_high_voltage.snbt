@@ -10,22 +10,40 @@
 	quests: [
 		{
 			dependencies: ["025DB933BE24C8F9"]
+			description: [
+				"&6Stainless steel&r and plastics allow a further refinement in your mechanization."
+				""
+				"The &bmacerator&r you can produce with these materials should start to provide additional by-products when processing ores, opening up new possibilities for gaining previously rare materials in bulk."
+				""
+				"It seems that you've reached the limits of circuit fabrication that can be done in the uncontrolled environment of the sky. You'll need to use the &eplastics&r to create some kind of &bcleanroom&r to progress further."
+				""
+				"It's still not really clear where you are, or how to get back, but it &efeels&r like greater technology will be needed to explore these questions."
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: "gtceu:clean_machine_casing"
 			id: "239B5AF886B64DEB"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "High Voltage"
 			tasks: [{
 				id: "1351E6534CA7E8CA"
 				title: "HV Lore"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -10.0d
+			title: "Danger! Danger!"
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
+			description: [
+				"New &bhulls&r for new, more powerful machines."
+				""
+				"Now that the voltage is getting &6high&r, the hull requires some insulation in the form of &9polyethylene&r."
+				""
+				"You can save on materials by using the &bassembler&r recipe."
+			]
 			id: "778CAC851BC58AB8"
 			tasks: [{
 				id: "6444AE6963D52532"
@@ -65,8 +83,8 @@
 				}
 			]
 			title: "HV Mechanical Components"
-			x: 1.0d
-			y: -3.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -132,9 +150,19 @@
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
+			description: [
+				"THe &bcleanroom&r is a multiblock structure that will house many of the machines that crate circuitry and circuit components."
+				""
+				"The &bcleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block provides minimum and maximum dimensions."
+				""
+				"The edges of the &bcleanroom&r must be &6plascrete&6, as must the floor. The walls can be &6plascrete&r or &9cleanroom glass&r.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
+				""
+				"The materials for this quest can be used to build a 5x5x5 room."
+			]
 			id: "450C8C0AF82CB7FD"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
+			subtitle: "Suspended Particulates"
 			tasks: [
 				{
 					id: "6DC27B1797B28ADC"
@@ -155,7 +183,7 @@
 				}
 			]
 			x: 5.5d
-			y: -6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -229,8 +257,8 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5207A7F74C1204FC"]
@@ -253,10 +281,9 @@
 		{
 			id: "40922DB70061C9AA"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:fluorine"
-				id: "3F081EEF2A4E8D60"
-				type: "fluid"
+				id: "2D2392533AE93E94"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
 			}]
 			x: -0.5d
 			y: -7.5d
@@ -273,7 +300,7 @@
 				item: "gtceu:polytetrafluoroethylene_plate"
 				type: "item"
 			}]
-			title: "PTFE"
+			title: "Polytetrafluoroethylene (PTFE)"
 			x: -0.5d
 			y: -6.0d
 		}
@@ -281,7 +308,7 @@
 			dependencies: ["2C1CDE93A0BDB91C"]
 			id: "699430D161A19BBC"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "640857927A486282"
 				item: "gtceu:large_chemical_reactor"
@@ -292,6 +319,11 @@
 		}
 		{
 			dependencies: ["450C8C0AF82CB7FD"]
+			description: [
+				"Your first &5EV&r circuits, and the first that requiring the &bcleanroom&r."
+				""
+				"These circuits unlock both the &6HV&r &bcircuit assembler&r and progression into &5EV&r. They also form the basis for the first &9mainframes&r, a 4th tier of the current circuit line.  This pattern of having 4 tiers per line will continue from here on out."
+			]
 			id: "4710DCD2C83D3D38"
 			shape: "gear"
 			size: 1.5d
@@ -364,8 +396,8 @@
 				item: "gtceu:hv_laser_engraver"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.5d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -378,8 +410,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -9.0d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			id: "10E6C543269AD20C"
@@ -390,13 +422,12 @@
 					type: "item"
 				}
 				{
-					amount: 1000L
-					fluid: "gtceu:titanium_tetrachloride"
-					id: "34E9C94E07488D3E"
-					type: "fluid"
+					id: "2F190134178F24B0"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					type: "item"
 				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: -9.0d
 		}
 		{
@@ -424,8 +455,8 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -9.0d
+			x: 7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["40AB84E3209DED53"]
@@ -475,10 +506,9 @@
 			dependencies: ["699430D161A19BBC"]
 			id: "63C6AF455771F032"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitric_acid"
-				id: "26D6002AD2514948"
-				type: "fluid"
+				id: "504F3B1BD2B8A7B6"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
 			}]
 			x: -2.0d
 			y: -4.5d
@@ -487,10 +517,9 @@
 			dependencies: ["63C6AF455771F032"]
 			id: "6BBECEEDC4DD2B56"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitration_mixture"
-				id: "469D3917D1746609"
-				type: "fluid"
+				id: "34202E2855C171EF"
+				item: "gtceu:nitration_mixture_bucket"
+				type: "item"
 			}]
 			x: -2.0d
 			y: -3.0d
@@ -499,10 +528,9 @@
 			dependencies: ["63C6AF455771F032"]
 			id: "273648ED9BD786F9"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:tetranitromethane"
-				id: "1A13362B108F3607"
-				type: "fluid"
+				id: "0AB7BA91D66F5895"
+				item: "gtceu:tetranitromethane_bucket"
+				type: "item"
 			}]
 			x: -0.5d
 			y: -3.0d
@@ -511,10 +539,9 @@
 			dependencies: ["273648ED9BD786F9"]
 			id: "23CB82881ABB5E72"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:cetane_boosted_diesel"
-				id: "5FFD75DDCF259421"
-				type: "fluid"
+				id: "05CD28F200337CAC"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
 			}]
 			x: -0.5d
 			y: -1.5d
@@ -523,12 +550,63 @@
 			dependencies: ["6BBECEEDC4DD2B56"]
 			id: "3F4A0B22F5740A63"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitrobenzene"
-				id: "31131E4DCFEB5BB8"
-				type: "fluid"
+				id: "336BEAE0C397FC79"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
 			}]
 			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["454242F0DA2FFBD0"]
+			description: [
+				"Now that you can cool all hot ingot types in the &bfreezer&r, you can finally make &bMV&r superconductors."
+				""
+				"You'll probably run a lot of passive processes at &bMV&r for a long time, as a lot of important recipes can't be done in &7LV&r but you will still want passive processes to be energy efficient."
+				""
+				"These cables can make those logistics much easier."
+			]
+			id: "26E73C7EE48552FA"
+			subtitle: "MV Superconductors"
+			tasks: [{
+				id: "20CD1DF21D2E9301"
+				item: "gtceu:magnesium_diboride_single_wire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["778CAC851BC58AB8"]
+			id: "74CD924FA666E6D8"
+			tasks: [{
+				id: "519855B3C845B09A"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"16935534AA79DBEE"
+				"5B6C29247F5D6E21"
+				"74CD924FA666E6D8"
+			]
+			description: [
+				"&6Diesel&r is a powerful combustion fuel made from mixing &blight fuel&r and &bheavy fuel&r in a 5:1 ratio."
+				""
+				"Mixing diesel requires the &6HV&r &dmixer&r, but requires very little power."
+				""
+				"The 5B of light fuel used by the recipe could produce 1,600,000 EU, but the 6B of diesel you get produces 2,880,000, &b80% more&r."
+			]
+			id: "232BBD7ABE751B56"
+			tasks: [{
+				id: "1DB458DB1B62BD2D"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: 1.0d
 			y: -1.5d
 		}
 	]

@@ -5,42 +5,10 @@
 	group: "693226878D58638A"
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"
-	order_index: 10
-	quest_links: [
-		{
-			id: "2583D0B64E51FAC8"
-			linked_quest: "5063FDFFBE3E4855"
-			size: 0.75d
-			x: 7.875d
-			y: -5.25d
-		}
-		{
-			id: "47BF469B9B0EB28A"
-			linked_quest: "4AFD3073C731A1E4"
-			size: 0.75d
-			x: 7.875d
-			y: -4.125d
-		}
-		{
-			id: "6C3B2B8F8B6646EA"
-			linked_quest: "6DDDE2268B691F74"
-			shape: "square"
-			size: 0.75d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			id: "306AB6B6B81566DA"
-			linked_quest: "16A6AE5C770DB83A"
-			shape: "gear"
-			size: 1.2d
-			x: 2.25d
-			y: -1.875d
-		}
-	]
+	order_index: 9
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["16A6AE5C770DB83A"]
 			description: [
 				"When your power generation allows for it, &3HV machines&r are well worth using for on-demand processing. The quadrupled energy cost compared to their &7LV&r counterparts shouldn't bother you too much."
 				""
@@ -83,10 +51,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"26394C1290D70AB6"
-				"16A6AE5C770DB83A"
-			]
 			description: [
 				"The &3HV Autoclave&r - despite being optional - is a machine you'll definitively want to grab."
 				""
@@ -106,7 +70,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["16A6AE5C770DB83A"]
 			description: [
 				"The &3HV Chemical Bath&r is used to &ddye Lenses&r using &aChemical Dye&r. This will let you engrave more types of Wafers!"
 				""
@@ -126,7 +89,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["26394C1290D70AB6"]
 			description: [
 				"If you're &lstill&r running off the &3Large Bronze Boiler&r, you may want to upgrade to the &3Large Steel Boiler&r."
 				""
@@ -148,7 +110,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["16A6AE5C770DB83A"]
 			description: [
 				"You now have access to two &3new Maintenance Hatches&r. Both hatches &6do not require Maintenance&r when first placed in a Multiblock."
 				""
@@ -183,7 +144,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["16A6AE5C770DB83A"]
 			description: [
 				"Just like &bMV&r, you'll need to make higher-tier components."
 				""
@@ -242,10 +202,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: [
-				"26394C1290D70AB6"
-				"16A6AE5C770DB83A"
-			]
 			description: ["The &3HV Assembling Machine&r is the next step in progression, but also unlocks a handful of useful utilities - check around this quest for more."]
 			icon: "gtceu:hv_assembler"
 			id: "16B735F9C391D260"
@@ -332,10 +288,7 @@
 			y: 0.375d
 		}
 		{
-			dependencies: [
-				"315169840E06110F"
-				"6975F16F5B50F17F"
-			]
+			dependencies: ["6975F16F5B50F17F"]
 			description: ["&8ULV&r Circuits are used in some AE2 recipes, such as the &aAnnihilation Core&r and &aFormation Core&r."]
 			icon: "gtceu:nand_chip"
 			id: "15EC934CE8F4DC86"
@@ -414,10 +367,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: [
-				"26394C1290D70AB6"
-				"16A6AE5C770DB83A"
-			]
 			description: [
 				"The &3HV Chemical Reactor&r unlocks a ton of new recipes. Ah, who doesn't love the ever-growing demand on more advanced Chemistry?"
 				""
@@ -439,7 +388,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["0EFEE489906256AA"]
 			description: [
 				"Titanium requires a slightly more &binvolved&r process than the previous materials to process. To get started, you'll need &aRutile&r, which can be obtained by processing &aBauxite&r."
 				""
@@ -478,7 +426,6 @@
 			dependencies: [
 				"390E59F05132FCB8"
 				"59DFC4DA7D29C315"
-				"1C55AE6AD5BDE304"
 			]
 			description: [
 				"To get your grubby hands on some Titanium, &aRutile&r must first be reduced to &aTitanium Tetrachloride&r in an &3HV Chemical Reactor&r, then reduced again in an &3EBF&r with &dMagnesium&r to finally arrive at Titanium."
@@ -523,10 +470,7 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"1C55AE6AD5BDE304"
-				"6958029B5514D4EC"
-			]
+			dependencies: ["6958029B5514D4EC"]
 			description: [
 				"&3Nichrome Heating Coils&r increase the temperature of your &3Blast Furnace&r to &d3,600K&r."
 				""
@@ -609,7 +553,6 @@
 			y: -5.25d
 		}
 		{
-			dependencies: ["4AFD3073C731A1E4"]
 			description: [
 				"The &3Vacuum Freezer&r is a multiblock used to cool down &eHot Ingots&r. All ingots made in the EBF with a temperature above &d1750K&r will need it."
 				""
@@ -631,10 +574,7 @@
 			y: -5.25d
 		}
 		{
-			dependencies: [
-				"1C55AE6AD5BDE304"
-				"6958029B5514D4EC"
-			]
+			dependencies: ["6958029B5514D4EC"]
 			description: ["&a4A&r of &bMV&r energy transmission may be appealing, but you probably don't need these at this point. The option is always there if you need it."]
 			icon: "gtceu:magnesium_diboride_double_wire"
 			id: "72F0DFAF5CC6D0FE"
@@ -650,10 +590,7 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"41D32C5178760F47"
-				"4AFD3073C731A1E4"
-			]
+			dependencies: ["41D32C5178760F47"]
 			description: [
 				"The next &3Circuit Assembler&r. This tier of Circuit Assembler is only required for one type of Circuit - your first ever &aMainframe&r."
 				""
@@ -709,10 +646,7 @@
 			y: -1.875d
 		}
 		{
-			dependencies: [
-				"4AFD3073C731A1E4"
-				"6B1595678ECB7AC8"
-			]
+			dependencies: ["6B1595678ECB7AC8"]
 			description: [
 				"The first &1IV&r circuit. Congratulations on making it this far!"
 				""
@@ -733,10 +667,6 @@
 			y: -4.125d
 		}
 		{
-			dependencies: [
-				"10FB27DD3C7BEC2F"
-				"0DE5C3FBC9A6A690"
-			]
 			description: [
 				"The &3Cleanroom&r is a hollow multiblock free of contaminants. Going forward, most new &acircuit-related recipes&r, as well as some unique blocks like &3Fusion Casings&r, will need to be run in machines inside a Cleanroom."
 				""
@@ -813,7 +743,6 @@
 			y: -1.875d
 		}
 		{
-			dependencies: ["0EFEE489906256AA"]
 			description: [
 				"Fluorine is the rarest gas to obtain from electrolysis in this game."
 				""
@@ -966,10 +895,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"316FF60D6FFE97CE"
-				"6A304E453D74C57C"
-			]
 			description: [
 				"&cTNT&r (Trinitrotoluene) can't be prepared with the usual Gunpowder and Sand anymore. Instead, you'll have to produce &aGelled Toluene&r and react it with Sulfuric Acid to make TNT."
 				""
@@ -1098,7 +1023,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["26394C1290D70AB6"]
 			description: [
 				"The &3Implosion Compressor&r turns the Dust form of Gems into their Gem form."
 				""
@@ -1248,10 +1172,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"26394C1290D70AB6"
-				"16A6AE5C770DB83A"
-			]
 			description: [
 				"The &3HV Macerator&r finally unlocks more of the slots shown in JEI. With this, the first &9three&r slots are now available. This allows you to receive the &6unique ore Byproduct&r from macerating &dThermal &dCentrifuged Ore&r."
 				""
@@ -1274,10 +1194,7 @@
 			y: -1.875d
 		}
 		{
-			dependencies: [
-				"6EB68C28BEE24DEF"
-				"390E59F05132FCB8"
-			]
+			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"&aAmmonia&r is &doptional&r in &6HV&r."
 				""

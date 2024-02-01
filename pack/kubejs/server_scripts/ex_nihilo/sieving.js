@@ -157,9 +157,13 @@ ServerEvents.recipes(event => {
                 ["gtceu:crushed_spessartine_ore", 0.20],
                 ["gtceu:crushed_tantalite_ore", 0.20],
             ],
+            // people seem to have a hard time finding realgar veins sometimes on
+            // normal worlds, but we do need it for progression..  you don't need
+            // much though, so we can make it a rare drop to force some level of
+            // automation
             "exnihilosequentia:crushed_andesite": [
-                ["gtceu:realgar_crushed_ore", 0.25],
-                ["gtceu:zeolite_crushed_ore", 0.25],
+                ["gtceu:realgar_crushed_ore", 0.05],
+                ["gtceu:zeolite_crushed_ore", 0.15],
                 ["gtceu:cassiterite_crushed_ore", 0.20],
                 ["gtceu:chalcopyrite_crushed_ore", 0.20],
             ],
@@ -176,7 +180,26 @@ ServerEvents.recipes(event => {
                 ["ae2:sky_dust", 0.10],
             ]
         },
-        "iron": {},
+        "iron": {
+            // ruby is a source of chromium, and gates vanadiumsteel
+            // which is required for the MV cutter that opens up silicon
+            // wafers for circuitry
+            "exnihilosequentia:crushed_deepslate": [
+                ["gtceu:crushed_ruby_ore", 0.15],
+                ["gtceu:crushed_cinnabar_ore", 0.15],
+                ["gtceu:crushed_redstone_ore", 0.25],
+            ],
+            "exnihilosequentia:crushed_netherrack": [
+                ["gtceu:crushed_emerald_ore", 0.20],
+                ["gtceu:crushed_beryllium_ore", 0.25],
+                ["gtceu:crushed_thorium_ore", 0.10],
+            ],
+            "exnihilosequentia:crushed_andesite": [
+                ["gtceu:crushed_apatite_ore", 0.25],
+                ["gtceu:crushed_tricalcium_phosphate_ore", 0.20],
+                ["gtceu:crushed_pyrochlore_ore", 0.15],
+            ],
+        },
         "diamond": {},
         "netherite": {}
     };

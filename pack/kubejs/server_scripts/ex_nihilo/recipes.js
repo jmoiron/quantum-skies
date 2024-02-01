@@ -18,6 +18,24 @@ ServerEvents.recipes(event => {
     }
   );
 
+  // gating iron mesh on aluminium seems wrong but you gotta toughen up
+  // this is gregtech..
+  //
+  // currently my only idea for what this gates is ruby, which is needed
+  // for chrome;  this is probably the last mesh that is usable inside
+  // the actual sieves, the rest of the meshes will go into a custom
+  // multiblock which produces lower rates of full ores for those juicy
+  // byproducts
+  event.shaped(
+    Item.of("exnihilosequentia:iron_mesh"),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: "gtceu:aluminium_rod",
+      B: "exnihilosequentia:flint_mesh",
+      C: "gtceu:steel_frame",
+    }
+  );
+
   // forge hammer compatibility w/ ex nihilo crushing
   function forge_hammer(name, input, output) {
     event.recipes.gtceu.forge_hammer(name)

@@ -30,4 +30,18 @@ ServerEvents.recipes(event => {
     event.shaped("8x pipez:energy_pipe", ["DRD", "WHM", "DRD"], take(mats, "DRWHM"));
     event.shaped("6x pipez:universal_pipe", ["IFE", "WRM", "IFE"], take(mats, "IFEWRM"));
 
+    const greg = event.recipes.gtceu;
+
+    greg.assembler("pipez_item_pipe")
+        .itemInputs("3x gtceu:tin_small_item_pipe", "minecraft:hopper")
+        .itemOutputs("8x pipez:item_pipe")
+        .EUt(2)
+        .duration(400);
+    
+    greg.assembler("pipez_fluid_pipe")
+        .itemInputs("3x gtceu:copper_small_fluid_pipe", "minecraft:hopper")
+        .itemOutputs("8x pipez:fluid_pipe")
+        .EUt(2)
+        .duration(400);
+
 });

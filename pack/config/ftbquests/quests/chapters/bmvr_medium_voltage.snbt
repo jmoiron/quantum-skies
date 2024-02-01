@@ -7,9 +7,9 @@
 	id: "088DFF102425A2D5"
 	order_index: 2
 	quest_links: [{
-		id: "70672672A81349E9"
-		linked_quest: "7A284CF12EA916D5"
-		x: 2.0d
+		id: "53EBB3A9173A3317"
+		linked_quest: "232BBD7ABE751B56"
+		x: 9.5d
 		y: -3.0d
 	}]
 	quests: [
@@ -37,7 +37,7 @@
 				""
 				"Your &7LV&r &bCircuit Assembler&r crafts circuits much more efficiently, making it much less painful to build out &dchemical processing lines&r. Most of these probably don't need to exploit the benefits of &6Aluminium&r just yet."
 				""
-				"Power derived from &6Coal&r and Steam has got you to this point, but it may be time to explore &dorganic chemistry&r, either derived from &dPetroleum&r or from further processing of the &6Coal&r and &6Charcoal&r already under production."
+				"Power derived from &6Coal&r and Steam has got you to this point, but it may be time to explore &dorganic chemistry&r, either derived from &dPetroleum&r or from processing the &6Coal&r and &6Charcoal&r already under production."
 			]
 			icon: "gtceu:aluminium_ingot"
 			id: "3320E243E14A626A"
@@ -54,10 +54,21 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["04FF202CCDE5A998"]
+			dependencies: [
+				"04FF202CCDE5A998"
+				"6943EEB24AC64081"
+			]
+			description: [
+				"&6Stainless steel&r is the hull material for &bHV&r."
+				""
+				"As you might have guessed by now, you will need this in large amounts."
+				""
+				"You can create this with &6cupronickel&6 coils, but you will need &bHV&r tier &bcircuits&r to really start producing machines, so you might want to prioritize working towards &bmicroprocessors&d."
+			]
 			id: "025DB933BE24C8F9"
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Deoxidized"
 			tasks: [{
 				id: "1E4192799A6B8A61"
 				item: "gtceu:stainless_steel_ingot"
@@ -88,7 +99,7 @@
 				""
 				"It is 10% more power dense than &6Light Fuel&r or &6Naphtha&r, and its production from &6wood tar&r is pretty straightforward."
 				""
-				"At &5HV&r, &6Nitrobenzene&r is simpler to produce than &6Cetane-boosted Diesel&r and over 50% more energy dense. While not nearly as good as &6High Octane Gasoline&r, HOG is a completely different processing line than diesel; you can just as easily go from &6Benzine&r to it."
+				"At &5EV&r, &6Nitrobenzene&r is simpler to produce than &6Cetane-boosted Diesel&r and over 50% more energy dense. While not nearly as good as &6High Octane Gasoline&r, HOG is a completely different processing line than diesel; you can just as easily go from &6Benzine&r to it."
 				""
 				"After HV, large turbines scale better than combustion fuels."
 				""
@@ -97,7 +108,7 @@
 				"Oil is simpler to source at scale, petrochem is required for progress eventually, and large combustion engines at EV+ are much easier to automate."
 			]
 			id: "1E1748C74140C63A"
-			subtitle: "Our Hexagonal Carcinogen"
+			subtitle: "Beloved hexagonal carcinogen"
 			tasks: [{
 				id: "018EDDA49E6EFD7D"
 				item: "gtceu:benzene_bucket"
@@ -141,22 +152,21 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"16935534AA79DBEE"
-				"5B6C29247F5D6E21"
+			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"The &bextruder&r is available at &7LV&r, but most of its recipes are at least &6MV&r."
+				""
+				"The extruder is capable of creating all sorts of things &ddirectly from ingots&r. Many things you can already create with othe rmachines, like rods, plates, foil, bolts, etc."
+				""
+				"Where it really shines is in creating more complex items like &dcells&r, &drings&r, &dpipes&r, &dgears&r, and &drotors&r. "
 			]
-			id: "6FAB1CA9E78CC48F"
-			tasks: [{
-				id: "2ACEF64A129CBD96"
-				item: "gtceu:diesel_bucket"
+			id: "53BB86F738A277C0"
+			rewards: [{
+				id: "2265AB98B9F907F3"
+				item: "gtceu:rotor_extruder_mold"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0EF63A0F090B2B21"]
-			id: "53BB86F738A277C0"
+			subtitle: "First Useful Extruder"
 			tasks: [{
 				id: "63AFC9AFFF0D1261"
 				item: "gtceu:mv_extruder"
@@ -173,18 +183,21 @@
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["477DF29754485471"]
+			dependencies: [
+				"477DF29754485471"
+				"6943EEB24AC64081"
+			]
 			id: "585CF7B0C315D9D0"
 			tasks: [{
 				id: "3A82F2366394940F"
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -7.5d
 		}
 		{
@@ -200,7 +213,13 @@
 		}
 		{
 			dependencies: ["7742187BCE898BB6"]
+			description: [
+				"&6Silicon&r is the foundation of the modern microprocessor."
+				""
+				"The &dEBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust. You can use this material to produce circuit components more cheaply."
+			]
 			id: "26B92581C3E5115F"
+			subtitle: "True or False"
 			tasks: [{
 				id: "330D2C1A438C01D1"
 				item: "gtceu:silicon_boule"
@@ -213,6 +232,11 @@
 			dependencies: [
 				"26B92581C3E5115F"
 				"6123DCAA0F02CBD0"
+			]
+			description: [
+				"&dCutting&r the &9silicon boule&r will yield 16x &9silicon wafers&r."
+				""
+				"These form the basis for the new integrated circuit line that will increase yields for &bMV&r circuits and prepare us for &6HV&r."
 			]
 			id: "152EA6F3161E2B26"
 			tasks: [{
@@ -228,6 +252,12 @@
 				"40C281751C24CBFA"
 				"77F7117768090539"
 				"6CEC31CA4F75BCF3"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Ethylene&r is the penultimate step in producing &6polyethylene&r."
+				""
+				"It is also a &dgas turbine&r fuel, but it's a pretty lousy one and is much more valuable as a source of plastic than a source of power."
 			]
 			id: "4BDC24DF26BB7502"
 			tasks: [{
@@ -253,6 +283,7 @@
 		}
 		{
 			dependencies: ["568C0E08EF8815AA"]
+			description: ["If you choose to go the &6biomass&r route for &6polyethylene&r (PE), you will need to combine &6sulfuric acid&r with &6ethanol&r in a &dchemical reactor&r."]
 			id: "6CEC31CA4F75BCF3"
 			tasks: [{
 				id: "7545842C71ED0973"
@@ -295,11 +326,13 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"Sifting &9Soul Sand&r is a good source of &6Oilsands&r and &6Crushed oilsands ore&r, which in turn are good sources of &6Oil&r and &6Heavy Oil&r, respectively."
+				"Sifting &9Soul Sand&r is a good source of &6Oilsands&r and &6Crushed oilsands ore&r, which can produce &6Oil&r and &6Heavy Oil&r, respectively."
 				""
-				"You will get &bmore much&r of the crushed ore, but it requires more processing steps and produces &6light fuel&r less efficiently. If you produce &6Heavy Oil&r, you can further process it into more fuel, at the cost of more complexity."
+				"You will get &bmore much&r of the crushed ore, but processing it is more energy intensive and requires more processing steps. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals."
 				""
-				"You will get far less &6Oilsands&r, but it's straightforward to turn that into &6Oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. You probably would want to start there and then build out larger oil processing once you are established."
+				"You will get far less &6Oilsands&r, but it's simple to turn that into &6Oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. You probably would want to start there and then build out larger oil processing once you are established."
+				""
+				"Be aware, &6heavy oil&r processing is &bMV&r but &6oil&r processing is only &7LV&r."
 			]
 			id: "7ABFC37B56E8847A"
 			subtitle: "Don't Bother Centrifuging It"
@@ -334,7 +367,7 @@
 				""
 				"* &6Raw Oil&r, which produces more Naphtha"
 				""
-				"&6Naphtha&r and &6Light Fuel&r are both roughly equivalent when burnt in a &dCombustion Generator&r. The rig will continue to empty a chunk until it is exhausted. Once it hits that point, it will continue to produce fluid at a low rate."
+				"&6Naphtha&r and &6Light Fuel&r have the same energy density when used in a &dCombustion Generator&r. The oil in a chunk is technically unlimited, but the rig will produce less over time."
 			]
 			id: "7BF4BE21BD28B97E"
 			min_width: 250
@@ -385,14 +418,18 @@
 		{
 			dependencies: [
 				"16935534AA79DBEE"
-				"6FAB1CA9E78CC48F"
 				"16F8B12D38FAFB4E"
 			]
 			dependency_requirement: "one_completed"
 			id: "6C2239665B2C46C7"
+			rewards: [{
+				id: "15E24C97F0757EA6"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
 			tasks: [{
-				id: "3119CD29EE29D818"
-				item: "gtceu:lv_combustion"
+				id: "0CA6CF62D5AE4272"
+				item: "gtceu:mv_combustion"
 				type: "item"
 			}]
 			x: 8.0d
@@ -406,9 +443,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "7719A6AF3B84B6B4"
+			rewards: [{
+				id: "14DF36011D3D1234"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
 			tasks: [{
-				id: "7D12D120679C6758"
-				item: "gtceu:lv_gas_turbine"
+				id: "5EBF3DCFE587C91F"
+				item: "gtceu:mv_gas_turbine"
 				type: "item"
 			}]
 			x: 12.5d
@@ -437,6 +479,11 @@
 			dependencies: ["592A0965509B948F"]
 			dependency_requirement: "one_started"
 			id: "2F86FEB668A016D3"
+			rewards: [{
+				id: "4A3ADC7EE42C2370"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08B1E003ADE74180"
 				item: "gtceu:mv_steam_turbine"
@@ -452,13 +499,13 @@
 				""
 				"Thankfully, we have a number of viable power options that can take us all the way to &1IV&r."
 				""
-				"&bCombustion generators&r burn combustible fuels. The earliest viable one is &6light fuel&r, which you can get from any type of &6oil&r.  Mixing it with &6heavy fuel&r makes &bdiesel&r, which is 50% more energy dense, and well within reach at &6MV&r."
+				"&bCombustion generators&r burn combustible fuels. The earliest viable one is &6light fuel&r, which you can get from any type of &6oil&r.  Mixing it with &6heavy fuel&r makes &bdiesel&r, which is 50% more energy dense, and can be made very early in &6HV&r."
 				""
-				"&bGas turbines&r burn gas fuels. You can run on &6refinery gas&r, which refines somewhat pointlessly to &6LPG&r, but it's the least energy dense option you have."
+				"&bGas turbines&r burn gas fuels. You can run on &6refinery gas&r, which itself refines to &6LPG&r, but it's the least energy dense option you have."
 				""
-				"&6Benzene&r, however, can be produced from efficiently from &bsteam-cracked heavy fuel&r or &6Wood tar&r.  The &6Wood tar&r + &dPyrolyse oven&r route is a fun build, and produces enough benzene for 770 eu/t, or greater than one &5HV&r amp."
+				"&6Benzene&r can be produced from efficiently from &bsteam-cracked heavy fuel&r or &6wood tar&r.  The &6wood tar&r + &dpyrolyse oven&r route is a fun build, and produces enough benzene for 770 eu/t, or greater than one &6HV&r amp."
 				""
-				"Finally, if your allegiance is with steam, you can build the &dLarge Bronze Boiler&r, which produces 800mb/t of steam in exchange for a &dhuge&r amount of fuel, or a bucket of lava every ~3.5 seconds."
+				"Finally, if your allegiance is with steam, you can build the &dLarge Bronze Boiler&r, which produces 800mb/t of steam in exchange for a &ehuge&r amount of fuel."
 			]
 			icon: "gtceu:mv_transformer_1a"
 			id: "39339A08E2BEF594"
@@ -493,10 +540,9 @@
 			dependencies: ["16F8B12D38FAFB4E"]
 			id: "40C281751C24CBFA"
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:severely_steam_cracked_naphtha"
-				id: "1E4D9BB415AB6DD5"
-				type: "fluid"
+				id: "67C1DE11068DD4FE"
+				item: "gtceu:severely_steam_cracked_naphtha_bucket"
+				type: "item"
 			}]
 			x: 5.0d
 			y: -4.5d
@@ -506,6 +552,7 @@
 				"04A283CCD426FB53"
 				"568C0E08EF8815AA"
 			]
+			description: ["&6Ethanol&r is a combustible fuel, and its production is energy positive, but it's typically pursued in order to create &6Polyethylene&r (PE)."]
 			id: "77F7117768090539"
 			tasks: [{
 				id: "0783DC65BA35574C"
@@ -516,6 +563,11 @@
 			y: -4.5d
 		}
 		{
+			description: [
+				"By processing output from your farm, you can create &6biomass&r, which can then be &ddistilled&r or &dfermented&r and further processed into useful chemicals."
+				""
+				"&6Biomass&r is one of the viable routes for producing &6Polyethylene&r (PE), your first plastic and an important ingredient in many &dassembler&r recipes for several tiers."
+			]
 			id: "04A283CCD426FB53"
 			tasks: [{
 				id: "34130AE4490F1B5D"
@@ -527,14 +579,20 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"The &bMV&r assembler makes some important recipes available, including &9Transistors&r, which unlock a cheaper set of chips based on &dsilicon wafers&r."
+				""
+				"You will find yourself needing &6Polyethylene&r (PE) shortly after this quest. Be sure to use PE to craft &dcheaper machine hulls&r."
+			]
 			id: "4E25CA8F5E23C247"
+			subtitle: "More Assembly"
 			tasks: [{
 				id: "4F30B0B61D27FB12"
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
 			x: 0.5d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
@@ -558,6 +616,8 @@
 				"&6Clay&r is a good source of several important elements: &6Aluminium&r, &6Sodium&r, &6Lithium&r and &6Silicon&r.  Now that you have an &bAdvanced Electrolyzer&r, you can extract those materials from &9Clay Dust&r."
 				""
 				"You already need plenty of &6Aluminium&r for your &6MV&r machines, but &6Silicon&r required in bulk for &dcircuit wafers&r and &6Lithium&r is your best bet for battery chemistry until &5EV&r."
+				""
+				"Because you can &dsynthesize clay&r from dust, you may want to automate this."
 			]
 			icon: "minecraft:clay_ball"
 			id: "7D4968D248C63872"
@@ -567,7 +627,7 @@
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			subtitle: "Maybe?"
+			subtitle: "Maybe too balanced"
 			tasks: [
 				{
 					count: 64L
@@ -602,6 +662,7 @@
 			dependencies: [
 				"5BE63899FFF5D09D"
 				"04FF202CCDE5A998"
+				"6943EEB24AC64081"
 			]
 			id: "131C228C88F2DDBF"
 			tasks: [{
@@ -619,6 +680,11 @@
 				"575C02BE8ACAF483"
 			]
 			id: "04FF202CCDE5A998"
+			rewards: [{
+				id: "0C43D27EC3ADE949"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FFE360F82349A0D"
 				item: "gtceu:mv_energy_input_hatch"
@@ -629,6 +695,11 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"There are two routes to &6Polyethylene&r (PE): the petrochem route, through &6severely steam-cracked naphtha&r, and the &6ethanol&r route through &6biomass&r."
+				""
+				"If you decide to go the &6ethanol&r route, you will need an &6MV&r &dChemical Reactor&r to create &6ethylene&r from the &6ethanol&r."
+			]
 			id: "568C0E08EF8815AA"
 			tasks: [{
 				id: "26A8B138C83EDB10"
@@ -640,6 +711,7 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: ["When we blast materials over"]
 			hide_dependency_lines: true
 			id: "5BE63899FFF5D09D"
 			tasks: [{
@@ -652,6 +724,11 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"Using a &dLaser Engraver&r, you can etch circuitry into your silicon wafers. The higher tier the wafer, the more dense and intricate these can be."
+				""
+				"To do this, you will need &blenses&r. Right now, these will be made from &bprecious gems&r, but you can dye glass at &6HV&r. To get some of these gems, you will need a &dSifter&r of some kind."
+			]
 			hide_dependency_lines: true
 			id: "242BA23234A28A29"
 			tasks: [{
@@ -666,6 +743,7 @@
 			dependencies: [
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
+				"3D8576904947C087"
 			]
 			id: "575C02BE8ACAF483"
 			tasks: [
@@ -692,6 +770,7 @@
 			dependencies: [
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
+				"3D8576904947C087"
 			]
 			id: "70A7D1359A978DFF"
 			tasks: [
@@ -718,6 +797,7 @@
 			dependencies: [
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
+				"3D8576904947C087"
 			]
 			id: "6AD7A1A383E2B102"
 			tasks: [
@@ -762,21 +842,29 @@
 			y: -1.5d
 		}
 		{
+			description: ["You may have already created either &6Iron (III) Chloride&r or &6Sodium Persulfate&r to save on &6silver&r for your phenolic circuit boards, but from here on out, they will be &brequired&r."]
 			id: "6448A28D81FCFBCF"
-			tasks: [
-				{
-					amount: 1000L
-					fluid: "gtceu:iron_iii_chloride"
-					id: "742E233B0B7B88D3"
-					type: "fluid"
+			tasks: [{
+				id: "250C7F64AD2A8EE1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iron_iii_chloride_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:sodium_persulfate_bucket"
+							}
+						]
+					}
 				}
-				{
-					amount: 1000L
-					fluid: "gtceu:sodium_persulfate"
-					id: "429DD177580D30C5"
-					type: "fluid"
-				}
-			]
+				type: "item"
+			}]
+			title: "Circuit Etching Fluids"
 			x: 5.0d
 			y: -3.0d
 		}
@@ -812,6 +900,14 @@
 				"70A7D1359A978DFF"
 				"7636E3994462BED8"
 				"7A284CF12EA916D5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&bIntegrated circuits&r are the 2nd tier of circuits. They use laser etched silicon components, which give higher yield at &bMV&r and open up &6HV&r circuits."
+				""
+				"The &7LV&r and &bMV&r integrated circuits can be made before transistors."
+				""
+				"Because the yield of &bMV&r circuits is 2x, and because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
 			]
 			id: "37249933D652078D"
 			tasks: [
@@ -849,7 +945,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4E25CA8F5E23C247"]
+			dependencies: [
+				"174CEACF8A92FDC3"
+				"568051A4FADBDA1D"
+			]
 			id: "7636E3994462BED8"
 			tasks: [{
 				id: "07775913E9E47535"
@@ -947,7 +1046,10 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["3532782ACCC39715"]
+			dependencies: [
+				"3532782ACCC39715"
+				"3D8576904947C087"
+			]
 			id: "4C3FEE53F021D224"
 			tasks: [{
 				id: "0CF5521A201095C3"
@@ -966,6 +1068,7 @@
 				"An &7LV&r or &bMV&r one is sufficient for the &9Emerald&r we need."
 			]
 			id: "3532782ACCC39715"
+			subtitle: "Oh no not more sifting"
 			tasks: [{
 				id: "60FD0631AE86F17A"
 				item: {
@@ -1038,13 +1141,14 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"A good first source of &6MV&r power is an &7LV&r transformer."
+				"&bTransformers&r can convert energy between tiers. Since each tier is 4x the voltage of the previous, this means 1A &6MV&r converts to 4A &7LV&r."
 				""
-				"As the tooltip suggests, it starts as a 1A &6MV&r -> 4A &7LV&r transformer, but hitting it with a &ascrewdriver&r will convert it to 4A &7LV&r -> 1A &7MV&r."
+				"You can use transformers to &eup-convert&r as well, turning 4A &7LV&r -> 1A &6MV&r. Machines typically accept lower voltages, so you have the option of powering &6MV&r &bbattery buffer&r directly from &7LV&r generators."
 				""
-				"With a transformer, you can re-use some of your &7LV&r infrastructure to generate &6MV&r power, and focus your early &6Aluminium&r on important &6MV&r machines. A 4A &7LV&r battery buffer should provide you with enough room to get started."
+				"Your other option is to use a 4A &7LV&r battery buffer with a transformer outputting 1A &6MV&r. This saves you an &9mv machine hull&r early. This might be useful, as &6aluminium&r becomes &emuch more abundant&r once you have the &6MV&r &belectrolyzer&r."
 			]
 			id: "3D0FF0DE59698684"
+			subtitle: "Robots in \"the skies\""
 			tasks: [{
 				id: "65C61158A729D4FE"
 				item: "gtceu:lv_transformer_1a"
@@ -1079,6 +1183,137 @@
 			}]
 			x: 6.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3320E243E14A626A"]
+			description: [
+				"The &9Iron Mesh&r unlocks several important materials."
+				""
+				"Most important right now is &6ruby&r, which can be found in &6deepslate&r.  Ruby is your best early source of &6chromium&r, which is an important ingredient in several important types of steel."
+			]
+			hide_dependency_lines: true
+			id: "00E84EF9FC7009DF"
+			subtitle: "Are you sure this is Iron?"
+			tasks: [{
+				id: "0205F83726F53F50"
+				item: "exnihilosequentia:iron_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["00E84EF9FC7009DF"]
+			description: [
+				"&6Chromium&r is a corrosion resistant metal, added to steels to make them resistant to &brust&r."
+				""
+				"Your best source of these is &delectrolyzing&r &6ruby&r for the near future, which also handily provides you with a decent yield of &6aluminium&r."
+				""
+				"It is an important component in several &6steels&r including &6Vanadium Steel&r and &6Stainless Steel&r, which are immediately relevant to progression through &7MV&r and into &6HV&r. "
+			]
+			id: "6943EEB24AC64081"
+			rewards: [{
+				count: 8
+				id: "132F339CAFA09A12"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			subtitle: "Shiny and chrome"
+			tasks: [{
+				id: "7B445928FE678059"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["174CEACF8A92FDC3"]
+			description: [
+				"Although a little expensive, the first &9Super Tank&r stores &d8000 buckets&r of fluids."
+				""
+				"&9Super Tanks&r are an excellent choice for fluid logistics. Not only do they hold a lot of fluid, but they can be &blocked&r to a fluid, automatically &boutput&r in any direction, and &bvoid excess&r fluids to prevent your systems from backing up."
+				""
+				"You will want a steady supply of &6Oxygen&r, &6Hydrogen&r, and &6Nitrogen&r; &dcentrifuging&r air and &delectrolyzing&r water and dumping the results into a bank of tanks would not be a bad idea."
+			]
+			id: "4F1154BDCFB9B343"
+			subtitle: "Superb"
+			tasks: [{
+				id: "1639C1E66B30F8E0"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"If you're going to get &bgems&r out of these crushed ores, you are going to need to wash them first in an &dOre Washer&r. The &7LV&r washer is sufficient for all of your washing needs, but if you want you can make a &bMV&r one, too."
+				""
+				"This process can be valuable in increasing or changing byproducts from other crushed ores as well. Be sure to check the &bore processing diagram&r tab in JEI."
+			]
+			hide_dependent_lines: true
+			id: "3D8576904947C087"
+			subtitle: "Cleanliness"
+			tasks: [{
+				id: "5E3D1AF7675F704C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_ore_washer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_ore_washer"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Washing Your Ores"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["131C228C88F2DDBF"]
+			id: "568051A4FADBDA1D"
+			tasks: [{
+				id: "4F693A318A307711"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00E84EF9FC7009DF"]
+			description: [
+				"With access to &6Apatite&r vein crushed ores, you can finally get some &6Phosphorous&r and produce the &7LV&r superconductor."
+				""
+				"Superconductors lose no power over distance, so they are good for distributing power or for powering long strings of machines involved in a processing chain."
+				""
+				"As you get into higher voltages, superconductors get &bless important&r, as a voltage drop of 1 EU/t/m starts to become much less significant."
+			]
+			id: "62B214DD547F582F"
+			rewards: [{
+				count: 8
+				id: "6027F23CF6FA062D"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DF7DC96BB01F29D"
+				item: "gtceu:manganese_phosphide_double_wire"
+				type: "item"
+			}]
+			title: "LV Super Conductor"
+			x: -2.5d
+			y: -12.0d
 		}
 	]
 	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]

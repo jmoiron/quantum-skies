@@ -54,19 +54,19 @@
 		}
 		{
 			description: [
-				"You find yourself on a small platform suspended above the cold void."
+				"You find yourself on a small platform suspended above the &6cold void&r."
 				""
 				"Where did you come from?  Can you get back?"
 				""
-				"The &opeculiar&r physics of this world give you some hope for survival.  Dropping things into the void sees them disappear, but placing them suspends them onto your island. It feels as though maybe falling into the void itself might not even be a death sentence..."
+				"The &bpeculiar&r physics of this world give you some hope for survival.  Dropping things into the void sees them disappear, but placing them attaches them onto your island. It feels as though maybe falling into the void yourself might not even be a death sentence..."
 				""
-				"If you're going to find a way back home, you'll have to do so &ofrom nothing&r."
+				"If you're going to find a way back home, you'll have to do so &bfrom nothing&r."
 			]
 			icon: "kubejs:qs_icon"
 			id: "72482C44E847C15D"
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "And where exactly is that?"
+			subtitle: "Does that even mean anything?"
 			tasks: [{
 				id: "1E5E158FE1DCC8F4"
 				title: "Quantum Skies"

@@ -387,6 +387,13 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"Each tier has several associated materials."
+				""
+				"The include the materials to build the &ehulls&r, the &esuperconductors&r, and the &ecoils&r used in that tier."
+				""
+				"That progression is presented here to help you &dplan ahead&r."
+			]
 			icon: "minecraft:dark_oak_hanging_sign"
 			id: "6A0B0324501F0ECC"
 			shape: "circle"
