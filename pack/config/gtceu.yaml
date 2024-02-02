@@ -2,7 +2,7 @@ recipes:
   # Whether to generate Flawed and Chipped Gems for materials and recipes involving them.
   # Useful for mods like TerraFirmaCraft.
   # Default: false
-  generateLowQualityGems: true
+  generateLowQualityGems: false
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
@@ -272,7 +272,7 @@ compat:
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
-    enablePlatformConverters: false
+    enablePlatformConverters: true
 
     # Platform native Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
