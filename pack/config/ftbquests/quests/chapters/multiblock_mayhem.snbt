@@ -6,7 +6,12 @@
 	icon: "gtceu:multi_smelter"
 	id: "7CFBD1B7CFB16FB1"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "7D4B15004BF0FE5C"
+		linked_quest: "0220FF8067094F9D"
+		x: -11.0d
+		y: -2.5d
+	}]
 	quests: [
 		{
 			id: "096D5539D7CCD684"
@@ -52,17 +57,7 @@
 			y: -4.0d
 		}
 		{
-			id: "7FF18C929D2BFEF3"
-			tasks: [{
-				id: "70CFE4685E3EC966"
-				item: "gtceu:large_combustion_engine"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7FF18C929D2BFEF3"]
+			dependencies: ["0220FF8067094F9D"]
 			id: "4CEA6B16098C618E"
 			tasks: [{
 				id: "1A6226FCF09C19FD"
@@ -390,27 +385,6 @@
 			}]
 			x: -2.0d
 			y: -4.0d
-		}
-		{
-			id: "48C1E31267F0C63A"
-			tasks: [{
-				id: "1D6495B2BE5FCD08"
-				item: "gtceu:iv_processing_array"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["48C1E31267F0C63A"]
-			id: "3FDAC2CF752B6382"
-			tasks: [{
-				id: "02A56A744810D972"
-				item: "gtceu:luv_processing_array"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.5d
 		}
 	]
 	title: "Multiblock Mayhem"

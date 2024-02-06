@@ -325,7 +325,9 @@
 			description: [
 				"Your first &5EV&r circuits, and the first that requiring the &bcleanroom&r."
 				""
-				"These circuits unlock both the &6HV&r &bcircuit assembler&r and progression into &5EV&r. They also form the basis for the first &9mainframes&r, a 4th tier of the current circuit line.  This pattern of having 4 tiers per line will continue from here on out."
+				"These circuits unlock both the &6HV&r &bcircuit assembler&r and progression into &5EV&r. They also form the basis for the first &9mainframes&r, a 4th tier of the current circuit line."
+				""
+				"This pattern of having 4 tiers per line will continue from here on out. Refresh your memory by checking the &2Circuits&r tab for a visual representation of the progression."
 			]
 			id: "4710DCD2C83D3D38"
 			shape: "gear"
@@ -354,8 +356,17 @@
 		}
 		{
 			dependencies: ["4710DCD2C83D3D38"]
+			description: [
+				"The &bDistillation Tower&r sits on the boundary between &6HV&r and &5EV&r, but it's really in &5EV&r and &1IV&r where it becomes a central component in your materials processing."
+				""
+				"You might be tempted to use this for &6oil&r, but it's not too efficient for power. Don't let that stop you if that's what you want to do!"
+				""
+				"Instead, look to the &bCracker&r and &bPyrolyse Oven&r outputs, which produce a multitude of useful chemicals that you will need in upcoming plastic and rubber compounds."
+			]
 			id: "27698E1CFA6AC0B5"
-			size: 1.25d
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Real Ultimate Power"
 			tasks: [{
 				id: "51BB6C780430E970"
 				item: "gtceu:distillation_tower"
@@ -443,22 +454,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"454242F0DA2FFBD0"
-				"10E6C543269AD20C"
-			]
-			id: "313EBA693444B4FB"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "56526951C86CFBDF"
-				item: "gtceu:titanium_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -9.0d
-		}
-		{
 			dependencies: ["496A339808DDDF51"]
 			id: "698DF2D40A52773A"
 			tasks: [{
@@ -482,7 +477,13 @@
 		}
 		{
 			dependencies: ["483F43EF65C69696"]
+			description: [
+				"These &9SMD Components&r are high-yield replacements for the low tech &etransistors&r, &ecapacitors&r, etc. that you have been using to produce circuits."
+				""
+				"The &9SMD Diode&r requires &6Platinum&r, which is a product of a long processing chain covered in the &5EV&r chapter. They are not necessary in HV except for a few components."
+			]
 			id: "6D8A803A97E65C1A"
+			subtitle: "Surface mount devices"
 			tasks: [
 				{
 					id: "007454E2336D98AD"
@@ -500,16 +501,12 @@
 					type: "item"
 				}
 				{
-					id: "446E8FBE087137A3"
-					item: "gtceu:smd_diode"
-					type: "item"
-				}
-				{
 					id: "6D6ABF95CB0F9D32"
 					item: "gtceu:smd_inductor"
 					type: "item"
 				}
 			]
+			title: "SMD Components"
 			x: 2.5d
 			y: -7.5d
 		}
@@ -638,7 +635,33 @@
 			x: 8.5d
 			y: -10.5d
 		}
+		{
+			dependencies: [
+				"454242F0DA2FFBD0"
+				"10E6C543269AD20C"
+			]
+			id: "36A1B71C1A6304D4"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0F9664962DCF7A05"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "016D0FF88A3A9DE8"
+			tasks: [{
+				id: "6D9E6C2AC74218FA"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
 	]
-	subtitle: ["Stainless Steel, Chip Fab and &6High Voltage&r"]
+	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]
 	title: "[&6HV&r] High Voltage"
 }

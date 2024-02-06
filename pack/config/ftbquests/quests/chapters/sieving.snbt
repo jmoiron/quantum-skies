@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "sieving"
 	group: "1C1C4FB2AFCF489D"
 	icon: "exnihilosequentia:flint_mesh"
@@ -8,5 +8,6 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: ["Everyone's favourite"]
 	title: "Sieving"
 }

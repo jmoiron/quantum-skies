@@ -1,0 +1,1077 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "5evr_extreme_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:ev_machine_hull"
+	id: "1CEB6068368CCEFB"
+	order_index: 4
+	quest_links: [
+		{
+			id: "0A0A3416EA432BFF"
+			linked_quest: "27698E1CFA6AC0B5"
+			shape: "gear"
+			size: 1.5d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "54B0B5CA0096D3B0"
+			linked_quest: "1FCD75FBB1AF9A5C"
+			x: 1.5d
+			y: -4.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"The &bLarge Combustion Engine&r is a multiblock generator that can produce &5EV&r power from combustible fuels. "
+				""
+				"The &bLCE&r is simple to run. Unlike &bLarge Turbines&r, it will not void power when there is nothing using it. Supplying it with &6Oxygen&r provides a &e50% fuel efficiency boost&r and is highly recommended."
+				""
+				"If you go this route, you will probably want to make &eat least&r &6Cetane Boosted Diesel&r, as the &bLCE&r will chew through lesser fuels very quickly."
+				""
+				"Optionally, you can produce &6Gasoline&r or &6High-Octane Gasoline&r (HOG). Both are considerable upgrades on &6CBD&r; HOG is 10x more energy dense than the &6Light Fuel&r you used to use!"
+			]
+			id: "0220FF8067094F9D"
+			min_width: 250
+			subtitle: "EV Petro Power"
+			tasks: [{
+				id: "38B272D27E4605C2"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The &bLarge Gas Turbine&r produces a huge amount of power from gas fuels. If you go this route, you will want to start producing &6Nitrobenzene&r."
+				""
+				"The &bLGT&r upgrades in place with new &9rotor holders&r, and can also take advantage of significant upgrades in efficiency with new &erotor materials&r. The process for making &6Nitrobenzene&r is also significantly simpler than even &6CBD&r."
+				""
+				"The downside is that rotors need to be &ereplaced&r, and running a turbine efficiently is &esignificantly&r more involved than combustion generators."
+				""
+				"All &bLarge Turbines&r will void power when that power cannot be used. Turbines need to run for a while before they are producing their maximum power, so you need to be careful how you set it up to turn on and off."
+			]
+			id: "2DD60B30DB8B3F71"
+			min_width: 250
+			tasks: [{
+				id: "7B5C20CD5897447F"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2DD60B30DB8B3F71"]
+			id: "3D7BE460986BC091"
+			tasks: [{
+				id: "76AF879C9F159666"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0220FF8067094F9D"
+				"4B00F98FFDFB8B5B"
+			]
+			id: "7F1CE5F538BD509C"
+			tasks: [{
+				id: "391BDDB7C7F7E7B8"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F1CE5F538BD509C"]
+			description: [
+				"Producing &6High Octane Gasoline&r is a significant challenge and will require many &bDistillation Towers&r and several multiblock &bCrackers&r."
+				""
+				"If you've come this far, you will be able to plot the rest of the course yourself."
+				""
+				"This is the pinnacle of petrol-power!"
+			]
+			id: "131A00281F318C2C"
+			tasks: [{
+				id: "1D2E283F4AEF0904"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2C075F720F7C394D"
+				"630FEB4A24EE7767"
+			]
+			id: "5509E27BF2B19A91"
+			tasks: [{
+				id: "79062AA8A6B12B33"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "2C075F720F7C394D"
+			tasks: [{
+				id: "67A3B70D0A6D5703"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"44957CFD2BDD50F4"
+				"4B00F98FFDFB8B5B"
+			]
+			id: "630FEB4A24EE7767"
+			tasks: [{
+				id: "75E85C5E60B47365"
+				item: "gtceu:bisphenol_a_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "4B00F98FFDFB8B5B"
+			tasks: [{
+				id: "285B70081AA33CC0"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "44957CFD2BDD50F4"
+			tasks: [{
+				id: "5CDB10C4A4F584C9"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The penultimate boiler, the &bTitanium Steam Boiler&r is very expensive, produces 1600EU/t worth of steam (less than 1A &5EV&r of power) given a very large amount of fuel, and probably should not be used."
+				""
+				"But anything is possible if you have &eimagination&r."
+			]
+			id: "045D6DAA516B666B"
+			subtitle: "Why would you make this"
+			tasks: [{
+				id: "7238B29065036C32"
+				item: "gtceu:titanium_large_boiler"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27698E1CFA6AC0B5"]
+			id: "219CC94D362342E3"
+			size: 1.2d
+			tasks: [{
+				id: "5AD58EC8D14A6EB4"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:tungsten_steel_spring"
+			id: "7418293A931E9DFC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "628A12221FA5C9CB"
+				title: "EV Lore"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "541ADBEBFED70B7F"
+			tasks: [{
+				id: "71F99C3613724978"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["541ADBEBFED70B7F"]
+			description: ["&9Flux Dust&r "]
+			id: "4197035F312E58AC"
+			tasks: [{
+				id: "36D4999EE0F87BFA"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4197035F312E58AC"]
+			id: "5F5867CA3A8803F6"
+			rewards: [{
+				id: "5BE66CD53B52283E"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CDB6AD1CFB8AC75"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "485E898FBAF7A8F0"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "32F8FA638CAB88F5"
+			tasks: [{
+				id: "6F0EDCB35463AC2B"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7DFF0EB3174AAFE6"
+				"541ADBEBFED70B7F"
+			]
+			description: [
+				"&6Tungstensteel&r is a strong steel alloy that itself will form the basis of more advanced steel alloys in the coming &2IV&r chapter."
+				""
+				"It is the hull material for &2IV&r, a &eCoil material&r for an upgrade to your &bEBF&r, and a very good base for &aGregtech Tools&r."
+			]
+			id: "628CBDB7A277054E"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "It's FeW not TS"
+			tasks: [{
+				id: "6EF126879E34DF52"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"654582D4F9A4F3E6"
+				"69F59B48423D6514"
+			]
+			id: "7DFF0EB3174AAFE6"
+			tasks: [{
+				id: "08440C13427014B3"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "654582D4F9A4F3E6"
+			tasks: [{
+				id: "0889316FE863C1AF"
+				item: "gtceu:ev_electrolyzer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"52489A8ED3FEAB0C"
+				"24A5214524BE2D2C"
+			]
+			id: "69F59B48423D6514"
+			tasks: [{
+				id: "74CF3B240341C81D"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "52489A8ED3FEAB0C"
+			tasks: [{
+				id: "5426A3B571695325"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "24A5214524BE2D2C"
+			tasks: [{
+				id: "14D5443F367E19FA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:tungstate_dust"
+							}
+							{
+								Count: 1b
+								id: "gtceu:scheelite_dust"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tungsten Processing Line"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5509E27BF2B19A91"]
+			id: "0097DAC359959A1D"
+			tasks: [
+				{
+					id: "74D58423699110A8"
+					item: "gtceu:epoxy_circuit_board"
+					type: "item"
+				}
+				{
+					id: "08AA64C4AA061710"
+					item: "gtceu:epoxy_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"628CBDB7A277054E"
+				"0C663343F3FBE400"
+			]
+			id: "14DAADBA638FE4B6"
+			tasks: [{
+				id: "61CF39EFDED73142"
+				item: "gtceu:tungstensteel_coil_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "0C663343F3FBE400"
+			tasks: [{
+				id: "45F6738A438A4029"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0C663343F3FBE400"
+				"628CBDB7A277054E"
+				"28ADD989C99275EB"
+			]
+			id: "5F0A83558061E69C"
+			tasks: [{
+				id: "62F91D8FDEC569A7"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "31E66A79C79E94C4"
+			tasks: [{
+				id: "799B8230FBCEA85C"
+				item: "gtceu:ev_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"31E66A79C79E94C4"
+				"1FCD75FBB1AF9A5C"
+			]
+			id: "28ADD989C99275EB"
+			tasks: [
+				{
+					id: "19EA49350AB994E2"
+					item: "gtceu:mpic_wafer"
+					type: "item"
+				}
+				{
+					id: "7A0A7F9E484C4327"
+					item: "gtceu:mpic_chip"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing it is a complex and challenging chain."
+				""
+				"This chain produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
+				""
+				"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
+				""
+				"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
+			]
+			icon: "gtceu:monazite_gem"
+			id: "6EED86F5C72C5729"
+			tasks: [
+				{
+					id: "49A33F93D5D43C75"
+					item: "gtceu:crushed_monazite_ore"
+					type: "item"
+				}
+				{
+					id: "5FD57DECF9DD2278"
+					item: "gtec:muddy_monazite_rare_earth_solution_bucket"
+					type: "item"
+				}
+			]
+			title: "The &6Lanthanides&r Chain"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EED86F5C72C5729"]
+			id: "2B1202FF36C62940"
+			tasks: [
+				{
+					id: "763EDC8390947F77"
+					item: "gtec:diluted_monazite_rare_earth_mud_bucket"
+					type: "item"
+				}
+				{
+					id: "23E1BB29E842A691"
+					item: "gtec:hafnia_zirconia_blend_dust"
+					type: "item"
+				}
+				{
+					id: "3AF5B3F51E65969D"
+					item: "gtec:thorium_dioxide_dust"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B1202FF36C62940"]
+			id: "3F13D8A5514C7457"
+			tasks: [{
+				id: "54E9DD100085B401"
+				title: "Hafnia Processing?"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B1202FF36C62940"]
+			description: ["&6Thorium Dioxide&r can yield some &6thorium&r and &6magnesium&r, or it can be used to produce large amounts of &6alumina&r, which can be processed in the &rEBF&r for &6aluminium&r."]
+			id: "2517532DAA321190"
+			tasks: [{
+				id: "433C0CBB585874B8"
+				item: "gtec:thorium_dioxide_dust"
+				type: "item"
+			}]
+			title: "Alumina?"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B1202FF36C62940"]
+			id: "46351614144F165B"
+			tasks: [
+				{
+					id: "67D372183238A89A"
+					item: "gtec:monazite_sulfate_dust"
+					type: "item"
+				}
+				{
+					id: "06BB04D5CFB1A06D"
+					item: "gtec:red_zircon_dust"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46351614144F165B"]
+			id: "132CF3BAE9E1FF0D"
+			tasks: [{
+				id: "5331BD6579CA92A3"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46351614144F165B"]
+			description: ["Dilute your &6Monazite Sulfate&r in water, then &breact&r with &6Ammonium Nitrate&r in a large chemical reactor to &9Acidic Monazite Powder&r."]
+			id: "3A96C9819CBB3B98"
+			tasks: [
+				{
+					id: "3530D8BC21741113"
+					item: "gtec:diluted_monazite_sulfate_bucket"
+					type: "item"
+				}
+				{
+					id: "2B1471718286B72E"
+					item: "gtec:acidic_monazite_powder_dust"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A96C9819CBB3B98"]
+			description: [
+				"Given how far you've come, it is a straightforward processing chain to get from &6Acidic Monazite Powder&r to the &9Neutralized Rare Earth Filtrate&r you need to sift to yield the &ehydroxide concentrate&r and &euranium filtrate&r in this quest."
+				""
+				"The &9Uranium Filtrate Dust&r will be your primary source of &6Uranium&r (both 238 and 235) for a while. The fun with Monazite continues, but you're getting closer to the rare earths byproducts."
+			]
+			id: "433629DA1946D1E0"
+			tasks: [
+				{
+					id: "12D0D2750B80123E"
+					item: "gtec:monazite_rare_earth_hydroxide_concentrate_dust"
+					type: "item"
+				}
+				{
+					id: "1CAD72D5E044C109"
+					item: "gtec:uranium_filtrate_dust"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["433629DA1946D1E0"]
+			id: "2719B12AEC888487"
+			shape: "octagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "12124E567ADC0EC4"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+				{
+					id: "7E2BFD879B08E89E"
+					item: "gtceu:uranium_dust"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["433629DA1946D1E0"]
+			description: ["Continuing down the &dmonazite chain&r, it's another series of straightforward processing steps to get from the &6hydroxide concentrate&r in the previous quest to the &6nitric leached mixture&r in this quest."]
+			id: "56677CB4BCFB7BB2"
+			tasks: [
+				{
+					id: "0C50D726CFC42B69"
+					item: "gtec:dried_monazite_rare_earth_concentrate_dust"
+					type: "item"
+				}
+				{
+					id: "0029499811418959"
+					item: "gtec:nitrogenated_monazite_rare_earth_concentrate_bucket"
+					type: "item"
+				}
+				{
+					id: "026C9935E66C471F"
+					item: "gtec:nitric_leached_monazite_mixture_bucket"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56677CB4BCFB7BB2"]
+			description: ["&6Zirconium&r sure seemed easy compared to this."]
+			id: "03789FB8DE1B91A1"
+			tasks: [
+				{
+					id: "6E3B8C1501B78D04"
+					item: "gtec:cerium_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "52DFA8F75738FF6B"
+					item: "gtec:cerium_chloride_dust"
+					type: "item"
+				}
+				{
+					id: "26AE4D0DBFB748AC"
+					item: "gtec:cerium_oxalate_dust"
+					type: "item"
+				}
+				{
+					id: "6BDA2323930AA332"
+					item: "gtec:cerium_iii_oxide_dust"
+					type: "item"
+				}
+			]
+			title: "Cerium Processing"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["56677CB4BCFB7BB2"]
+			description: ["More &estraight line processing&r yields a source of &6Europium&r and the next step on your way towards the rest of the &6lanthanides&r."]
+			id: "6861B1B00AA4A7FA"
+			tasks: [
+				{
+					id: "1AE0A01708A242D9"
+					item: "gtec:nitric_monazatie_leached_concentrate_bucket"
+					type: "item"
+				}
+				{
+					id: "52BF27ACBECE1374"
+					item: "gtec:monaziterarer_earth_sediment_dust"
+					type: "item"
+				}
+				{
+					id: "5ED553AFAD802753"
+					item: "gtec:europium_iii_oxide_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["03789FB8DE1B91A1"]
+			id: "77A995D3C62FEB71"
+			size: 1.0d
+			tasks: [{
+				id: "58A16F7832D7DC6C"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["132CF3BAE9E1FF0D"]
+			id: "4AE0F69C0CE4B68E"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "240CA13221BEDB70"
+				item: "gtceu:zirconium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6861B1B00AA4A7FA"]
+			description: [
+				"&9Europium Oxide&r doesn't save you from having to produce your first &6Europium&r in the &bFusion Reactor&r, but it does allow you to produce &6Europium&r from the lanthanides chain once you've got some."
+				""
+				"&bReacting&r 5x &9Europium Oxide&r with 1x &6Europium&r dust eventually yields 3x &6Europium&r dust."
+			]
+			id: "3274B1939799B2E8"
+			tasks: [
+				{
+					id: "0E76CF5BB773A9A1"
+					item: "gtec:europium_oxide_dust"
+					type: "item"
+				}
+				{
+					id: "745BF10823123174"
+					item: "gtceu:europium_dust"
+					type: "item"
+				}
+			]
+			title: "Chicken and Egg"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3274B1939799B2E8"]
+			description: [
+				"Although &6Europium&r is not attainable until &dLuV&r, the lanthanides processing chain nonetheless saves you from having to dedicate an entire &bFusion Reactor&r for &6Europium&r production."
+				""
+				"Not a bad side benefit."
+			]
+			id: "7EFD4684169611F1"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "46301D6758530F74"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6861B1B00AA4A7FA"]
+			description: [
+				"More imposingly named piles of dust produced in &estraight line&r reactions get you to the penultimate step in the lanthanides chain, &9Samaric Residue Dust&r."
+				""
+				"You're almost there!"
+			]
+			id: "0CEA3722533D346B"
+			tasks: [
+				{
+					id: "1C82C35B32A9B992"
+					item: "gtec:heterogenic_halogenic_monazite_rare_earth_mixture_dust"
+					type: "item"
+				}
+				{
+					id: "0DB67810466E0BD1"
+					item: "gtec:satured_monazite_rare_earth_dust"
+					type: "item"
+				}
+				{
+					id: "3F11FB35C3FDC107"
+					item: "gtec:samaric_residue_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0CEA3722533D346B"]
+			id: "4981824E18F95876"
+			tasks: [{
+				id: "6966EE00EE6C97D4"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4981824E18F95876"]
+			id: "0F89597063B5B4A6"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "6B826A26668BCDA2"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			title: "&1IV&r Superconductors"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0CEA3722533D346B"]
+			id: "59F6D6F567FA1014"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "1F533048B3F4B78D"
+				item: "gtceu:gadolinium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32F8FA638CAB88F5"]
+			id: "4FF0E3E5374D9784"
+			tasks: [{
+				id: "641697DAD8D75B7D"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FF0E3E5374D9784"]
+			id: "2579C8966ECE0564"
+			tasks: [
+				{
+					id: "1D82075A5EC2F3F5"
+					item: "gtceu:nano_cpu_wafer"
+					type: "item"
+				}
+				{
+					id: "2B1EBFECD08122F6"
+					item: "gtceu:nano_cpu_chip"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C663343F3FBE400"]
+			id: "56815F9B46CAD3B4"
+			tasks: [
+				{
+					id: "44658BF84FA785DC"
+					item: "gtceu:lapotron_gem"
+					type: "item"
+				}
+				{
+					id: "504090724E3ED1D0"
+					item: "gtceu:lapotron_crystal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "6186F0DF25244FF2"
+			tasks: [{
+				id: "272A6C1A24A22028"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2719B12AEC888487"
+				"6186F0DF25244FF2"
+			]
+			id: "4ECF13D81CF3AF9C"
+			tasks: [{
+				id: "49CE5C002A87C114"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4710DCD2C83D3D38"]
+			id: "12905CE3BDE99B86"
+			tasks: [{
+				id: "2A7D226F491B3417"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"12905CE3BDE99B86"
+				"4ECF13D81CF3AF9C"
+				"43F4005A394F03DA"
+			]
+			id: "6E8335580E1CE0E7"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7D7B09FD8018F8FA"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6E8335580E1CE0E7"
+				"2579C8966ECE0564"
+				"0097DAC359959A1D"
+			]
+			id: "58FCB772816E05CB"
+			tasks: [{
+				id: "4ABB09C252828A41"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58FCB772816E05CB"]
+			id: "7F8EA8A873DB3F73"
+			tasks: [{
+				id: "48314683EB51CA6E"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"77EBE3C3F4F85BA7"
+				"7F8EA8A873DB3F73"
+			]
+			id: "35B3291E41A2ED5C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3C49A8052F09B337"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FCD75FBB1AF9A5C"]
+			id: "77EBE3C3F4F85BA7"
+			tasks: [{
+				id: "1951A0EE36DC59F7"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["647C4C74A036F8AD"]
+			id: "43F4005A394F03DA"
+			tasks: [
+				{
+					id: "6FF7EB9D15CC7C17"
+					item: "gtceu:platinum_dust"
+					type: "item"
+				}
+				{
+					id: "79E1E41CADB1DD6E"
+					item: "gtceu:platinum_ingot"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4844B185A7634F36"]
+			id: "647C4C74A036F8AD"
+			tasks: [{
+				id: "3F41225B947B263E"
+				item: "gtec:repercipitated_platinum_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["044B72F93BDD176A"]
+			id: "4844B185A7634F36"
+			tasks: [{
+				id: "20C0D6072BB12569"
+				item: "gtec:platinum_concentrate_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EC10287171A5352"]
+			id: "044B72F93BDD176A"
+			tasks: [
+				{
+					id: "700AFF63523452D2"
+					item: "gtec:platinum_metallic_powder_dust"
+					type: "item"
+				}
+				{
+					id: "3A4B2815AAE115E7"
+					item: "gtceu:aqua_regia_bucket"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "4EC10287171A5352"
+			tasks: [{
+				id: "41119859500B5826"
+				item: "gtceu:crushed_cooperite_ore"
+				type: "item"
+			}]
+			title: "The &6Platinum&r Chain"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["044B72F93BDD176A"]
+			id: "5F8024CAA806783C"
+			subtitle: "Let's revisit this later"
+			tasks: [{
+				id: "39A6D6E5C02AFCFF"
+				item: "gtec:platinum_residue_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35B3291E41A2ED5C"]
+			id: "6519AED20FF95071"
+			tasks: [{
+				id: "2CBE4C2D297E582A"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]
+	title: "[&5EV&r] Extreme Voltage"
+}

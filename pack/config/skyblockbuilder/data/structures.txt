@@ -14,6 +14,7 @@ minecraft:monument
 minecraft:nether_fossil
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
+gcyr:photoshoot
 minecraft:pillager_outpost
 minecraft:ruined_portal
 minecraft:ruined_portal_desert

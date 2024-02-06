@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
+	default_quest_size: 0.75d
 	filename: "circuits"
 	group: "1C1C4FB2AFCF489D"
 	icon: "gtceu:plastic_printed_circuit_board"
@@ -15,8 +16,8 @@
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -1.875d
+			y: -2.25d
 		}
 		{
 			id: "3278620A21342DF8"
@@ -25,8 +26,8 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -1.875d
+			y: -1.125d
 		}
 		{
 			id: "5335DAE50B5B06CF"
@@ -35,8 +36,8 @@
 				item: "gtceu:plastic_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: -1.875d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5564907BD6A87B7C"]
@@ -47,8 +48,8 @@
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["3278620A21342DF8"]
@@ -59,8 +60,8 @@
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -0.75d
+			y: -1.125d
 		}
 		{
 			dependencies: ["5335DAE50B5B06CF"]
@@ -71,8 +72,8 @@
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -0.75d
+			y: 0.0d
 		}
 		{
 			icon: "gtceu:ulv_machine_hull"
@@ -82,8 +83,8 @@
 				title: "ULV Circuits"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: 0.375d
+			y: -3.375d
 		}
 		{
 			icon: "gtceu:lv_machine_hull"
@@ -93,8 +94,8 @@
 				title: "LV Circuits"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 1.5d
+			y: -3.375d
 		}
 		{
 			id: "4CE49992F444A86A"
@@ -103,8 +104,8 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 0.375d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -117,8 +118,8 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: [
@@ -131,8 +132,8 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -0.5d
+			x: 1.5d
+			y: -1.125d
 		}
 		{
 			icon: "gtceu:mv_machine_hull"
@@ -142,8 +143,8 @@
 				title: "MV Circuits"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 2.625d
+			y: -3.375d
 		}
 		{
 			icon: "gtceu:hv_machine_hull"
@@ -153,8 +154,8 @@
 				title: "HV Circuits"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 3.75d
+			y: -3.375d
 		}
 		{
 			dependencies: ["4928F27E780349EC"]
@@ -164,8 +165,8 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 0.375d
+			y: -1.125d
 		}
 		{
 			dependencies: ["5D7C663264DDD220"]
@@ -175,8 +176,8 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 2.625d
+			y: -1.125d
 		}
 		{
 			dependencies: [
@@ -189,8 +190,8 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 2.625d
+			y: -2.25d
 		}
 		{
 			id: "2D05F173726DBCB5"
@@ -199,8 +200,8 @@
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 0.375d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35DFA22118697AB3"]
@@ -210,8 +211,8 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35DFA22118697AB3"]
@@ -221,8 +222,8 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 2.625d
+			y: 0.0d
 		}
 		{
 			dependencies: ["096FA0FA09A94825"]
@@ -232,8 +233,8 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 3.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["395065CC7616698C"]
@@ -243,8 +244,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 4.875d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2A9E68F0848E1DA2"]
@@ -254,8 +255,8 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "736494A20646448B"
@@ -264,8 +265,8 @@
 				item: "gtceu:epoxy_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.875d
+			y: 1.125d
 		}
 		{
 			id: "41549ACF99BD36E0"
@@ -274,8 +275,8 @@
 				item: "gtceu:fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -1.875d
+			y: 2.25d
 		}
 		{
 			id: "4EDD7FBBB82FE328"
@@ -284,8 +285,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: -1.875d
+			y: 3.375d
 		}
 		{
 			dependencies: ["736494A20646448B"]
@@ -296,8 +297,8 @@
 				item: "gtceu:epoxy_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -0.75d
+			y: 1.125d
 		}
 		{
 			dependencies: ["41549ACF99BD36E0"]
@@ -308,8 +309,8 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -0.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["4EDD7FBBB82FE328"]
@@ -320,8 +321,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: -0.75d
+			y: 3.375d
 		}
 		{
 			dependencies: ["5E4D1A5728ED041C"]
@@ -331,8 +332,8 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 3.75d
+			y: 1.125d
 		}
 		{
 			dependencies: ["5E936C8C395591EC"]
@@ -342,8 +343,8 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 4.875d
+			y: 1.125d
 		}
 		{
 			dependencies: ["1E642AF4106D6F73"]
@@ -353,8 +354,8 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 6.0d
+			y: 1.125d
 		}
 		{
 			dependencies: ["437E1731E9F82EB5"]
@@ -364,8 +365,8 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.5d
+			x: 7.125d
+			y: 1.125d
 		}
 		{
 			icon: "gtceu:ev_machine_hull"
@@ -375,8 +376,8 @@
 				title: "EV Circuits"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 4.875d
+			y: -3.375d
 		}
 		{
 			icon: "gtceu:iv_machine_hull"
@@ -386,8 +387,8 @@
 				title: "IV Circuits"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 6.0d
+			y: -3.375d
 		}
 		{
 			icon: "gtceu:luv_machine_hull"
@@ -397,8 +398,8 @@
 				title: "LuV Circuits"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -3.5d
+			x: 7.125d
+			y: -3.375d
 		}
 		{
 			dependencies: ["0DECB1A806553628"]
@@ -408,8 +409,8 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 4.875d
+			y: 2.25d
 		}
 		{
 			dependencies: ["588BE3202C39C075"]
@@ -419,8 +420,8 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 6.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6431D70094656CB4"]
@@ -430,8 +431,8 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.0d
+			x: 7.125d
+			y: 2.25d
 		}
 		{
 			dependencies: ["31B466985B8C7CDF"]
@@ -441,8 +442,8 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.0d
+			x: 8.25d
+			y: 2.25d
 		}
 		{
 			icon: "gtceu:zpm_machine_hull"
@@ -452,8 +453,8 @@
 				title: "ZPM Circuits"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: -3.5d
+			x: 8.25d
+			y: -3.375d
 		}
 		{
 			dependencies: ["35D8ECAC7EBDC6DA"]
@@ -463,8 +464,8 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.5d
+			x: 6.0d
+			y: 3.375d
 		}
 		{
 			dependencies: ["1C72E9C3FB501D61"]
@@ -474,8 +475,8 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.5d
+			x: 7.125d
+			y: 3.375d
 		}
 		{
 			dependencies: ["1A850FA3065CD625"]
@@ -485,8 +486,8 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 8.25d
+			y: 3.375d
 		}
 		{
 			dependencies: ["5F2D60E3CA84A84B"]
@@ -496,8 +497,8 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 5.5d
+			x: 9.375d
+			y: 3.375d
 		}
 		{
 			icon: "gtceu:uv_machine_hull"
@@ -507,8 +508,8 @@
 				title: "UV Circuits"
 				type: "checkmark"
 			}]
-			x: 12.5d
-			y: -3.5d
+			x: 9.375d
+			y: -3.375d
 		}
 		{
 			id: "099A22D915371988"
@@ -517,8 +518,8 @@
 				item: "gtceu:wetware_circuit_board"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -1.875d
+			y: 4.5d
 		}
 		{
 			dependencies: ["099A22D915371988"]
@@ -529,8 +530,8 @@
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: -0.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4625D1C3851976D8"]
@@ -540,8 +541,8 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 7.125d
+			y: 4.5d
 		}
 		{
 			dependencies: ["68F17F12F1CA7F41"]
@@ -551,8 +552,8 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 7.0d
+			x: 8.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3452BE188DC53866"]
@@ -562,8 +563,8 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 7.0d
+			x: 9.375d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A9247C8D13D4C39"]
@@ -573,8 +574,8 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.0d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			icon: "gtceu:uhv_machine_hull"
@@ -584,9 +585,10 @@
 				title: "UHV Circuits"
 				type: "checkmark"
 			}]
-			x: 14.0d
-			y: -3.5d
+			x: 10.5d
+			y: -3.375d
 		}
 	]
+	subtitle: ["Visual guide to circuit progression"]
 	title: "Circuits"
 }

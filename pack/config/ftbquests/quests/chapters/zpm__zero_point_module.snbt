@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:zpm_electric_motor"
 	id: "0945247E83444D90"
-	order_index: 7
+	order_index: 8
 	quest_links: [
 		{
 			id: "6BE70146903B5CBD"
@@ -720,6 +720,6 @@
 			y: 3.375d
 		}
 	]
-	subtitle: ["Stem Sell Research and &cZPM&r Voltage"]
+	subtitle: ["Stem Cell Research and &cZPM&r Voltage"]
 	title: "[&cZPM&r] Zero Point Module"
 }

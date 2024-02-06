@@ -228,7 +228,7 @@ ServerEvents.recipes(event => {
     Object.entries(sieveRecipes).forEach(([meshType, v]) => {
         Object.entries(v).forEach(([input, outputs]) => {
             outputs.forEach((output) => {
-                console.log(input + " => " + output);
+                //console.log(input + " => " + output);
                 event.custom({
                     "type": "exnihilosequentia:sifting",
                     "input": input,

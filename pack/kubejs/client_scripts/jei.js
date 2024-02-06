@@ -11,6 +11,10 @@ JEIEvents.hideItems(event => {
     event.hide(`exnihilosequentia:raw_${mat}`);
   });
 
+  // PA recipes have been removed, no need to show in JEI
+  event.hide("gtceu:iv_processing_array");
+  event.hide("gtceu:luv_processing_array");
+
   // don't need mek gas and it might be confusing with steam
   event.hide("pipez:gas_pipe")
 
