@@ -146,6 +146,19 @@ let gtceuVeins = {
 //   - stibnite needed for antimony (battery alloy)
 //   - realgar needed for arsenic (gallium arsenite for 1st MV)
 //   - sapphire for early aluminium
-//   - graphite needed for arc furnace (can we give tiny graphite dust?)
+//   - graphite needed for arc furnace
 // aluminium for MV (sapphire/clay)
-//   - 
+//   - vanadium for vanadium steel (mv cutter)
+//   - chromium (ruby) for vanadium steel (mv cutter) + stainless (hv)
+//   - emerald, ruby, sapphire, diamond for wafer lenses
+//   - manganese for stainless steel (hv)
+// stainless for HV
+//   - electrotine for blue steel (but can be made w/ silver+gold & redstone)
+//   - tantalite for SMD components (optional, boost)
+//   - bauxite or ilmenite for titanium 
+// titanium for EV 
+//   - plutonium + uranium for radon (circuit asm)
+//   - platinum (circuit asm, sheldonite for gtec plat chain)
+//   - monazite for monazite chain (source of uranium)
+
+

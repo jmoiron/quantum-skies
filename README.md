@@ -12,13 +12,18 @@ Pipez is available for early game logistics, but upgrades and filters are disabl
 
 To balance some of this out, there are no storage drawers.
 
+GTCEu modern is still under some heavy development and ~15% of features from GTCEu 1.12 have not yet been ported (Feb 2024)
+
+Quantum Skies is playable to IV, 
+
 Inspiration:
 
-* Agrarian Skies, the original expert skyblock
-* Gregblock, the original gregtech skyblock
-* Gregicality Skyblock, gtceu skyblock before gtceu exists
-* Sky Technology, a gtceu modern skyblock
-* Gregtech Community Pack (+Modern), great GT tutorial pack
+* [Agrarian Skies](https://www.curseforge.com/minecraft/modpacks/agrarian-skies), the original expert skyblock
+* [Gregblock](https://www.curseforge.com/minecraft/modpacks/gregblock), the original gregtech skyblock
+* [Gregicality Skyblock](https://www.curseforge.com/minecraft/modpacks/gregicality-skyblock-edition), gtceu skyblock before gtceu exists
+* [Star Technology](https://www.curseforge.com/minecraft/modpacks/star-technology), a 1.19 gtceu modern skyblock
+* [Gregtech Community Pack](https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack)
+  (+[Modern](https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern)), great GT tutorial pack
 
 Credits:
 

@@ -1,7 +1,7 @@
 
 GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
-    event.create("sieve")
-        .category("sieve")
+    event.create("industrial_sieve")
+        .category("industrial_sieve")
         .setEUIO("in")
         .setMaxIOSize(1, 1, 2, 1)
         .setSound(GTSoundEntries.BOILER);
@@ -17,7 +17,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     event.create("industrial_sieve", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType("sieve")
+        .recipeType("industrial_sieve")
         .tier(GTValues.HV)
         // .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
@@ -38,7 +38,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
                     .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 1, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 1, 1))
-                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 2))
                     .or(setCount(abilities(PartAbility.INPUT_ENERGY), 1, 1)))
                 .where(" ", Predicates.any())
                 .build()

@@ -53,12 +53,16 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
+file = "config/embeddium-fingerprint.json"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
+
+[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "a1e7d43765a44052156c913fcc99c8746ee422de8b8f31665dd4225a84f10fc4"
+hash = "ebc94577ad1c7494c3bb5d2947d8166a07ddf26a8559f449a105e637045bd8c0"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -114,11 +118,11 @@ hash = "6179263b0aeaf3d52a25f56e61852955ad86f5f8f6b64f41cb08ab8cf369f11e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "a370b49713520987ed3e5856318e46312b161a765d50964099dad84ef983ae05"
+hash = "f4825c0156072fc00fd159c9b93e5a29142a05e78f30886d287783f1a671f48b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "8efa4dc36144acbec711f9893dcd7382bd4803432bb02a211420018020f84ac9"
+hash = "0b16cad1052e1ad5bf31292e135e71b1fdc7500ac4e73cb938fca6e5e033149d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -130,7 +134,7 @@ hash = "51191441e028f1c5ffa31deec21d5dbd89841ca3b010ef0e8c33111b05b61e93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "3a3afc0af791a18f752ebc46a8749d8b33caccdb424973ec8b5e5baf664a7df2"
+hash = "903e4747eabf33d38e366115ad0436a007947ca92d2dcf5152ff45bc3f8af088"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -142,27 +146,27 @@ hash = "70594d1a72522f99bc6e16deba51817d55810da2077e100107b81f4683f0f260"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "7def97130f00c5d8759c54e7e9ffe64f7eb24ed852c0fbd20b60df3c7ed1f710"
+hash = "35f399ac8405ef92a2d051ed4321fa8866fbf80e0d1af9fd51384b3441a6f5af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "c3c793239a971f68ea1351c757a84e742af3c86b86a0c6ae08df7ca998e4e520"
+hash = "e25fb6b065d3dccc2ef3b66500e9d637b07dffded8b44a496cdcf59ae18826ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "ed5349b8eedf6497d095d4363eee3687caae003c8bdaf145643ba92289ffe021"
+hash = "f00c8fa2a42ff97f0bcca12bc7b403b19d139512461df0d86833801baca17ab7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "a29d7fa9215a6213236f8c2d08bdf2afc343c9aaaf3ad7a203b04301450ac8d0"
+hash = "572b511f286827e0db3f0b73eb7c88f2a71c8146b0b96ab74e5568d961cb0b1f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "a579261f3f7ebd8fd86cffab1d893a3c45d244971aeff8eee128e8d422cb3923"
+hash = "effae137d53f46dff8220620bbf52e6580fa35cc2af30bcac132f1393a2f975d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "d68e027d3705fe078e1a99bc0dfcec0b5a0a243113bb4bb76348743fde52d321"
+hash = "05a11d28bdafc13eae6f70fa8236594e60cb1324307303aafa0239e711d60ae2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -178,11 +182,11 @@ hash = "ae2202c700ef0c53a75ad5ac941f405ca94b6c621e559b7e871b3dfe76bae769"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "8d7b710ce9d18a0076b3a57e40d27a34945101984c32f266044e02472e09d3f1"
+hash = "bf5bff4e3e275c02ff67d1d98eb42ae4de5a4d7c9212133bff7181739b2bba1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "030edb10329a979832a2aa4d3c1d596b005789778612bc1ca37dae900e875c5f"
+hash = "5b86fddaf02f2357cb9ca9b041595bc6e56149e77b139f1ba65ff0fdb9cb4466"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
@@ -190,7 +194,7 @@ hash = "4993b057e90da86434a6a4058124e947e97ee5d273ab435d96e9e7ca55b1dee7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "c11f23efc400531339773d9cf26faabc7c79f5571b3ffffd3200ac34250e130d"
+hash = "300eea52f6c90fceed0d65f68efa6a721a8a644dce3a14adf17a0b62b19a2428"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -210,7 +214,7 @@ hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "d07289c5e4e3cbce673ab8308329bd3a718422e0b4c06ed22882c9efe01c42e3"
+hash = "e37688ceb523325f948e74e5824c1714ceb8cd8933434db3d0ca1e6975d731e2"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -266,7 +270,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "279cc511e4109002da6aacb3bff127aeb2c889703b8fedba9fafc7db8157685c"
+hash = "14476326dc4b52d1d9498b3fcab43fa4dcb3dcbad860e89185c7fbb900598586"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -286,7 +290,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "06ce7ae3a34fce3f4f41b84fd7a2a44f1991b4a05938eb60ee3bf764a623f1e5"
+hash = "17cc604df4447a785077dafb949ddb369fc981f85c9e78d5f1aa47045fc14eb4"
 
 [[files]]
 file = "config/panorama.json"
@@ -314,7 +318,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "ccd2cff83516fda580be90175210edf93ab038f9925eb6928334cb75796c4966"
+hash = "87921d5542a90ad60a1e96aed2bb3602c7e65754de91a9cb1123e758961662ab"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -425,12 +429,16 @@ file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+file = "kubejs/assets/kubejs/textures/item/aluminium_mesh.png"
+hash = "3aa231929fd56b2d6f6b98f2f931da53c408f967cba82af5f0d979da11f9f615"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/qs_icon.png"
-hash = "6a77d89d5ce08fc71159be99c3a4af215cddd0480532619810fa49e8da1899c2"
+hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/titanium_mesh.png"
+hash = "b87b428fe12ada7d455de6aba853cfb67c239d5fa2014a8c7106b5721d932a6e"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -566,7 +574,7 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
-hash = "c95503438d79404cc9b5c0da56f926f80522caa9a5591a09e86d2009a5d07c95"
+hash = "db227710458074a49d0f7e21317426375ea1ba6930e4145840cd853cff213a8b"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
@@ -594,7 +602,7 @@ hash = "f3581cbeb887344fc989c56d1e67df96065a0947aacc86f5dfb70734167d52b4"
 
 [[files]]
 file = "kubejs/startup_scripts/fluxnet.js"
-hash = "579190c68f4e71ab393158f1ddd787ba9a0df9b889e7dc94ea252a68a4799792"
+hash = "9fb2decf770d52782f592fa752cc0cafc9bd5f201bc6332def94d8cccc28a3d3"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
@@ -618,7 +626,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/sieve.js"
-hash = "a04ea4741db58d7d133187c7e74037fc16141cd8cef933c33ad53ba154001a1f"
+hash = "9da044f0a11d98f9604fb31577b8147e2ffc050be41b42c29688aff8d7791cef"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
