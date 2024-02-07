@@ -290,7 +290,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d8af97373c4739a31975222efb2c3e1a3ac9239d7f0380729485aea404a3702e"
+hash = "43fb243bba6a38f8f43511e9f8fc492128329834a75d3fcee1c8251e3f51840b"
 
 [[files]]
 file = "config/panorama.json"
@@ -318,7 +318,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "ad3901a5bbd61193910fcb54f8453e10f205cee34f24fbccd2a703b9b92c1acd"
+hash = "e5d732e41bd74cc941c211e6dc9a9df62362f64f0594b2879d946368cc447298"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -435,6 +435,10 @@ hash = "3aa231929fd56b2d6f6b98f2f931da53c408f967cba82af5f0d979da11f9f615"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/qs_icon.png"
 hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/qs_icon_cropped.png"
+hash = "fd8035eeb86c87757faf2d2f83a0f746c428d98a8b411624fa4e18d3b2233e63"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_mesh.png"
@@ -606,7 +610,7 @@ hash = "a3e0234775e878e2f5cfae60f9d840ab2c18d650ed2fbc7abfe4a65a20e08eb4"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
-hash = "e55ddf5a8498b44a9b2dcb332cc19f89bad31aad85efebfbf0497aa5beaabfcf"
+hash = "a30edea8640df6dff0df76d801383e8fde752fc65c3f3b315774ce08e1be15a9"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
