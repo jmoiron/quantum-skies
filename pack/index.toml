@@ -290,7 +290,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "17cc604df4447a785077dafb949ddb369fc981f85c9e78d5f1aa47045fc14eb4"
+hash = "d8af97373c4739a31975222efb2c3e1a3ac9239d7f0380729485aea404a3702e"
 
 [[files]]
 file = "config/panorama.json"
@@ -318,7 +318,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "87921d5542a90ad60a1e96aed2bb3602c7e65754de91a9cb1123e758961662ab"
+hash = "ad3901a5bbd61193910fcb54f8453e10f205cee34f24fbccd2a703b9b92c1acd"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -578,7 +578,7 @@ hash = "db227710458074a49d0f7e21317426375ea1ba6930e4145840cd853cff213a8b"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
-hash = "39b7afb0ecbeef2c14804398de622561f03d815b001a43791906ce503e4d959c"
+hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"
@@ -602,7 +602,7 @@ hash = "f3581cbeb887344fc989c56d1e67df96065a0947aacc86f5dfb70734167d52b4"
 
 [[files]]
 file = "kubejs/startup_scripts/fluxnet.js"
-hash = "9fb2decf770d52782f592fa752cc0cafc9bd5f201bc6332def94d8cccc28a3d3"
+hash = "a3e0234775e878e2f5cfae60f9d840ab2c18d650ed2fbc7abfe4a65a20e08eb4"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
