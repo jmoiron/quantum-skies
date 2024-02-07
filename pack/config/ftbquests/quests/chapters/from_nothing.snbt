@@ -12,7 +12,7 @@
 		{
 			dependencies: ["448AE4A9F041CC64"]
 			description: [
-				"Every story has a beginning. It usually involves punching trees."
+				"Every story has a beginning. Usually, that beginning involves punching trees."
 				""
 				"Have you checked out the circular info quests yet? This pack includes &2Ultimine&r and &2Squat Grow&r to streamline the lumberjacking you are about to do."
 			]
@@ -48,13 +48,13 @@
 			description: [
 				"As you suspected!"
 				""
-				"At first blush, this world &eappears&r normal, but the physics here are quite bizarre."
+				"At first blush, this world &eappears&r normal, but the physics here are quite bizarre. Maybe it &o&5isn't your world&r after all."
 				""
-				"&9Water&r, arranged in a 2x2 square, is limitless.  It flows forever, creating endless stone when contacting lava.  The resulting stone is &erich in minerals&r of all kinds.  "
+				"&9Water&r, arranged in a 2x2 square, is limitless.  It flows forever, creating endless stone when contacting lava.  The resulting stone is &erich in minerals&r of all kinds."
 				""
 				"&9Trees&r seem to grow almost instantaneously, and organic matter breaks down into dirt readily. The dirt here overflows with &eagricultural products&r that generate spontaneously."
 				""
-				"Using the wood from this tree, you should be able to establish yourself and start the hard work of getting back."
+				"Using the wood from this tree, you should be able to establish yourself and start the hard work of figuring out what's happened."
 			]
 			disable_toast: true
 			icon: "exnihilosequentia:jungle_sieve"
@@ -75,7 +75,7 @@
 			description: [
 				"Make a &9Wooden Crook&r out of sticks, and then crook leaves to get &9Silkworms&r.  Probably a good job for &2ultimine&r."
 				""
-				"Once you have &9Silkworms&r, grow another tree and &oinfest it&r by right clicking a leaf block with a silkworm.  Once the infestation has completed, you can crook the infested leaves to get &9String&r!"
+				"Once you have &9Silkworms&r, grow another tree and &einfest it&r by right clicking a leaf block with a silkworm.  Once the infestation has completed, you can crook the infested leaves to get &9String&r!"
 			]
 			icon: {
 				Count: 1b
@@ -143,10 +143,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"6E2EAFBC87FDAD2B"
-				"4A6FD7DCE495D0FB"
-			]
+			dependencies: ["6E2EAFBC87FDAD2B"]
 			description: [
 				"This humble sieve will be your early game companion."
 				""
@@ -556,9 +553,9 @@
 			description: [
 				"The &6Charcoal&r furnace recipe has been moved into the &evanilla&r &9Blast Furnace&r."
 				""
-				"Usually, you'd need to get a &9Coke Oven&r to produce it, but in a normal world, you'd also be able to mine for &9Coal&r.  You won't be able to get &9Coal&r until you harness steam."
+				"&2Gregtech&r usually unlocks charcoal at the &bCoke Oven&r, but in a normal world, you'd also be able to mine for &9Coal&r.  You won't be able to get &9Coal&r until you harness steam."
 				""
-				"Not to worry, we will need that &6Coke Oven&r soon enough for &6Creosote Oil&r."
+				"Not to worry, we will need that &bCoke Oven&r for &6Creosote Oil&r."
 			]
 			id: "12289047D9E54B1E"
 			rewards: [{
@@ -656,7 +653,7 @@
 			dependencies: ["448AE4A9F041CC64"]
 			dependency_requirement: "one_started"
 			description: [
-				"This pack includes &2FTB Ultimine&r, bound by default to &2grave&r (the key above &2tab&r)."
+				"This pack includes &2FTB Ultimine&r, bound by default to &3grave&r (the key above &3tab&r)."
 				""
 				"When the keybind is held, mining a block in the world will mine adjacent identical blocks.  This is great for &9Crooking&r leaves, &9Hammering&r various stones, or felling trees."
 			]
@@ -668,6 +665,17 @@
 				}
 			}
 			id: "66A592F2E3BFD51A"
+			rewards: [{
+				id: "40CB929286169CF2"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.75d
 			subtitle: "Vein Miner, Ore Excavator"
@@ -688,9 +696,17 @@
 				"When you dash or squat repeatedly (&3shift&r) near trees or crops, a &9Bonemeal&r effect will be applied, speeding up their growth."
 				""
 				"Since you have started with only a tree and some dirt, this should come in handy."
+				""
+				"Just in case you missed getting a &9sapling&r from your first tree, these should get you re-started."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "036D6BE6D47E6D70"
+			rewards: [{
+				count: 4
+				id: "7676663C4121545A"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.75d
 			subtitle: "Tree Twerking"
@@ -919,7 +935,7 @@
 				"This process takes a while.  Making an infinite water source with your first two &9Buckets&r worth wouldn't be a bad idea."
 			]
 			id: "183B84F55452A5A4"
-			subtitle: "Not A Drop To Drink"
+			subtitle: "Not a drop to drink"
 			tasks: [{
 				id: "7B0DC7EE203A2E9D"
 				item: "exnihilosequentia:oak_crucible"

@@ -13,11 +13,11 @@
 			description: [
 				"&6Stainless steel&r and plastics allow a further refinement in your mechanization."
 				""
-				"The &bmacerator&r you can produce with these materials should start to provide additional by-products when processing ores, opening up new possibilities for gaining previously rare materials in bulk."
+				"The &bmacerator&r you can produce with these materials should provide additional by-products when processing ores, opening up new possibilities for sourcing previously rare materials."
 				""
-				"It seems that you've reached the limits of circuit fabrication that can be done in the uncontrolled environment of the sky. You'll need to use the &eplastics&r to create some kind of &bcleanroom&r to progress further."
+				"You've reached the limits of circuit fabrication done out in the uncontrolled environment of the sky. You'll need to use the &eplastics&r to create some kind of &bcleanroom&r to progress further."
 				""
-				"It's still not really clear where you are, or how to get back, but it &efeels&r like greater technology will be needed to explore these questions."
+				"It's still not really clear where you are, or how to get back, but it &efeels&r like pursuing higher level technology will be needed to explore these questions."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true

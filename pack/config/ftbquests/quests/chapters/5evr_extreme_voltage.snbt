@@ -194,6 +194,17 @@
 			y: -1.0d
 		}
 		{
+			description: [
+				"From here forward, it seems that gains in &2processing byproducts&r will be mostly incremental."
+				""
+				"There are a great deal of &erare resources&r that can further your technological progress locked up in the various sludges and residues of crushed ores, if only there was a way to &2process&r and extract them."
+				""
+				"With &5Extreme Voltage&r, you should be able to run an industrialized sieving process that could extract more from the &6lava&r you can produce in abundance."
+				""
+				"Efficiently compounding these small gains are the order of the day. The technology these new materials enable could begin to force this mysterious world to &eyield its secrets&r."
+				""
+				"The stars are calling."
+			]
 			icon: "gtceu:tungsten_steel_spring"
 			id: "7418293A931E9DFC"
 			shape: "hexagon"
@@ -459,6 +470,8 @@
 				"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
 				""
 				"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
+				""
+				"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
 			]
 			icon: "gtceu:monazite_gem"
 			id: "6EED86F5C72C5729"
@@ -840,7 +853,13 @@
 		}
 		{
 			dependencies: ["4FF0E3E5374D9784"]
+			description: [
+				"&9Nano CPUs&r are the foundation of the your next line of circuits, the &eNanoprocessors&r."
+				""
+				"They are used in some capacity throughout the &erest of the circuit progression&r, so you will want to ensure that you have a good system for keeping these in supply."
+			]
 			id: "2579C8966ECE0564"
+			subtitle: "Nanomachines"
 			tasks: [
 				{
 					id: "1D82075A5EC2F3F5"
@@ -875,6 +894,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["2402F82F7C6B7943"]
 			id: "6186F0DF25244FF2"
 			tasks: [{
 				id: "272A6C1A24A22028"
@@ -901,6 +921,7 @@
 		{
 			dependencies: ["4710DCD2C83D3D38"]
 			id: "12905CE3BDE99B86"
+			size: 1.25d
 			tasks: [{
 				id: "2A7D226F491B3417"
 				item: "gtceu:micro_processor_mainframe"
@@ -1038,6 +1059,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["2402F82F7C6B7943"]
 			id: "4EC10287171A5352"
 			tasks: [{
 				id: "41119859500B5826"
@@ -1050,6 +1072,11 @@
 		}
 		{
 			dependencies: ["044B72F93BDD176A"]
+			description: [
+				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
+				""
+				"There's no need to process this now, you can stockpile this in a &9Super Chest&r and pursue this in &1IV&r. &eDo not void it&r; you will need these metals in large quantities."
+			]
 			id: "5F8024CAA806783C"
 			subtitle: "Let's revisit this later"
 			tasks: [{
@@ -1070,6 +1097,17 @@
 			}]
 			x: 3.0d
 			y: 3.5d
+		}
+		{
+			id: "2402F82F7C6B7943"
+			size: 1.25d
+			tasks: [{
+				id: "1054A4E36715B338"
+				item: "gtceu:industrial_sieve"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]

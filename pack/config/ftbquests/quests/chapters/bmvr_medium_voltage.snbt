@@ -17,6 +17,12 @@
 			dependencies: ["3320E243E14A626A"]
 			description: ["As with every tier, the &9Machine Hull&r is the foundation of building out machines."]
 			id: "0EF63A0F090B2B21"
+			rewards: [{
+				count: 3
+				id: "1E6DDC39CDEA8B0D"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "23D4E252E9909638"
 				item: "gtceu:mv_machine_hull"
@@ -314,6 +320,7 @@
 				"7BF4BE21BD28B97E"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Distillation of &6Heavy Oil&r is &bMV&r, and it is best at producing &6Heavy Fuel&r, which itself is not combustible, making it a a difficult route for early power."]
 			id: "6DBFD1013B005FC5"
 			tasks: [{
 				id: "28FCE1B0A79677A6"
