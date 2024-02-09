@@ -5,7 +5,7 @@
 	group: "1C1C4FB2AFCF489D"
 	icon: "gtceu:ulv_machine_hull"
 	id: "12E6A054EA81E68F"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

@@ -41,7 +41,7 @@
 				}
 			]
 			title: "El Classico"
-			x: -2.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -67,7 +67,7 @@
 				type: "checkmark"
 			}]
 			title: "Ex Nihilo: From Nothing"
-			x: -3.5d
+			x: -0.5d
 			y: -4.5d
 		}
 		{
@@ -111,7 +111,7 @@
 				}
 			]
 			title: "Crooked Ways"
-			x: -2.0d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -139,7 +139,7 @@
 				}
 			]
 			title: "Getting Dirty"
-			x: -0.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -174,7 +174,7 @@
 				}
 			]
 			title: "Sieving"
-			x: -0.5d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -226,7 +226,7 @@
 				}
 			]
 			title: "Dust to Dust"
-			x: 1.0d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -274,7 +274,7 @@
 				}
 			]
 			title: "Fruity Pebbles"
-			x: -0.5d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -301,7 +301,7 @@
 				}
 			]
 			title: "Cobblestone"
-			x: 1.0d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -332,7 +332,7 @@
 				}
 			]
 			title: "Clay"
-			x: 2.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -364,7 +364,7 @@
 				}
 			]
 			title: "Starting Ores"
-			x: 1.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -394,7 +394,7 @@
 				}
 			]
 			title: "Iron"
-			x: 2.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -465,7 +465,7 @@
 				}
 			]
 			title: "Gregtech Tools"
-			x: 4.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -509,7 +509,7 @@
 				}
 			]
 			title: "Bronze"
-			x: 5.5d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
@@ -545,7 +545,7 @@
 				}
 			]
 			title: "Lava Generation"
-			x: 2.5d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -578,7 +578,7 @@
 				}
 			]
 			title: "Charcoal"
-			x: 1.0d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -607,7 +607,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "What is this, Railcraft?"
+			subtitle: "What is this, &2Railcraft&r?"
 			tasks: [
 				{
 					id: "61EE929E9902AE17"
@@ -622,7 +622,7 @@
 				}
 			]
 			title: "Coke Oven"
-			x: 4.0d
+			x: 7.0d
 			y: -3.0d
 		}
 		{
@@ -646,7 +646,7 @@
 				type: "checkmark"
 			}]
 			title: "Effortless Building"
-			x: -4.875d
+			x: -1.875d
 			y: -4.5d
 		}
 		{
@@ -684,7 +684,7 @@
 				title: "Ultimine"
 				type: "checkmark"
 			}]
-			x: -4.875d
+			x: -1.875d
 			y: -5.625d
 		}
 		{
@@ -716,7 +716,7 @@
 				type: "checkmark"
 			}]
 			title: "Squat Grow"
-			x: -4.875d
+			x: -1.875d
 			y: -3.375d
 		}
 		{
@@ -755,7 +755,7 @@
 				}
 			]
 			title: "Netherrack"
-			x: 4.0d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -765,7 +765,7 @@
 				""
 				"You can then crush it down with your &9Hammer&r and sieve the resulting &9Crushed End Stone&r."
 				""
-				"At this point, we only need this for &9Ender Pearls&r, but when we get better meshes, we'll be back."
+				"It will be a while until we can create &9ender pearls&r with the resulting &5ender pearl dust&r, but we can compress it into &eender dust&r."
 			]
 			icon: "minecraft:end_stone"
 			id: "61898B593512B8B8"
@@ -775,7 +775,7 @@
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			subtitle: "The End of Stone"
+			subtitle: "The endest of stones"
 			tasks: [
 				{
 					id: "6E809852E8E7B1DD"
@@ -783,13 +783,13 @@
 					type: "item"
 				}
 				{
-					id: "21D7BAAD578BD1DC"
-					item: "minecraft:ender_pearl"
+					id: "0F1BCB1FF31E1C2D"
+					item: "gtceu:ender_pearl_dust"
 					type: "item"
 				}
 			]
 			title: "End Stone"
-			x: 2.5d
+			x: 5.5d
 			y: -6.0d
 		}
 		{
@@ -800,9 +800,9 @@
 			description: [
 				"&9Soul Sand&r is one of the primary uses of &9Witch Water&r."
 				""
-				"Put an &9Oak Barrel&r on some dirt that you have infected with &9Mycelium Spores&r and then fill it with water.  You should see a progress meter as it turns to &9Witch Water&r.  Add some &9Sand&r, and you've got &9Soul Sand&r!"
+				"Put an &9Oak Barrel&r on some dirt that you have infected with &9Mycelium Spores&r and then fill it with water.  You should see a progress meter as it turns to &9Witch Water&r.  Add some &6Sand&r, and you've got &9Soul Sand&r!"
 				""
-				"Sieving this will be your primary source of &9Nether Quartz&r, though better meshes should yield other materials."
+				"Sieving this will be your primary source of &6Nether Quartz&r, though better meshes should yield other materials."
 				""
 				"Unfortunately, in 1.20, you can no longer use &9Witch Water&r to make dirt generators."
 			]
@@ -827,7 +827,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -867,7 +867,7 @@
 				}
 			]
 			title: "Redstone"
-			x: 4.0d
+			x: 7.0d
 			y: -6.0d
 		}
 		{
@@ -894,7 +894,7 @@
 				}
 			]
 			title: "Extra Pipes"
-			x: 2.5d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -924,7 +924,7 @@
 				}
 			]
 			title: "Early Sieve Automation"
-			x: 1.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -941,7 +941,7 @@
 				item: "exnihilosequentia:oak_crucible"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -1062,7 +1062,7 @@
 				}
 			]
 			title: "The Other Tools"
-			x: 4.0d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -1085,7 +1085,7 @@
 				type: "item"
 			}]
 			title: "Dirt Without Mulch"
-			x: -2.0d
+			x: 1.0d
 			y: -1.5d
 		}
 	]

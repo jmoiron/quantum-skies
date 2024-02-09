@@ -18,6 +18,9 @@ JEIEvents.hideItems(event => {
   // don't need mek gas and it might be confusing with steam
   event.hide("pipez:gas_pipe")
 
+  event.hide("qs_icon")
+  event.hide("qs_icon_cropped")
+
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });
 

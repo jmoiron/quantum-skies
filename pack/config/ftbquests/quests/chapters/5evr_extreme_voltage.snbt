@@ -21,6 +21,13 @@
 			x: 1.5d
 			y: -4.0d
 		}
+		{
+			id: "3E863D5F73BA7C19"
+			linked_quest: "763828CE2BABADAF"
+			size: 1.25d
+			x: -6.0d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -184,7 +191,7 @@
 		{
 			dependencies: ["27698E1CFA6AC0B5"]
 			id: "219CC94D362342E3"
-			size: 1.2d
+			size: 1.25d
 			tasks: [{
 				id: "5AD58EC8D14A6EB4"
 				item: "gtceu:cracker"
@@ -194,6 +201,10 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"4710DCD2C83D3D38"
+				"36A1B71C1A6304D4"
+			]
 			description: [
 				"From here forward, it seems that gains in &2processing byproducts&r will be mostly incremental."
 				""
@@ -205,6 +216,7 @@
 				""
 				"The stars are calling."
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:tungsten_steel_spring"
 			id: "7418293A931E9DFC"
 			shape: "hexagon"
@@ -237,7 +249,7 @@
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -260,10 +272,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
+			dependencies: ["7418293A931E9DFC"]
 			id: "32F8FA638CAB88F5"
 			tasks: [{
 				id: "6F0EDCB35463AC2B"
@@ -462,6 +475,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7418293A931E9DFC"]
 			description: [
 				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing it is a complex and challenging chain."
 				""
@@ -894,7 +908,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["2402F82F7C6B7943"]
+			dependencies: ["10163F0E75A4227C"]
 			id: "6186F0DF25244FF2"
 			tasks: [{
 				id: "272A6C1A24A22028"
@@ -937,7 +951,7 @@
 				"43F4005A394F03DA"
 			]
 			id: "6E8335580E1CE0E7"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "7D7B09FD8018F8FA"
@@ -1059,7 +1073,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["2402F82F7C6B7943"]
+			dependencies: ["10163F0E75A4227C"]
 			id: "4EC10287171A5352"
 			tasks: [{
 				id: "41119859500B5826"
@@ -1099,11 +1113,16 @@
 			y: 3.5d
 		}
 		{
-			id: "2402F82F7C6B7943"
-			size: 1.25d
+			dependencies: [
+				"7418293A931E9DFC"
+				"763828CE2BABADAF"
+				"36A1B71C1A6304D4"
+			]
+			dependency_requirement: "all_started"
+			id: "10163F0E75A4227C"
 			tasks: [{
-				id: "1054A4E36715B338"
-				item: "gtceu:industrial_sieve"
+				id: "0AD6F3546A0A3AFD"
+				item: "kubejs:titanium_mesh"
 				type: "item"
 			}]
 			x: -4.5d

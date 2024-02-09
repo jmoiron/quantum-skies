@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:zpm_electric_motor"
 	id: "0945247E83444D90"
-	order_index: 7
+	order_index: 8
 	quest_links: [
 		{
 			id: "6BE70146903B5CBD"
@@ -408,10 +408,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"35F13B6D60361904"
-				"3568BC9742092FC5"
-			]
+			dependencies: ["35F13B6D60361904"]
 			description: [
 				"The &aSterilized Cleanroom&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!"
 				""

@@ -23,5 +23,18 @@ ServerEvents.recipes(event => {
         .itemOutputs("minecraft:sand")
     */
 
+    // make travelanchors recipes use ender pearl dust instead of pearls
+    // so they are easier to make earlier
+    event.replaceInput({mod: "travelanchors"}, "minecraft:ender_pearl", "ae2:ender_dust")
+
+    // remove vanilla ender eye recipe
+    event.remove({type: "crafting_shapeless", output: "miencraft:ender_eye"})
+    event.remove({type: "crafting_shaped", output: "miencraft:ender_eye"})
+
+    // item collectors are meant to be very early (pre-steam) tech
+    // the advanced item collector is HV+ with the current recipe
+    // but it doesn't have enough utility to be modified
+    event.replaceInput({mod: "itemcollectors"}, "minecraft:ender_pearl", "gtceu:ender_pearl_dust")
+
 });
 

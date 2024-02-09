@@ -30,11 +30,31 @@ ServerEvents.recipes(event => {
     Item.of("exnihilosequentia:iron_mesh"),
     ['ABA', 'BCB', 'ABA'],
     {
-      A: "gtceu:aluminium_rod",
+      A: "gtceu:polytetrafluoroethylene_rod",
       B: "exnihilosequentia:flint_mesh",
       C: "gtceu:steel_frame",
     }
   );
+
+  event.shaped(
+    Item.of("kubejs:aluminium_mesh"),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: "gtceu:polytetrafluoroethylene_rod",
+      B: "exnihilosequentia:iron_mesh",
+      C: "gtceu:aluminium_frame",
+    }
+  )
+
+  event.shaped(
+    Item.of("kubejs:titanium_mesh"),
+    ['ABA', 'BCB', 'ABA'],
+    {
+      A: "gtceu:styrene_butadiene_rubber_rod",
+      B: "kubejs:aluminium_mesh",
+      C: "gtceu:titanium_frame",
+    }
+  )
 
   // forge hammer compatibility w/ ex nihilo crushing
   function forge_hammer(name, input, output) {

@@ -479,6 +479,7 @@
 			]
 			icon: "gtceu:steam_grinder"
 			id: "381E8B4BF9C33A9C"
+			size: 1.25d
 			subtitle: "Parallelized Maceration"
 			tasks: [
 				{
@@ -560,6 +561,7 @@
 			]
 			icon: "gtceu:steam_oven"
 			id: "36913E1373798B1F"
+			size: 1.25d
 			subtitle: "Parallelized Smelting"
 			tasks: [
 				{
@@ -947,6 +949,28 @@
 			title: "High Pressure Steam"
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6CF2DB9AD2AC1A0A"]
+			description: [
+				"The &bSteam Sieve&r will sieve your crushed up rocks, given a little bit of steam. It has most of the same recipes and &eoutput chances&r as manual sieves."
+				""
+				"You might be wondering if this is &ereally&r an upgrade. At this stage, it might not be."
+				""
+				"The &5click machine&r is slow, but parallelizable, and does not use power or steam. It is space inefficient and does not have any &eback pressure&r."
+				""
+				"These &2GregTech Sieves&r are overclockable, produce better yields at higher tiers, are more compact, cleaner to automate, and require fewer meshes."
+			]
+			id: "532A2B15292C40A2"
+			size: 1.0d
+			tasks: [{
+				id: "5FED8A73D83BDEA5"
+				item: "gtceu:lp_steam_sieve"
+				type: "item"
+			}]
+			title: "Sieving with steam"
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["&6Bronze&r and the Age of Steam Power"]

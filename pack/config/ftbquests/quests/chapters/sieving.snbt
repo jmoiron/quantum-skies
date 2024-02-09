@@ -5,9 +5,160 @@
 	group: "1C1C4FB2AFCF489D"
 	icon: "exnihilosequentia:flint_mesh"
 	id: "21A83DC6B84B8A75"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3E39F3D4CED3793C"]
+			id: "1C8C06D3BCF39B2E"
+			tasks: [{
+				id: "63C6245E9F1AF3A0"
+				item: "exnihilosequentia:string_mesh"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C8C06D3BCF39B2E"
+				"239BA420350062B1"
+			]
+			id: "0B9CE7BADF0B6E68"
+			tasks: [{
+				id: "0CCCD743A4FBEC00"
+				item: "exnihilosequentia:flint_mesh"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7B20443355692188"
+				"0B9CE7BADF0B6E68"
+				"144433228A59B577"
+			]
+			id: "6AEA89E79BF38ADB"
+			tasks: [{
+				id: "2D89E9B133C1457C"
+				item: "exnihilosequentia:iron_mesh"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"527C4566752DC537"
+				"6AEA89E79BF38ADB"
+				"46BBCFE9125FEDE6"
+			]
+			id: "0D5B4C14C679355A"
+			tasks: [{
+				id: "30AABE60DF221B4B"
+				item: "kubejs:aluminium_mesh"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"214D4B78E1C88798"
+				"0D5B4C14C679355A"
+				"0D1C09A8909C36A6"
+			]
+			id: "322EA6EEE1A29786"
+			tasks: [{
+				id: "24EFF92D5176C83E"
+				item: "kubejs:titanium_mesh"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "3E39F3D4CED3793C"
+			tasks: [{
+				id: "3772A8F7D6ADC5A6"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "239BA420350062B1"
+			tasks: [{
+				id: "320EEFD0DE5A5E03"
+				item: "gtceu:flint_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "144433228A59B577"
+			tasks: [{
+				id: "0E3FA255DA369F3B"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "7B20443355692188"
+			tasks: [{
+				id: "5186DB6688555E9F"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "46BBCFE9125FEDE6"
+			tasks: [{
+				id: "048CF8D4D76B2439"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "527C4566752DC537"
+			tasks: [{
+				id: "4B50A8BDCC004FD5"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "0D1C09A8909C36A6"
+			tasks: [{
+				id: "537FCE0B64920D1C"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "214D4B78E1C88798"
+			tasks: [{
+				id: "15F1AC0A26BD9D56"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+	]
 	subtitle: ["Everyone's favourite"]
 	title: "Sieving"
 }

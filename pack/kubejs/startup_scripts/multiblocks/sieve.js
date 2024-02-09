@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("industrial_sieve")
         .category("industrial_sieve")
         .setEUIO("in")
-        .setMaxIOSize(1, 1, 2, 1)
+        .setMaxIOSize(1, 16, 3, 1)
         .setSound(GTSoundEntries.BOILER);
 });
 

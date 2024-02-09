@@ -7,40 +7,9 @@
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"
 	order_index: 10
-	quest_links: [
-		{
-			id: "2E99A771FCA40E15"
-			linked_quest: "7FA0ACB7F161F378"
-			shape: "gear"
-			size: 1.2d
-			x: 4.5d
-			y: 5.625d
-		}
-		{
-			id: "567AFEA6A07F1886"
-			linked_quest: "390E59F05132FCB8"
-			size: 0.75d
-			x: 1.125d
-			y: 7.875d
-		}
-		{
-			id: "33EE8F2888E09B86"
-			linked_quest: "528CE69DA4358B2E"
-			size: 0.75d
-			x: 4.5d
-			y: 10.125d
-		}
-		{
-			id: "156278F7405DCE44"
-			linked_quest: "017019EB38F7A18C"
-			size: 0.75d
-			x: 5.625d
-			y: 10.125d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["16B735F9C391D260"]
 			description: [
 				"It's time to be blunt - Steam as a power option really isn't worth it at this point anymore. "
 				""
@@ -187,10 +156,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"35E7E45987D9B1F6"
-				"14D277A164202FF8"
-			]
+			dependencies: ["35E7E45987D9B1F6"]
 			description: [
 				"The &3Large Combustion Engine&r is a multiblock able to burn &dCombustion Fuels&r for even more Power Generation!"
 				""
@@ -261,7 +227,6 @@
 			y: 3.375d
 		}
 		{
-			dependencies: ["41D32C5178760F47"]
 			description: [
 				"How do you get Platinum?"
 				""
@@ -327,7 +292,6 @@
 			y: 3.375d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: ["You know the drill by now."]
 			icon: "gtceu:ev_assembler"
 			id: "7A55CC71442CC854"
@@ -371,12 +335,7 @@
 			y: 1.125d
 		}
 		{
-			dependencies: [
-				"3398FC108D9DCB46"
-				"41D32C5178760F47"
-				"6B08799BCFD01D3D"
-				"7FA0ACB7F161F378"
-			]
+			dependencies: ["3398FC108D9DCB46"]
 			description: [
 				"This quest will cover the Tungsten Chain. &aTungsten&r is obtained from either &eTungstate&r or &eScheelite&r, which are part of the same vein in the End."
 				""
@@ -541,7 +500,6 @@
 			dependencies: [
 				"7A55CC71442CC854"
 				"478B0D55369C0F7F"
-				"6B08799BCFD01D3D"
 				"30A6EDDF25A5E5F8"
 			]
 			description: [
@@ -564,10 +522,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"2D01E80DE837F6A6"
-				"7FA0ACB7F161F378"
-			]
 			description: [
 				"The &3Diode&r (the block, not the component) accepts energy inputs from 5 sides, but only outputs through a single side."
 				""
@@ -613,7 +567,6 @@
 			y: 5.625d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"The &aLarge Titanium Boiler&r is yet another steam boiler. It's even more efficient than the previous ones, and produces more steam too. However, Steam &cbarely scales&r at this voltage."
 				""
@@ -637,7 +590,6 @@
 			y: 5.625d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"A lot of &dKanthal&r will be required for the &aEV Motors&r. This may feel painful when you're on the edge of &5EV&r, but it won't be a problem later - trust us."
 				""
@@ -693,7 +645,6 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"The &3ME Hatches&r directly connect to your &aAE System&r, allowing you to skip placing interfaces directly on buses and hatches."
 				""
@@ -713,7 +664,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2JEI&r Each overclock above the required tier will add that % bonus to the chanced output!"
 				""
@@ -734,7 +684,6 @@
 			dependencies: [
 				"73E8283634E5E33A"
 				"3398FC108D9DCB46"
-				"7FA0ACB7F161F378"
 			]
 			description: [
 				"Quite a journey to get here."
@@ -754,7 +703,6 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["7FA0ACB7F161F378"]
 			description: [
 				"Note that in theory, the &3EV Chemical Reactor&r is skippable by using the &3Large Chemical Reactor&r instead, but we're evil enough to force you to make this."
 				""
@@ -815,7 +763,6 @@
 				"5E6BA54E8A5BEBDE"
 				"383B789B654C4094"
 				"63A87C9303D54487"
-				"4C3805F75C9EE3DD"
 			]
 			description: [
 				"Making the best &6HV&r Circuits will allow for easier &6HV&r Machines for your on-demand automation. Convenient!"
@@ -879,10 +826,7 @@
 			y: 7.875d
 		}
 		{
-			dependencies: [
-				"196FC518F744B983"
-				"7F272A099E65F848"
-			]
+			dependencies: ["196FC518F744B983"]
 			description: [
 				"Nothing to say here."
 				""
@@ -918,7 +862,6 @@
 			y: 10.125d
 		}
 		{
-			dependencies: ["017019EB38F7A18C"]
 			description: [
 				"A NOR gate takes two input signals, and outputs a high signal only if both input signals are low."
 				""
@@ -970,10 +913,6 @@
 			y: 11.25d
 		}
 		{
-			dependencies: [
-				"4024C831C77101CA"
-				"16B735F9C391D260"
-			]
 			description: [
 				"&aEnder Fluid Link Covers&r are &dGregTech&r's answer to &r&3Ender Tanks&r."
 				""
@@ -998,10 +937,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"16E3465CF94E2BDD"
-				"4024C831C77101CA"
-			]
 			description: [
 				"The &aAdvanced Energy Detector&r is an RS-latch for Energy Control."
 				""
@@ -1025,10 +960,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"73E8283634E5E33A"
-				"45F9AAE4ABE32033"
-			]
+			dependencies: ["73E8283634E5E33A"]
 			description: [
 				"You can now remotely expand your AE2 network if you're looking to move bases."
 				""
@@ -1062,10 +994,6 @@
 			y: 10.125d
 		}
 		{
-			dependencies: [
-				"41D32C5178760F47"
-				"42FB276AB16258D9"
-			]
 			description: [
 				"&aUranium&r has very few uses in &2GTCEu&r right now, as we're &4yet to&r implement our &3Nuclear Reactor&r (it's planned!)."
 				""
@@ -1115,10 +1043,7 @@
 			y: 11.25d
 		}
 		{
-			dependencies: [
-				"06B4AAC7DD796182"
-				"528CE69DA4358B2E"
-			]
+			dependencies: ["06B4AAC7DD796182"]
 			description: [
 				"Don't worry, this is nothing compared to running an EBF."
 				""
@@ -1160,7 +1085,6 @@
 		}
 		{
 			dependencies: [
-				"390E59F05132FCB8"
 				"4CD9F6D1B4CC7D81"
 				"1F571B9E1555DA04"
 				"40018C0546454CD9"
@@ -1198,7 +1122,6 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"You're going to want to use the &3LCR&r recipe for your first &aEpichlorohydrin&r."
 				""
@@ -1222,7 +1145,6 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"Obtain &aPhenol&r from:"
 				""
@@ -1260,7 +1182,6 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"While distilling &aWood Vinegar&r gives &aAcetone&r, the yield is low and might not meet your needs."
 				""
@@ -1286,7 +1207,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"Silicone Rubber has its uses in Cable insulation, Conveyor recipes, and more."
 				""
@@ -1339,7 +1259,6 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["390E59F05132FCB8"]
 			description: [
 				"&7Styrene-Butadiene Rubber (SBR)&r is an enhanced type of Rubber."
 				""
@@ -1486,7 +1405,6 @@
 			y: 11.25d
 		}
 		{
-			dependencies: ["6958029B5514D4EC"]
 			description: [
 				"Some specific fluids are &dCryogenic&r, which are too cold for ordinary pipes. "
 				""
@@ -1758,6 +1676,5 @@
 			y: 5.625d
 		}
 	]
-	subtitle: ["Titanium, Multiblock Power and &5Extreme Voltage&r"]
 	title: "old ev"
 }

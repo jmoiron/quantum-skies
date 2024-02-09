@@ -54,6 +54,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["239B5AF886B64DEB"]
 			id: "4EEC4260A8456C10"
 			tasks: [
 				{
@@ -160,7 +161,7 @@
 				"The materials for this quest can be used to build a 5x5x5 room."
 			]
 			id: "450C8C0AF82CB7FD"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Suspended Particulates"
 			tasks: [
@@ -186,10 +187,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"778CAC851BC58AB8"
-				"10E6C543269AD20C"
-			]
+			dependencies: ["778CAC851BC58AB8"]
 			id: "052D83873F917583"
 			tasks: [{
 				id: "1B0475D8A301DF5B"
@@ -203,6 +201,7 @@
 			dependencies: [
 				"052D83873F917583"
 				"5207A7F74C1204FC"
+				"7BF7B57060757546"
 			]
 			id: "126E88BE9207D849"
 			tasks: [
@@ -289,7 +288,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -364,7 +363,7 @@
 				"Instead, look to the &bCracker&r and &bPyrolyse Oven&r outputs, which produce a multitude of useful chemicals that you will need in upcoming plastic and rubber compounds."
 			]
 			id: "27698E1CFA6AC0B5"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Real Ultimate Power"
 			tasks: [{
@@ -419,6 +418,7 @@
 			dependencies: [
 				"450C8C0AF82CB7FD"
 				"18D57CCC26D52DA6"
+				"7BF3FDE52BEFC544"
 			]
 			id: "1FCD75FBB1AF9A5C"
 			tasks: [
@@ -437,6 +437,11 @@
 			y: -10.5d
 		}
 		{
+			dependencies: [
+				"763828CE2BABADAF"
+				"052D83873F917583"
+				"4B604E36F15D9E35"
+			]
 			id: "10E6C543269AD20C"
 			tasks: [
 				{
@@ -455,6 +460,11 @@
 		}
 		{
 			dependencies: ["496A339808DDDF51"]
+			description: [
+				"There's not too many ore up here, but there are &5fluids&r."
+				""
+				"If you were looking for a particular &etype of oil&r, you may be able to use this to go and find it."
+			]
 			id: "698DF2D40A52773A"
 			tasks: [{
 				id: "46898CC8F598A9E7"
@@ -570,7 +580,7 @@
 			description: [
 				"Now that you can cool all hot ingot types in the &bfreezer&r, you can finally make &bMV&r superconductors."
 				""
-				"You'll probably run a lot of passive processes at &bMV&r for a long time, as a lot of important recipes can't be done in &7LV&r but you will still want passive processes to be energy efficient."
+				"You'll probably run a lot of passive processes at &bMV&r for a long time, as a lot of important recipes can't be done in &7LV&r, but you will want energy efficiency."
 				""
 				"These cables can make those logistics much easier."
 			]
@@ -659,7 +669,96 @@
 				type: "item"
 			}]
 			x: 8.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"The &bIndustrial Sieve&r is a 5x5x5 multiblock sieve capable of extracting &eeven more&r materials from lava and water than you've been able to achieve so far."
+				""
+				"Higher tier meshes will only work in the &bIndustrial Sieve&r, so you will need at least one for progression."
+				""
+				"Fortunately, rather than having to arrange an army of &bRock Crushers&r to produce stone variants, the &bIndustrial Sieve&r produces its outputs from directly from &6lava&r and &6water&r."
+				""
+				"In order to run a recipe, you need to have a &ehigh enough output bus&r to handle its outputs."
+			]
+			id: "763828CE2BABADAF"
+			size: 1.0d
+			subtitle: "But wait, there's more"
+			tasks: [{
+				id: "3B06ED0FDD2A8BB1"
+				item: "gtceu:industrial_sieve"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"056EF3D2E4A74C2E"
+				"454242F0DA2FFBD0"
+			]
+			description: [
+				"Like &bMV&r superconductors, &6HV&r superconductors are unlocked with the &bVacuum Freezer&r."
+				""
+				"The 1x version transmits 4A &6HV&r losslessly over any distance. Like &bMV&r, some processes coming up will require passive chains that use a lot of &6HV&r machiner, so these might still be good value."
+				""
+				"At 512EU/Amp, a 1EU/A/m loss is starting to feel pretty insignificant."
+			]
+			id: "45A1604CB5E71B30"
+			subtitle: "HV Superconductors"
+			tasks: [{
+				id: "4A6F0AFA827B3381"
+				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"763828CE2BABADAF"
+				"2C1CDE93A0BDB91C"
+			]
+			id: "4B604E36F15D9E35"
+			tasks: [{
+				id: "270FB52B330F07B0"
+				item: "kubejs:aluminium_mesh"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "7BF3FDE52BEFC544"
+			tasks: [{
+				id: "0C2FF7EFD46E09F4"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["22BE1992CBCAA2D6"]
+			id: "7BF7B57060757546"
+			tasks: [{
+				id: "32846ED2D254E345"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 8.5d
 			y: -6.0d
+		}
+		{
+			id: "22BE1992CBCAA2D6"
+			size: 1.25d
+			tasks: [{
+				id: "4D964357C863B183"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]

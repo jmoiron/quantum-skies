@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "1ivr_insane_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:iv_machine_hull"
+	id: "03A65FEF0167519F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "715BEA8E0C8D2767"
+			shape: "hexagon"
+			tasks: [{
+				id: "0B8D4D6630A4EB00"
+				title: "&1IV&r Lore"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "0F63BB395521825B"
+			tasks: [{
+				id: "15DCFF4F299D2D36"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "54EB11DB18F67B5D"
+			tasks: [{
+				id: "199D89D779D935B6"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "630429E0D0BC2ACC"
+			tasks: [{
+				id: "5E6F386D46B16C55"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "44CCB4C16016C746"
+			tasks: [{
+				id: "404F8A3B1D16BB30"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "0E951B93CC47F10D"
+			tasks: [
+				{
+					id: "647CD847678D709C"
+					item: "gtceu:qbit_cpu_wafer"
+					type: "item"
+				}
+				{
+					id: "527D9B501B439E46"
+					item: "gtceu:qbit_cpu_chip"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "4808C14BE63CD3D2"
+			tasks: [{
+				id: "32CB3F573691A833"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "249808AA0E4C27A9"
+			tasks: [{
+				id: "4D33A643834A221E"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]
+	title: "[&1IV&r] Insane Voltage"
+}

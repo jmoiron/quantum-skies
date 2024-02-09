@@ -155,6 +155,23 @@
 			x: -1.5d
 			y: -1.5d
 		}
+		{
+			id: "3748413FA0F878CA"
+			tasks: [
+				{
+					id: "5A4E935FF92BD2DD"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "5E6C328704AE93C3"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
 	]
 	title: "Analog"
 }
