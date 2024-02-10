@@ -414,7 +414,7 @@
 				""
 				"Thanks to the exceptionally strong &equantum coherence&r of this world, you should be able to craft a &9Entangled Binder&r and &9Entangled Block&r to achieve similar effect!"
 				""
-				"&3Sneak-Right-Click&r with the Binder on a block, then &3Right-Click&r on an Entangled Block, and the Entangled block will behave like the bound block.  You can use this on your pump hatch, or make a &9Bronze Drum&r for some buffer and bind to that."
+				"&3Sneak-Right-Click&r with the Binder on a block, then &3Right-Click&r on an Entangled Block, and the Entangled block will behave like the bound block.  You can use this on your &5pump hatch&r, or make a &9bronze drum&r for a buffer and bind to that."
 			]
 			icon: {
 				Count: 1b

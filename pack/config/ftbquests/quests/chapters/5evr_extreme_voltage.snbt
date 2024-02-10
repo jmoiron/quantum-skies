@@ -278,6 +278,12 @@
 		{
 			dependencies: ["7418293A931E9DFC"]
 			id: "32F8FA638CAB88F5"
+			rewards: [{
+				count: 3
+				id: "4C83310BFDAE625F"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F0EDCB35463AC2B"
 				item: "gtceu:ev_machine_hull"
@@ -536,7 +542,7 @@
 				title: "Hafnia Processing?"
 				type: "checkmark"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 6.5d
 		}
 		{
@@ -550,7 +556,7 @@
 			}]
 			title: "Alumina?"
 			x: -7.5d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2B1202FF36C62940"]
@@ -1074,6 +1080,11 @@
 		}
 		{
 			dependencies: ["10163F0E75A4227C"]
+			description: [
+				"The simple &6Platinum&r acquisition from main &2GTCEu Modern&r has been replaced with the elaborate &5platinum processing chain&r from &2GTNH&r."
+				""
+				"Only the steps to &6Platinum&r itself are relevant to &5EV&r;  the rest becomes much more relevant in &2IV&r, where the full platinum chain is expressed."
+			]
 			id: "4EC10287171A5352"
 			tasks: [{
 				id: "41119859500B5826"

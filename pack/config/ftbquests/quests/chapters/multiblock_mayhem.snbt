@@ -597,7 +597,11 @@
 			y: 4.0d
 		}
 		{
-			description: ["The multiblocks to the right (along with the &bMaceration Tower&r and &rBulk Blast Chiller&r) are upgrades to single block machines that offer parallelization."]
+			description: [
+				"The multiblocks to the right (along with the &bMaceration Tower&r and &bBulk Blast Chiller&r) are upgrades to single block machines that offer parallelization and in-place upgradability."
+				""
+				"Many of these are inspired by &2GT++&r, and have a lineage to a &2GTCE&r addon mod called &2Gregicality&r."
+			]
 			icon: "gtceu:rhodium_gear"
 			id: "466C8E5C4C3BF53E"
 			shape: "circle"

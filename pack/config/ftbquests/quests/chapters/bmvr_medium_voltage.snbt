@@ -225,7 +225,7 @@
 				"The &dEBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust. You can use this material to produce circuit components more cheaply."
 			]
 			id: "26B92581C3E5115F"
-			subtitle: "True or False"
+			subtitle: "Silicon Bool"
 			tasks: [{
 				id: "330D2C1A438C01D1"
 				item: "gtceu:silicon_boule"
@@ -242,7 +242,7 @@
 			description: [
 				"&dCutting&r the &9silicon boule&r will yield 16x &9silicon wafers&r."
 				""
-				"These form the basis for the new integrated circuit line that will increase yields for &bMV&r circuits and prepare us for &6HV&r."
+				"These form the basis for the new integrated circuit line that will increase yields for &bMV&r circuits and prepare you for &6HV&r."
 			]
 			id: "152EA6F3161E2B26"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			description: [
 				"The &bMV&r &aSensor&r and &aEmitter&r require a &9Flawless Emerald&r, which is as good a time as any to get into &dGem ore processing&r."
 				""
-				"The central machine in processing Gem Ores is the &bSifter&r. Seems to be a lot of sifting going around."
+				"The central machine in processing Gem Ores is the &bSifter&r, which is distinct from the &bSieve&r. Seems to be a lot of sifting going around."
 				""
 				"An &7LV&r or &bMV&r one is sufficient for the &9Emerald&r we need."
 			]
@@ -1214,7 +1214,7 @@
 			description: [
 				"&6Chromium&r is a corrosion resistant metal, added to steels to make them resistant to &brust&r."
 				""
-				"Your best source of these is &delectrolyzing&r &6ruby&r for the near future, which also handily provides you with a decent yield of &6aluminium&r."
+				"Your best source of this is &delectrolyzing&r &6ruby&r for the near future, which also handily provides you with a decent yield of &6aluminium&r."
 				""
 				"It is an important component in several &6steels&r including &6Vanadium Steel&r and &6Stainless Steel&r, which are immediately relevant to progression through &7MV&r and into &6HV&r. "
 			]

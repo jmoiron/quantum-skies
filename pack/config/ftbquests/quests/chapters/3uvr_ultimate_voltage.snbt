@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3uvr_ultimate_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:uv_machine_hull"
+	id: "0568DBC3D3636366"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "4CC28DFCBE46105F"
+		tasks: [{
+			id: "740AC1FD188E4784"
+			title: "lore"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: 0.0d
+	}]
+	subtitle: ["The &3Ultimate Voltage&r"]
+	title: "[&3UV&r] Ultimate Voltage"
+}

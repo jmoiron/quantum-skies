@@ -11,10 +11,14 @@ ServerEvents.recipes(event => {
     event.remove({type: "minecraft:smelting", output: "charcoal"})
     event.blasting("minecraft:charcoal", "#minecraft:logs_that_burn")
 
+    // smelting nuggets sucks lets use the blaster
     event.blasting("gtceu:wrought_iron_ingot", "minecraft:iron_ingot")
+
     // make nether bricks pre-steel to make water distribution
     // with entangled earlier than the PBF
-    // want people to be able to make basic clay automation for PBF
+    //
+    // want people to be make basic clay automation for PBF without
+    // bunching everything up on their pump
     event.blasting("minecraft:nether_brick", "minecraft:netherrack")
 
     event.remove({output: "clickmachine:auto_clicker"});
@@ -49,6 +53,7 @@ ServerEvents.recipes(event => {
     ).replaceIngredient({item: creoCell}, "gtceu:fluid_cell")
 
     let waterCell = Item.of('gtceu:fluid_cell', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}')
+    // allows for crafting of paper with stackable water cells
     event.shaped("2x minecraft:paper",
         [" H ", "DDD", " C "],
         {

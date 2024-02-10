@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dluvr_ludicrous_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:luv_machine_hull"
+	id: "4FFDA1BB792C4E7B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "3148A5D311E18315"
+		tasks: [{
+			id: "131DBDC96C168274"
+			title: "lore"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: -0.5d
+	}]
+	subtitle: ["Fusion and &dLudicrous Voltage&r"]
+	title: "[&dLuV&r] Ludicrous Voltage"
+}

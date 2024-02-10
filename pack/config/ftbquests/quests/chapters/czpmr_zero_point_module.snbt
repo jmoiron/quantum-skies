@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "czpmr_zero_point_module"
+	group: "693226878D58638A"
+	icon: "gtceu:zpm_machine_hull"
+	id: "680B253F1C3B6A49"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "7528A6EC106DD184"
+		tasks: [{
+			id: "75C38F0716413185"
+			title: "lore"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: 0.0d
+	}]
+	title: "[&cZPM&r] Zero Point Module"
+}

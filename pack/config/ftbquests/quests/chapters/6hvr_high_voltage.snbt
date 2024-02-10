@@ -45,6 +45,12 @@
 				"You can save on materials by using the &bassembler&r recipe."
 			]
 			id: "778CAC851BC58AB8"
+			rewards: [{
+				count: 3
+				id: "64E8E93F956A7B52"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6444AE6963D52532"
 				item: "gtceu:hv_machine_hull"

@@ -46,7 +46,7 @@
 		}
 		{
 			description: [
-				"As you suspected!"
+				"As suspected!"
 				""
 				"At first blush, this world &eappears&r normal, but the physics here are quite bizarre. Maybe it &o&5isn't your world&r after all."
 				""
@@ -877,7 +877,7 @@
 				""
 				"Pretty tedious to do by hand!"
 				""
-				"Gregtech Item and Fluid pipes are very powerful, but they require &9Conveyors&r and &9Pumps&r, respectively, to extract from an inventory.  Someday, you'll need better logistics, but these can help you get started with &eautomation&r."
+				"&2Gregtech&r item and fluid pipes are very powerful, but they require &9conveyors&r and &9pumps&r, respectively, to extract from an inventory.  Someday, you'll need better logistics, but these can help you get started with &eautomation&r."
 			]
 			id: "6B3DFA8D8E7F6431"
 			subtitle: "\"Advanced\""
