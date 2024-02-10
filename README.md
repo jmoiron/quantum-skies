@@ -2,19 +2,15 @@
 
 Quantum skies is a GTCEu-modern based skyblock modpack for Minecraft 1.20.1.
 
-Resource acquisition is "classic" ex nihilo, with some alterations to suit gregtech's progression. The stone age features a lot of QoL that make it go by fast.
+Resource acquisition is "classic" ex nihilo, with some alterations to suit gregtech's progression. The stone age features a lot of QoL that make it go by fast. Light automation starts in the stone age, ramping into the full steam age.
 
-Many popular ex-ni skyblock addons, like simple cobble generators, are absent in favor of GT equivalents and custom machines and multiblocks.
-
-Quantum Skies features the full steam age.
-
-Pipez is available for early game logistics, but upgrades and filters are disabled. Flux Networks and Entangled are provided to make power, item, and fluid distribution _much_ simpler, but the last mile will have to be GT pipenets or AE2. Since nearly all resources are functionally unlimited in skyblock, a lot of power generation options are viable, but only GT sources exist.
+Much of the later QoL is oriented towards power/item/fluid logistics. Flux Networks and Entangled are provided to make power, item, and fluid distribution much simpler, but the last mile will have to be GT pipenets or AE2. Since nearly all resources are functionally unlimited in skyblock, a lot of power generation options are viable, but only GT sources exist.
 
 To balance some of this out, there are no storage drawers.
 
 GTCEu modern is still under some heavy development and ~15% of features from GTCEu 1.12 have not yet been ported (Feb 2024)
 
-Quantum Skies is playable to IV, 
+Quantum Skies is playable to IV, with a tutorial-style quest book mapping out progress through EV.
 
 Inspiration:
 
