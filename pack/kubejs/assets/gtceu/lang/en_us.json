@@ -8,11 +8,11 @@
     "gtceu.cauldron": "Cauldron",
     "block.gtceu.industrial_sieve": "Industrial Sieve",
     "gtceu.industrial_sieve": "Heavy Sieving",
+    "gtceu.singleblock_sieve": "Sieving",
     "material.gtceu.bedrock": "Bedrock",
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",
     "block.gtceu.hp_steam_sieve": "High Pressure Steam Sieve",
     "block.gtceu.lv_sieve": "Basic Sieve",
     "block.gtceu.mv_sieve": "§bAdvanced Sieve §r",
     "block.gtceu.hv_sieve": "§6Advanced Sieve II §r"
-    
 }

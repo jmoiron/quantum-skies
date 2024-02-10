@@ -240,6 +240,7 @@ ServerEvents.recipes(event => {
 
             if (outputs.length < 7) {
                 let rin = input.replace(/[^a-zA-Z0-9]/g, '')
+                //console.log(`creating sieve_${meshType}_${rin} with ${outputs.length} outputs`)
                 let r = event.recipes.gtceu.singleblock_sieve(`sieve_${meshType}_${rin}`)
                     .EUt(7)
                     .duration(50)
