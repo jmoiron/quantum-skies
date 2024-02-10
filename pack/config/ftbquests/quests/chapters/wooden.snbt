@@ -30,6 +30,12 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			id: "1139993CBEC2AE30"
+			linked_quest: "22FD756BB5413C3C"
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	quests: [
 		{

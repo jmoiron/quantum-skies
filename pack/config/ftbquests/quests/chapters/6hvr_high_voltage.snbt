@@ -766,6 +766,49 @@
 			x: 8.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["126E88BE9207D849"]
+			description: [
+				"Now that you have &9blaze powder&r and &9ender pearls&r, you can finally make &2Ender Storage&r tanks and chests."
+				""
+				"These storage vessels have a strong &equantum tunnel&r effect. They can be put on different channels by applying dyes to them in world. Any two tanks/chests on the same channel have the &asame contents&r, regardless of location."
+				""
+				"Their main advantage over &2entangled&r blocks is portability. If you are using eg. a &9blue channel&r for water, you can set up your input tank wherever you want and your other blue tanks will still function."
+				""
+				"You will probably want to use &2AE2&r for fluid logistics by now, but these are classic GT QoL."
+			]
+			id: "22FD756BB5413C3C"
+			subtitle: "Did you even miss them?"
+			tasks: [
+				{
+					id: "0EC8C0A9B2938834"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60FA4D1643D7F125"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: 5.5d
+			y: -6.0d
+		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]
 	title: "[&6HV&r] High Voltage"

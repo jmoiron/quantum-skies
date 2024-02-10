@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             'RPR',
         ],
         {
-            R: "gtceu:bronze_rod",
+            R: "minecraft:blaze_rod",
             W: "#minecraft:wool",
             O: "minecraft:obsidian",
             D: "gtceu:lv_super_tank",
@@ -27,10 +27,10 @@ ServerEvents.recipes(event => {
             'RPR',
         ],
         {
-            R: "gtceu:bronze_rod",
+            R: "minecraft:blaze_rod",
             W: "#minecraft:wool",
             O: "minecraft:obsidian",
-            C: "gtceu:aluminium_crate",
+            C: "gtceu:lv_super_chest",
             P: "minecraft:ender_pearl"
         }
     );
