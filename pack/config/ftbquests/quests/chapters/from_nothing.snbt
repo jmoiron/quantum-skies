@@ -1088,6 +1088,38 @@
 			x: 1.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["518C743F49E7BA04"]
+			description: [
+				"The &2Colossal Chests&r mod adds upgradable multiblock chests for powerful early game storage."
+				""
+				"Use the &9Colossal Chest Interface&r to connect to other inventories via pipes or exporters."
+				""
+				"The &9Chest Upgrade Tool&r allows you to upgrade a chest in place, just have the blocks in your inventory and right-click on the &9Colossal Chest Core&r."
+				""
+				"Your items are \"stored\" in the core, not the other blocks.  If you break the core, you might have a bad time."
+			]
+			icon: "colossalchests:colossal_chest_wood"
+			id: "2BE1D4DD8EA380E1"
+			size: 1.25d
+			subtitle: "Where's that embiggening syringe?"
+			tasks: [
+				{
+					id: "2AB980BF564860B1"
+					item: "colossalchests:colossal_chest_wood"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "08DFEFE59ADFB9CF"
+					item: "colossalchests:chest_wall_wood"
+					type: "item"
+				}
+			]
+			title: "Colossal Chests"
+			x: 8.5d
+			y: -3.0d
+		}
 	]
 	subtitle: ["Ex Nihilo Ad Omnia"]
 	title: "From Nothing"

@@ -77,10 +77,10 @@
 				""
 				"You can run your &dLow Pressure Steam Solid Boiler&r on &9Charcoal&r and it will produce steam for a long time. Like a lot of things, you'll probably want to make more than one."
 				""
-				"(TODO: Buff Creosote and mention liquid boilers)"
+				"Liquid boilers produce 2x the steam, but they require &9glass&r. When you're able to make glass, you should look into them."
 			]
 			id: "2A49DB74D9276F0A"
-			subtitle: "Now We're Cookin"
+			subtitle: "Now we're cookin"
 			tasks: [{
 				id: "24EFB2B9A5D066A6"
 				item: "gtceu:lp_steam_solid_boiler"

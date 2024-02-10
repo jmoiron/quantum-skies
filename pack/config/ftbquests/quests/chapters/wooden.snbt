@@ -36,6 +36,12 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "4ADD292662C46E05"
+			linked_quest: "2BE1D4DD8EA380E1"
+			x: -1.5d
+			y: -3.0d
+		}
 	]
 	quests: [
 		{
@@ -65,36 +71,6 @@
 				}
 			]
 			x: -3.0d
-			y: -3.0d
-		}
-		{
-			description: [
-				"The &2Colossal Chests&r mod adds upgradable multiblock chests for powerful early game storage."
-				""
-				"Use the &9Colossal Chest Interface&r to connect to other inventories via pipes or exporters."
-				""
-				"The &9Chest Upgrade Tool&r allows you to upgrade a chest in place, just have the blocks in your inventory and right-click on the &9Colossal Chest Core&r."
-				""
-				"Your items are \"stored\" in the core, not the other blocks.  If you break the core, you might have a bad time."
-			]
-			icon: "colossalchests:colossal_chest_wood"
-			id: "1616579E1F43966D"
-			subtitle: "Where's that embiggening syringe?"
-			tasks: [
-				{
-					id: "796FB3807C6EB5C5"
-					item: "colossalchests:colossal_chest_wood"
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "6F088FED2C36ABF5"
-					item: "colossalchests:chest_wall_wood"
-					type: "item"
-				}
-			]
-			title: "Colossal Chests"
-			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -164,6 +140,15 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"The &2Travel Anchor&r is another item descendent from &2EnderIO&r."
+				""
+				"They allow &equantum teleportation&r between two points at a limited distance."
+				""
+				"If you are standing on one, face another, and &3jump&r, you will teleport to that &9anchor&r. If you have the &9Travel Staff&r, you can use it to teleport to anchors regardless of where you are, or as a re-usable &9ender pearl&r."
+				""
+				"Your base will get &abig&r. This allow you to get around and build wide or tall without a bunch of extra effort."
+			]
 			id: "3748413FA0F878CA"
 			tasks: [
 				{
