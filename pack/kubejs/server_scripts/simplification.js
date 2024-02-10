@@ -4,6 +4,13 @@ ServerEvents.recipes(event => {
     // these recipes are aimed at smoothing out the early game and
     // reducing tedium pre-steam era
 
+    // make tom's storage available at steam compressor
+    event.replaceInput(
+        {mod: "toms_storage"},
+        "minecraft:ender_pearl",
+        "ae2:ender_dust"
+    )
+
     event.shaped("16x minecraft:stick", ["A", "A"], {A: Ingredient.of("#minecraft:logs")})
     event.shapeless("4x minecraft:clay_ball", ["minecraft:clay"])
 

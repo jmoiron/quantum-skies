@@ -1091,11 +1091,11 @@
 		{
 			dependencies: ["518C743F49E7BA04"]
 			description: [
-				"The &2Colossal Chests&r mod adds upgradable multiblock chests for powerful early game storage."
+				"&2Colossal Chests&r are upgradable multiblock chests for powerful early game storage. They are available after the &bCoke Oven&r."
 				""
-				"Use the &9Colossal Chest Interface&r to connect to other inventories via pipes or exporters."
+				"Use the &9Colossal Chest Interface&r to connect to other inventories via pipes or exporters. This block is compatible with your &5Crafting Station&r and with &2Tom's storage&r interfaces."
 				""
-				"The &9Chest Upgrade Tool&r allows you to upgrade a chest in place, just have the blocks in your inventory and right-click on the &9Colossal Chest Core&r."
+				"The &9Chest Upgrade Tool&r allows you to upgrade a chest in place, just have the blocks in your inventory and &3right-click&r on the &9Colossal Chest Core&r."
 				""
 				"Your items are \"stored\" in the core, not the other blocks.  If you break the core, you might have a bad time."
 			]
