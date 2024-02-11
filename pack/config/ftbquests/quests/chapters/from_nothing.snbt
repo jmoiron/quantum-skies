@@ -721,8 +721,8 @@
 		}
 		{
 			dependencies: [
-				"1ECD7E6A67B32B50"
 				"69ADA2F357C4A3B4"
+				"1ECD7E6A67B32B50"
 			]
 			description: [
 				"&9Netherrack&r is obtained by placing &6Redstone&r in a stone barrel full of &9Lava&r."
@@ -831,6 +831,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["338399548BB160E3"]
 			description: [
 				"The &9Crushed Redstone Ore&r you get out of the sieve needs to be processed into &6Redstone&r before it can be used in recipes."
 				""
@@ -838,6 +839,7 @@
 				""
 				"You can wash a stack of any dirty dust or crushed ore by right clicking it onto a &9Cauldron&r full of water.  You don't have to drop the items anymore!"
 			]
+			hide_dependency_lines: true
 			id: "1ECD7E6A67B32B50"
 			rewards: [
 				{

@@ -19,6 +19,7 @@ build: refresh preBuild
 	-mv build/packwiz-installer.jar cache/
 	# copy the rest of the configuration
 	-cp pack/index.toml pack/pack.toml build/
+	-cp -r pack/defaultconfigs build/
 	-cp -r pack/config build/
 	-cp -r pack/kubejs build/
 	-cp pack/icon.png build/
@@ -30,6 +31,7 @@ cf: refresh preBuild
 	-rm -rf cfbuild
 	-mkdir cfbuild
 	-cp -r pack/* cfbuild/
+	-cp LICENSE cfbuild/
 	# package any embedded mods we need to provide
 	-cp cache/mods/*.jar cfbuild/mods/
 	# remove probejs
@@ -41,7 +43,9 @@ pull:
 	# pull updates from INSTALLPATH
 	-rm -rf pack/config/*
 	-rm -rf pack/kubejs/*
+	-rm -rf pack/defaultconfigs/*
 	-cp -r "${INSTALLPATH}/config/"* ./pack/config/
+	-cp -r "${INSTALLPATH}/defaultconfigs/"* ./pack/defaultconfigs/
 	-cp -r "${INSTALLPATH}/kubejs/"* ./pack/kubejs/
 	-rm -rf pack/config/jei/world
 	-rm -rf pack/kubejs/probe

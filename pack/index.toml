@@ -126,7 +126,7 @@ hash = "b3a01abb019e9554949684c1ecd00dc70007c401650de3507f548d0e9f6f127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "8e5c940e46e9c840a34fab773996edf93e683294d0c18528033ddd4b10d71bb0"
+hash = "24697b86437bd13fca38e223fc9c7f8fa775c19912c7ec48f6be89fab213b6c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -170,7 +170,7 @@ hash = "037329a9fc03bb35d3704bf47b8d20488625aea8c951e9ded52c9d993a72f416"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
-hash = "200f9765c0086536974fa0e3a8bb8a76910b12f1f03227fb3830074d1022083c"
+hash = "29b2389ea4f81158ce713aada4034df6867f7d76e15bac47397cac0f96533ee5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
@@ -206,7 +206,7 @@ hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "e37688ceb523325f948e74e5824c1714ceb8cd8933434db3d0ca1e6975d731e2"
+hash = "9ec1be739029de22bceefa64f1912f76d789a639892e999fa066eb13ed6e976e"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -282,7 +282,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c782aef15d2321431d1651f54e3a5318f1390d61456ed0295719f7ffa3dca2b4"
+hash = "0e822456af5631649364736e04517ecb4e8f45c4e96e12c447d181172ee802e0"
 
 [[files]]
 file = "config/panorama.json"
@@ -310,7 +310,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "8f5fd59701e75f70334f3e86fa4b758aad0eca7e02810318121ff80227aa75ef"
+hash = "0b2d1dfc6e8701b9ed73486879860533d980a7cc4c83ffa6930f3528dfd969d8"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -399,6 +399,30 @@ hash = "3c14c00994a8201f0419237fde6f6d6caca7ce7b0ee199c3f400775a39fa3d9b"
 [[files]]
 file = "config/travelanchors/common.json5"
 hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/client-config.snbt"
+hash = "b170593af4096fcf59a09cfc547045351d3aa65d307983eae0a593a57987c277"
+
+[[files]]
+file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
+hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
+
+[[files]]
+file = "defaultconfigs/ftbessentials-server.snbt"
+hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftbultimine/ftbultimine-client.snbt"
+hash = "29b00fa9efa03679a1743cad71b994decd0f79a597aaac22994e38278079d226"
+
+[[files]]
+file = "defaultconfigs/ftbultimine/ftbultimine-server.snbt"
+hash = "7fbfd2fd8fc38828356888955f089c734e7971fb62dc0daf5e244f84beda9771"
+
+[[files]]
+file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
+hash = "e30478d4a52c37ab82e44e49f02c191a37822994046ecf5b02014f0bf55ffd97"
 
 [[files]]
 file = "icon.png"
@@ -574,7 +598,7 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
-hash = "bca3476aa453bc956daa29c506db92401613fa923469aa7c88f76d5951d3e1e7"
+hash = "f645669ddfe266c4e101a8f3ead19ce0cdf92460acbfff50e5964898bda3663b"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
