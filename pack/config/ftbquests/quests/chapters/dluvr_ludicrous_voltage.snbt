@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:luv_machine_hull"
 	id: "4FFDA1BB792C4E7B"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
 		id: "3148A5D311E18315"

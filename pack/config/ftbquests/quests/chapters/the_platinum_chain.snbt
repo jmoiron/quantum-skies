@@ -1,0 +1,40 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_platinum_chain"
+	group: "693226878D58638A"
+	icon: "gtceu:platinum_credit"
+	id: "2EE0E564AFD94630"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"The full &6platinum&r chain is a big challenge, and yields 6 rare metals of various importance:"
+			""
+			"* &6Platinum&r, which you have already, used in &5EV&r and is a great &1IV&r cable material"
+			""
+			"* &6Palladium&r, part of &6Rhodium-Palladium&r which is the &dLuV&r hull material"
+			""
+			"* &6Rhodium&r, see above"
+			""
+			"* &6Iridium&r, used for some &1IV&r components, and part of the &5Osmiridium&r alloy, which is a primary material for &cZPM&r motors etc."
+			""
+			"* &6Osmium&r, see above"
+			""
+			"* &6Ruthenium&r, honestly not very useful"
+		]
+		icon: "gtceu:platinum_plate"
+		id: "387B8703D5CF172F"
+		shape: "circle"
+		size: 2.0d
+		tasks: [{
+			id: "56B610294EABA8E2"
+			title: "full platinum chain"
+			type: "checkmark"
+		}]
+		x: -8.0d
+		y: -8.0d
+	}]
+	subtitle: ["Never break the chain"]
+	title: "The Platinum Chain"
+}

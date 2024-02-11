@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:iv_machine_hull"
 	id: "03A65FEF0167519F"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -46,8 +46,8 @@
 				item: "gtceu:fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["630429E0D0BC2ACC"]
@@ -57,8 +57,8 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["44CCB4C16016C746"]
@@ -75,8 +75,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0E951B93CC47F10D"]
@@ -86,8 +86,8 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			id: "249808AA0E4C27A9"
@@ -124,14 +124,527 @@
 			y: -2.5d
 		}
 		{
-			id: "7DF5FCC670846725"
+			dependencies: [
+				"4EC10287171A5352"
+				"6DA522B5F095AB4F"
+			]
+			id: "755BD4CD01D728AF"
+			tasks: [
+				{
+					id: "094E350C37C4E196"
+					item: "gtec:platinum_metallic_powder_dust"
+					type: "item"
+				}
+				{
+					id: "2D5FC8CE8063FA51"
+					item: "gtceu:aqua_regia_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"044B72F93BDD176A"
+				"755BD4CD01D728AF"
+			]
+			id: "2BF0B24DFAD83086"
 			tasks: [{
-				id: "6F0AAA8B4B4382FB"
-				title: "full platinum chain"
-				type: "checkmark"
+				id: "487C75814117778D"
+				item: "gtec:platinum_concentrate_bucket"
+				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"647C4C74A036F8AD"
+				"2BF0B24DFAD83086"
+			]
+			id: "628820DF82FD8FA2"
+			tasks: [{
+				id: "61ACF41E158C2DB3"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"044B72F93BDD176A"
+				"755BD4CD01D728AF"
+			]
+			description: [
+				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
+				""
+				"There's no need to process this now, you can stockpile this in a &9Super Chest&r and pursue this in &1IV&r. &eDo not void it&r; you will need these metals in large quantities."
+			]
+			id: "5F8024CAA806783C"
+			subtitle: "Let's revisit this later"
+			tasks: [{
+				id: "39A6D6E5C02AFCFF"
+				item: "gtec:platinum_residue_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BF0B24DFAD83086"]
+			id: "40A1BEAB416E5F54"
+			tasks: [{
+				id: "65BC1D05BA38AFF6"
+				item: "gtec:palladium_enriched_ammonia_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2BF0B24DFAD83086"]
+			id: "1E896779855271F7"
+			tasks: [{
+				id: "0426301369FBE017"
+				item: "gtec:platinum_salt_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E896779855271F7"]
+			id: "4B8CF3FB1777DBDA"
+			tasks: [{
+				id: "3EC7E664DA8DE63D"
+				item: "gtec:refined_platinum_salt_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40A1BEAB416E5F54"]
+			id: "7E4383569A969476"
+			tasks: [{
+				id: "26512BEEB7D1EA73"
+				item: "gtec:palladium_salt_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"40A1BEAB416E5F54"
+				"7E4383569A969476"
+			]
+			id: "534D08109806030A"
+			tasks: [{
+				id: "42A0A9941256415D"
+				item: "gtec:palladium_metallic_powder_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"534D08109806030A"
+				"40A1BEAB416E5F54"
+			]
+			id: "740436DD9C9850C0"
+			tasks: [{
+				id: "69BE92E239AC1FFA"
+				item: "gtec:reprecipitated_palladium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "3799E0857E1D53BC"
+			tasks: [{
+				id: "504E6783FBAC36CC"
+				item: "gtec:formic_acid_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"740436DD9C9850C0"
+				"3799E0857E1D53BC"
+			]
+			id: "6872BFFB8D4B6C7B"
+			tasks: [{
+				id: "58190B6EE7F5479B"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["628820DF82FD8FA2"]
+			id: "5551D5C1D1CFF51C"
+			size: 1.25d
+			tasks: [{
+				id: "02BCCFFA2A746B5D"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6872BFFB8D4B6C7B"]
+			id: "3A3CCE4C1EF6A831"
+			size: 1.25d
+			tasks: [{
+				id: "75219BB8D2FB7AB1"
+				item: "gtceu:palladium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "538F8703ACDAC619"
+			tasks: [{
+				id: "4C8B5BFC93A34DDA"
+				item: "gtec:potassium_disulfate_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5F8024CAA806783C"
+				"538F8703ACDAC619"
+			]
+			id: "0CB14CF9F1EB4A6C"
+			tasks: [{
+				id: "4B0AB3AB52663807"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0CB14CF9F1EB4A6C"]
+			id: "4CFD4C653A82E099"
+			tasks: [{
+				id: "6B5BB25639E8E17E"
+				item: "gtec:leach_residue_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0CB14CF9F1EB4A6C"]
+			id: "29B26B6B2848FAB7"
+			tasks: [{
+				id: "5D00EE616C809A24"
+				item: "gtec:diluted_rhodium_sulfate_solution_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29B26B6B2848FAB7"]
+			id: "42DD8D763A106925"
+			tasks: [{
+				id: "0427E3E918E4A784"
+				item: "gtec:crude_rhodium_metal_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42DD8D763A106925"]
+			id: "6F9A222A38E6CD00"
+			tasks: [{
+				id: "189BF6EEE295818A"
+				item: "gtec:rhodium_salt_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F9A222A38E6CD00"]
+			id: "1F6C46C9BA442E44"
+			tasks: [
+				{
+					id: "58A704C74549528D"
+					item: "gtec:rhodium_salt_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "37F70FF360A76276"
+					item: "gtec:rhodium_nitrate_dust"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F6C46C9BA442E44"]
+			id: "50A8A45C02A5F306"
+			tasks: [{
+				id: "25009E081F0F02FF"
+				item: "gtec:rhodium_filter_cake_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["50A8A45C02A5F306"]
+			id: "2164960D56C984D4"
+			tasks: [
+				{
+					id: "30EC89D469B96AA4"
+					item: "gtec:rhodium_filter_cake_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "586F78D347203438"
+					item: "gtec:reprecipitated_rhodium_dust"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2164960D56C984D4"]
+			id: "316C083D1DEAF2A0"
+			tasks: [{
+				id: "71741B6B69D53D08"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["316C083D1DEAF2A0"]
+			id: "1EE875DA3234DC59"
+			size: 1.25d
+			tasks: [{
+				id: "6F82DA6B0F0786F2"
+				item: "gtceu:rhodium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4CFD4C653A82E099"]
+			id: "28BAB49C3CE1A4A0"
+			tasks: [{
+				id: "187A48E1DCE30576"
+				item: "gtec:rarest_metal_residue_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4CFD4C653A82E099"]
+			id: "23424221B73DBF69"
+			tasks: [{
+				id: "365E228583D55BFB"
+				item: "gtec:sodium_ruthenate_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23424221B73DBF69"]
+			id: "23E3727DAB6EFB18"
+			tasks: [
+				{
+					id: "068AFC0308DABCD2"
+					item: "gtec:ruthenium_tetroxide_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "379AC0CF5AD12E5A"
+					item: "gtec:hot_ruthenium_tetroxide_solution_bucket"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23E3727DAB6EFB18"]
+			id: "23A86B34CBA5AA97"
+			tasks: [{
+				id: "45E2062E1B0F6F32"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23A86B34CBA5AA97"]
+			id: "207E669377F3D632"
+			tasks: [{
+				id: "63884532DC4ED8AE"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["207E669377F3D632"]
+			id: "0511CCAE4A1DF9CD"
+			size: 1.25d
+			tasks: [{
+				id: "16F6A55D197399AC"
+				item: "gtceu:ruthenium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "6DA522B5F095AB4F"
+			tasks: [{
+				id: "54D1634FB6C252B9"
+				item: "gtceu:crushed_cooperite_ore"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28BAB49C3CE1A4A0"]
+			id: "01B53B47B847522B"
+			tasks: [{
+				id: "2F153FA073051156"
+				item: "gtceu:acidic_osmium_solution_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["28BAB49C3CE1A4A0"]
+			id: "34956D28B98D448A"
+			tasks: [{
+				id: "692FC72DCAD90E85"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["34956D28B98D448A"]
+			id: "1DA88B5FA538B56B"
+			tasks: [{
+				id: "46C556ED14B89996"
+				item: "gtec:iridium_dioxide_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DA88B5FA538B56B"]
+			id: "35621636F0FEC2AA"
+			tasks: [{
+				id: "6E3B6FA0EC1E7B2C"
+				item: "gtec:acidic_iridium_solution_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["35621636F0FEC2AA"]
+			id: "42F3B96D4FBA1756"
+			tasks: [{
+				id: "35F46821EB87A0E7"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["42F3B96D4FBA1756"]
+			id: "0515A7FA9879DF35"
+			tasks: [{
+				id: "5B2210865FE4EBB0"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0515A7FA9879DF35"]
+			id: "49EADC1AF07F9817"
+			size: 1.25d
+			tasks: [{
+				id: "167CE37DF12B0F55"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["01B53B47B847522B"]
+			id: "0AC951FC107DAFFF"
+			tasks: [{
+				id: "70F26A0071485757"
+				item: "gtec:osmium_solution_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0AC951FC107DAFFF"]
+			id: "2932A789E70E6E85"
+			tasks: [{
+				id: "099C4AD9D10E9AFE"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2932A789E70E6E85"]
+			id: "14F0939F76980CE7"
+			size: 1.25d
+			tasks: [{
+				id: "32B7125567333ABE"
+				item: "gtceu:osmium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]

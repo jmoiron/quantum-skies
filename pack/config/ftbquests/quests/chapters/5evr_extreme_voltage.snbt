@@ -1039,7 +1039,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4844B185A7634F36"]
+			dependencies: [
+				"671EAAFA82C54470"
+				"2BF0B24DFAD83086"
+			]
 			id: "647C4C74A036F8AD"
 			tasks: [{
 				id: "3F41225B947B263E"
@@ -1048,17 +1051,6 @@
 			}]
 			x: -1.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["044B72F93BDD176A"]
-			id: "4844B185A7634F36"
-			tasks: [{
-				id: "20C0D6072BB12569"
-				item: "gtec:platinum_concentrate_bucket"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["4EC10287171A5352"]
@@ -1096,23 +1088,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["044B72F93BDD176A"]
-			description: [
-				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
-				""
-				"There's no need to process this now, you can stockpile this in a &9Super Chest&r and pursue this in &1IV&r. &eDo not void it&r; you will need these metals in large quantities."
-			]
-			id: "5F8024CAA806783C"
-			subtitle: "Let's revisit this later"
-			tasks: [{
-				id: "39A6D6E5C02AFCFF"
-				item: "gtec:platinum_residue_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["35B3291E41A2ED5C"]
 			id: "6519AED20FF95071"
 			tasks: [{
@@ -1137,6 +1112,34 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["044B72F93BDD176A"]
+			id: "671EAAFA82C54470"
+			tasks: [{
+				id: "3CEDD378B8CE2E23"
+				item: "gtec:platinum_concentrate_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["044B72F93BDD176A"]
+			description: [
+				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
+				""
+				"There's no need to process this now, you can stockpile this in a &9Super Chest&r and pursue this in &1IV&r. &eDo not void it&r; you will need these metals in large quantities."
+			]
+			id: "780FCC6D0619AB06"
+			subtitle: "Let's revisit this later"
+			tasks: [{
+				id: "31DC1D887CBECB0D"
+				item: "gtec:platinum_residue_dust"
+				type: "item"
+			}]
+			x: 0.0d
 			y: -4.0d
 		}
 	]
