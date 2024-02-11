@@ -1,6 +1,7 @@
 
 packwiz-installer.jar
 build
+cfbuild
 Quantum*.zip
 live
 cache/*

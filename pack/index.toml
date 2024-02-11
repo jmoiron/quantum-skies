@@ -118,19 +118,19 @@ hash = "6179263b0aeaf3d52a25f56e61852955ad86f5f8f6b64f41cb08ab8cf369f11e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "9e5a01607de71b65728f320ae9b20b14f1135192a4f2c170e496cb3783ce4966"
+hash = "cb52d5236adcc1423b7f0decfbd615d70919720a3dd9d2263cd24f62be84f195"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
-hash = "9afafad24674e1aefb37b3c744b276e6d30014b199ccc144c489dadb528b5dcf"
+hash = "b3a01abb019e9554949684c1ecd00dc70007c401650de3507f548d0e9f6f127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "8eebfea72e4e58ea8480444b292ef536831fa065ca3370fab8db1e0fd11a7d46"
+hash = "8e5c940e46e9c840a34fab773996edf93e683294d0c18528033ddd4b10d71bb0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "1669fe1bab343ee7936bd4e729b245234809be4a614b5fbca8e87113dc829008"
+hash = "9b018ceda820b952e4367d58ff8c3a837c67a653b5339ae16105da23a2cd6a21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -138,7 +138,7 @@ hash = "1771c46de72b4977a199c0f0a3df6e3fe4ecf0e462e90dc40b3cfb4ee1f95d56"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "ee5cf722a94026786b4b435d449925a785049cb0cc6f032f99b0369cb43314c5"
+hash = "4a59032b347c0d1caf99dd4d1a151bef00118f7a3c6a7f6a7c3c2298bbfb7624"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -150,7 +150,7 @@ hash = "3169b93323f049585da9733b8fc41469cc453f0cb7033e64ef11217f3f1a6119"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
-hash = "4b20d7c309eee0864ed7d0cb94914a4b44074533c01c6e02dbbe598a7c64a11e"
+hash = "6af5ed5d89a54c5581af5798dc5e7f8e0fd53d49ee2e435ae149f0e98ae1ffc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -158,11 +158,7 @@ hash = "70594d1a72522f99bc6e16deba51817d55810da2077e100107b81f4683f0f260"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "b19b2acac809545cfb12e56362953433461944d30d932eed79f855d0e8c76e59"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "baa632a689e1f9a230a2aef011c24c4ae9b2e860bf1a2610d1e4dcf4cebc576b"
+hash = "ebb6d4b9f5f6fdf13feb2ebe9b41812411c1ea42e602acb563779df4e5d92b35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -170,15 +166,7 @@ hash = "a5b5cc809075c9e8d114d6782f2ae5f8d48b4e1b36575940b39b4dc1478bfff8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "1709fddd3997afa3250e0989ffc345f2eb7ede89688916ba9b934997c93e8ea6"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
-hash = "a58aca1bff8d404dbac51d586da45eeb4252653c4983ac602193a3726cf61166"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "493c06af0bb69f8c4e02dcd2f22a0ffb8aec03d6624f4993a5bc8c523866e2fc"
+hash = "037329a9fc03bb35d3704bf47b8d20488625aea8c951e9ded52c9d993a72f416"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -190,19 +178,15 @@ hash = "9a62366a62b5f5f6bd28304c3e6404abc706c57cdd019d18c779846305f5d8dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
-hash = "b51cc79da014f88b647daf4d99965963fdf9da65760a4c4edc9da8117682a004"
+hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "00a19ff8425e467aaa21b4c29443fcef663a6fdeeb1bc7a794795bfe5d61b330"
+file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
+hash = "dd4f5f50ee2df4b37caf01b6ae5dd85475c7a6f876f6a74872de6ef48d22e60a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
 hash = "5736d3d5bda6d311127180ce56e3fe105643af8060b52534e6e7c620d563840e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "de9a661637eca28f14b700c17f3e3f5c65dca741b85dd21df7ae20934efb7ead"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -298,7 +282,7 @@ hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "05703478e51fbfc51c44d4208c21423debb70e393b968b2946c4893435c595e7"
+hash = "c782aef15d2321431d1651f54e3a5318f1390d61456ed0295719f7ffa3dca2b4"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,7 +310,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "6fe7d77c567625a48dccd021c6e8712590647b5a05027395992dec4d2b950e6b"
+hash = "8f5fd59701e75f70334f3e86fa4b758aad0eca7e02810318121ff80227aa75ef"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -389,10 +373,6 @@ file = "config/storagenetwork.toml"
 hash = "b6225d474f29ea801ce73c71902733f0a8022c4fbb966c71782f6b48a8314afc"
 
 [[files]]
-file = "config/tempad-client.jsonc"
-hash = "d56d8431a85eeabaa8007550f4557112b813922a9036414cb6eea11fefd753ae"
-
-[[files]]
 file = "config/tempad.jsonc"
 hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
 
@@ -422,7 +402,7 @@ hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
 
 [[files]]
 file = "icon.png"
-hash = "d0743eb42ae59184b6c7be7841f86946dee47d7ff5eea3f91f46cd503987202c"
+hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
 
 [[files]]
 file = "kubejs/README.txt"

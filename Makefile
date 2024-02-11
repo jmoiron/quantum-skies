@@ -26,6 +26,17 @@ build: refresh preBuild
 	# move the build into the top directory
 	mv build/Quantum*.zip ./
 
+cf: refresh preBuild
+	-rm -rf cfbuild
+	-mkdir cfbuild
+	-cp -r pack/* cfbuild/
+	# package any embedded mods we need to provide
+	-cp cache/mods/*.jar cfbuild/mods/
+	# remove probejs
+	-rm cfbuild/mods/probejs*
+	# export
+	cd cfbuild && packwiz cf export && cd ..
+
 pull:
 	# pull updates from INSTALLPATH
 	-rm -rf pack/config/*
@@ -37,6 +48,7 @@ pull:
 	# do not copy client configs into the modpack; client config defaults
 	# should be set with kubejs or the defaultconfig
 	-rm -f pack/config/*-client.toml
+	-rm -f pack/config/*-client.json*
 	-cd pack && find . -type f -exec chmod 644 {} \; && cd ..
 	$(MAKE) dos2unix
 
