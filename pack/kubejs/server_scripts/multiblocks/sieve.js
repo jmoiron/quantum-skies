@@ -62,6 +62,8 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:plutonium_dust", 1500, 1000)
         .chancedOutput("gtceu:crushed_cooperite_ore", 2000, 1000)
         .chancedOutput("gtceu:crushed_monazite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_tungstate_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_scheelite_ore", 2500, 1000)
         .notConsumable("kubejs:titanium_mesh")
         .EUt(1920)
         .duration(300)

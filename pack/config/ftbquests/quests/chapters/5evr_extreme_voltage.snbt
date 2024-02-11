@@ -250,7 +250,7 @@
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -274,7 +274,7 @@
 				}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7418293A931E9DFC"]
@@ -411,13 +411,15 @@
 		}
 		{
 			dependencies: [
-				"628CBDB7A277054E"
 				"0C663343F3FBE400"
+				"28016100F20EBB6C"
+				"5F4121AA8AE00145"
 			]
+			description: ["Prior to its introduction, this tier of coils was made purely out of &5Tungstensteel&r, which isn't the progression detour that most other coil materials are."]
 			id: "14DAADBA638FE4B6"
 			tasks: [{
 				id: "61CF39EFDED73142"
-				item: "gtceu:tungstensteel_coil_block"
+				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1135,10 +1137,12 @@
 			description: [
 				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
 				""
-				"There's no need to process this now, you can stockpile this in a &9Super Chest&r and pursue this in &1IV&r. &eDo not void it&r; you will need these metals in large quantities."
+				"If you want to make &5RTM Alloy&r coils in &5EV&r, you will need to follow the &aPlatinum Chain Quest Line&r to process this into &6Ruthenium&r."
+				""
+				"If you're happy to wait to &1IV&r, then there's no need to process this now. You can stockpile this in a &9Super Chest&r. &eDo not void it&r; you will need these metals in large quantities."
 			]
 			id: "780FCC6D0619AB06"
-			subtitle: "Let's revisit this later"
+			subtitle: "Let's revisit this later.. or not?"
 			tasks: [{
 				id: "31DC1D887CBECB0D"
 				item: "gtec:platinum_residue_dust"
@@ -1163,6 +1167,27 @@
 			}]
 			x: -3.0d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"541ADBEBFED70B7F"
+				"7DFF0EB3174AAFE6"
+			]
+			description: [
+				"&5RTM Alloy&r is an alloy of &6Ruthenium&r, &6Tungsten&r, and &6Molybdenum&r."
+				""
+				"For &6Ruthenium&r, check &aThe Platinum Chain&r quest line."
+				""
+				"You can get &6Mo&r by processing &5Scheelite&r."
+			]
+			id: "5F4121AA8AE00145"
+			tasks: [{
+				id: "7C51F1DD1ADCA89C"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]
