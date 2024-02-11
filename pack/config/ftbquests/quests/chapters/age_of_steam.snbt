@@ -135,7 +135,7 @@
 				"We need it to create the &9Fireclay Bricks&r to build our &dPrimitive Blast Furnace&r.  The brick mold we used for the coke oven cannot produce bricks with enough integrity to stand up to a heat we need to produce &6Steel&r."
 			]
 			id: "7015689EEBC11F93"
-			subtitle: "Nuggets Don't Craft?"
+			subtitle: "Nuggets don't craft?"
 			tasks: [{
 				id: "61AB628A5BC0E58D"
 				item: "gtceu:lp_steam_compressor"

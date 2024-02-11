@@ -62,15 +62,18 @@
 				""
 				"It seems a &5great calamity&r has occured. The very fabric of space and time are not what you remember."
 				""
-				"The &bpeculiar physics&r of this world give you some hope for survival. Tossing an item into the void naturally sees it disappear, but &eplacing&r things seems to defy gravity. It feels as though maybe falling into the void &5yourself&r might not be a death sentence..."
+				"The &bpeculiar physics&r of this world give you some hope for survival. Tossing an item over the edge has gravity pull it into the void, but &eplacing&r things seems to defy all forces and logic. "
+				""
+				"It feels as though maybe falling into the void &5yourself&r might not be a death sentence..."
 				""
 				"If you're going to rebuild this place, you'll have to do so &bfrom nothing&r."
 			]
 			icon: "kubejs:qs_icon"
 			id: "72482C44E847C15D"
+			min_width: 250
 			shape: "square"
 			size: 3.0d
-			subtitle: "Does that even mean anything?"
+			subtitle: "What's so &5quantum&r about it?"
 			tasks: [{
 				id: "1E5E158FE1DCC8F4"
 				title: "Quantum Skies"
@@ -92,7 +95,9 @@
 				""
 				"&cGear-shaped&r quests unlock the next tier of technology."
 				""
-				"&cHexagonal&r quests are lore and are there for a little &espice&r."
+				"&cHexagonal&r quests are lore"
+				""
+				"Enjoy the pack!"
 			]
 			disable_toast: true
 			icon: "ftbquests:book"

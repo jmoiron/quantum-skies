@@ -50,6 +50,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["630429E0D0BC2ACC"]
 			id: "44CCB4C16016C746"
 			tasks: [{
 				id: "404F8A3B1D16BB30"
@@ -60,6 +61,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["44CCB4C16016C746"]
 			id: "0E951B93CC47F10D"
 			tasks: [
 				{
@@ -77,6 +79,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["0E951B93CC47F10D"]
 			id: "4808C14BE63CD3D2"
 			tasks: [{
 				id: "32CB3F573691A833"
@@ -119,6 +122,16 @@
 			}]
 			x: 1.0d
 			y: -2.5d
+		}
+		{
+			id: "7DF5FCC670846725"
+			tasks: [{
+				id: "6F0AAA8B4B4382FB"
+				title: "full platinum chain"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]

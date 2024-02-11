@@ -74,12 +74,15 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7015689EEBC11F93"]
 			description: [
 				"&2Tom's Simple Storage System&r allows you to connect inventories together to form a simple storage network.  It is similar to the &2Simple Storage Netowrk&r mod, or an &2RFTools&r &9Storage Scanner&r, or an incredibly basic early-game &2Applied Energistics&r ME system."
 				""
-				"The simple \"wireless\" terminal extends your reach by about a chunk, which should save you from some running."
+				"The &5crafting terminal&r makes a great interface for a &2Colossal Chest&r."
 				""
-				"Unlike some Gregtech packs (GTNH), AE2 is not gated too late in the tech tree.  Which is a good thing, because Tom's storage terminals do not play nicely with Gregtech tool durability."
+				"The \"wireless\" terminal extends your reach by about a chunk, which should save you some running."
+				""
+				"Unlike some Gregtech packs (GTNH), AE2 is not gated too late in the tech tree, which is a good thing, because Tom's storage terminals do not play nicely with Gregtech tool durability."
 			]
 			icon: "toms_storage:ts.wireless_terminal"
 			id: "35FBF2C96DB9290A"
