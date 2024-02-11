@@ -21,7 +21,7 @@
 			icon: "gtceu:bronze_firebox_casing"
 			id: "21913378FC451B5B"
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Steam Powered"
 			tasks: [{
 				id: "25188BDF3238891B"

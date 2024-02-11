@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"&aQuantum Skies&r is a 1.20.x skyblock experience heavily focused on &2Gregtech: Community Edition Unofficial Modern&r."
+				"&aQuantum Skies&r is a 1.20.x skyblock centered around &2Gregtech: CEu Modern&r."
 				""
-				"This pack aims to provide a streamlined, classic &2Ex Nihilo&r oriented Skyblock experience that guides you through the delightful challenges that &2Gregtech CEu&r has to offer."
+				"It aims to provide a classic &2Ex Nihilo&r skyblock experience that guides you from the stone age through the challenges of &2Gregtech&r."
 				""
-				"If you aren't sure what any of that is, not to worry! This quest book is meant to be a &egood enough guide&r for Skyblock and Gregtech novices."
+				"If you aren't sure what any of that is, don't worry! The quest book is meant to be a &egood enough guide&r for Skyblock and Gregtech novices."
 			]
 			disable_toast: true
 			icon: "minecraft:dark_oak_hanging_sign"

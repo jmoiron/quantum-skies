@@ -6,7 +6,13 @@
 	icon: "exnihilosequentia:flint_mesh"
 	id: "21A83DC6B84B8A75"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "57AF21C76EFFD635"
+		linked_quest: "763828CE2BABADAF"
+		size: 1.5d
+		x: 1.0d
+		y: -6.0d
+	}]
 	quests: [
 		{
 			dependencies: ["3E39F3D4CED3793C"]
@@ -60,7 +66,7 @@
 				item: "kubejs:aluminium_mesh"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -75,7 +81,7 @@
 				item: "kubejs:titanium_mesh"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -125,7 +131,7 @@
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -135,7 +141,7 @@
 				item: "gtceu:polytetrafluoroethylene_bucket"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.5d
 			y: -7.5d
 		}
 		{
@@ -145,7 +151,7 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -155,7 +161,7 @@
 				item: "gtceu:styrene_butadiene_rubber_bucket"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -7.5d
 		}
 	]

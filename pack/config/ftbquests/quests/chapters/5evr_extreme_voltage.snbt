@@ -217,7 +217,7 @@
 				"The stars are calling."
 			]
 			hide_dependent_lines: true
-			icon: "gtceu:tungsten_steel_spring"
+			icon: "gtceu:titanium_gear"
 			id: "7418293A931E9DFC"
 			shape: "hexagon"
 			size: 2.0d
@@ -226,6 +226,7 @@
 				title: "EV Lore"
 				type: "checkmark"
 			}]
+			title: "Extremities"
 			x: -7.5d
 			y: 2.75d
 		}
@@ -481,7 +482,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["7418293A931E9DFC"]
+			dependencies: [
+				"7418293A931E9DFC"
+				"763828CE2BABADAF"
+				"4B604E36F15D9E35"
+			]
 			description: [
 				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing it is a complex and challenging chain."
 				""
@@ -493,6 +498,7 @@
 				""
 				"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
 			]
+			hide_dependency_lines: true
 			icon: "gtceu:monazite_gem"
 			id: "6EED86F5C72C5729"
 			tasks: [
@@ -1039,10 +1045,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"671EAAFA82C54470"
-				"2BF0B24DFAD83086"
-			]
+			dependencies: ["671EAAFA82C54470"]
 			id: "647C4C74A036F8AD"
 			tasks: [{
 				id: "3F41225B947B263E"
@@ -1075,7 +1078,9 @@
 			description: [
 				"The simple &6Platinum&r acquisition from main &2GTCEu Modern&r has been replaced with the elaborate &5platinum processing chain&r from &2GTNH&r."
 				""
-				"Only the steps to &6Platinum&r itself are relevant to &5EV&r;  the rest becomes much more relevant in &2IV&r, where the full platinum chain is expressed."
+				"Only the steps to &6Platinum&r itself are relevant to &5EV&r;  the rest becomes much more relevant in &2IV&r and &dLuV&r. "
+				""
+				"The &efull platinum chain&r is illustrated in its own quest chapter."
 			]
 			id: "4EC10287171A5352"
 			tasks: [{
@@ -1141,6 +1146,23 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["671EAAFA82C54470"]
+			description: [
+				"It's a short step from here to &6Palladium&r, but it's not a &edirect&r step. It's recommended that you make the biggest &9Super Tank&r you can to stash this for now."
+				""
+				"Processing &5Palladium Ammonia&r requires making &eFormic Acid&r, and there's no significant recycling that works its way back into the &6Platinum&r process."
+			]
+			id: "22DE550BB6043CBC"
+			subtitle: "Let's visit this later, too"
+			tasks: [{
+				id: "50E347DCAC64975D"
+				item: "gtec:palladium_enriched_ammonia_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]
