@@ -71,8 +71,8 @@
 			icon: "kubejs:qs_icon"
 			id: "72482C44E847C15D"
 			min_width: 250
-			shape: "square"
-			size: 3.0d
+			shape: "hexagon"
+			size: 4.0d
 			subtitle: "What's so &5quantum&r about it?"
 			tasks: [{
 				id: "1E5E158FE1DCC8F4"

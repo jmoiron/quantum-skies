@@ -68,34 +68,34 @@ ServerEvents.recipes(event => {
             ],
             "#forge:gravel": [ 
                 // iron + copper + tin for steam age
-                ["gtceu:iron_crushed_ore", 0.35],
-                ["gtceu:magnetite_crushed_ore", 0.15],
-                ["gtceu:copper_crushed_ore", 0.15],
-                ["gtceu:malachite_crushed_ore", 0.15],
-                ["gtceu:tin_crushed_ore", 0.15],
-                ["gtceu:cassiterite_crushed_ore", 0.15]
+                ["gtceu:crushed_iron_ore", 0.35],
+                ["gtceu:crushed_magnetite_ore", 0.15],
+                ["gtceu:crushed_copper_ore", 0.15],
+                ["gtceu:crushed_malachite_ore", 0.15],
+                ["gtceu:crushed_tin_ore", 0.15],
+                ["gtceu:crushed_cassiterite_ore", 0.15]
             ],
             "minecraft:sand": [
-                ["gtceu:salt_crushed_ore", 0.25],
-                ["gtceu:rock_salt_crushed_ore", 0.25],
-                ["gtceu:lepidolite_crushed_ore", 0.10],
+                ["gtceu:crushed_salt_ore", 0.25],
+                ["gtceu:crushed_rock_salt_ore", 0.25],
+                ["gtceu:crushed_lepidolite_ore", 0.10],
                 ["minecraft:lapis_lazuli", [0.2, 0.1]]
             ],
             "exnihilosequentia:dust": [
-                ["gtceu:redstone_crushed_ore", [0.5, 0.30]],
+                ["gtceu:crushed_redstone_ore", [0.5, 0.30]],
                 ["minecraft:glowstone_dust", [0.3, 0.20]],
                 ["minecraft:bone_meal", 0.1]
             ],
             "exnihilosequentia:crushed_andesite": [
-                ["gtceu:magnetite_crushed_ore", 0.25],
-                ["gtceu:vanadium_magnetite_crushed_ore", 0.20],
-                ["gtceu:gold_crushed_ore", 0.15],
+                ["gtceu:crushed_magnetite_ore", 0.25],
+                ["gtceu:crushed_vanadium_magnetite_ore", 0.20],
+                ["gtceu:crushed_gold_ore", 0.15],
             ],
             "exnihilosequentia:crushed_netherrack": [
-                ["gtceu:gold_crushed_ore", [0.35, 0.2]],
+                ["gtceu:crushed_gold_ore", [0.35, 0.2]],
                 ["gtceu:sulfur_dust", [1, 0.5, 0.5, 0.25, 0.25]],
-                ["gtceu:tetrahedrite_crushed_ore", 0.25],
-                ["gtceu:stibnite_crushed_ore", 0.15]
+                ["gtceu:crushed_tetrahedrite_ore", 0.25],
+                ["gtceu:crushed_stibnite_ore", 0.15]
             ],
             "exnihilosequentia:crushed_end_stone": [
                 ["gtceu:ender_pearl_dust", [0.45, 0.45, 0.20, 0.20]]
@@ -106,22 +106,22 @@ ServerEvents.recipes(event => {
         },
         "flint": {
             "#forge:gravel": [
-                ["gtceu:magnetite_crushed_ore", 0.25],
-                ["gtceu:gold_crushed_ore", 0.10],
+                ["gtceu:crushed_magnetite_ore", 0.25],
+                ["gtceu:crushed_gold_ore", 0.10],
                 // nickel has platinum skip
                 //["gtceu:nickel_crushed_ore", 0.15],
-                ["gtceu:garnierite_crushed_ore",  0.30],
+                ["gtceu:crushed_garnierite_ore",  0.30],
                 ["minecraft:coal", 0.25],
             ],
             "minecraft:sand": [
-                ["gtceu:calcite_crushed_ore", 0.25],
-                ["gtceu:lazurite_crushed_ore", 0.20],
-                ["gtceu:gypsum_crushed_ore", 0.20],
-                ["gtceu:talc_crushed_ore", 0.20],
+                ["gtceu:crushed_calcite_ore", 0.25],
+                ["gtceu:crushed_lazurite_ore", 0.20],
+                ["gtceu:crushed_gypsum_ore", 0.20],
+                ["gtceu:crushed_talc_ore", 0.20],
                 ["minecraft:diamond", 0.05]
             ],
             "minecraft:soul_sand": [
-                ["gtceu:oilsands_crushed_ore", [0.25, 0.1]],
+                ["gtceu:crushed_oilsands_ore", [0.25, 0.1]],
                 ["gtceu:oilsands_ore", [0.1, 0.05]],
             ],
             // TODO: flint unlocks at steam compressor, by which point
@@ -142,18 +142,18 @@ ServerEvents.recipes(event => {
             ],
             */
             "exnihilosequentia:crushed_netherrack": [
-                ["gtceu:pyrite_crushed_ore", 0.30],
-                ["gtceu:sphalerite_crushed_ore", 0.25],
-                ["gtceu:beryllium_crushed_ore", 0.10],
-                ["gtceu:stibnite_crushed_ore", 0.25]
+                ["gtceu:crushed_pyrite_ore", 0.30],
+                ["gtceu:crushed_sphalerite_ore", 0.25],
+                ["gtceu:crushed_beryllium_ore", 0.10],
+                ["gtceu:crushed_stibnite_ore", 0.25]
             ],
             "exnihilosequentia:crushed_granite": [
-                ["gtceu:silver_crushed_ore", 0.35],
-                ["gtceu:galena_crushed_ore", 0.35],
-                ["gtceu:lead_crushed_ore", 0.20],
+                ["gtceu:crushed_silver_ore", 0.35],
+                ["gtceu:crushed_galena_ore", 0.35],
+                ["gtceu:crushed_lead_ore", 0.20],
             ],
             "exnihilosequentia:crushed_blackstone": [
-                ["gtceu:pyrolusite_crushed_ore", 0.25],
+                ["gtceu:crushed_pyrolusite_ore", 0.25],
                 ["gtceu:crushed_grossular_ore", 0.25],
                 ["gtceu:crushed_spessartine_ore", 0.20],
                 ["gtceu:crushed_tantalite_ore", 0.20],
@@ -163,21 +163,21 @@ ServerEvents.recipes(event => {
             // much though, so we can make it a rare drop to force some level of
             // automation
             "exnihilosequentia:crushed_andesite": [
-                ["gtceu:realgar_crushed_ore", 0.05],
-                ["gtceu:zeolite_crushed_ore", 0.15],
-                ["gtceu:cassiterite_crushed_ore", 0.20],
-                ["gtceu:chalcopyrite_crushed_ore", 0.20],
+                ["gtceu:crushed_realgar_ore", 0.05],
+                ["gtceu:crushed_zeolite_ore", 0.15],
+                ["gtceu:crushed_cassiterite_ore", 0.20],
+                ["gtceu:crushed_chalcopyrite_ore", 0.20],
             ],
             "exnihilosequentia:crushed_diorite": [
-                ["gtceu:almandine_crushed_ore", 0.25],
-                ["gtceu:pyrope_crushed_ore", 0.20],
-                ["gtceu:sapphire_crushed_ore", 0.20],
-                ["gtceu:green_sapphire_crushed_ore", 0.20],
+                ["gtceu:crushed_almandine_ore", 0.25],
+                ["gtceu:crushed_pyrope_ore", 0.20],
+                ["gtceu:crushed_sapphire_ore", 0.20],
+                ["gtceu:crushed_green_sapphire_ore", 0.20],
             ],
             "exnihilosequentia:crushed_deepslate": [
-                ["gtceu:coal_crushed_ore", 0.30],
-                ["gtceu:graphite_crushed_ore", 0.25],
-                ["gtceu:diamond_crushed_ore", 0.15],
+                ["gtceu:crushed_coal_ore", 0.30],
+                ["gtceu:crushed_graphite_ore", 0.25],
+                ["gtceu:crushed_diamond_ore", 0.15],
                 ["ae2:sky_dust", 0.10],
             ]
         },

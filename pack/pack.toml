@@ -1,4 +1,4 @@
-name = "Quantum Skies"
+name = "quantum-skies"
 author = "jmoiron"
 version = "0.0.1"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b61c1fe94c77f5174961c05ffff4ae546e240769acbcc30d35c330f963461f4b"
+hash = "c540f28459d1ae961be532be2da32a01a1ef9fd4dca22cf671267a829cb4a03d"
 
 [versions]
 forge = "47.2.19"

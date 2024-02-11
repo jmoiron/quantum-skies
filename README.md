@@ -23,13 +23,14 @@ Inspiration:
 
 Credits:
 
-* Many GT oritned quest lines are adapted directly or inspired by GCP
+* icon & banner artwork by [ulstick](https://www.behance.net/ulstick)
+* Many GT oriented quest lines are adapted directly or inspired by GCP
 * AE2 greficiation is currently directly from GCP (may change, or not)
 * Lanthanides, Platinum chain are from GTNH via GTEC (may be adapted further over time)
 
 ## Development
 
-You will need java jre 17, make, and p7zip-full.
+You will need packwiz, java-jre-17 and make.
 
 ```sh
 $ make build

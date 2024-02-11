@@ -25,7 +25,7 @@ build: refresh preBuild
 	-cp pack/icon.png build/
 	cd build && packwiz cf export && cd ..
 	# move the build into the top directory
-	mv build/Quantum*.zip ./
+	mv build/quantum*.zip ./
 
 cf: refresh preBuild
 	-rm -rf cfbuild
