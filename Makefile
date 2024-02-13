@@ -28,6 +28,7 @@ build: refresh preBuild
 	mv build/quantum*.zip ./
 
 cf: refresh preBuild
+	-./setversion.py
 	-rm -rf cfbuild
 	-mkdir cfbuild
 	-cp -r pack/* cfbuild/
