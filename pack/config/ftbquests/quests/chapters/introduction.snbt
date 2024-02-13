@@ -52,7 +52,7 @@
 			}]
 			title: "Credits and Thanks"
 			x: 3.75d
-			y: -6.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -110,8 +110,37 @@
 				title: "The Questbook"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.75d
 			y: -6.0d
+		}
+		{
+			description: [
+				"What to expect from the pack version:"
+				""
+				"Versioning will roughly follow &asemver&r, with &aMajor&r.&9Minor&r.&6Patch&r. Through alpha/beta/release, bugfixes and quest additions will increment the &6Patch&r version, progression changes will increment &9Minor&r, and the final release will increment the &aMajor&r."
+				""
+				"&dv0.0.x&r are alpha builds; the pack may not be playable to completion, significant changes ahead"
+				""
+				"&dv0.[1-9].x&r are beta builds, the pack is completable, but content and progression may still change significantly"
+				""
+				"&dv1.x.x&r is the official release; the pack is playtested; gameplay changes (balance fixes, additional content) will increment the &9minor&r version."
+				""
+				"Releases after 1.x are unlikely."
+			]
+			disable_toast: true
+			icon: "gtceu:computer_monitor_cover"
+			id: "162C01C638FBF8AC"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&aQuantum Skies&r v0.0.1"
+			tasks: [{
+				id: "45DFB8A8F71334B1"
+				title: "Whoah, these sound cool."
+				type: "checkmark"
+			}]
+			title: "Pack Version"
+			x: -0.75d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Welcome to &aQuantum Skies&r!"]
