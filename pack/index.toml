@@ -783,7 +783,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastworkbench.pw.toml"
-hash = "21a6d1831234da145413aafbfe8c1aad1700cdf43b5ec67723ef71b9eee6a2ce"
+hash = "8630a92c47c281994b920f446630b9832f0058a44eb21de12bcab8f2b6f307ed"
 metafile = true
 
 [[files]]
