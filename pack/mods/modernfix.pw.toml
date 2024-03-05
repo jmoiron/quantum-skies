@@ -1,13 +1,13 @@
 name = "ModernFix"
-filename = "modernfix-forge-5.13.0+mc1.20.1.jar"
+filename = "modernfix-forge-5.14.0+mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b81ef1428062d520bf7907fcce871d38463a8374"
+hash = "14b9e0dc330a28706bd2339570de709ef28f5c9d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5077298
+file-id = 5157670
 project-id = 790626

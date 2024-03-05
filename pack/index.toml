@@ -53,10 +53,6 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
-
-[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
@@ -91,10 +87,6 @@ hash = "8133f67a8d39f7a9cc0737636ffde75326b602201354de5dd3bd716491713219"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
-
-[[files]]
-file = "config/flib.toml"
-hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
 
 [[files]]
 file = "config/fluxnetworks-common.toml"
@@ -166,7 +158,7 @@ hash = "d179aab3dd7bfe7437d002ff6a324caf98b91f3ef265cf4b43ff1794f1bfdd35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "7457d256538b1c2008c5fbcffd08d15bc79c067d92d77d12aee93f6017d14865"
+hash = "0e34220edfe7a7981b4b805a6ead0d880b9645251fee2aa287a6d939a8eefa17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -263,10 +255,6 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "8627717996ca324d0c4df23d9f9b76bb9f2564743847f618b9b4525419fe517d"
-
-[[files]]
-file = "config/lightoverlay.properties"
-hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
 
 [[files]]
 file = "config/merequester-common.toml"
@@ -668,12 +656,12 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "67adf512a1b219f400cca4a1954115eb09f352868b38299969a0e34fcd52dcfa"
+hash = "a966c2d3be76c854dcf6d30963ad7d495b5f8d87217431e441a652c3e4cdc92c"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "960890be34fda21cd78de480ca9dc367b518500efde04fc7fc34bc94ac383d89"
+hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
@@ -683,7 +671,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9c2e49283d2f251717b890fdbf9b5f3e92ff64bec53dd00e099f969003833b16"
+hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
 metafile = true
 
 [[files]]
@@ -748,7 +736,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "d3a861b09da982bbecbd4de30df89f802acefe1f621fa4e806c054e9a5426141"
+hash = "b675cf40c5587a699b4a9c8cd51d74da22cbdc76b4c2f82e4f41fa30faa53430"
 metafile = true
 
 [[files]]
@@ -763,7 +751,7 @@ metafile = true
 
 [[files]]
 file = "mods/entangled.pw.toml"
-hash = "18ccf65d938b5d5c3a6d002d43af0414b8e60bbf8e833bbf4db86f25891f80b5"
+hash = "e2b0995817583f85d3bef1c502596f2aba45bc886f7f915f0638a7c58dd8387d"
 metafile = true
 
 [[files]]
@@ -773,7 +761,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "12922facb249ed86ddad0b04cf5627e6a2db17ae48e06688b2b318154fcde952"
+hash = "c45990647191119f54361493855d1319f1fed9cc83f9f24960b2ef5139faa538"
 metafile = true
 
 [[files]]
@@ -783,7 +771,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastworkbench.pw.toml"
-hash = "8630a92c47c281994b920f446630b9832f0058a44eb21de12bcab8f2b6f307ed"
+hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
 metafile = true
 
 [[files]]
@@ -888,12 +876,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "bdb4b62f139151049e9b26bea10b9cf1401a7638bea581e80ac5658e0eff5498"
+hash = "8c2bd49d6e2dc5a1b99f8b429303ef0c2b53e2d850e37c1e348294ffbf2074fb"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b5d96b5c0efce6d8a3c53b2879846f294d403f6d8650054f53923bd39c228551"
+hash = "1c579abc5087a9fefa92484a76a2c9a7bef46ba14fb431d452aad806be15fd3a"
 metafile = true
 
 [[files]]
@@ -923,7 +911,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e2f9da0b7207068d53b206da56989d85983525a704e55e7368928288ddae0251"
+hash = "433236e219589f34337ad72448553be1659ecb319fc428ad21de689295eaf911"
 metafile = true
 
 [[files]]
@@ -943,7 +931,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "bbeb1bee50265ee6c9ac251cceeafa779368fedb6688956451978a072989ab94"
+hash = "6fae8c1ae452f1c54248e73b743ad9c036419f4fefc31e92fb76446f02c72aaa"
 metafile = true
 
 [[files]]
@@ -1013,7 +1001,7 @@ metafile = true
 
 [[files]]
 file = "mods/squat-grow.pw.toml"
-hash = "b46a68e1bd934dae65d3296605406b9aeb3380a4b8242feb3f0835687c60cf8b"
+hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
 metafile = true
 
 [[files]]
@@ -1023,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "482eac80d4c6cc95cb3a09e97e72c51269ba8e284198eaf0a6b0bacc193a6315"
+hash = "cf1c31fa1e9f0d7369188bc052f42f4264971dab39cd5d6e67ccb147221b4b3f"
 metafile = true
 
 [[files]]
@@ -1033,7 +1021,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "63dc9da73f7b641a7f355ff2b1e3dacf6b16a4ece302759b1b27c79ce2f1ae2c"
+hash = "436e0c633a689379dfb99745344a6ab0c9cc39955f59d6194aad2a6a44202217"
 metafile = true
 
 [[files]]

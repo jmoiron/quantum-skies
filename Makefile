@@ -60,6 +60,7 @@ pull:
 preBuild:
 	-rm -rf build/config/*
 	-rm -rf build/kubejs/*
+	-mkdir cache
 
 clean:
 	-rm -rf build
