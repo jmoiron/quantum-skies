@@ -544,26 +544,52 @@
 		}
 		{
 			dependencies: ["2B1202FF36C62940"]
+			description: [
+				"The &eHafnia-Zirconia blend&r can be separated, unsurprisingly, to &6Hafnia&r and &6Zirconia&r."
+				""
+				"Processing this further into &6Hafnium&r and &6Zirconium&r is an involved chain that is entirely optional at this point."
+			]
 			id: "3F13D8A5514C7457"
-			tasks: [{
-				id: "54E9DD100085B401"
-				title: "Hafnia Processing?"
-				type: "checkmark"
-			}]
-			x: -9.0d
+			tasks: [
+				{
+					id: "2276BC4CD1B50E1C"
+					item: "gtec:hafnia_dust"
+					type: "item"
+				}
+				{
+					id: "545A88C7A8BF2A2F"
+					item: "gtec:zirconia_dust"
+					type: "item"
+				}
+			]
+			title: "Hafnia / Zirconia"
+			x: -7.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["2B1202FF36C62940"]
-			description: ["&6Thorium Dioxide&r can yield some &6thorium&r and &6magnesium&r, or it can be used to produce large amounts of &6alumina&r, which can be processed in the &rEBF&r for &6aluminium&r."]
+			description: [
+				"&6Thorium Dioxide&r can be processed into &6thorium&r in two ways."
+				""
+				"The first way uses &6magnesium&r in a loop."
+				""
+				"The second way uses &6Aluminium&r and produces &6alumina&r, which can be blasted in the &bEBF&r for &ealuminium ingots&r at a large energy discount over normal &9aluminium dust&r."
+			]
 			id: "2517532DAA321190"
-			tasks: [{
-				id: "433C0CBB585874B8"
-				item: "gtec:thorium_dioxide_dust"
-				type: "item"
-			}]
-			title: "Alumina?"
-			x: -7.5d
+			tasks: [
+				{
+					id: "433C0CBB585874B8"
+					item: "gtec:thorium_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "23A9B8C0FAFA3776"
+					item: "gtec:alumina_dust"
+					type: "item"
+				}
+			]
+			title: "Thorium Capture"
+			x: -9.0d
 			y: 6.5d
 		}
 		{
@@ -1050,8 +1076,8 @@
 			dependencies: ["671EAAFA82C54470"]
 			id: "647C4C74A036F8AD"
 			tasks: [{
-				id: "3F41225B947B263E"
-				item: "gtec:repercipitated_platinum_dust"
+				id: "24BB78ED617278F1"
+				item: "gtec:reprecipitated_platinum_dust"
 				type: "item"
 			}]
 			x: -1.5d

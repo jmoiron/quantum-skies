@@ -303,6 +303,11 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"1ECD7E6A67B32B50"
+				"03187CD57AEE511A"
+				"3AEF5A87CDA225B6"
+			]
 			description: [
 				"These &9Small Battery Hulls&r will store 2 to 3 minutes of &7LV&r power, depending on what kind of chemistry we fill them with."
 				""

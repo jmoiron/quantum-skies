@@ -671,6 +671,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["4A6FD7DCE495D0FB"]
 			description: [
 				"&9Sticky Resin&r descends from IC2.  In CEu, you get it as a chance drop when chopping &9Rubber Trees&r."
 				""
@@ -798,6 +799,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["1ECD7E6A67B32B50"]
 			description: [
 				"&6Red Alloy&r has a long history, dating back to the Tekkit/RedPower days."
 				""

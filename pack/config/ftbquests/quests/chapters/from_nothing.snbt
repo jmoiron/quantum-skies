@@ -147,9 +147,9 @@
 			description: [
 				"This humble sieve will be your early game companion."
 				""
-				"Arranging them in a rectangle, up to 5x5, allows you to sieve up to 25 items in parallel.  This quest requests 4 for now.  "
+				"Arranging them in a rectangle, up to 5x5, allows you to sieve up to 25 items in parallel.  This quest requires 4 to get started.  "
 				""
-				"Crafting in batches, and planning multiple parallel systems for important processes are good habits to develop early and will significantly streamline your progress."
+				"Crafting in batches, and planning multiple &eparallel systems&r for important processes are good habits to develop early and will significantly streamline your progress."
 			]
 			icon: "exnihilosequentia:oak_sieve"
 			id: "583F3A986CA3A78A"
@@ -234,7 +234,7 @@
 			description: [
 				"These pebbles can be used to craft stone variants that can be processed and turned into useful materials later. "
 				""
-				"Don't bother hording them, but it may be worth exploring their possibilities now, as they represent reneable sources of those materials."
+				"Don't bother hoarding them, but it may be worth exploring their possibilities now, as they represent &erenewable sources&r of those materials."
 				""
 				"You can find other stone variants by sifting &9Coarse Dirt&r."
 			]
@@ -280,7 +280,7 @@
 		{
 			dependencies: ["583F3A986CA3A78A"]
 			description: [
-				"The cornerstone of every minecraft world.  Slightly more difficult to come by up here in the sky, for now."
+				"The &mcobble&r cornerstone of every minecraft world.  Slightly more difficult to come by up here in the sky, for now."
 				""
 				"You will want to build at least one vanilla &9Furnace&r early, because we will need one to make lava for a vanilla cobblestone generator so you can stop sifting dirt for all of your stone."
 			]
