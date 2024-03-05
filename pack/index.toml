@@ -845,6 +845,11 @@ hash = "eda0e7e00a4de2a3a9400dc4f00b8c98d8b5751373bbf7548d530edd6a5a43b6"
 metafile = true
 
 [[files]]
+file = "mods/gregtech-extended-chemistry.pw.toml"
+hash = "6b9db8f48de55b605b7fb2f1441eb91f8d17c569bbe61524bb3781c060db75b7"
+metafile = true
+
+[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
 hash = "cee31ab80f287855dc0ec3c7e2e3879f2f4265b05c38066aca9f3f419cf2e278"
 metafile = true
