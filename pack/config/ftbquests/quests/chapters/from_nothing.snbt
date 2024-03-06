@@ -381,7 +381,7 @@
 			subtitle: "Before Bronze?"
 			tasks: [
 				{
-					count: 5L
+					count: 6L
 					id: "1B0E7772B0050B67"
 					item: "minecraft:iron_ingot"
 					type: "item"

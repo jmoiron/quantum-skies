@@ -12,5 +12,4 @@ ServerEvents.recipes(event => {
         // sheldonite is disabled by gtec
     ]
 
-
 });

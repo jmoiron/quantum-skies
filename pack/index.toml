@@ -118,7 +118,7 @@ hash = "b3a01abb019e9554949684c1ecd00dc70007c401650de3507f548d0e9f6f127c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "24697b86437bd13fca38e223fc9c7f8fa775c19912c7ec48f6be89fab213b6c0"
+hash = "45a35ec90269add053dea03f9d51195248a123c4c32bbd0c6b9fb39b2d22b8d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -126,11 +126,11 @@ hash = "9b018ceda820b952e4367d58ff8c3a837c67a653b5339ae16105da23a2cd6a21"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "1771c46de72b4977a199c0f0a3df6e3fe4ecf0e462e90dc40b3cfb4ee1f95d56"
+hash = "76ab7a2343809f86b1586ebbdd7f7bab299552e4ee6c3fa5ce8244a79159f5c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "4a59032b347c0d1caf99dd4d1a151bef00118f7a3c6a7f6a7c3c2298bbfb7624"
+hash = "0388a0f6a5c14357e71d9f7ff7db3808695e3a10d42fcc16432a4257d516d3bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -154,11 +154,11 @@ hash = "ebb6d4b9f5f6fdf13feb2ebe9b41812411c1ea42e602acb563779df4e5d92b35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "d179aab3dd7bfe7437d002ff6a324caf98b91f3ef265cf4b43ff1794f1bfdd35"
+hash = "5acf406e74a5ff5f0459fb9eaed1abe5cfcfdcaac1a10b6b03fcafb5e7ba53de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "0e34220edfe7a7981b4b805a6ead0d880b9645251fee2aa287a6d939a8eefa17"
+hash = "c217cf5f72665bd135203859bd663a90b51bbcc3803eafcaf5a33859a9f56f7e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -266,11 +266,11 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "27b07a3d49cfc04ebc395c0f32e2d633c8e1f9bdb9b1ee994c82aa5f8849cf52"
+hash = "de8b23dea7b7db47e0db7d2eca3aa1e9f3865d3c13207f6a2bd1c9842fac6d38"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b9266214dcc8cf516fdbdcec656db5361794ce471d8aaaa50032dd9da3c34e8f"
+hash = "6811a8df8e9295948b0ec005accd9b2a64a63c4fd1e81067974d38c8f19771c1"
 
 [[files]]
 file = "config/panorama.json"
@@ -298,7 +298,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "7ab6aef2fe5924a48bb060b13a382082d8f141af609b4a9373db5e00db328bb1"
+hash = "8551d45e73ae861805e1fff5aa83880645af5fd6b94c05c72c9b45dd84c5e131"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -354,7 +354,7 @@ hash = "8fb262662f6ee6d6f88256a2b628f7519f3eede1104d6e20a80523ce4a21cad1"
 
 [[files]]
 file = "config/squatgrow-common.yaml"
-hash = "0d1c33ac3204b8df9b4966db5dd2fdb6f5c85cc73c069f45043df27a1cfcef47"
+hash = "f5186aa30858d9f7f1e2b01340e3c40d69479d5af0b622de8ca6d690bcff1115"
 
 [[files]]
 file = "config/storagenetwork.toml"
