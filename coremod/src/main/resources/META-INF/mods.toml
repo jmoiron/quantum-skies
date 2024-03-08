@@ -10,7 +10,8 @@ issueTrackerURL="https://github.com/jmoiron/quantum-skies/issues" #optional
 # The modid of the mod
 modId="qscore" #mandatory
 # The version number of the mod
-version="${version}" #mandatory
+#version="${version}" #mandatory
+version="0.1"
 # A display name for the mod
 displayName="Quantum Skies Coremod" #mandatory
 

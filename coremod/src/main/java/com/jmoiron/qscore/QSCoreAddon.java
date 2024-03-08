@@ -5,13 +5,14 @@ import com.gregtechceu.gtceu.api.addon.IGTAddon;
 import com.gregtechceu.gtceu.api.registry.GTRegistries;
 import com.gregtechceu.gtceu.api.registry.registrate.GTRegistrate;
 import com.jmoiron.qscore.covers.Covers;
+import com.jmoiron.qscore.registry.QSRegistries;
 
 @GTAddon
 public class QSCoreAddon implements IGTAddon {
 
     @Override
     public GTRegistrate getRegistrate() {
-        return Registration.REGISTRATE;
+        return QSRegistries.REGISTRATE;
     }
 
     @Override
