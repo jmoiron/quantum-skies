@@ -21,18 +21,33 @@ public class Covers {
         }
     };
 
-    public final static CoverInfo ULV_CONVEYOR = new CoverInfo(
+    public static CoverInfo ULV_CONVEYOR = new CoverInfo(
         "conveyor",
         ConveyorCover::new,
-        new SimpleCoverRenderer(new ResourceLocation("gtceu:block/cover/overlay_conveyor"))
+        ConveyorCoverRenderer.INSTANCE
+        // new SimpleCoverRenderer(new ResourceLocation("gtceu:block/cover/overlay_conveyor"))
     );
 
-    public final static CoverInfo ULV_PUMP = new CoverInfo(
+    public static CoverInfo ULV_PUMP = new CoverInfo(
         "pump",
         PumpCoverExt::new,
-        new SimpleCoverRenderer(new ResourceLocation("gtceu:block/cover/overlay_pump"))
+        PumpCoverRenderer.INSTANCE
+        // new SimpleCoverRenderer(new ResourceLocation("gtceu:block/cover/overlay_pump"))
     );
-    
+
+    public static CoverInfo ULV_ROBOT_ARM = new CoverInfo(
+        "robot_arm",
+        RobotArmCover::new,
+        RobotArmCoverRenderer.INSTANCE
+    );
+
+    public static CoverInfo ULV_FLUID_REGULATOR = new CoverInfo(
+        "fluid_regulator",
+        FluidRegulatorCoverExt::new,
+        FluidRegulatorCoverRenderer.INSTANCE
+    );
+
+
     public static CoverDefinition register(
             String id, 
             CoverDefinition.TieredCoverBehaviourProvider behavior, 

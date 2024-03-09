@@ -28,5 +28,7 @@ public class QSCoreAddon implements IGTAddon {
     public void registerCovers() {
         GTRegistries.COVERS.register(Covers.ULV_PUMP.id, Covers.ULV_PUMP.definition);
         GTRegistries.COVERS.register(Covers.ULV_CONVEYOR.id, Covers.ULV_CONVEYOR.definition);
+        GTRegistries.COVERS.register(Covers.ULV_FLUID_REGULATOR.id, Covers.ULV_FLUID_REGULATOR.definition);
+        GTRegistries.COVERS.register(Covers.ULV_ROBOT_ARM.id, Covers.ULV_ROBOT_ARM.definition);
     }
 }
