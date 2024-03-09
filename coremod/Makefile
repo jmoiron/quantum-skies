@@ -4,3 +4,6 @@ all:
 
 data:
 	gradlew runData
+
+clean:
+	gradlew clean
