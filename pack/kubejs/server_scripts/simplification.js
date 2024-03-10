@@ -4,6 +4,29 @@ ServerEvents.recipes(event => {
     // these recipes are aimed at smoothing out the early game and
     // reducing tedium pre-steam era
 
+    // make the early pump & conveyor easier
+    event.remove({output: "ulvcovm:ulv_electric_pump"});
+    event.remove({output: "ulvcovm:ulv_conveyor_module"});
+    
+    event.shaped("ulvcovm:ulv_conveyor_module",
+        ["RR ", "MW ", "   "],
+        {
+            R: "gtceu:sticky_resin",
+            M: "ulvcovm:ulv_electric_motor",
+            W: "gtceu:tin_single_wire",
+        }
+    )
+
+    event.shaped("ulvcovm:ulv_electric_pump",
+        ["SR ", "MP ", "   "],
+        {
+            S: "gtceu:copper_screw",
+            R: "gtceu:copper_rotor",
+            M: "ulvcovm:ulv_electric_motor",
+            P: "gtceu:copper_normal_fluid_pipe",
+        }
+    )
+
     // make tom's storage available at steam compressor
     event.replaceInput(
         {mod: "toms_storage"},
