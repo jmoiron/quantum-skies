@@ -66,7 +66,7 @@
 				title: "Lore"
 				type: "checkmark"
 			}]
-			title: "Ex Nihilo: From Nothing"
+			title: "&2Ex Nihilo&r: From Nothing"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -400,21 +400,43 @@
 		{
 			dependencies: ["338399548BB160E3"]
 			description: [
-				"&aGregtech tools&r can be used to create plates from ingots, cut plates into wires, crush ores, assemble machine hulls, and much more.  Eventually, you will only use them to configure machines, as mechanization will do these jubs more efficiently."
+				"&aGregtech tools&r can be used to create plates from ingots, cut plates into wires, crush ores, assemble machine hulls, and more.  Eventually, you will only use them to configure machines, as mechanization will do these jobs more efficiently."
 				""
 				"The &aHammer&r is your first way to create &eplates&r, which are used by many other tools and machines."
 				""
 				"The &aWrench&r configures &epipes&r in the world, and is also used for crafting."
 				""
 				"The &aMortar&r can do some basic maceration tasks, and opens up your first alloys."
+				""
+				"You can use the &aScrewdriver&r reward to configure covers, the basics of early logistics."
 			]
 			id: "1A30EE1EAD1165CA"
-			rewards: [{
-				count: 16
-				id: "2B535AF4BC9155FD"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2B535AF4BC9155FD"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "35478593BB88ADC4"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 5
+								MaxDamage: 383
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Microcrafting Time"
 			tasks: [
 				{
@@ -645,7 +667,7 @@
 				title: "Effortless Building"
 				type: "checkmark"
 			}]
-			title: "Effortless Building"
+			title: "&2Effortless Building&r"
 			x: -1.875d
 			y: -4.5d
 		}
@@ -684,6 +706,7 @@
 				title: "Ultimine"
 				type: "checkmark"
 			}]
+			title: "&2Ultimine&r"
 			x: -1.875d
 			y: -5.625d
 		}
@@ -715,7 +738,7 @@
 				title: "Squat Grow"
 				type: "checkmark"
 			}]
-			title: "Squat Grow"
+			title: "&2Squat Grow&r"
 			x: -1.875d
 			y: -3.375d
 		}
@@ -879,23 +902,73 @@
 				""
 				"Pretty tedious to do by hand!"
 				""
-				"&2Gregtech&r item and fluid pipes are very powerful, but they require &9conveyors&r and &9pumps&r, respectively, to extract from an inventory.  Someday, you'll need better logistics, but these can help you get started with &eautomation&r."
+				"&2Gregtech&r item and fluid pipes are very powerful, but they require &9conveyors&r and &9pumps&r, respectively, to extract from an inventory. These are the first tier!"
+				""
+				"You will need to place a &9pump&r/&9conveyor&r onto a &afluid&r/&aitem&r pipe, respectively, and switch its mode to &3import&r to pull from the adjacent drum/inventory."
 			]
+			icon: "ulvcovm:ulv_conveyor_module"
 			id: "6B3DFA8D8E7F6431"
-			subtitle: "\"Advanced\""
+			min_width: 250
+			subtitle: "\"Voltage\""
 			tasks: [
 				{
-					id: "7FC0E9F3C01EE2E4"
-					item: "pipez:fluid_pipe"
+					id: "28BF4FF31569B9EC"
+					item: "ulvcovm:ulv_conveyor_module"
 					type: "item"
 				}
 				{
-					id: "1113F2A1E6BD62ED"
-					item: "pipez:item_pipe"
+					id: "0C18159A4774AB6E"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "6CB6279334C7ADE1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:copper_tiny_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:copper_small_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:copper_normal_fluid_pipe"
+								}
+							]
+						}
+					}
+					title: "Early Fluid Pipes"
+					type: "item"
+				}
+				{
+					id: "37692B9B22BE8CD6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:tin_small_item_pipe"
+								}
+								{
+									Count: 1b
+									id: "gtceu:tin_normal_item_pipe"
+								}
+							]
+						}
+					}
+					title: "Early Item Pipes"
 					type: "item"
 				}
 			]
-			title: "Extra Pipes"
+			title: "&2ULV Covers&r"
 			x: 5.5d
 			y: -1.5d
 		}
@@ -987,20 +1060,6 @@
 					item: {
 						Count: 1b
 						id: "gtceu:wrought_iron_saw"
-						tag: {
-							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "01B7D06CF6ED3394"
-					item: {
-						Count: 1b
-						id: "gtceu:wrought_iron_screwdriver"
 						tag: {
 							Damage: 0
 							GT.Tool: {
