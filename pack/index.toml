@@ -53,10 +53,6 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
-
-[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
@@ -91,10 +87,6 @@ hash = "8133f67a8d39f7a9cc0737636ffde75326b602201354de5dd3bd716491713219"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
-
-[[files]]
-file = "config/flib.toml"
-hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
 
 [[files]]
 file = "config/fluxnetworks-common.toml"
@@ -230,7 +222,7 @@ hash = "6ba6c7266d8b076ba21a68613f8aea643d8ebecf8aad9c6920587413f61c32f6"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "6ad10ce98515dcaeab96007dbdaa7c9061018b2682f176e57c3d82206c666c0b"
+hash = "316ba64fd9e8fd3a3fc9d4d8bbf89d217ba5dba9631cc3ae5133365b812d3816"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -238,7 +230,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "af11abd97b399619057a2b28e61b32bc73773df5d222a63d2f83d9664edf7ccb"
+hash = "bf118ee129862d5ba476f8c9dee07ec0b1bfc67300ca55142e45249c3cfc1eb6"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -265,10 +257,6 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "8627717996ca324d0c4df23d9f9b76bb9f2564743847f618b9b4525419fe517d"
 
 [[files]]
-file = "config/lightoverlay.properties"
-hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
-
-[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -282,15 +270,11 @@ hash = "de8b23dea7b7db47e0db7d2eca3aa1e9f3865d3c13207f6a2bd1c9842fac6d38"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "90d0d6d2644a71d2f3b747e5573a8d5595bc52e0b2a2ad67268731fd07b68e10"
+hash = "cb62067f728620197e5043419ce7d672fc8243b7980df8eceaaf133f81ffba89"
 
 [[files]]
 file = "config/panorama.json"
 hash = "9dcb9e79705a300598ae31c57233ad68f00057f5c4e2e51b520e3d214a1efeda"
-
-[[files]]
-file = "config/qscore-common.toml"
-hash = "c5ff2cc6e0454b4b160f101c82e0c366ad84aaf4423c3499c65a0354948abda6"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -314,7 +298,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "5a27a08778432e263d50e1e33e6d90be426a07170c8c6b08b9383a6d05cd846b"
+hash = "424add4a02adc0ec2d67629066af7884ffdf83f458d8725a1f0d6e5efeea4178"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -589,10 +573,6 @@ file = "kubejs/server_scripts/gregification/laserio.js"
 hash = "1e64390ae7a8083881755b54faf5913e41f43bb2189c74fae8e032dbb0f2d898"
 
 [[files]]
-file = "kubejs/server_scripts/gregification/pipez.js"
-hash = "e7eb8280c1ffbc5b706201a002b46a6bc5845c39fb9f51a8287cd17ee522ef0d"
-
-[[files]]
 file = "kubejs/server_scripts/multiblocks/bonsai.js"
 hash = "31420f756d83950e8fefd19ee67cd3f96ddc999631da96e83e0f6cfc44395f63"
 
@@ -618,7 +598,7 @@ hash = "3446021bae7d9ae6af0e73fc730038fdf988717d5f0322b3d888f32e4faa670d"
 
 [[files]]
 file = "kubejs/server_scripts/simplification.js"
-hash = "c6462ed16307a4c49b23ec07383d4c7fdde819e255de07b1689471ab897fd324"
+hash = "e728a473a8972cd070a12f5d9bd9907175bb0b3822d55e28aae045001fd53241"
 
 [[files]]
 file = "kubejs/server_scripts/tags/ae2.js"
