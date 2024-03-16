@@ -645,6 +645,11 @@ file = "kubejs/startup_scripts/multiblocks/sieve.js"
 hash = "ee5840c3615bc295793e9a335507dfb0256c52b37c3efbc6fea702a8441238c8"
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
@@ -677,6 +682,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
+metafile = true
+
+[[files]]
+file = "mods/botarium.pw.toml"
+hash = "098dce9973ba88740458098f574f77cd8611b8aa9584916746ca135ef533309a"
 metafile = true
 
 [[files]]
@@ -736,7 +746,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "b675cf40c5587a699b4a9c8cd51d74da22cbdc76b4c2f82e4f41fa30faa53430"
+hash = "3d96079b4e2a4cd6c3c69f077f531d24d4b70df01278c5c9af16d98c7314bfbd"
 metafile = true
 
 [[files]]
@@ -761,7 +771,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "09a672e13b9de2bc5def34c5a726f74ea5d089f6c7cbb080bee337a017436ef8"
+hash = "d8a4f9ca8e2b6f35f4c6cff7bc0b80462039e1b097a9d0415c23f928aa1e0fe4"
 metafile = true
 
 [[files]]
@@ -801,7 +811,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "03007dbec06967fadd517024dc8b8b1e1b01696fd79965fa8403da6585d161fa"
+hash = "98ac0a9562199351363057715f9f9964c0d101e871a06302cd261baab08aac0d"
 metafile = true
 
 [[files]]
@@ -816,12 +826,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "33ffd605258873979cdecfd043e4db743bc051271db2b868f200a69200de10d0"
+hash = "0efb652c23e55bc0b6ee6c40aee40d9bb3d44b6a65c0f6088932309ea2c20bfe"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "f9923d413d98e0fdb3a15dccd597b389a77cab6546b94db46817d697814df00c"
+hash = "479d003b5d24de8793019d37d2c36a679f3a7e8d9a1604aefcfe61a981fe354d"
 metafile = true
 
 [[files]]
@@ -852,6 +862,11 @@ metafile = true
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
 hash = "cee31ab80f287855dc0ec3c7e2e3879f2f4265b05c38066aca9f3f419cf2e278"
+metafile = true
+
+[[files]]
+file = "mods/gt.pw.toml"
+hash = "1f55b0fb364fba9aa814cdd8280a131c0d5b812e77da21c54d49041dcab1fd2b"
 metafile = true
 
 [[files]]
@@ -956,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "fddb460180a419e8e9fa292c465c7d41f6826e4c25e4be7a016d580390bf225c"
+hash = "78ce48adf5232f815201ca092f7845b15e3612d457d66fd851ebe1004c341060"
 metafile = true
 
 [[files]]
