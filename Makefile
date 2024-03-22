@@ -1,8 +1,8 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-WINUSER := jlmoi
+#WINUSER := jlmoi
 VERSION := 0.0.3
-#WINUSER := jmoir
+WINUSER := jmoir
 PACKNAME := Quantum-Skies
 PACKURL := https://github.com/jmoiron/quantum-skies
 INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/

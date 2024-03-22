@@ -12,4 +12,14 @@ ServerEvents.recipes(event => {
         // sheldonite is disabled by gtec
     ]
 
+    event.remove({type: "gtceu:chemical_bath", input: "gtceu:crushed_cooperite_ore"});
+
+    event.recipes.gtceu.chemical_bath("cooperite_mercury_modified")
+        .itemInputs("gtceu:crushed_cooperite_ore")
+        .inputFluids("gtceu:mercury 100")
+        .itemOutputs("gtceu:purified_cooperite_ore")
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 7000, 580)
+        .chancedOutput("gtceu:stone_dust", 4000, 650)
+        .EUt(30)
+        .duration(200);
 });

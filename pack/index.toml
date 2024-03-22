@@ -645,6 +645,11 @@ file = "kubejs/startup_scripts/multiblocks/sieve.js"
 hash = "ee5840c3615bc295793e9a335507dfb0256c52b37c3efbc6fea702a8441238c8"
 
 [[files]]
+file = "mods/ad-astra-giselle-addon.pw.toml"
+hash = "3e2941dc0c176c80a0dc37c6b3d22b1d928d4e7b27a4ce42c04d7dea3b7b735a"
+metafile = true
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
 metafile = true
@@ -826,7 +831,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "0efb652c23e55bc0b6ee6c40aee40d9bb3d44b6a65c0f6088932309ea2c20bfe"
+hash = "d5ccef95f428e293519e95aef7f8f61d3a8253c7ce1339ad3b9b1af2c313cd22"
 metafile = true
 
 [[files]]
@@ -842,11 +847,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
-metafile = true
-
-[[files]]
-file = "mods/gcyr.pw.toml"
-hash = "7663a9039a6911dd10a5e4b7b342bbec1c23d3fdfc5808653ea2fd5a7a9fbe8d"
 metafile = true
 
 [[files]]
@@ -866,7 +866,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "1f55b0fb364fba9aa814cdd8280a131c0d5b812e77da21c54d49041dcab1fd2b"
+hash = "196bf33aa7a2ca301e31edfd3e840ed77f21ca1837f5a5851805b6a933a6e1a4"
 metafile = true
 
 [[files]]
@@ -971,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "78ce48adf5232f815201ca092f7845b15e3612d457d66fd851ebe1004c341060"
+hash = "9d26d299e4d43a7857f69ca1e97b04696ad42df7069fd1962fa62848b833a9ef"
 metafile = true
 
 [[files]]
@@ -1011,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "c25ad1a78327310fc99c1c3fe228a5e0dd0bf049000506108a5fef4d366b70d0"
+hash = "771498a57ed7f0ff617bf6f5121a1d6539de4fa1e8128610c916a6e776a885b8"
 metafile = true
 
 [[files]]

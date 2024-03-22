@@ -1,13 +1,13 @@
 name = "PolyLib"
-filename = "polylib-forge-2000.0.3-build.126.jar"
+filename = "polylib-forge-2000.0.3-build.132.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e3d25773265a6960920a80d1d2f28ef7b09ebb32"
+hash = "4cd21c94ee3e54830ce36d81128956d3c7b972a0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5184503
+file-id = 5199137
 project-id = 576589

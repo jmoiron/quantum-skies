@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
     greg.industrial_sieve("aluminium_mesh")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_bauxite_ore", 2000, 1000)
-        .chancedOutput("gcyr:crushed_fluorite_ore", 2000, 1000)
+        //.chancedOutput("gcyr:crushed_fluorite_ore", 2000, 1000)
         .notConsumable("kubejs:aluminium_mesh")
         .EUt(480)
         .duration(300)
