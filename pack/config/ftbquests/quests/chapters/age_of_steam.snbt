@@ -721,6 +721,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1F05C24215BA9C03"]
 			description: [
 				"&9Paper&r is not quite as simple to make as you remember."
 				""

@@ -429,6 +429,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["3AEF5A87CDA225B6"]
 			description: [
 				"&6Aluminium&r is the 3rd most abundant element in the Earth's crust, but that's not where we are right now."
 				""
@@ -1068,6 +1069,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["3B65A8B097513381"]
 			description: [
 				"The &dAutoclave&r is a machine that can create gems and crystals from dusts."
 				""
@@ -1075,6 +1077,7 @@
 				""
 				"&9Quartzite&r can be found by crushing &6sand&r in a &dmacerator&r to create quartz sand, then &dcentrifuging&r it."
 			]
+			hide_dependency_lines: true
 			id: "087D8C99062EFEFD"
 			tasks: [{
 				id: "56467B9593D4F3F7"
@@ -1103,6 +1106,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["62B333F50C74A0F3"]
 			description: [
 				"&2Storage drawers&r and similar mods are not available."
 				""

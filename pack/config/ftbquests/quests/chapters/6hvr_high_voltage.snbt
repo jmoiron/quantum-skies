@@ -678,6 +678,7 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["025DB933BE24C8F9"]
 			description: [
 				"The &bIndustrial Sieve&r is a 5x5x5 multiblock sieve capable of extracting &eeven more&r materials from lava and water than you've been able to achieve so far."
 				""
@@ -756,6 +757,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["37249933D652078D"]
 			id: "22BE1992CBCAA2D6"
 			size: 1.25d
 			tasks: [{

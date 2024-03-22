@@ -849,6 +849,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["466C6EE4E2E3D039"]
 			description: ["You may have already created either &6Iron (III) Chloride&r or &6Sodium Persulfate&r to save on &6silver&r for your phenolic circuit boards, but from here on out, they will be &brequired&r."]
 			id: "6448A28D81FCFBCF"
 			tasks: [{
@@ -1067,6 +1068,7 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["3B65A8B097513381"]
 			description: [
 				"The &bMV&r &aSensor&r and &aEmitter&r require a &9Flawless Emerald&r, which is as good a time as any to get into &dGem ore processing&r."
 				""
@@ -1254,6 +1256,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3B65A8B097513381"]
 			description: [
 				"If you're going to get &bgems&r out of these crushed ores, you are going to need to wash them first in an &dOre Washer&r. The &7LV&r washer is sufficient for all of your washing needs, but if you want you can make a &bMV&r one, too."
 				""
