@@ -1,4 +1,7 @@
 ServerEvents.tags("item", (event) => {
-  event.add("forge:rods/long/hsla", "kubejs:hsla_steel_long_rod");
-  event.add("forge:springs/hsla", "kubejs:hsla_steel_spring");
+  event.add("ad_astra:fuel", "gtceu:diesel");
+  event.add("ad_astra:fuel", "gtceu:rocket_fuel");
+  event.add("ad_astra:fuel", "gtceu:rp_1_rocket_fuel");
+  event.add("ad_astra:fuel", "gtceu:udmh_rocket_fuel");
+  event.add("ad_astra:fuel", "gtceu:methylhydrazine_nitrate_rocket_fuel");
 });
