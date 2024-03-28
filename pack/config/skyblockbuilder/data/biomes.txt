@@ -35,10 +35,15 @@ ad_astra:lunar_wastelands
 minecraft:lush_caves
 minecraft:mangrove_swamp
 ad_astra:martian_canyon_creek
+gcyr:martian_canyon_creek
 ad_astra:martian_polar_caps
+gcyr:martian_polar_caps
 ad_astra:martian_wastelands
+gcyr:martian_wastelands
 minecraft:meadow
 ad_astra:mercury_deltas
+gcyr:mercury_deltas
+gcyr:moon
 minecraft:mushroom_fields
 minecraft:nether_wastes
 minecraft:ocean
@@ -56,6 +61,7 @@ minecraft:snowy_plains
 minecraft:snowy_slopes
 minecraft:snowy_taiga
 minecraft:soul_sand_valley
+gcyr:space
 minecraft:sparse_jungle
 ae2:spatial_storage
 minecraft:stony_peaks
@@ -65,6 +71,8 @@ minecraft:swamp
 minecraft:taiga
 minecraft:the_end
 minecraft:the_void
+gcyr:venus_barren_plains
+gcyr:venus_eroded_plains
 ad_astra:venus_wastelands
 minecraft:warm_ocean
 minecraft:warped_forest

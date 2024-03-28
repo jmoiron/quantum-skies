@@ -5,16 +5,8 @@
 	group: "693226878D58638A"
 	icon: "gtceu:ev_machine_hull"
 	id: "1CEB6068368CCEFB"
-	order_index: 4
+	order_index: 5
 	quest_links: [
-		{
-			id: "0A0A3416EA432BFF"
-			linked_quest: "27698E1CFA6AC0B5"
-			shape: "gear"
-			size: 1.5d
-			x: -6.0d
-			y: 0.5d
-		}
 		{
 			id: "54B0B5CA0096D3B0"
 			linked_quest: "1FCD75FBB1AF9A5C"
@@ -42,6 +34,7 @@
 			]
 			id: "0220FF8067094F9D"
 			min_width: 250
+			size: 1.25d
 			subtitle: "EV Petro Power"
 			tasks: [{
 				id: "38B272D27E4605C2"
@@ -63,6 +56,7 @@
 			]
 			id: "2DD60B30DB8B3F71"
 			min_width: 250
+			size: 1.25d
 			tasks: [{
 				id: "7B5C20CD5897447F"
 				item: "gtceu:gas_large_turbine"
@@ -189,7 +183,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["27698E1CFA6AC0B5"]
+			dependencies: ["1D03253419ED0F68"]
 			id: "219CC94D362342E3"
 			size: 1.25d
 			tasks: [{
@@ -487,7 +481,6 @@
 			dependencies: [
 				"7418293A931E9DFC"
 				"763828CE2BABADAF"
-				"4B604E36F15D9E35"
 			]
 			description: [
 				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing it is a complex and challenging chain."
@@ -1214,6 +1207,26 @@
 			}]
 			x: 3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4710DCD2C83D3D38"]
+			description: [
+				"The &bDistillation Tower&r sits on the boundary between &6HV&r and &5EV&r, but it's really in &5EV&r and &1IV&r where it becomes a central component in your materials processing."
+				""
+				"You might be tempted to use this for &6oil&r, but it's not too efficient for power. Don't let that stop you if that's what you want to do!"
+				""
+				"Instead, look to the &bCracker&r and &bPyrolyse Oven&r outputs, which produce a multitude of useful chemicals that you will need in upcoming plastic and rubber compounds."
+			]
+			id: "1D03253419ED0F68"
+			size: 1.25d
+			subtitle: "The ultimate in refinement"
+			tasks: [{
+				id: "4F719B00202A1514"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]

@@ -19,6 +19,7 @@ minecraft:nether_fossil
 minecraft:ocean_ruin_cold
 minecraft:ocean_ruin_warm
 ad_astra:oil_well
+gcyr:photoshoot
 minecraft:pillager_outpost
 ad_astra:pygro_tower
 ad_astra:pygro_village
