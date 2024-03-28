@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "the_apollo_program"
+	group: "693226878D58638A"
+	icon: "gcyr:laser_satellite"
+	id: "4DC58D4894E02979"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "709DA8BA1D1ABC16"
+			tasks: [{
+				id: "4663DEC8AB0AD1E0"
+				item: "gtceu:vehicle_assembly_building"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "7DB05E1FCC6E9391"
+			tasks: [{
+				id: "5983FC53A006C4CC"
+				item: "gtnn:exxonmobil_chemical_plant"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "6466AB6B2D4F2D1F"
+			tasks: [{
+				id: "42D275BA2C811DC0"
+				item: "gcyr:basic_rocket_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "43D18A6E7D9DDD43"
+			tasks: [{
+				id: "1EE3CE958A42BB89"
+				item: "gcyr:basic_fuel_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The ultimate goal of the &6Apollo Program&r quest line, like the actual Apollo program, is to launch a rocket and walk on the &cMoon&r."
+				""
+				"It's fitting that you make your first escape from the endless sky by flying into it."
+				""
+				"The moon will be your first taste of a terrestrial world, and will be your primary source of &6Rutile&r, which can be found in &6Bauxite&r veins, but can also be sieved from Moon regolith, which you will eventually be able to drill for in endless amounts."
+			]
+			id: "500F47921DD51C83"
+			shape: "gear"
+			tasks: [{
+				dimension: "gcyr:luna"
+				icon: "gcyr:moon_stone"
+				id: "0444D8CE415BE105"
+				title: "Visit the Moon"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "1C3AE919FB651E93"
+			tasks: [
+				{
+					id: "54E096991DD8FFD5"
+					item: {
+						Count: 1b
+						id: "gcyr:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3EAC39DA3AD71A"
+					item: {
+						Count: 1b
+						id: "gcyr:space_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ADC3434FD8BA8ED"
+					item: {
+						Count: 1b
+						id: "gcyr:space_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D6CBEE08BB186E6"
+					item: {
+						Count: 1b
+						id: "gcyr:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "004CEF5B489EB762"
+			tasks: [{
+				id: "27CC505510101DF8"
+				item: "gcyr:seat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"If you've enjoyed your time fiddling with your machines, you probably wouldn't want to &eactually&r get your hands dirty mining."
+				""
+				"You can run one of these single block miners over an area dependent on tier, and power them with a &9battery buffer&r or give them their own generators."
+			]
+			id: "638AD2026B6108CD"
+			subtitle: "Why just craft?"
+			tasks: [{
+				id: "3948F0D4C07F4FEB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_miner"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_miner"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_miner"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "The &6Apollo Program&r"
+}
