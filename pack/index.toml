@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ad_astra.jsonc"
-hash = "52e9c20de34fd2fd4c0410697538922c8a63591da58117c40c88c681e08f7264"
-
-[[files]]
-file = "config/ad_astra_giselle_addon.ver2.jsonc"
-hash = "89c82e2f933ba2d516712e8fe935a67f834821851eea43ee4d2570a5bc9b7be8"
-
-[[files]]
 file = "config/ae2/client.json"
 hash = "e0f89e83d16b5fa41481418be51890d90322fb357ccb7e7760d59e985590cd8f"
 
@@ -62,7 +54,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "adc31b3b6fc77db0d43e80c093a9d6949af76eb704e18a2a9f03b117d72bfee4"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -219,10 +211,6 @@ hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
 [[files]]
 file = "config/gtceu.yaml"
 hash = "9ec1be739029de22bceefa64f1912f76d789a639892e999fa066eb13ed6e976e"
-
-[[files]]
-file = "config/gtnn.json"
-hash = "6ac15dcc9d35ee45b9be6f7f1afbddd63aff7e96ded75a0c838ed15da0776427"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -891,6 +879,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
+metafile = true
+
+[[files]]
+file = "mods/gcyr.pw.toml"
+hash = "7663a9039a6911dd10a5e4b7b342bbec1c23d3fdfc5808653ea2fd5a7a9fbe8d"
 metafile = true
 
 [[files]]

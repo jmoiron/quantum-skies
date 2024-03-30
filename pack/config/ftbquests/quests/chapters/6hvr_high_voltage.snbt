@@ -643,7 +643,7 @@
 			]
 			id: "36A1B71C1A6304D4"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "0F9664962DCF7A05"
 				item: "gtceu:titanium_ingot"

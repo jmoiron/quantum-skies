@@ -10,47 +10,58 @@
 	quests: [
 		{
 			id: "709DA8BA1D1ABC16"
+			size: 1.25d
 			tasks: [{
 				id: "4663DEC8AB0AD1E0"
 				item: "gtceu:vehicle_assembly_building"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -6.0d
+			y: -7.0d
 		}
 		{
 			id: "7DB05E1FCC6E9391"
+			size: 1.25d
 			tasks: [{
 				id: "5983FC53A006C4CC"
 				item: "gtnn:exxonmobil_chemical_plant"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
+			dependencies: ["709DA8BA1D1ABC16"]
 			id: "6466AB6B2D4F2D1F"
 			tasks: [{
 				id: "42D275BA2C811DC0"
 				item: "gcyr:basic_rocket_motor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.5d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["709DA8BA1D1ABC16"]
 			id: "43D18A6E7D9DDD43"
 			tasks: [{
 				id: "1EE3CE958A42BB89"
 				item: "gcyr:basic_fuel_tank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -4.5d
+			y: -8.5d
 		}
 		{
+			dependencies: [
+				"43D18A6E7D9DDD43"
+				"1C3AE919FB651E93"
+				"004CEF5B489EB762"
+				"6466AB6B2D4F2D1F"
+				"0F62B838EB8BE9EF"
+			]
 			description: [
-				"The ultimate goal of the &6Apollo Program&r quest line, like the actual Apollo program, is to launch a rocket and walk on the &cMoon&r."
+				"The ultimate goal of the &6Apollo Program&r quest line is, unsurprisingly, to launch a rocket and walk on the &cMoon&r."
 				""
 				"It's fitting that you make your first escape from the endless sky by flying into it."
 				""
@@ -58,6 +69,7 @@
 			]
 			id: "500F47921DD51C83"
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				dimension: "gcyr:luna"
 				icon: "gcyr:moon_stone"
@@ -65,10 +77,14 @@
 				title: "Visit the Moon"
 				type: "dimension"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
+			dependencies: [
+				"4981CA1F68C8FCC2"
+				"585841E09E7C0F8D"
+			]
 			id: "1C3AE919FB651E93"
 			tasks: [
 				{
@@ -116,20 +132,22 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -2.5d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
+			dependencies: ["709DA8BA1D1ABC16"]
 			id: "004CEF5B489EB762"
 			tasks: [{
 				id: "27CC505510101DF8"
 				item: "gcyr:seat"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
+			dependencies: ["500F47921DD51C83"]
 			description: [
 				"If you've enjoyed your time fiddling with your machines, you probably wouldn't want to &eactually&r get your hands dirty mining."
 				""
@@ -162,8 +180,269 @@
 				type: "item"
 			}]
 			title: "Mining"
-			x: -2.5d
-			y: -0.5d
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C1A3931EA551693"]
+			id: "4981CA1F68C8FCC2"
+			tasks: [{
+				id: "6F477135EA6E47BE"
+				item: "gcyr:space_fabric"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "585841E09E7C0F8D"
+			tasks: [{
+				id: "17B027498850F39A"
+				item: "gcyr:fiberglass_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A9B308A036AB81B"
+				"084B000F8254AFA9"
+			]
+			id: "7C1A3931EA551693"
+			tasks: [{
+				id: "74DE9C078B1FB297"
+				item: "gcyr:para_aramid_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F7B9EAEF4103A8F"]
+			id: "084B000F8254AFA9"
+			tasks: [{
+				id: "450E8302D98A089C"
+				item: "gcyr:para_phenylenediamine_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3C5235C6C7D6C73B"
+				"6BFCE0B45F2483E0"
+			]
+			id: "6A9B308A036AB81B"
+			tasks: [{
+				id: "7BB96796E74CF9FE"
+				item: "gcyr:terephthaloyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"22161503779A2B13"
+				"6B781EF3E26D62E2"
+			]
+			id: "6BFCE0B45F2483E0"
+			tasks: [{
+				id: "33032074A1B67C56"
+				item: "gcyr:therephthalic_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22161503779A2B13"]
+			id: "3C5235C6C7D6C73B"
+			tasks: [{
+				id: "6E63663368215770"
+				item: "gcyr:bis_trichloromethyl_benzene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C114A2C08AA55C2"]
+			id: "0F7B9EAEF4103A8F"
+			tasks: [{
+				id: "52B9C85910AE8199"
+				item: "gcyr:nitroaniline_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&6Chlorobenzene&r can be created from &6Chlorine&r and &6Benzene&r, both of which have been extensively covered in previous chapters."
+				""
+				"&6Nitrochlorobenzene&r is a simple mixture of &6Chlorobenzene&r and &6Nitric acid&r."
+			]
+			id: "6C114A2C08AA55C2"
+			tasks: [
+				{
+					id: "697029AC1943352C"
+					item: "gtceu:chlorobenzene_bucket"
+					type: "item"
+				}
+				{
+					id: "7AB92707F1C0A2F3"
+					item: "gtceu:nitrochlorobenzene_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&6Para-Xylene&r can be distilled from &9Lightly Steam-cracked&r &6Naphtha&r."
+				""
+				"It is used to produce both of the next components for &6Para-Aramid&r."
+			]
+			id: "22161503779A2B13"
+			tasks: [{
+				id: "68309642FEBB5EBF"
+				item: "gcyr:para_xylene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6061E30674D8A3F5"]
+			description: ["Finally, mixing &6Cobalt Bromide&r and &6Manganese Bromide&r produces Cobalt-Manganese Bromide catalyst!  What a relief."]
+			id: "6B781EF3E26D62E2"
+			tasks: [{
+				id: "198782839AECBF19"
+				item: "gcyr:co_mn_br_catalyst_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["24342D4C5317572A"]
+			id: "6061E30674D8A3F5"
+			tasks: [{
+				id: "69A01D1D7D5220D1"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5D5D29247E81E19A"]
+			id: "24342D4C5317572A"
+			tasks: [{
+				id: "3437C3FFA7C91FAB"
+				item: "gtceu:wet_bromine_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7C365D7B15917A38"]
+			id: "5D5D29247E81E19A"
+			tasks: [{
+				id: "3888691FE93F5250"
+				item: "gtceu:overheated_bromine_sulfate_gas_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["409F44384A1F44E2"]
+			id: "7C365D7B15917A38"
+			tasks: [{
+				id: "66CB76762B103159"
+				item: "gtceu:bromine_sulfate_solution_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4127AE11291977CF"]
+			id: "409F44384A1F44E2"
+			tasks: [{
+				id: "7A51529B4F6D8BF7"
+				item: "gtceu:acidic_brominated_brine_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["60DA51766F274B5E"]
+			id: "4127AE11291977CF"
+			tasks: [{
+				id: "35AB9F4FB4B2ABFE"
+				item: "gtceu:brominated_brine_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5F89122136784BC1"]
+			id: "60DA51766F274B5E"
+			tasks: [{
+				id: "6C219A817D5F9751"
+				item: "gtceu:iodine_brine_mixture_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["47AFAF23FB7AB33C"]
+			id: "5F89122136784BC1"
+			tasks: [{
+				id: "3CD1D7185DA5C5B5"
+				item: "gtceu:iodized_brine_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			id: "47AFAF23FB7AB33C"
+			tasks: [
+				{
+					id: "3CBC6190FA52B842"
+					item: "gtceu:saltpeter_dust"
+					type: "item"
+				}
+				{
+					id: "659DC7D35E918FE8"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7DB05E1FCC6E9391"]
+			id: "0F62B838EB8BE9EF"
+			tasks: [{
+				id: "7B57130AC14E15DE"
+				item: "gtceu:rp_1_mixed_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
 		}
 	]
 	title: "The &6Apollo Program&r"

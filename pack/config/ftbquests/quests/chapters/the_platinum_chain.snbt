@@ -121,8 +121,8 @@
 			dependencies: ["128F097CBC34C20C"]
 			id: "7404074968B5D0D5"
 			tasks: [{
-				id: "61641C311219D0F8"
-				item: "gtec:platinum_salt_dust"
+				id: "4A84760723A0353C"
+				item: "gtceu:platinum_salt_dust"
 				type: "item"
 			}]
 			x: -2.0d
@@ -132,8 +132,8 @@
 			dependencies: ["7404074968B5D0D5"]
 			id: "706D79F5C458B317"
 			tasks: [{
-				id: "20D8EBB4B62FF2F0"
-				item: "gtec:refined_platinum_salt_dust"
+				id: "067074F15CD4F4E9"
+				item: "gtceu:refined_platinum_salt_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -143,8 +143,8 @@
 			dependencies: ["4CD5EC72558360C6"]
 			id: "2256EC011F4593EF"
 			tasks: [{
-				id: "58822B1B8026DD00"
-				item: "gtec:palladium_salt_dust"
+				id: "73336F0F2C629261"
+				item: "gtceu:palladium_salt_dust"
 				type: "item"
 			}]
 			x: -0.5d
@@ -181,8 +181,8 @@
 		{
 			id: "7E72D93B6C8F88FE"
 			tasks: [{
-				id: "67A19E73DF4DA603"
-				item: "gtec:formic_acid_bucket"
+				id: "04867D19FCB773B9"
+				item: "gtceu:formic_acid_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -287,8 +287,8 @@
 			dependencies: ["2490E92533CC8CDE"]
 			id: "3B34F3DCF4C31C98"
 			tasks: [{
-				id: "3737A8CAB7131E13"
-				item: "gtec:rhodium_salt_dust"
+				id: "1B6CE8846109F6F0"
+				item: "gtceu:rhodium_salt_dust"
 				type: "item"
 			}]
 			x: 2.5d
@@ -304,8 +304,8 @@
 					type: "item"
 				}
 				{
-					id: "161B1FDB64FAAB1B"
-					item: "gtec:rhodium_nitrate_dust"
+					id: "70B53153096F4097"
+					item: "gtceu:rhodium_nitrate_dust"
 					type: "item"
 				}
 			]
@@ -316,8 +316,8 @@
 			dependencies: ["6FBD91772541CAA8"]
 			id: "60165BE314A6BE88"
 			tasks: [{
-				id: "15F5BB0780E93707"
-				item: "gtec:rhodium_filter_cake_dust"
+				id: "43D470D660C68979"
+				item: "gtceu:rhodium_filter_cake_dust"
 				type: "item"
 			}]
 			x: 5.5d
@@ -334,7 +334,7 @@
 				}
 				{
 					id: "690CB696BF86B296"
-					item: "gtec:reprecipitated_rhodium_dust"
+					item: "gtceu:reprecipitated_rhodium_dust"
 					type: "item"
 				}
 			]
@@ -476,7 +476,7 @@
 			id: "3B569332D61045A7"
 			tasks: [{
 				id: "55B3203974C270E1"
-				item: "gtec:iridium_dioxide_dust"
+				item: "gtceu:iridium_dioxide_dust"
 				type: "item"
 			}]
 			x: 1.0d

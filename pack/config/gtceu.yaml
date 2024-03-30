@@ -233,10 +233,6 @@ machines:
   # Default: false
   highTierContent: false
 
-  # Whether search for recipes asynchronously.
-  #  Default: true
-  asyncRecipeSearching: true
-
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.
   # Default: true
