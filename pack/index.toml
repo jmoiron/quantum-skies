@@ -5,6 +5,14 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/ad_astra.jsonc"
+hash = "52e9c20de34fd2fd4c0410697538922c8a63591da58117c40c88c681e08f7264"
+
+[[files]]
+file = "config/ad_astra_giselle_addon.ver2.jsonc"
+hash = "89c82e2f933ba2d516712e8fe935a67f834821851eea43ee4d2570a5bc9b7be8"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "e0f89e83d16b5fa41481418be51890d90322fb357ccb7e7760d59e985590cd8f"
 
@@ -130,7 +138,7 @@ hash = "bf688556b44adfc1c5f9c64d9f59ffdf155c8f657ba574a730a0cd164b61a79e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "0b7dc1b312e437b8a52c0a78c228dc6f6536c1d4ff76cc210671abd2382eb316"
+hash = "af08a90fd54518d93b41b49f177e9332aa8e3f3ee4f8b5110622e4b322705041"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -162,7 +170,7 @@ hash = "50ef812fb2fb23103d54e7349b904b3693282261f4623ec7bf916d049b6cac19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "71c160ea8f7634dc6e1f163d87368526a4e874922f9d12e0741009fb72aa4bec"
+hash = "ad9f0764b88158bb6e75a6722334090e5ba7533953faede5249b748febf63e53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
@@ -182,11 +190,11 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "4c50cea2fa0b7251190a641ad3d3cbe8217122588cff897fd12a149232ce6a02"
+hash = "0ca243b9d42450f8d2038cae924bc6637b627664aa793a25dc29f8eb40f5bf26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
-hash = "8610a337a86ac9bdcae0af24973c66069b2df18535ca2dcf1a1530bbf12ea1bf"
+hash = "17e5994faa7f4e33848484f48feb8dc4ecd82e545580c71117aa6d73832d1840"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
@@ -210,7 +218,11 @@ hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "9ec1be739029de22bceefa64f1912f76d789a639892e999fa066eb13ed6e976e"
+hash = "d73b1317caed45f3f15422385b880a67bf1fd4fcbed9bf3a68f702f1d7993fae"
+
+[[files]]
+file = "config/gtnn.json"
+hash = "35a22473963f54aca5d47ff3a1585049308f3d6f6f988f466086f6f64a326675"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -250,7 +262,7 @@ hash = "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "e29c72e0fec5860b6cc5a4466841e4092a863002e8f56247569c83fdfe494a09"
+hash = "b9e218f836ded9cd97ecd8664eb0cc51c469895caa08974a0df1a78723a98572"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -258,7 +270,7 @@ hash = "bca5b02f5689992eedefaea160cecac8fd69ee8ae7cee403f5294afbe539e8ce"
 
 [[files]]
 file = "config/jei/jei-debug.ini"
-hash = "8f986a34dbe2053ece09b3f6d7635e38b17ea5c49befb91e87d2c2e1a44c8b1a"
+hash = "9013ac3cc4da8526524bfe11150bcb810ea7e315da532e517e342ac0869e2fa6"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
@@ -286,7 +298,7 @@ hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8bb026dd8b09f6b439e1bf751b7bdd488e09bfe3cd983df5729b8d9df1afc24c"
+hash = "336d39695d1f66a991332041d8a82f195fca1eb8453c736fdede079c0376603d"
 
 [[files]]
 file = "config/panorama.json"
@@ -314,7 +326,7 @@ hash = "d196abf3e32db8fde5f2aa4b480bc14b47c273161a2b5b0121e7b409fcc7105d"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "d7260f10c79a26fb2930135781a3006c737d5262352f57c09fdf428c4a541130"
+hash = "7e165201a3c28417d48e9d0bf2e8fe98547e18b4bba4ca2454cf8fda27da1258"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -802,6 +814,11 @@ hash = "e2b0995817583f85d3bef1c502596f2aba45bc886f7f915f0638a7c58dd8387d"
 metafile = true
 
 [[files]]
+file = "mods/environmental-materials.pw.toml"
+hash = "bda911c3feaba875a4143627ba27f92081bcf3dbdb653f3a42ab23051952ba6c"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "e0100d76f571eb56c0ceb47613627ee069e6cf01cecefed867220b83a1688133"
 metafile = true
@@ -889,6 +906,11 @@ metafile = true
 [[files]]
 file = "mods/glodium.pw.toml"
 hash = "5d0d67922e326a124c9c796376de216bb4d1874b9e249e164e905ab2fdfdbff1"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "941bbc3b5a23b8392d88b534a7fa1973273c3daa6f8fb70bfe4d4645423a2159"
 metafile = true
 
 [[files]]
@@ -1057,6 +1079,16 @@ hash = "8b001d223c2458eed8970eb699974cb73d93b75c6ceee62b5f61be85913b98ac"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "23661f3668182ddd1793565ee2e55e57f5644021f863e5481909c09d742c105f"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "7b6c59b1a6411b599cc95793bc7a9ef2fda525ef30d185afe08c6fee99031920"
+metafile = true
+
+[[files]]
 file = "mods/squat-grow.pw.toml"
 hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
 metafile = true
@@ -1119,6 +1151,11 @@ metafile = true
 [[files]]
 file = "mods/ulv-covers-modern.pw.toml"
 hash = "0ed71c0fef21e562dd965b791a6e2e946ca6c5e7ddc12125cab3786bcb338449"
+metafile = true
+
+[[files]]
+file = "mods/valkyrielib.pw.toml"
+hash = "6876965a1d72b726cf00c6ff07856938093948535434ba1bdcac46ec237cfbd6"
 metafile = true
 
 [[files]]

@@ -74,9 +74,6 @@
     "hud": true,
     "hud.redstone": true
   },
-  "pipez": {
-    "pipe": true
-  },
   "gtceu": {
     "recipe_logic_provider": true,
     "workable_provider": true,
@@ -93,6 +90,9 @@
   },
   "expatternprovider": {
     "jade_wireless": true
+  },
+  "gravestone": {
+    "grave": true
   },
   "ae2": {
     "part_icon": true,

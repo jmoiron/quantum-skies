@@ -909,6 +909,20 @@
 			icon: "ulvcovm:ulv_conveyor_module"
 			id: "6B3DFA8D8E7F6431"
 			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "4F96C9210B6360F1"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BB2AA900646D23F"
+					item: "ulvcovm:ulv_conveyor_module"
+					type: "item"
+				}
+			]
 			subtitle: "\"Voltage\""
 			tasks: [
 				{

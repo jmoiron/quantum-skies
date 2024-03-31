@@ -1,0 +1,13 @@
+name = "Environmental Materials"
+filename = "enviromats-1.20.1-2.1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11c169d551428841730a9aed2a5a98ae2b6d7aa6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4762578
+project-id = 278825

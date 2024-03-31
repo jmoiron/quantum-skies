@@ -168,6 +168,17 @@
 			x: -3.0d
 			y: 0.0d
 		}
+		{
+			id: "608740A321560418"
+			subtitle: "Sophisticated"
+			tasks: [{
+				id: "073BBFA65F3AE8F1"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
 	]
 	title: "Analog"
 }
