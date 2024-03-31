@@ -70,7 +70,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "ebc94577ad1c7494c3bb5d2947d8166a07ddf26a8559f449a105e637045bd8c0"
+hash = "295c4e2ef78409b5289217404503313ac94bf71cc9f5768e459d2e7c56aa5476"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -83,6 +83,14 @@ hash = "0683b860972d2353400ad7714bbf9766af50e0b0a1aaa6d2aa626ed407aa5c2a"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "654e97c6b46d38df9c6d888347a788507a2f1f5cd440c87f2b5c09173d026461"
+
+[[files]]
+file = "config/enviroseries/materials/materials-client.json"
+hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
+
+[[files]]
+file = "config/enviroseries/materials/materials.json"
+hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
@@ -134,7 +142,7 @@ hash = "63d640feaef255e65685d209c79ca8966b3ad5f80b003a467dd3ba9a35d0696e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "bf688556b44adfc1c5f9c64d9f59ffdf155c8f657ba574a730a0cd164b61a79e"
+hash = "6f9a0ecc63a36732c0435d7dc963b73a8d75dc32e79216be2969e6eb226773e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -170,7 +178,7 @@ hash = "50ef812fb2fb23103d54e7349b904b3693282261f4623ec7bf916d049b6cac19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "ad9f0764b88158bb6e75a6722334090e5ba7533953faede5249b748febf63e53"
+hash = "188a54374d8beb794f1ae32541d76cb17a0bbd5020ef79ca346e86fd6356696e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
@@ -190,7 +198,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "0ca243b9d42450f8d2038cae924bc6637b627664aa793a25dc29f8eb40f5bf26"
+hash = "412a7b11e6a531f94a3e9d06f281e281f2ba07384fae7f295510a164d974a9ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -198,7 +206,7 @@ hash = "17e5994faa7f4e33848484f48feb8dc4ecd82e545580c71117aa6d73832d1840"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "5736d3d5bda6d311127180ce56e3fe105643af8060b52534e6e7c620d563840e"
+hash = "461a31ca40284ee48ce8bede0ce7b9501cd975c7b8f686a8503f107b2551ffe1"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -218,7 +226,7 @@ hash = "5c7986347a25748f7e804d341fa65356cc3708b9fdffe22f66be348036552aff"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "d73b1317caed45f3f15422385b880a67bf1fd4fcbed9bf3a68f702f1d7993fae"
+hash = "755e99f0b353a2b6aefed2521812f78d51b409591f6db8443aa49bac7001e26a"
 
 [[files]]
 file = "config/gtnn.json"
@@ -242,11 +250,11 @@ hash = "8951063f399e5ebeece66336e01daaceacfba10cf4823243635a34db2bff4066"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "6ba6c7266d8b076ba21a68613f8aea643d8ebecf8aad9c6920587413f61c32f6"
+hash = "fd7d932e41cbd78a46bdc895c1152d16eafbf04bb428403584990ba595d9d590"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "cd0e0e4d65c340fe8b8a8a5aa804e7bf5def3f5ec1d4e8e9c09d445c02fca5a9"
+hash = "4591fd1b01bb662f30bb1f0104afd065c4c46bb8f380ffd9d5c4e10918ab8d6e"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -254,7 +262,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b3bb0d84c6989040b1730195d8fc3649702b29b8062db8c8c0af89b1d661813f"
+hash = "27842133f576cfff17937f65480107c0df140dc922c09d417516f94b3f4bc986"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -298,7 +306,7 @@ hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "336d39695d1f66a991332041d8a82f195fca1eb8453c736fdede079c0376603d"
+hash = "214f774f79db9e0cef640d6c68bcaf8fec309b713f275d1332803075147b94ad"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,7 +334,7 @@ hash = "d196abf3e32db8fde5f2aa4b480bc14b47c273161a2b5b0121e7b409fcc7105d"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "7e165201a3c28417d48e9d0bf2e8fe98547e18b4bba4ca2454cf8fda27da1258"
+hash = "8b7586bc4ec0a5d14d151027943ea165a5ef1c33472a5e35df5d99e341786dc8"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -381,6 +389,14 @@ file = "config/smoothboot.json"
 hash = "8fb262662f6ee6d6f88256a2b628f7519f3eede1104d6e20a80523ce4a21cad1"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "ebdf48bedf2c9fce0ca2e8a046c78b7086296e30d9e7e23418162f69b73bf01f"
+
+[[files]]
 file = "config/squatgrow-common.yaml"
 hash = "f5186aa30858d9f7f1e2b01340e3c40d69479d5af0b622de8ca6d690bcff1115"
 
@@ -419,6 +435,14 @@ hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
 [[files]]
 file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
@@ -510,7 +534,7 @@ hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
 
 [[files]]
 file = "kubejs/server_scripts/ae2/ae2.js"
-hash = "d7b611d28ca05aa8ee025843bdb925e9949aff23132e475253731a77a9e73413"
+hash = "a73a0202f462c5eff8d17bfd3f32c691c4b1e616afc288320055c5548bb48cf5"
 
 [[files]]
 file = "kubejs/server_scripts/ae2/cables.js"
@@ -609,6 +633,10 @@ file = "kubejs/server_scripts/gregification/laserio.js"
 hash = "1e64390ae7a8083881755b54faf5913e41f43bb2189c74fae8e032dbb0f2d898"
 
 [[files]]
+file = "kubejs/server_scripts/gregification/sophisticated_backpacks.js"
+hash = "c117f59e893e4c9e6ce0475d5c8137bc4a12a9e4e7a4a8c02c97b0df7333c0e8"
+
+[[files]]
 file = "kubejs/server_scripts/multiblocks/bonsai.js"
 hash = "31420f756d83950e8fefd19ee67cd3f96ddc999631da96e83e0f6cfc44395f63"
 
@@ -686,17 +714,7 @@ hash = "ee5840c3615bc295793e9a335507dfb0256c52b37c3efbc6fea702a8441238c8"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
-hash = "3aab2e74deeee03d6ca7577dbc107fd0bb4c606c9d8aa10fe478dd1f47be20f8"
-
-[[files]]
-file = "mods/ad-astra-giselle-addon.pw.toml"
-hash = "3e2941dc0c176c80a0dc37c6b3d22b1d928d4e7b27a4ce42c04d7dea3b7b735a"
-metafile = true
-
-[[files]]
-file = "mods/ad-astra.pw.toml"
-hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
-metafile = true
+hash = "13a70a97cd173f00743ebccf848ab1cab428e54fb1ac676db96c8900cb1b18de"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"

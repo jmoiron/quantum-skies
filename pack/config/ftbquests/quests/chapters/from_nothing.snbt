@@ -1148,7 +1148,7 @@
 			description: [
 				"If you need &emore dirt&r, you can craft &9Dirt&r and &9Gravel&r together to make &9Coarse Dirt&r."
 				""
-				"Coarse Dirt sieves favorably to more &9Dirt&r than you put in, at a slight loss of &9Gravel&r."
+				"Sieving &9Coarse Dirt&r yields more than double the &9Dirt&r that you put in, at a slight loss of &9Gravel&r."
 				""
 				"If you want &ecertified organic&r, then your best bet for compostables right now is &eshearing leaves&r."
 			]

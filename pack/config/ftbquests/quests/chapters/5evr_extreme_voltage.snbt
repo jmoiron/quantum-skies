@@ -20,6 +20,12 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			id: "17FA3B75B2A90775"
+			linked_quest: "59CD741B7208D333"
+			x: -4.5d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -220,7 +226,7 @@
 				title: "EV Lore"
 				type: "checkmark"
 			}]
-			title: "Extremities"
+			title: "Extremophile"
 			x: -7.5d
 			y: 2.75d
 		}
@@ -966,22 +972,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4710DCD2C83D3D38"]
-			id: "12905CE3BDE99B86"
-			size: 1.25d
-			tasks: [{
-				id: "2A7D226F491B3417"
-				item: "gtceu:micro_processor_mainframe"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.0d
-		}
-		{
 			dependencies: [
-				"12905CE3BDE99B86"
 				"4ECF13D81CF3AF9C"
 				"43F4005A394F03DA"
+				"59CD741B7208D333"
 			]
 			id: "6E8335580E1CE0E7"
 			shape: "rsquare"

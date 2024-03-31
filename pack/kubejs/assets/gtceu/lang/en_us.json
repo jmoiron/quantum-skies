@@ -15,5 +15,6 @@
     "block.gtceu.lv_sieve": "Basic Sieve",
     "block.gtceu.mv_sieve": "§bAdvanced Sieve §r",
     "block.gtceu.hv_sieve": "§6Advanced Sieve II §r",
-    "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building"
+    "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building",
+    "gtceu.vehicle_assembly_building": "VAB"
 }

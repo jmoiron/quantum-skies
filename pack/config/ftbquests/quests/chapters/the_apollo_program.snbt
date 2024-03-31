@@ -6,29 +6,34 @@
 	icon: "gcyr:laser_satellite"
 	id: "4DC58D4894E02979"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "502491BC78CE962F"
+		linked_quest: "5509E27BF2B19A91"
+		x: 0.0d
+		y: -8.5d
+	}]
 	quests: [
 		{
 			id: "709DA8BA1D1ABC16"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4663DEC8AB0AD1E0"
 				item: "gtceu:vehicle_assembly_building"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			id: "7DB05E1FCC6E9391"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "5983FC53A006C4CC"
 				item: "gtnn:exxonmobil_chemical_plant"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.0d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["709DA8BA1D1ABC16"]
@@ -38,7 +43,7 @@
 				item: "gcyr:basic_rocket_motor"
 				type: "item"
 			}]
-			x: -4.5d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
@@ -49,8 +54,8 @@
 				item: "gcyr:basic_fuel_tank"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -69,7 +74,7 @@
 			]
 			id: "500F47921DD51C83"
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				dimension: "gcyr:luna"
 				icon: "gcyr:moon_stone"
@@ -77,7 +82,7 @@
 				title: "Visit the Moon"
 				type: "dimension"
 			}]
-			x: -3.0d
+			x: 1.5d
 			y: -7.0d
 		}
 		{
@@ -132,8 +137,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -5.5d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["709DA8BA1D1ABC16"]
@@ -143,8 +148,8 @@
 				item: "gcyr:seat"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["500F47921DD51C83"]
@@ -180,7 +185,7 @@
 				type: "item"
 			}]
 			title: "Mining"
-			x: -1.5d
+			x: 3.0d
 			y: -7.0d
 		}
 		{
@@ -191,18 +196,19 @@
 				item: "gcyr:space_fabric"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
+			dependencies: ["5509E27BF2B19A91"]
 			id: "585841E09E7C0F8D"
 			tasks: [{
 				id: "17B027498850F39A"
 				item: "gcyr:fiberglass_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -216,7 +222,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0F7B9EAEF4103A8F"]
@@ -226,8 +232,8 @@
 				item: "gcyr:para_phenylenediamine_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: -1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -240,8 +246,8 @@
 				item: "gcyr:terephthaloyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -254,8 +260,8 @@
 				item: "gcyr:therephthalic_acid_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -265,7 +271,7 @@
 				item: "gcyr:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -8.5d
 		}
 		{
@@ -276,8 +282,8 @@
 				item: "gcyr:nitroaniline_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.5d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -298,8 +304,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -10.0d
+			x: -3.0d
+			y: -13.0d
 		}
 		{
 			description: [
@@ -313,8 +319,8 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: -3.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6061E30674D8A3F5"]
@@ -325,19 +331,20 @@
 				item: "gcyr:co_mn_br_catalyst_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.0d
+			x: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["24342D4C5317572A"]
 			id: "6061E30674D8A3F5"
+			size: 1.25d
 			tasks: [{
 				id: "69A01D1D7D5220D1"
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -11.5d
+			x: -4.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5D5D29247E81E19A"]
@@ -347,8 +354,8 @@
 				item: "gtceu:wet_bromine_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.5d
+			x: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7C365D7B15917A38"]
@@ -358,8 +365,8 @@
 				item: "gtceu:overheated_bromine_sulfate_gas_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -11.5d
+			x: -7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["409F44384A1F44E2"]
@@ -369,8 +376,8 @@
 				item: "gtceu:bromine_sulfate_solution_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -13.0d
+			x: -7.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["4127AE11291977CF"]
@@ -380,8 +387,8 @@
 				item: "gtceu:acidic_brominated_brine_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -13.0d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["60DA51766F274B5E"]
@@ -391,8 +398,8 @@
 				item: "gtceu:brominated_brine_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -13.0d
+			x: -4.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["5F89122136784BC1"]
@@ -402,7 +409,7 @@
 				item: "gtceu:iodine_brine_mixture_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -13.0d
 		}
 		{
@@ -413,8 +420,8 @@
 				item: "gtceu:iodized_brine_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.5d
+			x: -6.0d
+			y: -13.0d
 		}
 		{
 			id: "47AFAF23FB7AB33C"
@@ -430,8 +437,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -11.5d
+			x: -7.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7DB05E1FCC6E9391"]
@@ -441,7 +448,7 @@
 				item: "gtceu:rp_1_mixed_fuel_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 3.0d
 			y: -8.5d
 		}
 	]
