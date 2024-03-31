@@ -125,7 +125,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/blocks/energy_energy_acceptor" });
   event.shaped("ae2:energy_acceptor", ["PFP", "FVF", "PFP"], {
     P: "#forge:plates/steel",
-    F: "#forge:plates/fluix",
+    F: "ae2:fluix_crystal",
     V: "gtceu:lv_voltage_coil",
   });
 
