@@ -22,4 +22,6 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:stone_dust", 4000, 650)
         .EUt(30)
         .duration(200);
+
+    
 });

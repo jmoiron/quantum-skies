@@ -6,16 +6,25 @@
 	icon: "gcyr:laser_satellite"
 	id: "4DC58D4894E02979"
 	order_index: 4
-	quest_links: [{
-		id: "502491BC78CE962F"
-		linked_quest: "5509E27BF2B19A91"
-		x: 0.0d
-		y: -8.5d
-	}]
+	quest_links: [
+		{
+			id: "502491BC78CE962F"
+			linked_quest: "5509E27BF2B19A91"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			id: "45CC46D5F06C0490"
+			linked_quest: "2C1CDE93A0BDB91C"
+			x: 0.0d
+			y: -8.5d
+		}
+	]
 	quests: [
 		{
+			dependencies: ["174CEACF8A92FDC3"]
 			id: "709DA8BA1D1ABC16"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "4663DEC8AB0AD1E0"
 				item: "gtceu:vehicle_assembly_building"
@@ -26,7 +35,7 @@
 		}
 		{
 			id: "7DB05E1FCC6E9391"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "5983FC53A006C4CC"
 				item: "gtnn:exxonmobil_chemical_plant"
@@ -64,6 +73,7 @@
 				"004CEF5B489EB762"
 				"6466AB6B2D4F2D1F"
 				"0F62B838EB8BE9EF"
+				"552FA9A1E6BA7517"
 			]
 			description: [
 				"The ultimate goal of the &6Apollo Program&r quest line is, unsurprisingly, to launch a rocket and walk on the &cMoon&r."
@@ -74,7 +84,7 @@
 			]
 			id: "500F47921DD51C83"
 			shape: "gear"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				dimension: "gcyr:luna"
 				icon: "gcyr:moon_stone"
@@ -86,11 +96,9 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"4981CA1F68C8FCC2"
-				"585841E09E7C0F8D"
-			]
+			dependencies: ["4981CA1F68C8FCC2"]
 			id: "1C3AE919FB651E93"
+			size: 1.25d
 			tasks: [
 				{
 					id: "54E096991DD8FFD5"
@@ -185,19 +193,23 @@
 				type: "item"
 			}]
 			title: "Mining"
-			x: 3.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
-			dependencies: ["7C1A3931EA551693"]
+			dependencies: [
+				"7C1A3931EA551693"
+				"585841E09E7C0F8D"
+				"2C1CDE93A0BDB91C"
+			]
 			id: "4981CA1F68C8FCC2"
 			tasks: [{
 				id: "6F477135EA6E47BE"
 				item: "gcyr:space_fabric"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -11.5d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5509E27BF2B19A91"]
@@ -208,7 +220,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -221,8 +233,8 @@
 				item: "gcyr:para_aramid_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0F7B9EAEF4103A8F"]
@@ -247,7 +259,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -261,7 +273,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -271,8 +283,8 @@
 				item: "gcyr:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6C114A2C08AA55C2"]
@@ -308,6 +320,7 @@
 			y: -13.0d
 		}
 		{
+			dependencies: ["466C6EE4E2E3D039"]
 			description: [
 				"&6Para-Xylene&r can be distilled from &9Lightly Steam-cracked&r &6Naphtha&r."
 				""
@@ -319,8 +332,8 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.5d
+			x: -4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6061E30674D8A3F5"]
@@ -338,6 +351,7 @@
 			dependencies: ["24342D4C5317572A"]
 			id: "6061E30674D8A3F5"
 			size: 1.25d
+			subtitle: "All of that for Bromine?"
 			tasks: [{
 				id: "69A01D1D7D5220D1"
 				item: "gtceu:bromine_bucket"
@@ -451,6 +465,18 @@
 			x: 3.0d
 			y: -8.5d
 		}
+		{
+			id: "552FA9A1E6BA7517"
+			size: 1.25d
+			tasks: [{
+				id: "5EDB311E4A2F93D6"
+				item: "gcyr:rocket_scanner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
 	]
+	subtitle: ["Not because it is easy"]
 	title: "The &6Apollo Program&r"
 }

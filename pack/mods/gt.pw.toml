@@ -1,13 +1,13 @@
 name = "GT--"
-filename = "gtnn-1.20.1-1.0.3-hotfix.jar"
+filename = "gtnn-1.20.1-1.0.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f2f9e0b19b2c435108b3ae5aa6cd7d249c76bf4f"
+hash = "40e08de9391fc903020aab94ce168dcd49ecf09a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5210638
+file-id = 5221944
 project-id = 985872

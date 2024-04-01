@@ -1176,6 +1176,11 @@
 			]
 			icon: "colossalchests:colossal_chest_wood"
 			id: "2BE1D4DD8EA380E1"
+			rewards: [{
+				id: "36B75B48DE62030B"
+				item: "colossalchests:upgrade_tool"
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "Where's that embiggening syringe?"
 			tasks: [

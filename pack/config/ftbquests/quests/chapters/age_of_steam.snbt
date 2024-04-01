@@ -135,6 +135,11 @@
 				"We need it to create the &9Fireclay Bricks&r to build our &dPrimitive Blast Furnace&r.  The brick mold we used for the coke oven cannot produce bricks with enough integrity to stand up to a heat we need to produce &6Steel&r."
 			]
 			id: "7015689EEBC11F93"
+			rewards: [{
+				id: "210AC0A8A40B9D3B"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
 			subtitle: "Nuggets don't craft?"
 			tasks: [{
 				id: "61AB628A5BC0E58D"
@@ -401,13 +406,13 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: [
 				"5D0B8F0841154E4C"
-				"3881AD90E85DE772"
+				"7015689EEBC11F93"
 			]
 			description: [
 				"The tank from &2Ender Tanks&r is available, but it's a bit out of reach at the moment."
@@ -444,7 +449,7 @@
 				}
 			]
 			title: "Quantum Entanglement"
-			x: -3.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -635,14 +640,19 @@
 		{
 			dependencies: ["21913378FC451B5B"]
 			description: [
-				"All &bSteam Boilers&r will output steam to a connected &9Pipe&r automatically from any face except the front.  This makes it easy to distribute steam in the early game, when &9Pumps&r are still expensive."
+				"&bSteam Boilers&r output steam automatically to adjacent machines or &9Pipes&r from all faces except their front. The &5low pressure&r and &5high pressure&r tiers are machine variants, &cnot&r different types of steam."
 				""
-				"Steam &bMachines&r and &bTurbines&r convert &e2mb of steam to 1eu&r of power, so if a recipe says it is &oLV 7 EU/t&r, it will need at least 14mb of steam per tick.  Thankfully, CEu shows fluid transfer rates &e&oper tick&r, so choosing the right &9Pipes&r should be easy."
+				"All steam &bmachines&r and &bturbines&r convert &e2mb of steam to 1eu&r of power. &5Low-pressure&r machines work at half the speed, but require half of the amount of steam. "
+				""
+				"If a recipe says it is &oLV 7 EU/t&r and take 10s, a &5low-pressure&r machine will use 7mb of steam/t and take 20s, and a &5high-pressure&r machine will require 14mb of steam/t and take 10s."
+				""
+				"Thankfully, CEu shows fluid transfer rates &e&oper tick&r, so choosing the right &9Pipes&r should be easy."
 				""
 				"You may be tempted to &ebuffer steam&r, but has very poor energy density, and the &9Drums&r you have access to are not good options. Better to wait for electricity."
 			]
 			icon: "gtceu:steam_bucket"
 			id: "76629BD62DA7E658"
+			min_width: 250
 			shape: "circle"
 			subtitle: "Not an App Store"
 			tasks: [{

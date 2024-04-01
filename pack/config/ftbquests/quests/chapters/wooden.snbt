@@ -144,15 +144,18 @@
 		}
 		{
 			description: [
-				"The &2Travel Anchor&r is another item descendent from &2EnderIO&r."
+				"The &2Travel Anchor&r is another item inspired by &2EnderIO&r."
 				""
 				"They allow &equantum teleportation&r between two points at a limited distance."
 				""
-				"If you are standing on one, face another, and &3jump&r, you will teleport to that &9anchor&r. If you have the &9Travel Staff&r, you can use it to teleport to anchors regardless of where you are, or as a re-usable &9ender pearl&r."
+				"If you are standing on one, face another, and &3right-click&r, you will teleport to that &9anchor&r.  If you have the &9Travel Staff&r, you can use it to teleport to anchors regardless of where you are, or as a re-usable &9ender pearl&r."
+				""
+				"If an anchor is directly above another one, you can &3jump&r to it, and if there's one below, you can &3crouch&r to it, like an &2Openblocks Elevator&r. Anchors must be named before they can be used."
 				""
 				"Your base will get &abig&r. This allow you to get around and build wide or tall without a bunch of extra effort."
 			]
 			id: "3748413FA0F878CA"
+			min_width: 250
 			tasks: [
 				{
 					id: "5A4E935FF92BD2DD"
@@ -169,6 +172,11 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Even though there doesn't really appear to be too many places to go, between &3tools&r, pipes, covers, and other curiosities, it might make sense to craft yourself a &2Sophisticated Backpack&r."
+				""
+				"These backpacks can be upgraded to perform a large number of tasks, like smelting, blasting, smoking, etc."
+			]
 			id: "608740A321560418"
 			subtitle: "Sophisticated"
 			tasks: [{

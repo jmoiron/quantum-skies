@@ -255,12 +255,18 @@
 		}
 		{
 			dependencies: ["4197035F312E58AC"]
+			description: [
+				"Flux networks allow unlimited, cross-dimensional transfer of &eForge Energy&r. They significantly alter the nature of late game power transfer."
+				""
+				"They are currently &cnot obtainable&r as their balance, if possible, is being worked out."
+			]
 			id: "5F5867CA3A8803F6"
 			rewards: [{
 				id: "5BE66CD53B52283E"
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
+			subtitle: "\"Balanced\""
 			tasks: [
 				{
 					id: "7CDB6AD1CFB8AC75"

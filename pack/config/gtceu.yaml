@@ -275,6 +275,10 @@ tools:
   # Default: 10%
   rngDamageElectricTools: 10
 
+  # Amount of blocks that can be spray painted at once
+  # Default: 16
+  sprayCanChainLength: 16
+
 # Config options for Mod Compatibility
 compat:
   # Config options regarding GTEU compatibility with other energy systems

@@ -112,30 +112,6 @@
 			x: 2.5d
 			y: -2.5d
 		}
-		{
-			description: [
-				"&5IV&r is when &2Gregicality Rocketry&r will unlock, but it needs more playtesting before it can be integrated."
-				""
-				"Goals in space will include orbital mining and gas drilling for ores and gasses."
-			]
-			icon: {
-				Count: 1b
-				id: "minecraft:firework_rocket"
-				tag: {
-					Fireworks: {
-						Flight: 1b
-					}
-				}
-			}
-			id: "76039EE75C8474AC"
-			tasks: [{
-				id: "1E7D802E947C5EE9"
-				title: "Splaceholder"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]
 	title: "[&1IV&r] Insane Voltage"

@@ -1,17 +1,22 @@
 
 ServerEvents.recipes(event => {
 
-    // controller block recipe for the large sieve
+    // controller block recipe for the vab
     event.shaped(Item.of("gtceu:vehicle_assembly_building"),
         ["CGC", "FXF", "CLC"],
         {
             C: "#gtceu:circuits/hv",
-            X: "gtceu:hv_sifter",
+            X: "gtceu:hv_assembler",
             F: "gtceu:stainless_steel_frame",
             G: "gtceu:steel_gearbox",
-            L: "gtceu:stainless_steel_large_fluid_pipe",
+            L: "gtceu:filter_casing",
         }
     );
+
+    let greg = event.recipes.gtceu;
+
+    greg.vehicle_assembly_building("rocket_engine")
+        .inputItems()
 
     /*
     greg.industrial_sieve("flint_mesh")
