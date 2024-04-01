@@ -15,8 +15,33 @@ ServerEvents.recipes(event => {
 
     let greg = event.recipes.gtceu;
 
-    greg.vehicle_assembly_building("rocket_engine")
-        .inputItems()
+    greg.vehicle_assembly_building("basic_rocket_motor")
+        .itemInputs("gtceu:stainless_steel_frame")
+        .itemInputs("6x gtceu:black_steel_plate")
+        .itemInputs("4x gtceu:graphene_foil")
+        .inputFluids("gtceu:rp_1_rocket_fuel 1000")
+        .itemOutputs("gcyr:basic_rocket_motor")
+        .EUt(480)
+        .duration(600);
+
+    greg.vehicle_assembly_building("basic_fuel_tank")
+        .itemInputs("gtceu:stainless_steel_fluid_cell")
+        .itemInputs("4x gtceu:carbon_fiber_plate")
+        .itemInputs("4x gtceu:graphene_foil")
+        .itemInputs("3x gtceu:magnalium_plate")
+        .inputFluids("gtceu:rp_1_rocket_fuel 1000")
+        .itemOutputs("gcyr:basic_fuel_tank")
+        .EUt(480)
+        .duration(600);
+
+    greg.vehicle_assembly_building("rocket_seat")
+        .itemInputs("minecraft:light_gray_carpet")
+        .itemInputs("4x gtceu:rubber_plate")
+        .itemInputs("3x gtceu:aluminium_plate")
+        .inputFluids("gtceu:epoxy 1000")
+        .itemOutputs("gcyr:seat")
+        .EUt(480)
+        .duration(600);
 
     /*
     greg.industrial_sieve("flint_mesh")
