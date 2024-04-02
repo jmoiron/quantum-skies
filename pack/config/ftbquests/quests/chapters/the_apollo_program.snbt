@@ -476,6 +476,20 @@
 			x: 0.0d
 			y: -7.0d
 		}
+		{
+			icon: "gcyr:gps_satellite"
+			id: "41AD0ABABE52A4BF"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Don't call it a moon quest"
+			tasks: [{
+				id: "1F77EE28297C5193"
+				title: "The Apollo Program"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
 	]
 	subtitle: ["Not because it is easy"]
 	title: "The &6Apollo Program&r"
