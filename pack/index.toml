@@ -150,15 +150,15 @@ hash = "af08a90fd54518d93b41b49f177e9332aa8e3f3ee4f8b5110622e4b322705041"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "18680034c2ef845ac98022c5d5b4b6f035ab5314ff5ff0ebf7c99737cdf3ff86"
+hash = "21e122bd178f6684f7593257a75c21a3dc0bb39252febe7be8a358f50a516b45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "785cdaa3bf929094cb8cb86d6b34e1866583c8f3d5a3634b86118030ca32119b"
+hash = "6ac021b71fa54b90b952bf71a5a2ae2325b74ca5f179134c32c1a75a3be08b1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "323c05a80bd869aefb5678324fb43c0b94da2b895193fd70345469380f7ddc9e"
+hash = "5ebacacfd5d7355db52f95271c722b1704a75b193f32c69d59257c3ab50723e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -182,7 +182,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "3732420ebe13fef00021009e4f63c3248d276736323d8216bb663d902d122b3a"
+hash = "068a3141ebbedef104d1be5c2297ab8835e3c903014d1b2aae814889078f33cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -206,7 +206,7 @@ hash = "1b4cf4d2eaaee598249ad8587a3efdbdd65f58c8f8ff44b8e86046d95ec003cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "792692e192e0bca1ad7c096a8b79a77d0c1194ae60d0264bb945bd4280e4750f"
+hash = "0459d2e276387982daf8c7b3fa6207711326d57a5f0935163156f0829457a5d5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -526,7 +526,7 @@ hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
 file = "kubejs/config/probejs.json"
-hash = "ae26b14c980e7d3904da5e50d52727eedeb9a5b2d0d20630acf2526e3b72e4f8"
+hash = "595200a362fe6d520bca29e0157c4110e23be3b2df3e525ca64860781565999c"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -602,7 +602,7 @@ hash = "1f65018c6a7652aced1b35a5782cbf1fd1cbc80f576e6001328bf1fb0e572129"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/recipes.js"
-hash = "059b70c18e665b840d613c6a5c22809ccc866dd93cae8029f1bd3ddec47d00db"
+hash = "1eda964da48dd4d76067c3ddd972d1c6c1f79b1d0c93f581dc2c903833bd97b5"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"

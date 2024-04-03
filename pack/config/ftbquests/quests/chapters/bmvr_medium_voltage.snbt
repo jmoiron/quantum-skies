@@ -65,11 +65,11 @@
 				"6943EEB24AC64081"
 			]
 			description: [
-				"&6Stainless steel&r is the hull material for &bHV&r."
+				"By adding small amounts of &6chromium&r, &6manganese&r and &6nickel&r in your steel making process, you can produce &6Stainless steel&r. This rust-resistant steel alloy is the hull material for &bHV&r."
 				""
-				"As you might have guessed by now, you will need this in large amounts."
+				"As you might have guessed, you will need this in large quantities."
 				""
-				"You can create this with &6cupronickel&6 coils, but you will need &bHV&r tier &bcircuits&r to really start producing machines, so you might want to prioritize working towards &bmicroprocessors&d."
+				"You can create this with &6cupronickel&r coils, but you will need &bHV&r &bcircuits&r to really start producing machines, so you might want to prioritize working towards &bmicroprocessors&d."
 			]
 			id: "025DB933BE24C8F9"
 			shape: "gear"
@@ -183,6 +183,13 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
+			description: [
+				"Gone are the days of mixing dust by hand in a crafting table."
+				""
+				"Creating the next tier mixture to blend ever more complex materials will become a trend for the next several tiers."
+				""
+				"The &bMV&r &dMixer&r is required to produce &6Vanadium Steel&r, &6Stainless Steel&r, and other important alloys."
+			]
 			id: "477DF29754485471"
 			tasks: [{
 				id: "0FCE03B26FC81C5F"
@@ -197,6 +204,11 @@
 				"477DF29754485471"
 				"6943EEB24AC64081"
 			]
+			description: [
+				"&6Steel&r is an alloy of &6Carbon&r and &6Iron&r, but most real-world steels have other metals in them that give them desirable properties."
+				""
+				"&6Vanadium Steel&r is the first such steel alloy you will make. &6Vanadium&r reduces the sensitivity of the steel to heat and increases its hardness. Perfect for a &dsaw blade&r."
+			]
 			id: "585CF7B0C315D9D0"
 			tasks: [{
 				id: "3A82F2366394940F"
@@ -208,7 +220,26 @@
 		}
 		{
 			dependencies: ["585CF7B0C315D9D0"]
+			description: [
+				"Producing &esilicon wafers&r from boules will require a more sophisticated &dcutting machine&r."
+				""
+				"&6Lubricant&r makes the cutting machine much more efficient, and not much is used per operation. If you haven't yet, you might want to produce some from some of the &6creosote oil&r you have lying around."
+			]
 			id: "6123DCAA0F02CBD0"
+			rewards: [{
+				id: "09842596F122555B"
+				item: {
+					Count: 1b
+					id: "gtceu:universal_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:lubricant"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ECB101F817B4D7D"
 				item: "gtceu:mv_cutter"
@@ -276,6 +307,13 @@
 		}
 		{
 			dependencies: ["4BDC24DF26BB7502"]
+			description: [
+				"&6Polyethylene&r is your first plastic!"
+				""
+				"It may be hard to believe (or not), but you will be generating this in &evast&r quantities and using it for most of the game."
+				""
+				"For now, its primary use will be circuit boards, but it will find many uses in your &dassembler&r."
+			]
 			id: "174CEACF8A92FDC3"
 			shape: "rsquare"
 			size: 1.5d
@@ -671,6 +709,11 @@
 				"04FF202CCDE5A998"
 				"6943EEB24AC64081"
 			]
+			description: [
+				"&9Kanthal Coils&r are the first significant upgrade you will make to your &dEBF&r."
+				""
+				"Coils increase the &eheat capacity&r, allowing you to run recipes at a higher temperature."
+			]
 			id: "131C228C88F2DDBF"
 			tasks: [{
 				count: 16L
@@ -686,6 +729,7 @@
 				"4E25CA8F5E23C247"
 				"575C02BE8ACAF483"
 			]
+			description: ["With 2 &bMV&r energy hatches, you can upgrade your &dEBF&r to run at &6HV&r, just like you used 2 LV hatches to run at &bMV&r."]
 			id: "04FF202CCDE5A998"
 			rewards: [{
 				id: "0C43D27EC3ADE949"
@@ -718,7 +762,11 @@
 		}
 		{
 			dependencies: ["0EF63A0F090B2B21"]
-			description: ["When we blast materials over"]
+			description: [
+				"The &dChemical Bath&r is used for a variety of different purposes, but the first progression related one is to &ecool down hot ingots&r."
+				""
+				"When we blast materials over 1700K, they come out hot and have to be cooled down somehow. Your first way to do this is with the &dChemical Bath&r."
+			]
 			hide_dependency_lines: true
 			id: "5BE63899FFF5D09D"
 			tasks: [{
@@ -752,6 +800,7 @@
 				"152EA6F3161E2B26"
 				"3D8576904947C087"
 			]
+			description: ["&6PIC&r (Power Integrated Circuit) chips are used to regulate power input/output in industrial applications.  You'll be crafting these for each tier of &denergy hatch&r."]
 			id: "575C02BE8ACAF483"
 			tasks: [
 				{
@@ -778,6 +827,11 @@
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
 				"3D8576904947C087"
+			]
+			description: [
+				"&9RAM&r stands for random access memory, but you probably knew that already, didn't you?"
+				""
+				"As you get further down the line to producing processors, they will require on-board storage."
 			]
 			id: "70A7D1359A978DFF"
 			tasks: [
@@ -806,6 +860,7 @@
 				"152EA6F3161E2B26"
 				"3D8576904947C087"
 			]
+			description: ["The &9Integrated Circuit&r (IC) chip is, unsurprisingly, the building block of the integrated circuit line of circuits."]
 			id: "6AD7A1A383E2B102"
 			tasks: [
 				{
@@ -832,6 +887,7 @@
 				"174CEACF8A92FDC3"
 				"6448A28D81FCFBCF"
 			]
+			description: ["The &cPlastic PCB&r is the basis for &bMicroprocessor&r circuits."]
 			id: "78ECC25FA3649463"
 			tasks: [
 				{
@@ -881,6 +937,7 @@
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
 			]
+			description: ["The &9CPU&r (Central Processing Unit) is the foundation of the next tier of circuits after integrated circuits, &bmicroprocessors&r. "]
 			id: "310C5F4765AAB929"
 			tasks: [
 				{
@@ -957,6 +1014,11 @@
 				"174CEACF8A92FDC3"
 				"568051A4FADBDA1D"
 			]
+			description: [
+				"The &9transistor&r is the foundation of all modern electronics."
+				""
+				"You will need them for &cadvanced integrated circuits&r, your first &6HV&r circuits."
+			]
 			id: "7636E3994462BED8"
 			tasks: [{
 				id: "07775913E9E47535"
@@ -973,6 +1035,7 @@
 				"6996883D959ADED7"
 				"310C5F4765AAB929"
 			]
+			description: ["Although &9advanced integrated circuits&r are &6HV&r tier, &cmicroprocessors&r are the first truly affordable &6HV&r circuits, and usually represent the final ascension into that tier."]
 			id: "1D131CBD6F52741F"
 			shape: "gear"
 			size: 1.5d
@@ -999,6 +1062,11 @@
 		}
 		{
 			dependencies: ["174CEACF8A92FDC3"]
+			description: [
+				"&9Capacitors&r and &9Inductors&r both store energy, but one discharges to prevent a change in voltage and the other a change in current."
+				""
+				"None of that is really relevant; you only need them as components for &emicroprocessors&r."
+			]
 			id: "6996883D959ADED7"
 			tasks: [
 				{
@@ -1012,11 +1080,17 @@
 					type: "item"
 				}
 			]
+			title: "Storing Energy"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["174CEACF8A92FDC3"]
+			description: [
+				"&dPVC&r (yes, that PVC) is a durable, hard plastic that can be used in many different applications."
+				""
+				"Its main use right now is in doubling the yield of &cPlastic PCBs&r compared to &6Polyethylene&r."
+			]
 			id: "2AAF8EE73768D508"
 			tasks: [{
 				id: "6934ABA18EBA0D75"
@@ -1291,6 +1365,11 @@
 		}
 		{
 			dependencies: ["131C228C88F2DDBF"]
+			description: [
+				"Now that you have &9Kanthal&r coils, you can produce &esilicon ingots&r.  "
+				""
+				"These are mostly useful for making &9silicon plates&r, which are an important ingredient in both &2Applied Energistics&r circuits as well as &9transistors&r."
+			]
 			id: "568051A4FADBDA1D"
 			tasks: [{
 				id: "4F693A318A307711"

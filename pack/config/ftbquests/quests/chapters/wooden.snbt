@@ -176,6 +176,8 @@
 				"Even though there doesn't really appear to be too many places to go, between &3tools&r, pipes, covers, and other curiosities, it might make sense to craft yourself a &2Sophisticated Backpack&r."
 				""
 				"These backpacks can be upgraded to perform a large number of tasks, like smelting, blasting, smoking, etc."
+				""
+				"Upgrades to these backpacks destroy their contents, so make sure to empty them first!"
 			]
 			id: "608740A321560418"
 			subtitle: "Sophisticated"

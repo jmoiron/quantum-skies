@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
     Item.of("exnihilosequentia:iron_mesh"),
     ['ABA', 'BCB', 'ABA'],
     {
-      A: "gtceu:polytetrafluoroethylene_rod",
+      A: "gtceu:aluminium_rod",
       B: "exnihilosequentia:flint_mesh",
       C: "gtceu:steel_frame",
     }

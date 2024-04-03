@@ -633,6 +633,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "583A4D5C85AA1F3D"
+					item: "gtceu:bronze_firebox_casing"
+					type: "item"
+				}
 			]
 			x: 3.0d
 			y: 3.0d
