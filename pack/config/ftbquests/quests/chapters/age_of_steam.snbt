@@ -173,7 +173,9 @@
 				""
 				"Each tier of technology has its own machine hull.  The &blow pressure steam&r hulls you have been using are made of &6Bronze&r, but &6Steel&r opens up both high pressure steam and &7Low Voltage&r machines."
 				""
-				"Each ingot takes 45s, and you will need over 10 stacks before you have a faster method. Since &6Clay&r is easy to produce, you may want to make &dmore than one&r of these. &dPBFs&r can &bshare their outer walls&r, read up on this in the &3Multiblock Madness&r quest tab."
+				"Making steel from &6Wrought Iron&r is more efficient than &6Iron&r, but recipes also vary on the fuel used. Look them up in the &dPBF&r tab for steel ingot. You will need at least 10 stacks until you can build an &dEBF&r and unlock a faster way to produce steel."
+				""
+				"Since &6Clay&r is easy to produce, you may want to make &dmore than one&r of these. &dPBFs&r can &bshare their outer walls&r, read up on this in the &3Multiblock Madness&r quest tab."
 			]
 			id: "133D5E0B6C137D0E"
 			size: 1.25d
@@ -558,11 +560,9 @@
 		{
 			dependencies: ["0FA3435DBFF62540"]
 			description: [
-				"If you were wondering about early game ore processing, the answer is the &dSteam Grinder&r! There don't seem to be many ores around here, though."
+				"Unlike the &dSteam Grinder&r, the &dSteam Oven&r should prove very useful up in the sky."
 				""
-				"The &dSteam Grinder&r can run &dMacerator&r recipes up to [LV] Low Voltage 8 items at a time for a small amount of steam."
-				""
-				"It doesn't produce any by-products. Might be useful for grinding &6clay&r if the needs arise."
+				"The &dSteam Oven&r is a multiblock that can smelt 8 items at a time for a small amount of steam. It's the plucky, early-game brother to the &dMulti Smelter&r."
 			]
 			icon: "gtceu:steam_oven"
 			id: "36913E1373798B1F"

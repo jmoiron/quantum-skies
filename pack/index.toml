@@ -85,6 +85,14 @@ file = "config/entangled-common.toml"
 hash = "654e97c6b46d38df9c6d888347a788507a2f1f5cd440c87f2b5c09173d026461"
 
 [[files]]
+file = "config/enviroseries/materials/materials-client.json"
+hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
+
+[[files]]
+file = "config/enviroseries/materials/materials.json"
+hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
+
+[[files]]
 file = "config/exnihilosequentia-common.toml"
 hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
 
@@ -146,7 +154,7 @@ hash = "18680034c2ef845ac98022c5d5b4b6f035ab5314ff5ff0ebf7c99737cdf3ff86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "da60c31081eba2fba5772572a5b41e2e6d32309db7c8722fc41c12f9126952ca"
+hash = "04b9edeba85cdebb4dd557fb56b728ebbd61f74a2cd2a9f9cdbd9069c50cbb25"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -174,7 +182,7 @@ hash = "7284af20053da49b33d9f6f48b881da860d87a566b0227b6a17786c840e58a6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "c217cf5f72665bd135203859bd663a90b51bbcc3803eafcaf5a33859a9f56f7e"
+hash = "068a3141ebbedef104d1be5c2297ab8835e3c903014d1b2aae814889078f33cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -190,7 +198,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "fea242d134d1a943d06e17be86230fdb4ae0da41e73d4d1ec3f313539611c982"
+hash = "0feda75d5538f67f719b8dc586c2d16b3950bfa2e8cce5181dea4de2fc68abb8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -246,7 +254,7 @@ hash = "f3f232f47969a9adf853a1e6f9ad16100562f421646301d5c784ce456e567ee3"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c12f747e96485c1b56d29431974edd32202949d1ccead223154bb1fac85218b4"
+hash = "0e77af25dc056ca4e92d0ee563608930d6aef35e8b806f18d12ad28e94748fff"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -298,7 +306,7 @@ hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0b8078fd1e84234781e5ebb206ebea0e2fe0ce01d0c077c820b5d024b11ea0ec"
+hash = "6aa78430d4443c19279a8f6fc66cfb5766e75aaf5360ada9f34bf6d0d23e1507"
 
 [[files]]
 file = "config/panorama.json"
@@ -318,7 +326,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "a66f8141f7b782ca896b0903088283192872c653d0e2d1686948eba550f6d673"
+hash = "d83f0dbe3198d3d321de4351f7b9218d6b5989a814983a69987e864c6cf7b28c"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
@@ -326,7 +334,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "672d3bceaaee298161233e2acfe2f5f2ca83c2baea9da07dd0902f1375848f88"
+hash = "97cc37f00f542433edb52ceea89ad582960e482cb9c7bbdb89838bea6f878909"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -427,6 +435,14 @@ hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
 [[files]]
 file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"

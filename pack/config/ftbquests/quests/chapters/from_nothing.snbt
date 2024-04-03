@@ -678,6 +678,8 @@
 				"This pack includes &2FTB Ultimine&r, bound by default to &3grave&r (the key above &3tab&r)."
 				""
 				"When the keybind is held, mining a block in the world will mine adjacent identical blocks.  This is great for &9Crooking&r leaves, &9Hammering&r various stones, or felling trees."
+				""
+				"Also great for felling trees are &aGregtech Lumber Axes&r. Here's a diamond one to get you started."
 			]
 			icon: {
 				Count: 1b
@@ -688,12 +690,24 @@
 			}
 			id: "66A592F2E3BFD51A"
 			rewards: [{
-				id: "40CB929286169CF2"
+				id: "707DB9A314239A3E"
 				item: {
 					Count: 1b
-					id: "minecraft:iron_axe"
+					id: "gtceu:diamond_axe"
 					tag: {
-						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							DisableShields: 1b
+							TreeFelling: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 18
+							HarvestLevel: 3
+							MaxDamage: 767
+							ToolSpeed: 8.0f
+						}
+						HideFlags: 2
 					}
 				}
 				type: "item"
