@@ -18,6 +18,63 @@ ServerEvents.recipes(event => {
     }
   );
 
+  // single-block sieves
+  event.shaped("gtceu:lp_steam_sieve",
+    ['PSP', 'PVP', 'PHP'],
+    {
+      P: "gtceu:bronze_normal_fluid_pipe",
+      S: "#forge:pistons",
+      V: "exnihilosequentia:oak_sieve",
+      H: "gtceu:bronze_brick_casing",
+    }
+  );
+
+  event.shaped("gtceu:hp_steam_sieve",
+    ['PSP', 'WLW', 'WPW'],
+    {
+      P: "gtceu:tin_alloy_small_fluid_pipe",
+      S: "gtceu:steel_plate",
+      W: "gtceu:wrought_iron_plate",
+      L: "gtceu:lp_steam_sieve",
+    }
+  );
+
+  event.shaped("gtceu:lv_sieve",
+    ['CMC', 'PSP', 'PHP'],
+    {
+      C: "gtceu:tin_single_cable",
+      M: "gtceu:lv_electric_motor",
+      H: "gtceu:lv_machine_hull",
+      S: "exnihilosequentia:flint_mesh",
+      P: "gtceu:steel_plate",
+    }
+  );
+
+  event.shaped("gtceu:mv_sieve",
+    ['CMC', 'PSP', 'PHP'],
+    {
+      C: "gtceu:copper_single_cable",
+      M: "gtceu:mv_electric_motor",
+      H: "gtceu:mv_machine_hull",
+      S: "exnihilosequentia:iron_mesh",
+      P: "gtceu:aluminium_plate",
+    }
+  );
+
+  event.shaped("gtceu:hv_sieve",
+    ['CMC', 'PSP', 'PHP'],
+    {
+      C: "gtceu:gold_single_cable",
+      M: "gtceu:hv_electric_motor",
+      H: "gtceu:hv_machine_hull",
+      S: "kubejs:aluminium_mesh",
+      P: "gtceu:stainless_steel_plate",
+    }
+  );
+
+
+
+
   // gating iron mesh on aluminium seems wrong but you gotta toughen up
   // this is gregtech..
   //
@@ -83,7 +140,7 @@ ServerEvents.recipes(event => {
 
   let breakerStones = ["deepslate", "blackstone", "andesite", "diorite", "basalt", "calcite",
     "dripstone_block", "tuff"]
-  
+
   breakerStones.forEach((st) => {
     event.remove({type: "gtceu:rock_breaker", output: `minecraft:${st}`})
     event.recipes.gtceu.rock_breaker(`rock_breaker_${st}`)

@@ -25,7 +25,6 @@ minecraft:frozen_peaks
 minecraft:frozen_river
 minecraft:grove
 minecraft:ice_spikes
-gcyr:infernal_venus_barrens
 minecraft:jagged_peaks
 minecraft:jungle
 minecraft:lukewarm_ocean
@@ -63,7 +62,8 @@ minecraft:swamp
 minecraft:taiga
 minecraft:the_end
 minecraft:the_void
-gcyr:venus_wastelands
+gcyr:venus_barren_plains
+gcyr:venus_eroded_plains
 minecraft:warm_ocean
 minecraft:warped_forest
 minecraft:windswept_forest
