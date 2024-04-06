@@ -62,7 +62,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "adc31b3b6fc77db0d43e80c093a9d6949af76eb704e18a2a9f03b117d72bfee4"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -182,7 +182,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "3732420ebe13fef00021009e4f63c3248d276736323d8216bb663d902d122b3a"
+hash = "3570f4372750597e3f917817247f4ccb4fb16fa857674e1442e9f8627a9104ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -872,7 +872,7 @@ metafile = true
 
 [[files]]
 file = "mods/flux-networks.pw.toml"
-hash = "c03ad50ab5df88a251e335fa8c6a3cfb0621279c76ce9661969450f501d6acf4"
+hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
 metafile = true
 
 [[files]]
@@ -922,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr.pw.toml"
-hash = "7663a9039a6911dd10a5e4b7b342bbec1c23d3fdfc5808653ea2fd5a7a9fbe8d"
+hash = "1031da662a9d558116d1f961bbb4b89bd81ce082a548627257d4160d684ab6a5"
 metafile = true
 
 [[files]]
@@ -1102,12 +1102,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "23661f3668182ddd1793565ee2e55e57f5644021f863e5481909c09d742c105f"
+hash = "3e7b8ddab50ecf7bbb463731e8ab4d640855842a30ded446ef68cb60f0911388"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7b6c59b1a6411b599cc95793bc7a9ef2fda525ef30d185afe08c6fee99031920"
+hash = "7e2886da98886092339ef58beec74ab378733d276aa27bc2525a88f834f6ef9e"
 metafile = true
 
 [[files]]
