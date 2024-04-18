@@ -732,7 +732,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "c6c9689886bfcd5c11658c4bba6721659f2ee35a533dd9e457781a02e5b8503f"
+hash = "65ce57a6ef462c45d74bbe9d6b8b7cfeb7c568e5b67ed9f54771284487e8009b"
 metafile = true
 
 [[files]]
@@ -842,7 +842,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "7c0684c2738d2faf250d51b5ba89cefb73d2efdc13bafdd7f72ba09da7061854"
+hash = "26775408e949ce3c911ed0efe91f9f52cc7b75f9dcfa36c75b6e7a3efcf75201"
 metafile = true
 
 [[files]]
@@ -922,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr.pw.toml"
-hash = "1031da662a9d558116d1f961bbb4b89bd81ce082a548627257d4160d684ab6a5"
+hash = "c4d363a508eefd79fdb46c6dd4f7eeb1a35f0a1a3c0d6b6b00f8e3c3bd64cfd7"
 metafile = true
 
 [[files]]
@@ -942,12 +942,12 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "71f5d559a338d5c9fa58006b437caa23cfbec89cea0de048ea314b5a25bd8d8b"
+hash = "4a0d62c35ae6a3a0345fe6f7bd9c8d24d5fc74b94dd016b46da6ca811903a9a9"
 metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "a12cd75eb6949120d4be961ed7ace4f4e115041fc5a8406ee3c8ae46bde3e6c4"
+hash = "43a4cdc91e0aa65699e0dda99bd60c4ff0a47c896d901ed82e067a6b5e02fbff"
 metafile = true
 
 [[files]]
@@ -1092,7 +1092,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "929c990350808fcd057a2ad32966fd9df8655f8ee72adcc8df63a56203dadb29"
+hash = "e16c5c98a47a46ee08ca4d85ff9eec4ba0169112eb12793996bb7edb016a8688"
 metafile = true
 
 [[files]]
@@ -1107,7 +1107,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7e2886da98886092339ef58beec74ab378733d276aa27bc2525a88f834f6ef9e"
+hash = "e71130c2bd6455b80dc39a9af3c988c5a21295f107803b0266188babdfc5ad75"
 metafile = true
 
 [[files]]
