@@ -29,7 +29,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("X", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("H", Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
-                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 2, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 3, 1))
                     .or(setCount(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.LV, GTValues.MV, GTValues.HV), 1, 1)))
                 .where("C", Predicates.blocks("minecraft:water_cauldron"))
