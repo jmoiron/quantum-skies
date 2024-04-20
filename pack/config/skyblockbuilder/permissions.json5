@@ -44,6 +44,9 @@
     "teleportationDimensions": {
       "allow_list": false,
       "elements": []
-    }
+    },
+    
+    // Cooldown in ticks for visiting other islands. [default: 3600 = 3min]
+    "visitCooldown": 3600
   }
 }
