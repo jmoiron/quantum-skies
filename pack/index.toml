@@ -5,6 +5,14 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/ad_astra.jsonc"
+hash = "52e9c20de34fd2fd4c0410697538922c8a63591da58117c40c88c681e08f7264"
+
+[[files]]
+file = "config/ad_astra_giselle_addon.ver2.jsonc"
+hash = "89c82e2f933ba2d516712e8fe935a67f834821851eea43ee4d2570a5bc9b7be8"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "e0f89e83d16b5fa41481418be51890d90322fb357ccb7e7760d59e985590cd8f"
 
@@ -53,6 +61,10 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
+file = "config/embeddium-fingerprint.json"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
+
+[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
@@ -73,6 +85,14 @@ file = "config/entangled-common.toml"
 hash = "654e97c6b46d38df9c6d888347a788507a2f1f5cd440c87f2b5c09173d026461"
 
 [[files]]
+file = "config/enviroseries/materials/materials-client.json"
+hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
+
+[[files]]
+file = "config/enviroseries/materials/materials.json"
+hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
+
+[[files]]
 file = "config/exnihilosequentia-common.toml"
 hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
 
@@ -87,6 +107,10 @@ hash = "8133f67a8d39f7a9cc0737636ffde75326b602201354de5dd3bd716491713219"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
+
+[[files]]
+file = "config/flib.toml"
+hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
 
 [[files]]
 file = "config/fluxnetworks-common.toml"
@@ -265,6 +289,10 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "b3eb5955766cb0ad2921d628c698cef49010a689a1f3a06618be78b2f938b5c0"
 
 [[files]]
+file = "config/lightoverlay.properties"
+hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
+
+[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -411,6 +439,14 @@ hash = "2ffae815f28e42ae83781cf17ba9744e53adb7f869d1f0b740c098261a20ccba"
 [[files]]
 file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
@@ -1081,11 +1117,6 @@ metafile = true
 [[files]]
 file = "mods/squat-grow.pw.toml"
 hash = "7832f19493b4fa402c59c32c44860df73bbf14c9a1c5a08adfbd90463f44fbea"
-metafile = true
-
-[[files]]
-file = "mods/starlight-forge.pw.toml"
-hash = "348f844432259e19f3098ac6b47be813611ee324786f276d9d231781c094db90"
 metafile = true
 
 [[files]]
