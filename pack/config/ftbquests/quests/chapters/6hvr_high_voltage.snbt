@@ -600,12 +600,11 @@
 			dependencies: [
 				"16935534AA79DBEE"
 				"5B6C29247F5D6E21"
-				"74CD924FA666E6D8"
 			]
 			description: [
 				"&6Diesel&r is a powerful combustion fuel made from mixing &blight fuel&r and &bheavy fuel&r in a 5:1 ratio."
 				""
-				"Mixing diesel requires the &6HV&r &dmixer&r, but requires very little power."
+				"Mixing diesel requires at least an &bMV&r &dmixer&r and uses very little power."
 				""
 				"The 5B of light fuel used by the recipe could produce 1,600,000 EU, but the 6B of diesel you get produces 2,880,000, &b80% more&r."
 			]
