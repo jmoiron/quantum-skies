@@ -600,10 +600,21 @@
 			description: [
 				"The multiblocks to the right (along with the &bMaceration Tower&r and &bBulk Blast Chiller&r) are upgrades to single block machines that offer parallelization and in-place upgradability."
 				""
-				"Many of these are inspired by &2GT++&r, and have a lineage to a &2GTCE&r addon mod called &2Gregicality&r."
+				"Many of these are inspired by &2GT++&r, and share a lineage from the &2GTCE&r addon mod &2Gregicality&r."
+				""
+				"{@pagebreak}"
+				""
+				"The &bLarge Chemical Reactor&r always does perfect overclocking.  The &bMultismelter&r parallelizes and consumes less energy based on coils.  The &bDistillation Tower&r returns all outputs at once."
+				""
+				"Why build these?"
+				""
+				"&2Gregicality&r multiblocks do normal overclocking, so an &1IV&r &bMaceration Tower&r will use the same amount of power as a single block &1IV&r &bMacerator&r, but it will run multiple recipes in parallel for that energy cost."
+				""
+				"The amount of parallelism is based on the tier of your &9Parallel Control Hatch&r."
 			]
 			icon: "gtceu:rhodium_gear"
 			id: "466C8E5C4C3BF53E"
+			min_width: 250
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
