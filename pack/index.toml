@@ -54,7 +54,7 @@ hash = "39069aa41ea5a8b01b5a34a6739aed5050691236a3448ab2829b05c50967975c"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
-hash = "b23235e93731b34c17c0132ce50685d1012f6b9731c967d9556b5a00e7b029c5"
+hash = "d8e00de45173e9a47e2cb4fc1dc4eaa83698a6a3e909116bb4f35f6d69eebc4f"
 
 [[files]]
 file = "config/effortlessbuilding-common.toml"
@@ -62,7 +62,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
+hash = "adc31b3b6fc77db0d43e80c093a9d6949af76eb704e18a2a9f03b117d72bfee4"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -146,7 +146,7 @@ hash = "9db05fb5fd5889542a8199ef9b2bc66f53075e882d2f061a4acee3c8083d1ab6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "af08a90fd54518d93b41b49f177e9332aa8e3f3ee4f8b5110622e4b322705041"
+hash = "cc2afd471c9c8ae2ff39594b23b01eca29168814cb3d8ad57f2509d41aa6ecbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -306,7 +306,7 @@ hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d83ab24d3df1c15a47feaafa9d34521dbfc4f2da97b0a2d80600398f169a953e"
+hash = "e441bcd9d6675e361421e6741682c50f779896fdb99238bebad6c57634ff166e"
 
 [[files]]
 file = "config/panorama.json"
@@ -325,10 +325,6 @@ file = "config/sidebar_buttons.json"
 hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
-file = "config/skyblockbuilder/customization.json5"
-hash = "3e8e12f2b7a6ce324be9870923fd4d61692bda929f284178622a64796f55663b"
-
-[[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
 hash = "a66f8141f7b782ca896b0903088283192872c653d0e2d1686948eba550f6d673"
 
@@ -338,7 +334,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "f70c31c0d6ce4203bfd7e44bab21c2e9f5de379b12e251f8b013556cf1274b93"
+hash = "f03b5d0b48aa03004f224846419e64fdaa1208342380470660e735511c9464b8"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -1002,6 +998,11 @@ metafile = true
 [[files]]
 file = "mods/light-overlay.pw.toml"
 hash = "72d623a34407451b57f3041449c89c80bdd721ed6c030b2af2955ed79fcdb338"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
 metafile = true
 
 [[files]]

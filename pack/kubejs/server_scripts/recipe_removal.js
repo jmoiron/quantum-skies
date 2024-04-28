@@ -28,13 +28,18 @@ ServerEvents.recipes(event => {
     event.replaceInput({mod: "travelanchors"}, "minecraft:ender_pearl", "ae2:ender_dust")
 
     // remove vanilla ender eye recipe
-    event.remove({type: "crafting_shapeless", output: "miencraft:ender_eye"})
-    event.remove({type: "crafting_shaped", output: "miencraft:ender_eye"})
+    event.remove({type: "minecraft:crafting_shaped", output: "minecraft:ender_eye"});
+    event.remove({type: "minecraft:crafting_shapeless", output: "minecraft:ender_eye"});
+
+    // remove until we know what to do with the end, which right now has no ores and only the central island
+    // we might want it for ender air and for an end drill
+    event.remove({output: "exnihilosequentia:end_cake"});
 
     // item collectors are meant to be very early (pre-steam) tech
     // the advanced item collector is HV+ with the current recipe
     // but it doesn't have enough utility to be modified
     event.replaceInput({mod: "itemcollectors"}, "minecraft:ender_pearl", "gtceu:ender_pearl_dust")
+
 
 });
 

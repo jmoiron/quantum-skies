@@ -165,13 +165,13 @@
 		{
 			dependencies: ["239B5AF886B64DEB"]
 			description: [
-				"THe &bcleanroom&r is a multiblock structure that will house many of the machines that crate circuitry and circuit components."
+				"The &bcleanroom&r is a multiblock structure that will house many of the machines that crate circuitry and circuit components."
 				""
 				"The &bcleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block provides minimum and maximum dimensions."
 				""
-				"The edges of the &bcleanroom&r must be &6plascrete&6, as must the floor. The walls can be &6plascrete&r or &9cleanroom glass&r.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
+				"The edges and floor of the &bcleanroom&r must be &6plascrete&6. The walls can be &6plascrete&r, &9cleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
 				""
-				"The materials for this quest can be used to build a 5x5x5 room."
+				"The materials for this quest are for the default 5x5x5 &bcleanroom&r in the it's multiblock preview."
 			]
 			id: "450C8C0AF82CB7FD"
 			shape: "rsquare"
@@ -190,9 +190,15 @@
 					type: "item"
 				}
 				{
-					count: 40L
+					count: 75L
 					id: "2F398ED87B03A5E2"
 					item: "gtceu:plascrete"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6DF3EC7324D3354F"
+					item: "gtceu:cleanroom_glass"
 					type: "item"
 				}
 			]
@@ -215,6 +221,11 @@
 				"052D83873F917583"
 				"5207A7F74C1204FC"
 				"7BF7B57060757546"
+			]
+			description: [
+				"Although you can't seem to make your way to the &3nether&r, you might have found that you can spawn &4blazes&r with some kind of doll.  Sadly, they don't drop &5blaze rods&r."
+				""
+				"Luckily, &6blaze powder&r is easy to synthesize in an &6HV&r &bchemical reactor&r.  You can extract &aliquid blaze&r from the powder and use your &bchemical bath&r to create &9Eyes of Ender&r."
 			]
 			id: "126E88BE9207D849"
 			tasks: [
@@ -727,6 +738,7 @@
 		}
 		{
 			dependencies: ["22BE1992CBCAA2D6"]
+			description: ["&dEnderpearl&r drops from &4Endermen&r are disabled.  In order to get pearls, you will have to process &6ender dust&r in your &bImplosion Compressor&r."]
 			id: "7BF7B57060757546"
 			tasks: [{
 				id: "32846ED2D254E345"
