@@ -146,7 +146,7 @@ hash = "9db05fb5fd5889542a8199ef9b2bc66f53075e882d2f061a4acee3c8083d1ab6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "cc2afd471c9c8ae2ff39594b23b01eca29168814cb3d8ad57f2509d41aa6ecbb"
+hash = "b9353ea9b60c096856523836525268d642be0fa5a7b96f80ed1570c3cd5bf205"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -190,7 +190,7 @@ hash = "29b2389ea4f81158ce713aada4034df6867f7d76e15bac47397cac0f96533ee5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "9a62366a62b5f5f6bd28304c3e6404abc706c57cdd019d18c779846305f5d8dc"
+hash = "6767f23ca1b263e864d73df8b10a39f12421258531153a01d861b58c7e71a436"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -286,7 +286,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "b3eb5955766cb0ad2921d628c698cef49010a689a1f3a06618be78b2f938b5c0"
+hash = "55a1625637341d8988fff0aa3b6d5cc2d9dcbf3f20b4b272a6058497198ff5df"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -306,7 +306,7 @@ hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e441bcd9d6675e361421e6741682c50f779896fdb99238bebad6c57634ff166e"
+hash = "9392f6e2a6a341c28880e745c77861a2a7c411486045ac42efcc1b57a497a54a"
 
 [[files]]
 file = "config/panorama.json"
@@ -325,6 +325,10 @@ file = "config/sidebar_buttons.json"
 hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
+file = "config/skyblockbuilder/customization.json5"
+hash = "3e8e12f2b7a6ce324be9870923fd4d61692bda929f284178622a64796f55663b"
+
+[[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
 hash = "a66f8141f7b782ca896b0903088283192872c653d0e2d1686948eba550f6d673"
 
@@ -334,7 +338,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "f03b5d0b48aa03004f224846419e64fdaa1208342380470660e735511c9464b8"
+hash = "639a7c8cddc9ac0420f07d380294f9de7324c9cb8caad0b2ee8d2ea17fde9e30"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -526,7 +530,7 @@ hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
 file = "kubejs/config/probejs.json"
-hash = "5c5eb5cca0020e0a4ad6847a3c832584f4126260461692ff0e4427e83f6656f5"
+hash = "a28600326146f4cca9309bb8a2573a77381e55a1a4c9f4c87320ef3805246817"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -641,6 +645,10 @@ file = "kubejs/server_scripts/gtec.js"
 hash = "591b750b197e3b6534bec88cf262f911f596e4bf2a3f9df5dfe85864090dce61"
 
 [[files]]
+file = "kubejs/server_scripts/loot.js"
+hash = "ce2919ac1b22027dbde156a64c04b642102e2d10f5b9ad1b1d131ee235088bdc"
+
+[[files]]
 file = "kubejs/server_scripts/multiblocks/bonsai.js"
 hash = "31420f756d83950e8fefd19ee67cd3f96ddc999631da96e83e0f6cfc44395f63"
 
@@ -666,7 +674,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"
-hash = "3446021bae7d9ae6af0e73fc730038fdf988717d5f0322b3d888f32e4faa670d"
+hash = "38a7c4592d77f357de20c1a3616e97eda72a48fe46278cfab4489508de7f9f80"
 
 [[files]]
 file = "kubejs/server_scripts/simplification.js"
@@ -797,7 +805,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "74f56c209ba2019cb0754df5618d6248c0cf3eca2f6b87652bb6769b61ed1ef3"
+hash = "92b6f4fe8da962e961ab5f8374ebf35987d7c3278702dd83de41757ab844f0ba"
 metafile = true
 
 [[files]]
@@ -817,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "6cb7ed3da2bab486e066d1d4617ba51b17b1533be847138d40b4b5c1b001f124"
+hash = "48d598e695de97bdfce0eb678c461bf64df8689f92f5301921b87146aa0761bb"
 metafile = true
 
 [[files]]
@@ -832,7 +840,7 @@ metafile = true
 
 [[files]]
 file = "mods/entangled.pw.toml"
-hash = "e2b0995817583f85d3bef1c502596f2aba45bc886f7f915f0638a7c58dd8387d"
+hash = "0d37822e646fb9c508a9cbb89e2c65bcbf451194db9a3d67d51f54cda5039c59"
 metafile = true
 
 [[files]]
@@ -842,7 +850,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "26775408e949ce3c911ed0efe91f9f52cc7b75f9dcfa36c75b6e7a3efcf75201"
+hash = "73c0af900cea34a2b583b31b3189e11a2c85a294a4bc230ce0e3a7ff21da424e"
 metafile = true
 
 [[files]]
@@ -867,7 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/flib.pw.toml"
-hash = "84c859b92abc5d7db0251d7bcc046293ff0a26729b92feaa3977e082263a9c06"
+hash = "982f61f218419d8422a9325ab3a3762648153bd673d410bdbe1d8ada329d1fc0"
 metafile = true
 
 [[files]]
@@ -887,7 +895,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "21f9927a40008dc6755ef70817ebd19196b9b4ec29713950fe5a027876818692"
+hash = "3cac08c5b97834646441ad7457a42ba22a1a458cb4da16f8f13be2dae3d9ec20"
 metafile = true
 
 [[files]]
@@ -897,17 +905,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "0d2a80abab32de6a2094520dacb0fbca2d1a66f6c7f3c6f441c07320e2572856"
+hash = "c6a6db5cfdde50e43e7f8537f3cb495cc55a6e54af5a53e46eda92000ae69fa3"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "d5ccef95f428e293519e95aef7f8f61d3a8253c7ce1339ad3b9b1af2c313cd22"
+hash = "0de41e99ee98e3158f4a3ffef47862bdd4c0334edf1e424a55261d087417a931"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "479d003b5d24de8793019d37d2c36a679f3a7e8d9a1604aefcfe61a981fe354d"
+hash = "76c3828b4e7288b79d6b0ca1418410539082a749650f9c85c6b03cf53ed1221e"
 metafile = true
 
 [[files]]
@@ -917,12 +925,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "c29644a21f7936f1db9dc3c3dd54fe593a91dfeb1cc3f13ffc5fff5e02f890a6"
+hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
 metafile = true
 
 [[files]]
 file = "mods/gcyr.pw.toml"
-hash = "c4d363a508eefd79fdb46c6dd4f7eeb1a35f0a1a3c0d6b6b00f8e3c3bd64cfd7"
+hash = "b2f4a43cfa6f8f360c0abd6266ac91d23256ff15817f06d9c77c851f50348b71"
 metafile = true
 
 [[files]]
@@ -957,7 +965,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-collectors.pw.toml"
-hash = "285da79967ee7ed6cea309be50d07c7294a087d66e56ffc862bfb453775a5899"
+hash = "4fdb75b6a3ad133e0f80c3b9a55695578c1be63f2e1e034e943adbce3b00545b"
 metafile = true
 
 [[files]]
@@ -982,7 +990,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "1c579abc5087a9fefa92484a76a2c9a7bef46ba14fb431d452aad806be15fd3a"
+hash = "3036c1d17c0ec750c48e97813c51b20b503ba7c5284946f89bb3d34aa5201142"
 metafile = true
 
 [[files]]
@@ -1017,7 +1025,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "049b2cb43144e1137204f579574a94c8520b33e3d6a39d6ad309f498b9387e40"
+hash = "9c29166ac593cc02740a23ead3862f61a78d733e3c72567413ed6ef19f85e182"
 metafile = true
 
 [[files]]
@@ -1087,7 +1095,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "dbe03acc1a3ad86c78aa728d9b2a97991f4cc5cb113fcc2747caab1ee49b56e7"
+hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
 metafile = true
 
 [[files]]
@@ -1097,7 +1105,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "e16c5c98a47a46ee08ca4d85ff9eec4ba0169112eb12793996bb7edb016a8688"
+hash = "061e045fe8fdd1337aa80281128e79d44b842a2603acf23b2219362e016fbf63"
 metafile = true
 
 [[files]]
@@ -1107,12 +1115,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3e7b8ddab50ecf7bbb463731e8ab4d640855842a30ded446ef68cb60f0911388"
+hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e71130c2bd6455b80dc39a9af3c988c5a21295f107803b0266188babdfc5ad75"
+hash = "46a595e8297691a2265ebe21f594125f39fe96482ab6916e748cbdb7f66a6457"
 metafile = true
 
 [[files]]
@@ -1157,7 +1165,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "f2c09150e959e4b0d303eecb4b703b4a74a33d07cefbacd9ca0ad480de19ca03"
+hash = "7dea79ae9793a1a5ff3bb97f17ab5f835d07fd1053ade9114feced05bccb0229"
 metafile = true
 
 [[files]]
