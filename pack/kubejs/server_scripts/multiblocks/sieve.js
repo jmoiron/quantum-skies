@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
     // HV can handle 16 (16 is the max for this recipe type)
 
     greg.industrial_sieve("flint_mesh")
+        .itemInputs("minecraft:gravel")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_magnetite_ore", 3000, 1000)
         .chancedOutput("gtceu:crushed_gold_ore", 2500, 1000)
@@ -37,6 +38,7 @@ ServerEvents.recipes(event => {
         .duration(300)
 
     greg.industrial_sieve("iron_mesh")
+        .itemInputs("minecraft:gravel")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_ruby_ore", 2000, 1000)
         .chancedOutput("gtceu:crushed_redstone_ore", 2500, 1000)
@@ -49,6 +51,7 @@ ServerEvents.recipes(event => {
         .duration(300)
     
     greg.industrial_sieve("aluminium_mesh")
+        .itemInputs("gtceu:moon_regolith_dust")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_bauxite_ore", 2000, 1000)
         //.chancedOutput("gcyr:crushed_fluorite_ore", 2000, 1000)
@@ -56,8 +59,10 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(300)
 
-    // titanium mesh is an EV recipe
+    // titanium mesh is an EV recipe..
+    // gameplay loop should be to lock this replenishable recipe to mars
     greg.industrial_sieve("titanium_mesh")
+        .itemInputs("gtceu:mars_regolith_d_dust")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:plutonium_dust", 1500, 1000)
         .chancedOutput("gtceu:crushed_cooperite_ore", 2000, 1000)

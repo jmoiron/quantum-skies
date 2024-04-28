@@ -13,26 +13,52 @@ ServerEvents.recipes(event => {
         }
     );
 
+    ["gcyr:basic_rocket_motor", "gcyr:basic_fuel_tank", "gcyr:advanced_rocket_motor", "gcyr:advanced_fuel_tank"].forEach(item => {
+        event.remove({output: item});
+    });
+
     let greg = event.recipes.gtceu;
 
     greg.vehicle_assembly_building("basic_rocket_motor")
+        .itemInputs("4x gtceu:power_thruster")
         .itemInputs("gtceu:stainless_steel_frame")
         .itemInputs("6x gtceu:black_steel_plate")
         .itemInputs("4x gtceu:graphene_foil")
-        .inputFluids("gtceu:rp_1_rocket_fuel 1000")
+        .inputFluids("gtceu:rp_1_mixed_fuel 8000")
         .itemOutputs("gcyr:basic_rocket_motor")
         .EUt(480)
         .duration(600);
+    
+    greg.vehicle_assembly_building("advanced_rocket_motor")
+        .itemInputs("4x gtceu:advanced_power_thruster")
+        .itemInputs("gtceu:titanium_frame")
+        .itemInputs("6x gcyr:kapton_k_plate")
+        .itemInputs("4x gcyr:para_aramid_foil")
+        .inputFluids("gtceu:methylhydrazine_nitrate_rocket_fuel 16000")
+        .itemOutputs("gcyr:advanced_rocket_motor")
+        .EUt(1920)
+        .duration(1200);
+
 
     greg.vehicle_assembly_building("basic_fuel_tank")
         .itemInputs("gtceu:stainless_steel_fluid_cell")
         .itemInputs("4x gtceu:carbon_fiber_plate")
         .itemInputs("4x gtceu:graphene_foil")
         .itemInputs("3x gtceu:magnalium_plate")
-        .inputFluids("gtceu:rp_1_rocket_fuel 1000")
+        .inputFluids("gtceu:rp_1_mixed_fuel 8000")
         .itemOutputs("gcyr:basic_fuel_tank")
         .EUt(480)
         .duration(600);
+    
+    greg.vehicle_assembly_building("advanced_fuel_tank")
+        .itemInputs("gtceu:titanium_fluid_cell")
+        .itemInputs("4x gtceu:carbon_fiber_plate")
+        .itemInputs("4x gcyr:kapton_k_foil")
+        .itemInputs("3x gtceu:magnalium_plate")
+        .inputFluids("gtceu:methylhydrazine_nitrate_rocket_fuel 16000")
+        .itemOutputs("gcyr:advanced_fuel_tank")
+        .EUt(1920)
+        .duration(1200);
 
     greg.vehicle_assembly_building("rocket_seat")
         .itemInputs("minecraft:light_gray_carpet")
