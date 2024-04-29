@@ -182,7 +182,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "70afcdbf78aafb997f1a095bf07d9c338632275cb7e23500a47beab38c6d2988"
+hash = "c30eaa3b15e9466f9fbae617d1ee03de57a73c2ac93e1084b6b6ff5c8c3083c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -198,7 +198,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "0feda75d5538f67f719b8dc586c2d16b3950bfa2e8cce5181dea4de2fc68abb8"
+hash = "ccd9beda5ef7ba175688852229efa3d98eba4b2593ef206feeb4b714dc5d09bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -286,7 +286,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "55a1625637341d8988fff0aa3b6d5cc2d9dcbf3f20b4b272a6058497198ff5df"
+hash = "5ffa7ef6831146fd4ae4146de64933a4099eadb66f7db073e36b6c2790da2d63"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -302,11 +302,11 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "03256977c025f356acab135eb6f634eff75e49216c0502c0005248322f36e162"
+hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "9392f6e2a6a341c28880e745c77861a2a7c411486045ac42efcc1b57a497a54a"
+hash = "0e4b17a36ea7d5ce55a1caac5fd615cc8df9f64f1abc23f7a36bbfd37d9b2902"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,7 +326,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/customization.json5"
-hash = "3e8e12f2b7a6ce324be9870923fd4d61692bda929f284178622a64796f55663b"
+hash = "8c5a0c6706bf66424576cc4534b03d68a350b836e346a35dd8b5de715490053c"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
@@ -338,7 +338,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "639a7c8cddc9ac0420f07d380294f9de7324c9cb8caad0b2ee8d2ea17fde9e30"
+hash = "c69e03a2c0a42b8210d58c38208c89a7687311ef34c7abb6ac75d94a55d3b180"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -358,7 +358,7 @@ hash = "39b21198ee1271b42da3ca2dc7fd62e9b70e3e43cbffb27683edcbe8331ebf14"
 
 [[files]]
 file = "config/skyblockbuilder/permissions.json5"
-hash = "6838417d9a14976e0a04fe4e9ffc18fb73cb750459765e0a842897a293f930b7"
+hash = "4055d06896ccbcb39f882e28e450914baff51ae2b1fa1c5b6588c06deb6603c1"
 
 [[files]]
 file = "config/skyblockbuilder/spawn.json5"
@@ -374,7 +374,7 @@ hash = "5466cc02aab4b5066197fd5d0b689615f060060b261337697029041a25c6b992"
 
 [[files]]
 file = "config/skyblockbuilder/templates.json5"
-hash = "dbcaf0df99d9ba9a204925730e7632abf370083f5077a0d31cb398fb71164ef1"
+hash = "ec0607abb10398836902b2e2b9b3aa4574ffc9fad2e11e0962cc76a83bcbb5a9"
 
 [[files]]
 file = "config/skyblockbuilder/templates/basic_island.snbt"
@@ -465,6 +465,10 @@ file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
 
 [[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
+
+[[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
 hash = "b882485f06e840273d3d289b6040442b9a93f0c3a7ea01d730e0fea76d246c22"
 
@@ -490,7 +494,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "771dd0279b382dbc88a02de0654f0547f0ca88d59ad8ad6ba0d585650acf27ba"
+hash = "fc7d4b09d64ddf1c17694b609cd2f92483cb086c3b4c092be159b1abe3ddc77f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -614,7 +618,7 @@ hash = "f454db7e228ef97181e9992189fac325d3f29b1be7df8849bcf0d356ea74e9a9"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr.js"
-hash = "3601e1e94d41ed8b1c8080485f1261f0547440647dc6a3abfcfb5b9341e8dac9"
+hash = "69552c7430ff5b2661b2a55c1c0e2abf44eaaf03db28b33f1292a17e02be7ea4"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -662,11 +666,11 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
-hash = "671cd238a1886d169a8fcb986841bd8c5176593705f429e6e7ed1b7133df9093"
+hash = "4dd8b3ef4d0374c3508ff338e3acb2b26ba61efe23ba6ed3e23a5c86c05fc0ac"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
-hash = "0fed8476e24da8753e90a25eb7ef7272a911c8c6bf0d5cb93c2da4e4d9c7bb9b"
+hash = "f952d7faa457203a39a0bfc376683a44cf1affbed87d7634c936c2e370a74868"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
@@ -694,7 +698,7 @@ hash = "f3581cbeb887344fc989c56d1e67df96065a0947aacc86f5dfb70734167d52b4"
 
 [[files]]
 file = "kubejs/startup_scripts/fluxnet.js"
-hash = "d81659de4917186eea344a2ec24fef8e31c4dc4a48b82da94db467c560800894"
+hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
@@ -703,6 +707,10 @@ hash = "a30edea8640df6dff0df76d801383e8fde752fc65c3f3b315774ce08e1be15a9"
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
 hash = "b6b62a6844fceb25c6a6875daf8e58e7c68a6e728e894345defddd623ef360d5"
+
+[[files]]
+file = "kubejs/startup_scripts/materials.js"
+hash = "3fede4fd2722cc164e9514f6f9cca4e7ae74a28360a6f3bb75323e40bf8d2956"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
@@ -722,7 +730,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/sieve.js"
-hash = "ee5840c3615bc295793e9a335507dfb0256c52b37c3efbc6fea702a8441238c8"
+hash = "a07f70cf58b5cff2d1998ca08014c32506850f4230873da16b5785e84a031a3b"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
