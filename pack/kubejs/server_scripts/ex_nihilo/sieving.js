@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         "minecraft:dirt",
         "exnihilosequentia:grass_seeds",
     ]);
-    
+
     // remove the default recipes in favor of the loot tables
     event.remove({type: "exnihilosequentia:sifting"});
 
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
                 ["minecraft:dirt", [1.0, 0.4]],
                 ["minecraft:gravel", 0.4]
             ],
-            "#forge:gravel": [ 
+            "#forge:gravel": [
                 // iron + copper + tin for steam age
                 ["gtceu:crushed_iron_ore", 0.35],
                 ["gtceu:crushed_magnetite_ore", 0.15],
@@ -217,12 +217,12 @@ ServerEvents.recipes(event => {
             mesh: meshType
         }));
     }
-    
-    function pct(rolls) {
-        if (typeof rolls === 'number') {
-            return rolls * 10000
+
+    function chances(rolls) {
+        if (rolls instanceof Array) {
+            return rolls.map(r => r*10000);
         }
-        return rolls[0] * 10000
+        return [rolls*10000]
     }
 
     Object.entries(sieveRecipes).forEach(([meshType, v]) => {
@@ -247,11 +247,12 @@ ServerEvents.recipes(event => {
                     .notConsumable(`exnihilosequentia:${meshType}_mesh`)
                     .itemInputs(input)
 
-                outputs.forEach((output) => r.chancedOutput(output[0], pct(output[1]), 500))
+                outputs.forEach(output => {
+                    chances(output[1]).forEach(chance => r.chancedOutput(output[0], chance, 500));
+                });
             }
 
         })
     })
-    
-});
 
+});

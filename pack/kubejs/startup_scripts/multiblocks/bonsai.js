@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     let abilities = Predicates.abilities
 
-    function setCount(pred, limit, preview) { 
+    function setCount(pred, limit, preview) {
         return pred.setMaxGlobalLimited(limit).setPreviewCount(preview)
     }
 
@@ -51,5 +51,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             false
         )
         */
+
+    /* TODO: add a greenhouse that can grow other crops */
 
 });
