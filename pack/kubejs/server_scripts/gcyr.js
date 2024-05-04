@@ -6,6 +6,8 @@ ServerEvents.recipes(event => {
 
     let greg = event.recipes.gtceu;
 
+    event.remove({output: "gcyr:launch_pad"});
+
     greg.assembler("launch_pad")
         .itemInputs("3x minecraft:yellow_concrete")
         .itemInputs("3x minecraft:black_concrete")
@@ -28,14 +30,30 @@ ServerEvents.recipes(event => {
         }
     );
 
-    event.remove({type: "gtceu:chemical_bath", outputs: "gcyr:fiberglass"});
+    // lower tier of some recipes to make moon available at HV
+    event.remove({id: "gcyr:chemical_bath/fiberglass"});
 
-    event.recipes.gtceu.chemical_bath("fiberglass_hv_tier")
+    greg.chemical_bath("fiberglass_hv_tier")
         .itemInputs("2x gtceu:silicon_dioxide_dust")
         .inputFluids("gtceu:epoxy 250")
         .outputFluids("gcyr:fiberglass 250")
         .EUt(480)
         .duration(400);
+    
+    event.remove({id: "gtceu:centrifuge/brominated_brine"});
+    greg.centrifuge("brominated_brine_hv")
+        .inputFluids("gtceu:iodine_brine_mixture 1000")
+        .outputFluids("gtceu:brominated_brine 1000", "gtceu:iodine_slurry 300")
+        .EUt(256)
+        .duration(120);
+    
+    event.remove({id: "gtceu:dehydrator/iodine"});
+    greg.dehydrator("iodine_hv")
+        .inputFluids("gtceu:iodine_slurry 1000")
+        .itemOutputs("gtceu:iodine_dust")
+        .EUt(320)
+        .duration(200);
+
 
     event.recipes.gtceu.forge_hammer("moon_stone_to_sand")
         .itemInputs("gcyr:moon_stone")

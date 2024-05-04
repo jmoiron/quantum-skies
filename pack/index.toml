@@ -62,7 +62,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "adc31b3b6fc77db0d43e80c093a9d6949af76eb704e18a2a9f03b117d72bfee4"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -226,7 +226,7 @@ hash = "37972c94fa417ae8ebb36133856489a73d92f4e745729132be584ccdf452f1ee"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "e27576ffbc3cfd269bd0dd4567cb0622563dae74e04be3e5643e2e70030c95a3"
+hash = "ac2ba9f7ad3bafa44f5cbe5f53061f98fcd18cad35de10c6ebcd79cb418f29bd"
 
 [[files]]
 file = "config/gtnn.json"
@@ -306,7 +306,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0e4b17a36ea7d5ce55a1caac5fd615cc8df9f64f1abc23f7a36bbfd37d9b2902"
+hash = "989efb662723ccbf3268e7f41bf5b258b845c011b6d7909035734fc7dce70314"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,7 +326,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/customization.json5"
-hash = "8c5a0c6706bf66424576cc4534b03d68a350b836e346a35dd8b5de715490053c"
+hash = "3e8e12f2b7a6ce324be9870923fd4d61692bda929f284178622a64796f55663b"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
@@ -338,7 +338,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "c69e03a2c0a42b8210d58c38208c89a7687311ef34c7abb6ac75d94a55d3b180"
+hash = "c16b9fdb0ea5b05464f62b98fffb35a1943ca9553ca3ac8fa68081084a551b71"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -463,10 +463,6 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -663,6 +659,10 @@ hash = "6a2f9e7915525a7b1d2eeedfb5b23ab5057de2ed28dae4a57a39fdd693f2f70e"
 [[files]]
 file = "kubejs/server_scripts/multiblocks/crucible.js"
 hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
+
+[[files]]
+file = "kubejs/server_scripts/multiblocks/planetary_drill.js"
+hash = "d48ce393ff7a2478280b8902e6ac896420893524f9e7667fe4338efd275e3118"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
