@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ad_astra.jsonc"
-hash = "52e9c20de34fd2fd4c0410697538922c8a63591da58117c40c88c681e08f7264"
-
-[[files]]
-file = "config/ad_astra_giselle_addon.ver2.jsonc"
-hash = "89c82e2f933ba2d516712e8fe935a67f834821851eea43ee4d2570a5bc9b7be8"
-
-[[files]]
 file = "config/ae2/client.json"
 hash = "e0f89e83d16b5fa41481418be51890d90322fb357ccb7e7760d59e985590cd8f"
 
@@ -286,7 +278,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "5ffa7ef6831146fd4ae4146de64933a4099eadb66f7db073e36b6c2790da2d63"
+hash = "1326987f62c1b3819c1681d36becf36441d0c54fa35399d177136e08e4eb3431"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -306,7 +298,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "989efb662723ccbf3268e7f41bf5b258b845c011b6d7909035734fc7dce70314"
+hash = "00f24a191f6d431cc63d62af182bba8f3137da957121e3ede8962e1bcfe78dc9"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,7 +318,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/customization.json5"
-hash = "3e8e12f2b7a6ce324be9870923fd4d61692bda929f284178622a64796f55663b"
+hash = "8c5a0c6706bf66424576cc4534b03d68a350b836e346a35dd8b5de715490053c"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
@@ -338,7 +330,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "c16b9fdb0ea5b05464f62b98fffb35a1943ca9553ca3ac8fa68081084a551b71"
+hash = "619bd3e387ebbcf2f834c37093f8c0cefc45d7a1dd850c7d8a212aa4837ff019"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -463,6 +455,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -610,11 +606,11 @@ hash = "5d28a0c6664fc5af8fd6c40f1152b9f4e42746f5298aa5401b93554ae5fe5560"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "f454db7e228ef97181e9992189fac325d3f29b1be7df8849bcf0d356ea74e9a9"
+hash = "1d279f861797945b3bd5a1d5bd3570e3ec3d32a4398d91968a9097c79fcd16a7"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr.js"
-hash = "69552c7430ff5b2661b2a55c1c0e2abf44eaaf03db28b33f1292a17e02be7ea4"
+hash = "3f8f0500a79ffe797824098427fbe96e6e14cc4644cf8d9fd1e617b9ee954485"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -661,7 +657,7 @@ file = "kubejs/server_scripts/multiblocks/crucible.js"
 hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
-file = "kubejs/server_scripts/multiblocks/planetary_drill.js"
+file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
 hash = "d48ce393ff7a2478280b8902e6ac896420893524f9e7667fe4338efd275e3118"
 
 [[files]]
@@ -714,23 +710,15 @@ hash = "3fede4fd2722cc164e9514f6f9cca4e7ae74a28360a6f3bb75323e40bf8d2956"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
-hash = "e0b608daf855fceeba67034c4c697da534fb06a1a9fc6e82cee4c0f862621441"
+hash = "9135daa8b5a25675a6f3e0da4335d7e9311877e9b28906e07136778e9d093fc6"
 
 [[files]]
-file = "kubejs/startup_scripts/multiblocks/cauldron.js"
-hash = "9c2736ad18a88694aec45a69f045543a4547adbe72d183f42278aeab759a8c30"
+file = "kubejs/startup_scripts/multiblocks/ex_nihilo.js"
+hash = "99c17e3b7f958d07dc2df9ae1934a8e29138bf510d51d58b047f577bf0ff8e14"
 
 [[files]]
-file = "kubejs/startup_scripts/multiblocks/crucible.js"
-hash = "9cb2ecfa9322f0dde03d14a5084e084af3a9075aa132e739257991b77a17b053"
-
-[[files]]
-file = "kubejs/startup_scripts/multiblocks/greenhouse.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "kubejs/startup_scripts/multiblocks/sieve.js"
-hash = "a07f70cf58b5cff2d1998ca08014c32506850f4230873da16b5785e84a031a3b"
+file = "kubejs/startup_scripts/multiblocks/planetary_core_drill.js"
+hash = "9c72f39585cd1a4f96608782df43777217336f57fc464956f76da05c57edcc2b"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
