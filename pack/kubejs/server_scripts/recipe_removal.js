@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
     //event.remove({type: "exnihilosequentia:sifting"});
 
     event.remove({ input: "minecraft:fire_charge"});
-    event.remove({ input: "thermal:earth_charge"});
 
     // remove PAs in favor of gcym
     ["iv", "luv"].forEach(tier => {
@@ -42,4 +41,3 @@ ServerEvents.recipes(event => {
 
 
 });
-

@@ -30,6 +30,27 @@ ServerEvents.recipes(event => {
         }
     );
 
+    ["gcyr:space_fabric", "gcyr:space_upgrade_smithing_template"].forEach(item => {
+        event.replaceInput({output: item},
+            "gtceu:polybenzimidazole_foil",
+            "gtceu:silicone_rubber_foil"
+        );
+    });
+
+    event.replaceInput({output: "gcyr:space_chestplate"},
+        "gtceu:tungstensteel_fluid_cell",
+        "gtceu:stainless_steel_fluid_cell"
+    );
+
+    ["helmet", "chestplate", "boots", "leggings"].forEach(piece => {
+        event.replaceInput({output: `gcyr:space_${piece}`},
+            "#gtceu:circuits/ev",
+            "#gtceu:circuits/hv"
+        )
+    });
+
+
+
     // lower tier of some recipes to make moon available at HV
     event.remove({id: "gcyr:chemical_bath/fiberglass"});
 
@@ -39,14 +60,14 @@ ServerEvents.recipes(event => {
         .outputFluids("gcyr:fiberglass 250")
         .EUt(480)
         .duration(400);
-    
+
     event.remove({id: "gtceu:centrifuge/brominated_brine"});
     greg.centrifuge("brominated_brine_hv")
         .inputFluids("gtceu:iodine_brine_mixture 1000")
         .outputFluids("gtceu:brominated_brine 1000", "gtceu:iodine_slurry 300")
         .EUt(256)
         .duration(120);
-    
+
     event.remove({id: "gtceu:dehydrator/iodine"});
     greg.dehydrator("iodine_hv")
         .inputFluids("gtceu:iodine_slurry 1000")
@@ -60,25 +81,25 @@ ServerEvents.recipes(event => {
         .itemOutputs("gcyr:moon_sand")
         .EUt(16)
         .duration(10);
-   
+
     event.recipes.gtceu.forge_hammer("moon_sand_to_regolith_block")
         .itemInputs("gcyr:moon_sand")
         .itemOutputs("gtceu:moon_regolith_block")
         .EUt(16)
         .duration(10);
-    
+
     event.remove({type: "gtceu:macerator", output: "gtceu:moon_regolith_dust"});
-    
+
     event.recipes.gtceu.macerator("moon_regolith_block_to_dust")
         .itemInputs("gtceu:moon_regolith_block")
         .itemOutputs("4x gtceu:moon_regolith_dust")
         .EUt(16)
         .duration(10);
-    
+
     event.recipes.gtceu.macerator("mars_regolith_to_dust")
         .itemInputs("gcyr:mars_regolith")
         .itemOutputs("4x gtceu:mars_regolith_d_dust")
         .EUt(16)
         .duration(10);
-    
+
 });
