@@ -134,7 +134,7 @@ hash = "63d640feaef255e65685d209c79ca8966b3ad5f80b003a467dd3ba9a35d0696e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "9db05fb5fd5889542a8199ef9b2bc66f53075e882d2f061a4acee3c8083d1ab6"
+hash = "b6d72ec9679fa113509228c78a586e122c4c2ab165fcb7d9cd7c9f19da74ad5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -298,7 +298,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "540848454e92b79a52eab2e949902c07b62bf4dd5d2154a30b09b3e6c972f408"
+hash = "7965bc85a0c9177732ee5b659326c3ae6c2f1b9dfd1022ad5d277818c4996b24"
 
 [[files]]
 file = "config/panorama.json"
@@ -330,7 +330,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "f836805234b63349f1fa39fe058209a0f1d19a4e62f739cbc8e6b928d0aa5402"
+hash = "86f30ad7d52c4a5f5533934419214fea100f190b71eb4c0c02dfff56e4a31960"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -610,7 +610,7 @@ hash = "1d279f861797945b3bd5a1d5bd3570e3ec3d32a4398d91968a9097c79fcd16a7"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr.js"
-hash = "3f8f0500a79ffe797824098427fbe96e6e14cc4644cf8d9fd1e617b9ee954485"
+hash = "2b43308075b68328da282fa38d2f708a8e2583dd00c7ef4c06447350455b2e82"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -674,7 +674,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"
-hash = "38a7c4592d77f357de20c1a3616e97eda72a48fe46278cfab4489508de7f9f80"
+hash = "b0799580e307d0123d9612c1dc7045b54b939f2f77c020b0a234662babdaefd2"
 
 [[files]]
 file = "kubejs/server_scripts/simplification.js"
@@ -846,7 +846,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "73c0af900cea34a2b583b31b3189e11a2c85a294a4bc230ce0e3a7ff21da424e"
+hash = "4d2020bd1b2ec88ee90d9931d514c745bc2a9293d19b6d7e158442f67116f35c"
 metafile = true
 
 [[files]]
@@ -926,7 +926,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr.pw.toml"
-hash = "b2f4a43cfa6f8f360c0abd6266ac91d23256ff15817f06d9c77c851f50348b71"
+hash = "d4ceedf62cf67afa92528e28ed9bd59bff30bbf7a259dc021652e05319ccb168"
 metafile = true
 
 [[files]]
@@ -946,12 +946,12 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "4a0d62c35ae6a3a0345fe6f7bd9c8d24d5fc74b94dd016b46da6ca811903a9a9"
+hash = "ddc2a1986274dfe270f40ce01eaab43f0bdab21fa3b06f52c95581f467f7decd"
 metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "43a4cdc91e0aa65699e0dda99bd60c4ff0a47c896d901ed82e067a6b5e02fbff"
+hash = "035c465e2efe1eaf2d4466e725cac2cd41fbb3dc444407d0a719b35c0a6e376e"
 metafile = true
 
 [[files]]
