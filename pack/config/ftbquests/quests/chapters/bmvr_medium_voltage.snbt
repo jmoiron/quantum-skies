@@ -89,7 +89,13 @@
 				"6DBFD1013B005FC5"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&6Light Fuel&r is a good power source for &bMV&r, and puts you on a good path for power through the end of &6HV&r."
+				""
+				"It is the primary component in &6Diesel&r, a good late-&bMV&r/early-&6HV&r fuel, which itself can be upgraded into &eCetane-Boosted Diesel&r, which can easily take you into &5EV&r."
+			]
 			id: "16935534AA79DBEE"
+			size: 1.25d
 			tasks: [{
 				id: "10EB0CE3D44EAA8B"
 				item: "gtceu:light_fuel_bucket"
@@ -114,6 +120,7 @@
 				"Oil is simpler to source at scale, petrochem is required for progress eventually, and large combustion engines at EV+ are much easier to automate."
 			]
 			id: "1E1748C74140C63A"
+			size: 1.25d
 			subtitle: "Beloved hexagonal carcinogen"
 			tasks: [{
 				id: "018EDDA49E6EFD7D"
@@ -506,9 +513,11 @@
 			description: [
 				"The &dLarge Bronze Boiler&r is the first in a succession of large, multi-block boilers."
 				""
-				"They &bchew&r through fuel, but produce large amounts of steam.  The &dLBB&r produces 800mb/t, equivalent to 400EU/t or a little over 3 &6MV&r amps."
+				"They &cchew&r through fuel, but produce large amounts of steam.  The &dLBB&r produces 800mb/t, equivalent to 400EU/t or a little over 3 &6MV&r amps."
 				""
-				"&6Lava&r seems like a tempting fuel source, but you will need to produce 1 bucket every 3.5 seconds, which would require 72 crucibles or 12 large crucibles."
+				"&6Lava&r is a tempting fuel source, but you will need to produce 1 bucket every 3.5 seconds, which would require 72 crucibles or 12 large crucibles."
+				""
+				"Steam may feel comfortable, but it's &ehighly&r recommended that you go with a turbine fuel (like &6Benzene&r) or a combustion fuel (like &6Light Fuel&r or &6Diesel&r) as soon as you can."
 			]
 			id: "592A0965509B948F"
 			optional: true
@@ -572,6 +581,11 @@
 				"207B8A217A5CB777"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&6Heavy Fuel&r is not usable as a fuel in a &bcombustion generator&r and thus is not a viable direct source of power.  "
+				""
+				"However, the various &ccracked&r forms of &6Heavy Fuel&r yield useful hydrocarbons, and it is a component in &6Diesel&r, a very good fuel for &bMV&r and early &6HV&r."
+			]
 			id: "5B6C29247F5D6E21"
 			tasks: [{
 				id: "1998031978AABA20"
@@ -1247,6 +1261,11 @@
 				"6DBFD1013B005FC5"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&6Naphtha&r procuces as much energy per litre as &6Light Fuel&r when used in a combustion generator, but the yields are lower and &6Naphtha&r doesn't give you a path towards better fuels."
+				""
+				"Furthermore, &ccracking&r &6Naphtha&r in a &bCracker&r (or a &bChem Reactor&r) is one of the better sources of &6Ethylene&r and the only source of &aPara-Xylene&r."
+			]
 			id: "16F8B12D38FAFB4E"
 			tasks: [{
 				id: "71DD265207C04D28"

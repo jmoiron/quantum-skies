@@ -443,6 +443,7 @@
 			y: -13.0d
 		}
 		{
+			description: ["Producing &6Bromine&r, so called because of its awful smell, is a long process that starts off by treating &6saltpeter&r with some &1saltwater&r."]
 			id: "47AFAF23FB7AB33C"
 			tasks: [
 				{
@@ -451,8 +452,8 @@
 					type: "item"
 				}
 				{
-					id: "659DC7D35E918FE8"
-					item: "minecraft:water_bucket"
+					id: "4B6990EECEC0BAC9"
+					item: "gtceu:salt_water_bucket"
 					type: "item"
 				}
 			]

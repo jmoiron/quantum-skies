@@ -49,26 +49,37 @@ ServerEvents.recipes(event => {
         .notConsumable("exnihilosequentia:iron_mesh")
         .EUt(480)
         .duration(300)
-    
+
     greg.industrial_sieve("aluminium_mesh")
         .itemInputs("gtceu:moon_regolith_dust")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
-        .chancedOutput("gtceu:crushed_bauxite_ore", 2000, 1000)
-        //.chancedOutput("gcyr:crushed_fluorite_ore", 2000, 1000)
+        .chancedOutput("gtceu:crushed_bauxite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_ilmenite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_aluminium_ore", 2500, 1000)
+        .chancedOutput("gcyr:crushed_fluorite_ore", 2000, 1000)
         .notConsumable("kubejs:aluminium_mesh")
         .EUt(480)
         .duration(300)
 
-    // titanium mesh is an EV recipe..
-    // gameplay loop should be to lock this replenishable recipe to mars
-    greg.industrial_sieve("titanium_mesh")
-        .itemInputs("gtceu:mars_regolith_d_dust")
+    greg.industrial_sieve("titanium_mesh_moon")
+        .itemInputs("gtceu:moon_regolith_dust")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:plutonium_dust", 1500, 1000)
         .chancedOutput("gtceu:crushed_cooperite_ore", 2000, 1000)
         .chancedOutput("gtceu:crushed_monazite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_bastnasite_ore", 2500, 1000)
+        .notConsumable("kubejs:titanium_mesh")
+        .EUt(1920)
+        .duration(300)
+
+    // titanium mesh is an EV recipe..
+    // gameplay loop should be to lock this replenishable recipe to mars
+    greg.industrial_sieve("titanium_mesh_mars")
+        .itemInputs("gtceu:mars_regolith_d_dust")
+        .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_tungstate_ore", 2500, 1000)
         .chancedOutput("gtceu:crushed_scheelite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_neodymium_ore", 2000, 1000)
         .notConsumable("kubejs:titanium_mesh")
         .EUt(1920)
         .duration(300)

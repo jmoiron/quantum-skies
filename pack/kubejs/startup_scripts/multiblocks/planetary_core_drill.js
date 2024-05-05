@@ -6,13 +6,13 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("mudpit")
         .category("mudpit")
         .setEUIO("in")
-        .setMaxIOSize(3, 1, 0, 1)
+        .setMaxIOSize(3, 1, 5, 1)
         .setSound(GTSoundEntries.CHEMICAL);
 
     event.create("planetary_core_drill")
         .category("planetary_core_drill")
         .setEUIO("in")
-        .setMaxIOSize(3, 1, 0, 1)
+        .setMaxIOSize(3, 12, 2, 1)
         .setSound(GTSoundEntries.MINER);
 })
 
@@ -45,10 +45,10 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("C", Predicates.blocks(GTBlocks.CASING_TITANIUM_PIPE.get()))
                 .where("W", Predicates.blocks("gtceu:watertight_casing"))
                 .where("T", Predicates.blocks(GTBlocks.CASING_TITANIUM_STABLE.get())
-                    .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 2, 1))
-                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 1))
-                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 2, 1))
-                    .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 2, 1))
+                    .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 5, 1))
+                    .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 1, 1))
+                    .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 3, 1))
                     .or(setCount(abilities(PartAbility.INPUT_ENERGY), 2, 1)))
                 .where("P", Predicates.blocks("gtceu:titanium_large_fluid_pipe"))
                 .where("D", Predicates.blocks("gtceu:titanium_drum"))

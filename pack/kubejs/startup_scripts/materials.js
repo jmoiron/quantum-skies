@@ -25,6 +25,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .iconSet(GTMaterialIconSet.SAND);
 
     // mercury rock!
+    function dust(name, color) {
+        event.create(name).dust().color(color);
+    }
 
     function fluid(name, color) {
         event.create(name).fluid().color(color);
@@ -35,21 +38,36 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     }
 
     fluid("diesel_oil_mud", 0x476471);
+    fluid("hot_diesel_oil_mud", 0x666677);
+
     fluid("bitumen", 0x2d3533);
     fluid("sulphonated_bitumen", 0x003533);
     fluid("hot_heavy_oil", 0x331111);
 
     // hot heavy oil distills into these bitumen, lube oil, hf + lf
-    // lubricating oil.. lubricating oil is part of poly-alpha-olefin
-    // production
+    // lubricating oil..
     fluid("lubricating_oil", 0x444400);
 
     // hypochloric acid + ethylene
     gas("ethylene_oxide", 0x919174);
     // ethylene oxide + water -> ethylene glycol (antifreeze)
     fluid("ethylene_glycol", 0x70FF79);
+
     // 1-decene is the base olefin for our PAO
-    fluid("i_decene", 0xFFB9B5);
+    fluid("i_decene", 0xFFbbbb);
+    // poly-a-olefin solution
+    dust("i_decene_olefin_sludge", 0xffcccc)
+    // quench with distilled water in a washer
+    fluid("i_decene_solution", 0xffaaaa)
+    // add hydrogen
+    fluid("hydrogenated_i_decene_solution", 0xffaaaa)
+
+    // distilled from hydrogenated i_decene solution
+    fluid("i_decene_tetramer", 0xddccbb);
+
+    // tier 2 mud
+    fluid("poly_alpha_olefin_mud", 0x667788);
+    fluid("hot_poly_alpha_olefin_mud", 0x887788);
 
     // catalyst for PAO production (chem plant)
     event.create("boron_trifluoride")

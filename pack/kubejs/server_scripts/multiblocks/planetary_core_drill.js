@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:hypochlorous_acid 500")
         .inputFluids("gtceu:ethylene 1000")
         .inputFluids("gtceu:oxygen 1000")
-        .outputFluids("ethylene_oxide")
+        .outputFluids("gtceu:ethylene_oxide")
         .EUt(240)
         .duration(200);
 
@@ -147,11 +147,25 @@ ServerEvents.recipes(event => {
         .EUt(280)
         .duration(70);
 
+    // tier 1 mud
+    greg.mudpit("diesel_oil_mud")
+        .inputFluids("gtceu:lubricating_oil 1000")
+        .inputFluids("gtceu:ethylene_glycol 1000")
+        .inputFluids("gtceu:diesel 10000")
+        .inputFluids("gtceu:bitumen 5000")
+        .itemInputs("gtceu:barite_dust")
+        .itemInputs("gtceu:bentonite_dust")
+        .outputFluids("gtceu:diesel_oil_mud 12000")
+        .dimension("gcyr:luna")
+        .EUt(800)
+        .duration(100);
+
+    // 1-decene is the basis for PAO, which will be the base oil for tier 2 mud
     greg.chemical_reactor("i_decene")
         .inputFluids("gtceu:ethylene 1000")
         .inputFluids("gtceu:oxygen 4000")
-        .itemInputs("gtceu:cupronickel_dust")
-        .itemInputs("gtceu:aluminium_dust")
+        .chancedInput("gtceu:cupronickel_dust", 2000, -250)
+        .chancedInput("gtceu:aluminium_dust", 1000, -100)
         .outputFluids("gtceu:i_decene 1000")
         .EUt(480)
         .duration(300);
@@ -162,5 +176,74 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:boron_trifluoride")
         .EUt(480)
         .duration(100);
+
+    greg.chemical_plant("i_decene_oligomerization")
+        .inputFluids("gtceu:i_decene 10000")
+        .inputFluids("gtceu:boron_trifluoride 1000")
+        .itemOutputs("9x gtceu:i_decene_olefin_sludge_dust")
+        .outputFluids("gtceu:fluorine 3000")
+        .EUt(480)
+        .duration(200);
+
+    greg.chemical_bath("i_decene_solution")
+        .itemInputs("3x gtceu:i_decene_olefin_sludge_dust")
+        .inputFluids("gtceu:distilled_water 1000")
+        .itemOutputs("gtceu:small_boron_dust")
+        .outputFluids("gtceu:i_decene_solution 1500")
+        .EUt(800)
+        .duration(150);
+
+    greg.chemical_reactor("i_decene_solution_hydrogenation")
+        .inputFluids("gtceu:hydrogen 4000")
+        .inputFluids("gtceu:i_decene_solution 1000")
+        .outputFluids("gtceu:hydrogenated_i_decene_solution 2000")
+        .EUt(600)
+        .duration(300);
+
+    greg.centrifuge("i_decene_tetramer_separation")
+        .inputFluids("gtceu:hydrogenated_i_decene_solution 1000")
+        .outputFluids("gtceu:i_decene_tetramer 500")
+        .outputFluids("gtceu:hydrogen 1000")
+        .EUt(320)
+        .duration(40);
+
+    [["gcyr:mars", 1], ["gcyr:venus", 2]].forEach(([planet, circuit]) => {
+        greg.mudpit(`poly_alpha_olefin_mud_${planet.split(":")[1]}`)
+            .circuit(circuit)
+            .inputFluids("gtec:calcium_fluoride 1000")
+            .inputFluids("gtceu:ethylene_glycol 1000")
+            .inputFluids("gtceu:i_decene_tetramer 10000")
+            .inputFluids("gtceu:hydrochloric_acid 2000")
+            .itemInputs("gtceu:barite_dust")
+            .itemInputs("gtceu:quicklime_dust")
+            .outputFluids("gtceu:poly_alpha_olefin_mud 12000")
+            .dimension(planet)
+            .EUt(3200)
+            .duration(100);
+    })
+
+    greg.vacuum_freezer("tier_1_mud_cooling")
+        .inputFluids("gtceu:hot_diesel_oil_mud 1000")
+        .outputFluids("gtceu:diesel_oil_mud 1000")
+        .EUt(800)
+        .duration(200);
+
+    greg.vacuum_freezer("tier_2_mud_cooling")
+        .inputFluids("gtceu:hot_poly_alpha_olefin_mud 1000")
+        .outputFluids("gtceu:poly_alpha_olefin_mud 1000")
+        .EUt(2400)
+        .duration(200);
+
+    greg.planetary_core_drill("moon_drill")
+        .inputFluids("gtceu:diesel_oil_mud 100")
+        .dimension("gcyr:luna")
+        .itemOutputs("4x gtceu:moon_regolith_block")
+        .chancedOutput("8x gtceu:moon_ilmenite_ore", 8000, 250)
+        .chancedOutput("8x gtceu:moon_bauxite_ore", 8000, 250)
+        .chancedOutput("16x gtceu:moon_aluminium_ore", 8000, 250)
+        .chancedFluidOutput("gtceu:hot_diesel_oil_mud 100", 6000, 1000)
+        .EUt(800)
+        .duration(300);
+
 
 });
