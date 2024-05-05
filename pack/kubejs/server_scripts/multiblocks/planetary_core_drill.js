@@ -2,7 +2,7 @@
 File containing multiblocks, recipes, and extra chemistry for planetary drills
 and their support machinery.
 
-A Planetary drill (planet core drill) is a type of void miner that produces resources
+A Planetary Core Drill (planet core drill) is a type of void miner that produces resources
 endlessly, provided power and lubricant.  Resources vary by planet.
 
 Ordinary drilling fluid is not enough for the high temperature application of a planetary
@@ -65,9 +65,102 @@ venus -> ? PFPE
 mercury -> ? PFPE
 
 Asteroids, if we can add them, should have martian requirements.  I don't think it's interesting
-to set up the same thing 12 times for progress, but if we can get the jovian moons + titan going, 
+to set up the same thing 12 times for progress, but if we can get the jovian moons + titan going,
 we should add some support for them.  By the time someone as technology to do harvesting out
 that far, they should have access to orbital drills, which will require higher tier tech and more
 power, but be simpler to set up.
 
 */
+
+
+ServerEvents.recipes(event => {
+
+    let greg = event.recipes.gtceu;
+
+    // are we going to make higher tiers of this?  it seems like it doesn't matter
+    greg.assembler("planetary_core_drill_1")
+        .itemInputs(
+            "gtceu:ev_large_miner", // this has a tungsten gear requirement
+            "16x gtceu:platinum_normal_item_pipe",
+            "16x gtceu:titanium_normal_fluid_pipe",
+            "2x gtceu:long_distance_item_pipeline_endpoint",
+            "2x gtceu:long_distance_fluid_pipeline_endpoint",
+            "gtceu:ender_fluid_link_cover"
+        )
+        .itemOutputs("gtceu:planetary_core_drill")
+        .EUt(1920)
+        .duration(1200);
+
+    greg.assembler("mudpit_1")
+        .itemInputs(
+            "gtceu:ev_centrifuge",
+            "gtceu:ev_mixer",
+            "gtceu:ev_fluid_heater",
+            "2x gtceu:ev_fluid_regulator",
+            "4x gtceu:titanium_frame",
+            "4x gtceu:watertight_casing"
+        )
+        .itemOutputs("gtceu:mudpit")
+        .EUt(1920)
+        .duration(400);
+
+    // mudpit polymer/petro chem
+
+    greg.fluid_heater("hot_heavy_oil")
+        .inputFluids("gtceu:oil_heavy 1000")
+        .outputFluids("gtceu:hot_heavy_oil 1000")
+        .EUt(480)
+        .duration(30);
+
+    // distilling hot heavy oil into things
+    greg.distillation_tower("hot_heavy_oil_distillation")
+        .inputFluids("gtceu:hot_heavy_oil 1000")
+        .outputFluids("gtceu:bitumen 500")
+        .outputFluids("gtceu:lubricating_oil 250")
+        .outputFluids("gtceu:sulfuric_heavy_fuel 200")
+        .outputFluids("gtceu:sulfuric_light_fuel 50")
+        .chancedOutput("gtceu:tiny_oilsands_dust", 100, 100)
+        .EUt(288)
+        .duration(20);
+
+    greg.distillation_tower("lubricating_oil_distillation")
+        .inputFluids("gtceu:lubricating_oil 1000")
+        .outputFluids("gtceu:lubricant 900")
+        .outputFluids("gtceu:sulfuric_heavy_fuel 80")
+        .outputFluids("gtceu:sulfuric_light_fuel 20")
+        .EUt(120)
+        .duration(120);
+
+    greg.chemical_reactor("ethylene_oxide")
+        .inputFluids("gtceu:hypochlorous_acid 500")
+        .inputFluids("gtceu:ethylene 1000")
+        .inputFluids("gtceu:oxygen 1000")
+        .outputFluids("ethylene_oxide")
+        .EUt(240)
+        .duration(200);
+
+    greg.chemical_reactor("ethylene_glycol")
+        .inputFluids("gtceu:ethylene_oxide 4000")
+        .inputFluids("gtceu:carbon_dioxide 1000")
+        .inputFluids("minecraft:water 1000")
+        .outputFluids("gtceu:ethylene_glycol 4000")
+        .EUt(280)
+        .duration(70);
+
+    greg.chemical_reactor("i_decene")
+        .inputFluids("gtceu:ethylene 1000")
+        .inputFluids("gtceu:oxygen 4000")
+        .itemInputs("gtceu:cupronickel_dust")
+        .itemInputs("gtceu:aluminium_dust")
+        .outputFluids("gtceu:i_decene 1000")
+        .EUt(480)
+        .duration(300);
+
+    greg.chemical_reactor("boron_trifluoride")
+        .inputFluids("gtceu:fluorine 3000")
+        .itemInputs("gtceu:boron_dust")
+        .outputFluids("gtceu:boron_trifluoride")
+        .EUt(480)
+        .duration(100);
+
+});

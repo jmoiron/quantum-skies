@@ -8,7 +8,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setEUIO("in")
         .setMaxIOSize(3, 1, 0, 1)
         .setSound(GTSoundEntries.CHEMICAL);
-    
+
     event.create("planetary_core_drill")
         .category("planetary_core_drill")
         .setEUIO("in")
@@ -20,7 +20,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     let abilities = Predicates.abilities;
 
-    function setCount(pred, limit, preview) { 
+    function setCount(pred, limit, preview) {
         return pred.setMaxGlobalLimited(limit).setPreviewCount(preview)
     }
 
@@ -37,12 +37,13 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .pattern(
             definition => FactoryBlockPattern.start()
                 .aisle("         ", " TTTTTTT ", "BBBBBBBBB")
-                .aisle(" CTTTTTC ", "TMMMMMMMT", "B   B   B")
-                .aisle(" CTTTTTC ", "TMMMMMMMT", "B   B  PD")
-                .aisle(" CTTTTTC ", "TMMMMMMMT", "B   B   B")
+                .aisle(" CWWWWWC ", "TMMMMMMMT", "B   B   B")
+                .aisle(" CWWWWWC ", "TMMMMMMMT", "B   B  PD")
+                .aisle(" CWWWWWC ", "TMMMMMMMT", "B   B   B")
                 .aisle("         ", " TTTXTTT ", "BBBBBBBBB")
                 .where("X", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("C", Predicates.blocks(GTBlocks.CASING_TITANIUM_PIPE.get()))
+                .where("W", Predicates.blocks("gtceu:watertight_casing"))
                 .where("T", Predicates.blocks(GTBlocks.CASING_TITANIUM_STABLE.get())
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 2, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 1))
@@ -56,13 +57,13 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/solid/machine_casing_stable_titanium", 
-            "gtceu:block/multiblock/distillation_tower", 
+            "gtceu:block/casings/solid/machine_casing_stable_titanium",
+            "gtceu:block/multiblock/distillation_tower",
             false,
         );
 
     let e = "       ";
-    
+
     event.create("planetary_core_drill", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("planetary_core_drill")
@@ -91,8 +92,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/solid/machine_casing_stable_titanium", 
-            "gtceu:block/multiblock/bedrock_ore_miner", 
+            "gtceu:block/casings/solid/machine_casing_stable_titanium",
+            "gtceu:block/multiblock/bedrock_ore_miner",
             false,
         );
 
