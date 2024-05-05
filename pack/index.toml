@@ -298,7 +298,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e1148253d89812b6f832d512f321d27478efdb4b25997f276e1334c811a9a848"
+hash = "540848454e92b79a52eab2e949902c07b62bf4dd5d2154a30b09b3e6c972f408"
 
 [[files]]
 file = "config/panorama.json"
@@ -330,7 +330,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "103a04708bb4955d59a0468b3005975137c3e60a7d3644ef44ac74431a48a2ae"
+hash = "f836805234b63349f1fa39fe058209a0f1d19a4e62f739cbc8e6b928d0aa5402"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -486,7 +486,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "fc7d4b09d64ddf1c17694b609cd2f92483cb086c3b4c092be159b1abe3ddc77f"
+hash = "d4d66fae738036750af7ba0f0256fd9bd1e43da9e3be7843e827e5da1a7ded52"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -658,7 +658,7 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "d48ce393ff7a2478280b8902e6ac896420893524f9e7667fe4338efd275e3118"
+hash = "b3d61ae2f1d0c158ab870c46cd13593118efd932b09317d8481475304acb1dd2"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
@@ -706,7 +706,7 @@ hash = "b6b62a6844fceb25c6a6875daf8e58e7c68a6e728e894345defddd623ef360d5"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "3fede4fd2722cc164e9514f6f9cca4e7ae74a28360a6f3bb75323e40bf8d2956"
+hash = "ffc135fc647b48ba13bc95ad2e76b1065b4dcf838161ae6d02c935d681638b87"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
@@ -718,7 +718,7 @@ hash = "99c17e3b7f958d07dc2df9ae1934a8e29138bf510d51d58b047f577bf0ff8e14"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/planetary_core_drill.js"
-hash = "9c72f39585cd1a4f96608782df43777217336f57fc464956f76da05c57edcc2b"
+hash = "a478d53488b0559c60c389555064541f7fffa0a98d2e14daf24ec9be854eeb6f"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
