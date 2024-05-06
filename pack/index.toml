@@ -150,7 +150,7 @@ hash = "6ac021b71fa54b90b952bf71a5a2ae2325b74ca5f179134c32c1a75a3be08b1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "5ebacacfd5d7355db52f95271c722b1704a75b193f32c69d59257c3ab50723e0"
+hash = "81c09e909f83d66285e8c4d3a2219458b847ccdadb77b91a1e2b9864afdd9b74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -174,7 +174,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "42b1213236bc7b5ddc887ddb9f6d0c23932a42a7b124f39d0840104461240c36"
+hash = "c85cdf6cf18ba6173f8b8ce78218dc3316b1180bfa587eda6acf2eb1f65f2cc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -190,7 +190,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "ccd9beda5ef7ba175688852229efa3d98eba4b2593ef206feeb4b714dc5d09bb"
+hash = "85916b6e53ae50d1efbadab8955a7f06ba7b51f68ef302018526fb9f5f83ad46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -218,11 +218,11 @@ hash = "37972c94fa417ae8ebb36133856489a73d92f4e745729132be584ccdf452f1ee"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "ac2ba9f7ad3bafa44f5cbe5f53061f98fcd18cad35de10c6ebcd79cb418f29bd"
+hash = "eb1f562d1e9fa8b8c72e9757c301a6a3b53e342294f9b5e1b475e1078e2883bd"
 
 [[files]]
 file = "config/gtnn.json"
-hash = "56f2e241296167ad531684fc60a665a04a12ef9de7010b07be011d5b01a4febb"
+hash = "97adeae1f087ac86f34f1414f090e63427831f2131f84866f54a88e93d34df3c"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -278,7 +278,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "1326987f62c1b3819c1681d36becf36441d0c54fa35399d177136e08e4eb3431"
+hash = "5d6bc58b3816d80c5c1b1bae9c2d099ebf640ac89b1ed1e4806a9f2da4663765"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -298,7 +298,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7965bc85a0c9177732ee5b659326c3ae6c2f1b9dfd1022ad5d277818c4996b24"
+hash = "8926eae5c3490b7ebf9b2f32c0e2348e41a7bc04e272b0544f97f230a49a0d4c"
 
 [[files]]
 file = "config/panorama.json"
@@ -330,7 +330,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "86f30ad7d52c4a5f5533934419214fea100f190b71eb4c0c02dfff56e4a31960"
+hash = "782ca190e512e3cbad741ceacf6719bdb56a31a3b0bf1070bd643ab96d95bfae"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -486,7 +486,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "d4d66fae738036750af7ba0f0256fd9bd1e43da9e3be7843e827e5da1a7ded52"
+hash = "98320a0f8a244cd17eb0a6ebb106cd110033f9883cf3eb85a73494300adc55b6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -658,11 +658,11 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "b3d61ae2f1d0c158ab870c46cd13593118efd932b09317d8481475304acb1dd2"
+hash = "97c04004efd30cc717c60f6e7e58686d2d5299e4b23c1e69126c2381d0d660de"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
-hash = "4dd8b3ef4d0374c3508ff338e3acb2b26ba61efe23ba6ed3e23a5c86c05fc0ac"
+hash = "254c919d523bf6c5acd4f45c3100490fa03405ccbf2f35b48ea642b8366cf625"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
@@ -706,7 +706,7 @@ hash = "b6b62a6844fceb25c6a6875daf8e58e7c68a6e728e894345defddd623ef360d5"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "ffc135fc647b48ba13bc95ad2e76b1065b4dcf838161ae6d02c935d681638b87"
+hash = "e493db68815ace3c190f208a58f597f6023dd2909bc836357885c40ead8873c7"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
@@ -718,7 +718,7 @@ hash = "99c17e3b7f958d07dc2df9ae1934a8e29138bf510d51d58b047f577bf0ff8e14"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/planetary_core_drill.js"
-hash = "a478d53488b0559c60c389555064541f7fffa0a98d2e14daf24ec9be854eeb6f"
+hash = "a9457cf9ea00cc0bf36072ba01503f59ad0ef23ebb43b1b48e053bc5100fec11"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
