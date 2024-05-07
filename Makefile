@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.1.5
+VERSION := 0.1.6
 #WINUSER := jmoir
 WINUSER := jlmoi
 PACKNAME := Quantum-Skies
@@ -28,6 +28,18 @@ build: refresh preBuild
 	cd build && packwiz cf export && cd ..
 	# move the build into the top directory
 	mv build/quantum*.zip ./
+
+server: refresh preBuild
+	-rm -rf server-files
+	-mkdir -p server-files/
+	-cp cache/forge*.jar server-files/
+	-cp cache/packwiz-installer.jar server-files/
+	cd server-files && java -jar ../packwiz-installer-bootstrap.jar -g -s server ../pack/pack.toml && cd ..
+	-mv server-files/packwiz-installer.jar cache/
+	-cp -r pack/defaultconfigs server-files/
+	-cp -r pack/config server-files/
+	-cp -r pack/kubejs server-files/
+	-cp -r pack/icon.png server-files/
 
 cf: refresh preBuild
 	-./setversion.py

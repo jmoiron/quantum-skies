@@ -174,7 +174,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "42b1213236bc7b5ddc887ddb9f6d0c23932a42a7b124f39d0840104461240c36"
+hash = "c85cdf6cf18ba6173f8b8ce78218dc3316b1180bfa587eda6acf2eb1f65f2cc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -821,7 +821,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "0e38f08a62ef9f8a1928007271945fb9f6a0e0a66060ec832e1e2cbc6e04ea1c"
+hash = "208990099594d552abb86748271b83d48d17cfd9c9aee58cef2dde2736a2e5e1"
 metafile = true
 
 [[files]]
@@ -831,7 +831,7 @@ metafile = true
 
 [[files]]
 file = "mods/endertanks.pw.toml"
-hash = "d82cd0854518dfd6dd3a03d61633ef8f4296f99ed3d72d1394d96e4fbae58e4b"
+hash = "c5bd72b074124418a99ca9f5a6de12f074d2429410b964c6db90196cc5b70856"
 metafile = true
 
 [[files]]
@@ -951,7 +951,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "035c465e2efe1eaf2d4466e725cac2cd41fbb3dc444407d0a719b35c0a6e376e"
+hash = "5352d43478342bef1aa8df0c9b4ad0bb55958e84615124d22450351a3ff6ff92"
 metafile = true
 
 [[files]]
@@ -1176,7 +1176,7 @@ metafile = true
 
 [[files]]
 file = "mods/ulv-covers-modern.pw.toml"
-hash = "0ed71c0fef21e562dd965b791a6e2e946ca6c5e7ddc12125cab3786bcb338449"
+hash = "7f40f41afa489e69f26d71cb63b47f1cc92d6a335a15caf6b52f50610cc4b321"
 metafile = true
 
 [[files]]
