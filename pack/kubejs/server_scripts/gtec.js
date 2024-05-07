@@ -23,5 +23,18 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(200);
 
-    
+    // modify pre-moon source of titanium to be EV (post-titanium)
+    // also, nerf as a source of titanium
+    event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_monazite"});
+
+    event.recipes.gtceu.electrolyzer("decomposition_electrolyzing_monazite")
+        .inputFluids("gtec:diluted_monazite_rare_earth_mud 1000")
+        .chancedOutput("gtec:monazite_sulfate_dust", 9000, 10)
+        .chancedOutput("gtceu:silicon_dioxide_dust", 7500, 10)
+        .chancedOutput("gtceu:rutile_dust", 100, 10)
+        .chancedOutput("gtec:red_zircon_dust", 500, 10)
+        .chancedOutput("gtceu:ilmenite_dust", 100, 10)
+        .EUt(1920)
+        .duration(200);
+
 });

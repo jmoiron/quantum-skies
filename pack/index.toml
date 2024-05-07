@@ -174,7 +174,7 @@ hash = "76de3dc573f19ec650ee14768aab727c16035d364fabf99616f51404487a4465"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "c85cdf6cf18ba6173f8b8ce78218dc3316b1180bfa587eda6acf2eb1f65f2cc6"
+hash = "42b1213236bc7b5ddc887ddb9f6d0c23932a42a7b124f39d0840104461240c36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -270,7 +270,7 @@ hash = "bca5b02f5689992eedefaea160cecac8fd69ee8ae7cee403f5294afbe539e8ce"
 
 [[files]]
 file = "config/jei/jei-debug.ini"
-hash = "9013ac3cc4da8526524bfe11150bcb810ea7e315da532e517e342ac0869e2fa6"
+hash = "3ccd7c637c26a2af1ab41cf90cddd0c0a91396e6cd01607cec02ed26a880d89e"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
@@ -298,7 +298,7 @@ hash = "320343ee701ee70c040b733cd55002499f9ed14431b926911535de1d3b5b496e"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8926eae5c3490b7ebf9b2f32c0e2348e41a7bc04e272b0544f97f230a49a0d4c"
+hash = "6795060405d509b22b05d4c98cdfb41448ec3b754da24003eb6687fb17fe3795"
 
 [[files]]
 file = "config/panorama.json"
@@ -330,7 +330,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "782ca190e512e3cbad741ceacf6719bdb56a31a3b0bf1070bd643ab96d95bfae"
+hash = "976fb3cbb0fea66e3c008b84daa0be2a37636942751d5433b85ffbfa1ea80fa3"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -638,7 +638,7 @@ hash = "c117f59e893e4c9e6ce0475d5c8137bc4a12a9e4e7a4a8c02c97b0df7333c0e8"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "591b750b197e3b6534bec88cf262f911f596e4bf2a3f9df5dfe85864090dce61"
+hash = "1ce09b1bf5064da7253392df670cd3b18d58beef83ded69031c2471cd8d02c9d"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
