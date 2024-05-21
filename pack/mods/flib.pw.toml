@@ -1,13 +1,13 @@
 name = "FLIB"
-filename = "flib-1.20.1-0.0.12.jar"
+filename = "flib-1.20.1-0.0.13.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "786c510a4c3ccd29b6ff6b0d44ae58ed94895f78"
+hash = "0ea89b6c9cad76ef6694c7f7f0bb467ac48d736e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5262803
+file-id = 5356442
 project-id = 661261
