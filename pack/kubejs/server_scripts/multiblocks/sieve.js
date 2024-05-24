@@ -69,8 +69,8 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:crushed_monazite_ore", 2500, 1000)
         .chancedOutput("gtceu:crushed_bastnasite_ore", 2500, 1000)
         .notConsumable("kubejs:titanium_mesh")
-        .EUt(1920)
-        .duration(300)
+        .EUt(480)
+        .duration(450)
 
     // titanium mesh is an EV recipe..
     // gameplay loop should be to lock this replenishable recipe to mars

@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     let abilities = Predicates.abilities
 
-    function setCount(pred, limit, preview) { 
+    function setCount(pred, limit, preview) {
         return pred.setMaxGlobalLimited(limit).setPreviewCount(preview)
     }
 
@@ -41,13 +41,13 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 1, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 3, 1))
-                    .or(setCount(abilities(PartAbility.INPUT_ENERGY), 1, 1)))
+                    .or(setCount(abilities(PartAbility.INPUT_ENERGY), 2, 1)))
                 .where(" ", Predicates.any())
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/cleanroom/plascrete_ctm", 
-            "gtceu:block/multiblock/cracking_unit", 
+            "gtceu:block/casings/cleanroom/plascrete_ctm",
+            "gtceu:block/multiblock/cracking_unit",
             false,
         );
 });
