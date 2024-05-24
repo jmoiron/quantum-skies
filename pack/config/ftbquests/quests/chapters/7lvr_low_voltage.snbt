@@ -358,7 +358,7 @@
 				{
 					id: "3093B325A3BF214D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -383,7 +383,7 @@
 				{
 					id: "33D1A29BEF044A2E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -442,7 +442,7 @@
 			tasks: [{
 				id: "49618C7EABEA777C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

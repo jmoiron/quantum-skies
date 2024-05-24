@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setEUIO("in")
         .setMaxIOSize(3, 1, 0, 1)
         .setSound(GTSoundEntries.BOILER);
-    
+
     event.create("crucible")
         .category("crucible")
         .setEUIO("in")
@@ -22,19 +22,19 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setEUIO("in")
         .setMaxIOSize(2, 16, 3, 1)
         .setSound(GTSoundEntries.BOILER);
-    
+
 });
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
 
     let abilities = Predicates.abilities
 
-    function setCount(pred, limit, preview) { 
+    function setCount(pred, limit, preview) {
         return pred.setMaxGlobalLimited(limit).setPreviewCount(preview)
     }
 
     /* large cauldron
-     * 
+     *
      * Automates witchwater bucket "precipitate" recipes like sand->soul sand.
      */
     event.create("large_cauldron", "multiblock")
@@ -60,17 +60,17 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/voltage/ulv/side", 
-            "gtceu:block/multiblock/cracking_unit", 
+            "gtceu:block/casings/voltage/ulv/side",
+            "gtceu:block/multiblock/cracking_unit",
             false,
         );
-    
+
     /* basic crucible
-     * 
+     *
      * GT version of the melting crucible.  Makes lava from stone types, but also
      * directly produces lava precipitate recipes like redstone+lava->netherrack and
      * glowstone+lava->end stone.
-     * 
+     *
      * Only accepts LV energy hatches.
      */
     event.create("basic_crucible", "multiblock")
@@ -95,13 +95,13 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/voltage/ulv/side", 
-            "gtceu:block/multiblock/cracking_unit", 
+            "gtceu:block/casings/voltage/ulv/side",
+            "gtceu:block/multiblock/cracking_unit",
             false,
         );
 
     /* industrial crucible
-     * 
+     *
      * More powerful version of the basic crusible. Accepts hatches up to IV and does
      * perfect overclocking of recipes.
      */
@@ -121,7 +121,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
                     .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
                     .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(3).setPreviewCount(1))
-                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.HV, GTValues.EV, GTValues.IV).setMaxGlobalLimited(1).setPreviewCount(1)))
+                    .or(Predicates.ability(PartAbility.INPUT_ENERGY, GTValues.HV, GTValues.EV, GTValues.IV).setMaxGlobalLimited(2).setPreviewCount(1)))
                 .where("R", Predicates.blocks("gtceu:stainless_steel_gearbox"))
                 .where("C", Predicates.blocks("gtceu:kanthal_coil_block"))
                 .where("N", Predicates.blocks("minecraft:lava_cauldron"))
@@ -133,9 +133,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             "gtceu:block/multiblock/cracking_unit",
             false
         );
-    
+
     /* industrial sieve
-     * 
+     *
      * Multiblock sieve capable of "producing" higher tier materials based
      * on dusts found or processed from space.
      */
@@ -168,8 +168,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/solid/machine_casing_solid_steel", 
-            "gtceu:block/multiblock/cracking_unit", 
+            "gtceu:block/casings/solid/machine_casing_solid_steel",
+            "gtceu:block/multiblock/cracking_unit",
             false,
         );
 });

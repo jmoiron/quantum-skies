@@ -73,6 +73,7 @@ minecraft:large_dripstone
 minecraft:lush_caves_clay
 minecraft:mangrove
 minecraft:mangrove_vegetation
+gtceu:marble_blob
 minecraft:meadow_trees
 minecraft:mega_jungle_tree
 minecraft:mega_pine
@@ -145,6 +146,8 @@ minecraft:pile_pumpkin
 minecraft:pile_snow
 minecraft:pine
 minecraft:pointed_dripstone
+gtceu:raw_oil_sprout
+gtceu:red_granite_blob
 minecraft:rooted_azalea_tree
 gtceu:rubber_tree
 minecraft:sculk_patch_ancient_city

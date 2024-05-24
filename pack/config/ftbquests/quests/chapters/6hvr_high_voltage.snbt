@@ -777,7 +777,7 @@
 				{
 					id: "0EC8C0A9B2938834"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "enderchests:ender_chest"
 						tag: {
 							code: "000"
@@ -789,7 +789,7 @@
 				{
 					id: "60FA4D1643D7F125"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "endertanks:ender_tank"
 						tag: {
 							code: "000"

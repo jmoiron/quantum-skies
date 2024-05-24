@@ -108,7 +108,7 @@
 				{
 					id: "54E096991DD8FFD5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gcyr:space_helmet"
 						tag: {
 							Damage: 0
@@ -119,7 +119,7 @@
 				{
 					id: "5D3EAC39DA3AD71A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gcyr:space_chestplate"
 						tag: {
 							Damage: 0
@@ -130,7 +130,7 @@
 				{
 					id: "2ADC3434FD8BA8ED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gcyr:space_leggings"
 						tag: {
 							Damage: 0
@@ -141,7 +141,7 @@
 				{
 					id: "6D6CBEE08BB186E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gcyr:space_boots"
 						tag: {
 							Damage: 0
@@ -176,7 +176,7 @@
 			tasks: [{
 				id: "3948F0D4C07F4FEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

@@ -9,7 +9,7 @@
 	quest_links: [
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "entangled:item"
 				tag: { }
 			}

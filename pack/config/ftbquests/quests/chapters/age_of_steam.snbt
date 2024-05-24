@@ -46,7 +46,7 @@
 			tasks: [{
 				id: "3BA9B4D27EFC9391"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -424,7 +424,7 @@
 				"&3Sneak-Right-Click&r with the Binder on a block, then &3Right-Click&r on an Entangled Block, and the Entangled block will behave like the bound block.  You can use this on your &5pump hatch&r, or make a &9bronze drum&r for a buffer and bind to that."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "entangled:item"
 				tag: { }
 			}
@@ -434,7 +434,7 @@
 				{
 					id: "2BDC55C2CB67B45B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:item"
 						tag: { }
 					}
@@ -443,7 +443,7 @@
 				{
 					id: "2D05235A8BBE6A77"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:block"
 						tag: { }
 					}
@@ -508,7 +508,7 @@
 				{
 					id: "02BBCA03A4348E62"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -532,7 +532,7 @@
 				{
 					id: "3D1839CA1566B892"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -588,7 +588,7 @@
 				{
 					id: "74D6A94BB938C2C3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -612,7 +612,7 @@
 				{
 					id: "445CA76A357A4D21"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [

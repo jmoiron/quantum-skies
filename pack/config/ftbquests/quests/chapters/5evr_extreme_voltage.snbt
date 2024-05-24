@@ -376,7 +376,7 @@
 			tasks: [{
 				id: "14D5443F367E19FA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [

@@ -25,7 +25,7 @@
 					count: 4L
 					id: "69E9E156D942455D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:logs"
@@ -78,7 +78,7 @@
 				"Once you have &9Silkworms&r, grow another tree and &einfest it&r by right clicking a leaf block with a silkworm.  Once the infestation has completed, you can crook the infested leaves to get &9String&r!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "exnihilosequentia:wooden_crook"
 				tag: {
 					Damage: 0
@@ -90,7 +90,7 @@
 				{
 					id: "4F16670ACD08F500"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "exnihilosequentia:wooden_crook"
 						tag: {
 							Damage: 0
@@ -215,7 +215,7 @@
 				{
 					id: "39A83FB885BCDBC2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "exnihilosequentia:hammer"
@@ -421,7 +421,7 @@
 				{
 					id: "35478593BB88ADC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_screwdriver"
 						tag: {
 							DisallowContainerItem: 0b
@@ -442,7 +442,7 @@
 				{
 					id: "68A13B75D894A853"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_hammer"
 						tag: {
 							Damage: 0
@@ -456,7 +456,7 @@
 				{
 					id: "105DFFF1B82A642F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_wrench"
 						tag: {
 							Damage: 0
@@ -470,7 +470,7 @@
 				{
 					id: "6AD94D8389DAA759"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_mortar"
 						tag: {
 							DisallowContainerItem: 0b
@@ -517,7 +517,7 @@
 				{
 					id: "277866DB22C8A24E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_mortar"
 						tag: {
 							Damage: 0
@@ -682,7 +682,7 @@
 				"Also great for felling trees are &aGregtech Lumber Axes&r. Here's a diamond one to get you started."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:diamond_pickaxe"
 				tag: {
 					Damage: 0
@@ -692,7 +692,7 @@
 			rewards: [{
 				id: "707DB9A314239A3E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:diamond_axe"
 					tag: {
 						DisallowContainerItem: 0b
@@ -952,7 +952,7 @@
 				{
 					id: "6CB6279334C7ADE1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -977,7 +977,7 @@
 				{
 					id: "37692B9B22BE8CD6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1068,7 +1068,7 @@
 				{
 					id: "0CA3E1D7D60B06EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_file"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1086,7 +1086,7 @@
 				{
 					id: "23B3D9B3ABA52BCF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_saw"
 						tag: {
 							Damage: 0
@@ -1100,7 +1100,7 @@
 				{
 					id: "350FD02E7AADCE72"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_wire_cutter"
 						tag: {
 							Damage: 0
@@ -1114,7 +1114,7 @@
 				{
 					id: "43AD500D849A89BB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wrought_iron_crowbar"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1134,7 +1134,7 @@
 				{
 					id: "1F05C24215BA9C03"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wood_mallet"
 						tag: {
 							DisallowContainerItem: 0b

@@ -118,7 +118,7 @@
 			tasks: [{
 				id: "01A0B80F68E61C2D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -161,7 +161,7 @@
 			tasks: [{
 				id: "206BDAFB9C464CD7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -336,7 +336,7 @@
 			tasks: [{
 				id: "76C7A109FCE634B0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
