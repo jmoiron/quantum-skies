@@ -5,6 +5,14 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setEUIO("in")
         .setMaxIOSize(2, 1, 1, 0);
     // this thing shouldn't make noise
+
+    event.create("greenhouse")
+        .category("greenhouse")
+        .setEUIO("in")
+        .setMaxIOSize(3, 4, 1, 0)
+        .setSlotOverlay(false, false, GuiTextures.BOX_OVERLAY)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_BATH, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.COOLING);
 });
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
@@ -44,14 +52,42 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             "gtceu:block/multiblock/bedrock_ore_miner",
             false
         )
-        /*
-        .workableCasingRenderer(
-            "gtceu:block/casings/pump_deck/top",
-            "gtceu:block/multiblock/bedrock_ore_miner",
-            false
-        )
-        */
 
-    /* TODO: add a greenhouse that can grow other crops */
+    // this greenhouse is from GCP
+    // https://github.com/GregTechCEu/GregTech-Modern-Community-Pack/blob/main/kubejs/startup_scripts/machinery/greenhouse.js
+    // GCPm is distributed under the LGPL v2.1 license, same as quantum skies
+
+    event.create("greenhouse", "multiblock")
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType("greenhouse")
+        .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)
+        .recipeModifier(
+            GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)
+        )
+        .pattern(
+            definition => FactoryBlockPattern.start()
+                .aisle(" BBB ", " BBB ", " BBB ", " BBB ")
+                .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
+                .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
+                .aisle("BBBBB", "BDDDB", "B###B", "BGGGB")
+                .aisle(" BBB ", " BEB ", " BBB ", " BBB ")
+                .where("E", Predicates.controller(Predicates.blocks(definition.get())))
+                .where("D", Predicates.blocks("minecraft:dirt"))
+                .where("G", Predicates.blocks("gtceu:tempered_glass"))
+                .where(
+                "B",
+                Predicates.blocks("gtceu:ulv_machine_casing")
+                    .setMinGlobalLimited(5)
+                    .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                )
+                .where("#", Predicates.air())
+                .where(" ", Predicates.any())
+                .build()
+        )
+        .workableCasingRenderer(
+            "gtceu:block/casings/voltage/ulv/side",
+            "gtceu:block/multiblock/implosion_compressor",
+            true
+        );
 
 });
