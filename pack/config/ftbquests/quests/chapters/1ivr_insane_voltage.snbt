@@ -40,7 +40,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			id: "54EB11DB18F67B5D"
@@ -49,18 +49,25 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			id: "630429E0D0BC2ACC"
-			tasks: [{
-				id: "5E6F386D46B16C55"
-				item: "gtceu:fiber_reinforced_circuit_board"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
+			tasks: [
+				{
+					id: "5E6F386D46B16C55"
+					item: "gtceu:fiber_reinforced_circuit_board"
+					type: "item"
+				}
+				{
+					id: "637B961AD9BD9817"
+					item: "gtceu:reinforced_epoxy_resin_plate"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["630429E0D0BC2ACC"]
@@ -70,8 +77,8 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["44CCB4C16016C746"]
@@ -88,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0E951B93CC47F10D"]
@@ -99,8 +106,8 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			id: "249808AA0E4C27A9"
@@ -111,6 +118,222 @@
 			}]
 			x: 2.5d
 			y: -2.5d
+		}
+		{
+			id: "6E919B19096C963B"
+			tasks: [{
+				id: "5FCE3417DA460984"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			id: "396008F43C9DA1D1"
+			tasks: [
+				{
+					id: "413E8AB6D157AB86"
+					item: "gtceu:naquadah_boule"
+					type: "item"
+				}
+				{
+					id: "25C82D72F6B5A881"
+					item: "gtceu:naquadah_wafer"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			id: "6E10792E66D3E281"
+			tasks: [{
+				id: "006A1F2B6A2023B4"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "1F8EDC83C3E264E3"
+			tasks: [{
+				id: "0FD54212C95B0C9E"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54B8CF20718F0D68"]
+			id: "78661A0DCADE1DB8"
+			tasks: [{
+				id: "1227B82BE6767117"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"69D165ED00FF7338"
+				"6E10792E66D3E281"
+				"64FA197932B3584A"
+			]
+			id: "3451BF82CA25878C"
+			tasks: [{
+				id: "21EB74DDC764D1A8"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "4FA1EC4EC283BD18"
+			tasks: [{
+				id: "2EE5EB6410C92BB0"
+				item: "gtceu:iv_cutter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4FA1EC4EC283BD18"
+				"78661A0DCADE1DB8"
+			]
+			id: "69D165ED00FF7338"
+			tasks: [{
+				id: "5F9B24C14C01DA0F"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7012781729C0743B"]
+			id: "54B8CF20718F0D68"
+			tasks: [
+				{
+					id: "5E42889100CEFE93"
+					item: "gtceu:indium_dust"
+					type: "item"
+				}
+				{
+					id: "10BD96F79A53CF7F"
+					item: "gtceu:indium_gallium_phosphide_dust"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Processing purified &6Sphalerite&r and &6Galena&r with &esulfuric acid&r yields a solution with trace amounts of &6Indium&r."
+				""
+				"&6Indium&r is an important component in advanced circuitry that you will need to create in bulk."
+			]
+			id: "7012781729C0743B"
+			tasks: [
+				{
+					id: "0B63E1EB91BD2876"
+					item: "gtceu:purified_sphalerite_ore"
+					type: "item"
+				}
+				{
+					id: "49372261022DDD9E"
+					item: "gtceu:purified_galena_ore"
+					type: "item"
+				}
+				{
+					id: "75D73C6084CC22BD"
+					item: "gtceu:indium_concentrate_bucket"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "173C6B4E5D6F17D7"
+			rewards: [{
+				count: 3
+				id: "1BAC0950E60A6429"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "301303152032DFCC"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "64FA197932B3584A"
+			tasks: [{
+				id: "60383E413257FBF7"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "0984999FBE2DBD4D"
+			tasks: [{
+				id: "1025F54656A006BC"
+				item: "gtceu:osmium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"64FA197932B3584A"
+				"0984999FBE2DBD4D"
+			]
+			id: "06D8F2E510DD7B34"
+			tasks: [{
+				id: "6E621FB9AD156235"
+				item: "gtceu:osmiridium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6E10792E66D3E281"
+				"46CF5445253CFBEB"
+			]
+			id: "1B4FF273257F4829"
+			tasks: [{
+				id: "4E8AD50568D2ABC8"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "46CF5445253CFBEB"
+			tasks: [{
+				id: "6D730D123BFE35F1"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]

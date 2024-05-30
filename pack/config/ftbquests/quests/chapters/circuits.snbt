@@ -588,6 +588,66 @@
 			x: 10.5d
 			y: -3.375d
 		}
+		{
+			id: "5E630BDE5D13BBC8"
+			tasks: [{
+				id: "018E04A642B4BCEC"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0A0A30E0A7DB0EC4"
+			tasks: [{
+				id: "4314584A709FCE8B"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.125d
+		}
+		{
+			id: "283403C9AD18C049"
+			tasks: [{
+				id: "14021B0B34A4DA54"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			id: "02A5694F8A264D76"
+			tasks: [{
+				id: "2A047EEBB9EF50CC"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.375d
+		}
+		{
+			id: "284F923DEF4E29E4"
+			tasks: [{
+				id: "431567DE18FD044C"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "6C3463A432B40EDB"
+			tasks: [{
+				id: "5163C47095172542"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.125d
+		}
 	]
 	subtitle: ["Visual guide to circuit progression"]
 	title: "Circuits"
