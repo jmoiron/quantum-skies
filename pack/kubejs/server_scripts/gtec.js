@@ -37,4 +37,20 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(200);
 
+    // add missing recipe for ammonium nitrate solution
+    event.recipes.gtceu.chemical_reactor("ammonium_nitrate")
+        .inputFluids("gtceu:ammonia 1000")
+        .inputFluids("gtceu:nitric_acid 1000")
+        .outputFluids("gtec:ammonium_nitrate_solution 1000")
+        .EUt(400)
+        .duration(30);
+
+    event.recipes.gtceu.electrolyzer("decomposition_electrolyzing_ammonium_nitrate")
+        .inputFluids("gtec:ammonium_nitrate_solution 1000")
+        .outputFluids("gtceu:ammonia 1000")
+        .outputFluids("gtceu:nitric_acid 1000")
+        .EUt(480)
+        .duration(600);
+
+
 });
