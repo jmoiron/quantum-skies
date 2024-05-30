@@ -170,7 +170,7 @@ machines:
 
   # Enables Safe Active Transformers, removing their ability to explode if unformed while transmitting/receiving power.
   # Default: false
-  harmlessActiveTransformers: false
+  harmlessActiveTransformers: true
 
   # Divisor for Recipe Duration per Overclock.
   # Default: 2.0
@@ -374,4 +374,3 @@ dev:
   # Dump all registered GT models/blockstates/etc?
   # Default: false
   dumpAssets: false
-
