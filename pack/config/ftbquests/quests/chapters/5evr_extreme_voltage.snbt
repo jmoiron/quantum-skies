@@ -179,6 +179,7 @@
 				"But anything is possible if you have &eimagination&r."
 			]
 			id: "045D6DAA516B666B"
+			size: 0.75d
 			subtitle: "Why would you make this"
 			tasks: [{
 				id: "7238B29065036C32"
@@ -243,7 +244,7 @@
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
-			description: ["&9Flux Dust&r "]
+			description: ["&9Flux Dust&r is ... not obtainable until a way to generate bedrock dust is made."]
 			id: "4197035F312E58AC"
 			tasks: [{
 				id: "36D4999EE0F87BFA"
@@ -495,9 +496,9 @@
 				"763828CE2BABADAF"
 			]
 			description: [
-				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing it is a complex and challenging chain."
+				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing the lanthanides involves a complex and challenging chain."
 				""
-				"This chain produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
+				"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
 				""
 				"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
 				""
@@ -508,6 +509,7 @@
 			hide_dependency_lines: true
 			icon: "gtceu:monazite_gem"
 			id: "6EED86F5C72C5729"
+			min_width: 250
 			tasks: [
 				{
 					id: "49A33F93D5D43C75"
@@ -1226,6 +1228,27 @@
 				type: "item"
 			}]
 			x: -6.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Although they are mostly less energy dense than &6High Octane Gasoline&r, the &9rocket fuels&r you have been producing can be burned in a &2Rocket Fuel Engine&r.  "
+				""
+				"The &2Rocket Fuel Engine's&r start off in &5EV&r with 80% fuel efficiency, dropping a further 10% (additive) for each tier, so they use a &elot of fuel&r."
+				""
+				"Considering that the &2Large Combustion Engine&r gets you 150% efficiency with added &6oxygen&r, you might wonder why you'd bother."
+				""
+				"&2Rocket Engines&r being single block generators, they are useful for compact setups and for off-world infrastructure. They're also relatively cheap, materials wise."
+			]
+			id: "563D72C9ADE972F7"
+			size: 1.25d
+			subtitle: "Little Engine That Could"
+			tasks: [{
+				id: "5B0E9B0E6BC13F9E"
+				item: "gtnn:ev_rocket_engine"
+				type: "item"
+			}]
+			x: -10.5d
 			y: 0.5d
 		}
 	]

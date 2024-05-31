@@ -518,6 +518,11 @@
 		}
 		{
 			dependencies: ["7B8F4DD0931E4083"]
+			description: [
+				"&6Iridium&r is a silvery metal that is used heavily in &1IV&r and beyond, both on its own, and in alloys like &6Ruridit&r and &6Osmiridium&r. I suppose it looks quite..  brown in this universe."
+				""
+				"It was a layer of &6Iridium&r-rich clay that was found globally which proved to be the crucial evidence that an asteroid impact was the cause of the K-Pg extinction that wiped out the non-avian dinosaurs."
+			]
 			id: "249B838E00970B93"
 			size: 1.25d
 			tasks: [{

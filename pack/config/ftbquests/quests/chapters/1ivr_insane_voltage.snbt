@@ -6,51 +6,87 @@
 	icon: "gtceu:iv_machine_hull"
 	id: "03A65FEF0167519F"
 	order_index: 7
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "2A2E8EFC9BE3B9D5"
+			linked_quest: "249B838E00970B93"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			id: "314A2AB448976418"
+			linked_quest: "0ADE563032F9DF5C"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "36B412AB7DE04220"
+			linked_quest: "6519AED20FF95071"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "0264A6131F9C4FB6"
+			linked_quest: "4241FB5CE8C7C01C"
+			x: 11.5d
+			y: -1.0d
+		}
+	]
 	quests: [
 		{
 			description: [
-				"This is the end of the questbook for the alpha version of the pack."
+				"What lies beyond &dextremity&r but &1insanity&r?"
 				""
-				"It's not been playtested beyond this point. Certain things are known to be unattainable that prevent progress through &1IV&r and &dLuV&r"
+				"Forays into space have proven worthwhile. The layout of the planets is very familiar."
 				""
-				"* &9Nether Stars&r (other than vanilla wither kills, which will be removed at some point)"
+				"Despite this empty world's unusual abundance, more &6exotic materials&r seem available elsewhere. In order to continue to progress in technology, they will need to be &aexploited&r."
 				""
-				"* &6Naquadah&r (required for &dLuV&r) is not attainable"
-				""
-				"* &6Cobalt&r is much rarer than it should be by this point"
+				"The limitations of the venerable &2Assembler&r are making themselves more and more apparent. Perhaps a larger &2assembly line&r is in order, to build complex components in stages?"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:iv_field_generator"
 			id: "715BEA8E0C8D2767"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Got No Brain"
 			tasks: [{
 				id: "0B8D4D6630A4EB00"
 				title: "&1IV&r Lore"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -1.0d
+			title: "Insanity"
+			x: 1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["4EF925DCE097068A"]
 			id: "0F63BB395521825B"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "15DCFF4F299D2D36"
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
+			description: [
+				"The more advanced form of the multiblock combustion engine, the &2Extreme Combustion Engine&r, gives a 200% power output boost when running with a supply of &6Oxygen&r and can output up 1A &dLuV&r."
+				""
+				"If you're going to go this route, you will probably want a good &6HOG&r set up."
+			]
 			id: "54EB11DB18F67B5D"
+			size: 1.25d
+			subtitle: "Shouldn't it be &1Insane&r?"
 			tasks: [{
 				id: "199D89D779D935B6"
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			id: "630429E0D0BC2ACC"
@@ -66,8 +102,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -4.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["630429E0D0BC2ACC"]
@@ -77,8 +113,8 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["44CCB4C16016C746"]
@@ -95,58 +131,63 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -1.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["0E951B93CC47F10D"]
+			dependencies: [
+				"0E951B93CC47F10D"
+				"1F8EDC83C3E264E3"
+			]
 			id: "4808C14BE63CD3D2"
 			tasks: [{
 				id: "32CB3F573691A833"
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"249B838E00970B93"
+				"41F4069383B3488E"
+				"11CD6CC9E9DC541F"
+				"6370EBBCF9330E43"
+			]
+			description: [
+				"Known affectionately as the &eAssline&r, the &2Assembly Line&r is a multiblock structure that is capable of building things that &2Assemblers&r cannot.  The multiblock version of that machine is called the &2Large Assembling Factory&r; this machine has its own set of distinct recipes."
+				""
+				"Automating the &eAssline&r will pose a challenge.  You will eventually want many of these, as they work slowly, and they are needed for mechanical components from &dLuV&r onward."
+			]
+			icon: "gtceu:assembly_line"
 			id: "249808AA0E4C27A9"
-			tasks: [{
-				id: "4D33A643834A221E"
-				item: "gtceu:assembly_line"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.5d
-		}
-		{
-			id: "6E919B19096C963B"
-			tasks: [{
-				id: "5FCE3417DA460984"
-				item: "gtceu:naquadah_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -5.5d
-		}
-		{
-			id: "396008F43C9DA1D1"
+			size: 1.5d
 			tasks: [
 				{
-					id: "413E8AB6D157AB86"
-					item: "gtceu:naquadah_boule"
+					id: "4D33A643834A221E"
+					item: "gtceu:assembly_line"
 					type: "item"
 				}
 				{
-					id: "25C82D72F6B5A881"
-					item: "gtceu:naquadah_wafer"
+					count: 5L
+					id: "47915D1618E973BA"
+					item: { Count: 5, id: "gtceu:assembly_line_casing" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "63BA7836BD490EFF"
+					item: { Count: 5, id: "gtceu:assembly_line_unit" }
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -5.5d
+			title: "Assembly Line"
+			x: 7.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["173C6B4E5D6F17D7"]
 			id: "6E10792E66D3E281"
 			tasks: [{
 				id: "006A1F2B6A2023B4"
@@ -154,17 +195,21 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
+			dependencies: [
+				"173C6B4E5D6F17D7"
+				"6519AED20FF95071"
+			]
 			id: "1F8EDC83C3E264E3"
 			tasks: [{
 				id: "0FD54212C95B0C9E"
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["54B8CF20718F0D68"]
@@ -174,14 +219,14 @@
 				item: "gtceu:hpic_wafer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"69D165ED00FF7338"
 				"6E10792E66D3E281"
-				"64FA197932B3584A"
+				"249B838E00970B93"
 			]
 			id: "3451BF82CA25878C"
 			tasks: [{
@@ -189,10 +234,11 @@
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["173C6B4E5D6F17D7"]
 			id: "4FA1EC4EC283BD18"
 			tasks: [{
 				id: "2EE5EB6410C92BB0"
@@ -214,11 +260,17 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7012781729C0743B"]
 			id: "54B8CF20718F0D68"
+			rewards: [{
+				count: 16
+				id: "76EA4170BCA14BC6"
+				item: "gtceu:indium_gallium_phosphide_dust"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5E42889100CEFE93"
@@ -231,8 +283,9 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.5d
+			title: "Indium And IGP"
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -258,10 +311,11 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 2.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["715BEA8E0C8D2767"]
 			id: "173C6B4E5D6F17D7"
 			rewards: [{
 				count: 3
@@ -278,62 +332,345 @@
 			y: -2.5d
 		}
 		{
-			id: "64FA197932B3584A"
-			tasks: [{
-				id: "60383E413257FBF7"
-				item: "gtceu:iridium_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
-		}
-		{
-			id: "0984999FBE2DBD4D"
-			tasks: [{
-				id: "1025F54656A006BC"
-				item: "gtceu:osmium_ingot"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"64FA197932B3584A"
-				"0984999FBE2DBD4D"
-			]
-			id: "06D8F2E510DD7B34"
-			tasks: [{
-				id: "6E621FB9AD156235"
-				item: "gtceu:osmiridium_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"6E10792E66D3E281"
 				"46CF5445253CFBEB"
 			]
 			id: "1B4FF273257F4829"
+			size: 1.25d
 			tasks: [{
 				id: "4E8AD50568D2ABC8"
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
+			description: [
+				"&6HSS-G&r is the first of several &eHigh Speed Steel&r alloys you will need to progress technologically."
+				""
+				"These are so-called because they are very good for things like cutting saws and drill bits, because they remain hard even at high temperatures."
+				""
+				"The most important thing we'll use &6HSS-G&r for at this point is a new set of &9coils&r for the &2EBF&r."
+			]
 			id: "46CF5445253CFBEB"
+			subtitle: "High Speed Steel"
 			tasks: [{
 				id: "6D730D123BFE35F1"
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4ACDAEA8E0568026"
+				"13B76DB33F9DB275"
+			]
+			id: "52F200048E35D8C7"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1CA58E5D5C13C10A"
+					item: "gtceu:polybenzimidazole_bucket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A067DEBC854FA1D"
+					item: { Count: 4, id: "gtceu:polybenzimidazole_foil" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4EF925DCE097068A"
+				"1B4FF273257F4829"
+				"0ADE563032F9DF5C"
+				"249B838E00970B93"
+			]
+			id: "4CD35CAEE04B7B31"
+			tasks: [{
+				id: "77030F5FDDF575A1"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			x: 7.0d
 			y: -4.0d
+		}
+		{
+			id: "4EF925DCE097068A"
+			tasks: [{
+				id: "35862C5C5CF69A5E"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4808C14BE63CD3D2"]
+			id: "07D874EDFBD18771"
+			tasks: [{
+				id: "100EF8A2194C8E22"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7A7AC2A686303133"
+				"4CD35CAEE04B7B31"
+				"54B8CF20718F0D68"
+				"52F200048E35D8C7"
+			]
+			id: "6834B48D92699C1D"
+			tasks: [
+				{
+					id: "15549817E2DF751F"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "1D1B42B9863A3924"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7BE1E9F6A978C09F"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "5E306C333361EA3F"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "2B9DE8B890C9C0BD"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EF925DCE097068A"]
+			id: "7A7AC2A686303133"
+			tasks: [{
+				id: "49732ED92CF2C689"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["715BEA8E0C8D2767"]
+			id: "2C7F69D88046937B"
+			tasks: [
+				{
+					id: "5EFBFC252C4824FB"
+					item: "gtceu:iv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "34C2475FC43E76CD"
+					item: "gtceu:iv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "3188E1DBCC6D6C21"
+					item: "gtceu:iv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "3E637E88BF0D3B60"
+					item: "gtceu:iv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "297DC54241A8FC3A"
+					item: "gtceu:iv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "IV Mechanical Components"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07D874EDFBD18771"]
+			id: "233BDF6C940375AD"
+			size: 1.25d
+			tasks: [{
+				id: "72ABA69A5498AF58"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BEA0732EF6F87E7"]
+			id: "41F4069383B3488E"
+			tasks: [{
+				id: "784699A2EB59626E"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"By now, your petrochem should be established enough that &apolyvinyl butyral&r does not pose much of a challenge."
+				""
+				"&6PVB&r is a strong, very clear resin, good for use in situations where optical fidelity is required."
+			]
+			id: "6BEA0732EF6F87E7"
+			tasks: [{
+				id: "0A5B9AA20272334F"
+				item: "gtceu:polyvinyl_butyral_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4EF925DCE097068A"]
+			id: "11CD6CC9E9DC541F"
+			tasks: [{
+				id: "66702A2C7DBFF314"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58536D39766CECB8"]
+			id: "6370EBBCF9330E43"
+			tasks: [{
+				id: "1D245BC6B4743AFF"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A40E9AB0C2C70B9"]
+			id: "58536D39766CECB8"
+			tasks: [{
+				id: "31161E2F09D65D4E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "2DB9CE7D8F82EF46"
+			tasks: [{
+				id: "25B7BE4E0439A65A"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DB9CE7D8F82EF46"]
+			id: "4ACDAEA8E0568026"
+			tasks: [{
+				id: "739B9D020BDA699F"
+				item: "gtceu:diphenyl_isophthalate_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E458D632F2EDDA1"]
+			id: "13B76DB33F9DB275"
+			tasks: [{
+				id: "5F0B83A8078FD4C5"
+				item: "gtceu:diaminobenzidine_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			id: "2E458D632F2EDDA1"
+			tasks: [{
+				id: "3FF059FC10F3EB67"
+				item: "gtceu:dichlorobenzidine_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			description: ["The efficiency is even worse than before at 70%, but these little guys can be handy in a pinch."]
+			id: "6697EB089B755D9A"
+			size: 1.25d
+			tasks: [{
+				id: "26EB2A4F5BFA608B"
+				item: "gtnn:iv_rocket_engine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4241FB5CE8C7C01C"]
+			description: [
+				"The &6Naquadah&r chain is only really required in &dLuV&r, but it's worth noting another single-block power option that starts to be viable in &1IV&r, the &2Naquadah Reactor&r."
+				""
+				"These consume small bits of &6Naquadah&r, &6Enriched Nq+&r, or &6Naquadria&r in exchange for a large amount of power.  Unlike &2Rocket Fuel Engines&r, they get &emore fuel efficient&r as you go up in tiers. "
+			]
+			id: "69C01045EB4F5B5D"
+			size: 1.25d
+			subtitle: "Maybe Next Time"
+			tasks: [{
+				id: "5CE4FF2B1ED8977D"
+				item: "gtnn:iv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The &2Planetary Ore Drill&r and associated &2Mudpit&r will become their own small quest lines."
+				""
+				"The Drill itself unlocks in &5EV&r, and is the only way to \"generate\" resources like &6Titanium&r, &6Tungsten&r, and &6Naquadah&r until orbital drills (which are not yet implemented)."
+				""
+				"The &2Planetary Ore Drill&r requires &edrilling mud&r to run, which must be made in a mudpit on site (right now, Venus and Mars can share one mudpit if you can transport the mud).  The drill has different recipes per celestial body, yielding those materials as long as you can supply it with mud."
+				""
+				"Among the outputs are special dusts from &6Mars&r and &7Venus&r that can be processed into &9Nether Stars&r."
+			]
+			id: "5A40E9AB0C2C70B9"
+			min_width: 250
+			size: 1.5d
+			tasks: [{
+				id: "24A21736919CF704"
+				item: "gtceu:planetary_core_drill"
+				type: "item"
+			}]
+			title: "Deep Space Mine"
+			x: 4.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]
