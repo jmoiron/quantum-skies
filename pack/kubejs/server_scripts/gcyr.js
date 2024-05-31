@@ -86,13 +86,13 @@ ServerEvents.recipes(event => {
         .duration(200);
 
 
-    event.recipes.gtceu.forge_hammer("moon_stone_to_sand")
+    greg.forge_hammer("moon_stone_to_sand")
         .itemInputs("gcyr:moon_stone")
         .itemOutputs("gcyr:moon_sand")
         .EUt(16)
         .duration(10);
 
-    event.recipes.gtceu.forge_hammer("moon_sand_to_regolith_block")
+    greg.forge_hammer("moon_sand_to_regolith_block")
         .itemInputs("gcyr:moon_sand")
         .itemOutputs("gtceu:moon_regolith_block")
         .EUt(16)
@@ -100,15 +100,39 @@ ServerEvents.recipes(event => {
 
     event.remove({type: "gtceu:macerator", output: "gtceu:moon_regolith_dust"});
 
-    event.recipes.gtceu.macerator("moon_regolith_block_to_dust")
+    greg.macerator("moon_regolith_block_to_dust")
         .itemInputs("gtceu:moon_regolith_block")
         .itemOutputs("4x gtceu:moon_regolith_dust")
         .EUt(16)
         .duration(10);
 
-    event.recipes.gtceu.macerator("mars_regolith_to_dust")
+    greg.macerator("mars_regolith_to_dust")
         .itemInputs("gcyr:mars_regolith")
         .itemOutputs("4x gtceu:mars_regolith_d_dust")
+        .EUt(16)
+        .duration(10);
+
+    greg.forge_hammer("venus_stone_to_cobble")
+        .itemInputs("gcyr:venus_rock")
+        .itemOutputs("gcyr:venus_cobblestone")
+        .EUt(16)
+        .duration(10);
+
+    greg.forge_hammer("venus_cobble_to_sand")
+        .itemInputs("gcyr:venus_cobblestone")
+        .itemOutputs("gcyr:venus_sand")
+        .EUt(16)
+        .duration(10);
+
+    greg.forge_hammer("venus_sand_to_regolith")
+        .itemInputs("gcyr:venus_sand")
+        .itemOutputs("gcyr:venusian_regolith")
+        .EUt(16)
+        .duration(10);
+
+    greg.macerator("venus_regolith_block_to_dust")
+        .itemInputs("gcyr:venusian_regolith")
+        .itemOutputs("4x gtceu:venus_regolith_d_dust")
         .EUt(16)
         .duration(10);
 
