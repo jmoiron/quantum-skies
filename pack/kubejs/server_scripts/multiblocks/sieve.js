@@ -80,6 +80,20 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:crushed_tungstate_ore", 2500, 1000)
         .chancedOutput("gtceu:crushed_scheelite_ore", 2500, 1000)
         .chancedOutput("gtceu:crushed_neodymium_ore", 2000, 1000)
+        .chancedOutput("gtceu:crushed_cobaltite_ore", 2000, 1000)
+        .notConsumable("kubejs:titanium_mesh")
+        .EUt(1920)
+        .duration(300)
+
+    // titanium mesh is an EV recipe..
+    // gameplay loop should be to lock this replenishable recipe to mars
+    greg.industrial_sieve("titanium_mesh_venus")
+        .itemInputs("gtceu:venus_regolith_d_dust")
+        .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
+        .chancedOutput("gtceu:crushed_tungstate_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_scheelite_ore", 2500, 1000)
+        .chancedOutput("gtceu:crushed_neodymium_ore", 2000, 1000)
+        .chancedOutput("gtceu:crushed_cobaltite_ore", 2000, 1000)
         .notConsumable("kubejs:titanium_mesh")
         .EUt(1920)
         .duration(300)
