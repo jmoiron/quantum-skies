@@ -18,6 +18,9 @@
     "gtceu.greenhouse": "Greenhouse",
 
     "material.gtceu.bedrock": "Bedrock",
+    "material.gtceu.martian_nether": "Martian Nether",
+    "material.gtceu.venusian_star": "Venusian Star",
+    "material.gtceu.planetary_nether_star": "Planetary Nether Star",
     "material.gtceu.moon_regolith": "Moon Regolith",
     "material.gtceu.mars_regolith_d": "Mars Regolith",
     "material.gtceu.venus_regolith_d": "Venus Regolith",

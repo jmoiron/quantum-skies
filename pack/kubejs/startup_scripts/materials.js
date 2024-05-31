@@ -24,6 +24,21 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x261D15)
         .iconSet(GTMaterialIconSet.SAND);
 
+    event.create("martian_nether")
+        .dust()
+        .color(0x719287)
+        .iconSet(GTMaterialIconSet.NETHERSTAR);
+
+    event.create("venusian_star")
+        .dust()
+        .color(0xFBFCC4)
+        .iconSet(GTMaterialIconSet.NETHERSTAR);
+
+    event.create("planetary_nether_star")
+        .dust()
+        .color(0x9CB2A7)
+        .iconSet(GTMaterialIconSet.NETHERSTAR);
+
     // mercury rock!
     function dust(name, color) {
         event.create(name).dust().color(color);

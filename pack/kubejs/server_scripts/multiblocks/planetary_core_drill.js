@@ -245,5 +245,30 @@ ServerEvents.recipes(event => {
         .EUt(800)
         .duration(300);
 
+    greg.planetary_core_drill("mars_drill")
+        .inputFluids("gtceu:poly_alpha_olefin_mud 100")
+        .dimension("gcyr:mars")
+        .itemOutputs("4x gcyr:martian_rock")
+        .chancedOutput("8x gtceu:mars_neodymium_ore", 4000, 250)
+        .chancedOutput("8x gtceu:mars_tungstate_ore", 5000, 250)
+        .chancedOutput("8x gtceu:mars_scheelite_ore", 8000, 250)
+        .chancedOutput("gtceu:martian_nether_dust", 500, 1000)
+        .chancedOutput("gtceu:naquadah_ore", 500, 500)
+        .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
+        .EUt(1600)
+        .duration(300);
+
+    greg.planetary_core_drill("venus_drill")
+        .inputFluids("gtceu:poly_alpha_olefin_mud 100")
+        .dimension("gcyr:venus")
+        .itemOutputs("4x gcyr:venus_rock")
+        .chancedOutput("8x gtceu:venus_neodymium_ore", 4000, 250)
+        .chancedOutput("8x gtceu:venus_tungstate_ore", 8000, 250)
+        .chancedOutput("8x gtceu:venus_scheelite_ore", 5000, 250)
+        .chancedOutput("gtceu:venusian_star_dust", 500, 1000)
+        .chancedOutput("gtceu:naquadah_ore", 500, 500)
+        .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
+        .EUt(1600)
+        .duration(300);
 
 });
