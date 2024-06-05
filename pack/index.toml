@@ -54,7 +54,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
+hash = "adc31b3b6fc77db0d43e80c093a9d6949af76eb704e18a2a9f03b117d72bfee4"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -174,7 +174,7 @@ hash = "3ff032d02a25ccc50e898e32e1f8f7e76abe3b31263f327520879ce41fa66918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "c85cdf6cf18ba6173f8b8ce78218dc3316b1180bfa587eda6acf2eb1f65f2cc6"
+hash = "3e51178d89d2ee8ecbdc0c97f67cdd1651621636d8a6f2631ca1976bb3f000e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -671,10 +671,6 @@ hash = "f952d7faa457203a39a0bfc376683a44cf1affbed87d7634c936c2e370a74868"
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
 hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
-
-[[files]]
-file = "kubejs/server_scripts/qs.js"
-hash = "a03cb071c43d7ba25aa95614da330dd8c5fcf538a66b815e61163ad97d487101"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"

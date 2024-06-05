@@ -114,4 +114,22 @@ ServerEvents.recipes(event => {
     hammer("venus_sand_to_regolith", "gcyr:venus_sand", "gcyr:venusian_regolith");
     macerate("venus_regolith_block_to_dust", "gcyr:venusian_regolith", "4x gtceu:venus_regolith_d_dust");
 
+
+    // coal tar has a conflict between gt-- and gcyr
+
+    event.remove({id: "gtceu:distillery/distill_coal_tar_to_anthracene"});
+    event.remove({id: "gtceu:distillation_tower/distill_coal_tar"});
+
+    greg.distillation_tower("distill_coal_tar")
+        .inputFluids("gtceu:coal_tar 1000")
+        .outputFluids("gtceu:naphthalene 300")
+        .outputFluids("gtceu:hydrogen_sulfide 300")
+        .outputFluids("gtceu:creosote 200")
+        .outputFluids("gtceu:phenol 100")
+        .outputFluids("gcyr:durene 100")
+        .outputFluids("gtceu:anthracene 50")
+        .itemOutputs("gtceu:small_coke_dust")
+        .EUt(120)
+        .duration(80);
+
 });
