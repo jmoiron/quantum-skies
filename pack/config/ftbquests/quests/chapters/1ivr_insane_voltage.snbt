@@ -158,7 +158,7 @@
 			description: [
 				"Known affectionately as the &eAssline&r, the &2Assembly Line&r is a multiblock structure that is capable of building things that &2Assemblers&r cannot.  The multiblock version of that machine is called the &2Large Assembling Factory&r; this machine has its own set of distinct recipes."
 				""
-				"Automating the &eAssline&r will pose a challenge.  You will eventually want many of these, as they work slowly, and they are needed for mechanical components from &dLuV&r onward."
+				"Automating the &eAssline&r is a significant challenge.  You will eventually want many of these, as they work slowly, and they're needed for mechanical components from &dLuV&r onward."
 			]
 			icon: "gtceu:assembly_line"
 			id: "249808AA0E4C27A9"

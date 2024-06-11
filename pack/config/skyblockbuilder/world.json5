@@ -36,6 +36,9 @@
   // Range: 64 - 29999900
   "islandDistance": 8192,
   
+  // If a player is leaving a team, it will teleported to overworld spawn instead of spawn island.
+  "leaveToOverworld": false,
+  
   // The offset from 0, 0 to generate the islands
   // Can be used to generate them in the middle of .mca files
   "offset": 0,

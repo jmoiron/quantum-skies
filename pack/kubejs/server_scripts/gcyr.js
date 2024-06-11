@@ -132,4 +132,12 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(80);
 
+
+    // missing potassium carbonate dust recipe
+    greg.chemical_reactor("potassium_carbonate_dust")
+        .inputFluids("gtceu:carbon_dioxide 1000")
+        .itemInputs("3x gtceu:potash_dust")
+        .itemOutputs("6x gcyr:potassium_carbonate_dust")
+        .EUt(7)
+        .duration(40);
 });
