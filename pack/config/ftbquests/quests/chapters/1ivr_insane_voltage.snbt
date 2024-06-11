@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:iv_machine_hull"
 	id: "03A65FEF0167519F"
-	order_index: 7
+	order_index: 8
 	quest_links: [
 		{
 			id: "2A2E8EFC9BE3B9D5"
@@ -35,7 +35,7 @@
 	quests: [
 		{
 			description: [
-				"What lies beyond &dextremity&r but &1insanity&r?"
+				"Beyond the &dextreme&r lies the &1insane&r."
 				""
 				"Forays into space have proven worthwhile. The layout of the planets is very familiar."
 				""
@@ -663,12 +663,13 @@
 			id: "5A40E9AB0C2C70B9"
 			min_width: 250
 			size: 1.5d
+			subtitle: "Welcome to Con-Am 27"
 			tasks: [{
 				id: "24A21736919CF704"
 				item: "gtceu:planetary_core_drill"
 				type: "item"
 			}]
-			title: "Deep Space Mine"
+			title: "Outland"
 			x: 4.0d
 			y: 3.5d
 		}
