@@ -203,6 +203,7 @@
 				"6519AED20FF95071"
 			]
 			id: "1F8EDC83C3E264E3"
+			size: 1.25d
 			tasks: [{
 				id: "0FD54212C95B0C9E"
 				item: "gtceu:iv_circuit_assembler"

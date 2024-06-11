@@ -23,6 +23,10 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(200);
 
+    // remove vanilla osmium line
+    event.remove({id: "gtceu:distillery/acidic_osmium_solution_separation_to_hydrochloric_acid"});
+    event.remove({id: "gtceu:distillery/acidic_osmium_solution_separation_to_water"});
+
     // modify pre-moon source of titanium to be EV (post-titanium)
     // also, nerf as a source of titanium
     event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_monazite"});
@@ -52,5 +56,21 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(600);
 
+    // vanilla GC yields vs GTEC yields:
+
+    // platinum + palladium
+    // vanilla:
+    // sheldonite dust 6x -> 3x platinum, 1x palladium
+    // gtec:
+    // sheldonite dust 6x -> 3x platinum metallic, 1x palladium salt
+    // sheldonite dust 36x -> 18x plat metallic + 6x palladium salt
+    //    9x PM -> 9KL PlatConcentrate + 1x Plat Residue (<- sheldonite 18x)
+    //    18KL PlatCon -> 16x PlatSalt + 4x PtCl (2x platinum) (<- sheldonite 36x)
+    //                 -> 3.6KL Palladium Ammonia
+    //    16 PlatSalt -> ~10 Plat Salt -> ~10 plat metallic
+    //                -> (1x platinum) + 1.8KL Palladium Ammonia + 8x PlatSalt (-> 5x)
+    //                -> (0.5x platinum) + 0.9KL Palladium Ammonia + 4x PlatSalt (-> 2x)
+    //    9KL Palladium Ammonia + 9x Palladium metallic -> 16 + 4 (2x palladium)
+    //    36x Sheldonite yields ~3.5 Plat, not even 1 palladium
 
 });
