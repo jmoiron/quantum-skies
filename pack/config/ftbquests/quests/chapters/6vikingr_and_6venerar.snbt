@@ -19,6 +19,7 @@
 				"42AB9784794AC169"
 			]
 			id: "392BA4AE76FC60A7"
+			size: 1.25d
 			tasks: [{
 				id: "399304D1025BB9D1"
 				item: "gcyr:advanced_rocket_motor"
@@ -33,6 +34,7 @@
 				"42AB9784794AC169"
 			]
 			id: "31CFAEF1267DE4D2"
+			size: 1.25d
 			tasks: [{
 				id: "08057E0C0250EA5D"
 				item: "gcyr:advanced_fuel_tank"
@@ -409,10 +411,13 @@
 			description: [
 				"The &2Planetary Core Drill&r is a large multiblock drill that extracts materials from the core of a planet. It will produce those materials endlessly provided &epower&r and &dlubricant&r."
 				""
-				"Unfortunately, ordinary &9drilling fluid&r will not hold up to extreme conditions of the drill. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
+				"Unfortunately, ordinary &9drilling fluid&r will not hold up to the extreme conditions near the core. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
+				""
+				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
 			]
 			id: "60C017745110DAA0"
 			size: 1.5d
+			subtitle: "To the core!"
 			tasks: [{
 				id: "7B6C70DAD592499D"
 				item: "gtceu:planetary_core_drill"
@@ -594,6 +599,30 @@
 			]
 			x: 16.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"Spectroscopy readings indicate a high concentration of &6Tungsten&r on &eVenus&r and &cMars&r, a dense metal that can form the basis for many new and valuable alloys."
+				""
+				"Traveling to &3The Moon&r took Apollo 3 days, but &eVenera-9&r took 4 months to get to &eVenus&r and &cViking&r took &o&e11 months&r to get to &cMars&r. "
+				""
+				"The &9basic rocket motor&r and &9fuel tanks&r don't seem up to the task for such an operation.  New technology is required."
+				""
+				"Thankfully, it seems like &6Titanium&r is sturdy enough to form the base of a more powerful engine and a tank capable of storing gaseous fuels at higher pressures."
+			]
+			icon: "gcyr:ore_finder_satellite"
+			id: "63C40C8A029AB344"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Valerian et Laureline?"
+			tasks: [{
+				id: "401959EED74021BD"
+				title: "Lore"
+				type: "checkmark"
+			}]
+			title: "&cViking&r and &eVenera&r"
+			x: 19.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["Exploring the neighborhood"]
