@@ -82,6 +82,82 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(24);
 
+    // this recipe invalidates the rest of the rhodium line
+    event.remove({id: "gtceu:electrolyzer/rhodium_sulfate_separation"});
+
+    // rhodium rebalance 46% increase yield
+    event.remove({id: "gtec:sifter/rhodium_filter_cake"});
+
+    greg.sifter("rhodium_filter_cake")
+        .itemInputs("gtec:rhodium_nitrate_dust")
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 1500, 0)
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 1500, 0)
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 1500, 0)
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 1500, 0)
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 1500, 0)
+        .chancedOutput("gtec:rhodium_filter_cake_dust", 2000, 0)
+        .EUt(120)
+        .duration(300);
+
+    // 5x yield here
+    event.remove({id: "gtec:mixer/rhodium_salt_solution"});
+
+    greg.mixer("rhodium_salt_solution")
+        .itemInputs("gtec:rhodium_salt_dust")
+        .inputFluids("minecraft:water 1000")
+        .outputFluids("gtec:rhodium_salt_solution 1000")
+        .EUt(30)
+        .duration(30);
+
+    // platline fixes in PR #9, backported via kjs until we get a release
+    // fix tetrahedrite being 9x better yield than everything else
+    event.remove({id: "gtec:chemical_reactor/dissolve_tetrahedrite_for_platline"});
+
+    greg.chemical_reactor("dissolve_tetrahedrite_for_platinum")
+        .itemInputs("9x gtceu:purified_tetrahedrite_ore")
+        .itemInputs("9x gtec:platinum_metallic_powder_dust")
+        .inputFluids("gtceu:aqua_regia 10000")
+        .outputFluids("gtec:platinum_concentrate 10000")
+        .itemOutputs("gtec:platinum_residue_dust")
+        .EUt(30)
+        .duration(2250);
+
+    // fix sifter yields for platinum and palladium
+    event.remove({id: "gtec:sifter/salt_to_metallic_powder_palladium"});
+    greg.sifter("salt_to_metallic_powder_palladium")
+        .itemInputs("gtec:palladium_salt_dust")
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:palladium_metallic_powder_dust", 2000, 0)
+        .EUt(30)
+        .duration(600);
+
+    event.remove({id: "gtec:sifter/refined_platinum_salt"});
+    greg.sifter("salt_to_metallic_powder_platinum")
+        .itemInputs("gtec:platinum_salt_dust")
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 1500, 0)
+        .chancedOutput("gtec:platinum_metallic_powder_dust", 2000, 0)
+        .EUt(30)
+        .duration(600);
+
+    event.remove({id: "gtec:electric_blast_furnace/rhodium_sulfate"});
+    greg.electric_blast_furnace("rhodium_sulfate")
+        .itemInputs("gtec:platinum_residue_dust")
+        .itemInputs("2x gtec:small_potassium_disulfate_dust")
+        .circuit(2)
+        .itemOutputs("gtec:leach_residue_dust")
+        .outputFluids("gtceu:rhodium_sulfate 360")
+        .blastFurnaceTemp(775)
+        .EUt(120)
+        .duration(200);
+
     // vanilla GC yields vs GTEC yields:
 
     // platinum + palladium

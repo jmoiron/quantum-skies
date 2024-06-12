@@ -441,6 +441,7 @@
 			dependencies: ["71F2F8A581A26230"]
 			id: "6A8F4AABDBCC496F"
 			size: 1.5d
+			subtitle: "Ridin' dirty"
 			tasks: [{
 				id: "5F3BA418685BED95"
 				item: "gtceu:mudpit"
@@ -623,6 +624,38 @@
 			title: "&cViking&r and &eVenera&r"
 			x: 19.0d
 			y: -10.0d
+		}
+		{
+			dependencies: [
+				"714A44034954167C"
+				"4E82FF7DAE20E3A5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&9Scheelite&r and &9Tungstate&r ores both yield &6Tungsten&r through a similar processing chain."]
+			id: "7BE3F64271467875"
+			tasks: [{
+				id: "6D1AFCB4CCD55CC1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:crushed_scheelite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:crushed_tungstate_ore"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tungsten Yielding Ores"
+			x: 16.0d
+			y: -7.5d
 		}
 	]
 	subtitle: ["Exploring the neighborhood"]
