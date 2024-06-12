@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "the_6lanthanidesr"
+	group: "09D97B44850738EB"
+	icon: "gtceu:exquisite_monazite_gem"
+	id: "5A888DAC95B3BE05"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"7418293A931E9DFC"
+			"763828CE2BABADAF"
+		]
+		description: [
+			"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing the lanthanides involves a complex and challenging chain."
+			""
+			"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
+			""
+			"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
+			""
+			"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
+			""
+			"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
+		]
+		hide_dependency_lines: true
+		icon: "gtceu:monazite_gem"
+		id: "6C04172231C42053"
+		min_width: 250
+		tasks: [
+			{
+				id: "7820D96B593B9437"
+				item: "gtceu:crushed_monazite_ore"
+				type: "item"
+			}
+			{
+				id: "0D4739C1B1C6F789"
+				item: "gtec:muddy_monazite_rare_earth_solution_bucket"
+				type: "item"
+			}
+		]
+		title: "The &6Lanthanides&r Chain"
+		x: -5.0d
+		y: 1.0d
+	}]
+	title: "The &6Lanthanides&r Chain"
+}

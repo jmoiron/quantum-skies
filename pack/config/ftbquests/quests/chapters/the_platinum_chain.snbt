@@ -2,17 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "the_platinum_chain"
-	group: "693226878D58638A"
+	group: "09D97B44850738EB"
 	icon: "gtceu:platinum_credit"
 	id: "2EE0E564AFD94630"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
+				"The &aplatinum group metals&r are a cluster of metals with similar properties, found together in &9Cooperite Ore&r, which is \"humourously\" called &eSheldonite&r in &2GT&r."
+				""
 				"The full &6platinum&r chain is a big challenge, and yields 6 important rare metals:"
 				""
-				"* &6Platinum&r, which you have already, used in &5EV&r and is a great &1IV&r cable material"
+				"* &6Platinum&r, used in &5EV&r, is used in many circuit recipes, and is also a great &1IV&r cable material"
 				""
 				"* &6Palladium&r, part of &6Rhodium-Palladium&r which is the &dLuV&r hull material"
 				""
@@ -22,10 +24,11 @@
 				""
 				"* &6Osmium&r, see above"
 				""
-				"* &6Ruthenium&r, used in &5Ruridit&r along with &6Iridium&r as part of &dLuV&r components and also &eFusion Reactor&r blocks"
+				"* &6Ruthenium&r, used in &5RTM-Alloy&r, an &2EBF&r coil material at the end of &5EV&r, in &5Ruridit&r along with &6Iridium&r as part of &dLuV&r components, and &eFusion Reactor&r blocks"
 			]
 			icon: "gtceu:platinum_plate"
 			id: "387B8703D5CF172F"
+			min_width: 275
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -59,10 +62,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"044B72F93BDD176A"
-				"0541BA78C74FB318"
-			]
+			dependencies: ["0541BA78C74FB318"]
 			id: "128F097CBC34C20C"
 			tasks: [{
 				id: "59E1AB829DDA4B39"
@@ -73,10 +73,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"647C4C74A036F8AD"
-				"128F097CBC34C20C"
-			]
+			dependencies: ["128F097CBC34C20C"]
 			id: "406BFE4ABAC91EFB"
 			tasks: [{
 				id: "2D0DDF99E18A550F"
@@ -87,10 +84,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: [
-				"044B72F93BDD176A"
-				"0541BA78C74FB318"
-			]
+			dependencies: ["0541BA78C74FB318"]
 			description: [
 				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
 				""

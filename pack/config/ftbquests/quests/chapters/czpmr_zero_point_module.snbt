@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:zpm_machine_hull"
 	id: "680B253F1C3B6A49"
-	order_index: 10
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
 		id: "7528A6EC106DD184"

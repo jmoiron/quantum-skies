@@ -5,7 +5,7 @@
 	group: "693226878D58638A"
 	icon: "gtceu:ev_machine_hull"
 	id: "1CEB6068368CCEFB"
-	order_index: 5
+	order_index: 4
 	quest_links: [
 		{
 			id: "54B0B5CA0096D3B0"
@@ -1050,7 +1050,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["647C4C74A036F8AD"]
+			dependencies: ["4EC10287171A5352"]
 			id: "43F4005A394F03DA"
 			tasks: [
 				{
@@ -1068,51 +1068,23 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["671EAAFA82C54470"]
-			id: "647C4C74A036F8AD"
-			tasks: [{
-				id: "24BB78ED617278F1"
-				item: "gtec:reprecipitated_platinum_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4EC10287171A5352"]
-			id: "044B72F93BDD176A"
-			tasks: [
-				{
-					id: "700AFF63523452D2"
-					item: "gtec:platinum_metallic_powder_dust"
-					type: "item"
-				}
-				{
-					id: "3A4B2815AAE115E7"
-					item: "gtceu:aqua_regia_bucket"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["10163F0E75A4227C"]
 			description: [
 				"The simple &6Platinum&r acquisition from main &2GTCEu Modern&r has been replaced with the elaborate &5platinum processing chain&r from &2GTNH&r."
 				""
-				"The relevant materials coming from this process in &5EV&r are &6Platinum&r itself and &6Ruthenium&r, which is used in &eRTM Alloy&r, the next tier of &5coil&r. The rest of the chain becomes much more relevant in &2IV&r and &dLuV&r. "
+				"The relevant materials coming from this process in &5EV&r are &6Platinum&r itself and &6Ruthenium&r, which is used in &eRTM Alloy&r, the next tier of &5coil&r. The rest of the chain becomes much more relevant in &1IV&r and &dLuV&r. "
 				""
-				"The &efull platinum chain&r is illustrated in its own quest chapter."
+				"The &efull chain&r is illustrated in its own quest chapter, \"The &6Platinum&r Chain\"."
 			]
 			id: "4EC10287171A5352"
+			size: 1.5d
 			tasks: [{
 				id: "41119859500B5826"
 				item: "gtceu:crushed_cooperite_ore"
 				type: "item"
 			}]
 			title: "The &6Platinum&r Chain"
-			x: -3.0d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -1143,56 +1115,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["044B72F93BDD176A"]
-			id: "671EAAFA82C54470"
-			tasks: [{
-				id: "3CEDD378B8CE2E23"
-				item: "gtec:platinum_concentrate_bucket"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["044B72F93BDD176A"]
-			description: [
-				"As its uncertain &echemical makeup&r suggests, processing &9Platinum Residue Dust&r will eventually yield &6Iridium&r, &6Ruthenium&r, &6Rhodium&r, and &6Osmium&r, all important metals in the coming tiers."
-				""
-				"If you want to make &5RTM Alloy&r coils in &5EV&r, you will need to follow the &aPlatinum Chain Quest Line&r to process this into &6Ruthenium&r."
-				""
-				"If you're happy to wait to &1IV&r, then there's no need to process this now. You can stockpile this in a &9Super Chest&r. &eDo not void it&r; you will need these metals in large quantities."
-			]
-			id: "780FCC6D0619AB06"
-			subtitle: "Let's revisit this later.. or not?"
-			tasks: [{
-				id: "31DC1D887CBECB0D"
-				item: "gtec:platinum_residue_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["671EAAFA82C54470"]
-			description: [
-				"It's a short step from here to &6Palladium&r, but it's not a &edirect&r step. It's recommended that you make the biggest &9Super Tank&r you can to stash this for now."
-				""
-				"Processing &5Palladium Ammonia&r requires making &eFormic Acid&r, and there's no significant recycling that works its way back into the &6Platinum&r process."
-			]
-			id: "22DE550BB6043CBC"
-			subtitle: "Let's visit this later, too"
-			tasks: [{
-				id: "50E347DCAC64975D"
-				item: "gtec:palladium_enriched_ammonia_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
 			dependencies: [
 				"541ADBEBFED70B7F"
 				"7DFF0EB3174AAFE6"
+				"106B56C0ED21A3C7"
 			]
 			description: [
 				"&5RTM Alloy&r is an alloy of &6Ruthenium&r, &6Tungsten&r, and &6Molybdenum&r."
@@ -1250,6 +1176,17 @@
 			}]
 			x: -10.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4EC10287171A5352"]
+			id: "106B56C0ED21A3C7"
+			tasks: [{
+				id: "1D6A3EA4483B40E9"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]

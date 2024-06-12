@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_6naquadahr_chain"
+	group: "09D97B44850738EB"
+	icon: "gtceu:naquadah_credit"
+	id: "7381973DD3F5952F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "The &6Naquadah&r Chain"
+}
