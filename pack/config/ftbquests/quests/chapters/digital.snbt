@@ -70,7 +70,13 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"You can get &9certus quartz dust&r early by centrifuging &6quartz dust&r, which you can make from &6sand&r."
+				""
+				"After you get to &6HV&r, you can build the &2Industrial Sieve&r and get &9crushed certus quartz ore&r."
+			]
 			id: "00DBE2D8FFBC55FB"
+			subtitle: "New Substrate"
 			tasks: [{
 				id: "6C4B1861252D4215"
 				item: "gtceu:certus_quartz_dust"
@@ -98,6 +104,11 @@
 			dependencies: [
 				"00DBE2D8FFBC55FB"
 				"41427ECCF9CDFED3"
+			]
+			description: [
+				"The bedrock of normal &2Applied Energistics&r progression, the gem version of &9Certus Quartz&r does not have many uses. "
+				""
+				"You can make some surprisingly decent tools with them, but their main use is in crafting &eenergy cells&r, which will help stop your network from losing power."
 			]
 			id: "41D4F6B077FF5B24"
 			tasks: [{
@@ -432,6 +443,42 @@
 			}]
 			x: 1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"41D4F6B077FF5B24"
+				"4455427485A44284"
+			]
+			id: "21621E7EDE0966B9"
+			tasks: [{
+				id: "607D74371D78F664"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4F90F7E5E9817AA4"
+				"21621E7EDE0966B9"
+			]
+			id: "22088758CE4B127F"
+			tasks: [{
+				id: "705A65D3D5E1876B"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
 		}
 	]
 	title: "Digital"

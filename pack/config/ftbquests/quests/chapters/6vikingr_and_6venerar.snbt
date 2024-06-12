@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "6vikingr_and_6venerar"
+	group: "693226878D58638A"
+	icon: "gcyr:ore_finder_satellite"
+	id: "41DE684064D9010B"
+	order_index: 7
+	quest_links: [{
+		id: "37AE54EE6ABCB702"
+		linked_quest: "2776EA649E43D833"
+		x: 14.5d
+		y: -4.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"475DD68AD1548E21"
+				"42AB9784794AC169"
+			]
+			id: "392BA4AE76FC60A7"
+			tasks: [{
+				id: "399304D1025BB9D1"
+				item: "gcyr:advanced_rocket_motor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"475DD68AD1548E21"
+				"42AB9784794AC169"
+			]
+			id: "31CFAEF1267DE4D2"
+			tasks: [{
+				id: "08057E0C0250EA5D"
+				item: "gcyr:advanced_fuel_tank"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"110BEDB4A7393717"
+				"599CB00100901A65"
+			]
+			id: "475DD68AD1548E21"
+			tasks: [
+				{
+					id: "6C019AA9A44C2EA0"
+					item: "gcyr:kapton_k_bucket"
+					type: "item"
+				}
+				{
+					id: "7586FDE06BA5884C"
+					item: "gcyr:kapton_k_foil"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33AE8B292B528D0C"]
+			id: "42AB9784794AC169"
+			tasks: [{
+				id: "6CA9270B31715AD7"
+				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			description: [
+				"It might seem anachronistic, but the next tier of &drocket fuel&r requires several chemicals that must be extracted from &ecoal or charcoal processing&r."
+				""
+				"&6Ethylbenzene&r is distilled from &acoal gas&r, which can be extracted from carbon fuels by processing them with steam in a &2Pyrolyse Oven&r. If you use a &bDistillation Tower&r, this will also yield &acoal tar&r."
+				""
+				"&6Naphthalene&r, &6Anthracene&r, &6Phenol&r, and &6Durene&r are distilled from &acoal tar&r. The &6Anthracene&r yield is pretty low, but you won't need much &drocket fuel&r unless you plan on using it for power."
+			]
+			icon: "gtceu:refined_coal_ore"
+			id: "7EEB0FF1C5CB1391"
+			min_width: 250
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "378F1A4A16617942"
+				title: "Coal Byproducts"
+				type: "checkmark"
+			}]
+			title: "Carbon Fuel Byproducts"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7EEB0FF1C5CB1391"]
+			id: "0871701BC9F8D615"
+			tasks: [{
+				id: "4C198F1FD9269E50"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0871701BC9F8D615"]
+			id: "6BB0ABC1573F6DEA"
+			tasks: [{
+				id: "236779F02C1C1947"
+				item: "gtceu:coal_tar_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0871701BC9F8D615"]
+			id: "50E6C5FCC54DA2F0"
+			tasks: [{
+				id: "1FD007EA5DC88D52"
+				item: "gtceu:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BB0ABC1573F6DEA"]
+			id: "1BE30A8E8CB8431B"
+			tasks: [{
+				id: "38EF55B9AED1C981"
+				item: "gtceu:naphthalene_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BB0ABC1573F6DEA"]
+			id: "1AA7C82B24BF1512"
+			subtitle: "Not Anthropocene"
+			tasks: [{
+				id: "429DAA4BB2882F22"
+				item: "gtceu:anthracene_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1BE30A8E8CB8431B"]
+			id: "4F7CEDAC0563F240"
+			tasks: [{
+				id: "2173CFAE195D9471"
+				item: "gtceu:phthalic_anhydride_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"4F7CEDAC0563F240"
+				"50E6C5FCC54DA2F0"
+			]
+			description: ["&aEthyl Anthra Quinone&r is used in the production of &6Hydrogen Peroxide&r.  Do not bother making this in bulk, it can be recycled in the chem plant."]
+			id: "50E241E988932C06"
+			tasks: [{
+				id: "0A2BF9BBC6C51E19"
+				item: "gtceu:ethyl_anthra_quinone_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"74CD924FA666E6D8"
+				"41DCD2B09586C876"
+			]
+			id: "4ED87AC672093DA1"
+			tasks: [{
+				id: "7F17CAA7CFCD7C00"
+				item: "gtceu:orange_metal_catalyst_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4ED87AC672093DA1"
+				"50E241E988932C06"
+			]
+			id: "20B1DEEDEB0562C7"
+			tasks: [{
+				id: "2E84D76D3B72E964"
+				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1AA7C82B24BF1512"
+				"20B1DEEDEB0562C7"
+			]
+			description: [
+				"Ever wonder what you get when you add an &6oxygen&r atom to H20?  &6Hydrogen Peroxide&r is your answer."
+				""
+				"Heavily diluted, it becomes a safe and powerful antiseptic, but in its concentrated form, it is added as an oxidizer in &arocket fuel&r."
+			]
+			id: "24C31497E8F7FBCD"
+			size: 1.25d
+			subtitle: "Bubbly Water"
+			tasks: [{
+				id: "7917D790CED90326"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24C31497E8F7FBCD"]
+			description: [
+				"Mixed with &6Methanol&r, &6Hydrazine&r can form &dDense Hydrazine Mixed Fuel&r, a potent &arocket fuel&r itself."
+				""
+				"What you need it for now is &dMethylhydrazine Nitrate Mixed Fuel&r, which has twice the energy density and is required for building Tier 2 rocket parts."
+			]
+			id: "33AE8B292B528D0C"
+			tasks: [{
+				id: "395248FC947E26EE"
+				item: "gtceu:hydrazine_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6BB0ABC1573F6DEA"]
+			id: "0EA2AC775127AB16"
+			tasks: [{
+				id: "2323A49C834F3014"
+				item: "gcyr:durene_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0EA2AC775127AB16"]
+			id: "599CB00100901A65"
+			tasks: [{
+				id: "4B00A6CCED4937C1"
+				item: "gcyr:pyrometillic_dianhydride_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4577586A500AE9B5"]
+			id: "110BEDB4A7393717"
+			tasks: [{
+				id: "652CEA112FC8DDE5"
+				item: "gcyr:oxydianiline_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BB0ABC1573F6DEA"]
+			id: "1ADF34902038EA5A"
+			tasks: [{
+				id: "49D5754E6C97EBAB"
+				item: "gtceu:phenol_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1ADF34902038EA5A"]
+			id: "48705EBF12ACE9D2"
+			tasks: [{
+				id: "2A9BFC9DA643FBAF"
+				item: "gcyr:aminophenol_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"48705EBF12ACE9D2"
+				"46F4EB12912C98FF"
+				"6BBF7DD4DB0C3DEA"
+				"42C6883F97ED1D42"
+			]
+			id: "4577586A500AE9B5"
+			tasks: [{
+				id: "64E8D852CE68E577"
+				item: "gcyr:oxydianiline_sludge_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			description: ["There are several ways to make &anitrochlorobenzine&r;  the most straightforward is going to be &6Benzene&r and &6Chlorine&r.  This is also an important component in &6PBI&r."]
+			id: "46F4EB12912C98FF"
+			tasks: [{
+				id: "59731744DA9CA877"
+				item: "gtceu:nitrochlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"One of the 3 components that goes into &6Oxydianaline sludge&r, you get 25% of it back when you distill the sludge to &doxydianaline&r."
+				""
+				"You can create it fairly simply from &6Methanol&r and &6Ammonia&r."
+			]
+			id: "6BBF7DD4DB0C3DEA"
+			tasks: [{
+				id: "43500F5029ABE55C"
+				item: "gcyr:dimethylformamide_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31CFAEF1267DE4D2"
+				"392BA4AE76FC60A7"
+			]
+			icon: "gcyr:mars_regolith"
+			id: "4E82FF7DAE20E3A5"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Get your ... to mars"
+			tasks: [{
+				dimension: "gcyr:mars"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "xtonesreworked:block/sols/14"
+					}
+				}
+				id: "3C3A75007D7E1973"
+				type: "dimension"
+			}]
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"31CFAEF1267DE4D2"
+				"392BA4AE76FC60A7"
+			]
+			icon: "gcyr:venus_sand"
+			id: "714A44034954167C"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Welcome to her nightmare"
+			tasks: [{
+				dimension: "gcyr:venus"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/painting/fire.png"
+					}
+				}
+				id: "5D55F8BE3D16F5E4"
+				type: "dimension"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			description: ["You can craft &6Potassium Carbonate&r with a little &6potash&r and some &6carbon dioxide&r.  Surely you have something producing lots of ashes by now, right?"]
+			id: "42C6883F97ED1D42"
+			tasks: [{
+				id: "243AA302C0A86F68"
+				item: "gcyr:potassium_carbonate_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"714A44034954167C"
+				"4E82FF7DAE20E3A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &2Planetary Core Drill&r is a large multiblock drill that extracts materials from the core of a planet. It will produce those materials endlessly provided &epower&r and &dlubricant&r."
+				""
+				"Unfortunately, ordinary &9drilling fluid&r will not hold up to extreme conditions of the drill. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
+			]
+			id: "60C017745110DAA0"
+			size: 1.5d
+			tasks: [{
+				id: "7B6C70DAD592499D"
+				item: "gtceu:planetary_core_drill"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2776EA649E43D833"]
+			id: "71F2F8A581A26230"
+			tasks: [{
+				id: "24B9F3C088E9E3DD"
+				item: "gtceu:watertight_casing"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71F2F8A581A26230"]
+			id: "6A8F4AABDBCC496F"
+			size: 1.5d
+			tasks: [{
+				id: "5F3BA418685BED95"
+				item: "gtceu:mudpit"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			id: "1434B5BACC58A7E7"
+			tasks: [{
+				id: "25D874E19F587802"
+				item: "gtec:calcium_fluoride_bucket"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["695FA3DE16E660DF"]
+			id: "1BD4AD579D6BA5AB"
+			tasks: [{
+				id: "11C0FDE813A207B2"
+				item: "gtceu:ethylene_glycol_bucket"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["323ABB6C57636F86"]
+			id: "3F25BB3DAEAD7933"
+			tasks: [{
+				id: "0E168839EDB0F052"
+				item: "gtceu:i_decene_tetramer_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1434B5BACC58A7E7"
+				"1BD4AD579D6BA5AB"
+				"3F25BB3DAEAD7933"
+				"6A8F4AABDBCC496F"
+			]
+			id: "435C1647875291B2"
+			tasks: [{
+				id: "1BB0B84D7E0EC91B"
+				item: "gtceu:poly_alpha_olefin_mud_bucket"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"60C017745110DAA0"
+				"435C1647875291B2"
+			]
+			id: "438972F698DDFEDF"
+			tasks: [
+				{
+					id: "742EF0F5069A1FB5"
+					item: "gtceu:martian_nether_dust"
+					type: "item"
+				}
+				{
+					id: "12AAEF9F72F9A1AE"
+					item: "gtceu:venusian_star_dust"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["438972F698DDFEDF"]
+			id: "149BECE5F68CEA61"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5ED13255E6555882"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			id: "695FA3DE16E660DF"
+			tasks: [{
+				id: "17BFF85DC777E449"
+				item: "gtceu:ethylene_oxide_bucket"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			description: ["&9Olefin Mud&r is a synthetic lubricant that's based on &eolefins&r, which are a class of hydrocarbon chain.  Olefins are ultimately based on &6Ethylene&r, but the one we'll use as a base is &6Decene&r."]
+			id: "30301D2127D95EDE"
+			tasks: [{
+				id: "01215899386F9A2C"
+				item: "gtceu:i_decene_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"30301D2127D95EDE"
+				"7F2AE9B6763A60DB"
+			]
+			id: "4453BE89F75D58C2"
+			tasks: [{
+				id: "778F9813824D3F55"
+				item: "gtceu:i_decene_olefin_sludge_dust"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &6fluorine&r that you put into &6Boron Trifluoride&r will be recycled, but only a small amount of &6Boron&r will come back out of this process."
+				""
+				"You can get &6boron&r by processing &6Lepidolite&r, or by processing the &6borax&r you get from processing &9salts&r."
+			]
+			id: "7F2AE9B6763A60DB"
+			tasks: [{
+				id: "716B636F2C7593FB"
+				item: "gtceu:boron_trifluoride_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4453BE89F75D58C2"]
+			description: [""]
+			id: "323ABB6C57636F86"
+			tasks: [
+				{
+					id: "4954B361B83F5D55"
+					item: "gtceu:i_decene_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "3DF96E46966398B7"
+					item: "gtceu:hydrogenated_i_decene_solution_bucket"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Exploring the neighborhood"]
+	title: "&cViking&r and &eVenera&r"
+}
