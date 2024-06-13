@@ -158,21 +158,25 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(200);
 
-    // vanilla GC yields vs GTEC yields:
+    // add missing hexafluorosilic acid recipe
+    greg.chemical_reactor("hexafluorosilic_acid")
+        .inputFluids("gtceu:fluorine 6000")
+        .itemInputs("gtceu:silicon_dust")
+        .outputFluids("gtceu:hydrogen 4000")
+        .outputFluids("gtec:hexafluorosilic_acid 1000")
+        .EUt(120)
+        .duration(400);
 
-    // platinum + palladium
-    // vanilla:
-    // sheldonite dust 6x -> 3x platinum, 1x palladium
-    // gtec:
-    // sheldonite dust 6x -> 3x platinum metallic, 1x palladium salt
-    // sheldonite dust 36x -> 18x plat metallic + 6x palladium salt
-    //    9x PM -> 9KL PlatConcentrate + 1x Plat Residue (<- sheldonite 18x)
-    //    18KL PlatCon -> 16x PlatSalt + 4x PtCl (2x platinum) (<- sheldonite 36x)
-    //                 -> 3.6KL Palladium Ammonia
-    //    16 PlatSalt -> ~10 Plat Salt -> ~10 plat metallic
-    //                -> (1x platinum) + 1.8KL Palladium Ammonia + 8x PlatSalt (-> 5x)
-    //                -> (0.5x platinum) + 0.9KL Palladium Ammonia + 4x PlatSalt (-> 2x)
-    //    9KL Palladium Ammonia + 9x Palladium metallic -> 16 + 4 (2x palladium)
-    //    36x Sheldonite yields ~3.5 Plat, not even 1 palladium
+    // this creates an infinite processing loop that manifests cerium from nothing
+    // adding a chance to not get the bastnasite back out, which reduces the yield
+    // slightly from infinity to some other number that's probably fair given that
+    // cerium is completely useless
+    event.remove({id: "gtec:centrifuge/cerium_oxidesed_rare_earth_oxides_dust_separation"});
+    greg.centrifuge("bastnasite_cerium_oxidized_separation")
+        .itemInputs("gtec:cerium_oxidised_rare_earth_oxides_dust")
+        .chancedOutput("gtec:bastnasite_rare_earth_oxides_dust", 9500, 0)
+        .chancedOutput("gtec:cerium_dioxide_dust", 7000, 0)
+        .EUt(480)
+        .duration(600);
 
 });
