@@ -97,7 +97,11 @@
 		}
 		{
 			dependencies: ["4BC0FF32249861EB"]
-			description: ["The &6Hafnia&r that you get out of your &eHafnia-Zirconia blend&r can eventually be processed into &6Hafnium&r."]
+			description: [
+				"The &6Hafnia&r that you get out of your &eHafnia-Zirconia blend&r can eventually be processed into &6Hafnium&r."
+				""
+				"The &9iodine vapour&r you use to create &6hafnium iodide&r is recycled when you blast the &9hafnium ingot&r, so don't get too worried about having to stock up on &6iodine&r."
+			]
 			id: "3BAAC6D8A215551D"
 			tasks: [
 				{
@@ -814,6 +818,19 @@
 			]
 			x: -9.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["3BAAC6D8A215551D"]
+			id: "7DC44F06BD169358"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "1C21E94663A7C55E"
+				item: "gtceu:hafnium_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
 		}
 	]
 	title: "The &6Lanthanides&r"

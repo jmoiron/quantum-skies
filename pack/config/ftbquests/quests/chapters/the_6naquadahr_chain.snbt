@@ -7,6 +7,25 @@
 	id: "7381973DD3F5952F"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"&2GT--&r significantly overhauls both Naquadah processing as well as Naquadah uses, adding single-block reactors up to UV as well as a multi-block liquid fuel reactor."
+			""
+			"The processing chain involves the use of another multiblock, the &6Neutron Reactor&r, which has a custom \"kinetic energy\" mechanic that will be explained in this quest line."
+			""
+			"Naquadah processing starts in &dLuV&r."
+		]
+		icon: "gtceu:naquadah_alloy_gear"
+		id: "67F55ABE451C218E"
+		shape: "circle"
+		size: 2.0d
+		tasks: [{
+			id: "24075932486760CA"
+			title: "Naquadah Processing"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: -0.5d
+	}]
 	title: "The &6Naquadah&r Chain"
 }
