@@ -7,41 +7,814 @@
 	id: "5A888DAC95B3BE05"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"7418293A931E9DFC"
-			"763828CE2BABADAF"
-		]
-		description: [
-			"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing the lanthanides involves a complex and challenging chain."
-			""
-			"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
-			""
-			"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
-			""
-			"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
-			""
-			"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
-		]
-		hide_dependency_lines: true
-		icon: "gtceu:monazite_gem"
-		id: "6C04172231C42053"
-		min_width: 250
-		tasks: [
-			{
-				id: "7820D96B593B9437"
-				item: "gtceu:crushed_monazite_ore"
+	quests: [
+		{
+			dependencies: [
+				"7418293A931E9DFC"
+				"763828CE2BABADAF"
+			]
+			description: [
+				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing the lanthanides requires building a complex chain."
+				""
+				"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
+				""
+				"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
+				""
+				"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
+				""
+				"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:monazite_gem"
+			id: "6C04172231C42053"
+			min_width: 250
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7820D96B593B9437"
+					item: "gtceu:crushed_monazite_ore"
+					type: "item"
+				}
+				{
+					id: "0D4739C1B1C6F789"
+					item: "gtec:muddy_monazite_rare_earth_solution_bucket"
+					type: "item"
+				}
+			]
+			title: "The &6Monazite&r Chain"
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C04172231C42053"]
+			id: "4BC0FF32249861EB"
+			tasks: [
+				{
+					id: "31AA6C944D7EB9DD"
+					item: "gtec:diluted_monazite_rare_earth_mud_bucket"
+					type: "item"
+				}
+				{
+					id: "3D027930209210E0"
+					item: "gtec:hafnia_zirconia_blend_dust"
+					type: "item"
+				}
+				{
+					id: "55B8AB4BC1B2BB9B"
+					item: "gtec:thorium_dioxide_dust"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BC0FF32249861EB"]
+			description: [
+				"&6Thorium Dioxide&r can be processed into &6thorium&r in two ways."
+				""
+				"The first way uses &6magnesium&r in a loop."
+				""
+				"The second way uses &6Aluminium&r and produces &6alumina&r, which can be blasted in the &bEBF&r for &ealuminium ingots&r at a large energy discount over normal &9aluminium dust&r."
+			]
+			id: "14526021279CDEBB"
+			tasks: [
+				{
+					id: "1BA22B3E4D5438F2"
+					item: "gtec:thorium_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "472100271BB82550"
+					item: "gtec:alumina_dust"
+					type: "item"
+				}
+			]
+			title: "Thorium Capture"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BC0FF32249861EB"]
+			description: ["The &6Hafnia&r that you get out of your &eHafnia-Zirconia blend&r can eventually be processed into &6Hafnium&r."]
+			id: "3BAAC6D8A215551D"
+			tasks: [
+				{
+					id: "756F1789D59DFAE2"
+					item: "gtec:hafnia_dust"
+					type: "item"
+				}
+				{
+					id: "72E63EA2B25C4770"
+					item: "gtec:hafnium_tetrachloride_dust"
+					type: "item"
+				}
+				{
+					id: "49559A93DBB5C898"
+					item: "gtec:hafnium_tetrachloride_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "1AADE17E329AD9C5"
+					item: "gtec:low_purity_hafnium_dust"
+					type: "item"
+				}
+				{
+					id: "62A6C23F57C1E104"
+					item: "gtec:hafnium_idodide_dust"
+					type: "item"
+				}
+			]
+			title: "Hafnia / Zirconia"
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BC0FF32249861EB"]
+			id: "30456F692DF8E9DC"
+			tasks: [
+				{
+					id: "1C884CD9099FC219"
+					item: "gtec:monazite_sulfate_dust"
+					type: "item"
+				}
+				{
+					id: "69321C450B5C3D38"
+					item: "gtec:red_zircon_dust"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30456F692DF8E9DC"]
+			dependency_requirement: "one_completed"
+			id: "0C7A8130BF8F64AD"
+			tasks: [{
+				id: "4F0EDA56E779A8EB"
+				item: "gtceu:zirconium_dust"
 				type: "item"
-			}
-			{
-				id: "0D4739C1B1C6F789"
-				item: "gtec:muddy_monazite_rare_earth_solution_bucket"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0C7A8130BF8F64AD"
+				"71171F1BD20CAECB"
+				"604E1931866043E5"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E9F47CD8DC5FE4C"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "5BB1F7B9137E8DED"
+				item: "gtceu:zirconium_ingot"
 				type: "item"
-			}
-		]
-		title: "The &6Lanthanides&r Chain"
-		x: -5.0d
-		y: 1.0d
-	}]
-	title: "The &6Lanthanides&r Chain"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30456F692DF8E9DC"]
+			description: ["Dilute your &6Monazite Sulfate&r in water, then &breact&r with &6Ammonium Nitrate&r in a large chemical reactor to &9Acidic Monazite Powder&r."]
+			id: "1236BA6B63D0B6D1"
+			tasks: [
+				{
+					id: "0F67499EDD015C1F"
+					item: "gtec:diluted_monazite_sulfate_bucket"
+					type: "item"
+				}
+				{
+					id: "1DF11AC338D279DE"
+					item: "gtec:acidic_monazite_powder_dust"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1236BA6B63D0B6D1"]
+			description: [
+				"Given how far you've come, it is a straightforward processing chain to get from &6Acidic Monazite Powder&r to the &9Neutralized Rare Earth Filtrate&r you need to sift to yield the &ehydroxide concentrate&r and &euranium filtrate&r in this quest."
+				""
+				"The &9Uranium Filtrate Dust&r will be your primary source of &6Uranium&r (both 238 and 235) for a while. The fun with Monazite continues, but you're getting closer to the rare earths byproducts."
+			]
+			id: "433629DA1946D1E0"
+			tasks: [
+				{
+					id: "12D0D2750B80123E"
+					item: "gtec:monazite_rare_earth_hydroxide_concentrate_dust"
+					type: "item"
+				}
+				{
+					id: "1CAD72D5E044C109"
+					item: "gtec:uranium_filtrate_dust"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["433629DA1946D1E0"]
+			description: ["Continuing down the &dmonazite chain&r, it's another series of straightforward processing steps to get from the &6hydroxide concentrate&r in the previous quest to the &6nitric leached mixture&r in this quest."]
+			id: "56677CB4BCFB7BB2"
+			tasks: [
+				{
+					id: "0C50D726CFC42B69"
+					item: "gtec:dried_monazite_rare_earth_concentrate_dust"
+					type: "item"
+				}
+				{
+					id: "0029499811418959"
+					item: "gtec:nitrogenated_monazite_rare_earth_concentrate_bucket"
+					type: "item"
+				}
+				{
+					id: "026C9935E66C471F"
+					item: "gtec:nitric_leached_monazite_mixture_bucket"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"56677CB4BCFB7BB2"
+				"4C8A3BC1580713C6"
+			]
+			dependency_requirement: "one_completed"
+			description: ["&6Zirconium&r sure seemed easy compared to this."]
+			id: "03789FB8DE1B91A1"
+			tasks: [
+				{
+					id: "6E3B8C1501B78D04"
+					item: "gtec:cerium_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "52DFA8F75738FF6B"
+					item: "gtec:cerium_chloride_dust"
+					type: "item"
+				}
+				{
+					id: "26AE4D0DBFB748AC"
+					item: "gtec:cerium_oxalate_dust"
+					type: "item"
+				}
+				{
+					id: "6BDA2323930AA332"
+					item: "gtec:cerium_iii_oxide_dust"
+					type: "item"
+				}
+			]
+			title: "Cerium Processing"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["56677CB4BCFB7BB2"]
+			description: ["More &estraight line processing&r yields a source of &6Europium&r and the next step on your way towards the rest of the &6lanthanides&r."]
+			id: "6861B1B00AA4A7FA"
+			tasks: [
+				{
+					id: "1AE0A01708A242D9"
+					item: "gtec:nitric_monazatie_leached_concentrate_bucket"
+					type: "item"
+				}
+				{
+					id: "52BF27ACBECE1374"
+					item: "gtec:monaziterarer_earth_sediment_dust"
+					type: "item"
+				}
+				{
+					id: "5ED553AFAD802753"
+					item: "gtec:europium_iii_oxide_dust"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03789FB8DE1B91A1"]
+			description: [
+				"&6Cerium&r is used as part of the fuel chain for the advanced &2Naquadah Liquid Fuel Reactors&r. "
+				""
+				"Since this fuel needs to be &ecombined with radon&r in a &2Fusion Reactor&r, chances are you will not have a use for this until very late."
+				""
+				"On the plus side, it generates over &958m EU&r per mb, making it 18281x more energy dense than &6high octane gasoline&r."
+			]
+			id: "77A995D3C62FEB71"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "58A16F7832D7DC6C"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6861B1B00AA4A7FA"]
+			description: [
+				"&9Europium Oxide&r doesn't save you from having to produce your first &6Europium&r in the &bFusion Reactor&r, but it does allow you to produce &6Europium&r from the lanthanides chain once you've got some."
+				""
+				"&bReacting&r 5x &9Europium Oxide&r with 1x &6Europium&r dust eventually yields 3x &6Europium&r dust."
+			]
+			id: "3274B1939799B2E8"
+			tasks: [
+				{
+					id: "0E76CF5BB773A9A1"
+					item: "gtec:europium_oxide_dust"
+					type: "item"
+				}
+				{
+					id: "745BF10823123174"
+					item: "gtceu:europium_dust"
+					type: "item"
+				}
+			]
+			title: "Chicken and Egg"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3274B1939799B2E8"]
+			description: [
+				"Although &6Europium&r is not attainable until &dLuV&r, the lanthanides processing chain nonetheless saves you from having to dedicate an entire &bFusion Reactor&r for &6Europium&r production."
+				""
+				"Not a bad side benefit."
+			]
+			id: "7EFD4684169611F1"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "46301D6758530F74"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6861B1B00AA4A7FA"]
+			description: [
+				"More imposingly named piles of dust produced in &estraight line&r reactions get you to the penultimate step in the lanthanides chain, &9Samaric Residue Dust&r."
+				""
+				"You're almost there!"
+			]
+			id: "0CEA3722533D346B"
+			tasks: [
+				{
+					id: "1C82C35B32A9B992"
+					item: "gtec:heterogenic_halogenic_monazite_rare_earth_mixture_dust"
+					type: "item"
+				}
+				{
+					id: "0DB67810466E0BD1"
+					item: "gtec:satured_monazite_rare_earth_dust"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2EACB7FF022B9956"]
+			id: "4981824E18F95876"
+			tasks: [{
+				id: "6966EE00EE6C97D4"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4981824E18F95876"]
+			id: "0F89597063B5B4A6"
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "6B826A26668BCDA2"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			title: "&1IV&r Superconductors"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EACB7FF022B9956"]
+			id: "59F6D6F567FA1014"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "1F533048B3F4B78D"
+				item: "gtceu:gadolinium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"433629DA1946D1E0"
+				"325CF49F37018A77"
+			]
+			id: "5337584F0630F308"
+			tasks: [
+				{
+					id: "43A7B6AE71E22424"
+					item: "gtceu:uranium_dust"
+					type: "item"
+				}
+				{
+					id: "2812BCD4B9762D04"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The &6Bastnasite&r chain rounds out the other &arare earth metals&r."
+				""
+				"You can get &9bastnasite crushed ore&r by &2heavy sieving&r moon regolith. Treating it with &6Nitric Acid&r, like with &6monazite&r, starts off the processing chain and yields some delicious mud."
+			]
+			icon: "gtceu:raw_bastnasite"
+			id: "366518AC74B67126"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "02531A3841C44B18"
+					item: "gtceu:crushed_bastnasite_ore"
+					type: "item"
+				}
+				{
+					id: "4C125442A169D5FD"
+					item: "gtec:muddy_bastnasite_rare_earth_solution_bucket"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["366518AC74B67126"]
+			description: ["First up, &2cracking&r the &6bastnasite&r mud you created with steam gets you &9steam cracked&r mud."]
+			id: "33DD490885E2CF0D"
+			tasks: [{
+				id: "4F86F85358F8C8DE"
+				item: "gtec:steam_cracked_muddy_bastnasite_rare_earth_solution_bucket"
+				type: "item"
+			}]
+			title: "Steam Cracking Bastnasite Solution"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A3EA94683C4EDB5"]
+			id: "5408D84C82FBED09"
+			tasks: [{
+				id: "02C3942460346FD9"
+				item: "gtec:sodiumfluorosilicate_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6Hexafluorosilic Acid&r is a simple acid made of &6fluorine&r and &6silicon&r."
+				""
+				"Where's that &6hydrogen&r coming from?"
+			]
+			id: "4A3EA94683C4EDB5"
+			tasks: [{
+				id: "7DE6EF2A594674BC"
+				item: "gtec:hexafluorosilic_acid_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5408D84C82FBED09"
+				"33DD490885E2CF0D"
+			]
+			id: "7B7A2CAC8023B205"
+			tasks: [{
+				id: "66DA6029A1FE4180"
+				item: "gtec:conditioned_bastnasite_mud_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B7A2CAC8023B205"]
+			description: ["&2Centrifuging&r this brown mud gets you another source of &6Red Zircon&r for &6Zirconium&r, as well as some traces of &6Titanium&r."]
+			id: "5048F3F5D49300BB"
+			tasks: [{
+				id: "4B7B48EBD7161065"
+				item: "gtec:diluted_bastnasite_mud_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5048F3F5D49300BB"]
+			description: [
+				"From here, you have a &echoice&r."
+				""
+				"If you treat the &6bastnasite rare earth oxides&r with &6hydrochloric acid&r, you'll head down a fairly straight line chain that ends with a decent amount of &6Cerium&r production."
+				""
+				"If you treat it with &6nitric acid&r, you'll head down a complex and branching chain towards &6Lanthanum&r, &6Neodymium&r, &6Sammarium&r and &6Gadolinium&r."
+			]
+			id: "71DDF1A71039B8A6"
+			tasks: [
+				{
+					id: "76D727FCD37C96F6"
+					item: "gtec:filtered_bastnasite_mud_bucket"
+					type: "item"
+				}
+				{
+					id: "556A1A0B800CA161"
+					item: "gtec:bastnasite_rare_earth_oxides_dust"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5048F3F5D49300BB"]
+			id: "71171F1BD20CAECB"
+			tasks: [{
+				id: "1E4A708F152B0DE1"
+				item: "gtec:red_zircon_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71DDF1A71039B8A6"]
+			id: "1896D8E772A76EF0"
+			tasks: [{
+				id: "7031B6190D03293F"
+				item: "gtec:acid_leached_astnasite_rare_earth_oxides_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71DDF1A71039B8A6"]
+			id: "39570F65579A1FC5"
+			tasks: [{
+				id: "4D6D9A3E88ABABA7"
+				item: "gtec:nitrogenated_rarer_earth_oxides_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1896D8E772A76EF0"]
+			description: [
+				"This path to &6Cerium Dioxide&r has a chance to yield more of its input, although it also has a chance of not producing any &6Cerium Dioxide&r at all."
+				""
+				"How many loops?  There's a 1 in 20 chance you do not yield more &6bastnasite oxide rare earth&r, which means you can expect the median run to hit &e13 loops&r."
+			]
+			id: "4C8A3BC1580713C6"
+			tasks: [
+				{
+					id: "1D6A3B12C64C7D71"
+					item: "gtec:roasted_rare_earth_oxides_dust"
+					type: "item"
+				}
+				{
+					id: "637FD0966CA29955"
+					item: "gtec:wet_rare_earth_oxides_dust"
+					type: "item"
+				}
+				{
+					id: "038AC095F85320D7"
+					item: "gtec:cerium_oxidised_rare_earth_oxides_dust"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39570F65579A1FC5"]
+			id: "2E0F8EDC2276B9BC"
+			tasks: [{
+				id: "3497214E4CE8A005"
+				item: "gtec:bastnasite_rarer_earth_oxides_suspension_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E0F8EDC2276B9BC"]
+			description: [
+				"Down the &6Neodymium&r route lie &6Lanthanum&r, for which this group is named, and &6Neodymium&r.  "
+				""
+				"This dust has traces of &6Praseodymium&r, but it looks too much like &6Praesidium&r so nobody likes it."
+			]
+			id: "2C6710AF56DA4878"
+			tasks: [{
+				id: "04E4CCB31B3755BE"
+				item: "gtec:neodymium_rare_earth_concentrate_dust"
+				type: "item"
+			}]
+			title: "Neodymium Rare Earths"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0F8EDC2276B9BC"]
+			description: [
+				"Roasting the &6fluorinated sammaric concentrate&r in an &2EBF&r will get get you &6holmium&r and some trace dusts that lead to &6Sammarium&r and &6Terbium&r."
+				""
+				"It also gets you a decent amount of &6Calcium Fluoride&r, which is useful in industrial lubricants such as those made in the &2mudpit&r."
+			]
+			id: "6B875A0EC579E7D5"
+			tasks: [
+				{
+					id: "4D0C4047F00F60E4"
+					item: "gtec:samaric_rare_earth_concentrate_dust"
+					type: "item"
+				}
+				{
+					id: "3B4CB87B9EC0006D"
+					item: "gtec:fluorinated_samaric_concentrate_dust"
+					type: "item"
+				}
+			]
+			title: "Sammaric Fluoride Dusts"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C6710AF56DA4878"]
+			description: ["Applying ever more &6hydrochloric acid&r gets you a fairly poor yield of &6neodymium&r and &6lanthanum&r trace dusts."]
+			id: "0024B345E00EA387"
+			tasks: [
+				{
+					id: "4793EF33A8BF82AA"
+					item: "gtec:lanthanum_chloride_dust"
+					type: "item"
+				}
+				{
+					id: "2C4A2835876A6950"
+					item: "gtec:neodymium_oxide_dust"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0024B345E00EA387"]
+			id: "74E9454FB0F5B3AC"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "79EEFD2ABCC84532"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0024B345E00EA387"]
+			id: "344F969D479E66A2"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "0696A995DC8044FC"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B875A0EC579E7D5"]
+			description: [
+				"Well done!"
+				""
+				"&6Holmium&r currently has no uses. "
+				""
+				"In reality, &6Holimium&r is a good neutron sink, and is useful in &2nuclear reactors&r. Look out for it to make an appearance."
+			]
+			id: "7B221CC879551A66"
+			tasks: [{
+				id: "3B10E2911490E6F6"
+				item: "gtceu:holmium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0CEA3722533D346B"
+				"7A895DAA668BA188"
+			]
+			id: "2EACB7FF022B9956"
+			tasks: [{
+				id: "41C6C7C654095C4F"
+				item: "gtec:samaric_residue_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B875A0EC579E7D5"]
+			id: "7A895DAA668BA188"
+			tasks: [{
+				id: "2ABDD992C8372445"
+				item: "gtec:nitrogenated_samarium_terbium_mixture_dust"
+				type: "item"
+			}]
+			title: "Nitrogenated Mixture Dust"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A895DAA668BA188"]
+			id: "00835DF8CEEA1A4B"
+			tasks: [{
+				id: "00CDC698789C068D"
+				item: "gtec:terbium_nitrate_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00835DF8CEEA1A4B"]
+			id: "226C034282D7ABF5"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "53D32B803B3A3B5F"
+				item: "gtceu:terbium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC0FF32249861EB"]
+			description: [
+				"It's a bit of a walk, but &6zirconia&r can eventually be cooked directly into &9zirconium ingots&r."
+				""
+				"In &2GTNH&r, &6zircnoia&r itself had a lot of uses, but you don't need to worry about that here."
+			]
+			id: "604E1931866043E5"
+			tasks: [
+				{
+					id: "567C5A23599F8B22"
+					item: "gtec:zirconia_dust"
+					type: "item"
+				}
+				{
+					id: "13BED5C7A9E56090"
+					item: "gtec:zirconium_tetrachloride_dust"
+					type: "item"
+				}
+				{
+					id: "3AF17FB0908B34C7"
+					item: "gtec:zirconium_tetrachloride_solution_bucket"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -4.5d
+		}
+	]
+	title: "The &6Lanthanides&r"
 }
