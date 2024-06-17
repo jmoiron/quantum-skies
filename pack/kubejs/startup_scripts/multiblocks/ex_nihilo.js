@@ -8,8 +8,8 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("cauldron")
         .category("cauldron")
         .setEUIO("in")
-        .setMaxIOSize(3, 1, 0, 1)
-        .setSound(GTSoundEntries.BOILER);
+        .setMaxIOSize(3, 1, 1, 1)
+        .setSound(GTSoundEntries.BATH);
 
     event.create("crucible")
         .category("crucible")
@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .category("industrial_sieve")
         .setEUIO("in")
         .setMaxIOSize(2, 16, 3, 1)
-        .setSound(GTSoundEntries.BOILER);
+        .setSound(GTSoundEntries.MIXER);
 
 });
 

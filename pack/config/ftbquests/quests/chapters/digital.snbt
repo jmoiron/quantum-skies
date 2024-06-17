@@ -384,6 +384,7 @@
 		}
 		{
 			dependencies: ["2AAF8EE73768D508"]
+			description: ["Technically, you can craft these with &6PE&r instead of &6PVC&r, but why would you?"]
 			id: "3D5E6D72AF9D1848"
 			tasks: [{
 				id: "2A97E3D5D791ED73"

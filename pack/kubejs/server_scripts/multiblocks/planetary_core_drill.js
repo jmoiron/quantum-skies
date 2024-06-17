@@ -255,6 +255,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:martian_nether_dust", 500, 1000)
         .chancedOutput("gtceu:naquadah_ore", 500, 500)
         .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
+        .circuit(1)
         .EUt(1600)
         .duration(300);
 
@@ -268,6 +269,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:venusian_star_dust", 500, 1000)
         .chancedOutput("gtceu:naquadah_ore", 500, 500)
         .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
+        .circuit(2)
         .EUt(1600)
         .duration(300);
 

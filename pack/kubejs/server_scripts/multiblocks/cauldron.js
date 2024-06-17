@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         event.recipes.gtceu.cauldron(`cauldron_${output.split(":")[1]}`)
             .itemInputs(input)
             .itemOutputs(output)
-            .inputFluids("minecraft:water 250")
+            .inputFluids("minecraft:water 200")
             .duration(20)
             .EUt(40);
     })

@@ -457,6 +457,7 @@
 						]
 					}
 				}
+				title: "Sapphire Dust"
 				type: "item"
 			}]
 			title: "Sapphire Dust"
@@ -509,7 +510,9 @@
 			description: [
 				"The &bCentrifugre&r can physically separate mixtures into their individual components, even if those mixtures are, say, &9Rubber Wood&r."
 				""
-				"This is a central way to get some important materials out of ores, where they are found in trace amounts. The most pressing use is extracting &6Arsenic&r from &bRealgar&r for use in circuit component manufacturing."
+				"The &bcentrifuge&r is the only way to get &9glue&r, which is useful for batch crafting circuit components in the &bassembler&r."
+				""
+				"It's also central way to get some important materials out of ores that are only present in trace amounts. The most pressing use is extracting &6arsenic&r from &brealgar&r for use in the next tier of circuit component manufacturing."
 			]
 			id: "3A36E2898F29340D"
 			subtitle: "Mixing Things Apart"
@@ -526,9 +529,9 @@
 			description: [
 				"The &dAssembler&r is one of the primary milestones of any voltage tier."
 				""
-				"Your first &dAssembler&r features simpler recipes for many vanilla items, like &9Hoppers&r.  It can also craft many things that required tools before, like &bmachine casings&r."
+				"Your first &dassembler&r features simpler recipes for many vanilla items, like &9Hoppers&r.  It can also craft many things that required tools before, like &bmachine casings&r."
 				""
-				"IT also opens up many higher yield recipes, especially for &bcircuit components&r. Be sure to look into the &dAssembler&r tab in &2JEI&r before bulk crafting things moving forward, there may be cheaper versions of recipes that you've grown used to."
+				"The &dassembler&r also opens up many higher yield recipes, especially for &bcircuit components&r. Be sure to look into the &dAssembler&r tab in &2JEI&r before bulk crafting things moving forward, there may be cheaper versions of recipes that you've grown used to."
 			]
 			id: "7E8E4BD59374D8DB"
 			shape: "gear"
@@ -693,7 +696,11 @@
 			description: [
 				"The &dCircuit Assembler&r one of the last machines you will make at each tier, and an important part of preparing for the following tier."
 				""
-				"This &7LV&r &dcircuit assembler&r unlocks a higher-yield &7LV&r electronic circuit and a cheaper &6MV&r electronic circuit, cutting the cost of the &6MV&r variant by 3x."
+				"There are two recipes for your new &7LV&r &dcircuit assembler&r you'll want to start using immediately:"
+				""
+				"* A cheaper &7LV&r &aelectronic circuit&r recipe that has double yield and reduces your &6red alloy&r and &6steel&r requirements"
+				""
+				"* A cheaper &bMV&r &aelectronic circuit&r recipe that reduces the number of input circuits from 3 to 2."
 			]
 			id: "7A284CF12EA916D5"
 			subtitle: "Another Assembler?"
@@ -804,7 +811,7 @@
 				""
 				"* &dEnergy Input Hatches&r and how they function in multiblocks"
 				""
-				"* &dHeating Coils&r and how their impact on recipe cost and overclocking"
+				"* &dHeating Coils&r and how they modify recipe cost and overclocking"
 				""
 				"{@pagebreak}"
 				""
@@ -994,6 +1001,8 @@
 				"It is capable of &erecycling&r all sorts of pipes, cables, and machinery, so when it comes time to upgrade your processing lines, you can recouperate some of your costs."
 				""
 				"More importantly at this stage, you can use it to &eanneal copper&r and produce &9Glass&r very efficiently directly from sand."
+				""
+				"You can get the &6graphite&r you need from &9deepslate&r."
 			]
 			id: "41350FB0F77E9D50"
 			subtitle: "With a Box Of Scraps"
@@ -1048,24 +1057,6 @@
 			}]
 			title: "Cheap Glass"
 			x: 0.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7A284CF12EA916D5"]
-			description: [
-				"With the first &bCircuit Assembler&r in hand, you are now able to fabricate &dprocessors&r from &2Applied Energistics&r."
-				""
-				"You should be able to get basic digital storage and crafting up in &7LV&r era, but auto-crafting won't come til &6HV&r, and fluid storage til &5EV&r."
-			]
-			icon: "ae2:singularity"
-			id: "3780B38909F06843"
-			tasks: [{
-				id: "6FFA68846474B84E"
-				title: "AE2"
-				type: "checkmark"
-			}]
-			title: "Applied Energistics"
-			x: -2.5d
 			y: 6.5d
 		}
 		{

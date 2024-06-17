@@ -193,7 +193,7 @@
 			description: [
 				"Gone are the days of mixing dust by hand in a crafting table."
 				""
-				"Creating the next tier mixture to blend ever more complex materials will become a trend for the next several tiers."
+				"Creating the next tier &2mixer&r to blend ever more complex materials will become a trend for the next several tiers."
 				""
 				"The &bMV&r &dMixer&r is required to produce &6Vanadium Steel&r, &6Stainless Steel&r, and other important alloys."
 			]
@@ -260,7 +260,9 @@
 			description: [
 				"&6Silicon&r is the foundation of the modern microprocessor."
 				""
-				"The &dEBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust. You can use this material to produce circuit components more cheaply."
+				"The &dEBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust."
+				""
+				"The next several tiers of circuits involve cutting these boules into &bwafers&r, which can then be etched into various components."
 			]
 			id: "26B92581C3E5115F"
 			subtitle: "Silicon Bool"
@@ -317,9 +319,9 @@
 			description: [
 				"&6Polyethylene&r is your first plastic!"
 				""
-				"It may be hard to believe (or not), but you will be generating this in &evast&r quantities and using it for most of the game."
+				"It may be hard to believe (or not), but you will need to generate this in &evast&r quantities, as it's used for most of the game."
 				""
-				"For now, its primary use will be circuit boards, but it will find many uses in your &dassembler&r."
+				"Even now, it will be used for &dcircuit boards&r and &9machine hulls&r."
 			]
 			id: "174CEACF8A92FDC3"
 			shape: "rsquare"
@@ -380,9 +382,9 @@
 			description: [
 				"Sifting &9Soul Sand&r is a good source of &6Oilsands&r and &6Crushed oilsands ore&r, which can produce &6Oil&r and &6Heavy Oil&r, respectively."
 				""
-				"You will get &bmore much&r of the crushed ore, but processing it is more energy intensive and requires more processing steps. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals."
+				"You will get &bmuch more&r of the crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't that good as a power source."
 				""
-				"You will get far less &6Oilsands&r, but it's simple to turn that into &6Oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. You probably would want to start there and then build out larger oil processing once you are established."
+				"You will get far less &6oilsands&r, but it's simple to turn that into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. You probably would want to start there and then build out larger oil processing once you are established."
 				""
 				"Be aware, &6heavy oil&r processing is &bMV&r but &6oil&r processing is only &7LV&r."
 			]
@@ -641,7 +643,7 @@
 			description: [
 				"The &bMV&r assembler makes some important recipes available, including &9Transistors&r, which unlock a cheaper set of chips based on &dsilicon wafers&r."
 				""
-				"You will find yourself needing &6Polyethylene&r (PE) shortly after this quest. Be sure to use PE to craft &dcheaper machine hulls&r."
+				"You will find yourself needing sp,e &6polyethylene&r (PE) shortly after this quest. Be sure to use PE to craft &dcheaper machine hulls&r."
 			]
 			id: "4E25CA8F5E23C247"
 			subtitle: "More Assembly"
@@ -792,11 +794,16 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["0EF63A0F090B2B21"]
+			dependencies: [
+				"0EF63A0F090B2B21"
+				"0EC816CBF731A231"
+			]
 			description: [
 				"Using a &dLaser Engraver&r, you can etch circuitry into your silicon wafers. The higher tier the wafer, the more dense and intricate these can be."
 				""
-				"To do this, you will need &blenses&r. Right now, these will be made from &bprecious gems&r, but you can dye glass at &6HV&r. To get some of these gems, you will need a &dSifter&r of some kind."
+				"Each tier's &dengraver&r requires an &aemitter&r, which typically involves an exotic gem."
+				""
+				"To use the &dengraver&r, you will need &blenses&r. Right now, these will be made from &bprecious gems&r, but you can dye glass at &6HV&r. To get flawless gems, you will need a &dsifter&r of some kind."
 			]
 			hide_dependency_lines: true
 			id: "242BA23234A28A29"
@@ -1245,7 +1252,7 @@
 				"Your other option is to use a 4A &7LV&r battery buffer with a transformer outputting 1A &6MV&r. This saves you an &9mv machine hull&r early. This might be useful, as &6aluminium&r becomes &emuch more abundant&r once you have the &6MV&r &belectrolyzer&r."
 			]
 			id: "3D0FF0DE59698684"
-			subtitle: "Robots in \"the skies\""
+			subtitle: "Robots in the skies"
 			tasks: [{
 				id: "65C61158A729D4FE"
 				item: "gtceu:lv_transformer_1a"
@@ -1422,6 +1429,29 @@
 			title: "LV Super Conductor"
 			x: -2.5d
 			y: -12.0d
+		}
+		{
+			dependencies: [
+				"7A284CF12EA916D5"
+				"242BA23234A28A29"
+			]
+			description: [
+				"With a &2laser engraver&r in hand, you are now able to fabricate &dprocessors&r from &2Applied Energistics&r."
+				""
+				"You should be able to get basic digital storage running in &bMV&r era, but auto-crafting with &9molecular assemblers&r requires &6stainless steel&r, and fluid storage requires &5EV&r circuits."
+			]
+			icon: "ae2:singularity"
+			id: "2D99E2BC6A83316D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "664F69B73E24929B"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics"
+			x: -4.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]

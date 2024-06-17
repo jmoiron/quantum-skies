@@ -54,7 +54,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "d038e1a739e0f21f6bc0bc399afa95ebf7e9d9397ef0feae0aadd49269b6392f"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -310,7 +310,7 @@ hash = "47e6b6dbacecd18be3c60bb46aa5faf2d8e0d0be03aa6cdf25106c41cb46125f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c6ba6cc8dd88cf708c7ac246f8bed62147c2a0fac2d1e4661ccb2dbb9544d2ad"
+hash = "435b7b35672e4d67790c7a74b97b2df50d7528e2aacd6f6e508a18b069fe4cc5"
 
 [[files]]
 file = "config/panorama.json"
@@ -342,7 +342,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "10be03f8e6cc72b8383e7c31a7a4834d3c77b057f1fc42ff1c9c7409244eb1c5"
+hash = "a33dce30323b06a884732cab4756350b7ba6659f88908790fd4d00a944d5fc66"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -702,7 +702,7 @@ hash = "f9571c138452d6764fb0f7fc564812a50dfc599d877f842448bad107cf93e0dc"
 
 [[files]]
 file = "kubejs/server_scripts/tags/gregtech.js"
-hash = "a0fe32aa29e36332f98f2641b32f5113df184d531b85f9692f93ad2af6e7bfc4"
+hash = "2428f7d0130ef8a8a2bb2a5994f3a8b28605a2a04b174e29e3067a273f093cb7"
 
 [[files]]
 file = "kubejs/server_scripts/utils.js"

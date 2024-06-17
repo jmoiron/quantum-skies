@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         .itemInputs("gtceu:martian_nether_dust")
         .itemInputs("gtceu:venusian_star_dust")
         .itemOutputs("gtceu:planetary_nether_star_dust")
-        .EUt(9600)
+        .EUt(7600)
         .duration(200);
 
     greg.chemical_bath("planetary_nether_star_to_nether_star")

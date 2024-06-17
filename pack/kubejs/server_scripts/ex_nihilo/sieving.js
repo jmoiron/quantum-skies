@@ -238,7 +238,17 @@ ServerEvents.recipes(event => {
 
             })
 
-            if (outputs.length < 7) {
+            // if there are more than 7 chanced outputs we'll deal with that manually
+            // there is a simple algorithm to fix these for 6 outputs but there's only
+            // one outlier right now and it's probably easier to do manually
+            var numChances = 0;
+            outputs.forEach(output => {
+                numChances += chances(output[1]).length
+            });
+
+            console.log("numChances " + numChances + " " + input);
+
+            if (numChances < 7) {
                 let rin = input.replace(/[^a-zA-Z0-9]/g, '')
                 //console.log(`creating sieve_${meshType}_${rin} with ${outputs.length} outputs`)
                 let r = event.recipes.gtceu.singleblock_sieve(`sieve_${meshType}_${rin}`)
@@ -253,6 +263,19 @@ ServerEvents.recipes(event => {
             }
 
         })
-    })
+    });
+
+    // fix sieve for netherrack
+    event.recipes.gtceu.singleblock_sieve("sieve_string_crushednetherrackfixed")
+        .EUt(7)
+        .duration(50)
+        .notConsumable("exnihilosequentia:string_mesh")
+        .itemInputs("exnihilosequentia:crushed_netherrack")
+        .chancedOutput("gtceu:sulfur_dust", 10000, 0)
+        .chancedOutput("gtceu:sulfur_dust", 10000, 0)
+        .chancedOutput("gtceu:sulfur_dust", 5000, 500)
+        .chancedOutput("gtceu:crushed_gold_ore", 5500, 500)
+        .chancedOutput("gtceu:crushed_stibnite_ore", 2500, 500)
+        .chancedOutput("gtceu:crushed_tetrahedrite_ore", 1500, 500);
 
 });
