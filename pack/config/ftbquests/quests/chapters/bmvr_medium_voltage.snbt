@@ -169,9 +169,9 @@
 			description: [
 				"The &bextruder&r is available at &7LV&r, but most of its recipes are at least &6MV&r."
 				""
-				"The extruder is capable of creating all sorts of things &ddirectly from ingots&r. Many things you can already create with othe rmachines, like rods, plates, foil, bolts, etc."
+				"The extruder is capable of creating all sorts of things &ddirectly from ingots&r. Many things you can already create with other machines, like rods, plates, foil, bolts, etc."
 				""
-				"Where it really shines is in creating more complex items like &dcells&r, &drings&r, &dpipes&r, &dgears&r, and &drotors&r. "
+				"Where it really shines is in creating more complex items like &dcells&r, &drings&r, &dpipes&r, &dgears&r, and &drotors&r."
 			]
 			id: "53BB86F738A277C0"
 			rewards: [{
@@ -1108,9 +1108,9 @@
 		{
 			dependencies: ["174CEACF8A92FDC3"]
 			description: [
-				"&dPVC&r (yes, that PVC) is a durable, hard plastic that can be used in many different applications."
+				"&dPolyvinyl chloride (PVC)&r (yes, the same PVC used for plumbing) is a durable, hard plastic that can be used in many different applications."
 				""
-				"Its main use right now is in doubling the yield of &cPlastic PCBs&r compared to &6Polyethylene&r."
+				"Its primary uses early are for higher yields on &cplastic PCBs&r and &dapplied energistics patterns&r."
 			]
 			id: "2AAF8EE73768D508"
 			tasks: [{

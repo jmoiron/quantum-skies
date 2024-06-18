@@ -293,7 +293,7 @@
 			id: "48705EBF12ACE9D2"
 			tasks: [{
 				id: "2A9BFC9DA643FBAF"
-				item: "gcyr:aminophenol_bucket"
+				item: "gtceu:aminophenol_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -396,7 +396,7 @@
 			id: "42C6883F97ED1D42"
 			tasks: [{
 				id: "243AA302C0A86F68"
-				item: "gcyr:potassium_carbonate_dust"
+				item: "gtceu:potassium_carbonate_dust"
 				type: "item"
 			}]
 			x: 11.5d

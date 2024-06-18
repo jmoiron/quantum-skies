@@ -14,6 +14,17 @@ ServerEvents.recipes(event => {
         }
     );
 
+    event.shaped(Item.of("gtceu:greenhouse"),
+        ["GGG", "CHC", "SPS"],
+        {
+            G: "gtceu:tempered_glass",
+            C: "#gtceu:circuits/mv",
+            H: "gtceu:mv_machine_hull",
+            S: "gtceu:mv_electric_piston",
+            P: "gtceu:mv_electric_pump"
+        }
+    );
+
     let woodTypes = [
         "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "cherry"
     ]
