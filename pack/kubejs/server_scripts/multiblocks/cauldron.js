@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
             .itemOutputs(output)
             .inputFluids("minecraft:water 200")
             .duration(20)
-            .EUt(40);
+            .EUt(24);
     })
 
 });

@@ -288,6 +288,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["74CD924FA666E6D8"]
 			description: [
 				"Processing purified &6Sphalerite&r and &6Galena&r with &esulfuric acid&r yields a solution with trace amounts of &6Indium&r."
 				""

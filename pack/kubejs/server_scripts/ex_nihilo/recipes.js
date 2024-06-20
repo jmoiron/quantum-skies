@@ -18,6 +18,7 @@ ServerEvents.recipes(event => {
     }
   );
 
+  // XXX: use conveyors instead of motors
   // single-block sieves
   event.shaped("gtceu:lp_steam_sieve",
     ['PSP', 'PVP', 'PHP'],

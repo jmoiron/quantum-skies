@@ -60,7 +60,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .build()
         )
         .workableCasingRenderer(
-            "gtceu:block/casings/voltage/ulv/side",
+            "gtceu:block/casings/solid/machine_casing_solid_steel",
             "gtceu:block/multiblock/cracking_unit",
             false,
         );

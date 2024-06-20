@@ -354,7 +354,7 @@
 			dependency_requirement: "one_completed"
 			id: "207B8A217A5CB777"
 			tasks: [{
-				id: "58F69DC77C80FA15"
+				id: "0CFE93754D7A4579"
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
@@ -380,11 +380,11 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"Sifting &9Soul Sand&r is a good source of &6Oilsands&r and &6Crushed oilsands ore&r, which can produce &6Oil&r and &6Heavy Oil&r, respectively."
+				"Sifting &9soul sand&r is a good source of &doilsands&r and &dcrushed oilsands ore&r, which can produce &6oil&r and &6heavy oil&r, respectively."
 				""
-				"You will get &bmuch more&r of the crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't that good as a power source."
+				"You will get more crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't that good as a power source."
 				""
-				"You will get far less &6oilsands&r, but it's simple to turn that into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. You probably would want to start there and then build out larger oil processing once you are established."
+				"You will get far less &doilsands&r, but it's simple to turn that into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. It's a good strategy to start there and then build out larger oil processing once you are established."
 				""
 				"Be aware, &6heavy oil&r processing is &bMV&r but &6oil&r processing is only &7LV&r."
 			]
