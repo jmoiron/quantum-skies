@@ -85,7 +85,7 @@
 				""
 				"It's fitting that you make your first escape from the endless sky by flying into it."
 				""
-				"The moon will be your first taste of a terrestrial world, and will be your primary source of &6Rutile&r, which can be found in &6Bauxite&r veins, but can also be sieved from Moon regolith, which you will eventually be able to drill for in endless amounts."
+				"The moon will be your first taste of a terrestrial world, and will be your primary source of &5rutile&r. This &6titanium&r-yielding mineral can be found in &6bauxite&r veins, and can be sieved from &cmoon regolith&r, which you can produce in endless amounts later on with the &2Planetary Core Drill&r."
 			]
 			id: "500F47921DD51C83"
 			shape: "gear"

@@ -10,44 +10,32 @@
 		{
 			id: "2B9D0969E75D8EDC"
 			linked_quest: "242BA23234A28A29"
-			x: -2.0d
-			y: 0.5d
-		}
-		{
-			id: "556882DB894177F6"
-			linked_quest: "7E8E4BD59374D8DB"
 			x: -0.5d
-			y: -4.0d
-		}
-		{
-			id: "01DB4437C538798F"
-			linked_quest: "7A284CF12EA916D5"
-			x: 4.0d
-			y: 3.5d
+			y: 0.5d
 		}
 		{
 			id: "55486A872B953D2F"
 			linked_quest: "031CC336213E598D"
-			x: -2.0d
-			y: -1.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			id: "488FDACE90D6EAFC"
 			linked_quest: "025DB933BE24C8F9"
-			x: -3.5d
-			y: 2.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			id: "72BCD57C11AFFAEF"
 			linked_quest: "4565F14B36E7CD6C"
-			x: -2.0d
-			y: 2.0d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			id: "38DF20CAABE59499"
 			linked_quest: "2AAF8EE73768D508"
-			x: -2.0d
-			y: 3.5d
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -67,11 +55,11 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			description: [
-				"You can get &9certus quartz dust&r early by centrifuging &6quartz dust&r, which you can make from &6sand&r."
+				"You can get &9certus quartz dust&r early by centrifuging &6quartz dust&r, which you can get by &2macerating&r &6sand&r."
 				""
 				"After you get to &6HV&r, you can build the &2Industrial Sieve&r and get &9crushed certus quartz ore&r."
 			]
@@ -84,7 +72,7 @@
 			}]
 			title: "Sky of Beginning?"
 			x: 2.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -92,13 +80,19 @@
 				"4F90F7E5E9817AA4"
 			]
 			id: "4455427485A44284"
+			rewards: [{
+				count: 8
+				id: "5058099189E0B7D7"
+				item: "gtceu:certus_quartz_plate"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53AEBD6F8AEEFA8D"
 				item: "gtceu:certus_quartz_plate"
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -117,7 +111,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -160,7 +154,7 @@
 			}]
 			title: "Compressor"
 			x: 1.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -199,7 +193,7 @@
 			}]
 			title: "Autoclave"
 			x: 4.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["00DBE2D8FFBC55FB"]
@@ -210,7 +204,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -253,12 +247,13 @@
 			]
 			title: "Circuit Presses"
 			x: -0.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"4455427485A44284"
 				"3FF1C920472A2233"
+				"262854F169101919"
 			]
 			id: "4E29DB2C735AA76B"
 			tasks: [
@@ -285,7 +280,7 @@
 			]
 			title: "AE2 Circuits"
 			x: 1.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			id: "55D4EFDE46787942"
@@ -295,7 +290,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -316,7 +311,10 @@
 				"4E29DB2C735AA76B"
 				"7A284CF12EA916D5"
 			]
+			hide_dependent_lines: true
 			id: "01F04D4897E61662"
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "10A55FFD020A163F"
@@ -336,31 +334,60 @@
 			]
 			title: "AE2 Processors"
 			x: 2.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"4FCEF52E1DBD423C"
 				"031CC336213E598D"
 			]
+			description: ["You can combine an &9item storage housing&r with any &bstorage component&r in a &2canner&r to make an item storage drive."]
 			id: "762A8F162DF3F141"
 			tasks: [{
-				id: "76C7A109FCE634B0"
+				id: "5FE754C0F120BED6"
 				item: {
 					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
 				}
+				title: "Item Storage"
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"731503D145EF8FA0"
 				"01F04D4897E61662"
-				"762A8F162DF3F141"
 			]
 			id: "671A16FEF2628BA3"
 			tasks: [{
@@ -368,19 +395,22 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
-			dependencies: ["7E8E4BD59374D8DB"]
+			dependencies: [
+				"7E8E4BD59374D8DB"
+				"259EE6B2DA549B0D"
+			]
 			id: "731503D145EF8FA0"
 			tasks: [{
 				id: "5733234D2BC5BB98"
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2AAF8EE73768D508"]
@@ -391,26 +421,19 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4565F14B36E7CD6C"]
 			id: "487700CFD01DFE66"
-			tasks: [
-				{
-					id: "023DF529951FCD7A"
-					item: "ae2:crafting_unit"
-					type: "item"
-				}
-				{
-					id: "46845CDC4DA70ADC"
-					item: "ae2:crafting_accelerator"
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 2.0d
+			tasks: [{
+				id: "023DF529951FCD7A"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["025DB933BE24C8F9"]
@@ -420,8 +443,8 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D5E6D72AF9D1848"]
@@ -431,19 +454,19 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["01F04D4897E61662"]
+			dependencies: ["77C2A1FC094A857F"]
 			id: "7EA0694BD0A61B54"
 			tasks: [{
 				id: "076E72F3A8E4A621"
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -461,7 +484,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -479,7 +502,230 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&2AE2&r circuits are pressed together using a &2forming press&r."
+				""
+				"An &7LV&r, &dMV&r or &6HV&r &2forming press&r will work."
+			]
+			id: "262854F169101919"
+			tasks: [{
+				id: "4C3172A85246618B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lv_forming_press"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_forming_press"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_forming_press"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Forming Press"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["77C2A1FC094A857F"]
+			id: "794C0AF8BCA7782D"
+			tasks: [{
+				id: "62ECFD49554618E3"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "4C2D8F73E5AF6BB1"
+			tasks: [{
+				id: "709B32B47CF84A51"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C2D8F73E5AF6BB1"]
+			id: "70EF08B6469633FF"
+			tasks: [{
+				id: "5B390EAA6DEEB7AD"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "657992EDBFE6ABDF"
+			tasks: [{
+				id: "096385451EBBD3E8"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["657992EDBFE6ABDF"]
+			id: "3B4AF2EADBD8D9D7"
+			tasks: [{
+				id: "05E9A4A4F2D881FA"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:crafting_table_cover"
+			id: "488D96D177C6E487"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6D2FCCDE5D213877"
+				title: "Auto Crafting"
+				type: "checkmark"
+			}]
+			title: "Auto Crafting"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50196D741C26FD78"]
+			id: "0AB0496A96AB9A2B"
+			tasks: [{
+				id: "4E295843A148F492"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["794C0AF8BCA7782D"]
+			id: "0E89367A2A3E6CD9"
+			tasks: [{
+				id: "6D08C68BC6EBDDF4"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EA0694BD0A61B54"
+				"5B4AEC36274331DB"
+			]
+			id: "72DD51B0DF3788C7"
+			tasks: [{
+				id: "1E21ABAFBAD3A5DE"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["487700CFD01DFE66"]
+			description: [
+				"A &9Crafting CPU&r is a cuboid multiblock structure that allows your ME network to run autocrafting recipes."
+				""
+				"Each CPU can execute one recipe at a time, so you will probably want a lot of these."
+				""
+				"Within each recipe, &2AE2&r will parallellize each step according to the number of &5co-processors&r there are in the CPU running the recipe."
+				""
+				"Each stage of the recipe requires storage, so large recipes that run many stages will need a CPU that has a lot of &5crafting storage&r."
+			]
+			id: "5B4AEC36274331DB"
+			tasks: [
+				{
+					id: "3EC90F216901F2BA"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "3E7060294ADAEA27"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:4k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:16k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:64k_crafting_storage"
+								}
+								{
+									Count: 1b
+									id: "ae2:256k_crafting_storage"
+								}
+							]
+						}
+					}
+					title: "Crafting Storage"
+					type: "item"
+				}
+			]
+			title: "Crafting CPUs"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "77C2A1FC094A857F"
+			subtitle: "Creation and Destruction"
+			tasks: [
+				{
+					id: "5385E6ECD359FBCF"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "590ED9FBE818A507"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "Core Components"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "35FED74EC802C033"
+			tasks: [{
+				id: "43ABA1E7AF74AC5D"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
 		}
 	]
 	title: "Digital"

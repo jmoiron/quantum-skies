@@ -132,7 +132,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.625d
 			y: -1.125d
 		}
 		{
@@ -165,7 +165,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: 0.375d
+			x: 1.5d
 			y: -1.125d
 		}
 		{
@@ -176,7 +176,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: 2.625d
+			x: 3.75d
 			y: -1.125d
 		}
 		{

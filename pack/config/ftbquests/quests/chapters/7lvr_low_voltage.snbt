@@ -887,7 +887,7 @@
 			description: [
 				"Though optional until higher tiers, &6Soldering Alloy&r is twice as efficient in the &dCircuit Assembler&r than &6tin&r. "
 				""
-				"It will probably be a while until you are automating supply of soldering material, so will let you run twice the number of recipes off of one tank."
+				"It will probably be a while until you are automating a supply of soldering material, so this will let you run twice the number of recipes off of one tank."
 			]
 			id: "05BAB2475041E34F"
 			tasks: [{

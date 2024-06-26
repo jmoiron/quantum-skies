@@ -47,9 +47,9 @@
 			description: [
 				"New &bhulls&r for new, more powerful machines."
 				""
-				"Now that the voltage is getting &6high&r, the hull requires some insulation in the form of &9polyethylene&r."
+				"Now that the voltage is getting &bhigh&r, machine hulls require some insulation in the form of &9polyethylene&r."
 				""
-				"You can save on materials by using the &bassembler&r recipe."
+				"You can save on materials by using the &2assembler&r recipe."
 			]
 			id: "778CAC851BC58AB8"
 			rewards: [{
@@ -113,6 +113,11 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: [
+				"The &6HV&r &2macerator&r is the first tier where you can get the byproducts that you see in the recipes in &2JEI&r."
+				""
+				"It's an important step, as some important materials are unavailable except as byproducts from ore processing."
+			]
 			id: "6CD0F2C47B66169F"
 			tasks: [{
 				id: "3133BC92463D249D"
@@ -165,15 +170,18 @@
 		{
 			dependencies: ["239B5AF886B64DEB"]
 			description: [
-				"The &bcleanroom&r is a multiblock structure that will house many of the machines that crate circuitry and circuit components."
+				"The &bcleanroom&r is a multiblock room that will house many of the machines that create circuits and their components."
 				""
-				"The &bcleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block provides minimum and maximum dimensions."
+				"The &bcleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block has minimum and maximum dimensions."
 				""
 				"The edges and floor of the &bcleanroom&r must be &6plascrete&6. The walls can be &6plascrete&r, &9cleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
+				""
+				"You are not able to run anything that produces &dpollution&r inside the cleanroom. That includes most generators, so you will have to pass power in from the outside through either a machine hull or a diode."
 				""
 				"The materials for this quest are for the default 5x5x5 &bcleanroom&r in the it's multiblock preview."
 			]
 			id: "450C8C0AF82CB7FD"
+			min_width: 275
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Suspended Particulates"
@@ -556,7 +564,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["273648ED9BD786F9"]
+			dependencies: [
+				"273648ED9BD786F9"
+				"232BBD7ABE751B56"
+				"74CD924FA666E6D8"
+			]
 			id: "23CB82881ABB5E72"
 			tasks: [{
 				id: "05CD28F200337CAC"

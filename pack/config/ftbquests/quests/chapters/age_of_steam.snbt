@@ -955,17 +955,39 @@
 		{
 			dependencies: ["6FC2E9C3153249C9"]
 			description: [
-				"Now that you have &6Steel&r, you can make &bHigh Pressure Steam&r machines."
+				"Now that you have &6steel&r, you can make &bhigh pressure steam&r machines."
 				""
-				"You should consider making a few &dBoilers&r as they are more fuel efficient, and you will need more steam as you start to mechanize and get into [&7LV&r] Low Voltage tier machines."
+				"You should consider making a few &dboilers&r as they are very fuel efficient, and you will need to produce more steam as you start to get into producing electricity for [&7LV&r] low voltage tier machines."
 				""
-				"The &dSolar Boiler&r is expensive, but produce a decent amount of steam, are trivial to automate at this stage, and won't calcify."
+				"The &dsolar boiler&r is expensive, but produces a decent amount of steam, is trivial to automate at this stage, and won't calcify."
+				""
+				"As you've probably figured out by now, you have unusually cheap access to abundant &blava&r as well, which works in the &dliquid boiler&r."
 			]
 			id: "756214B25FF18446"
 			subtitle: "RePressurized"
 			tasks: [{
-				id: "5517D1CD5C5912D5"
-				item: "gtceu:hp_steam_solid_boiler"
+				id: "43CB27118D68E622"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_liquid_boiler"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_solar_boiler"
+							}
+						]
+					}
+				}
+				title: "High Pressure Steam"
 				type: "item"
 			}]
 			title: "High Pressure Steam"

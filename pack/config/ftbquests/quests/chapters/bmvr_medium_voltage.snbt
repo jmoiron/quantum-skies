@@ -120,6 +120,7 @@
 				"Oil is simpler to source at scale, petrochem is required for progress eventually, and large combustion engines at EV+ are much easier to automate."
 			]
 			id: "1E1748C74140C63A"
+			min_width: 250
 			size: 1.25d
 			subtitle: "Beloved hexagonal carcinogen"
 			tasks: [{
@@ -335,7 +336,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["568C0E08EF8815AA"]
+			dependencies: [
+				"568C0E08EF8815AA"
+				"466C6EE4E2E3D039"
+			]
+			dependency_requirement: "one_completed"
 			description: ["If you choose to go the &6biomass&r route for &6polyethylene&r (PE), you will need to combine &6sulfuric acid&r with &6ethanol&r in a &dchemical reactor&r."]
 			id: "6CEC31CA4F75BCF3"
 			tasks: [{
@@ -788,9 +793,12 @@
 		{
 			dependencies: ["0EF63A0F090B2B21"]
 			description: [
-				"There are two routes to &6Polyethylene&r (PE): the petrochem route, through &6severely steam-cracked naphtha&r, and the &6ethanol&r route through &6biomass&r."
+				"There are two routes to &6Polyethylene&r (PE)"
 				""
-				"If you decide to go the &6ethanol&r route, you will need an &6MV&r &dChemical Reactor&r to create &6ethylene&r from the &6ethanol&r."
+				"* the petrochem route, through &bseverely steam-cracked&r fuels"
+				"* the &6ethanol&r route through &6biomass&r."
+				""
+				"If you decide to go the &6ethanol&r route, you will need an &6MV&r &2chemical reactor&r to create &6ethylene&r from the &6ethanol&r."
 			]
 			id: "568C0E08EF8815AA"
 			tasks: [{
@@ -933,7 +941,11 @@
 				"174CEACF8A92FDC3"
 				"6448A28D81FCFBCF"
 			]
-			description: ["The &cPlastic PCB&r is the basis for &bMicroprocessor&r circuits."]
+			description: [
+				"The &cPlastic PCB&r is the basis for &bMicroprocessor&r circuits."
+				""
+				"If you did not make &6sulfuric acid&r for PE, you'll need some now."
+			]
 			id: "78ECC25FA3649463"
 			tasks: [
 				{
@@ -1018,7 +1030,7 @@
 				""
 				"The &7LV&r and &bMV&r integrated circuits can be made before transistors."
 				""
-				"Because the yield of &bMV&r circuits is 2x, and because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
+				"Because the yield of &bMV&r circuits is 2x that of your electronic circuits, you should start crafting integrated circuits before you're ready to make the transistors needed for the &6HV&r ones. and because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
 			]
 			id: "37249933D652078D"
 			tasks: [
@@ -1371,6 +1383,11 @@
 				"You will want a steady supply of &6Oxygen&r, &6Hydrogen&r, and &6Nitrogen&r; &dcentrifuging&r air and &delectrolyzing&r water and dumping the results into a bank of tanks would not be a bad idea."
 			]
 			id: "4F1154BDCFB9B343"
+			rewards: [{
+				id: "3955F70DD649E02A"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
 			subtitle: "Superb"
 			tasks: [{
 				id: "1639C1E66B30F8E0"

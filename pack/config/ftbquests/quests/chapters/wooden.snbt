@@ -173,11 +173,13 @@
 		}
 		{
 			description: [
-				"Even though there doesn't really appear to be too many places to go, between &3tools&r, pipes, covers, and other curiosities, it might make sense to craft yourself a &2Sophisticated Backpack&r."
+				"Even though there doesn't appear to be too many places to go, between &3tools&r, pipes, covers, and other curiosities, it might make sense to craft yourself a &2sophisticated backpack&r."
 				""
 				"These backpacks can be upgraded to perform a large number of tasks, like smelting, blasting, smoking, etc."
 				""
 				"Upgrades to these backpacks destroy their contents, so make sure to empty them first!"
+				""
+				"If you create a grassy area and spend some time away from it, passive mobs like &ecows&r should spawn."
 			]
 			id: "608740A321560418"
 			subtitle: "Sophisticated"
