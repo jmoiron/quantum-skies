@@ -24,6 +24,7 @@
   "gtceu:controllable_provider": null,
   "gtceu:electric_container_provider": null,
   "gtceu:fluid_storage": null,
+  "gtceu:hazard_cleaner_provider": null,
   "gtceu:recipe_logic_provider": null,
   "gtceu:workable_provider": null,
   "jade:block_face": null,

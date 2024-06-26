@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         ["CGC", "FXF", "CLC"],
         {
             C: "#gtceu:circuits/hv",
-            X: "gtceu:hv_sifter",
+            X: "gtceu:hv_sieve",
             F: "gtceu:stainless_steel_frame",
             G: "gtceu:steel_gearbox",
             L: "gtceu:stainless_steel_large_fluid_pipe",

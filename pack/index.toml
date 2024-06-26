@@ -126,7 +126,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "0debd794e86a498da3c3bb80ce3c90321ac03d3c04d6e6a7fd89145ff0524ce3"
+hash = "1b614032dcb65697c051d8aa06fa0bed6be7c911fa0ae47e56f0f5c8fe0edd11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "1f4d66ba6199c436440238165a93eaa0892a820c65dd55d207196081bccd3dff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "c6001b0efd099c1b1b8bccd0b2072f37ad6bfd6b3950f8a41a3240313099176e"
+hash = "0fe80701cf3d537d82beaabb05dfe919ee2f1e56687af9d733aaf243ea3b29a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -154,7 +154,7 @@ hash = "e4c8730df458aaf68d0b2dbcabf5811c46c19685d090db2bdf8c2bbfa320d175"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "237c7db9b5c861b6e051a6b708720e96a60f8ca7e74bc143a50588e0fe9f8287"
+hash = "490e8597aa32ba90624a55238a6055bade815a6252f76a52662663e83a03bb16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -230,7 +230,7 @@ hash = "37972c94fa417ae8ebb36133856489a73d92f4e745729132be584ccdf452f1ee"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "16af6fd24ab95281741cdd849e3ce97d1ee3bdff6cc8ab9dd4a16292e4c17fed"
+hash = "de7c5c54e9ab26693bcaffdc072af779e5fa079bf059197c999d8eb2e828d120"
 
 [[files]]
 file = "config/gtnn.json"
@@ -290,7 +290,7 @@ hash = "8f2761840207e6e133df740cd06303e52c711f418942300073cf58827a06b989"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "f42f3adf0bbf4d6de3b40a81ffdae6782debeba66a1b23ebbc7fa11fe619886d"
+hash = "0fa6a10f26cfd17c5a23473e587fa9a67117d6265890b010b9a22485007abb29"
 
 [[files]]
 file = "config/lightoverlay.properties"
@@ -306,11 +306,11 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "47e6b6dbacecd18be3c60bb46aa5faf2d8e0d0be03aa6cdf25106c41cb46125f"
+hash = "ab4c4f0636c0bf8a0b675bd643c463fcaadbcc0eb744971fdb845f869236b195"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ebf3d343d8e7f73454966a2ad8d5ce45dc452694979c4968202a28148628b15e"
+hash = "865cace2420f3f045b67ae1ad43efc9cbb90a8f70e84a6b605de286a7b61e2c4"
 
 [[files]]
 file = "config/panorama.json"
@@ -342,7 +342,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "7260ea20df8a1c6e574199d7debfcb2b41f7cdaad0b8fd073988409f5b403cde"
+hash = "89d5dbbe27bb181cb1e4114f7278dfcd2472b4a302d10979d59dff86e2e23e33"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -529,12 +529,20 @@ file = "kubejs/client_scripts/jei.js"
 hash = "0c74267e2e756fe30a9faad5fb88abe9678c62b3b1b5c548b00991fe0dca4c61"
 
 [[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+hash = "dee1340c5e7927f5675987957c6b198f9ca2e1e731291d72396278dddc066a04"
+
+[[files]]
 file = "kubejs/config/client.properties"
 hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "7761b92411fc23a60eb3403a344d1a5dec3863df53500beb3299fd3eacfc4e26"
 
 [[files]]
 file = "kubejs/config/probejs.json"
@@ -614,7 +622,7 @@ hash = "1f65018c6a7652aced1b35a5782cbf1fd1cbc80f576e6001328bf1fb0e572129"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/recipes.js"
-hash = "5d28a0c6664fc5af8fd6c40f1152b9f4e42746f5298aa5401b93554ae5fe5560"
+hash = "c3ec84c82df8d4c40b709a1223cc94615243a48f380ff93cf9eebb81cf46cbfb"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
@@ -622,7 +630,7 @@ hash = "3454d62012a339af052230db500d974b304ed097101ba498485c257970c3905d"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr.js"
-hash = "41707d6d4c3d29b277db5479c08e17c9c57d35122c3d5f8a23f91917867fb295"
+hash = "e7e55583e7d2d9e189ef780226d3cc5b73bd5335442b903ee01e226173c0570f"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -653,16 +661,20 @@ file = "kubejs/server_scripts/gtec.js"
 hash = "9f4eb69cdd0a21a6126c8452b1172991878287aeb771dbc088498275afc1cc27"
 
 [[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "121ec9d7902090c050b096aa83792aeb7580946392785f5bae5f8e4bc6dbcce4"
+
+[[files]]
 file = "kubejs/server_scripts/loot.js"
 hash = "ce2919ac1b22027dbde156a64c04b642102e2d10f5b9ad1b1d131ee235088bdc"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/bonsai.js"
-hash = "7387a032f30d7381d6771209f48ff83be7840ceef22fa9d79410f9f13f3e9c7f"
+hash = "f02e75678e12ff4775d2ef26b3a9f19b7d41e8d820586f7a727f2705cc3e54bd"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/cauldron.js"
-hash = "1af0d197b3cfcbbbe518d6ddaabd933827a14e6f1a3dd39022ad7cf04c3f6b03"
+hash = "52bcc2b15094c723eaee8b3d6a7827d71655e3742db723ee309d3edaba06ad23"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/crucible.js"
@@ -717,6 +729,10 @@ file = "kubejs/startup_scripts/icons.js"
 hash = "a30edea8640df6dff0df76d801383e8fde752fc65c3f3b315774ce08e1be15a9"
 
 [[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "a9e6912b8515be242dd76c6c9a536a8d7c73f6b8b949787f538436ebeafbb7ee"
+
+[[files]]
 file = "kubejs/startup_scripts/machines.js"
 hash = "b6b62a6844fceb25c6a6875daf8e58e7c68a6e728e894345defddd623ef360d5"
 
@@ -730,7 +746,7 @@ hash = "14c5e5f7233154c67b140a7fb35add19ee17b4efd1becbb96115271f0adf23d0"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/ex_nihilo.js"
-hash = "e29fa06fe9c8ef835e585e90565d26d65428bce38a2b27c755be40b629194514"
+hash = "98ac255f68024e902f151ac35fe2ee6bfd50135f300a03ed3328bba47c1c19a2"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/planetary_core_drill.js"
@@ -752,7 +768,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "9213eaaca144e07c14322982367dffdb3c75fd9eba8d8a82f55c7002e0067e44"
+hash = "13eea9cf2b49019ed8d8cd8d27176672b418113cfdc9194ffd9d0f28ccc7d4eb"
 metafile = true
 
 [[files]]
@@ -962,7 +978,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "f59d14dca7e4f4612a789c691a369329f25869204ac5ae66ab21dc88c37a3e2e"
+hash = "dcfdd08d53058c64fd7a0f7849efe7aafde9479c86fa88a80943e829fe4bc54e"
 metafile = true
 
 [[files]]
@@ -997,7 +1013,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b85f625d815fb6e515923b2e7b325c66f48ad5d12f728dd4c1182fef91371030"
+hash = "fe0c032092af5482bd2255148c55ed5b9fabdfeccff4fe24f2faf488d04c5d15"
 metafile = true
 
 [[files]]
@@ -1082,7 +1098,7 @@ metafile = true
 
 [[files]]
 file = "mods/probejs.pw.toml"
-hash = "25f4863fba654a2b603a90f52ce5f0e17871c4249fd5c7bef3d40a6c8d9e36de"
+hash = "1ea8256d2f284a00b248f735a9f18ca5d6bc8f1d2c61317286940c1200d4bdfd"
 metafile = true
 
 [[files]]

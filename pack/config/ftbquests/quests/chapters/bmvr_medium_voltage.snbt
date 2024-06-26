@@ -321,7 +321,7 @@
 				""
 				"It may be hard to believe (or not), but you will need to generate this in &evast&r quantities, as it's used for most of the game."
 				""
-				"Even now, it will be used for &dcircuit boards&r and &9machine hulls&r."
+				"Even now, it's useful for higher yield &bcircuit components&r, &dplastic circuit boards&r and &9machine hulls&r."
 			]
 			id: "174CEACF8A92FDC3"
 			shape: "rsquare"
@@ -598,11 +598,36 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["16F8B12D38FAFB4E"]
+			dependencies: [
+				"16F8B12D38FAFB4E"
+				"16935534AA79DBEE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Whether you're making &9naphtha&r or &9light fuel&r, cracking it in a &2chem reactor&r with some &6steam&r to make &6severely steam-cracked&r variants will result in a lot of &bethylene&r."
+				""
+				"If you've decided to use regular &6oil&r, the yield is better with &9light fuel&r because the 250% yield of the fuel makes up for the worse yield in for &bethylene&r."
+			]
 			id: "40C281751C24CBFA"
 			tasks: [{
-				id: "67C1DE11068DD4FE"
-				item: "gtceu:severely_steam_cracked_naphtha_bucket"
+				id: "1A9263EBD4623D47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:severely_steam_cracked_light_fuel_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:severely_steam_cracked_naphtha_bucket"
+							}
+						]
+					}
+				}
+				title: "Severely Cracked"
 				type: "item"
 			}]
 			x: 5.0d

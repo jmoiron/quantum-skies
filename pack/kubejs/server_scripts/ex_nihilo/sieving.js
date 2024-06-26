@@ -271,8 +271,6 @@ ServerEvents.recipes(event => {
         .duration(50)
         .notConsumable("exnihilosequentia:string_mesh")
         .itemInputs("exnihilosequentia:crushed_netherrack")
-        .chancedOutput("gtceu:sulfur_dust", 10000, 0)
-        .chancedOutput("gtceu:sulfur_dust", 10000, 0)
         .chancedOutput("gtceu:sulfur_dust", 5000, 500)
         .chancedOutput("gtceu:crushed_gold_ore", 5500, 500)
         .chancedOutput("gtceu:crushed_stibnite_ore", 2500, 500)
