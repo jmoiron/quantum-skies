@@ -124,23 +124,6 @@ ServerEvents.recipes(event => {
                 ["gtceu:crushed_oilsands_ore", [0.25, 0.1]],
                 ["gtceu:oilsands_ore", [0.1, 0.05]],
             ],
-            // TODO: flint unlocks at steam compressor, by which point
-            // the steam rockbreaker is available..  do we kill these?
-            /*
-            "minecraft:dirt": [
-                ["exnihilosequentia:granite_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:deepslate_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:andesite_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:basalt_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:diorite_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:blackstone_pebble", [0.5, 0.1]],
-            ],
-            "minecraft:coarse_dirt": [
-                ["exnihilosequentia:calcite_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:dripstone_pebble", [0.5, 0.1]],
-                ["exnihilosequentia:tuff_pebble", [0.5, 0.1]]
-            ],
-            */
             "exnihilosequentia:crushed_netherrack": [
                 ["gtceu:crushed_pyrite_ore", 0.30],
                 ["gtceu:crushed_sphalerite_ore", 0.25],
@@ -199,6 +182,12 @@ ServerEvents.recipes(event => {
                 ["gtceu:crushed_apatite_ore", 0.25],
                 ["gtceu:crushed_tricalcium_phosphate_ore", 0.20],
                 ["gtceu:crushed_pyrochlore_ore", 0.15],
+            ],
+            "exnihilosequentia:crushed_diorite": [
+                ["gtceu:crushed_red_garnet_ore", 0.25],
+                ["gtceu:crushed_yellow_garnet_ore", 0.20],
+                ["gtceu:crushed_amethyst_ore", 0.20],
+                ["gtceu:crushed_opal_ore", 0.20],
             ],
         },
         "diamond": {},
