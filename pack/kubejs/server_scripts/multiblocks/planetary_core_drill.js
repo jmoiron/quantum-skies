@@ -177,7 +177,12 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(100);
 
+    const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.api.recipe.PlantCasingCondition");
+    const PlantCasingBlock = Java.loadClass("dev.arbor.gtnn.block.PlantCasingBlock");
+
     greg.chemical_plant("i_decene_oligomerization")
+        .circuit(10)
+        .addCondition(PlantCasingCondition(PlantCasingBlock.STEEL))
         .inputFluids("gtceu:i_decene 10000")
         .inputFluids("gtceu:boron_trifluoride 1000")
         .itemOutputs("9x gtceu:i_decene_olefin_sludge_dust")
