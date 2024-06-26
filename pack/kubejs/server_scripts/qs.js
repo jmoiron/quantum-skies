@@ -22,4 +22,11 @@ ServerEvents.recipes(event => {
     event.shaped("6x gtceu:treated_wood_rod",
         [" R ", " R ", " R "],
         {R: "gtceu:treated_wood_planks"});
+
+    greg.assembler("bronze_casing")
+        .itemInputs("8x gtceu:bronze_plate")
+        .circuit(8)
+        .itemOutputs("gtceu:bronze_machine_casing")
+        .EUt(16)
+        .duration(50);
 });

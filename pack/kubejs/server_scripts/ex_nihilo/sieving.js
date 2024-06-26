@@ -234,7 +234,7 @@ ServerEvents.recipes(event => {
                     "input": input,
                     "result": output[0],
                     "rolls": makeRolls(meshType, output[1])
-                })
+                });
 
             })
 
@@ -255,7 +255,7 @@ ServerEvents.recipes(event => {
                     .EUt(7)
                     .duration(50)
                     .notConsumable(`exnihilosequentia:${meshType}_mesh`)
-                    .itemInputs(input)
+                    .itemInputs(input);
 
                 outputs.forEach(output => {
                     chances(output[1]).forEach(chance => r.chancedOutput(output[0], chance, 500));
