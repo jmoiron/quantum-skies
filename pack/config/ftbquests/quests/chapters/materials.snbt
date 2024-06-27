@@ -348,6 +348,7 @@
 			dependencies: [
 				"6FEC938D7D4D3C2D"
 				"43EA4346274BD268"
+				"67F55ABE451C218E"
 			]
 			id: "1190CC62E02B9FF6"
 			tasks: [{
@@ -512,6 +513,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["1190CC62E02B9FF6"]
 			id: "58E3546712717A58"
 			tasks: [{
 				id: "0EEBCB7859C3572C"

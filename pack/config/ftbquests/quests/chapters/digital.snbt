@@ -41,9 +41,9 @@
 	quests: [
 		{
 			dependencies: [
-				"4E29DB2C735AA76B"
 				"259EE6B2DA549B0D"
 				"55D4EFDE46787942"
+				"01F04D4897E61662"
 			]
 			description: ["An AE2 system is almost a requirement to run the types of logistics you will need to complete this pack."]
 			id: "21ABAB8368EC167F"
@@ -311,6 +311,11 @@
 				"4E29DB2C735AA76B"
 				"7A284CF12EA916D5"
 			]
+			description: [
+				"In unmodified &2AE2&r, these processors are a core crafting component for most of the items that make up your network."
+				""
+				"Here, &2GregTech&r circuits take their place in many recipes."
+			]
 			hide_dependent_lines: true
 			id: "01F04D4897E61662"
 			shape: "gear"
@@ -508,7 +513,7 @@
 			description: [
 				"&2AE2&r circuits are pressed together using a &2forming press&r."
 				""
-				"An &7LV&r, &dMV&r or &6HV&r &2forming press&r will work."
+				"An &7LV&r, &dMV&r or &6HV&r &2forming press&r will complete the quest."
 			]
 			id: "262854F169101919"
 			tasks: [{
@@ -557,8 +562,8 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C2D8F73E5AF6BB1"]
@@ -593,8 +598,20 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"&2AE2&r auto-crafting is the primary method of &aon-demand automation&r."
+				""
+				"First, add a &aCrafting CPU&r to your network, which is a simple cuboid multiblock made up of &2co-processor(s)&r and &2crafting storage&r."
+				""
+				"Then, encode recipes into &dpatterns&r with a &2pattern terminal&r. Put your patterns into &2pattern providers&r, which are placed adjacent to a machine (for &3processing&r recipes) or a &2molecular assembler&r (for &3crafting&r, &3smithing&r, etc. recipes)."
+				""
+				"The in-game guide (hover &2AE2&r items and hold &3g&r) is very good, and features more in-depth coverage, including illustrations of various setups."
+				""
+				"This quest line is here to illustrate the altered requirements for progression, and to expose some of the new items in &2Extended AE2&r that players of earlier versions might not be familiar with."
+			]
 			icon: "gtceu:crafting_table_cover"
 			id: "488D96D177C6E487"
+			min_width: 275
 			shape: "circle"
 			size: 2.0d
 			tasks: [{
@@ -699,6 +716,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["01F04D4897E61662"]
 			id: "77C2A1FC094A857F"
 			subtitle: "Creation and Destruction"
 			tasks: [
@@ -726,6 +744,51 @@
 			}]
 			x: -6.5d
 			y: 2.0d
+		}
+		{
+			id: "45F8C141E3E5C72D"
+			tasks: [{
+				id: "2F8B43B25CF896A3"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C6FCB52A3FB05BE"]
+			id: "071CDA5ABDCD9A1B"
+			tasks: [
+				{
+					id: "7FAEA20F73555883"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "713A170A8C59A378"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["731503D145EF8FA0"]
+			id: "56F20827294E377E"
+			rewards: [{
+				count: 8
+				id: "6135536DF1655DB9"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7357F1D31C268F6C"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
 		}
 	]
 	title: "Digital"

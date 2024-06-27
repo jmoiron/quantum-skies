@@ -22,7 +22,7 @@
 		{
 			id: "36B412AB7DE04220"
 			linked_quest: "6519AED20FF95071"
-			x: 2.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -30,6 +30,20 @@
 			linked_quest: "4241FB5CE8C7C01C"
 			x: 11.5d
 			y: -1.0d
+		}
+		{
+			id: "74CF6C5446D4EA87"
+			linked_quest: "158BF04DA0392374"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "3A4FF254603B3412"
+			linked_quest: "466C8E5C4C3BF53E"
+			shape: "circle"
+			size: 1.25d
+			x: 2.5d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -39,7 +53,7 @@
 				""
 				"Forays into space have proven worthwhile. The layout of the planets is very familiar."
 				""
-				"Despite this empty world's unusual abundance, more &6exotic materials&r seem available elsewhere. In order to continue to progress in technology, they will need to be &aexploited&r."
+				"Despite this empty world's unusual abundance, more &6exotic materials&r seem to only be available elsewhere. In order to continue to progress in technology, they will need to be &aexploited&r."
 				""
 				"The limitations of the venerable &2Assembler&r are making themselves more and more apparent. Perhaps a larger &2assembly line&r is in order, to build complex components in stages?"
 			]
@@ -56,7 +70,7 @@
 			}]
 			title: "Insanity"
 			x: 1.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4EF925DCE097068A"]
@@ -102,7 +116,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: -5.5d
 		}
 		{
@@ -113,7 +127,7 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -131,7 +145,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -145,7 +159,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -162,6 +176,7 @@
 			]
 			icon: "gtceu:assembly_line"
 			id: "249808AA0E4C27A9"
+			shape: "gear"
 			size: 1.5d
 			tasks: [
 				{
@@ -208,7 +223,7 @@
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.0d
 			y: -2.5d
 		}
 		{
@@ -316,7 +331,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["715BEA8E0C8D2767"]
+			dependencies: [
+				"715BEA8E0C8D2767"
+				"29A518F69A188BB6"
+			]
 			id: "173C6B4E5D6F17D7"
 			rewards: [{
 				count: 3
@@ -422,7 +440,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -460,6 +478,7 @@
 					type: "item"
 				}
 			]
+			title: "Advanced SMD Components"
 			x: 8.5d
 			y: -2.5d
 		}
@@ -506,7 +525,7 @@
 			]
 			title: "IV Mechanical Components"
 			x: 4.0d
-			y: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["07D874EDFBD18771"]
@@ -517,7 +536,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -673,6 +692,37 @@
 			title: "Outland"
 			x: 4.0d
 			y: 3.5d
+		}
+		{
+			description: [
+				"Normal &6rubber&r that you get from trees is finally insufficient for your requirements."
+				""
+				"You will eventually need to create &cboth&r of these synthetic rubbers for different purposes, but you can choose to do either one at this stage for &5IV&r cable covering."
+			]
+			id: "29A518F69A188BB6"
+			tasks: [{
+				id: "4C3AD09342EC6E3E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:silicone_rubber_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:styrene_butadiene_rubber_bucket"
+							}
+						]
+					}
+				}
+				title: "Better Rubber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]

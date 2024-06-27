@@ -6,29 +6,136 @@
 	icon: "gtceu:luv_machine_hull"
 	id: "4FFDA1BB792C4E7B"
 	order_index: 6
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "37E10775DDE49EEA"
+			linked_quest: "249808AA0E4C27A9"
+			size: 1.25d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "5D186A43905322E7"
+			linked_quest: "0919ED8ED9FAD4A4"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "2C3E3ED6638F99C2"
+			linked_quest: "1C72E9C3FB501D61"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "49648E035510634F"
+			linked_quest: "6834B48D92699C1D"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "3F1D9C6CAF749D5D"
+			linked_quest: "1190CC62E02B9FF6"
+			shape: "gear"
+			size: 1.5d
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "6AFAD82BA7E26F18"
+			linked_quest: "58E3546712717A58"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "06E7A085D139E046"
+			linked_quest: "67F55ABE451C218E"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "1F1769B5A4BAA43E"
+			linked_quest: "071CDA5ABDCD9A1B"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "13F900CE6B355836"
+			linked_quest: "1A850FA3065CD625"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "3C4330AB60E21174"
+			linked_quest: "5F2D60E3CA84A84B"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "1C1D2CE671848942"
+			linked_quest: "32A179688162FC11"
+			size: 1.25d
+			x: 7.0d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
+			description: [
+				"You've made it far on basic automation alone, but fabrication processes are becoming more complex and it's probably time for some &adata storage&r to augment your &2assembly lines&r."
+				""
+				"How much more technology is needed be before some basic questions are answered? "
+				""
+				"What happened to this world? What happened to &oyour&r world?"
+				""
+				"Diligence and progress have been your only companions, but the possibilities seem endless, so occasionally you can also count on &bhope&r."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:hot_rhodium_plated_palladium_ingot"
 			id: "3148A5D311E18315"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "131DBDC96C168274"
 				title: "lore"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -0.5d
+			title: "The Atomic Age"
+			x: 1.5d
+			y: 4.0d
 		}
 		{
+			description: [
+				"You need an &dLuV&r tier mixer to mix &6osmium&r and &6iridium&r into &6osmiridium&r."
+				""
+				"If you've started to look into &2Gregicality Multiblocks&r, you'll be able to achive this by using two &5IV&r energy hatches in your &2large mixing vessel&r."
+			]
 			id: "24C3CF5EE1073B03"
 			tasks: [{
 				id: "77A79945DF65D55C"
-				item: "gtceu:luv_mixer"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:large_mixer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_mixer"
+							}
+						]
+					}
+				}
+				title: "LuV Mixer"
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["24C3CF5EE1073B03"]
 			id: "73FCD28D902AD2D1"
 			tasks: [{
 				id: "7BE5C3A990393A77"
@@ -36,19 +143,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
-			id: "08A5DB829055EA45"
-			tasks: [{
-				id: "4336A5954FCA9FAA"
-				item: "gtceu:naquadah_ingot"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 4.0d
-		}
-		{
+			dependencies: ["67F55ABE451C218E"]
 			id: "01698E6BBC301ABD"
 			tasks: [
 				{
@@ -62,8 +160,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 2.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			id: "1DA1700B42E2EC87"
@@ -72,8 +170,8 @@
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			id: "5F847AABE2CEEA6E"
@@ -82,8 +180,8 @@
 				item: "gtnn:neutron_activator"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -96,28 +194,8 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			id: "6805225E75517933"
-			tasks: [{
-				id: "6DE7BCA13D795134"
-				item: "gtceu:enriched_naquadah_ingot"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			id: "612759BBD7F73731"
-			tasks: [{
-				id: "6FFBCC4FB4BE88FB"
-				title: "naq chain"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 4.0d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1DA1700B42E2EC87"]
@@ -127,8 +205,413 @@
 				item: "gtceu:niobium_titanium_single_cable"
 				type: "item"
 			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0919ED8ED9FAD4A4"
+				"73FCD28D902AD2D1"
+				"58E3546712717A58"
+				"0E9190102EAB9CE2"
+			]
+			id: "188B86167DB88BA6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6A10742D8A0EFB1C"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			id: "5786299144B4FB87"
+			tasks: [{
+				id: "248160B6D1A05C0E"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "76A030EF46177DA1"
+			tasks: [{
+				id: "4610CEA6972A948B"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5786299144B4FB87"]
+			id: "157EEF244AD2425F"
+			subtitle: "The crystal chip, is being filled"
+			tasks: [{
+				id: "06BB9C0853D1429E"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["157EEF244AD2425F"]
+			id: "78EBDB39738C7867"
+			tasks: [
+				{
+					id: "2908885E22A88C23"
+					item: "gtceu:raw_crystal_chip_parts"
+					type: "item"
+				}
+				{
+					id: "7EFACF08C2008ABE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:bacterial_sludge_bucket"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mutagen_bucket"
+								}
+							]
+						}
+					}
+					title: "Crystal Medium"
+					type: "item"
+				}
+			]
+			title: "Cheaper Crystal Circuits"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["157EEF244AD2425F"]
+			id: "3259C2B072349A16"
+			tasks: [{
+				id: "2156DB2C5B92A18F"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"249808AA0E4C27A9"
+				"5E7E1D81530C4B8F"
+				"0E79BC21BEDA47ED"
+				"7D973D97A30D655C"
+			]
+			id: "65DE8D10CCC71642"
+			tasks: [
+				{
+					id: "216FF732A55963F8"
+					item: "gtceu:luv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "0CA4A05C67848C20"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4EB0849349CA66AE"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "5188E7CD5CF450B8"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "290138A22A480E88"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["249808AA0E4C27A9"]
+			id: "3C6FCB52A3FB05BE"
+			tasks: [
+				{
+					id: "19A17B1722343DC3"
+					item: "gtceu:luv_sensor"
+					type: "item"
+				}
+				{
+					id: "50E07B3C944ABC89"
+					item: "gtceu:luv_emitter"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "0E9190102EAB9CE2"
+			tasks: [{
+				id: "0151D23AA54838F1"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0E9190102EAB9CE2"
+				"73FCD28D902AD2D1"
+				"1190CC62E02B9FF6"
+			]
+			id: "43ACE5BC545C7C81"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DB52B8C31E226DC"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6834B48D92699C1D"]
+			id: "34A684BCA2B41492"
+			tasks: [{
+				id: "1AE1D020B0BC709A"
+				item: "gtceu:lapotronic_energy_orb_cluster"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34A684BCA2B41492"]
+			id: "43DFF34C0C89D039"
+			tasks: [{
+				id: "4E1913AD1255085B"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34A684BCA2B41492"]
+			id: "3180D76DD555DFE8"
+			tasks: [{
+				id: "76036D5C6A14A0D3"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5635EDB08D97B694"
+				"73FCD28D902AD2D1"
+				"249808AA0E4C27A9"
+				"7D973D97A30D655C"
+			]
+			id: "2271E7FC7BB0DD8F"
+			tasks: [{
+				id: "689A7DF8C4483A3F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_input_hatch"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_input_hatch_4a"
+							}
+							{
+								Count: 1b
+								id: "gtceu:luv_energy_input_hatch_16a"
+							}
+						]
+					}
+				}
+				title: "LuV Energy Hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01698E6BBC301ABD"]
+			id: "374B2B7BCE3A8AF2"
+			tasks: [
+				{
+					id: "155436ABBA85B5B0"
+					item: "gtceu:uhpic_wafer"
+					type: "item"
+				}
+				{
+					id: "36AC6037AA4D353A"
+					item: "gtceu:uhpic_chip"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "17DE3BDF8299D267"
+			tasks: [{
+				id: "63DFB3C593D45C21"
+				item: "gtceu:polychlorinated_biphenyl_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17DE3BDF8299D267"]
+			id: "12ACFB64A63FF516"
+			tasks: [{
+				id: "6BCBFB8869D165EE"
+				item: "gtceu:pcb_coolant_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"58E3546712717A58"
+				"12ACFB64A63FF516"
+				"374B2B7BCE3A8AF2"
+			]
+			icon: "gtceu:active_transformer"
+			id: "34B633E682351BD5"
+			tasks: [
+				{
+					id: "1197516085B9437F"
+					item: "gtceu:active_transformer"
+					type: "item"
+				}
+				{
+					id: "1EEEB1BBF3AEA198"
+					item: "gtceu:normal_laser_pipe"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58E3546712717A58"]
+			id: "51ED4035569CC918"
+			tasks: [{
+				id: "141CF98AFD069CDA"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3148A5D311E18315"]
+			id: "0E79BC21BEDA47ED"
+			tasks: [{
+				id: "7B1DA36B19AB04DA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_scanner"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_scanner"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iv_scanner"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "A Scanner Darkly"
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			id: "5E7E1D81530C4B8F"
+			tasks: [{
+				id: "2FEB7722F289B623"
+				item: "gtceu:data_stick"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: ["An &5IV&r tier &2polarizer&r is required to polarize &6sammarium&r rods."]
+			id: "7D973D97A30D655C"
+			tasks: [{
+				id: "60645A62CFEB3238"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iv_polarizer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:large_electromagnet"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Polarization"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			id: "532D8418424EF6EE"
+			tasks: [{
+				id: "449F3EF80FFFBC1A"
+				title: "Plasma Fuels"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Fusion and &dLudicrous Voltage&r"]

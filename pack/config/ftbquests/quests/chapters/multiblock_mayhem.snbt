@@ -130,6 +130,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["532D8418424EF6EE"]
 			id: "32A179688162FC11"
 			tasks: [{
 				id: "74209467504D17D7"
@@ -203,6 +204,8 @@
 		}
 		{
 			id: "34A22DF09A017D48"
+			size: 1.25d
+			subtitle: "What's bigger than big?"
 			tasks: [{
 				id: "619A530759CC2CD8"
 				item: "gtceu:mega_blast_furnace"
@@ -294,15 +297,14 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["2F7C601653F026B4"]
 			id: "7CBB5F7018C31CA1"
 			tasks: [{
 				id: "74EA1E317EFBDB6C"
 				item: "gtceu:large_maceration_tower"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			id: "76561F43490A095F"
@@ -352,8 +354,8 @@
 				item: "gtceu:industrial_sieve"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			id: "214714FB5B2B9A0D"
@@ -457,6 +459,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6E10792E66D3E281"]
 			id: "158BF04DA0392374"
 			tasks: [{
 				id: "43EDCC04A2F8936C"
@@ -597,26 +600,38 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["173C6B4E5D6F17D7"]
 			description: [
-				"The multiblocks to the right (along with the &bMaceration Tower&r and &bBulk Blast Chiller&r) are upgrades to single block machines that offer parallelization and in-place upgradability."
+				"At &1IV&r, you gain access to the multiblock versions of all of the single block machines you've been using. Many of these are inspired by &2GT++&r, and share a lineage from the &2GTCE&r addon mod &2Gregicality&r."
 				""
-				"Many of these are inspired by &2GT++&r, and share a lineage from the &2GTCE&r addon mod &2Gregicality&r."
+				"The &2LCR&r does perfect overclocking.  The &2multi smelter&r parallelizes and consumes less energy based on coils. The &2distillation tower&r yields all outputs instead of just one."
+				""
+				"Why should you bother building these instead of single block machines?"
 				""
 				"{@pagebreak}"
 				""
-				"The &bLarge Chemical Reactor&r always does perfect overclocking.  The &bMultismelter&r parallelizes and consumes less energy based on coils.  The &bDistillation Tower&r returns all outputs at once."
+				"There are two main reasons to use multis: to upgrade machines in place and to save energy."
 				""
-				"Why build these?"
+				"Upgrading machines in place by swapping out &denergy hatches&r means not having to redo any automation. Additionally, more input/output options for automation means that you don't need to make eg. an &2extruder&r for each mold or an &2assembler&r per fluid."
 				""
-				"&2Gregicality&r multiblocks do normal overclocking, so an &1IV&r &bMaceration Tower&r will use the same amount of power as a single block &1IV&r &bMacerator&r, but it will run multiple recipes in parallel for that energy cost."
+				"The multiblocks save energy by preferring &o&dparallelism&r to overclocking. Recall that overclocking is energy wasteful, consuming 4x power to reduce the processing time by half. These multiblocks parallelize first, then overclock if possible."
 				""
-				"The amount of parallelism is based on the tier of your &9Parallel Control Hatch&r."
+				"{@pagebreak}"
+				""
+				"With the parallelism-first strategy, &alatency&r goes up (the amount of time it takes to run a recipe), but so does &athroughput&r (the amount of recipes run over any given period of time)."
+				""
+				"For example, crushing &9granite&r in a &2macerator&r uses 2EU/t and takes 7.5s (150t). An &5EV&r &2macerator&r runs this 8x faster for 128EU/t, whereas 8 &7LV&r &2macerators&r would only use 16EU/t.  After 7.5s, they would both produce 8 &9crushed granite&r, but the &5EV&r machine has used 8x more power."
+				""
+				"An &5EV&r &2large maceration tower&r will run as many 2EU/t recipes as its &eparallel control hatch&r allows. With a 64x control hatch, that is a new base cost of 128EU/t.  This can be overclocked twice (4x each time) to 2048EU/t, before it runs out of its 1A &5EV&r power source."
+				""
+				"You could run 8x &5EV&r single-block &2macerators&r for the same energy cost, but they'd produce 16 dust every 38t instead of 64, making the multiblock 4x more energy efficient."
 			]
 			icon: "gtceu:rhodium_gear"
 			id: "466C8E5C4C3BF53E"
-			min_width: 250
+			min_width: 275
 			shape: "circle"
 			size: 2.0d
+			subtitle: "The greg is self-sustaining"
 			tasks: [{
 				id: "0E1FAD2EFF4DB548"
 				title: "Gregicality Multiblocks"
@@ -624,6 +639,39 @@
 			}]
 			x: -11.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["3AEF5A87CDA225B6"]
+			description: ["An early option for fluid storage, the &2Wooden Multiblock Tank&r can hold 250 buckets of fluids."]
+			id: "519211F737787727"
+			tasks: [{
+				id: "25B0A6633A2818B9"
+				item: "gtceu:wooden_multiblock_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["519211F737787727"]
+			id: "0276C60357043B13"
+			tasks: [{
+				id: "6E5E52E324D7CD0A"
+				item: "gtceu:steel_multiblock_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "52AD249F52432AF5"
+			tasks: [{
+				id: "6037233AF42BFA1F"
+				item: "gtnn:exxonmobil_chemical_plant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 	title: "Multiblock Mayhem"

@@ -6,7 +6,13 @@
 	icon: "gtceu:bronze_firebox_casing"
 	id: "59A4BB1E592E2980"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "36D76B08B10B0992"
+		linked_quest: "519211F737787727"
+		size: 1.25d
+		x: -3.0d
+		y: -3.0d
+	}]
 	quests: [
 		{
 			dependencies: ["5D0B8F0841154E4C"]

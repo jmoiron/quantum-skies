@@ -435,17 +435,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["31B466985B8C7CDF"]
-			id: "2F048880B049DE23"
-			tasks: [{
-				id: "16C86DB2474F96EC"
-				item: "gtceu:quantum_processor_mainframe"
-				type: "item"
-			}]
-			x: 8.25d
-			y: 2.25d
-		}
-		{
 			icon: "gtceu:zpm_machine_hull"
 			id: "1FC48AB99E843DF0"
 			tasks: [{
@@ -457,7 +446,12 @@
 			y: -3.375d
 		}
 		{
-			dependencies: ["35D8ECAC7EBDC6DA"]
+			dependencies: [
+				"35D8ECAC7EBDC6DA"
+				"3259C2B072349A16"
+				"6834B48D92699C1D"
+				"76A030EF46177DA1"
+			]
 			id: "1C72E9C3FB501D61"
 			tasks: [{
 				id: "35070E97A8B72EA7"
@@ -647,6 +641,17 @@
 			}]
 			x: -3.0d
 			y: -1.125d
+		}
+		{
+			dependencies: ["31B466985B8C7CDF"]
+			id: "0919ED8ED9FAD4A4"
+			tasks: [{
+				id: "02FCE64373CC0E0A"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.25d
 		}
 	]
 	subtitle: ["Visual guide to circuit progression"]
