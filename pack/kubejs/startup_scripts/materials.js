@@ -1,56 +1,40 @@
 GTCEuStartupEvents.registry("gtceu:material", event => {
     // bedrock dust
-
-    event.create("bedrock")
-        .dust()
-        .color(0x565656)
-        .iconSet(GTMaterialIconSet.FLINT);
-
-    // moon regolith dust
-    event.create("moon_regolith")
-        .dust()
-        .flags(GTMaterialFlags.FORCE_GENERATE_BLOCK)
-        .color(0x959595)
-        .iconSet(GTMaterialIconSet.SAND);
-
-    // regolith blocks already exist for mars & venus
-    event.create("mars_regolith_d")
-        .dust()
-        .color(0x521F0A)
-        .iconSet(GTMaterialIconSet.SAND);
-
-    event.create("venus_regolith_d")
-        .dust()
-        .color(0x261D15)
-        .iconSet(GTMaterialIconSet.SAND);
-
-    event.create("martian_nether")
-        .dust()
-        .color(0x719287)
-        .iconSet(GTMaterialIconSet.NETHERSTAR);
-
-    event.create("venusian_star")
-        .dust()
-        .color(0xFBFCC4)
-        .iconSet(GTMaterialIconSet.NETHERSTAR);
-
-    event.create("planetary_nether_star")
-        .dust()
-        .color(0x9CB2A7)
-        .iconSet(GTMaterialIconSet.NETHERSTAR);
-
-    // mercury rock!
     function dust(name, color) {
-        event.create(name).dust().color(color);
+        return event.create(name).dust().color(color);
     }
 
     function fluid(name, color) {
-        event.create(name).fluid().color(color);
+        return event.create(name).fluid().color(color);
     }
 
     function gas(name, color) {
         event.create(name).gas().color(color);
     }
+
+    gas("venus_air", 0xfff9c6);
+    gas("mars_air", 0xDB5D4C);
+    fluid("liquid_venus_air", 0xfff9c6);
+    fluid("liquid_mars_air", 0xdb5d4c);
+
+    const flint = GTMaterialIconSet.FLINT;
+    const sand = GTMaterialIconSet.SAND;
+    const star = GTMaterialIconSet.NETHERSTAR;
+
+    dust("bedrock", 0x565656).iconSet(flint);
+    dust("moon_regolith", 0x959595)
+        .flags(GTMaterialFlags.FORCE_GENERATE_BLOCK)
+        .iconSet(sand);
+
+    // regolith blocks already exist for mars & venus
+    dust("mars_regolith_d", 0x521F0A).iconSet(sand);
+    dust("venus_regolith_d", 0x261D15).iconSet(sand);
+
+    dust("martian_nether", 0x719287).iconSet(star);
+    dust("venusian_star", 0xfbfcc4).iconSet(star);
+    dust("planetary_nether_star", 0x9cb2a7).iconSet(star);
+
+    // mercury rock!
 
     fluid("diesel_oil_mud", 0x476471);
     fluid("hot_diesel_oil_mud", 0x666677);

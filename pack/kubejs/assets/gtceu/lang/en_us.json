@@ -40,6 +40,10 @@
     "material.gtceu.i_decene_tetramer": "1-Decene Tetramer",
     "material.gtceu.poly_alpha_olefin_mud": "Poly-α-Olefin Mud",
     "material.gtceu.hot_poly_alpha_olefin_mud": "Hot Poly-α-Olefin Mud",
+    "material.gtceu.mars_air": "Martian Air",
+    "material.gtceu.liquid_mars_air": "Liquid Martian Air",
+    "material.gtceu.venus_air": "Venusian Air",
+    "material.gtceu.liquid_venus_air": "Liquid Venusian Air",
 
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",
     "block.gtceu.hp_steam_sieve": "High Pressure Steam Sieve",

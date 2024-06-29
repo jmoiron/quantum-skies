@@ -65,6 +65,10 @@ file = "config/embeddium-options.json"
 hash = "295c4e2ef78409b5289217404503313ac94bf71cc9f5768e459d2e7c56aa5476"
 
 [[files]]
+file = "config/emi.css"
+hash = "99239ed4ee1dce8f0490d1c156f1f44987754c62a9d79877b9dfb1f306f6d9af"
+
+[[files]]
 file = "config/enderchests.toml"
 hash = "4588569484753f1270bfd88970da003a6324f23df0579e282cc9ed619e6e41ee"
 
@@ -126,7 +130,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "1b614032dcb65697c051d8aa06fa0bed6be7c911fa0ae47e56f0f5c8fe0edd11"
+hash = "f8f2b25ec3c9e3b5d7e5447a928e52231bdee5d345b9cd03f5804f1e38e7220d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -150,7 +154,7 @@ hash = "5b42fa1fde8ce9bb4ca30134e6f6b6d68bb5e1699a29df39316b96f6ac08cf70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "0faabc5e9360ba621864402ecdac1b618773e8369920b9812ee4c486e5311233"
+hash = "35f4f21006ece37eadd25e6cda1b0bff4238dfc8988467679891eda24fa8b370"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -158,7 +162,7 @@ hash = "3b05efe04a3462f6a43cda8c2d6667cc4b0a51ca15f0f6fcbd239fffc6190ed3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
-hash = "aeb6446517a086f327fba6167baebd6ea3bc57da914743303597154b00f9f6f1"
+hash = "d4570b39daaf12015c6b2e782381a8567bba55d13ae185453cf01b70a99130ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
@@ -166,11 +170,11 @@ hash = "4b20d7c309eee0864ed7d0cb94914a4b44074533c01c6e02dbbe598a7c64a11e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "f6585c6dd49dcc06cffa520df2c57da6439d143fcbbd24670e4726595b2e0b42"
+hash = "6721a2f5d01eee0d89e6804f70ee09f4e5867b6231ed58cbade85fa19eae0d02"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "2e507aab55afa18cdf09bf7f711debf1ae988e88b05de60437ec606bdf973154"
+hash = "498f5328aa368e450401e1cc87ca80a953aad7763ae7b2c79287869edaaa8cd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -178,15 +182,15 @@ hash = "3ff032d02a25ccc50e898e32e1f8f7e76abe3b31263f327520879ce41fa66918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "0542618644ae3819d11a6232a2bd54fe93f5c4b21ea629d38204bb5b6fac5e17"
+hash = "8bed692336c31e802619afc4d385e98e9b5a23ba99242f91db9cad74fd372797"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
-hash = "29b2389ea4f81158ce713aada4034df6867f7d76e15bac47397cac0f96533ee5"
+hash = "dad8d58396bde2f2b0f348fd89593703a552662138d4c33fc926bd222acd488a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "6767f23ca1b263e864d73df8b10a39f12421258531153a01d861b58c7e71a436"
+hash = "807792efeb12acd2c07bf25282d29e3f862b851c56f7427ca7c0e2e574b0d910"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -310,7 +314,7 @@ hash = "ab4c4f0636c0bf8a0b675bd643c463fcaadbcc0eb744971fdb845f869236b195"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "17b062206d452c61cd5234cf92045d18154f5d729f1345b8ce2d1fb211f20447"
+hash = "63f0445e1fd4a49fd5b3fb14a8f2297a599ff314de216f0588a43a27915398b1"
 
 [[files]]
 file = "config/panorama.json"
@@ -342,7 +346,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "61413114a94c82ec8c405960c0ec1f3f9cd659a6c0c31ebabafebddf8ed9a69a"
+hash = "ac7b41606eeff63a1c5ab6fd9974b29650babea51f4bdf1fd75a7583e115f3d3"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -674,7 +678,7 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "08106f1edc6efab0788afe9fa98f43c85f7bc59a24fc256ee50873636ca3f034"
+hash = "f5756dbda9e64fd130414dfafa2258c2f6c6088169bc4aefdd6b81c781ea4008"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"

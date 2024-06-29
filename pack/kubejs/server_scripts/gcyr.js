@@ -132,4 +132,69 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(80);
 
+    // planetary air
+    greg.gas_collector("collect_mars_air")
+        .dimension("gcyr:mars")
+        .outputFluids("gtceu:mars_air 10000")
+        .circuit(4)
+        .EUt(64)
+        .duration(200);
+
+    greg.gas_collector("collect_venus_air")
+        .dimension("gcyr:venus")
+        .outputFluids("gtceu:venus_air 10000")
+        .circuit(5)
+        .EUt(64)
+        .duration(200);
+
+    greg.centrifuge("separate_mars_air")
+        .inputFluids("gtceu:mars_air 10000")
+        .outputFluids("gtceu:carbon_dioxide 3900")
+        .outputFluids("gtceu:nitrogen 1000")
+        .EUt(120)
+        .duration(1600);
+
+    greg.centrifuge("separate_venus_air")
+        .inputFluids("gtceu:venus_air 10000")
+        .outputFluids("gtceu:carbon_dioxide 3900")
+        .outputFluids("gtceu:sulfur_dioxide 1000")
+        .EUt(120)
+        .duration(1600);
+
+    greg.vacuum_freezer("freeze_mars_air")
+        .inputFluids("gtceu:mars_air 4000")
+        .outputFluids("gtceu:liquid_mars_air 4000")
+        .EUt(1920)
+        .duration(80);
+
+    greg.vacuum_freezer("freeze_venus_air")
+        .inputFluids("gtceu:venus_air 4000")
+        .outputFluids("gtceu:liquid_venus_air 4000")
+        .EUt(1920)
+        .duration(80);
+
+    greg.distillation_tower("distill_liquid_mars_air")
+        .inputFluids("gtceu:liquid_mars_air 100000")
+        .outputFluids("gtceu:carbon_dioxide 72000")
+        .outputFluids("gtceu:nitrogen 10000")
+        .outputFluids("gtceu:methane 7500")
+        .outputFluids("gtceu:carbon_monoxide 7500")
+        .outputFluids("gtceu:argon 2500")
+        .outputFluids("gtceu:neon 500")
+        .chancedOutput("gtceu:granite_red_dust", 2000, 500)
+        .EUt(1920)
+        .duration(2000);
+
+    greg.distillation_tower("distill_liquid_venus_air")
+        .inputFluids("gtceu:liquid_venus_air 100000")
+        .outputFluids("gtceu:carbon_dioxide 72000")
+        .outputFluids("gtceu:coal_gas 10000")
+        .outputFluids("gtceu:nitrogen 7500")
+        .outputFluids("gtceu:sulfur_dioxide 7500")
+        .outputFluids("gtceu:argon 2500")
+        .outputFluids("gtceu:hydrofluoric_acid 500")
+        .chancedOutput("gtceu:silicon_dioxide_dust", 2000, 500)
+        .EUt(1920)
+        .duration(2000);
+
 });
