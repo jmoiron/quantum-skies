@@ -1,0 +1,16 @@
+{
+  "translation": "level.gcyr.saturn",
+  "galaxy": "gcyr:milky_way",
+  "solar_system": "gcyr:solar_system",
+  "world": "gcyr:saturn",
+  "orbit_world": "gcyr:saturn_orbit",
+  "rocket_tier": 3,
+  "gravity": 10.44,
+  "has_atmosphere": true,
+  "days_in_year": 10756,
+  "temperature": 160,
+  "solar_power": 3,
+  "orbit_solar_power": 3,
+  "has_oxygen": false,
+  "button_color": 14200429
+}

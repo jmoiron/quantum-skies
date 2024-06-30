@@ -664,6 +664,7 @@
 			y: -7.0d
 		}
 		{
+			description: ["The &2Chemical Plant&r is a complex multiblock that is capable of running chemical reactions that even the &2LCR&r cannot support.  Its recipes typically involve one or more solid catalists and solid + fluid outputs."]
 			id: "52AD249F52432AF5"
 			tasks: [{
 				id: "6037233AF42BFA1F"

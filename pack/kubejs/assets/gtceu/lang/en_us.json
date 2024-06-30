@@ -51,5 +51,26 @@
     "block.gtceu.mv_sieve": "§bAdvanced Sieve §r",
     "block.gtceu.hv_sieve": "§6Advanced Sieve II §r",
     "block.gtceu.greenhouse": "Greenhouse",
-    "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building"
+    "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building",
+
+    "level.gcyr.jupiter": "Jupiter",
+    "level.gcyr.io": "Io",
+    "level.gcyr.europa": "Europa",
+    "level.gcyr.callisto": "Callisto",
+    "level.gcyr.ganymede": "Ganymede",
+
+    "level.gcyr.saturn": "Saturn",
+    "level.gcyr.titan": "Titan",
+
+    "level.gcyr.uranus": "Uranus",
+    "level.gcyr.titania": "Titania",
+    "level.gcyr.oberon": "Oberon",
+
+    "level.gcyr.neptune": "Neptune",
+    "level.gcyr.triton": "Triton",
+
+    "item.gcyr.tier_1_rocket": "Tier 1 Rocket",
+    "item.gcyr.tier_2_rocket": "Tier 2 Rocket",
+    "item.gcyr.tier_3_rocket": "Tier 3 Rocket",
+    "level.gcyr.proxima_centauri_b": "Proxima B"
 }

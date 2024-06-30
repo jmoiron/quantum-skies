@@ -1,0 +1,16 @@
+{
+  "translation": "level.gcyr.triton",
+  "galaxy": "gcyr:milky_way",
+  "solar_system": "gcyr:solar_system",
+  "world": "gcyr:triton",
+  "orbit_world": "gcyr:neptune_orbit",
+  "parent_world": "gcyr:neptune",
+  "rocket_tier": 3,
+  "gravity": 1.625,
+  "has_atmosphere": false,
+  "days_in_year": 27,
+  "temperature": 113,
+  "solar_power": 15,
+  "has_oxygen": false,
+  "button_color": 11787993
+}

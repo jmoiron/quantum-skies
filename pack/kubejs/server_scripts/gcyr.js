@@ -1,6 +1,19 @@
 priority: 0
 
 ServerEvents.recipes(event => {
+
+    /*
+     * extension/contribution ideas
+     *
+     * gas & ice giant orbit dimensions
+     * skyboxes for each orbit
+     *
+     * asteroid belt?
+     * pluto?
+     * kuiper belt?
+     *
+     */
+
     // gregicality rocketry support
     // VAB recipes are in multiblocks/vab.js
 
@@ -53,13 +66,12 @@ ServerEvents.recipes(event => {
     // the builtin electrolizer decomposition creates more than what you get
     event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_co_mn_br_catalyst"});
 
-    event.recipes.gtceu.electrolyzer("decomposition_electrolyzing_co_mn_br_catalyst_fixed")
+    greg.electrolyzer("decomposition_electrolyzing_co_mn_br_catalyst_fixed")
         .inputFluids("gcyr:co_mn_br_catalyst 4000")
         .outputFluids("gcyr:manganese_bromide 1000")
         .outputFluids("gcyr:cobalt_bromide 1000")
         .EUt(60)
         .duration(140);
-
 
     // lower tier of some recipes to make moon available at HV
     event.remove({id: "gcyr:chemical_bath/fiberglass"});

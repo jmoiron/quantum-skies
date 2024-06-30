@@ -341,7 +341,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["6061E30674D8A3F5"]
+			dependencies: [
+				"6061E30674D8A3F5"
+				"13B22DF7EBE23DF0"
+			]
 			description: ["Finally, mixing &6Cobalt Bromide&r and &6Manganese Bromide&r produces Cobalt-Manganese Bromide catalyst!  What a relief."]
 			id: "6B781EF3E26D62E2"
 			tasks: [{
@@ -495,6 +498,16 @@
 			}]
 			x: 3.0d
 			y: -12.0d
+		}
+		{
+			id: "13B22DF7EBE23DF0"
+			tasks: [{
+				id: "4953BAC37C3DCCFE"
+				item: "gcyr:manganese_acetate_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["Not because it is easy"]

@@ -1,0 +1,16 @@
+{
+  "translation": "level.gcyr.callisto",
+  "galaxy": "gcyr:milky_way",
+  "solar_system": "gcyr:solar_system",
+  "world": "gcyr:callisto",
+  "orbit_world": "gcyr:jupiter_orbit",
+  "parent_world": "gcyr:jupiter",
+  "rocket_tier": 3,
+  "gravity": 1.236,
+  "has_atmosphere": false,
+  "days_in_year": 18,
+  "temperature": 113,
+  "solar_power": 15,
+  "has_oxygen": false,
+  "button_color": 8041382
+}
