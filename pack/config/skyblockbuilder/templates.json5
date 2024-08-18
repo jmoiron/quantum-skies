@@ -1,4 +1,9 @@
 {
+  // The default offset from 0, 0 to generate the islands
+  // Can be used to generate them in the middle of .mca files
+  // This applies on top of the "offset" defined in each template
+  "defaultOffset": 0,
+  
   // The template which will be used for spawn only
   // Example: 
   // {
