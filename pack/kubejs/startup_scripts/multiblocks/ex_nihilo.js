@@ -162,7 +162,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(setCount(abilities(PartAbility.EXPORT_ITEMS), 1, 1))
                     .or(setCount(abilities(PartAbility.EXPORT_FLUIDS), 1, 1))
                     .or(setCount(abilities(PartAbility.IMPORT_ITEMS), 1, 1))
-                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 2, 2))
+                    .or(setCount(abilities(PartAbility.IMPORT_FLUIDS), 3, 2))
                     .or(setCount(abilities(PartAbility.INPUT_ENERGY), 2, 1)))
                 .where(" ", Predicates.any())
                 .build()
