@@ -65,6 +65,24 @@ ServerEvents.recipes(event => {
         ["minecraft:bamboo", "minecraft:bamboo", 16],
     ];
 
+    woodTypes.forEach((type) => {
+        greg.greenhouse(`${type}_log`)
+            .notConsumable(`minecraft:${type}_sapling`)
+            .inputFluids("minecraft:water 250")
+            .itemOutputs(`16x minecraft:${type}_log`)
+            .EUt(40)
+            .duration(100);
+
+        greg.greenhouse(`${type}_log_fertilizer`)
+            .notConsumable(`minecraft:${type}_sapling`)
+            .itemInputs("4x gtceu:fertilizer")
+            .inputFluids("minecraft:water 250")
+            .itemOutputs(`32x minecraft:${type}_log`)
+            .EUt(60)
+            .duration(50)
+            .circuit(2);
+    });
+
     plants.forEach(([input, output, mult]) => {
         greg.greenhouse(input)
              .notConsumable(input)
