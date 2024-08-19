@@ -193,6 +193,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:carbon_monoxide 7500")
         .outputFluids("gtceu:argon 2500")
         .outputFluids("gtceu:neon 500")
+        .outputFluids("gtceu:xenon 250")
         .chancedOutput("gtceu:granite_red_dust", 2000, 500)
         .EUt(1920)
         .duration(2000);
@@ -205,6 +206,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:sulfur_dioxide 7500")
         .outputFluids("gtceu:argon 2500")
         .outputFluids("gtceu:hydrofluoric_acid 500")
+        .outputFluids("gtceu:xenon 175")
         .chancedOutput("gtceu:silicon_dioxide_dust", 2000, 500)
         .EUt(1920)
         .duration(2000);
