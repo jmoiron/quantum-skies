@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "pioneer_and_voyager"
+	group: "3F9DCC5BE002E182"
+	icon: "gcyr:dyson_swarm_satellite"
+	id: "2781D11112213691"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B466B45DB2BDD4B"
+			tasks: [{
+				id: "6BFC3C6ABC3916D5"
+				item: "gcyr:elite_rocket_motor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "64D3C3BC53CC16C8"
+			tasks: [{
+				id: "78297301481A7986"
+				item: "gcyr:elite_fuel_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "4E5A841EF0FA57DA"
+			tasks: [{
+				dimension: "gcyr:jupiter_orbit"
+				icon: "kubejs:jupiter"
+				id: "043F5DFAF351E2D4"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "6462327157CF2610"
+			tasks: [{
+				dimension: "gcyr:saturn_orbit"
+				icon: "kubejs:saturn"
+				id: "5A146BB68B88357F"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "55982BD6E6D663A5"
+			tasks: [{
+				dimension: "gcyr:uranus_orbit"
+				icon: "kubejs:uranus"
+				id: "6D22997F81B7218F"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "40380C07766660F1"
+			tasks: [{
+				dimension: "gcyr:neptune_orbit"
+				icon: "kubejs:neptune"
+				id: "2371E92662CF79A1"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "&6Pioneer&r and &9Voyager&r"
+}
