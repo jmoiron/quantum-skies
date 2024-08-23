@@ -1121,7 +1121,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b2b3bd249f82d784100f25f553acd4ede5f3669fd1a87efbfc2ed6f45abc043c"
+hash = "4a62a9e4402e2d4c27c0ae9ff403e108d220e7c36e32c8ecd37422fc4e1c54a7"
 metafile = true
 
 [[files]]
@@ -1221,7 +1221,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
+hash = "d218175a2fc0fd2fdb907ed55a214f0163d9bcabb75b47ccdb6f4704c3bd5dd0"
 metafile = true
 
 [[files]]
@@ -1241,7 +1241,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "c59f2dfe62ab44cefae1d13f7ab942f91c7fe6f0a21d4f5b6703caffac7ff6de"
+hash = "5e8a989a97ba1ebc9a59d72037f16fb0c9bddddc9f4da0f00cf1d3425ad53f3c"
 metafile = true
 
 [[files]]
@@ -1251,12 +1251,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
+hash = "2170ed9eb7672fc517075c2259dc7ff8e9501c167f4083a30be162c8873b32c4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9935c85e1d899d5bd69e83b51070cdca5ae9dc138bb6ccde8f76aac214df0cc0"
+hash = "d47cf8902495273ee0a9223ee33f0dacf8a43667f6026d92af0186d5bac1b563"
 metafile = true
 
 [[files]]
@@ -1316,7 +1316,7 @@ metafile = true
 
 [[files]]
 file = "mods/ulv-covers-modern.pw.toml"
-hash = "7f40f41afa489e69f26d71cb63b47f1cc92d6a335a15caf6b52f50610cc4b321"
+hash = "e70ed1858a9f4e2e0402d7c8ea4d85946b49419a772034ecd443edbb6375ba57"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "ULV Covers Modern"
-filename = "ulvcovm-0.1.1.jar"
+filename = "ulvcovm-0.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8a099cda3759598d4c7e988a0358ee6b06cde76d"
+hash = "c95d147a2514f18ae22bf4dca59b4a1ed5b720b0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5323766
+file-id = 5656013
 project-id = 984851
