@@ -65,6 +65,10 @@ file = "config/embeddium-options.json"
 hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
+file = "config/emi.css"
+hash = "99239ed4ee1dce8f0490d1c156f1f44987754c62a9d79877b9dfb1f306f6d9af"
+
+[[files]]
 file = "config/enderchests.toml"
 hash = "4588569484753f1270bfd88970da003a6324f23df0579e282cc9ed619e6e41ee"
 
@@ -178,7 +182,7 @@ hash = "3ff032d02a25ccc50e898e32e1f8f7e76abe3b31263f327520879ce41fa66918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "631aabc65041f285a61382039d173ca4ec0c6a12b4faabb6804877fd2ac36e12"
+hash = "8bed692336c31e802619afc4d385e98e9b5a23ba99242f91db9cad74fd372797"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -1080,8 +1084,8 @@ hash = "5e9d1f89e4d139e555ef5211ad656995b6776a22dfeb21cedec3d60c9decaa50"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-extended-chemistry.pw.toml"
-hash = "01ee6ebd79e85a2e5c9d577517acdb1db39aea48840e41e980c7430bc7a8fa8f"
+file = "mods/gregtech-extended-chemistry-extended.pw.toml"
+hash = "a2cc84af24aaa910e94d78412404a42fdc42602f29493d59f9e0ea51eecad882"
 metafile = true
 
 [[files]]

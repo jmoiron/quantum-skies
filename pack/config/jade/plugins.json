@@ -8,8 +8,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -62,22 +62,26 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "exnihilosequentia": {
     "barrel": true,
     "crucible": true,
     "sieve": true,
     "infesting_leaves": true
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
   "gtceu": {
+    "primitive_pump": true,
     "auto_output_info": true,
     "workable_provider": true,
+    "transformer": true,
     "controllable_provider": true,
+    "me_pattern_buffer": true,
     "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
     "recipe_logic_provider": true,
     "maintenance_info": true,
