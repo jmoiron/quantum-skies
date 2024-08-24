@@ -965,6 +965,11 @@ hash = "a2b50a3ae0f73b45d393d037288073130e16e7a371f1e93ec573c5dc2efe87f8"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "c097f7802c79561cc7dedcbd112f3b33581a5b42f2acd8c24d482ed4c90afa74"
+metafile = true
+
+[[files]]
 file = "mods/enderchests.pw.toml"
 hash = "7afb25a983355be8d33e51a063d6e85817e37b03ccc331fbecaa863bd1d2f292"
 metafile = true
@@ -1082,6 +1087,11 @@ metafile = true
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
 hash = "a2cc84af24aaa910e94d78412404a42fdc42602f29493d59f9e0ea51eecad882"
+metafile = true
+
+[[files]]
+file = "mods/gregtech-steam-additions.pw.toml"
+hash = "9047f8ae4eed94f3d54a0ac70a13ce3093711445434972b70bebe5c08e82602d"
 metafile = true
 
 [[files]]

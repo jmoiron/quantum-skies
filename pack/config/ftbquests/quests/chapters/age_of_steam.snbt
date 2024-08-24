@@ -486,7 +486,7 @@
 			description: [
 				"If you were wondering about early game ore processing, the answer is the &dSteam Grinder&r! There don't seem to be many ores around here, though."
 				""
-				"The &dSteam Grinder&r can run &dMacerator&r recipes up to &7Low Voltage&r 8 items at a time for a small amount of steam."
+				"The &dSteam Grinder&r can run 8 &dmacerator&r recipes at a time for a small amount of steam."
 				""
 				"It doesn't produce any by-products. Might be useful for grinding &6clay&r if the needs arise."
 			]
@@ -1021,6 +1021,42 @@
 			title: "Sieving with steam"
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["03187CD57AEE511A"]
+			description: [
+				"The &2steam foundry&r is a multiblock &2alloy smelter&r that offers early, power efficient parallelization."
+				""
+				"You seem to be using a lot of &6bronze&r, so this might not be such a bad idea."
+			]
+			id: "11F834A713050938"
+			size: 1.25d
+			subtitle: "Parallelized Alloy Smelting"
+			tasks: [{
+				id: "3A97AA584D5E1A7B"
+				item: "steamadditions:steam_foundry"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FC2E9C3153249C9"]
+			description: [
+				"The &2Steam Separator&r is a multiblock &2centrifuge&r."
+				""
+				"It cannot use fluid output hatches, so it's limited to efficiently separating the dusts that you might get out of the &2Steam Grinder&r."
+			]
+			id: "3F1BC72761BB29D0"
+			size: 1.25d
+			subtitle: "Parallelized Centrifuging"
+			tasks: [{
+				id: "31F445C1B9B21A5C"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["&6Bronze&r and the Age of Steam Power"]

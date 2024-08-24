@@ -55,7 +55,7 @@
 		{
 			id: "1F1769B5A4BAA43E"
 			linked_quest: "071CDA5ABDCD9A1B"
-			x: 1.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -572,7 +572,7 @@
 				item: "gtceu:data_stick"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{

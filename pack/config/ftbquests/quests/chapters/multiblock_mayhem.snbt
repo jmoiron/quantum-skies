@@ -395,8 +395,8 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			id: "3271B63A935AFC8A"
@@ -460,6 +460,7 @@
 		}
 		{
 			dependencies: ["6E10792E66D3E281"]
+			hide_dependent_lines: true
 			id: "158BF04DA0392374"
 			tasks: [{
 				id: "43EDCC04A2F8936C"
@@ -672,6 +673,37 @@
 				type: "item"
 			}]
 			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "73CE77FE6FA607C1"
+			tasks: [{
+				id: "56281BE67AB4B30F"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["158BF04DA0392374"]
+			description: [
+				"The &2Neutron Activator&r is multi-block machine whose primary uses are in &anaquadah&r processing and &2large naquadah reactor&r fuel processing.  It is variable height, like the &2distillation tower&r, accepting between 4-34 &9high speed pipe&r layers."
+				""
+				"&2Neutron Activator&r recipes require it to have a certain range &5kinetic energy&r, measured in electron volts (eV).  EU can be converted to eV via &9neutron accelerators&r, which are available for each power tier."
+				""
+				"To maintain your &2activator&r in a certain eV range, you can use a &9neutron sensor&r to output a redstone signal, and then use a &amachine controller&r to toggle your &2accelerator(s)&r."
+			]
+			hide_dependent_lines: true
+			id: "5D016FCE361F60DC"
+			min_width: 250
+			subtitle: "Supercollider"
+			tasks: [{
+				id: "5F39D2619619E865"
+				item: "gtnn:neutron_activator"
+				type: "item"
+			}]
+			x: -0.5d
 			y: -1.0d
 		}
 	]

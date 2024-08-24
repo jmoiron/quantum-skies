@@ -75,4 +75,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("1x boron", "3x fluorine")
         .color(0xE6FFE5);
 
+    // add polyvinyl butyral rods
+
+    GTMaterials.PolyvinylButyral.addFlags(GTMaterialFlags.GENERATE_ROD);
+
 })

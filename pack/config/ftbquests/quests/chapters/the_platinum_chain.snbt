@@ -175,8 +175,8 @@
 		{
 			id: "7E72D93B6C8F88FE"
 			tasks: [{
-				id: "04867D19FCB773B9"
-				item: "gtec:formic_acid_bucket"
+				id: "2E5DA5077408AA28"
+				item: "gtceu:formic_acid_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -199,7 +199,8 @@
 		{
 			dependencies: ["406BFE4ABAC91EFB"]
 			id: "779588F9DEA0A204"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "0E04D5C57DE79A05"
 				item: "gtceu:platinum_ingot"
@@ -211,7 +212,8 @@
 		{
 			dependencies: ["41DCD2B09586C876"]
 			id: "347B78040DE63674"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "028017A4BDCB8374"
 				item: "gtceu:palladium_ingot"
@@ -350,7 +352,8 @@
 		{
 			dependencies: ["2B8365F70376CC74"]
 			id: "30E72F46C8F0F1E6"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "464A4AFF3E2FC22F"
 				item: "gtceu:rhodium_ingot"
@@ -424,7 +427,8 @@
 		{
 			dependencies: ["78C2A65162C3617F"]
 			id: "28016100F20EBB6C"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "2AF14CA2654CEE7D"
 				item: "gtceu:ruthenium_ingot"
@@ -436,6 +440,8 @@
 		{
 			dependencies: ["10163F0E75A4227C"]
 			id: "7FCAD193B704FF63"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				id: "31AB124CADBED90F"
 				item: "gtceu:crushed_cooperite_ore"
@@ -518,7 +524,8 @@
 				"It was a layer of &6Iridium&r-rich clay that was found globally which proved to be the crucial evidence that an asteroid impact was the cause of the K-Pg extinction that wiped out the non-avian dinosaurs."
 			]
 			id: "249B838E00970B93"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "1D7AF36A05382670"
 				item: "gtceu:iridium_ingot"
@@ -552,7 +559,8 @@
 		{
 			dependencies: ["19526F57F6FAA10F"]
 			id: "0ADE563032F9DF5C"
-			size: 1.25d
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				id: "0AC5DF7F0B0744EE"
 				item: "gtceu:osmium_ingot"

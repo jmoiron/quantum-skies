@@ -1,31 +1,449 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "the_6naquadahr_chain"
 	group: "09D97B44850738EB"
 	icon: "gtceu:naquadah_credit"
 	id: "7381973DD3F5952F"
 	order_index: 2
-	quest_links: [ ]
-	quests: [{
-		description: [
-			"&2GT--&r significantly overhauls both Naquadah processing as well as Naquadah uses, adding single-block reactors up to UV as well as a multi-block liquid fuel reactor."
-			""
-			"The processing chain involves the use of another multiblock, the &6Neutron Reactor&r, which has a custom \"kinetic energy\" mechanic that will be explained in this quest line."
-			""
-			"Naquadah processing starts in &dLuV&r."
-		]
-		icon: "gtceu:naquadah_alloy_gear"
-		id: "67F55ABE451C218E"
-		shape: "circle"
-		size: 2.0d
-		tasks: [{
-			id: "24075932486760CA"
-			title: "Naquadah Processing"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: -0.5d
-	}]
+	quest_links: [
+		{
+			id: "6EE780EA5F0896D6"
+			linked_quest: "5D016FCE361F60DC"
+			size: 1.5d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "45CDBF25908A0B7C"
+			linked_quest: "1190CC62E02B9FF6"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "6FD68DF07EC30D62"
+			linked_quest: "158BF04DA0392374"
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"&aNaquadah&r and &9Trinium&r are very rare metals found out in space. They form important alloys used in &dLuV&r and &cZPM&r tier."
+				""
+				"Processing raw &6Naquadah Ore&r requires a complex chain with many advanced acids and catalysts.  It also requires the use the &2Neutron Reactor&r, which uses kinetic energy (measured in electron volts, or eV) to bombard materials with neutrons, breaking them down."
+				""
+				"&aNaquadah&r and it's variants &6Nq+&r and &6Naquadria&r are useful sources of power, with single-block &enaquadah reactors&r going all the way up to UV and a multi-block liquid fuel reactor providing you with new options for mobile late-game power."
+				""
+				"This processing chain starts in &dLuV&r."
+			]
+			icon: "gtceu:naquadah_alloy_gear"
+			id: "67F55ABE451C218E"
+			min_width: 250
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "24075932486760CA"
+				title: "Naquadah Processing"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["Naquadah Ore is &ctemporarily&r available from the &dPlanetary Ore Drill&r when running it on Venus or Mars, but will be moved to the outer planets."]
+			id: "0D8C8F86EB8A88F7"
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "18216959D4B29699"
+				item: "gtceu:crushed_naquadah_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D8C8F86EB8A88F7"]
+			id: "7A99FD7E8C9701BF"
+			tasks: [{
+				id: "0F37BA3FFD0D0C4E"
+				item: "gtceu:naquadah_oxide_mixture_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D8C8F86EB8A88F7"]
+			id: "7AFF2254E114D686"
+			tasks: [{
+				id: "279CC0512921A295"
+				item: "gtceu:enriched_naquadah_oxide_mixture_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"38C9F6652B29421C"
+				"7A99FD7E8C9701BF"
+				"5D016FCE361F60DC"
+			]
+			id: "78C387EE03456D04"
+			tasks: [{
+				id: "503C7F23067548AB"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "38C9F6652B29421C"
+			tasks: [{
+				id: "0495917E969073EC"
+				item: "gtceu:fluoroantimonic_acid_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "6E60212E2B1B65E2"
+			tasks: [{
+				id: "49F90A725A234607"
+				item: "gtceu:argon_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6E60212E2B1B65E2"
+				"78C387EE03456D04"
+			]
+			id: "6B9D57805A08E51B"
+			tasks: [{
+				id: "5A441B6E848AADFC"
+				item: "gtceu:hot_naquadah_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "38A8CB50C9CEA911"
+			tasks: [{
+				id: "3231CB26EA3F77FF"
+				item: "gtceu:liquid_helium_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"38A8CB50C9CEA911"
+				"6B9D57805A08E51B"
+			]
+			id: "0472211411B89514"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AFF69C0A320F0E8"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"38C9F6652B29421C"
+				"7AFF2254E114D686"
+			]
+			id: "3BAD4738206EC839"
+			tasks: [{
+				id: "538385ECAA513691"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BAD4738206EC839"]
+			id: "6B41CE6648720F2D"
+			tasks: [{
+				id: "6365A18A9EE5E7FB"
+				item: "gtceu:hexafluoride_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6B41CE6648720F2D"
+				"696B4477390011B7"
+			]
+			id: "04771A45C9318A67"
+			tasks: [{
+				id: "30F9DFCC19C8B53B"
+				item: "gtceu:xenon_hexafluoro_enriched_naquadate_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "696B4477390011B7"
+			tasks: [{
+				id: "40392F6212894BC5"
+				item: "gtceu:xenon_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04771A45C9318A67"]
+			id: "6015497DA443A9CA"
+			tasks: [
+				{
+					id: "5B8C28AADE814E78"
+					item: "gtceu:enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "43113D0CA128E1E0"
+					item: "gtceu:acidic_enriched_naquadah_solution_bucket"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04771A45C9318A67"]
+			id: "6D6ACB637A88D56B"
+			tasks: [{
+				id: "05BFFE8A0BF770C6"
+				item: "gtceu:enriched_naquadah_residue_solution_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D6ACB637A88D56B"]
+			id: "02166F55D4C90D9A"
+			tasks: [{
+				id: "7CC2EE911C4592F8"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1190CC62E02B9FF6"
+				"02166F55D4C90D9A"
+			]
+			id: "264C8A9EAFB3D1EA"
+			tasks: [{
+				id: "0E9D2F6E3DE5E7EC"
+				item: "gtceu:hot_trinium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"38A8CB50C9CEA911"
+				"264C8A9EAFB3D1EA"
+			]
+			id: "67A5562E1497381B"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "069BE6F61C038454"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D016FCE361F60DC"
+				"6015497DA443A9CA"
+			]
+			id: "5FF58CC852BF9247"
+			tasks: [
+				{
+					id: "7A059DC096E7FB9A"
+					item: "gtceu:impure_naquadria_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "0D938D7CFB32C115"
+					item: "gtceu:hexafluoride_naquadria_solution_bucket"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5D016FCE361F60DC"
+				"6015497DA443A9CA"
+			]
+			id: "5983575065874675"
+			tasks: [{
+				id: "2580A0AD76DE3CC1"
+				item: "gtceu:enriched_naquadah_sulfate_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1190CC62E02B9FF6"
+				"5983575065874675"
+			]
+			id: "7AB63946A7E50E9B"
+			tasks: [{
+				id: "4B2637FDEBDFA9D1"
+				item: "gtceu:hot_enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AB63946A7E50E9B"]
+			id: "12282E138A41AE93"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5482F8E878F53B18"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FF58CC852BF9247"]
+			id: "56AD081D3C8ED891"
+			tasks: [
+				{
+					id: "431E85C5070FD8A0"
+					item: "gtceu:radon_naquadria_octafluoride_bucket"
+					type: "item"
+				}
+				{
+					id: "355AF19A7C6116BF"
+					item: "gtceu:naquadria_caesium_xenonnonfluoride_bucket"
+					type: "item"
+				}
+				{
+					id: "37F6355CBB35436D"
+					item: "gtceu:naquadria_caesiumfluoride_bucket"
+					type: "item"
+				}
+				{
+					id: "4342E34B68F91BBE"
+					item: "gtceu:acidic_naquadria_caesiumfluoride_bucket"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FF58CC852BF9247"]
+			id: "1A3B9F93C6957D51"
+			tasks: [
+				{
+					id: "73615C2DA3394B76"
+					item: "gtceu:naquadria_residue_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "70D01A4CE71B144E"
+					item: "gtceu:naquadria_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "2ED5613AE084A13E"
+					item: "gtceu:acidic_naquadria_solution_bucket"
+					type: "item"
+				}
+			]
+			title: "Naquadria Solution"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A3B9F93C6957D51"]
+			description: ["&6Naquadria Waste&r is re-processable into &9Naquadria Solution&r and &9Enriched Naquadah Solution&r, which can feed back into your processing chain, increasing your overall yield."]
+			id: "6E4F055D6B296BE7"
+			tasks: [{
+				id: "277513C47EDD04A0"
+				item: "gtceu:naquadria_waste_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"56AD081D3C8ED891"
+				"5D016FCE361F60DC"
+			]
+			id: "524688A1AE7BA4E2"
+			tasks: [{
+				id: "696E8EF8D3543FDD"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["524688A1AE7BA4E2"]
+			id: "7720EABBCB8C8EE0"
+			tasks: [{
+				id: "3A98A317627684FC"
+				item: "gtceu:hot_naquadria_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7720EABBCB8C8EE0"]
+			id: "15F56ADF57237198"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F4A50E5C4137A8E"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+	]
 	title: "The &6Naquadah&r Chain"
 }

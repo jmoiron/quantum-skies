@@ -126,7 +126,7 @@
 				}
 				{
 					id: "62A6C23F57C1E104"
-					item: "gtec:hafnium_idodide_dust"
+					item: "gtec:hafnium_iodide_dust"
 					type: "item"
 				}
 			]
@@ -173,7 +173,7 @@
 			dependency_requirement: "one_completed"
 			id: "7E9F47CD8DC5FE4C"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "5BB1F7B9137E8DED"
 				item: "gtceu:zirconium_ingot"
@@ -317,7 +317,7 @@
 			]
 			id: "77A995D3C62FEB71"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "58A16F7832D7DC6C"
 				item: "gtceu:cerium_dust"
@@ -359,7 +359,7 @@
 			]
 			id: "7EFD4684169611F1"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "46301D6758530F74"
 				item: "gtceu:europium_ingot"
@@ -406,7 +406,7 @@
 			dependencies: ["4981824E18F95876"]
 			id: "0F89597063B5B4A6"
 			shape: "octagon"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "6B826A26668BCDA2"
 				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
@@ -420,7 +420,7 @@
 			dependencies: ["2EACB7FF022B9956"]
 			id: "59F6D6F567FA1014"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "1F533048B3F4B78D"
 				item: "gtceu:gadolinium_dust"
@@ -701,7 +701,7 @@
 			dependencies: ["0024B345E00EA387"]
 			id: "74E9454FB0F5B3AC"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "79EEFD2ABCC84532"
 				item: "gtceu:lanthanum_dust"
@@ -714,7 +714,7 @@
 			dependencies: ["0024B345E00EA387"]
 			id: "344F969D479E66A2"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "0696A995DC8044FC"
 				item: "gtceu:neodymium_dust"
@@ -782,7 +782,7 @@
 			dependencies: ["00835DF8CEEA1A4B"]
 			id: "226C034282D7ABF5"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "53D32B803B3A3B5F"
 				item: "gtceu:terbium_dust"
@@ -823,7 +823,7 @@
 			dependencies: ["3BAAC6D8A215551D"]
 			id: "7DC44F06BD169358"
 			shape: "octagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "1C21E94663A7C55E"
 				item: "gtceu:hafnium_ingot"

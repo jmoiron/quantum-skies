@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
@@ -29,4 +28,13 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:bronze_machine_casing")
         .EUt(16)
         .duration(50);
+
+    /* fix naquadah processing line from gt-- */
+    event.remove({id: "gtceu:electric_blast_furnace/impure_enriched_naquadah_solution"})
+    event.recipes.gtceu.electric_blast_furnace("impure_enriched_naquadah_solution_fixed")
+        .inputFluids("gtceu:acidic_naquadria_solution 3000")
+        .outputFluids("gtceu:naquadria_waste 1000")
+        .itemOutputs("gtceu:enriched_naquadah_oxide_mixture_dust")
+        .EUt(GTValues.VA[GTValues.ZPM])
+        .blastFurnaceTemp(1280);
 });
