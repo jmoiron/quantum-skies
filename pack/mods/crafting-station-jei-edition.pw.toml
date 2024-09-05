@@ -1,13 +1,13 @@
 name = "Crafting Station: JEI Edition"
-filename = "craftingstation-1.20.1-1.2.1.jar"
+filename = "craftingstation-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "55464b1cc1a1a72f222798be233a94e16d5a7a91"
+hash = "22a9802455cc9f978409a1d387f34ce19648655c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5541587
+file-id = 5674681
 project-id = 956084
