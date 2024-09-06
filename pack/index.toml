@@ -65,6 +65,10 @@ file = "config/embeddium-options.json"
 hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
+file = "config/emi.css"
+hash = "0fbd75007f2605c217737f2834898ba0d7436a0ca0367a846465f05b9c1a881e"
+
+[[files]]
 file = "config/enderchests.toml"
 hash = "4588569484753f1270bfd88970da003a6324f23df0579e282cc9ed619e6e41ee"
 
@@ -74,7 +78,7 @@ hash = "0683b860972d2353400ad7714bbf9766af50e0b0a1aaa6d2aa626ed407aa5c2a"
 
 [[files]]
 file = "config/entangled-common.toml"
-hash = "654e97c6b46d38df9c6d888347a788507a2f1f5cd440c87f2b5c09173d026461"
+hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
 
 [[files]]
 file = "config/enviroseries/materials/materials-client.json"
@@ -162,7 +166,7 @@ hash = "d4570b39daaf12015c6b2e782381a8567bba55d13ae185453cf01b70a99130ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
-hash = "4b20d7c309eee0864ed7d0cb94914a4b44074533c01c6e02dbbe598a7c64a11e"
+hash = "63d0081c0c8fb67d72154b79fc40e19c348749ce9fa7304985f8afd58b7bfdd3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -170,7 +174,7 @@ hash = "6721a2f5d01eee0d89e6804f70ee09f4e5867b6231ed58cbade85fa19eae0d02"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "bc71e828f3121d85e0a135a4555fd6c7f5e76545476bb8875e16b452dd5fa36d"
+hash = "56c1a357ab1d856e997b5f5be30b228d08c4ba55babf3999719f3e8f71ff2ec3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -182,11 +186,11 @@ hash = "631aabc65041f285a61382039d173ca4ec0c6a12b4faabb6804877fd2ac36e12"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
-hash = "42826a99801622c4970c46c68b9435611463f611f773a36d3f05c03b3898683e"
+hash = "b7457b53daa2936298d8e70430397571971a5669273218835116330680959fff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "9081e6a1097f1f236e81a276d6701b9bccb25f18428f96a5fa943ca86eaeb57d"
+hash = "6e6d04e6998ab0690627d68ea020e93b2b5ede55e29a6709b5f88092d0098760"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
@@ -202,7 +206,7 @@ hash = "552deace98fc7239bd6fcbc6d62f858eca2813831ac3eb320d7b8c89c6efe299"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
-hash = "8d5e405717f5a33c498186ebbfea70ad1ec8ef2fc8c0357bf4d827cb9d580063"
+hash = "e746ca744af73aa0d0a0e8a0bd44535d51f96c1fe13f41f9bc62697e4b62ed93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
@@ -230,7 +234,7 @@ hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
 file = "config/gcyr.yaml"
-hash = "37972c94fa417ae8ebb36133856489a73d92f4e745729132be584ccdf452f1ee"
+hash = "b27940c2bba378f22981d4db07801364d2f26d9ba1037973f61b5ace634466db"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -258,11 +262,11 @@ hash = "8951063f399e5ebeece66336e01daaceacfba10cf4823243635a34db2bff4066"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "55ce930431ad7ca3526cc02c90353e869a62c9975db38d84c8eba6ad62f9b964"
+hash = "3c41d058c241e4b9d28e307b2e286bbe43ccbdeb0ae09347e64ba37ccc9e1610"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "5f0d27dac46c80a37de24e9f773a263af692944e1b52a8df757cb842c9ae68c9"
+hash = "793d7e700501e320d6cd073fd5769ac2cfdeb10f8117d984867956c7aba6c10c"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -278,7 +282,7 @@ hash = "ca6f0515891afed86c30c9d3d8ad1496a7d03de9ea532ab431f2ec1d3968826b"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "dc3a12067451957572addab8135b0f24e13c76e9227d63752076ffdcd52542a5"
+hash = "6a8f35c54a9ca4323214ffd3a3eb262d4e68fbf4e91d5b22db7ed86bdda07ce7"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -286,7 +290,7 @@ hash = "bca5b02f5689992eedefaea160cecac8fd69ee8ae7cee403f5294afbe539e8ce"
 
 [[files]]
 file = "config/jei/jei-debug.ini"
-hash = "e06d161c4f0f621c7db7da0292368517a9559e5125917293ed31f60a4184576e"
+hash = "e68a8661c36d0b49f22ea21071d1b6e8c092530dc19f199f79fc93849ed67f7c"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
@@ -314,7 +318,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "deec7262ef246fd3a43e665b947eb068b3034c3dd59aa1d453b89aeadcaac92d"
+hash = "ce7a5f60ac4119791310ab58bd4a5b6a2e1dcc1da52a60cd4ee3140d000cefbc"
 
 [[files]]
 file = "config/panorama.json"
@@ -346,7 +350,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "58a583368ad369e7a7f7bc7f1ddc50fcac2d4397a95c883db08e18f9b7673036"
+hash = "1465fae5038be5652a5635029389338f9bdd4f246818d7731bb86ac0ccc0733a"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -395,6 +399,10 @@ hash = "835c5e52662f162ad1fba6307d815cc36eece016bedda08e4152c5a9a15893dc"
 [[files]]
 file = "config/skyblockbuilder/world.json5"
 hash = "583e090ad95bb7ca5e949a852bdbffcc542d4e88442da92632ec976fa804c15c"
+
+[[files]]
+file = "config/skyguis.json5"
+hash = "a8f25345178d2f733faa3e548bdc54981a66fd2b64749b6a4bdfcc293fdeba32"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -770,7 +778,7 @@ hash = "57b7544973426fd7796890e77e76aecac36c0ed9e0b320753dbc7633716e6d0f"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "f5756dbda9e64fd130414dfafa2258c2f6c6088169bc4aefdd6b81c781ea4008"
+hash = "bee168dc3e22d4551fde0465331553b21e21a546e55852b9ae84cab90876431a"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
@@ -839,6 +847,11 @@ hash = "a9457cf9ea00cc0bf36072ba01503f59ad0ef23ebb43b1b48e053bc5100fec11"
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/vab.js"
 hash = "c2e93144c6eccd9d04e2d27413f41386809d86b2807f8b75da5a7e6794ae919c"
+
+[[files]]
+file = "mods/aeinfinitybooster.pw.toml"
+hash = "d95d736d272530576a042e3ee4d11c5ecfe9f03d509219f0babe867ed14597b1"
+metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
@@ -1223,6 +1236,16 @@ metafile = true
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
 hash = "f65634348b0cf61fb2a9b99417f6fc28256ab0a37238baefdb26446a89a3bab0"
+metafile = true
+
+[[files]]
+file = "mods/shrink_.pw.toml"
+hash = "bb499bb2efd030f7d1487359492bf1877a799ca009d76a8d8b3c3f89fe0ae8c8"
+metafile = true
+
+[[files]]
+file = "mods/sky-guis.pw.toml"
+hash = "fa25932474f9cc01ec575670cfeaeb0ecea4f08e21cd904253bbb63447d070f2"
 metafile = true
 
 [[files]]

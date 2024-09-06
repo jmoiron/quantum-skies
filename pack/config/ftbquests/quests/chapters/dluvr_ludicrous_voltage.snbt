@@ -77,6 +77,12 @@
 			x: 7.0d
 			y: -2.0d
 		}
+		{
+			id: "4B8DE41F3FDBA95F"
+			linked_quest: "3CEAFC4D88132679"
+			x: 8.5d
+			y: 2.5d
+		}
 	]
 	quests: [
 		{
@@ -94,6 +100,7 @@
 			id: "3148A5D311E18315"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "The LuV Below"
 			tasks: [{
 				id: "131DBDC96C168274"
 				title: "lore"
@@ -228,7 +235,13 @@
 		}
 		{
 			dependencies: ["188B86167DB88BA6"]
+			description: [
+				"&6Europium&r is an important metal in &9crystal processors&r as well as &cZPM&r components."
+				""
+				"If you've been running the full &elanthanides chain&r, you've likely built up a lot of &6europium oxide&r, which you can now process into normal &6europium&r."
+			]
 			id: "5786299144B4FB87"
+			subtitle: "Ingot at last"
 			tasks: [{
 				id: "248160B6D1A05C0E"
 				item: "gtceu:europium_ingot"
@@ -522,17 +535,6 @@
 			]
 			x: 8.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["58E3546712717A58"]
-			id: "51ED4035569CC918"
-			tasks: [{
-				id: "141CF98AFD069CDA"
-				item: "gtceu:data_bank"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["3148A5D311E18315"]

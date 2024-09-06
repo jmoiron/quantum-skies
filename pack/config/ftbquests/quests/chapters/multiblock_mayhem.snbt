@@ -313,7 +313,7 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: -5.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -7.0d
 		}
 		{
 			id: "3271B63A935AFC8A"
@@ -672,7 +672,7 @@
 				item: "gtnn:exxonmobil_chemical_plant"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -703,8 +703,60 @@
 				item: "gtnn:neutron_activator"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"232DE964F5161553"
+				"5E6CF88304265435"
+				"75AABEDD8058253E"
+			]
+			id: "534428A2BB627A79"
+			tasks: [{
+				id: "40D28F0DB7E2ECD4"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CEAFC4D88132679"]
+			description: [
+				"The &2HPCA&r is a multiblock that turns power into &dcomputation&r, a new type of \"power\" resource measured in CWU/t (Compute-Work Units)."
+				""
+				"The higher level research done in the &2research station&r will require different amounts of CWU/t, depending on the recipe."
+				""
+				"The &2HPCA&r is a highly customizable 2x5x5 multiblock. The center &29 blocks&r on one face must be &cComputer Heat Vents&r. The blocks on the other side can be any &eHPCA component&r."
+				""
+				"{@pagebreak}"
+				""
+				"&3HPCA components&r either provide &bcomputation&r in the form of CWU/t or &9cooling&r. "
+				""
+				"The basic &bHPCA computation component&r produces 4 CWU/t at the cost of a up to nearly 1A &5IV&r and 2 units of heat. At &cZPM&r, you can produc &bAdvanced HPCA computation components&r that have a better CWU/t per unit heat rating."
+				""
+				"&9HPCA Heat Sink Components&r provide 1 unit of cooling passively, and &9Active Coolers&r require EU/t and &6PCB coolant&r, but provide 2 units of cooling."
+			]
+			id: "232DE964F5161553"
+			tasks: [{
+				id: "5F9655204D7567F6"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58E3546712717A58"]
+			id: "3CEAFC4D88132679"
+			tasks: [{
+				id: "51E9F2E25E5E004C"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 	]
 	title: "Multiblock Mayhem"

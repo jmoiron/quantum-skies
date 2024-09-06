@@ -1,21 +1,142 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "czpmr_zero_point_module"
 	group: "693226878D58638A"
 	icon: "gtceu:zpm_machine_hull"
 	id: "680B253F1C3B6A49"
 	order_index: 7
-	quest_links: [ ]
-	quests: [{
-		id: "7528A6EC106DD184"
-		tasks: [{
-			id: "75C38F0716413185"
-			title: "lore"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "36DB1079284B47A0"
+			linked_quest: "47834925781BD13B"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6F4F9726F9509F2E"
+			linked_quest: "15F56ADF57237198"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "70FF3F20AE8F65E7"
+			linked_quest: "5E6CF88304265435"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "06D2CAF292934C08"
+			linked_quest: "534428A2BB627A79"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "2DBB39E9B7C8AD6A"
+			linked_quest: "232DE964F5161553"
+			x: 4.0d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "gtceu:data_module"
+				tag: { }
+			}
+			id: "7528A6EC106DD184"
+			subtitle: "The information age"
+			tasks: [{
+				id: "75C38F0716413185"
+				title: "lore"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43ACE5BC545C7C81"]
+			id: "37A429FFFDB89C91"
+			tasks: [{
+				id: "095E0B73DBD9FA77"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65DE8D10CCC71642"
+				"5786299144B4FB87"
+			]
+			id: "2EFE0230C020FE8A"
+			tasks: [
+				{
+					id: "162617215B6D0281"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "2CD92AE796BF4A48"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					id: "79FD59CB5F0F0598"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "5AE03072C7721E53"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					id: "3BED2E929A75CAED"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"37A429FFFDB89C91"
+				"2EFE0230C020FE8A"
+			]
+			id: "15CD6D60592C8463"
+			tasks: [{
+				id: "1D9B69EAB7E85CFA"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Although not &atechnically&r required for the &2Research Station&r, you will want to craft some."
+				""
+				"The &9Data Orb&r is a higher capacity upgrade to the &9data stick&r, capable of holding the data output of the &2research station&r."
+			]
+			id: "75AABEDD8058253E"
+			subtitle: "ORB"
+			tasks: [{
+				id: "3DBDEA4F0606C471"
+				item: {
+					Count: 1
+					id: "gtceu:data_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Stargate Technology"]
 	title: "[&cZPM&r] Zero Point Module"
 }
