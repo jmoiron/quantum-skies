@@ -130,11 +130,11 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "f8f2b25ec3c9e3b5d7e5447a928e52231bdee5d345b9cd03f5804f1e38e7220d"
+hash = "049063846299ed67eda3fbfc0f6c6031466eff6c0c4684673dca1f9d7bd68201"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
-hash = "9afafad24674e1aefb37b3c744b276e6d30014b199ccc144c489dadb528b5dcf"
+hash = "fe721aff5616dfae3ebd52e696a54e79b37995e7cc293435260a0a86be8ffb73"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
@@ -154,7 +154,7 @@ hash = "5b42fa1fde8ce9bb4ca30134e6f6b6d68bb5e1699a29df39316b96f6ac08cf70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "5aedb581623a541c18712c5acdd978b99094fb21dcb3f4cc9f8816cb8daca998"
+hash = "c74476719ea925dbfe388446c4ebf1948e765693200f545fb5a73efe0a3ed04e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -162,19 +162,19 @@ hash = "3b05efe04a3462f6a43cda8c2d6667cc4b0a51ca15f0f6fcbd239fffc6190ed3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
-hash = "d4570b39daaf12015c6b2e782381a8567bba55d13ae185453cf01b70a99130ea"
+hash = "1a86ab0382a3dd113c0868253af8c21cbdc9ca2e47ae47a6e9b66b3bd8e0556d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
-hash = "63d0081c0c8fb67d72154b79fc40e19c348749ce9fa7304985f8afd58b7bfdd3"
+hash = "9931640075632f0b7edb3efd3c538ab6e28602e9c9f99e1eebec4e87984e170a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "6721a2f5d01eee0d89e6804f70ee09f4e5867b6231ed58cbade85fa19eae0d02"
+hash = "3cb75958f8d96a6129fce844e53bb3e56c644b033909f2f8718d0b908287ccce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "56c1a357ab1d856e997b5f5be30b228d08c4ba55babf3999719f3e8f71ff2ec3"
+hash = "139b562262322aff42e15d3ab3e87e1e5d35393003e450e22efe11e96c97a90a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -182,7 +182,7 @@ hash = "3ff032d02a25ccc50e898e32e1f8f7e76abe3b31263f327520879ce41fa66918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "631aabc65041f285a61382039d173ca4ec0c6a12b4faabb6804877fd2ac36e12"
+hash = "0ca59a7fe404624227f8647b94faa406f46f3020fa6d6bba4de8d95f8a591edb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -190,7 +190,7 @@ hash = "b7457b53daa2936298d8e70430397571971a5669273218835116330680959fff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "6e6d04e6998ab0690627d68ea020e93b2b5ede55e29a6709b5f88092d0098760"
+hash = "3ce093f43d608cbf324884226f8f164300b114bb17abc4e2f76df6d72b4a9900"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
@@ -318,7 +318,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ce7a5f60ac4119791310ab58bd4a5b6a2e1dcc1da52a60cd4ee3140d000cefbc"
+hash = "b16318697a5b984b17f3d35eaf33c1feef90a079b06da0bdf898ec1272f22161"
 
 [[files]]
 file = "config/panorama.json"
@@ -331,6 +331,10 @@ hash = "9e2ec2bf3d8867d679141ab73b31053783afb7a7f376f9053e675970ad750927"
 [[files]]
 file = "config/shetiphiancore.toml"
 hash = "a85dcd484bd8efd18207a7f0700c2ce6d700eedaa1b4677067d65031498327fd"
+
+[[files]]
+file = "config/shrink-common.toml"
+hash = "5f7fd6c6358fccb5d194c49b46e70fa62f719a6c495500239a0cfd0b0b4c913e"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -350,7 +354,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "1465fae5038be5652a5635029389338f9bdd4f246818d7731bb86ac0ccc0733a"
+hash = "3daf33b240da19b6278491365bd94e3f996a39dd4b7791ac1fc8b06680691153"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -549,10 +553,6 @@ file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
-file = "kubejs/config/probejs.json"
-hash = "63c09222ad835b672e085194798b41badc8d717d23fc11032aa93c454973ae7e"
-
-[[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
 hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
 
@@ -685,6 +685,10 @@ file = "kubejs/server_scripts/ae2/extendedae2.js"
 hash = "a82cb84315a3d58ddd5ea0c867e4688d68d0a471b98cee2c166bc0391f66bf48"
 
 [[files]]
+file = "kubejs/server_scripts/ae2/infinity_booster.js"
+hash = "60e8cbfb5a5cb4bce5b333b705efe4f587be42a14c1a63d5b4bfaaf7ec47c4ca"
+
+[[files]]
 file = "kubejs/server_scripts/ae2/inscriber.js"
 hash = "d51ca4f9c6945839c10936b1f7a34a7982a9ee508c11bd6c4254d5b5d0392b2b"
 
@@ -751,6 +755,10 @@ hash = "c94471dbf1bc492a76eea08599e3a72bfe93a68e9823a172cfa8e58dabce2367"
 [[files]]
 file = "kubejs/server_scripts/gregification/laserio.js"
 hash = "1e64390ae7a8083881755b54faf5913e41f43bb2189c74fae8e032dbb0f2d898"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/shrink.js"
+hash = "0c6839a2fa751ef4c5a19c4b2b22b4f5878a97ccbdbbf6cab410e2aa45478e52"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/sophisticated_backpacks.js"
