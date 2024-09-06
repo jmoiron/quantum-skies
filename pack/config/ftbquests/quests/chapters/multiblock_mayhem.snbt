@@ -395,8 +395,8 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "3271B63A935AFC8A"
@@ -757,6 +757,20 @@
 			}]
 			x: 1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0CF9DA24FFA1613B"
+				"2EFA7EB110FECA5F"
+			]
+			id: "31EB748584DCAF0B"
+			tasks: [{
+				id: "633F6664310B4E52"
+				item: "gtceu:network_switch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
 		}
 	]
 	title: "Multiblock Mayhem"

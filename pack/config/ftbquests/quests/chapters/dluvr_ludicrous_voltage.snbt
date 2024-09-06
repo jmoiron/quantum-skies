@@ -73,8 +73,8 @@
 		{
 			id: "1C1D2CE671848942"
 			linked_quest: "32A179688162FC11"
-			size: 1.25d
-			x: 7.0d
+			size: 1.5d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -178,16 +178,6 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -0.5d
-		}
-		{
-			id: "5F847AABE2CEEA6E"
-			tasks: [{
-				id: "1AE58D7E81489331"
-				item: "gtnn:neutron_activator"
-				type: "item"
-			}]
-			x: 13.0d
 			y: -0.5d
 		}
 		{
@@ -568,12 +558,26 @@
 			y: -2.0d
 		}
 		{
+			description: [
+				"Most of the higher tier &2assembly line&r recipes require some data to inform the line what to do. "
+				""
+				"This data is typically taken from lower tier items with a &2scanner&r, stored onto a &edata storage&r item like a &9data stick&r, and then supplied to the line in a &9data hatch&r."
+				""
+				"The first tier storage and hatch items are craftable much earlier, but not useful til you have the &2assembly line&r and need the research."
+			]
 			id: "5E7E1D81530C4B8F"
-			tasks: [{
-				id: "2FEB7722F289B623"
-				item: "gtceu:data_stick"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FEB7722F289B623"
+					item: "gtceu:data_stick"
+					type: "item"
+				}
+				{
+					id: "36B5DE2A82821C85"
+					item: "gtceu:data_access_hatch"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
@@ -606,11 +610,38 @@
 		}
 		{
 			dependencies: ["188B86167DB88BA6"]
+			icon: {
+				Count: 1
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "gtceu:hsss"
+					}
+				}
+			}
 			id: "532D8418424EF6EE"
+			subtitle: "Power through fusion"
 			tasks: [{
 				id: "449F3EF80FFFBC1A"
 				title: "Plasma Fuels"
 				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			description: [
+				"&6Duranium&r is craftable with the &2Fusion Mk1&2 reactor."
+				""
+				"It makes excellent pipes, but it's main use is in producing &6Tritanium&r in &cLuV&r."
+			]
+			id: "7A0B302FE862BEA2"
+			subtitle: "Boldly go"
+			tasks: [{
+				id: "44B1592191E07B67"
+				item: "gtceu:duranium_ingot"
+				type: "item"
 			}]
 			x: 7.0d
 			y: -0.5d

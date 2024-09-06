@@ -10,32 +10,74 @@
 		{
 			id: "36DB1079284B47A0"
 			linked_quest: "47834925781BD13B"
-			x: 4.0d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			id: "6F4F9726F9509F2E"
 			linked_quest: "15F56ADF57237198"
-			x: 5.5d
-			y: -1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "70FF3F20AE8F65E7"
 			linked_quest: "5E6CF88304265435"
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			id: "06D2CAF292934C08"
 			linked_quest: "534428A2BB627A79"
 			x: 5.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			id: "2DBB39E9B7C8AD6A"
 			linked_quest: "232DE964F5161553"
-			x: 4.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "79620B7E43FBE1BB"
+			linked_quest: "7A0B302FE862BEA2"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "25A8129F6345707A"
+			linked_quest: "31EB748584DCAF0B"
+			x: 8.5d
 			y: 1.5d
+		}
+		{
+			id: "3F3DEEBCA3BF6D7C"
+			linked_quest: "099A22D915371988"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			id: "5D7284199A67CF36"
+			linked_quest: "4625D1C3851976D8"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "62B24BAF27F20F7E"
+			linked_quest: "68F17F12F1CA7F41"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "2381BD880720EBAE"
+			linked_quest: "3452BE188DC53866"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			id: "239418B4A8DA014C"
+			linked_quest: "5A9247C8D13D4C39"
+			x: 13.0d
+			y: -3.0d
 		}
 	]
 	quests: [
@@ -46,17 +88,19 @@
 				tag: { }
 			}
 			id: "7528A6EC106DD184"
-			subtitle: "The information age"
+			subtitle: "4th industrial revolution"
 			tasks: [{
 				id: "75C38F0716413185"
 				title: "lore"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 0.0d
+			title: "The information age"
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["43ACE5BC545C7C81"]
+			description: ["Because the multiblock &2assembler&r and &2circuit assembler&r only accept one energy input hatch, late game progression will continue to rely on making their single-block equivalents."]
 			id: "37A429FFFDB89C91"
 			tasks: [{
 				id: "095E0B73DBD9FA77"
@@ -100,7 +144,7 @@
 				}
 			]
 			x: 1.0d
-			y: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -113,8 +157,8 @@
 				item: "gtceu:zpm_assembler"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -133,8 +177,229 @@
 				}
 				type: "item"
 			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["534428A2BB627A79"]
+			id: "1DE910E2131B3F03"
+			tasks: [{
+				id: "56AF0154BDC0B3BE"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DE910E2131B3F03"]
+			id: "4B9A7A348BC75AA8"
+			tasks: [{
+				id: "2DBE42306DAC468D"
+				item: "gtceu:zpm_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B9A7A348BC75AA8"]
+			id: "4769B4AC8C7DEEA4"
+			tasks: [{
+				id: "7D399DD1005526FE"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["534428A2BB627A79"]
+			id: "36EC6F87828E1ADE"
+			tasks: [{
+				id: "349D06AF01084308"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["534428A2BB627A79"]
+			id: "59533CD2E9928F2C"
+			tasks: [{
+				id: "35C7405A5439E291"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["534428A2BB627A79"]
+			description: [
+				"You can use these &9ZPM Energy Hatches&r to upgrade your multiblocks to &cZPM&r, or use 2 to upgrade many of them to &3UV&r."
+				""
+				"Your most pressing need is the &2Fusion Reacator Mk2&r, which will require 16 of these."
+			]
+			id: "1FE202EBC9376339"
+			tasks: [{
+				id: "3B36AD723B926DC4"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15F56ADF57237198"
+				"1FE202EBC9376339"
+				"59533CD2E9928F2C"
+			]
+			id: "1C37068850C07CDD"
+			tasks: [{
+				id: "30EE0690FDD12426"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C37068850C07CDD"]
+			id: "44149325D34E6DF4"
+			tasks: [{
+				id: "66B31B67F23AB0E7"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C37068850C07CDD"]
+			description: ["&6Americium&r is a synthetic element that is used in high quantities in &3UV&r equipment, as well as the &2Fusion Reactor Mk3&r."]
+			id: "155BDB5D3874474A"
+			tasks: [{
+				id: "1E160226D66C307A"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C37068850C07CDD"
+				"7A0B302FE862BEA2"
+			]
+			id: "2EFA7EB110FECA5F"
+			tasks: [{
+				id: "4D300B3097527697"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1DE910E2131B3F03"
+				"2EFA7EB110FECA5F"
+			]
+			id: "23FD1CA94098F870"
+			tasks: [{
+				id: "3D9495EA65C5DF12"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["534428A2BB627A79"]
+			hide_dependency_lines: true
+			id: "0CF9DA24FFA1613B"
+			tasks: [{
+				id: "1D6917DBFADE131C"
+				item: "gtceu:zpm_sensor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "6CE73B8109970566"
+			tasks: [{
+				id: "084AE7BBC5EA1DB1"
+				item: "gtceu:meat_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6CE73B8109970566"
+				"1F5B3DB9CB597E47"
+			]
+			id: "171FBDDE7E21DA87"
+			tasks: [{
+				id: "353504A3C769E94F"
+				item: "gtceu:sterilized_growth_medium_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["465EECD3DC9C989F"]
+			id: "1F5B3DB9CB597E47"
+			tasks: [{
+				id: "2FB7AB7285ED109D"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23FD1CA94098F870"]
+			id: "465EECD3DC9C989F"
+			tasks: [{
+				id: "683B6812BC0E1AB8"
+				item: "gtceu:enriched_bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["171FBDDE7E21DA87"]
+			id: "22E98E11F8966F4B"
+			tasks: [{
+				id: "4CBA8BCB2CFFA98A"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22E98E11F8966F4B"
+				"4625D1C3851976D8"
+				"4B9A7A348BC75AA8"
+			]
+			id: "5529F689DE6411BA"
+			tasks: [{
+				id: "7C1A60B4DCC1FE69"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Stargate Technology"]

@@ -506,6 +506,7 @@
 			y: -3.375d
 		}
 		{
+			dependencies: ["171FBDDE7E21DA87"]
 			id: "099A22D915371988"
 			tasks: [{
 				id: "36B8D413EF1C0AF3"
@@ -517,7 +518,6 @@
 		}
 		{
 			dependencies: ["099A22D915371988"]
-			hide_dependent_lines: true
 			id: "4625D1C3851976D8"
 			tasks: [{
 				id: "616C09684C3F31B2"
@@ -528,7 +528,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4625D1C3851976D8"]
+			dependencies: [
+				"5529F689DE6411BA"
+				"4B9A7A348BC75AA8"
+			]
 			id: "68F17F12F1CA7F41"
 			tasks: [{
 				id: "77DF0EB9ED64F998"
