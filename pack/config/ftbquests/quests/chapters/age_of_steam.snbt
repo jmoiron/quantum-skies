@@ -420,7 +420,7 @@
 		{
 			dependencies: [
 				"5D0B8F0841154E4C"
-				"7015689EEBC11F93"
+				"25E414BFFACA8771"
 			]
 			description: [
 				"The tank from &2Ender Tanks&r is available, but it's a bit out of reach at the moment."
@@ -457,8 +457,8 @@
 				}
 			]
 			title: "Quantum Entanglement"
-			x: -1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1056,6 +1056,71 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25E414BFFACA8771"]
+			description: [
+				"If you want to get into some hard to reach places, try &2shrinking&r!"
+				""
+				"The shrinking device is configured to not require or consume power when used."
+			]
+			id: "3270B4C0943EC51A"
+			subtitle: "Smol"
+			tasks: [{
+				id: "31EE25E286F15DFC"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7015689EEBC11F93"]
+			description: [
+				"If you compress &9ender pearl dust&r, you can produce &9ender dust&r!"
+				""
+				"&9Ender dust&r is used in place of &9ender pearls&r in many early game recipes, as you won't be able to produce pearls until you have an &2implosion compressor&r, which.. isn't soon."
+			]
+			id: "25E414BFFACA8771"
+			rewards: [{
+				count: 4
+				id: "0344D1046DD6178D"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A4490C372128F10"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25E414BFFACA8771"]
+			description: [
+				"Now that you have &9ender dust&r, you can explore &2Tom's simple storage&r and make &2Travel Anchors&r."
+				""
+				"&2Tom's simple storage&r allows you to create a network of inventories and attach a crafting terminal to the network.  Combined with a &2collossal chest&r, it's a very good for early game item storage, until you lock &2Applied Energistics 2&r."
+				""
+				"&2Travel Anchors&r are blocks that act as waypoints, allowing you to instantly teleport around your base.  As you have to set up more automation, being able to get back to central storage instantly saves small bits of time that really add up."
+			]
+			icon: "toms_storage:ts.adv_wireless_terminal"
+			id: "1358CF41FBC69F5F"
+			min_width: 250
+			shape: "circle"
+			subtitle: "Body movin"
+			tasks: [{
+				id: "25AD733F5CCEA1CC"
+				title: "Analog Logistics"
+				type: "checkmark"
+			}]
+			x: -1.5d
 			y: -4.5d
 		}
 	]

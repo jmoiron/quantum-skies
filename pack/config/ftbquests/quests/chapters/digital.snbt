@@ -790,6 +790,51 @@
 			x: 5.5d
 			y: 0.5d
 		}
+		{
+			id: "6248DC126CFC752A"
+			tasks: [{
+				id: "504E3BC035BCD039"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6248DC126CFC752A"]
+			id: "2927073C7BBD976A"
+			tasks: [{
+				id: "38BA227A1F139A42"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2927073C7BBD976A"
+				"6370EBBCF9330E43"
+			]
+			id: "7328FC5D6340DA70"
+			tasks: [{
+				id: "2AFD28BD5589EBB6"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "012A5E57317555CD"
+			tasks: [{
+				id: "66BF273FEC32EF8E"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
 	]
 	title: "Digital"
 }

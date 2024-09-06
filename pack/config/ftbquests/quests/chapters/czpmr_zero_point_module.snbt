@@ -82,12 +82,22 @@
 	]
 	quests: [
 		{
+			description: [
+				"After exploring this star system, it appears that the answers you seek may lie in a neighboring system."
+				""
+				"The level of power and mechanical precision required to build infrastructure that can reach out to &enearby stars&r are starting to strain the mechanical capabilities of even the most advanced alloys you can in your &2Mk1 fusion reactor&r."
+				""
+				"As always, an &bupgrade&r is probably in order, but perhaps it is other forms of technology that will get you there?"
+			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "gtceu:data_module"
 				tag: { }
 			}
 			id: "7528A6EC106DD184"
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "4th industrial revolution"
 			tasks: [{
 				id: "75C38F0716413185"
@@ -99,7 +109,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["43ACE5BC545C7C81"]
+			dependencies: [
+				"43ACE5BC545C7C81"
+				"7528A6EC106DD184"
+			]
 			description: ["Because the multiblock &2assembler&r and &2circuit assembler&r only accept one energy input hatch, late game progression will continue to rely on making their single-block equivalents."]
 			id: "37A429FFFDB89C91"
 			tasks: [{
