@@ -142,8 +142,9 @@
 			]
 			id: "7015689EEBC11F93"
 			rewards: [{
+				count: 8
 				id: "210AC0A8A40B9D3B"
-				item: "ae2:ender_dust"
+				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
 			subtitle: "Nuggets don't craft?"

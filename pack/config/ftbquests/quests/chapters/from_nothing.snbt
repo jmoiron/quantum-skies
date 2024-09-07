@@ -180,7 +180,7 @@
 		{
 			dependencies: ["2536E4A084745D5A"]
 			description: [
-				"You can break down the cobblestone you have made by crafting together your stone pebbles into increasingly fine grained blocks using a &9hammer&r.  At this stage, you probably want a &9wooden hammer&r or one of the stone variants."
+				"You can break down the cobblestone you have made into increasingly fine grained blocks using a &9hammer&r.  At this stage, you probably want a &9wooden hammer&r or one of the stone variants."
 				""
 				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials.  Check JEI (by hovering over an item and pressing &3u&r) to see what they are."
 			]
@@ -227,7 +227,7 @@
 			]
 			title: "Dust to Dust"
 			x: 4.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["583F3A986CA3A78A"]
@@ -274,7 +274,7 @@
 				}
 			]
 			title: "Fruity Pebbles"
-			x: 2.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -282,32 +282,32 @@
 			description: [
 				"The &mcobble&r cornerstone of every minecraft world.  Slightly more difficult to come by up here in the sky, for now."
 				""
-				"You will want to build at least one vanilla &9Furnace&r early, because we will need one to make lava for a vanilla cobblestone generator so you can stop sifting dirt for all of your stone."
+				"You will want to build at least one vanilla &2furnace&r early, as you'll need to cook porcelain clay in order to procure lava for a vanilla cobblestone generator."
+				""
+				"Unless you enjoy sieving dirt?"
 			]
 			icon: "minecraft:cobblestone"
 			id: "2536E4A084745D5A"
+			rewards: [{
+				id: "6B8231803945ED43"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			subtitle: "Absolute Cobblers"
-			tasks: [
-				{
-					count: 8L
-					id: "19E8B2A3BADED05F"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-				{
-					id: "6D4C4DD6FC3C4A6C"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19E8B2A3BADED05F"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			title: "Cobblestone"
 			x: 4.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"1B5F2C95282B1E14"
 				"68A13B75D894A853"
+				"505F907674D0821E"
 			]
 			description: [
 				"&9Buckets&r are a little more complicated than you remember.  You'll need to make a &aHammer&r in order to make the &9Iron Plates&r you need to craft one."
@@ -317,6 +317,12 @@
 				"You'll be needing it."
 			]
 			id: "1596BF8DD48411AF"
+			rewards: [{
+				count: 16
+				id: "646C68CB6502E67B"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
 			subtitle: "Perfectly Balanced"
 			tasks: [
 				{
@@ -365,10 +371,10 @@
 			]
 			title: "Starting Ores"
 			x: 4.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["505F907674D0821E"]
+			dependencies: ["12289047D9E54B1E"]
 			description: [
 				"Anachronistically, we will work &6Iron&r before we get to &6Bronze&r."
 				""
@@ -379,20 +385,12 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "338399548BB160E3"
 			subtitle: "Before Bronze?"
-			tasks: [
-				{
-					count: 6L
-					id: "1B0E7772B0050B67"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "42D9091200EE0429"
-					item: "gtceu:wrought_iron_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 6L
+				id: "42D9091200EE0429"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
 			title: "Iron"
 			x: 5.5d
 			y: 0.0d
@@ -499,6 +497,12 @@
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "5D0B8F0841154E4C"
+			rewards: [{
+				count: 16
+				id: "3BEC50228AF563B5"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Bronze Age"
@@ -547,6 +551,11 @@
 			]
 			icon: "minecraft:lava_bucket"
 			id: "69ADA2F357C4A3B4"
+			rewards: [{
+				id: "65A7FA9707D0D539"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
 			subtitle: "Liquid Hot Magma"
 			tasks: [
 				{
@@ -565,13 +574,18 @@
 					item: "minecraft:campfire"
 					type: "item"
 				}
+				{
+					id: "375978C2DDDB7F65"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
 			]
 			title: "Lava Generation"
 			x: 5.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["2536E4A084745D5A"]
+			dependencies: ["505F907674D0821E"]
 			description: [
 				"The &6Charcoal&r furnace recipe has been moved into the &evanilla&r &9Blast Furnace&r."
 				""
@@ -601,7 +615,7 @@
 			]
 			title: "Charcoal"
 			x: 4.0d
-			y: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1596BF8DD48411AF"]
@@ -868,7 +882,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["338399548BB160E3"]
+			dependencies: ["68A13B75D894A853"]
 			description: [
 				"The &9Crushed Redstone Ore&r you get out of the sieve needs to be processed into &6Redstone&r before it can be used in recipes."
 				""
@@ -1174,7 +1188,7 @@
 				type: "item"
 			}]
 			title: "Dirt Without Mulch"
-			x: 1.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
