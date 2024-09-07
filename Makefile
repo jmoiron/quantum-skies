@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.2.1
+VERSION := 0.3.1
 #WINUSER := jmoir
 WINUSER := jlmoi
 PACKNAME := Quantum-Skies
@@ -40,6 +40,9 @@ server: refresh preBuild
 	-cp -r pack/config server-files/
 	-cp -r pack/kubejs server-files/
 	-cp -r pack/icon.png server-files/
+	cd server-files && java -jar forge*.jar --installServer
+	rm server-files/forge*.jar*
+	rm server-files/packwiz.json
 
 cf: refresh preBuild
 	-./setversion.py
