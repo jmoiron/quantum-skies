@@ -46,7 +46,7 @@ hash = "39069aa41ea5a8b01b5a34a6739aed5050691236a3448ab2829b05c50967975c"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
-hash = "0dc575cc0e70e5eccace8dd35075989a1da897785fb6d60dfaec3eb9fb7681ef"
+hash = "3d9baac953ffcd40bd402ee09343f2dd5eaaa6a0947828193a412c1bc2f0fc26"
 
 [[files]]
 file = "config/effortlessbuilding-common.toml"
@@ -54,7 +54,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "d038e1a739e0f21f6bc0bc399afa95ebf7e9d9397ef0feae0aadd49269b6392f"
+hash = "f2ef5c2ff12718d4db447b25a71abb6967ccb49281026e35a00b2574cc3dc12a"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -66,7 +66,7 @@ hash = "b78e1a745d5080dc2e50dd192982aeb59f32b1645626b77ac38a2b725ea52122"
 
 [[files]]
 file = "config/emi.css"
-hash = "0fbd75007f2605c217737f2834898ba0d7436a0ca0367a846465f05b9c1a881e"
+hash = "1471a2c87352cce4c38102cee86b98742296a95e6424b082c0f4f1560385216c"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -154,7 +154,7 @@ hash = "5b42fa1fde8ce9bb4ca30134e6f6b6d68bb5e1699a29df39316b96f6ac08cf70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "c74476719ea925dbfe388446c4ebf1948e765693200f545fb5a73efe0a3ed04e"
+hash = "1b8928b6710dffc79111f692caf49170e0c2e97dc68cf415c6f4778b0ec6b750"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -178,11 +178,11 @@ hash = "139b562262322aff42e15d3ab3e87e1e5d35393003e450e22efe11e96c97a90a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "3ff032d02a25ccc50e898e32e1f8f7e76abe3b31263f327520879ce41fa66918"
+hash = "ac1b00cc9b9ad27807abe10725d24cb1df77713cf29ad4656290a5a38783a6bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "0ca59a7fe404624227f8647b94faa406f46f3020fa6d6bba4de8d95f8a591edb"
+hash = "88b870c88298b159157c945d618f97751abd9518d2e646013dd90bfdd3a3995b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -318,7 +318,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b16318697a5b984b17f3d35eaf33c1feef90a079b06da0bdf898ec1272f22161"
+hash = "f1fc7fa5f83e0512f001da35f0d0700b6141d81f066cfaf023c6c7d7ebc813d0"
 
 [[files]]
 file = "config/panorama.json"
@@ -331,10 +331,6 @@ hash = "9e2ec2bf3d8867d679141ab73b31053783afb7a7f376f9053e675970ad750927"
 [[files]]
 file = "config/shetiphiancore.toml"
 hash = "a85dcd484bd8efd18207a7f0700c2ce6d700eedaa1b4677067d65031498327fd"
-
-[[files]]
-file = "config/shrink-common.toml"
-hash = "5f7fd6c6358fccb5d194c49b46e70fa62f719a6c495500239a0cfd0b0b4c913e"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -354,7 +350,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "3daf33b240da19b6278491365bd94e3f996a39dd4b7791ac1fc8b06680691153"
+hash = "e16a7d2f5851e3b11ec2abfc02759c9698b8be4a6946f5c3266bd9c846951d14"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -403,10 +399,6 @@ hash = "835c5e52662f162ad1fba6307d815cc36eece016bedda08e4152c5a9a15893dc"
 [[files]]
 file = "config/skyblockbuilder/world.json5"
 hash = "583e090ad95bb7ca5e949a852bdbffcc542d4e88442da92632ec976fa804c15c"
-
-[[files]]
-file = "config/skyguis.json5"
-hash = "a8f25345178d2f733faa3e548bdc54981a66fd2b64749b6a4bdfcc293fdeba32"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -525,6 +517,14 @@ file = "kubejs/assets/kubejs/textures/item/aluminium_mesh.png"
 hash = "3aa231929fd56b2d6f6b98f2f931da53c408f967cba82af5f0d979da11f9f615"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/jupiter.png"
+hash = "36e24011f14d1fa1bb79ad96090bc912fe0142cf0069d02326a4ca7d6b04074d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/neptune.png"
+hash = "67cb47ea4f28de352e02871d8696fa69164d8e5da9917ed5c9ff7622d097fae1"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/qs_icon.png"
 hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
 
@@ -533,8 +533,16 @@ file = "kubejs/assets/kubejs/textures/item/qs_icon_cropped.png"
 hash = "fd8035eeb86c87757faf2d2f83a0f746c428d98a8b411624fa4e18d3b2233e63"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/saturn.png"
+hash = "40f8f06ba81991d1825c74478a3a44f3887d5deedb62ed828d2b49fa0631e1f7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_mesh.png"
 hash = "b87b428fe12ada7d455de6aba853cfb67c239d5fa2014a8c7106b5721d932a6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/uranus.png"
+hash = "671f11e727d9ae4cded460b458a7a1b458c3575f88c5d2fe466f41798dce820d"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -551,6 +559,10 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
+
+[[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "a56379fe778c76d3685c381d7fb4b1df01c058748eae8213f06b63ec79bf6ea9"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
@@ -833,6 +845,10 @@ file = "kubejs/startup_scripts/icons.js"
 hash = "a30edea8640df6dff0df76d801383e8fde752fc65c3f3b315774ce08e1be15a9"
 
 [[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+hash = "a9e6912b8515be242dd76c6c9a536a8d7c73f6b8b949787f538436ebeafbb7ee"
+
+[[files]]
 file = "kubejs/startup_scripts/machines.js"
 hash = "b6b62a6844fceb25c6a6875daf8e58e7c68a6e728e894345defddd623ef360d5"
 
@@ -933,7 +949,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-station-jei-edition.pw.toml"
-hash = "2fbc272ee383550898c9cb4f5785ff1530ba56f4322191f02de063d112c38912"
+hash = "1c2aadfdcfd5bdf18ef7dd8027cdfa6c09c413b47494a525d92355532694464b"
 metafile = true
 
 [[files]]

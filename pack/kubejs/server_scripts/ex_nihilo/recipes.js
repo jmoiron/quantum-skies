@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
   forge_hammer("cobble_to_gravel", "minecraft:cobblestone", "minecraft:gravel")
 
   let breakerStones = ["deepslate", "blackstone", "andesite", "diorite", "basalt", "calcite",
-    "dripstone_block", "tuff"]
+    "dripstone_block", "tuff", "cobbled_deepslate"]
 
   breakerStones.forEach((st) => {
     event.remove({type: "gtceu:rock_breaker", output: `minecraft:${st}`})
