@@ -1317,6 +1317,11 @@ hash = "5a7cbd5bc7dd5ac36cdb21f225e746d67bfb76523ca570afe78a5e421839040a"
 metafile = true
 
 [[files]]
+file = "mods/tool-belt.pw.toml"
+hash = "95d60fd0a890b6b1087de0bc89079e1dd1276b61a9b1241857f3ea414a3592d2"
+metafile = true
+
+[[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "7dea79ae9793a1a5ff3bb97f17ab5f835d07fd1053ade9114feced05bccb0229"
 metafile = true
