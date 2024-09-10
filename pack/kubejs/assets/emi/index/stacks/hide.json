@@ -1,0 +1,9 @@
+{
+    "filters": [
+        "/ae2:facade/",
+        "/exnihilo.*pieces/",
+        "/exnihilo.*ingot/",
+        "/exnihilo.*nugget/",
+        "/exnihilo.*:raw_.*/"
+    ]
+}

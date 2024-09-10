@@ -1,3 +1,14 @@
+RecipeViewerEvents.removeEntriesCompletely('item', event => {
+    event.remove("ae2:facade");
+    const exNiIngotTypes = ["lead", "nickel", "silver", "tin", "aluminum", "platinum", "uranium", "zinc"];
+
+    event.remove('#exnihilosequentia:pieces');
+    exNiIngotTypes.forEach((mat) => {
+        event.remove(`exnihilosequentia:${mat}_ingot`);
+        event.remove(`exnihilosequentia:${mat}_nugget`);
+        event.remove(`exnihilosequentia:raw_${mat}`);
+    });
+});
 
 JEIEvents.hideItems(event => {
   // hide exnihilo material variants
@@ -20,6 +31,8 @@ JEIEvents.hideItems(event => {
 
   event.hide("qs_icon")
   event.hide("qs_icon_cropped")
+
+  event.hide("ae2:facade")
 
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });
