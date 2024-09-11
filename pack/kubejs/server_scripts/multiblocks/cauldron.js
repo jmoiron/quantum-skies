@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         ["exnihilosequentia:mycelium_spores", "minecraft:brown_mushroom_block"],
         ["minecraft:brown_mushroom_block", "minecraft:red_mushroom_block"],
         ["minecraft:coarse_dirt", "minecraft:soul_soil"],
-        ["forge:mushrooms", "minecraft:slime_block"],
+        ["#forge:mushrooms", "minecraft:slime_block"],
         ["exnihilosequentia:crushed_dripstone", "minecraft:pointed_dripstone"],
         ["minecraft:sand", "minecraft:soul_sand"]
     ]
