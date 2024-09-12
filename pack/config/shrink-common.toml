@@ -5,7 +5,7 @@ setPowerUsage = 5000
 #Set to false to disable mobs being put in bottles
 enableMobBottles = true
 #Set to false to disable power requirements for personal shrinking device
-enablePowerRequirements = true
+enablePowerRequirements = false
 #Set the max size a player can grow too
 #Range: 0.0 ~ 100.0
 maxSize = 10.0
