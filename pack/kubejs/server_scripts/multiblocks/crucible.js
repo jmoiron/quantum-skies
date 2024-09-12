@@ -27,42 +27,42 @@ ServerEvents.recipes(event => {
     )
 
     event.recipes.gtceu.crucible("lava_from_stone")
-        .itemInputs("#forge:cobblestone")
-        .outputFluids("minecraft:lava 250")
+        .itemInputs("4x #forge:cobblestone")
+        .outputFluids("minecraft:lava 1000")
         .circuit(1)
-        .duration(200);
-    
+        .duration(400);
+
     event.recipes.gtceu.crucible("obsidian_from_stone")
         .itemInputs("4x #forge:cobblestone")
         .circuit(2)
         .itemOutputs("minecraft:obsidian")
-        .duration(800);
-    
+        .duration(400);
+
     event.recipes.gtceu.crucible("lava_from_stone_powered")
-        .itemInputs("#forge:cobblestone")
-        .outputFluids("minecraft:lava 250")
+        .itemInputs("4x #forge:cobblestone")
+        .outputFluids("minecraft:lava 1000")
         .circuit(3)
-        .duration(100)
-        .EUt(7)
-    
+        .duration(200)
+        .EUt(10)
+
     event.recipes.gtceu.crucible("obsidian_from_stone_powered")
         .itemInputs("4x #forge:cobblestone")
         .circuit(4)
         .itemOutputs("minecraft:obsidian")
-        .duration(400)
-        .EUt(7)
+        .duration(200)
+        .EUt(10)
 
     event.recipes.gtceu.crucible("endstone")
         .itemInputs("4x #forge:cobblestone", "minecraft:glowstone_dust")
         .circuit(5)
         .itemOutputs("4x minecraft:end_stone")
-        .duration(100)
-        .EUt(7)
+        .duration(200)
+        .EUt(10)
 
     event.recipes.gtceu.crucible("netherrack")
         .itemInputs("4x #forge:cobblestone", "minecraft:redstone")
         .circuit(6)
         .itemOutputs("4x minecraft:netherrack")
-        .duration(100)
-        .EUt(7)
+        .duration(200)
+        .EUt(10)
 })

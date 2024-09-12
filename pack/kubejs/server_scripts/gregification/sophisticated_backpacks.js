@@ -1,8 +1,7 @@
-
 ServerEvents.recipes(event => {
 
     event.remove({output: "sophisticatedbackpacks:stack_upgrade_starter_tier"});
-    
+
     event.shaped("sophisticatedbackpacks:stack_upgrade_starter_tier",
         ['PCP', 'PBP', 'PSP'],
         {
@@ -13,11 +12,40 @@ ServerEvents.recipes(event => {
         }
     )
 
-
     event.remove({output: "sophisticatedbackpacks:backpack"});
     event.shaped("sophisticatedbackpacks:backpack",
         ["SLS", "SCS", "LLL"],
         {S: "minecraft:string", L: "minecraft:leather", C: "gtceu:wood_crate"},
+    );
+
+    event.replaceInput({mod: "sophisticatedbackpacks"},
+        "minecraft:ender_pearl",
+        "ae2:ender_dust"
+    );
+
+    ["sophisticatedcore", "sophisticatedbackpacks"].forEach(mod => {
+        [
+            ["minecraft:ender_pearl", "ae2:ender_dust"],
+            ["minecraft:iron_ingot", "gtceu:iron_plate"],
+            ["minecraft:gold_ingot", "gtceu:gold_plate"],
+            ["minecraft:redstone", "gtceu:red_alloy_ingot"],
+        ].forEach(([src, dst]) => {
+            event.replaceInput({mod: mod}, src, dst);
+        });
+
+    });
+
+    event.remove({output: "sophisticatedbackpacks:magnet_upgrade"})
+    event.shaped("sophisticatedbackpacks:magnet_upgrade",
+        ["DPD", "PUP", "RML"],
+        {
+            D: "ae2:ender_dust",
+            P: "gtceu:iron_plate",
+            U: "sophisticatedbackpacks:pickup_upgrade",
+            R: "gtceu:red_alloy_ingot",
+            L: "gtceu:lapis_plate",
+            M: "gtceu:lv_item_magnet"
+        }
     );
 
     // gregify backpack tier recipes
@@ -54,7 +82,7 @@ ServerEvents.recipes(event => {
             'S': "gtceu:mv_super_chest",
         }
     );
-    
+
     event.shaped("sophisticatedbackpacks:stack_upgrade_tier_2",
         ['PCP', 'PBP', 'PSP'],
         {
@@ -64,7 +92,7 @@ ServerEvents.recipes(event => {
             'S': "gtceu:hv_super_chest",
         }
     )
-    
+
     event.shaped("sophisticatedbackpacks:stack_upgrade_tier_3",
         ['PCP', 'PBP', 'PSP'],
         {

@@ -1,12 +1,13 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.3.2
+VERSION := 0.3.3
 #WINUSER := jmoir
 WINUSER := jlmoi
 PACKNAME := Quantum-Skies
 PACKURL := https://github.com/jmoiron/quantum-skies
-INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/Quantum Skies/minecraft/
+#INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/Quantum Skies/minecraft/
 #INSTALLPATH := /home/jmoiron/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
+INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 
 build: refresh preBuild
 	-rm -rf build/config/*

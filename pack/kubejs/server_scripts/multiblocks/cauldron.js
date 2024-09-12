@@ -1,6 +1,5 @@
 
 ServerEvents.recipes(event => {
-
     // controller block recipe for the large crucible
     // FIXME: should not eat the bucket
     event.shaped(Item.of("gtceu:large_cauldron"),
@@ -13,6 +12,11 @@ ServerEvents.recipes(event => {
             L: "exnihilosequentia:witch_water_bucket",
             G: "minecraft:glass",
         }
+    );
+
+    event.replaceInput({mod: "sophisticatedbackpacks"},
+        "minecraft:ender_pearl",
+        "ae2:ender_dust"
     );
 
     // We have to make this worthwhile compared to using buckets
@@ -28,23 +32,23 @@ ServerEvents.recipes(event => {
     // In terms of balance w/ the drilling rig, it uses 1/2 the power
     // and it produces oil at ~200L/sec and heavy oil significantly
     // faster.  It also eats sand, which requires a 3-machine chain
-    // to produce.
+    // to produce, and requires a centrifuge step and other item logistics.
     //
     // It's probably slightly better than a drilling rig + pipeline,
     // but this has to compare to parallelizing normal exni barrels.
     // Welcome to skyblock.
 
-    // all of these recipes will use 250mb of water, regardless of
+    // all of these recipes will use 200mb of water, regardless of
     // whether they require witchwater or water (there are no overlaps)
     let precipitateRecipes = [
-        ["exnihilosequentia:dust", "minecraft:clay"],
+        ["exnihilosequentia:dust", "4x minecraft:clay"],
+        ["minecraft:sand", "4x minecraft:soul_sand"],
         ["minecraft:dirt", "minecraft:mud"],
         ["exnihilosequentia:mycelium_spores", "minecraft:brown_mushroom_block"],
         ["minecraft:brown_mushroom_block", "minecraft:red_mushroom_block"],
         ["minecraft:coarse_dirt", "minecraft:soul_soil"],
         ["#forge:mushrooms", "minecraft:slime_block"],
-        ["exnihilosequentia:crushed_dripstone", "minecraft:pointed_dripstone"],
-        ["minecraft:sand", "minecraft:soul_sand"]
+        ["exnihilosequentia:crushed_dripstone", "minecraft:pointed_dripstone"]
     ]
 
     precipitateRecipes.forEach(([input, output]) => {
