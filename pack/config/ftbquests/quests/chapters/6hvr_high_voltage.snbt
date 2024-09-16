@@ -47,9 +47,11 @@
 			description: [
 				"New &bhulls&r for new, more powerful machines."
 				""
-				"Now that the voltage is getting &bhigh&r, machine hulls require some insulation in the form of &9polyethylene&r."
+				"Now that the voltage is getting &bhigh&r, machine hulls require some insulation in the form of &6polyethylene&r."
 				""
-				"You can save on materials by using the &2assembler&r recipe."
+				"You can save on some paltes by using the &2assembler&r recipe. Previous tier hulls are also craftable this way."
+				""
+				"If you have not set up a dedicated processing chain for &6polyethylene&r, now is a good time to do so."
 			]
 			id: "778CAC851BC58AB8"
 			rewards: [{
@@ -102,6 +104,11 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: [
+				"Although &2Assemblers&r are going to start feeling like less of an accomplishment as you increase in the tiers, you are going to continue to need to make them in order to build new &cEBF coils&r and other assorted tier requirements."
+				""
+				"The &6HV&r &2assembler&r is still a good upgrade, unlocking several important recipes, including &9SMD&r components, which will increase your circuit yields."
+			]
 			id: "483F43EF65C69696"
 			tasks: [{
 				id: "0293C19C573BBCC8"
@@ -170,15 +177,15 @@
 		{
 			dependencies: ["239B5AF886B64DEB"]
 			description: [
-				"The &bcleanroom&r is a multiblock room that will house many of the machines that create circuits and their components."
+				"The &2cleanroom&r is a multiblock room that can maintain a dust-free setting.  Starting at later &cmicroprocessors&r, your machines that create circuits and their components will need to be run inside the &2cleanroom&r environment."
 				""
-				"The &bcleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block has minimum and maximum dimensions."
+				"The &2cleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block has minimum and maximum dimensions."
 				""
-				"The edges and floor of the &bcleanroom&r must be &6plascrete&6. The walls can be &6plascrete&r, &9cleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
+				"The edges and floor of the &bcleanroom&r must be &6plascrete&r. The walls can be &6plascrete&r, &9cleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
 				""
-				"You are not able to run anything that produces &dpollution&r inside the cleanroom. That includes most generators, so you will have to pass power in from the outside through either a machine hull or a diode."
+				"You are not able to run anything that produces &dpollution&r inside the cleanroom. That includes most generators, but you can pass power in from the outside through a machine hull or a diode."
 				""
-				"The materials for this quest are for the default 5x5x5 &bcleanroom&r in the it's multiblock preview."
+				"The materials for this quest can build the default 5x5x5 &bcleanroom&r in the it's multiblock preview, but building a large one is suggested if you have the &6polyethylene&r."
 			]
 			id: "450C8C0AF82CB7FD"
 			min_width: 275
@@ -215,6 +222,11 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: [
+				"The &6HV&r &2chem reactor&r is required for processing &6rutile&r into &dtitanium&r and for producing &6Polytetrafluoroethylene&r (PTFE), also known as teflon."
+				""
+				"It's also got enough power to synthesize &6blaze powder&r, which you need for &6ender eyes&r."
+			]
 			id: "052D83873F917583"
 			tasks: [{
 				id: "1B0475D8A301DF5B"
@@ -252,7 +264,15 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["5207A7F74C1204FC"]
+			dependencies: [
+				"5207A7F74C1204FC"
+				"7BF3FDE52BEFC544"
+			]
+			description: [
+				"In order to make &6HV&r energy hatches, you will &6LPIC&r wafers.  These are made with &6orange glass lenses&r that can be dyed in your new &2chemical bath&r."
+				""
+				"In order to &dcut&r those wafers, you'll need the &6HV&r &2cutter&r."
+			]
 			id: "7B99E9A39EAA5490"
 			tasks: [
 				{
@@ -263,6 +283,11 @@
 				{
 					id: "4EAEB82D68C2E981"
 					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "0C59F2737190C564"
+					item: "gtceu:lpic_chip"
 					type: "item"
 				}
 			]
@@ -313,6 +338,15 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"There are several potential sources for &6fluorine&r."
+				""
+				"Normally, &bblue&r and &eyellow&r topaz or &6mica&r are good sources, but none of that seems to be available."
+				""
+				"Instead, you can &2electrolyze&r &dlepidolite&r or &9biotite&r dust.  &dLepidolite&r has probably been building up, pointlessly, but now is its chance to shine!"
+				""
+				"&9Biotite&r is available by centrifuging deepslate dust. In previous versions, you'd use &6black granite&r."
+			]
 			id: "40922DB70061C9AA"
 			tasks: [{
 				id: "2D2392533AE93E94"
@@ -326,6 +360,13 @@
 			dependencies: [
 				"40922DB70061C9AA"
 				"052D83873F917583"
+			]
+			description: [
+				"&6Polytetrafluoroethylene&r (PTFE) is more widely known as teflon."
+				""
+				"It is a very hard and chemically inert substance that serves as a good lining for things like cooking pans and &2large chemical reactors&r (LCR)."
+				""
+				"&6PTFE&r will eventually overtake &6PE&r as a general material for assembling machine hulls, batteries, and even some cables. Once you've made enough to make some &2LCRs&r, you should prioritize setting up a dedicated chain to produce PTFE in large quantities."
 			]
 			id: "2C1CDE93A0BDB91C"
 			subtitle: "Teflon"
@@ -354,11 +395,11 @@
 		{
 			dependencies: ["450C8C0AF82CB7FD"]
 			description: [
-				"Your first &5EV&r circuits, and the first that requiring the &bcleanroom&r."
+				"Your first &5EV&r circuits, and the first that requiring the &2cleanroom&r."
 				""
 				"These circuits unlock both the &6HV&r &bcircuit assembler&r and progression into &5EV&r. They also form the basis for the first &9mainframes&r, a 4th tier of the current circuit line."
 				""
-				"This pattern of having 4 tiers per line will continue from here on out. Refresh your memory by checking the &2Circuits&r tab for a visual representation of the progression."
+				"This pattern of having 4 tiers of circuit per circuit board type will continue through the rest of the circuit types. Refresh your memory by checking the &aCircuits&r tab for a visual representation of the progression."
 			]
 			id: "4710DCD2C83D3D38"
 			shape: "gear"
@@ -498,7 +539,7 @@
 		{
 			dependencies: ["483F43EF65C69696"]
 			description: [
-				"These &9SMD Components&r are high-yield replacements for the low tech &etransistors&r, &ecapacitors&r, etc. that you have been using to produce circuits."
+				"&9SMD Components&r are high-yield replacements for the low tech &etransistors&r, &ecapacitors&r, etc. that you have been using to produce circuits."
 				""
 				"The &9SMD Diode&r requires &6Platinum&r, which is a product of a long processing chain covered in the &5EV&r chapter. They are not necessary in HV except for a few components."
 			]
@@ -739,6 +780,7 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["54632D8B0DABF798"]
 			id: "7BF3FDE52BEFC544"
 			tasks: [{
 				id: "0C2FF7EFD46E09F4"
@@ -814,6 +856,32 @@
 			title: "Ender Storage"
 			x: 5.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["0CBB99D3A3A62D8F"]
+			id: "7B660D975D9D98C2"
+			tasks: [{
+				id: "18D06A1D5E5FAC4E"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_electric_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "54632D8B0DABF798"
+			subtitle: "Or is it Magnum?"
+			tasks: [{
+				id: "48137FA4781F101B"
+				item: "gtceu:blue_steel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.0d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]

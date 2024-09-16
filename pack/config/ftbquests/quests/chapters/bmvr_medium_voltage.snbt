@@ -385,15 +385,18 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"Sifting &9soul sand&r is a good source of &doilsands&r and &dcrushed oilsands ore&r, which can produce &6oil&r and &6heavy oil&r, respectively."
+				"If you build a &2Large Cauldron&r, you will get a 4x increase in yields for &9clay&r and &9soul sand&r. As with the &2Large Crucible&r, the cauldron at the center of the &2large cauldron&r multiblock must be filled with water."
 				""
-				"You will get more crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't that good as a power source."
+				"Sifting &9soul sand&r is a good source of &doilsands&r and &dcrushed oilsands ore&r, which are processed into &6oil&r and &6heavy oil&r, respectively."
 				""
-				"You will get far less &doilsands&r, but it's simple to turn that into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. It's a good strategy to start there and then build out larger oil processing once you are established."
+				"You will get more crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't very good as a power source."
+				""
+				"You will get less &doilsands&r, but it's simple to turn into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. It's a good strategy to start there and then build out larger oil processing once you are established."
 				""
 				"Be aware, &6heavy oil&r processing is &bMV&r but &6oil&r processing is only &7LV&r."
 			]
 			id: "7ABFC37B56E8847A"
+			min_width: 250
 			subtitle: "Don't Bother Centrifuging It"
 			tasks: [
 				{
@@ -1093,7 +1096,7 @@
 				"6996883D959ADED7"
 				"310C5F4765AAB929"
 			]
-			description: ["Although &9advanced integrated circuits&r are &6HV&r tier, &cmicroprocessors&r are the first truly affordable &6HV&r circuits, and usually represent the final ascension into that tier."]
+			description: ["Although &9advanced integrated circuits&r are &6HV&r tier, &cmicroprocessors&r are the first truly affordable &6HV&r circuits, and will allow you to scale out your production of &6HV&r machines."]
 			id: "1D131CBD6F52741F"
 			shape: "gear"
 			size: 1.5d

@@ -350,7 +350,7 @@
 				""
 				"Any &7LV&r buffer and any battery chemistry will do for this quest.  "
 				""
-				"While &6Lithium&r is objectively the best, it's difficult to acquire before &bMV&r. &6Sodium&r is readily available from &6salt&r."
+				"While &6Lithium&r is objectively the best, it's difficult to acquire before &bMV&r. &6Sodium&r is readily available from &6salt&r with an &7LV&r &2electrolyzer&r."
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "4935A04AEA0F26AA"
@@ -1029,7 +1029,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 6.5d
 		}
 		{
@@ -1056,7 +1056,7 @@
 				type: "item"
 			}]
 			title: "Cheap Glass"
-			x: 0.5d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -1121,6 +1121,29 @@
 			title: "Super Chests"
 			x: 6.5d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"06E4483C49687A3B"
+				"40587175AF3E64BC"
+			]
+			description: [
+				"If you'd like to be able to &efly&r, you could do worse than build an &9Electric Jetpack&r. Although there is not much exploring to be done, flying makes building tall multiblocks a lot easier!"
+				""
+				"Hit the &ahover keybind&r as you are accelerating to activate/deactivate hover mode."
+			]
+			id: "0BE3D5D9354D631A"
+			tasks: [{
+				id: "1BFF5608F6C0BF61"
+				item: {
+					Count: 1
+					id: "gtceu:electric_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
