@@ -70,6 +70,7 @@
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
+			description: ["You know the drill by now. These are used for crafting &6HV&r machines and for item and fluid logistics."]
 			id: "4EEC4260A8456C10"
 			tasks: [
 				{
@@ -147,6 +148,11 @@
 		}
 		{
 			dependencies: ["4CDAB321466B88F6"]
+			description: [
+				"&aEnergium Crystals&r represent a new line of batteries that store large amounts of energy in crystaline structures."
+				""
+				"These can store much more energy than &cchemical batteries&r, but have more of a complex process."
+			]
 			id: "0CBB99D3A3A62D8F"
 			tasks: [
 				{
@@ -348,11 +354,27 @@
 				"&9Biotite&r is available by centrifuging deepslate dust. In previous versions, you'd use &6black granite&r."
 			]
 			id: "40922DB70061C9AA"
-			tasks: [{
-				id: "2D2392533AE93E94"
-				item: "gtceu:fluorine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D2392533AE93E94"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+				{
+					id: "7A65E1D5134C574F"
+					item: {
+						Count: 1
+						id: "gtceu:fluid_cell"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "gtceu:fluorine"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -4.5d
 		}
@@ -381,6 +403,13 @@
 		}
 		{
 			dependencies: ["2C1CDE93A0BDB91C"]
+			description: [
+				"The &2Large Chemical Reactor&r (LCR) is a multiblock &2chem reactor&r, but it's also &eso much more&r."
+				""
+				"Many chemicals have multi-step &2chem reactor&r chains that can be done in one step in the LCR."
+				""
+				"Additionally, the LCR always does a &bperfect overclock&r, which means that an LCR will usually use less power than a single-block equivalent."
+			]
 			id: "699430D161A19BBC"
 			shape: "gear"
 			size: 1.5d
@@ -428,6 +457,11 @@
 		}
 		{
 			dependencies: ["4710DCD2C83D3D38"]
+			description: [
+				"A &2Vacuum Freezer&r is capable of cooling down the hottest of &chot ingots&r."
+				""
+				"It works much faster than your &2EBF&r, so you can get by with just one... for now."
+			]
 			id: "454242F0DA2FFBD0"
 			size: 1.25d
 			tasks: [{
@@ -804,6 +838,11 @@
 		}
 		{
 			dependencies: ["37249933D652078D"]
+			description: [
+				"The &2Implosion Compressor&r uses explosives to compress dusts into gems."
+				""
+				"Most of these explosives are going to require &6toluene&r;  you'll want to figure out a good source for this."
+			]
 			id: "22BE1992CBCAA2D6"
 			size: 1.25d
 			tasks: [{
