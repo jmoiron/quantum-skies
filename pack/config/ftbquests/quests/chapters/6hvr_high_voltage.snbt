@@ -854,8 +854,8 @@
 				}
 			]
 			title: "Ender Storage"
-			x: 5.5d
-			y: -6.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0CBB99D3A3A62D8F"]
@@ -882,6 +882,23 @@
 			}]
 			x: 5.5d
 			y: -12.0d
+		}
+		{
+			dependencies: ["483F43EF65C69696"]
+			description: [
+				"You've been getting by with &2primitive pumps&r, which have a maximum output of 50mb/t, for long enough."
+				""
+				"An &9infinite water cover&r can be placed on any GregTech block/tank, and produces 800mb/t. Putting one on a &esupertank&r should handle most of your water needs."
+			]
+			id: "6A592BB7B9B6D3E2"
+			subtitle: "Non-rotary condensentrator"
+			tasks: [{
+				id: "038D5505DC948699"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]
