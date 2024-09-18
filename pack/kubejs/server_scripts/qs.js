@@ -37,4 +37,19 @@ ServerEvents.recipes(event => {
         .itemOutputs("gtceu:enriched_naquadah_oxide_mixture_dust")
         .EUt(GTValues.VA[GTValues.ZPM])
         .blastFurnaceTemp(1280);
+
+    // remove broken unattainable marble recipes
+    event.remove({type: "gtceu:rock_breaker", output: "gtceu:marble"})
+    /*
+    event.recipes.gtceu.rock_breaker(`rock_breaker_marble`)
+      .notConsumable("gtceu:marble")
+      .itemOutputs("gtceu:marble")
+      .EUt(7)
+      .duration(16)
+      .data({
+        fluidA: "minecraft:lava",
+        fluidB: "minecraft:water",
+      })
+    */
+    event.remove({id: "gtceu:macerator/macerate_marble"})
 });

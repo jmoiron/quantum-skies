@@ -31,9 +31,9 @@ ServerEvents.recipes((event) => {
   // WAP
   event.remove({ id: "ae2:network/wireless_access_point" });
   event.shaped("ae2:wireless_access_point", ["PWP", "RCR", "PFP"], {
-    P: "gtceu:titanium_plate",
+    P: "gtceu:energistic_steel_plate",
     W: "ae2:wireless_receiver",
-    R: "gtceu:titanium_rod",
+    R: "gtceu:energistic_steel_rod",
     C: "ae2:calculation_processor",
     F: "ae2:fluix_glass_cable",
   });
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
   // Quantum Ring
   event.remove({ id: "ae2:network/blocks/quantum_ring" });
   event.shaped("ae2:quantum_ring", ["PLP", "EHE", "PLP"], {
-    P: "gtceu:titanium_plate",
+    P: "gtceu:energistic_steel_plate",
     L: "ae2:logic_processor",
     E: "ae2:engineering_processor",
     H: "gtceu:hv_field_generator",
@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
   // Matter Condenser
   event.remove({ id: "ae2:network/blocks/io_condenser" });
   event.shaped("ae2:condenser", ["PCP", "CHC", "PCP"], {
-    P: "#forge:plates/stainless_steel",
+    P: "gtceu:energistic_steel_plate",
     C: "gtceu:hv_electric_piston",
     H: "#gtceu:circuits/hv",
   });
@@ -248,9 +248,9 @@ ServerEvents.recipes((event) => {
   // Wireless Receiver
   event.remove({ id: "ae2:network/wireless_part" });
   event.shaped("ae2:wireless_receiver", ["CPC", "RSR", "   "], {
-    C: "#gtceu:circuits/ev",
+    C: "#gtceu:circuits/hv",
     P: "ae2:fluix_pearl",
-    R: "#forge:rods/titanium",
+    R: "gtceu:energistic_steel_rod",
     S: "gtceu:hv_sensor",
   });
 
@@ -320,5 +320,12 @@ ServerEvents.recipes((event) => {
     .inputFluids("water 100")
     .itemOutputs("ae2:fluix_crystal")
     .duration(200)
+    .EUt(24);
+
+  greg.autoclave("gtceu:fluix_crystal_distilled")
+    .itemInputs("ae2:fluix_dust")
+    .inputFluids("gtceu:distilled_water 100")
+    .itemOutputs("ae2:fluix_crystal")
+    .duration(100)
     .EUt(24);
 });

@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
     C: "#gtceu:circuits/hv",
     T: "ae2:terminal",
     K: "ae2:fluix_glass_cable",
-    L: "gtceu:lapotron_crystal",
+    L: "gtceu:energy_crystal",
   });
   // Wireless Crafting Terminal
   event.remove({ id: "ae2:network/wireless_crafting_terminal" });
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:formation_plane", ["EFC", "PPP"], {
     E: "gtceu:lv_electric_piston",
     F: "ae2:formation_core",
-    C: "#forge:gears/fluix",
+    C: "gtceu:energistic_steel_gear",
     P: "#forge:plates/steel",
   });
 
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:annihilation_plane", ["EFC", "PPP"], {
     E: "gtceu:lv_electric_piston",
     F: "ae2:annihilation_core",
-    C: "#forge:gears/fluix",
+    C: "gtceu:energistic_steel_gear",
     P: "#forge:plates/steel",
   });
 
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
   // P2P Tunnel
   event.remove({ id: "ae2:network/parts/tunnels_me" });
   event.shaped("2x ae2:me_p2p_tunnel", [" P ", "PEP", "PCP"], {
-    P: "#forge:plates/tungsten_steel",
+    P: "gtceu:energistic_steel_plate",
     E: "ae2:engineering_processor",
     C: "ae2:fluix_glass_cable",
   });

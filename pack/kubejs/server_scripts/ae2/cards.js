@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:materials/cardenergy" });
   event.shapeless("ae2:energy_card", [
     "ae2:advanced_card",
-    "#forge:batteries/mv",
+    "#gtceu:batteries/mv"
   ]);
 
   // Basic Card
