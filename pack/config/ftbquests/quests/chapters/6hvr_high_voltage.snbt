@@ -347,34 +347,20 @@
 			description: [
 				"There are several potential sources for &6fluorine&r."
 				""
-				"Normally, &bblue&r and &eyellow&r topaz or &6mica&r are good sources, but none of that seems to be available."
+				"Normally, &bblue&r and &eyellow&r topaz are good sources, but none of that seems to be available."
 				""
-				"Instead, you can &2electrolyze&r &dlepidolite&r or &9biotite&r dust.  &dLepidolite&r has probably been building up, pointlessly, but now is its chance to shine!"
+				"Instead, you can &2electrolyze&r &dlepidolite&r or &9biotite&r dust. &dLepidolite&r has probably been building up, pointlessly, but now is its chance to shine!"
 				""
 				"&9Biotite&r is available by centrifuging deepslate dust. In previous versions, you'd use &6black granite&r."
+				""
+				"Additionally, &6mica&r becomes attainable after getting the &2industrial sieve&r."
 			]
 			id: "40922DB70061C9AA"
-			tasks: [
-				{
-					id: "2D2392533AE93E94"
-					item: "gtceu:fluorine_bucket"
-					type: "item"
-				}
-				{
-					id: "7A65E1D5134C574F"
-					item: {
-						Count: 1
-						id: "gtceu:fluid_cell"
-						tag: {
-							Fluid: {
-								Amount: 1000
-								FluidName: "gtceu:fluorine"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D2392533AE93E94"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -4.5d
 		}
