@@ -316,6 +316,7 @@
 		}
 		{
 			dependencies: ["126E88BE9207D849"]
+			description: ["The &9emitter&r once again gates access to the next tier of &2circuit assembler&r and &2laser engraver&r, requiring that you produce the &6HV&r tier's \"gem\", which is an &aeye of ender&r."]
 			id: "496A339808DDDF51"
 			tasks: [{
 				id: "34975AC52EC7214F"
@@ -489,7 +490,6 @@
 		{
 			dependencies: [
 				"450C8C0AF82CB7FD"
-				"18D57CCC26D52DA6"
 				"7BF3FDE52BEFC544"
 			]
 			id: "1FCD75FBB1AF9A5C"
@@ -702,7 +702,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1FCD75FBB1AF9A5C"]
+			dependencies: [
+				"1FCD75FBB1AF9A5C"
+				"18D57CCC26D52DA6"
+			]
 			id: "1845C371942ED415"
 			tasks: [
 				{
@@ -713,6 +716,11 @@
 				{
 					id: "4753DD1A84D80C93"
 					item: "gtceu:soc"
+					type: "item"
+				}
+				{
+					id: "79F648507D531BBE"
+					item: "gtceu:yellow_glass_lens"
 					type: "item"
 				}
 			]
