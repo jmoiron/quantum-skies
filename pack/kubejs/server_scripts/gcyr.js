@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
     event.remove({output: "gcyr:launch_pad"});
+    event.remove({id: "gcyr:assembler/seat"});
 
     greg.assembler("launch_pad")
         .itemInputs("3x minecraft:yellow_concrete")

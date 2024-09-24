@@ -147,7 +147,7 @@
 			description: [
 				"Producing &6Bisphenol-A&r is an optional step on the way to &9epoxy&r."
 				""
-				"If you've decided to make &2LCRs&r for this chain, you can skip this step."
+				"If you've decided to make &2LCRs&r for this chain, you can skip this step. This quest will complete with an &6epoxy sheet&r."
 			]
 			id: "630FEB4A24EE7767"
 			tasks: [{
@@ -222,8 +222,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1D03253419ED0F68"]
 			id: "219CC94D362342E3"
+			progression_mode: "flexible"
 			size: 1.25d
 			tasks: [{
 				id: "5AD58EC8D14A6EB4"
@@ -817,6 +817,8 @@
 			]
 			icon: "gtceu:monazite_gem"
 			id: "325CF49F37018A77"
+			size: 1.25d
+			subtitle: "Lanthanides"
 			tasks: [{
 				id: "59175FEC5A6FA238"
 				title: "The &6Monazite&r Chain"

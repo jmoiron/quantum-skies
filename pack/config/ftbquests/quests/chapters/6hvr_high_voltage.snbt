@@ -721,9 +721,15 @@
 				"454242F0DA2FFBD0"
 				"10E6C543269AD20C"
 			]
+			description: [
+				"&6Titanium&r is an incredibly strong, lightweight, corrosion resistant metal, widely used both in its relatively pure form and as part of alloys."
+				""
+				"It is the &5EV&r hull material."
+			]
 			id: "36A1B71C1A6304D4"
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Not actually pink"
 			tasks: [{
 				id: "0F9664962DCF7A05"
 				item: "gtceu:titanium_ingot"
@@ -782,7 +788,7 @@
 			description: [
 				"Like &bMV&r superconductors, &6HV&r superconductors are unlocked with the &bVacuum Freezer&r."
 				""
-				"The 1x version transmits 4A &6HV&r losslessly over any distance. Like &bMV&r, some processes coming up will require passive chains that use a lot of &6HV&r machiner, so these might still be good value."
+				"The 1x version transmits 4A &6HV&r losslessly over any distance. Like &bMV&r, some processes coming up will require passive chains that use a lot of &6HV&r machinery, so these might still be good value."
 				""
 				"At 512EU/Amp, a 1EU/A/m loss is starting to feel pretty insignificant."
 			]

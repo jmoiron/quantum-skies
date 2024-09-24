@@ -620,6 +620,15 @@
 			y: -10.0d
 		}
 		{
+			description: [
+				"The &2rocket scanner&r is a multiblock that includes a 3x3 &6launchpad&r and a stack of 5 &9stainless frames&r."
+				""
+				"You can build a rocket out of &7rocket motors&r, &7fuel tanks&r and a &6seat&r, which all require the &2VAB&r to construct.  Once you've made your rocket, you can use the &2scanner&r to &9scan&r it from its UI."
+				""
+				"Mount the scanned rocket with &2right-click&r, and it will tell you whether you have enough fuel and enough thrust to take off."
+				""
+				"You will need 5 motors and 2 tanks to reach &7the moon&r."
+			]
 			id: "552FA9A1E6BA7517"
 			size: 1.25d
 			tasks: [{

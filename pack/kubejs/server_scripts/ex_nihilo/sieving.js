@@ -16,6 +16,14 @@ ServerEvents.recipes(event => {
         "exnihilosequentia:grass_seeds",
     ]);
 
+    event.shaped("minecraft:moss_block",
+        ['SSS', 'SDS', 'SSS'],
+        {
+            S: "#forge:seeds",
+            D: "minecraft:dirt",
+        }
+    );
+
     // remove the default recipes in favor of the loot tables
     event.remove({type: "exnihilosequentia:sifting"});
 
@@ -51,6 +59,18 @@ ServerEvents.recipes(event => {
             "gtceu:rubber_leaves": [
                 ["gtceu:rubber_sapling", 0.1],
                 ["minecraft:slime_ball", 0.1]
+            ],
+            "minecraft:jungle_leaves": [
+                ["minecraft:cocoa_beans", 0.2],
+                ["minecraft:melon_seeds", 0.1]
+            ],
+            "minecraft:moss_block": [
+                ["minecraft:sunflower", 0.25],
+                ["minecraft:dandelion", 0.25],
+                ["minecraft:peony", 0.25],
+                ["minecraft:poppy", 0.25],
+                ["minecraft:wither_rose", 0.25],
+                ["minecraft:cornflower", 0.25]
             ],
             "minecraft:grass_block": [
                 ["minecraft:melon_seeds", 0.35],

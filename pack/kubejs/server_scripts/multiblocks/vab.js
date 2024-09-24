@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gcyr:basic_rocket_motor")
         .EUt(480)
         .duration(600);
-    
+
     greg.vehicle_assembly_building("advanced_rocket_motor")
         .itemInputs("4x gtceu:advanced_power_thruster")
         .itemInputs("gtceu:titanium_frame")
@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("gcyr:basic_fuel_tank")
         .EUt(480)
         .duration(600);
-    
+
     greg.vehicle_assembly_building("advanced_fuel_tank")
         .itemInputs("gtceu:titanium_fluid_cell")
         .itemInputs("4x gtceu:carbon_fiber_plate")
@@ -68,6 +68,15 @@ ServerEvents.recipes(event => {
         .itemOutputs("gcyr:seat")
         .EUt(480)
         .duration(600);
+
+        greg.vehicle_assembly_building("rocket_seat_glue")
+        .itemInputs("minecraft:light_gray_carpet")
+        .itemInputs("4x gtceu:rubber_plate")
+        .itemInputs("3x gtceu:aluminium_plate")
+        .inputFluids("gtceu:glue 8000")
+        .itemOutputs("gcyr:seat")
+        .EUt(480)
+        .duration(1200);
 
     /*
     greg.industrial_sieve("flint_mesh")
@@ -96,7 +105,7 @@ ServerEvents.recipes(event => {
         .notConsumable("exnihilosequentia:iron_mesh")
         .EUt(480)
         .duration(300)
-    
+
     greg.industrial_sieve("aluminium_mesh")
         .inputFluids("minecraft:water 250", "minecraft:lava 250", "gtceu:lubricant 2")
         .chancedOutput("gtceu:crushed_bauxite_ore", 2000, 1000)

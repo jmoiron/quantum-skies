@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     // make the early pump & conveyor easier
     event.remove({output: "ulvcovm:ulv_electric_pump"});
     event.remove({output: "ulvcovm:ulv_conveyor_module"});
-    
+
     event.shaped("ulvcovm:ulv_conveyor_module",
         ["RR ", "MW ", "   "],
         {
@@ -26,6 +26,36 @@ ServerEvents.recipes(event => {
             P: "gtceu:copper_normal_fluid_pipe",
         }
     )
+
+    event.shaped("gtceu:ulv_input_bus",
+        [" C ", " H ", "   "],
+        {
+            C: "minecraft:chest",
+            H: "gtceu:ulv_machine_hull",
+        }
+    );
+    event.shaped("gtceu:ulv_output_bus",
+        [" H ", " C ", "   "],
+        {
+            C: "minecraft:chest",
+            H: "gtceu:ulv_machine_hull",
+        }
+    );
+    event.shaped("gtceu:ulv_input_hatch",
+        [" C ", " H ", "   "],
+        {
+            C: "minecraft:glass",
+            H: "gtceu:ulv_machine_hull",
+        }
+    );
+    event.shaped("gtceu:ulv_output_hatch",
+        [" H ", " C ", "   "],
+        {
+            C: "minecraft:glass",
+            H: "gtceu:ulv_machine_hull",
+        }
+    );
+
 
     // make tom's storage available at steam compressor
     event.replaceInput(
