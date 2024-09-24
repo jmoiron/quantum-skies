@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
   yeet("ae2:network/blocks/crank");
   yeet("ae2:tools/misctools_entropy_manipulator");
   yeet("ae2:tools/misctools_charged_staff");
-  yeet("ae2:tools/network_color_applicator");
+  // yeet("ae2:tools/network_color_applicator");
   yeet("ae2:tools/matter_cannon");
   yeet("ae2:shaped/not_so_mysterious_cube");
   yeet("ae2:network/blocks/crystal_processing_quartz_growth_accelerator");

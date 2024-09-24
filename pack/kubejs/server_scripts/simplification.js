@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // ulv hatch/bus simplification
     event.shaped("gtceu:ulv_input_bus",
         [" C ", " H ", "   "],
         {
