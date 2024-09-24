@@ -384,8 +384,25 @@
 			dependencies: ["5D5D29247E81E19A"]
 			id: "24342D4C5317572A"
 			tasks: [{
-				id: "3437C3FFA7C91FAB"
-				item: "gtceu:wet_bromine_bucket"
+				icon: "gtceu:wet_bromine_bucket"
+				id: "360E1F8D8E5B00C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:wet_bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Wet Bromine Bucket"
 				type: "item"
 			}]
 			x: -4.5d
@@ -398,8 +415,25 @@
 			]
 			id: "5D5D29247E81E19A"
 			tasks: [{
-				id: "3888691FE93F5250"
-				item: "gtceu:overheated_bromine_sulfate_gas_bucket"
+				icon: "gtceu:overheated_bromine_sulfate_gas_bucket"
+				id: "65F4DF8137835F96"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:overheated_bromine_sulfate_gas_bucket"
+							}
+						]
+					}
+				}
+				title: "Overheated Bromine Sulfate Gas Bucket"
 				type: "item"
 			}]
 			x: -4.5d
@@ -409,8 +443,25 @@
 			dependencies: ["409F44384A1F44E2"]
 			id: "7C365D7B15917A38"
 			tasks: [{
-				id: "66CB76762B103159"
-				item: "gtceu:bromine_sulfate_solution_bucket"
+				icon: "gtceu:bromine_sulfate_solution_bucket"
+				id: "0B6C7DDEAA719F43"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_sulfate_solution_bucket"
+							}
+						]
+					}
+				}
+				title: "Bromine Sulfate Solution Bucket"
 				type: "item"
 			}]
 			x: -6.0d
@@ -420,8 +471,25 @@
 			dependencies: ["4127AE11291977CF"]
 			id: "409F44384A1F44E2"
 			tasks: [{
-				id: "7A51529B4F6D8BF7"
-				item: "gtceu:acidic_brominated_brine_bucket"
+				icon: "gtceu:acidic_brominated_brine_bucket"
+				id: "4B14ED785FCADB8B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:acidic_brominated_brine_bucket"
+							}
+						]
+					}
+				}
+				title: "Acidic Brominated Brine Bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -431,8 +499,25 @@
 			dependencies: ["60DA51766F274B5E"]
 			id: "4127AE11291977CF"
 			tasks: [{
-				id: "35AB9F4FB4B2ABFE"
-				item: "gtceu:brominated_brine_bucket"
+				icon: "gtceu:brominated_brine_bucket"
+				id: "082506A18040535A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:brominated_brine_bucket"
+							}
+						]
+					}
+				}
+				title: "Brominated Brine Bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -442,8 +527,25 @@
 			dependencies: ["5F89122136784BC1"]
 			id: "60DA51766F274B5E"
 			tasks: [{
-				id: "6C219A817D5F9751"
-				item: "gtceu:iodine_brine_mixture_bucket"
+				icon: "gtceu:iodine_brine_mixture_bucket"
+				id: "42197653E8341425"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:iodine_brine_mixture_bucket"
+							}
+						]
+					}
+				}
+				title: "Iodine Brine Mixture Bucket"
 				type: "item"
 			}]
 			x: -6.0d
@@ -453,15 +555,36 @@
 			dependencies: ["47AFAF23FB7AB33C"]
 			id: "5F89122136784BC1"
 			tasks: [{
-				id: "3CD1D7185DA5C5B5"
-				item: "gtceu:iodized_brine_bucket"
+				icon: "gtceu:iodized_brine_bucket"
+				id: "71085DCB95B6A21F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iodized_brine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Iodized Brine Bucket"
 				type: "item"
 			}]
 			x: -6.0d
 			y: -10.0d
 		}
 		{
-			description: ["Producing &6Bromine&r, so called because of its awful smell, is a long process that starts off by treating &6saltpeter&r with some &1saltwater&r."]
+			description: [
+				"Producing &cbromine&r, so called because of its awful smell, is a long process that starts off by treating &6saltpeter&r with some &1saltwater&r."
+				""
+				"Holding a &6bromine bucket&r will complete all of the quests for the intermediate steps."
+			]
 			id: "47AFAF23FB7AB33C"
 			tasks: [
 				{
@@ -563,6 +686,13 @@
 			y: -13.0d
 		}
 		{
+			description: [
+				"&7Silicone Rubber&r is the 2nd tier of rubber. "
+				""
+				"If you produce this in bulk now, you can convert to this for most of your cable coverings, where it is twice as efficient as normal &6rubber&r."
+				""
+				"If not, it eventually becomes required for various items past &1IV&r."
+			]
 			id: "091D155C79F64B13"
 			tasks: [{
 				id: "2935108D3A5C6123"
