@@ -30,6 +30,15 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(200);
 
+    greg.assembler("launch_pad_glue")
+        .itemInputs("3x minecraft:yellow_concrete")
+        .itemInputs("3x minecraft:black_concrete")
+        .itemInputs("gtceu:stainless_steel_frame")
+        .itemOutputs("gcyr:launch_pad")
+        .inputFluids("gtceu:glue 1000")
+        .EUt(480)
+        .duration(400);
+
     // replace the rocket scanner recipe to make it HV
     event.remove({output: "gcyr:rocket_scanner"});
 
@@ -82,6 +91,13 @@ ServerEvents.recipes(event => {
         .outputFluids("gcyr:fiberglass 250")
         .EUt(480)
         .duration(400);
+
+    greg.chemical_bath("fiberglass_glue")
+        .itemInputs("2x gtceu:silicon_dioxide_dust")
+        .inputFluids("gtceu:glue 500")
+        .outputFluids("gcyr:fiberglass 25")
+        .EUt(480)
+        .duration(800);
 
     event.remove({id: "gtceu:centrifuge/brominated_brine"});
     greg.centrifuge("brominated_brine_hv")

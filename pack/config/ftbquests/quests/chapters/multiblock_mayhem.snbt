@@ -665,8 +665,13 @@
 			y: -7.0d
 		}
 		{
-			description: ["The &2Chemical Plant&r is a complex multiblock that is capable of running chemical reactions that even the &2LCR&r cannot support.  Its recipes typically involve one or more solid catalists and solid + fluid outputs."]
+			description: [
+				"The &2Chemical Plant&r is a complex multiblock that is capable of running chemical reactions that even the &2LCR&r cannot support.  Its recipes typically involve one or more solid catalists and solid + fluid outputs."
+				""
+				"The &2chemplanet&r was originally from &2GT++&r, and is used for rocket fuels in &3GTNH&r."
+			]
 			id: "52AD249F52432AF5"
+			size: 1.0d
 			tasks: [{
 				id: "6037233AF42BFA1F"
 				item: "gtnn:exxonmobil_chemical_plant"

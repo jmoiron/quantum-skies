@@ -23,14 +23,20 @@
 		{
 			id: "17FA3B75B2A90775"
 			linked_quest: "59CD741B7208D333"
-			x: -4.5d
-			y: 2.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			id: "6E0CB060B47129D6"
 			linked_quest: "5337584F0630F308"
 			x: -1.5d
 			y: 5.0d
+		}
+		{
+			id: "608ED99C280855AC"
+			linked_quest: "3F4A0B22F5740A63"
+			x: -9.0d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -78,17 +84,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2DD60B30DB8B3F71"]
-			id: "3D7BE460986BC091"
-			tasks: [{
-				id: "76AF879C9F159666"
-				item: "gtceu:nitrobenzene_bucket"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -2.5d
-		}
-		{
 			dependencies: [
 				"0220FF8067094F9D"
 				"4B00F98FFDFB8B5B"
@@ -105,7 +100,7 @@
 		{
 			dependencies: ["7F1CE5F538BD509C"]
 			description: [
-				"Producing &6High Octane Gasoline&r is a significant challenge and will require many &bDistillation Towers&r and several multiblock &bCrackers&r."
+				"Producing &6High Octane Gasoline&r is a significant challenge and will require many &bDistillation Towers&r and several &2Crackers&r."
 				""
 				"If you've come this far, you will be able to plot the rest of the course yourself."
 				""
@@ -149,10 +144,32 @@
 				"44957CFD2BDD50F4"
 				"4B00F98FFDFB8B5B"
 			]
+			description: [
+				"Producing &6Bisphenol-A&r is an optional step on the way to &9epoxy&r."
+				""
+				"If you've decided to make &2LCRs&r for this chain, you can skip this step."
+			]
 			id: "630FEB4A24EE7767"
 			tasks: [{
-				id: "75E85C5E60B47365"
-				item: "gtceu:bisphenol_a_bucket"
+				icon: "gtceu:bisphenol_a_bucket"
+				id: "1122F0A283130D6B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:bisphenol_a_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:epoxy_plate"
+							}
+						]
+					}
+				}
+				title: "Bisphenol A Bucket"
 				type: "item"
 			}]
 			x: -4.5d
@@ -419,7 +436,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -557,7 +574,7 @@
 				item: "gtceu:plutonium_dust"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -706,7 +723,7 @@
 				item: "kubejs:titanium_mesh"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -4.0d
 		}
 		{

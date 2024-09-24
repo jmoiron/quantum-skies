@@ -8,15 +8,16 @@
 	order_index: 0
 	quest_links: [
 		{
-			id: "502491BC78CE962F"
-			linked_quest: "5509E27BF2B19A91"
-			x: 0.0d
+			id: "45CC46D5F06C0490"
+			linked_quest: "2C1CDE93A0BDB91C"
+			x: 1.5d
 			y: -13.0d
 		}
 		{
-			id: "45CC46D5F06C0490"
-			linked_quest: "2C1CDE93A0BDB91C"
-			x: 0.0d
+			id: "511DD9ED38D72B9F"
+			linked_quest: "52AD249F52432AF5"
+			size: 1.25d
+			x: 4.5d
 			y: -8.5d
 		}
 	]
@@ -32,17 +33,6 @@
 			}]
 			x: 1.5d
 			y: -4.0d
-		}
-		{
-			id: "7DB05E1FCC6E9391"
-			size: 1.25d
-			tasks: [{
-				id: "5983FC53A006C4CC"
-				item: "gtnn:exxonmobil_chemical_plant"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -213,18 +203,26 @@
 				item: "gcyr:space_fabric"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["5509E27BF2B19A91"]
+			dependencies: [
+				"5509E27BF2B19A91"
+				"6DD40F2BC78BCD0C"
+			]
+			description: [
+				"&9Fiberglass&r is made by suspending &6silicon dioxide&r in a binder."
+				""
+				"If you choose to use &6glue&r, you will need ~240 buckets to make enough fiberglass to build a &dspace suit&r."
+			]
 			id: "585841E09E7C0F8D"
 			tasks: [{
 				id: "17B027498850F39A"
 				item: "gcyr:fiberglass_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -11.5d
 		}
 		{
@@ -238,8 +236,8 @@
 				item: "gcyr:para_aramid_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.0d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0F7B9EAEF4103A8F"]
@@ -249,8 +247,8 @@
 				item: "gcyr:para_phenylenediamine_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -11.5d
+			x: 0.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -264,7 +262,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -8.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -278,7 +276,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -288,8 +286,8 @@
 				item: "gcyr:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6C114A2C08AA55C2"]
@@ -299,8 +297,8 @@
 				item: "gcyr:nitroaniline_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.5d
+			x: -1.5d
+			y: -13.0d
 		}
 		{
 			description: [
@@ -337,8 +335,8 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -352,11 +350,18 @@
 				item: "gcyr:co_mn_br_catalyst_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["24342D4C5317572A"]
+			description: [
+				"&9Bromine&r is nasty stuff."
+				""
+				"It's highly toxic, corrosive, and reactive, and readily turns to a foul smelling gas. Good luck storing it in a bucket."
+				""
+				"Fortunately, it is the only element other than &6mercury&r that is a liquid at standard temperature and pressure, so that should help."
+			]
 			id: "6061E30674D8A3F5"
 			size: 1.25d
 			subtitle: "All of that for Bromine?"
@@ -376,8 +381,8 @@
 				item: "gtceu:wet_bromine_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -10.0d
+			x: -4.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["7C365D7B15917A38"]
@@ -387,8 +392,8 @@
 				item: "gtceu:overheated_bromine_sulfate_gas_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -10.0d
+			x: -4.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["409F44384A1F44E2"]
@@ -398,8 +403,8 @@
 				item: "gtceu:bromine_sulfate_solution_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -11.5d
+			x: -6.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["4127AE11291977CF"]
@@ -409,8 +414,8 @@
 				item: "gtceu:acidic_brominated_brine_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -11.5d
+			x: -7.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["60DA51766F274B5E"]
@@ -420,7 +425,7 @@
 				item: "gtceu:brominated_brine_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: -11.5d
 		}
 		{
@@ -431,8 +436,8 @@
 				item: "gtceu:iodine_brine_mixture_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -13.0d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["47AFAF23FB7AB33C"]
@@ -443,7 +448,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -13.0d
+			y: -10.0d
 		}
 		{
 			description: ["Producing &6Bromine&r, so called because of its awful smell, is a long process that starts off by treating &6saltpeter&r with some &1saltwater&r."]
@@ -460,11 +465,18 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -13.0d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["7DB05E1FCC6E9391"]
+			dependencies: ["52AD249F52432AF5"]
+			description: [
+				"&cRP-1&r is a type of ultra-refined kerosene, and a classic &arocket fuel&r. "
+				""
+				"It still powers many first-stage boosters of modern rockets, but perhaps most famously it was used in the 1st stage of the Saturn V rocket."
+				""
+				"As a fuel for producing power from &2rocket engines&r, it's slightly more energy dense than &ecetane-boosted diesel&r."
+			]
 			id: "0F62B838EB8BE9EF"
 			tasks: [{
 				id: "7B57130AC14E15DE"
@@ -496,8 +508,8 @@
 				title: "The Apollo Program"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -12.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			id: "13B22DF7EBE23DF0"
@@ -506,8 +518,39 @@
 				item: "gcyr:manganese_acetate_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.0d
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Although the resulting &9fiberglass&r is probably not very good, you can use &6glue&r instead of racing ahead and doing &6epoxy&r to create it."
+				""
+				"The yield and the wait are worse, but if you've made a ton of &0rubber&r, you might want to make something of the large amount of byproducts."
+			]
+			id: "6DD40F2BC78BCD0C"
+			tasks: [{
+				id: "7FFE6D5EA29060D0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:glue_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:epoxy_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Binder"
+			x: 3.0d
+			y: -13.0d
 		}
 	]
 	subtitle: ["Not because it is easy"]

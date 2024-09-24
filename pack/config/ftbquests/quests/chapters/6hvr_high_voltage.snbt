@@ -640,17 +640,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6BBECEEDC4DD2B56"]
-			id: "3F4A0B22F5740A63"
-			tasks: [{
-				id: "336BEAE0C397FC79"
-				item: "gtceu:nitrobenzene_bucket"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["454242F0DA2FFBD0"]
 			description: [
 				"Now that you can cool all hot ingot types in the &bfreezer&r, you can finally make &bMV&r superconductors."
@@ -932,6 +921,17 @@
 			}]
 			x: 4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["6BBECEEDC4DD2B56"]
+			id: "3F4A0B22F5740A63"
+			tasks: [{
+				id: "336BEAE0C397FC79"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]
