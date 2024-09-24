@@ -27,6 +27,15 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped("2x minecraft:leather",
+        ["KTK", "SKS", "KTK"],
+        {
+            K: "minecraft:dried_kelp",
+            S: "minecraft:string",
+            T: "gtceu:salt_dust",
+        }
+    );
+
     // ulv hatch/bus simplification
     event.shaped("gtceu:ulv_input_bus",
         [" C ", " H ", "   "],

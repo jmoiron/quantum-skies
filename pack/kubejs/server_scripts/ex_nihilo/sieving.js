@@ -64,6 +64,12 @@ ServerEvents.recipes(event => {
                 ["minecraft:cocoa_beans", 0.2],
                 ["minecraft:melon_seeds", 0.1]
             ],
+            "minecraft:mangrove_leaves": [
+                ["minecraft:seagrass", 0.1],
+                ["minecraft:sea_pickle", 0.1],
+                ["minecraft:kelp", 0.25],
+                ["minecraft:mangrove_propagule", 0.03]
+            ],
             "minecraft:moss_block": [
                 ["minecraft:sunflower", 0.25],
                 ["minecraft:dandelion", 0.25],

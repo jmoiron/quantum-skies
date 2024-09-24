@@ -153,5 +153,12 @@ ServerEvents.recipes(event => {
         fluidA: "minecraft:lava",
         fluidB: "minecraft:water",
       })
-  })
+  });
+
+    event.recipes.exnihilosequentia.precipitate(
+        "minecraft:oak_leaves",
+        "minecraft:mangrove_leaves",
+        "exnihilosequentia:sea_water"
+    );
+
 });
