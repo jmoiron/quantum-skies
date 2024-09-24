@@ -176,6 +176,15 @@
 			y: -1.0d
 		}
 		{
+			description: [
+				"&6Acetone&r is attainable several ways."
+				""
+				"If you have a decent &cpetrochem&r setup, you may be able to synthesize it from &6benzene&r, &6propene&r and some &6phosphorous&r."
+				""
+				"If you have been producing &6acetic acid&r, either through petro-chem or for &ecetane-boosted diesel&r, you might want to convert some of that to &6Acetone&r."
+				""
+				"If you have been stockpiling &6ethylene&r, you can also synthesize it wth a little bit of &boxygen&r."
+			]
 			id: "4B00F98FFDFB8B5B"
 			tasks: [{
 				id: "285B70081AA33CC0"

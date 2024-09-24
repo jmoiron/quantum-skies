@@ -11,14 +11,20 @@
 			id: "45CC46D5F06C0490"
 			linked_quest: "2C1CDE93A0BDB91C"
 			x: 1.5d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			id: "511DD9ED38D72B9F"
 			linked_quest: "52AD249F52432AF5"
 			size: 1.25d
-			x: 4.5d
-			y: -8.5d
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			id: "03BCE335F9718B30"
+			linked_quest: "4745AE5EC57118AB"
+			x: -4.5d
+			y: -14.5d
 		}
 	]
 	quests: [
@@ -31,8 +37,8 @@
 				item: "gtceu:vehicle_assembly_building"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -45,8 +51,8 @@
 				item: "gcyr:basic_rocket_motor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -59,8 +65,8 @@
 				item: "gcyr:basic_fuel_tank"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -87,8 +93,8 @@
 				title: "Visit the Moon"
 				type: "dimension"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["4981CA1F68C8FCC2"]
@@ -141,7 +147,7 @@
 				}
 			]
 			x: 1.5d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["709DA8BA1D1ABC16"]
@@ -151,8 +157,8 @@
 				item: "gcyr:seat"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["500F47921DD51C83"]
@@ -188,14 +194,15 @@
 				type: "item"
 			}]
 			title: "Mining"
-			x: 4.5d
-			y: -7.0d
+			x: 8.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
 				"7C1A3931EA551693"
 				"585841E09E7C0F8D"
 				"2C1CDE93A0BDB91C"
+				"091D155C79F64B13"
 			]
 			id: "4981CA1F68C8FCC2"
 			tasks: [{
@@ -204,7 +211,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -319,8 +326,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -13.0d
+			x: -1.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["466C6EE4E2E3D039"]
@@ -385,7 +392,10 @@
 			y: -11.5d
 		}
 		{
-			dependencies: ["7C365D7B15917A38"]
+			dependencies: [
+				"7C365D7B15917A38"
+				"4745AE5EC57118AB"
+			]
 			id: "5D5D29247E81E19A"
 			tasks: [{
 				id: "3888691FE93F5250"
@@ -483,8 +493,8 @@
 				item: "gtceu:rp_1_mixed_fuel_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.5d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
 			id: "552FA9A1E6BA7517"
@@ -494,8 +504,8 @@
 				item: "gcyr:rocket_scanner"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			icon: "gcyr:gps_satellite"
@@ -508,8 +518,8 @@
 				title: "The Apollo Program"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: 6.0d
+			y: -13.0d
 		}
 		{
 			id: "13B22DF7EBE23DF0"
@@ -518,8 +528,8 @@
 				item: "gcyr:manganese_acetate_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -551,6 +561,16 @@
 			title: "Binder"
 			x: 3.0d
 			y: -13.0d
+		}
+		{
+			id: "091D155C79F64B13"
+			tasks: [{
+				id: "2935108D3A5C6123"
+				item: "gtceu:silicone_rubber_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
 		}
 	]
 	subtitle: ["Not because it is easy"]
