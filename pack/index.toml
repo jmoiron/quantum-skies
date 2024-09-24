@@ -46,7 +46,7 @@ hash = "39069aa41ea5a8b01b5a34a6739aed5050691236a3448ab2829b05c50967975c"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
-hash = "3d9baac953ffcd40bd402ee09343f2dd5eaaa6a0947828193a412c1bc2f0fc26"
+hash = "0fdd7dfb61f721c67489df455d6362a73b5b9b710089f5b5085f2ebce6dd987b"
 
 [[files]]
 file = "config/effortlessbuilding-common.toml"
@@ -146,7 +146,7 @@ hash = "075aa40404a8b458c3cedb8d096d3b5d7d52d3af41834a65fc5494734d4c9de0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "768e1d02dab6ceaf791b50879bc3fafa97597568d85bd08c3f674fcfdbda1d86"
+hash = "bf87b73572b08cba4b9de3b67a96ed03a5a4205f30c9d25307382f596481df03"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -322,7 +322,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ec66913ab56316cefc1568bda715accc0367f1149f1f12b6ccac2dd7b12c70a9"
+hash = "eebdefcf855b6cc0a38456c28d320da98e2be48544b7b9e9230707e4c5979d3b"
 
 [[files]]
 file = "config/panorama.json"
@@ -362,7 +362,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "55be41374370b4607671a08d5a89cfc7e9426e06264937ebd47f0235473bd18c"
+hash = "722ce5154f83972a667c836fcd5fa6f9e393cdc187cc6db49f0da59bb8772f15"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -1178,7 +1178,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fdbaae2a686bd0826e1e2d9a0e655cd5959e0f1956c4480a9973428a6515c959"
+hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
 metafile = true
 
 [[files]]
@@ -1323,12 +1323,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "71102bb75e79ce2695ed0fc1d4198dd8395d9a737b9b1d3a358142b764e058d7"
+hash = "287ec909ef53f44fe7b1d04bd41995927dbc6bdd2a2c01eeeb7c23eb3372b4e9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c2da3974f21a70aa72781aa392b69ae897d37151837128dcb5d4b6426b611e34"
+hash = "5f85a018ccf8ee32b9bdf2c9c26e9ff896c2d724d0901650f57ca0c22d1773d4"
 metafile = true
 
 [[files]]
