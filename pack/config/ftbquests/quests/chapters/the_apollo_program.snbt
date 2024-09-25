@@ -24,7 +24,7 @@
 			id: "03BCE335F9718B30"
 			linked_quest: "4745AE5EC57118AB"
 			x: -4.5d
-			y: -14.5d
+			y: -13.0d
 		}
 	]
 	quests: [
@@ -269,7 +269,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -282,8 +282,8 @@
 				item: "gcyr:therephthalic_acid_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.0d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -293,8 +293,8 @@
 				item: "gcyr:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.0d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6C114A2C08AA55C2"]
@@ -326,8 +326,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -14.5d
+			x: -3.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["466C6EE4E2E3D039"]
@@ -342,23 +342,26 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
-				"6061E30674D8A3F5"
 				"13B22DF7EBE23DF0"
+				"2B762EE7E5E3BEA1"
+				"5AE26411D1C23E3E"
+				"3A920812E6549DA4"
 			]
 			description: ["Finally, mixing &6Cobalt Bromide&r and &6Manganese Bromide&r produces Cobalt-Manganese Bromide catalyst!  What a relief."]
 			id: "6B781EF3E26D62E2"
+			size: 1.25d
 			tasks: [{
 				id: "198782839AECBF19"
 				item: "gcyr:co_mn_br_catalyst_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.5d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["24342D4C5317572A"]
@@ -378,7 +381,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5D5D29247E81E19A"]
@@ -406,7 +409,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -437,7 +440,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["409F44384A1F44E2"]
@@ -465,7 +468,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["4127AE11291977CF"]
@@ -493,7 +496,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["60DA51766F274B5E"]
@@ -521,7 +524,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5F89122136784BC1"]
@@ -549,7 +552,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["47AFAF23FB7AB33C"]
@@ -577,7 +580,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			description: [
@@ -598,7 +601,7 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -7.5d
 			y: -8.5d
 		}
 		{
@@ -654,6 +657,10 @@
 			y: -13.0d
 		}
 		{
+			dependencies: [
+				"01794ECC79094E65"
+				"6061E30674D8A3F5"
+			]
 			id: "13B22DF7EBE23DF0"
 			tasks: [{
 				id: "4953BAC37C3DCCFE"
@@ -710,6 +717,53 @@
 			}]
 			x: 0.0d
 			y: -10.0d
+		}
+		{
+			dependencies: [
+				"01794ECC79094E65"
+				"6061E30674D8A3F5"
+			]
+			id: "5AE26411D1C23E3E"
+			tasks: [{
+				id: "0C3F949D527619B6"
+				item: "gcyr:manganese_bromide_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061E30674D8A3F5"]
+			id: "2B762EE7E5E3BEA1"
+			tasks: [{
+				id: "7F3F59BF42B62C3A"
+				item: "gcyr:hydrobromic_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			id: "01794ECC79094E65"
+			tasks: [{
+				id: "162BED4D94AF4E76"
+				item: "gtceu:acetic_acid_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061E30674D8A3F5"]
+			hide_dependency_lines: true
+			id: "3A920812E6549DA4"
+			tasks: [{
+				id: "0C5D2ABE021D6613"
+				item: "gcyr:cobalt_bromide_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
 		}
 	]
 	subtitle: ["Not because it is easy"]

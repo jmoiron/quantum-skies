@@ -107,6 +107,8 @@ ServerEvents.recipes(event => {
         .EUt(256)
         .duration(120);
 
+
+
     event.remove({id: "gtceu:dehydrator/iodine"});
     greg.dehydrator("iodine_hv")
         .inputFluids("gtceu:iodine_slurry 1000")
@@ -227,5 +229,15 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:silicon_dioxide_dust", 2000, 500)
         .EUt(1920)
         .duration(2000);
+
+    event.remove({id: "gcyr:chemical_reactor/hydrobromic_acid"});
+
+    greg.chemical_reactor("hydrobromic_acid_deplatinumed")
+        .inputFluids("gtceu:hydrogen 1000")
+        .inputFluids("gtceu:bromine 1000")
+        .inputFluids("minecraft:water 1000")
+        .outputFluids("gcyr:hydrobromic_acid 1000")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(100);
 
 });
