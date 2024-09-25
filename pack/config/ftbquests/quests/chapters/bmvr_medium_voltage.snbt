@@ -109,15 +109,15 @@
 			description: [
 				"&6Benzene&r has a lot going for it as a power source."
 				""
-				"It is 10% more power dense than &6Light Fuel&r or &6Naphtha&r, and its production from &6wood tar&r is pretty straightforward."
+				"It is 10% more power dense than &clight fuel&r or &cnaphtha&r, and its production from &5wood tar&r is pretty straightforward."
 				""
-				"At &5EV&r, &6Nitrobenzene&r is simpler to produce than &6Cetane-boosted Diesel&r and over 50% more energy dense. While not nearly as good as &6High Octane Gasoline&r, HOG is a completely different processing line than diesel; you can just as easily go from &6Benzine&r to it."
+				"At &6HV&r, &7nitrobenzene&r is simpler to produce than &ecetane-boosted diesel&r and over 50% more energy dense. While not nearly as good as &6High Octane Gasoline&r, HOG is a completely different processing line than diesel; you can just as easily go from &6Benzine&r to it."
 				""
-				"After HV, large turbines scale better than combustion fuels."
+				"After &6HV&r, large turbines scale better than combustion engines."
 				""
 				"Why not use &6Benzene&r? "
 				""
-				"Oil is simpler to source at scale, petrochem is required for progress eventually, and large combustion engines at EV+ are much easier to automate."
+				"Oil is simpler to source at scale, petrochem is required for progress, and large combustion engines at EV+ are much easier to automate."
 			]
 			id: "1E1748C74140C63A"
 			min_width: 250
@@ -445,12 +445,15 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"The &dPyrolyse Oven&r is a good source of &6Benzene&r via &bwood tar&r. "
+				"You can produce enough &7benzene&r from the charcoal output of a small bank of vanilla &2blast furnaces&r to get started with &agas turbines&r."
 				""
-				"For 16x logs, it will produce 1.5B of wood tar and 20 charcoal. That charcoal can also be turned into 2B of additional tar with an &dExtractor&r. &dDistilling&r the tar into &6Benzene&r is incredibly energy positive."
+				"However, to really start producing &7benzene&r in bulk, you'll want a &2pyrolyse oven&r."
 				""
-				"Even if you go the &bpetrochem&r route, &6Biomass&r is a reneable source of a lot of extremely useful chemicals, and you'll likely end up with at least one &dPyro&r."
+				"For 16x logs, it will produce 1.5B of wood tar and 20 charcoal. That charcoal can also be turned into 2B of additional tar with an &2extractor&r. &2Distilling&r the tar into &7benzene&r is incredibly energy positive."
+				""
+				"Even if you go the &bpetrochem&r route, &6biomass&r is a reneable source of a lot of extremely useful chemicals, and you'll likely end up with at least one &2pyro&r."
 			]
+			icon: "gtceu:pyrolyse_oven"
 			id: "359E82FCC1CEC5FC"
 			tasks: [{
 				id: "785E7B34A931EA7D"
@@ -707,9 +710,9 @@
 		{
 			dependencies: ["65E342F2BA8F6BED"]
 			description: [
-				"&6Clay&r is a good source of several important elements: &6Aluminium&r, &6Sodium&r, &6Lithium&r and &6Silicon&r.  Now that you have an &bAdvanced Electrolyzer&r, you can extract those materials from &9Clay Dust&r."
+				"&6Clay&r is a good source of several important elements: &6Aluminium&r, &6Sodium&r, &6Lithium&r and &6Silicon&r.  Now that you have an &2advanced electrolyzer&r, you can extract those materials from &9Clay Dust&r."
 				""
-				"You already need plenty of &6Aluminium&r for your &6MV&r machines, but &6Silicon&r required in bulk for &dcircuit wafers&r and &6Lithium&r is your best bet for battery chemistry until &5EV&r."
+				"You already know you'll be needing plenty of &6Aluminium&r for your &bMV&r machines, but &6Silicon&r is also required in bulk for &dcircuit wafers&r and &6lithium&r is your best bet for battery chemistry until mid-&6HV&r."
 				""
 				"Because you can &dsynthesize clay&r from dust, you may want to automate this."
 			]
@@ -1148,9 +1151,11 @@
 		{
 			dependencies: ["174CEACF8A92FDC3"]
 			description: [
-				"&dPolyvinyl chloride (PVC)&r (yes, the same PVC used for plumbing) is a durable, hard plastic that can be used in many different applications."
+				"&dPolyvinyl chloride (PVC)&r (yes, the same PVC used for plumbing pipes) is a durable, hard plastic that can be used in many different applications."
 				""
-				"Its primary uses early are for higher yields on &cplastic PCBs&r and &dapplied energistics patterns&r."
+				"The primary uses at this point are for higher yields on &cplastic PCBs&r and &dapplied energistics patterns&r."
+				""
+				"Ironically, &dPVC&r makes item pipes."
 			]
 			id: "2AAF8EE73768D508"
 			tasks: [{

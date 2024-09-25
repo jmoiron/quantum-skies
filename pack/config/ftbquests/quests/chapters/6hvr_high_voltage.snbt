@@ -137,6 +137,7 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: ["The &6HV&r &2autoclave&r is required to make the first tier of &ccrystal batteries&r, but it will also speed up your production of &9certus&r, &9fluix&r, and other crystals."]
 			id: "4CDAB321466B88F6"
 			tasks: [{
 				id: "6754757BD96988BB"
@@ -305,6 +306,11 @@
 				"483F43EF65C69696"
 				"7B99E9A39EAA5490"
 			]
+			description: [
+				"&6HV&r energy hatches will allow you to run &2LCRs&r at HV with only one hatch, and allow you to run your &2EBF&r at EV."
+				""
+				"Your coils are getting good enough that you will see some perfect overclocks on earlier recipes."
+			]
 			id: "67668A321645BDFE"
 			tasks: [{
 				id: "29A66B73A37A8005"
@@ -316,7 +322,7 @@
 		}
 		{
 			dependencies: ["126E88BE9207D849"]
-			description: ["The &9emitter&r once again gates access to the next tier of &2circuit assembler&r and &2laser engraver&r, requiring that you produce the &6HV&r tier's \"gem\", which is an &aeye of ender&r."]
+			description: ["The &9emitter&r gates access to the next tier of &2circuit assembler&r and &2laser engraver&r, requiring that you produce the &6HV&r tier's \"gem\", which is an &aeye of ender&r."]
 			id: "496A339808DDDF51"
 			tasks: [{
 				id: "34975AC52EC7214F"
@@ -513,6 +519,13 @@
 				"052D83873F917583"
 				"500F47921DD51C83"
 			]
+			description: [
+				"&5Rutile&r is your primary source of &dTitanium&r, but you can't simply toss it in the &2EBF&r and call it a day."
+				""
+				"First, you have to react it with &7carbon&r and &6chlorine&r to produce &9titanium tetrachloride&r. From there, you can cook that in the &2EBF&r with some &6magnesium&r as a reagent to produce some &chot titanium ingots&r and some byproducts."
+				""
+				"If you recycle the byproducts from the &9TiCl4&r process and the &2EBF&r, you will recover the input &6chlorine&r and &7carbon&r. The whole process yields excess &6oxygen&r, which has come from the &crutile&r itself."
+			]
 			id: "10E6C543269AD20C"
 			tasks: [
 				{
@@ -630,6 +643,11 @@
 				"232BBD7ABE751B56"
 				"74CD924FA666E6D8"
 			]
+			description: [
+				"&eCetane-boosted diesel&r, previously called &anitrodiesel&r, is the end of the line of combustion fuels that derive directly from &elight fuel&r."
+				""
+				"Despite being less energy dense than &7nitrobenzene&r, &eCBD&r is not the end of your options for combustion fuels, with &6gasoline&r and &chigh-octane gasoline&r also to scale you into &5EV&r."
+			]
 			id: "23CB82881ABB5E72"
 			tasks: [{
 				id: "05CD28F200337CAC"
@@ -660,6 +678,11 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: [
+				"In future tiers, the &2mixer&r will be required in order to put together alloys that are important to your progression."
+				""
+				"In &6HV&r, it's mostly useful for speeding up your production of &6stainless steel&r, which you need in vast quantities, and for mixing &ecetane boosted diesel&r."
+			]
 			id: "74CD924FA666E6D8"
 			tasks: [{
 				id: "519855B3C845B09A"
@@ -725,6 +748,8 @@
 				"&6Titanium&r is an incredibly strong, lightweight, corrosion resistant metal, widely used both in its relatively pure form and as part of alloys."
 				""
 				"It is the &5EV&r hull material."
+				""
+				"You've probably been in &6HV&r for some time, now, but it's time to move on!"
 			]
 			id: "36A1B71C1A6304D4"
 			shape: "gear"
@@ -739,7 +764,15 @@
 			y: -9.0d
 		}
 		{
+			description: [
+				"If you're &ostill&r trying to use steam for power, you can use the single-block &6HV&r &2steam turbines&r, or you can build a multi-block &2large steam turbine&r."
+				""
+				"The primary advantage to running the multiblock is the ability to use better &9rotor holders&r and &6turbine&r materials as you progress. These can provide power output buffs and steam efficiency buffs, which can extend the viability of steam by increasing its effective energy density."
+				""
+				"If you're interested in turbines, you might want to consider shifting to &2gas turbines&r and pursuing the &2large gas turbine&r in the next tier."
+			]
 			id: "016D0FF88A3A9DE8"
+			subtitle: "Haven't you had enough"
 			tasks: [{
 				id: "6D9E6C2AC74218FA"
 				item: "gtceu:steam_large_turbine"
@@ -887,6 +920,11 @@
 		}
 		{
 			dependencies: ["0CBB99D3A3A62D8F"]
+			description: [
+				"An upgrade on the basic &eelectric jetpack&r, the &9advanced electric jetpack&r loses less altitude in hover mode and holds more power.  It also uses more power."
+				""
+				"It might be a good idea to keep a few &cenergium crystals&r on circulation in a &2battery buffer&r somewhere.  &3Sneak-click&r with a crystal in your hand to activate discharge mode, which will charge all energy using items in your inventory."
+			]
 			id: "7B660D975D9D98C2"
 			tasks: [{
 				id: "18D06A1D5E5FAC4E"
@@ -930,6 +968,13 @@
 		}
 		{
 			dependencies: ["6BBECEEDC4DD2B56"]
+			description: [
+				"&7Nitrobenzene&r is the end of the rather short &7benzene&r line of gas turbine fuels."
+				""
+				"It's much more energy dense than &ecetane-boosted diesel&r, but it requires 3x more &enitration mixture&r per bucket."
+				""
+				"This will easily power your base through &6HV&r and into &5EV&r."
+			]
 			id: "3F4A0B22F5740A63"
 			tasks: [{
 				id: "336BEAE0C397FC79"
