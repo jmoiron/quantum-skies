@@ -546,6 +546,15 @@
 		}
 		{
 			dependencies: ["77C2A1FC094A857F"]
+			description: [
+				"The &9pattern provider&r is the primary component of your auto-crafting system."
+				""
+				"Put &aconfigured patterns&r in its inventory, and it will supply adjacent blocks with the items in that pattern when autocrafting is requested."
+				""
+				"Place it next to a &2molecular assembler&r for crafting table, smithing, etc. crafts, and next to a &2GregTech machine&r to supply that machin with materials for producing items."
+				""
+				"The &9pattern provider&r also has an inventory to return items to the system. Configure your machines to auto-output back into the provider &eand&r allow inputs through its output."
+			]
 			id: "794C0AF8BCA7782D"
 			tasks: [{
 				id: "62ECFD49554618E3"
@@ -609,7 +618,7 @@
 				""
 				"This quest line is here to illustrate the altered requirements for progression, and to expose some of the new items in &2Extended AE2&r that players of earlier versions might not be familiar with."
 			]
-			icon: "gtceu:crafting_table_cover"
+			icon: "ae2:16k_crafting_storage"
 			id: "488D96D177C6E487"
 			min_width: 275
 			shape: "circle"
@@ -833,6 +842,102 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Modern &2AE2&r fluid storage is very flexible and channel efficient."
+				""
+				"Each cell can hold up to 18 different fluids, with a cost of 8 bytes per type and 8 buckets per byte. "
+				""
+				"A &91K fluid cell&r hold 8128 buckets of a single fluid, or slightly more than a &cSupertank II&r. A &9256K fluid cell&r can hold ~116K buckets of 18 fluids."
+			]
+			id: "6ECF87409008C1B5"
+			tasks: [
+				{
+					id: "7B90A44A57E57D4F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:fluid_storage_cell_1k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:fluid_storage_cell_4k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:fluid_storage_cell_16k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:fluid_storage_cell_64k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:fluid_storage_cell_256k"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Fluid Storage"
+					type: "item"
+				}
+				{
+					id: "0A311A74C2CE598C"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The &9equal distribution&r card is a cell upgrade that splits the cell's storage equally among all of the configured items/fluids. This prevents one thing from taking up all of the storage capacity in a configured cell."
+				""
+				"The &9overflow destruction&r card voids configured items/fluids that the cell has run out of capacity for."
+				""
+				"Combined, you can use these to create a compact storage system that can ingest a stream of items and not back up when a single item exceeds capacity."
+			]
+			id: "6E61DA31AA8E8281"
+			tasks: [
+				{
+					id: "1D9D85308688CF77"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+				{
+					id: "1C7E73FAE8C5164C"
+					item: "ae2:void_card"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The &9cell workbench&r allows you to \"partition\" ME item and fluid storage cells. This defines the items and fluids they can store, respectively."
+				""
+				"Partitioning can help you manage what goes into your ME system, and how much you want to store.  With some work, you can easily replace a wall of &csuperchests&r or &bsupertanks&r with a single drive full of cells."
+			]
+			id: "4B014638AA23884B"
+			tasks: [{
+				id: "75BAD14C1E40BACB"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -8.0d
 			y: 3.5d
 		}
 	]
