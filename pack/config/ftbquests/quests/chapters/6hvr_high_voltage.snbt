@@ -334,7 +334,13 @@
 		}
 		{
 			dependencies: ["5207A7F74C1204FC"]
+			description: [
+				"The &6Simple SoC&r, and SoC's in general, embed all of the connectivity and circuitry of a complex integrated circuit onto a single piece of silicon."
+				""
+				"This makes the end circuit much easier to produce, as it has far fewer board mounted components."
+			]
 			id: "268626C053A0F57A"
+			subtitle: "Simple System On a Chip"
 			tasks: [
 				{
 					id: "05E090032FBF3999"
@@ -484,6 +490,11 @@
 				"450C8C0AF82CB7FD"
 				"496A339808DDDF51"
 			]
+			description: [
+				"Like the previous &2laser engraver&r, but faster. Some wafers are only producible at &6HV&r."
+				""
+				"Get used to producing one of these per tier, they are very central to progression."
+			]
 			id: "18D57CCC26D52DA6"
 			tasks: [{
 				id: "6E83B34E8B3B4F49"
@@ -497,6 +508,13 @@
 			dependencies: [
 				"450C8C0AF82CB7FD"
 				"7BF3FDE52BEFC544"
+			]
+			description: [
+				"By adding some &6phosphorus&r, you can vastly increase the yield of your silicon circuit components."
+				""
+				"The &9phosphorus-doped monocrystalline silicon boule&r cuts into 32 wafers instead of 16, and each wafer produces 4 printed wafers instead of 1, making this an 8x increase in yield."
+				""
+				"Some higher-tech silicon components will need higher-tech silicon boules, so you will encounter a few more tiers."
 			]
 			id: "1FCD75FBB1AF9A5C"
 			tasks: [
@@ -606,6 +624,13 @@
 		}
 		{
 			dependencies: ["699430D161A19BBC"]
+			description: [
+				"Like many chemicals you will be producing from now on, &6nitric acid&r smells."
+				""
+				"It's used in the production of both &6tetranitromethane&r, a component in &ecetane boosted diesel&r, and as a component in &7nitrodiesel&r. Odds are, you will want to use at least one of these fuels."
+				""
+				"The &2LCR&r provides much more convenient recipes for synthesizing &6nitric acid&r, so you should probably set this up in one of them."
+			]
 			id: "63C6AF455771F032"
 			tasks: [{
 				id: "504F3B1BD2B8A7B6"
@@ -617,6 +642,11 @@
 		}
 		{
 			dependencies: ["63C6AF455771F032"]
+			description: [
+				"&6Nitration mixture&r is an important catalyst for several &2chem reactor&r recipes that you'll be needing."
+				""
+				"It's used for &7nitrobenzene&r, but also in the production of &6industrial TNT&r and &anitrochlorobenzene&r, which you will need in order to produce space age materials."
+			]
 			id: "6BBECEEDC4DD2B56"
 			tasks: [{
 				id: "34202E2855C171EF"
@@ -628,6 +658,11 @@
 		}
 		{
 			dependencies: ["63C6AF455771F032"]
+			description: [
+				"The &acetane count&r of a &ediesel fuel&r is similar to the &aoctane&r rating of a &egasoline&r."
+				""
+				"&6Tetranitromethane&r is an oxidizer used to increase the cetane count in &ediesel fuels&r, and is therefore a key component in producing &ecetane boosted diesel&r."
+			]
 			id: "273648ED9BD786F9"
 			tasks: [{
 				id: "0AB7BA91D66F5895"
@@ -718,7 +753,13 @@
 				"1FCD75FBB1AF9A5C"
 				"18D57CCC26D52DA6"
 			]
+			description: [
+				"The &6SoC&r unlocks simple, high yield &7LV&r and &bMV&r circuit recipes, but you'll need an &5EV&r &2circuit assembler&r for those."
+				""
+				"In &6HV&r, they are still valuable as a component in the extended &2pattern provider&r and &2extended interface&r."
+			]
 			id: "1845C371942ED415"
+			subtitle: "System On a Chip"
 			tasks: [
 				{
 					id: "38AC33679446228E"
@@ -837,6 +878,11 @@
 		}
 		{
 			dependencies: ["54632D8B0DABF798"]
+			description: [
+				"The &6HV&r &2cutter&r is needed to be able to cut the next tier of &9silicon boule&r as well as new chip types."
+				""
+				"You'll want to put this in your &2cleanroom&r."
+			]
 			id: "7BF3FDE52BEFC544"
 			tasks: [{
 				id: "0C2FF7EFD46E09F4"
@@ -939,6 +985,11 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"&9Blue Steel&r is a decent tool material, but it's a bit of a pain to mix up."
+				""
+				"It's main use right now is as the material for the buzzsaw in the &2mixer&r.  It's also used later in &2multiblock turbine generators&r."
+			]
 			id: "54632D8B0DABF798"
 			subtitle: "Or is it Magnum?"
 			tasks: [{
