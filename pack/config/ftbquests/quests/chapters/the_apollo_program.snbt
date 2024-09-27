@@ -30,8 +30,14 @@
 	quests: [
 		{
 			dependencies: ["174CEACF8A92FDC3"]
+			description: [
+				"The &2Vehicle Assembly Building&r, affectionately known as the &2VAB&r, is a large multiblock structure that specializes in the construction of rocketry components."
+				""
+				"For some reason, rocket components require &crocket fuel&r to construct."
+			]
 			id: "709DA8BA1D1ABC16"
 			size: 1.25d
+			subtitle: "It's a VAB"
 			tasks: [{
 				id: "4663DEC8AB0AD1E0"
 				item: "gtceu:vehicle_assembly_building"
@@ -44,6 +50,11 @@
 			dependencies: [
 				"709DA8BA1D1ABC16"
 				"0F62B838EB8BE9EF"
+			]
+			description: [
+				"&6Rocket Engines&r are something else; to get to space, you need &9rocket motors&r. Just don't think too hard about that terminology."
+				""
+				"You will need 5 &9basic rocket motors&r to get to the moon. Going farther afield will require better motors."
 			]
 			id: "6466AB6B2D4F2D1F"
 			tasks: [{
@@ -58,6 +69,11 @@
 			dependencies: [
 				"709DA8BA1D1ABC16"
 				"0F62B838EB8BE9EF"
+			]
+			description: [
+				"The &9basic fuel tank&r is capable of holding 5000mb of fuel."
+				""
+				"You'll need 10000mb of fuel to reach the moon."
 			]
 			id: "43D18A6E7D9DDD43"
 			tasks: [{
@@ -151,6 +167,7 @@
 		}
 		{
 			dependencies: ["709DA8BA1D1ABC16"]
+			description: ["If you want to sit on your rocket, you're going to need a &6seat&r."]
 			id: "004CEF5B489EB762"
 			tasks: [{
 				id: "27CC505510101DF8"
@@ -163,7 +180,7 @@
 		{
 			dependencies: ["500F47921DD51C83"]
 			description: [
-				"If you've enjoyed your time fiddling with your machines, you probably wouldn't want to &eactually&r get your hands dirty mining."
+				"If you've enjoyed your time fiddling with your machines, you might not want to &eget your hands dirty&r mining."
 				""
 				"You can run one of these single block miners over an area dependent on tier, and power them with a &9battery buffer&r or give them their own generators."
 			]
@@ -233,6 +250,13 @@
 			dependencies: [
 				"6A9B308A036AB81B"
 				"084B000F8254AFA9"
+			]
+			description: [
+				"&6Aramids&r are a class of synthetic fibers, the most famous of which is better known by the DuPont brand name &akevlar&r."
+				""
+				"As you'd expect, it's a very strong and lightweight material suitable for making space suits."
+				""
+				"You &edo not need this in bulk&r;  consider the long chemical chain here a good opportunity to pursue on demand automation offered by &2AE2&r."
 			]
 			id: "7C1A3931EA551693"
 			tasks: [{
@@ -640,6 +664,13 @@
 			y: -10.0d
 		}
 		{
+			description: [
+				"The first step in any &6space program&r is... well, launching satellites."
+				""
+				"But you're going to have to go out and get your hands dirty if you want to continue."
+				""
+				"Preliminary scans show that the moon is rich in &crutile&r and &eplatinum&r, both of which will be key in continuing your progress through your industrialization."
+			]
 			icon: "gcyr:gps_satellite"
 			id: "41AD0ABABE52A4BF"
 			shape: "hexagon"
