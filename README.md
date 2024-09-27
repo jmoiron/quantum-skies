@@ -8,9 +8,9 @@ Much of the later QoL is oriented towards power/item/fluid logistics. Flux Netwo
 
 To balance some of this out, there are no storage drawers.
 
-GTCEu modern is still under some heavy development and ~15% of features from GTCEu 1.12 have not yet been ported (Feb 2024)
+GTCEu modern is still under some heavy development and major apects of the later game progression may still see some changes.
 
-Quantum Skies is playable to IV, with a tutorial-style quest book mapping out progress through EV.
+Quantum Skies is playable to UV, with a tutorial-style quest book mapping out progress through ZPM.
 
 Inspiration:
 
