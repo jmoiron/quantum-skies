@@ -214,10 +214,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"5509E27BF2B19A91"
-				"6DD40F2BC78BCD0C"
-			]
+			dependencies: ["6DD40F2BC78BCD0C"]
 			description: [
 				"&9Fiberglass&r is made by suspending &6silicon dioxide&r in a binder."
 				""

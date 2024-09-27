@@ -15,6 +15,7 @@
     "gtceu.industrial_sieve": "Heavy Sieving",
     "gtceu.singleblock_sieve": "Sieving",
     "gtceu.vehicle_assembly_building": "VAB",
+    "qs.vab.tooltip": "Solid Steel Machine Casings are §cdeprecated§r; use Solid Machine Casings",
     "gtceu.greenhouse": "Greenhouse",
 
     "material.gtceu.energistic_steel": "Energistic Steel",

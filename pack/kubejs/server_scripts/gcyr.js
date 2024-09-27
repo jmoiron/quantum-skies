@@ -53,6 +53,16 @@ ServerEvents.recipes(event => {
         }
     );
 
+    event.remove({output: "gcyr:airlock_door"});
+    greg.assembler("airlock_door")
+        .itemInputs("minecraft:iron_door")
+        .itemInputs("3x gtceu:silicone_rubber_plate")
+        .itemInputs("2x gtceu:stainless_steel_ring")
+        .inputFluids("gtceu:tetrafluoroethylene 288")
+        .itemOutputs("gcyr:airlock_door")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(200);
+
     ["gcyr:space_fabric", "gcyr:space_upgrade_smithing_template"].forEach(item => {
         event.replaceInput({output: item},
             "gtceu:polybenzimidazole_foil",
@@ -96,9 +106,9 @@ ServerEvents.recipes(event => {
     greg.chemical_bath("fiberglass_glue")
         .itemInputs("2x gtceu:silicon_dioxide_dust")
         .inputFluids("gtceu:glue 500")
-        .outputFluids("gcyr:fiberglass 25")
+        .outputFluids("gcyr:fiberglass 50")
         .EUt(480)
-        .duration(800);
+        .duration(300);
 
     event.remove({id: "gtceu:centrifuge/brominated_brine"});
     greg.centrifuge("brominated_brine_hv")
