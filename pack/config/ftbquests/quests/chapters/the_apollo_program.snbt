@@ -114,6 +114,11 @@
 		}
 		{
 			dependencies: ["4981CA1F68C8FCC2"]
+			description: [
+				"In order to survive on other terrestrial worlds that lack a breathable atmosphere, you will need a &9space suit&r to provide a safe and breathable atmosphere for yourself."
+				""
+				"The chestplate must be filled with &boxygen&r for you to be able to breathe. For now, you can use it like a cell to extract oxygen from fluid storage directly."
+			]
 			id: "1C3AE919FB651E93"
 			size: 1.25d
 			tasks: [
@@ -221,6 +226,11 @@
 				"2C1CDE93A0BDB91C"
 				"091D155C79F64B13"
 			]
+			description: [
+				"What material could be better for a &6space suit&r than &9space fabric&r?"
+				""
+				"You will need 20 space fabric for a full suit."
+			]
 			id: "4981CA1F68C8FCC2"
 			tasks: [{
 				id: "6F477135EA6E47BE"
@@ -254,11 +264,13 @@
 			description: [
 				"&6Aramids&r are a class of synthetic fibers, the most famous of which is better known by the DuPont brand name &akevlar&r."
 				""
-				"As you'd expect, it's a very strong and lightweight material suitable for making space suits."
+				"As you'd expect, this is a very strong and lightweight material suitable for making space suits."
 				""
 				"You &edo not need this in bulk&r;  consider the long chemical chain here a good opportunity to pursue on demand automation offered by &2AE2&r."
 			]
 			id: "7C1A3931EA551693"
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "74DE9C078B1FB297"
 				item: "gcyr:para_aramid_ingot"

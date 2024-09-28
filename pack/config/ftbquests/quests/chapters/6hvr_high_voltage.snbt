@@ -172,6 +172,11 @@
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
+			description: [
+				"The &6HV&r &2chemical bath&r is the first tier capable of dying &9lenses&r."
+				""
+				"It also allows you to produce &aeyes of ender&r."
+			]
 			id: "5207A7F74C1204FC"
 			tasks: [{
 				id: "60B438D5B9150717"
