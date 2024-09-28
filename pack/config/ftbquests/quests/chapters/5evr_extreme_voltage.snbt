@@ -222,6 +222,11 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"The &2cracker&r is a special multiblock that can crack different oil fuels with &7steam&r or &9hydrogen&r. This is a central part of building up hydrocarbon byproducts for &cpetrochem&r."
+				""
+				"You may have used a &2chem reactor&r to crack &elight fuel&r to produce &7ethylene&r, but the &2cracker&r has a 100% yield instead of a 50% yield."
+			]
 			id: "219CC94D362342E3"
 			progression_mode: "flexible"
 			size: 1.25d
