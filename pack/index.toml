@@ -22,7 +22,7 @@ hash = "f24f7cede066400c657af13b1aff84e4920ac531bf24ab18cff1ef32fff72835"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "e309110397629770f5080b9ba81ab26e9476250c4372a051ece7c13557370f29"
+hash = "4b1bdf786174fe5e1af9662c56186f4dbc845fb5ae438000d00047068d257570"
 
 [[files]]
 file = "config/clickmachine.cfg"
@@ -126,7 +126,7 @@ hash = "fe721aff5616dfae3ebd52e696a54e79b37995e7cc293435260a0a86be8ffb73"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "fb27244243311978831c73ccf1b1dcae066fedc761746c53f34dfee90b48859b"
+hash = "0de2e58c3ac77fa2083330c1c80f5bc0750935fbb37e97cc51c2cb9c87027440"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -170,7 +170,7 @@ hash = "ac1b00cc9b9ad27807abe10725d24cb1df77713cf29ad4656290a5a38783a6bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "fcbb03201e5aeb05755c91f20bb32ff0ca1ebb00e20a56220bacd39153fd8f92"
+hash = "37a448449e79aaa5d12f08320730fb85956df5120bc74b4921eb86e08f32a83e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -178,7 +178,7 @@ hash = "b7457b53daa2936298d8e70430397571971a5669273218835116330680959fff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "9548c62db83ca36f0e3bac98364228c4f45b1831a08366de41464af243a1ab93"
+hash = "6057b3ef4dfd3d34acd1edcd285a07b0385090fc9d61d112d83316ac22180356"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
