@@ -1077,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
-hash = "a2cc84af24aaa910e94d78412404a42fdc42602f29493d59f9e0ea51eecad882"
+hash = "6f4e33ca8489f813beb2c55aabe3af8fd4a9992121049ea5fc62a28877a64f83"
 metafile = true
 
 [[files]]
