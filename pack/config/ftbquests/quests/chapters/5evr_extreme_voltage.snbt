@@ -34,8 +34,15 @@
 		{
 			id: "608ED99C280855AC"
 			linked_quest: "3F4A0B22F5740A63"
+			title: "Gas Turbine Fuel"
 			x: -7.5d
 			y: -2.5d
+		}
+		{
+			id: "17934B9B7D7E166C"
+			linked_quest: "7BE3F64271467875"
+			x: 6.0d
+			y: -5.5d
 		}
 	]
 	quests: [
@@ -51,7 +58,7 @@
 			]
 			id: "0220FF8067094F9D"
 			min_width: 250
-			size: 1.0d
+			size: 1.25d
 			subtitle: "EV Petro Power"
 			tasks: [{
 				id: "38B272D27E4605C2"
@@ -59,7 +66,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -73,14 +80,14 @@
 			]
 			id: "2DD60B30DB8B3F71"
 			min_width: 250
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "7B5C20CD5897447F"
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -210,15 +217,15 @@
 				"But anything is possible if you have &eimagination&r."
 			]
 			id: "045D6DAA516B666B"
-			size: 1.0d
+			size: 0.75d
 			subtitle: "Why would you make this"
 			tasks: [{
 				id: "7238B29065036C32"
 				item: "gtceu:titanium_large_boiler"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -228,14 +235,14 @@
 			]
 			id: "219CC94D362342E3"
 			progression_mode: "flexible"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "5AD58EC8D14A6EB4"
 				item: "gtceu:cracker"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -264,8 +271,8 @@
 				type: "checkmark"
 			}]
 			title: "Extremophile"
-			x: -7.5d
-			y: 2.75d
+			x: -7.464285714285708d
+			y: 1.1875d
 		}
 		{
 			dependencies: ["32F8FA638CAB88F5"]
@@ -280,7 +287,11 @@
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
-			description: ["&9Flux Dust&r is ... not obtainable until a way to generate bedrock dust is made."]
+			description: [
+				"&9Flux Dust&r is ... not obtainable until a way to generate bedrock dust is made."
+				""
+				"Expect this to be moved to &dLuV&r or later."
+			]
 			id: "4197035F312E58AC"
 			tasks: [{
 				id: "36D4999EE0F87BFA"
@@ -409,6 +420,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7BE3F64271467875"]
 			id: "24A5214524BE2D2C"
 			tasks: [{
 				id: "14D5443F367E19FA"
@@ -601,6 +613,13 @@
 				"6186F0DF25244FF2"
 				"5337584F0630F308"
 			]
+			description: [
+				"You can synthesize &dradon&r by reacting &cplutonium 239&r and &2uranium 238&r together with some &7air&r."
+				""
+				"The &cplutonium&r will recycle, but you'll be trading the &2uranium&r for &dradon&r."
+				""
+				"Just... don't ask why."
+			]
 			id: "4ECF13D81CF3AF9C"
 			tasks: [{
 				id: "49CE5C002A87C114"
@@ -672,11 +691,18 @@
 		{
 			dependencies: ["1FCD75FBB1AF9A5C"]
 			id: "77EBE3C3F4F85BA7"
-			tasks: [{
-				id: "1951A0EE36DC59F7"
-				item: "gtceu:nor_memory_chip"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1951A0EE36DC59F7"
+					item: "gtceu:nor_memory_chip"
+					type: "item"
+				}
+				{
+					id: "5D7E63E5BF467519"
+					item: "gtceu:pink_glass_lens"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.0d
 		}
@@ -777,30 +803,30 @@
 				"Instead, look to the &bCracker&r and &bPyrolyse Oven&r outputs, which produce a multitude of useful chemicals that you will need in upcoming plastic and rubber compounds."
 			]
 			id: "1D03253419ED0F68"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "The ultimate in refinement"
 			tasks: [{
 				id: "4F719B00202A1514"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.5d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			description: [
-				"Although they are mostly less energy dense than &6High Octane Gasoline&r, the &9rocket fuels&r you have been producing can be burned in a &2Rocket Fuel Engine&r.  "
+				"Though mostly less energy dense than &6High Octane Gasoline&r, &9rocket fuels&r can be turned into power with a &2rocket fuel engine&r."
 				""
-				"The &2Rocket Fuel Engine's&r start off in &5EV&r with 80% fuel efficiency, dropping a further 10% (additive) for each tier, so they use a &elot of fuel&r."
+				"The &2rocket fuel engine's&r start off in &5EV&r with 80% fuel efficiency, dropping to 70% in &1IV&r and 60% in &dLuV&r."
 				""
-				"Considering that the &2Large Combustion Engine&r gets you 150% efficiency with added &6oxygen&r, you might wonder why you'd bother."
+				"Considering that both the &2LCE&r and &2large gas turbines&r can give you &o&eincreased fuel efficiency&r, you might be wondering why you'd bother with rocket fuel."
 				""
-				"&2Rocket Engines&r being single block generators, they are useful for compact setups and for off-world infrastructure. They're also relatively cheap, materials wise."
+				"The primary benefit to &2rocket engines&r is that they're single-block generators, so they can create compact setups and require relatively low material investment. You also need most of the &9rocket fuels&r for progression, so you'll have to generate some of them anyway."
 				""
-				"Because they require &6tungstensteel&r, you'll probably only be able to start using them toward the end of &5EV&r."
+				"Because they require &6tungstensteel&r, you'll probably only be able to start using them until the end of &5EV&r."
 			]
 			id: "563D72C9ADE972F7"
-			size: 1.0d
+			size: 1.25d
 			subtitle: "Little Engine That Could"
 			tasks: [{
 				id: "5B0E9B0E6BC13F9E"
@@ -808,7 +834,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4EC10287171A5352"]
@@ -825,7 +851,7 @@
 			description: [
 				"The &6Lanthanides&r are a group of metals with similar properties, and like the &9Platinum Group&r, they tend to be found together.  For &6lanthanides&6, the source ores are &6Monazite&r and &6Bastnasite&r."
 				""
-				"You will need to progress down the &6Monazite&r chain in order to produce your first &aUranium 235&r."
+				"You will need to progress down the &6Monazite&r chain in order to produce your first &2Uranium 238&r and &aUranium 235&r."
 			]
 			icon: "gtceu:monazite_gem"
 			id: "325CF49F37018A77"
@@ -879,8 +905,51 @@
 					type: "item"
 				}
 			]
+			title: "EV Mechanical Components"
 			x: -4.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["52AD249F52432AF5"]
+			description: [
+				"&9Rocket fuels&r come in 4 tiers, which fuel twice as energy dense as the last."
+				""
+				"&cRP-1 Mixed fuel&r is needed for &6basic&r rocket parts, and has ~1.5m EU/b."
+				""
+				"&dDense hydrazine mixed fuel&r is needed for &6advanced&r rocket parts, and has ~3m EU/b."
+				""
+				"&5Methylhydrazine nitrate mixed fuel&r is needed for &6elite&r rocket parts, and has ~6m EU/b. "
+				""
+				"&aUDMH rocket fuel&r is a great power source at ~12m EU/b."
+				""
+				"The last two tiers unlock with &9tungstensteel&r, but you won't be able to build &2rocket engines&r until you have it."
+			]
+			id: "49CC1AC92227C24E"
+			tasks: [
+				{
+					id: "5E42DC3659551185"
+					item: "gtceu:rp_1_mixed_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "58E97EA69B89B367"
+					item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "28298A7E5C28FC53"
+					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "004FE8228F8706C5"
+					item: "gtceu:udmh_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Rocket Fuels"
+			x: -9.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]

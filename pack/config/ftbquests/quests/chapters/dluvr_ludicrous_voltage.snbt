@@ -83,6 +83,12 @@
 			x: 8.5d
 			y: 2.5d
 		}
+		{
+			id: "2BD98D7D95B937E5"
+			linked_quest: "67A5562E1497381B"
+			x: 5.5d
+			y: 2.5d
+		}
 	]
 	quests: [
 		{
@@ -210,7 +216,7 @@
 				"0919ED8ED9FAD4A4"
 				"73FCD28D902AD2D1"
 				"58E3546712717A58"
-				"0E9190102EAB9CE2"
+				"67A5562E1497381B"
 			]
 			id: "188B86167DB88BA6"
 			shape: "gear"
@@ -365,20 +371,10 @@
 			y: -0.5d
 		}
 		{
-			id: "0E9190102EAB9CE2"
-			tasks: [{
-				id: "0151D23AA54838F1"
-				item: "gtceu:trinium_ingot"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
 			dependencies: [
-				"0E9190102EAB9CE2"
 				"73FCD28D902AD2D1"
 				"1190CC62E02B9FF6"
+				"67A5562E1497381B"
 			]
 			id: "43ACE5BC545C7C81"
 			shape: "gear"
