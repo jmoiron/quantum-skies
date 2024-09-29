@@ -1,6 +1,14 @@
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
+    // remove unintended route to uranium 238
+    event.remove({id: "gtceu:centrifuge/plutonium_239_separation"});
+    greg.centrifuge("plutonium_239_separation_modified")
+        .itemInputs("gtceu:plutonium_dust")
+        .chancedOutput("gtceu:plutonium_241_dust", 2000, 300)
+        .EUt(320)
+        .duration(80*20);
+
     // nether star support
     greg.mixer("mix_planetary_nether_star_dust")
         .itemInputs("gtceu:nether_quartz_dust")

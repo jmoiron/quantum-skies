@@ -68,6 +68,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     fluid("poly_alpha_olefin_mud", 0x667788);
     fluid("hot_poly_alpha_olefin_mud", 0x887788);
 
+    fluid("nitrogen_tetroxide", 0x9C9C04);
+
     // catalyst for PAO production (chem plant)
     event.create("boron_trifluoride")
         .gas()
@@ -76,7 +78,6 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0xE6FFE5);
 
     // add polyvinyl butyral rods
-
     GTMaterials.PolyvinylButyral.addFlags(GTMaterialFlags.GENERATE_ROD);
 
 })

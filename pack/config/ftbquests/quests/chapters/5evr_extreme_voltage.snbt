@@ -16,8 +16,7 @@
 		{
 			id: "3E863D5F73BA7C19"
 			linked_quest: "763828CE2BABADAF"
-			size: 1.25d
-			x: -6.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -35,7 +34,7 @@
 		{
 			id: "608ED99C280855AC"
 			linked_quest: "3F4A0B22F5740A63"
-			x: -9.0d
+			x: -7.5d
 			y: -2.5d
 		}
 	]
@@ -52,14 +51,14 @@
 			]
 			id: "0220FF8067094F9D"
 			min_width: 250
-			size: 1.25d
+			size: 1.0d
 			subtitle: "EV Petro Power"
 			tasks: [{
 				id: "38B272D27E4605C2"
 				item: "gtceu:large_combustion_engine"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -74,13 +73,13 @@
 			]
 			id: "2DD60B30DB8B3F71"
 			min_width: 250
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "7B5C20CD5897447F"
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: 0.5d
 		}
 		{
@@ -94,7 +93,7 @@
 				item: "gtceu:gasoline_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -112,7 +111,7 @@
 				item: "gtceu:high_octane_gasoline_bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -4.0d
 		}
 		{
@@ -191,7 +190,7 @@
 				item: "gtceu:acetone_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -201,7 +200,7 @@
 				item: "gtceu:phenol_bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -211,15 +210,15 @@
 				"But anything is possible if you have &eimagination&r."
 			]
 			id: "045D6DAA516B666B"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "Why would you make this"
 			tasks: [{
 				id: "7238B29065036C32"
 				item: "gtceu:titanium_large_boiler"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: -4.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -229,14 +228,14 @@
 			]
 			id: "219CC94D362342E3"
 			progression_mode: "flexible"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "5AD58EC8D14A6EB4"
 				item: "gtceu:cracker"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -371,7 +370,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["32F8FA638CAB88F5"]
@@ -396,7 +395,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["32F8FA638CAB88F5"]
@@ -433,7 +432,7 @@
 			}]
 			title: "Tungsten Processing Line"
 			x: 6.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5509E27BF2B19A91"]
@@ -523,6 +522,11 @@
 					item: "gtceu:mpic_chip"
 					type: "item"
 				}
+				{
+					id: "0C7B553AC2E45461"
+					item: "gtceu:brown_glass_lens"
+					type: "item"
+				}
 			]
 			x: 3.0d
 			y: -2.5d
@@ -582,6 +586,7 @@
 		}
 		{
 			dependencies: ["10163F0E75A4227C"]
+			description: ["&cPlutonium&r is available by &2sieving&r moon dust."]
 			id: "6186F0DF25244FF2"
 			tasks: [{
 				id: "272A6C1A24A22028"
@@ -772,15 +777,15 @@
 				"Instead, look to the &bCracker&r and &bPyrolyse Oven&r outputs, which produce a multitude of useful chemicals that you will need in upcoming plastic and rubber compounds."
 			]
 			id: "1D03253419ED0F68"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "The ultimate in refinement"
 			tasks: [{
 				id: "4F719B00202A1514"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -791,16 +796,18 @@
 				"Considering that the &2Large Combustion Engine&r gets you 150% efficiency with added &6oxygen&r, you might wonder why you'd bother."
 				""
 				"&2Rocket Engines&r being single block generators, they are useful for compact setups and for off-world infrastructure. They're also relatively cheap, materials wise."
+				""
+				"Because they require &6tungstensteel&r, you'll probably only be able to start using them toward the end of &5EV&r."
 			]
 			id: "563D72C9ADE972F7"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Little Engine That Could"
 			tasks: [{
 				id: "5B0E9B0E6BC13F9E"
 				item: "gtnn:ev_rocket_engine"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -831,6 +838,49 @@
 			}]
 			x: -3.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["7418293A931E9DFC"]
+			description: [
+				"Time for more &o&efun&r."
+				""
+				"Starting at &5EV&r, you will need an additional &7plastic&r component to insulate your wires. For &9aluminium cables&r, that plastic is &6PVC&r."
+				""
+				"&6Steel&r is not magnetic enough for &5EV&r &9motors&r, so you will need &6neodymium&r, which requires at least an &6HV&r &2polarizer&r to magnetize."
+				""
+				"You can get &6neodymium&r through the &cbastnasite lanthanides line&r, but it's also available as a basic byproduct of both &6bastnasite&r and &6monazite&r ore, which you can get by sifting some moon dust."
+			]
+			id: "5F8A3500AF49AF0C"
+			subtitle: "Celebrate good times"
+			tasks: [
+				{
+					id: "62562F8BB71408EA"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "14BC01FA229D36C9"
+					item: "gtceu:ev_electric_piston"
+					type: "item"
+				}
+				{
+					id: "0B9C2C516C83B7ED"
+					item: "gtceu:ev_electric_pump"
+					type: "item"
+				}
+				{
+					id: "77EF6260867925D5"
+					item: "gtceu:ev_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "3A768701F82A0C1C"
+					item: "gtceu:ev_robot_arm"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Multiblock Power, Tungsten and &5Extreme Voltage&r"]
