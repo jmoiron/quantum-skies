@@ -215,6 +215,11 @@ ServerEvents.recipes(event => {
                 ["gtceu:crushed_amethyst_ore", 0.20],
                 ["gtceu:crushed_opal_ore", 0.20],
             ],
+            "exnihilosequentia:crushed_blackstone": [
+                ["gtceu:crushed_wulfenite_ore", 0.25],
+                ["gtceu:crushed_powellite_ore", 0.20],
+                ["gtceu:crushed_molybdenite_ore", 0.20],
+            ],
         },
         "diamond": {},
         "netherite": {}

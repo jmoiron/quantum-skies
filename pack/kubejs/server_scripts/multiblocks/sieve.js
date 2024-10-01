@@ -63,6 +63,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:crushed_glauconite_sand_ore", 2000, 1000)
         .chancedOutput("gtceu:crushed_electrotine_ore", 2000, 1000)
         .chancedOutput("gtceu:crushed_saltpeter_ore", 2000, 1000)
+        .chancedOutput("gtceu:crushed_wulfenite_ore", 2000, 1000)
         .notConsumable("kubejs:aluminium_mesh")
         .EUt(GTValues.VA[GTValues.MV])
         .duration(100);
