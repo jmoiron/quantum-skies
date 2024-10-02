@@ -62,7 +62,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
 
 [[files]]
 file = "config/emi.css"
@@ -322,7 +322,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8622db7cc1677d2baab337eb7178453162d652592b7d4f66d2f2ac6685cbcd29"
+hash = "1c9f3a0f1f97d39818ddaa7b0b6dcf52bb7c59008242d6e226ffe02376f5f6cf"
 
 [[files]]
 file = "config/panorama.json"
@@ -362,7 +362,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "bbf6181060ea8703f4d996f5c9c6ef39c3d598bcbea3b9774b650f2bdfe52caf"
+hash = "379f641f31f965bee7b4585cbb54cce5186182f1a22d9d3c286bff5c6130c5d6"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -530,7 +530,7 @@ hash = "ac4037e11f39ceabbce98d630cd37e2852a5213ee30e222230ee3a71859098a7"
 
 [[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/jupiter_orbit.json"
-hash = "1339360383e3784f3ce180043822a2ddf3d1d7ee844c164a03a57b83b95ea56b"
+hash = "9970a7261784b902b0154e2adb290f385f46cf0280d4dd8a1e7590493bcc6a77"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
@@ -555,6 +555,18 @@ hash = "fd8035eeb86c87757faf2d2f83a0f746c428d98a8b411624fa4e18d3b2233e63"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_mesh.png"
 hash = "b87b428fe12ada7d455de6aba853cfb67c239d5fa2014a8c7106b5721d932a6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/sky/callisto.png"
+hash = "55bf95771aa5f33251fc0e20bea4dca83acd9822f872d571fda0b33515a57f69"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/sky/europa.png"
+hash = "2c1f7e136be9d4c5ee15585bb3656ad517498267bae8e2abb82790c74963107e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/sky/ganymede.png"
+hash = "c0433ac7a6b0af2740afc0fefab68ece9f7a5782dfec11746a9fbeaf3dad6679"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/sky/io.png"
@@ -1230,6 +1242,11 @@ metafile = true
 [[files]]
 file = "mods/mod-name-tooltip.pw.toml"
 hash = "2589a0b54b2e2a232b80373a025ed13d6eea4fbc70cf8c894edacf0a3d958b74"
+metafile = true
+
+[[files]]
+file = "mods/modern-ae2-additions.pw.toml"
+hash = "7864f0dda9fa1ca7b0c22ab276ff18a3c1434ae369e5e9b0cf797cc085138bda"
 metafile = true
 
 [[files]]
