@@ -5,6 +5,14 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/ae2/client.json"
+hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "5a8ecae0292541666f6c3c68964f3fcf8bd0fe97c62208ae122dfc2042984f8b"
+
+[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -314,7 +322,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b7fb2dc0af7ee5850a3016115974b6080b6db5131cb4a25e72c391b39dc4e325"
+hash = "ea8ca0cbee7026b3dcc3d67cf6217bcacb5e473488db17335ef57aa2a938a36f"
 
 [[files]]
 file = "config/panorama.json"
@@ -354,7 +362,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "93f9e2db1326608b2e0c9162e0f3cc2ed1f05dcae8ba9a8ed30bf588af0a28a1"
+hash = "1b045538adf72226e41406da6684cdc7e49d1bb957323b74e3e6b104303ab8e9"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -798,7 +806,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "ab12d3362b2733e35c32f074a2a6638c50effe3d838ecdca39df6ca7dffea19a"
+hash = "81044ecf2c47e34e524d284c89d3d5647932e488d76d10b538c87ad047503759"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
@@ -1133,7 +1141,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
-hash = "6f4e33ca8489f813beb2c55aabe3af8fd4a9992121049ea5fc62a28877a64f83"
+hash = "1f33cfe263882df6d3762e5e57336ebd8373c62207ae82b77b96c24a3cad01ce"
 metafile = true
 
 [[files]]
@@ -1168,7 +1176,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "50d0d75c988e3dc115ba552895eb7b4dab51c900310e4b651f90341e94741940"
+hash = "82a4731b5389478bf8e775ba898012644a2a4c02982424a78241a38ec1c58911"
 metafile = true
 
 [[files]]
@@ -1178,7 +1186,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
+hash = "2bdf7d8e2df4cefd14fcf2934eb8affb4809db3826094beec66e5d541e12a590"
 metafile = true
 
 [[files]]

@@ -14,6 +14,22 @@ ServerEvents.recipes(event => {
         // sheldonite is disabled by gtec
     ]
 
+    // remove pre-moon sources of platinum
+    event.remove({id: "gtceu:chemical_reactor/pgs_from_pentlandite"})
+    event.remove({id: "gtceu:chemical_reactor/pgs_from_tetrahedrite"})
+    event.remove({id: "gtceu:chemical_reactor/pgs_from_chalcocite"})
+    event.remove({id: "gtceu:chemical_reactor/pgs_from_bornite"})
+    event.remove({id: "gtceu:chemical_reactor/pgs_from_chalcopyrite"})
+
+    // remove pre-mars/venus source of tungsten
+    event.remove({id: "gtceu:macerator/macerate_end_stone"})
+    greg.macerator("macerate_end_stone_fixed")
+        .itemInputs("minecraft:end_stone")
+        .itemOutputs("gtceu:endstone_dust")
+        .EUt(2)
+        .duration(150)
+
+
     // modify pre-moon source of titanium to be EV (post-titanium)
     // also, nerf as a source of titanium
     event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_monazite"});

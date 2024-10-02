@@ -1,13 +1,13 @@
 name = "Gregtech: Extended Chemistry Extended"
-filename = "gtec-1.20.1-0.1.2.jar"
+filename = "gtec-1.20.1-0.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5c76226f379c811256ad6c6a85606f236a3829d7"
+hash = "4c6a311977c3f509ef98cc34f09b905d6e4406b2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5765440
+file-id = 5775161
 project-id = 1088948
