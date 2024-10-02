@@ -18,11 +18,11 @@ server:
 
   # Damage to overheated entities per tick
   # Default: 2.0
-  heatDamage: 2.0
+  heatDamage: 0.0
 
   # Damage to freezing entities per tick.
   # Default: 2.0
-  freezeDamage: 2.0
+  freezeDamage: 0.0
 
   # Maximum distance the oxygen spreader can spread oxygen in.
   # Default: 128
@@ -61,7 +61,7 @@ rocket:
 
   # Do rockets explode if landing is executed improperly?
   # Default: true.
-  doCrashLandingExplosion: true
+  doCrashLandingExplosion: false
 
 client:
   # Offset of the oxygen bar from the left side of the screen.
@@ -71,4 +71,3 @@ client:
   # Offset of the oxygen bar from the bottom of the screen.
   # Default: 32
   oxygenBarY: 32
-

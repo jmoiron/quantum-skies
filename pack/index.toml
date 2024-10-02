@@ -806,7 +806,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "81044ecf2c47e34e524d284c89d3d5647932e488d76d10b538c87ad047503759"
+hash = "d607e9d03a6df74adb2a388fa411635603072894c34713cbf9f5ea336f618776"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
