@@ -29,6 +29,16 @@ ServerEvents.recipes(event => {
         .EUt(2)
         .duration(150)
 
+    // FIXME: add to gtec and then remove from here:
+    greg.electric_blast_furnace("platinum_residue_full_dust")
+        .itemInputs("2x gtec:platinum_residue_dust")
+        .itemInputs("gtec:potassium_disulfate_dust")
+        .circuit(3)
+        .itemOutputs("2x gtec:leach_residue_dust")
+        .outputFluids("gtceu:rhodium_sulfate 720")
+        .blastFurnaceTemp(775)
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(400);
 
     // modify pre-moon source of titanium to be EV (post-titanium)
     // also, nerf as a source of titanium
