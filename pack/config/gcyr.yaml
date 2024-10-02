@@ -71,3 +71,4 @@ client:
   # Offset of the oxygen bar from the bottom of the screen.
   # Default: 32
   oxygenBarY: 32
+

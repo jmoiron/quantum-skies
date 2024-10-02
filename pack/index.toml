@@ -238,7 +238,7 @@ hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
 file = "config/gcyr.yaml"
-hash = "b27940c2bba378f22981d4db07801364d2f26d9ba1037973f61b5ace634466db"
+hash = "692765f425b906c18766ca28800d64c0693759fd1a72e94c84c2b9670d3bfd93"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -322,7 +322,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ea8ca0cbee7026b3dcc3d67cf6217bcacb5e473488db17335ef57aa2a938a36f"
+hash = "8622db7cc1677d2baab337eb7178453162d652592b7d4f66d2f2ac6685cbcd29"
 
 [[files]]
 file = "config/panorama.json"
@@ -362,7 +362,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "1b045538adf72226e41406da6684cdc7e49d1bb957323b74e3e6b104303ab8e9"
+hash = "bbf6181060ea8703f4d996f5c9c6ef39c3d598bcbea3b9774b650f2bdfe52caf"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -529,6 +529,10 @@ file = "kubejs/assets/emi/index/stacks/hide.json"
 hash = "ac4037e11f39ceabbce98d630cd37e2852a5213ee30e222230ee3a71859098a7"
 
 [[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/jupiter_orbit.json"
+hash = "1339360383e3784f3ce180043822a2ddf3d1d7ee844c164a03a57b83b95ea56b"
+
+[[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
 hash = "01597e63e420a93f5d1dcccf9346c4895154777ee899525ee918ebe39f12d73b"
 
@@ -551,6 +555,10 @@ hash = "fd8035eeb86c87757faf2d2f83a0f746c428d98a8b411624fa4e18d3b2233e63"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_mesh.png"
 hash = "b87b428fe12ada7d455de6aba853cfb67c239d5fa2014a8c7106b5721d932a6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/sky/io.png"
+hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
