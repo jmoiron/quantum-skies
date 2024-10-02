@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ae2/client.json"
-hash = "2027651574a37ade3884477451846997da676ae078e0a760ec0a50228089f272"
-
-[[files]]
-file = "config/ae2/common.json"
-hash = "5a8ecae0292541666f6c3c68964f3fcf8bd0fe97c62208ae122dfc2042984f8b"
-
-[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -322,7 +314,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "680383dfe9a81f1f31738972931fd1fc3da73db8b4d19503acd104230a12207b"
+hash = "b7fb2dc0af7ee5850a3016115974b6080b6db5131cb4a25e72c391b39dc4e325"
 
 [[files]]
 file = "config/panorama.json"
@@ -362,7 +354,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "493b898b154ff3ceab3d266dbf51c160ba54fb20ec41e55b0a8aaed4223cef4e"
+hash = "93f9e2db1326608b2e0c9162e0f3cc2ed1f05dcae8ba9a8ed30bf588af0a28a1"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -1160,8 +1152,8 @@ hash = "3b013ce92a1496ef2185a10512928fa22b04828d8cb815fadd9332f37f05b60a"
 metafile = true
 
 [[files]]
-file = "mods/inventory-sorter.pw.toml"
-hash = "537f95eb95c08a7510b7151d2960904d2fae3ccd515a5f369063c11f707584fb"
+file = "mods/inventory-tweaks-refoxed.pw.toml"
+hash = "d4e22caa10decf47b90d6d5c6319515231c5c3e7056fdd0bff72131739761fbf"
 metafile = true
 
 [[files]]
