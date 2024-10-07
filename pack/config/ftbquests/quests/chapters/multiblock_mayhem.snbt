@@ -673,7 +673,7 @@
 				"The tier of the &6machine casing&r, &6coil&r, and &6pipe&r blocks determine various recipe capabilities. You will need &6stainless steel casings&r to produce &cRP-1 mixed rocket fuel&r."
 			]
 			id: "52AD249F52432AF5"
-			size: 1.0d
+			size: 1.25d
 			tasks: [{
 				id: "6037233AF42BFA1F"
 				item: "gtnn:exxonmobil_chemical_plant"

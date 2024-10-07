@@ -17,13 +17,13 @@
 			id: "511DD9ED38D72B9F"
 			linked_quest: "52AD249F52432AF5"
 			size: 1.25d
-			x: 5.5d
+			x: 6.0d
 			y: -10.0d
 		}
 		{
 			id: "03BCE335F9718B30"
 			linked_quest: "4745AE5EC57118AB"
-			x: -4.5d
+			x: -6.0d
 			y: -13.0d
 		}
 	]
@@ -43,7 +43,7 @@
 				item: "gtceu:vehicle_assembly_building"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -62,7 +62,7 @@
 				item: "gcyr:basic_rocket_motor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
@@ -81,7 +81,7 @@
 				item: "gcyr:basic_fuel_tank"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -7.0d
 		}
 		{
@@ -109,7 +109,7 @@
 				title: "Visit the Moon"
 				type: "dimension"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -8.5d
 		}
 		{
@@ -179,7 +179,7 @@
 				item: "gcyr:seat"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -7.0d
 		}
 		{
@@ -270,14 +270,14 @@
 			]
 			id: "7C1A3931EA551693"
 			shape: "gear"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "74DE9C078B1FB297"
 				item: "gcyr:para_aramid_ingot"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0F7B9EAEF4103A8F"]
@@ -288,7 +288,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -302,7 +302,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -315,8 +315,8 @@
 				item: "gcyr:therephthalic_acid_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -326,8 +326,8 @@
 				item: "gcyr:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.5d
+			x: -1.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6C114A2C08AA55C2"]
@@ -337,7 +337,7 @@
 				item: "gcyr:nitroaniline_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -13.0d
 		}
 		{
@@ -359,8 +359,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -13.0d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["466C6EE4E2E3D039"]
@@ -375,8 +375,8 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: -3.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -393,11 +393,15 @@
 				item: "gcyr:co_mn_br_catalyst_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.0d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["24342D4C5317572A"]
+			dependencies: [
+				"24342D4C5317572A"
+				"08B31BB40C934FF0"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&9Bromine&r is nasty stuff."
 				""
@@ -413,8 +417,8 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5D5D29247E81E19A"]
@@ -441,8 +445,8 @@
 				title: "Wet Bromine Bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.0d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -472,7 +476,7 @@
 				title: "Overheated Bromine Sulfate Gas Bucket"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: -11.5d
 		}
 		{
@@ -500,8 +504,8 @@
 				title: "Bromine Sulfate Solution Bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -11.5d
+			x: -7.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["4127AE11291977CF"]
@@ -529,7 +533,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -11.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["60DA51766F274B5E"]
@@ -556,8 +560,8 @@
 				title: "Brominated Brine Bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -10.0d
+			x: -9.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["5F89122136784BC1"]
@@ -584,11 +588,14 @@
 				title: "Iodine Brine Mixture Bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -10.0d
+			x: -9.0d
+			y: -13.0d
 		}
 		{
-			dependencies: ["47AFAF23FB7AB33C"]
+			dependencies: [
+				"47AFAF23FB7AB33C"
+				"725A0FCB54CA13FA"
+			]
 			id: "5F89122136784BC1"
 			tasks: [{
 				icon: "gtceu:iodized_brine_bucket"
@@ -612,8 +619,8 @@
 				title: "Iodized Brine Bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -8.5d
+			x: -9.0d
+			y: -11.5d
 		}
 		{
 			description: [
@@ -622,20 +629,13 @@
 				"Holding a &6bromine bucket&r will complete all of the quests for the intermediate steps."
 			]
 			id: "47AFAF23FB7AB33C"
-			tasks: [
-				{
-					id: "3CBC6190FA52B842"
-					item: "gtceu:saltpeter_dust"
-					type: "item"
-				}
-				{
-					id: "4B6990EECEC0BAC9"
-					item: "gtceu:salt_water_bucket"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: -8.5d
+			tasks: [{
+				id: "3CBC6190FA52B842"
+				item: "gtceu:saltpeter_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["52AD249F52432AF5"]
@@ -652,7 +652,7 @@
 				item: "gtceu:rp_1_mixed_fuel_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -672,7 +672,7 @@
 				item: "gcyr:rocket_scanner"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -10.0d
 		}
 		{
@@ -707,8 +707,8 @@
 				item: "gcyr:manganese_acetate_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
+			x: -4.5d
+			y: -10.0d
 		}
 		{
 			description: [
@@ -755,7 +755,7 @@
 				item: "gtceu:silicone_rubber_plate"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -10.0d
 		}
 		{
@@ -769,8 +769,8 @@
 				item: "gcyr:manganese_bromide_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6061E30674D8A3F5"]
@@ -780,8 +780,8 @@
 				item: "gcyr:hydrobromic_acid_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.5d
+			x: -4.5d
+			y: -11.5d
 		}
 		{
 			id: "01794ECC79094E65"
@@ -790,8 +790,8 @@
 				item: "gtceu:acetic_acid_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6061E30674D8A3F5"]
@@ -802,8 +802,107 @@
 				item: "gcyr:cobalt_bromide_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["483DB4F012FE9B17"]
+			id: "08B31BB40C934FF0"
+			tasks: [{
+				id: "6CD7EDF1F6FFF565"
+				item: "gtceu:concentrated_bromine_solution_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4CD93AF6D7264F14"]
+			id: "483DB4F012FE9B17"
+			tasks: [{
+				id: "4AAEF88E770A5B90"
+				item: "gtceu:acidic_bromine_solution_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48323E1DD42FEE82"]
+			id: "4CD93AF6D7264F14"
+			tasks: [{
+				id: "5EE3714F446E55CD"
+				item: "gtceu:brominated_chlorine_vapor_bucket"
+				type: "item"
+			}]
+			x: -7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["5BEBC67DB8FE450B"]
+			id: "48323E1DD42FEE82"
+			tasks: [{
+				id: "2EED6ECF296696AA"
+				item: "gtceu:hot_chlorinated_brominated_brine_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B75DAFE40104122"]
+			id: "5BEBC67DB8FE450B"
+			tasks: [{
+				id: "1D4E3A0E340FDB5C"
+				item: "gtceu:hot_brine_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"725A0FCB54CA13FA"
+				"404B433260D8C3CF"
+			]
+			id: "3B75DAFE40104122"
+			tasks: [{
+				id: "1765BCB4DCEB7FBD"
+				item: "gtceu:raw_brine_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"The road to &6bromine&r starts with &9salt water&r, one way or another. You can select which route you want to take; they are both fairly complex, and you only need to do one."
+				""
+				"Going the &7saltpeter&r route requires building an &2EBF&r and a &2cracker&r."
+				""
+				"Going the &6brine&r route requires an &2evaporation tower&r and, if you want good yields, a &2distillation tower&r."
+				""
+				"The &6brine&r route is a fewer steps, but looping its by-products is a bit more complex."
+			]
+			id: "725A0FCB54CA13FA"
+			size: 1.5d
+			tasks: [{
+				id: "2E9B19F7435BC4B1"
+				item: "gtceu:salt_water_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			id: "404B433260D8C3CF"
+			tasks: [{
+				id: "004EC7F127A475C5"
+				item: "gtceu:evaporation_plant"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
 		}
 	]
 	subtitle: ["Not because it is easy"]

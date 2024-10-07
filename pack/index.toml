@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ae2/client.json"
-hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
-
-[[files]]
-file = "config/ae2/common.json"
-hash = "5a8ecae0292541666f6c3c68964f3fcf8bd0fe97c62208ae122dfc2042984f8b"
-
-[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -53,20 +45,12 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "abb55d147bec01ebc7e2b208b08e46d56453a769cb0e32b92b2fb951692881ac"
-
-[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
 hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
-
-[[files]]
-file = "config/emi.css"
-hash = "a6db3fa5fa45b20fe5e6421b3b5265e2f43c6f3cb8718e3f3a774020f86e4e89"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -79,14 +63,6 @@ hash = "0683b860972d2353400ad7714bbf9766af50e0b0a1aaa6d2aa626ed407aa5c2a"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
-
-[[files]]
-file = "config/enviroseries/materials/materials-client.json"
-hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
-
-[[files]]
-file = "config/enviroseries/materials/materials.json"
-hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
@@ -103,14 +79,6 @@ hash = "8133f67a8d39f7a9cc0737636ffde75326b602201354de5dd3bd716491713219"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
-
-[[files]]
-file = "config/findme.json"
-hash = "4e0913a2fef137b2ba6345a2ce3e6104fb0872efe194c5eb7cbb75782b933fc6"
-
-[[files]]
-file = "config/flib.toml"
-hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
 
 [[files]]
 file = "config/fluxnetworks-common.toml"
@@ -305,10 +273,6 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "6e02b355282b04d280700f1b94f872ffabaf25e7bd54dfd525d4de6f2c2fc10e"
 
 [[files]]
-file = "config/lightoverlay.properties"
-hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
-
-[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -319,10 +283,6 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
-
-[[files]]
-file = "config/oculus.properties"
-hash = "b7bdd53a493995cd28cbd955b8468a856410df59450d67550fa5af428a767251"
 
 [[files]]
 file = "config/panorama.json"
@@ -337,20 +297,12 @@ file = "config/shetiphiancore.toml"
 hash = "a85dcd484bd8efd18207a7f0700c2ce6d700eedaa1b4677067d65031498327fd"
 
 [[files]]
-file = "config/showcaseitem-common.toml"
-hash = "8e8d6d09058f0fdb1d2bb1dac724a8399b6861130ff31abb16dad74de3299733"
-
-[[files]]
 file = "config/shrink-common.toml"
 hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
 hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
-
-[[files]]
-file = "config/skyblockbuilder/customization.json5"
-hash = "8c5a0c6706bf66424576cc4534b03d68a350b836e346a35dd8b5de715490053c"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
@@ -413,10 +365,6 @@ file = "config/skyblockbuilder/world.json5"
 hash = "583e090ad95bb7ca5e949a852bdbffcc542d4e88442da92632ec976fa804c15c"
 
 [[files]]
-file = "config/skyguis.json5"
-hash = "a8f25345178d2f733faa3e548bdc54981a66fd2b64749b6a4bdfcc293fdeba32"
-
-[[files]]
 file = "config/smoothboot.json"
 hash = "8fb262662f6ee6d6f88256a2b628f7519f3eede1104d6e20a80523ce4a21cad1"
 
@@ -449,10 +397,6 @@ file = "config/toms_storage-common.toml"
 hash = "e3f397c8c43fb935d2cc3914f79dc1c512dcaf9b4469af0d7e70db9e2da28c5b"
 
 [[files]]
-file = "config/toolbelt-common.toml"
-hash = "4f979d7ec57b4ed9bd6a8671abd19b687ebb94bf01065db5f36b1dc8eb987cf4"
-
-[[files]]
 file = "config/torchmaster.toml"
 hash = "968522483c909cd663b133543c10aae4c5b5d7dca693ef2bf611c8a55278a51c"
 
@@ -473,14 +417,6 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
-file = "config/valkyrielib/valkyrielib-client.json"
-hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
-
-[[files]]
-file = "config/valkyrielib/valkyrielib.json"
-hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
-
-[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -495,10 +431,6 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -587,10 +519,6 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
-
-[[files]]
-file = "kubejs/config/probejs.json"
-hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"

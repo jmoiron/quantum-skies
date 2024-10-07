@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "andersonhyosung"
+	group: "3F9DCC5BE002E182"
+	icon: "gtceu:ultimet_drill_head"
+	id: "4169B7130025E7B4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"The &7Moon&r, despite being made out of a chunk of the &aEarth&r, is rich in minerals that are difficult to access back home.  It probably helps that there's &o&eland&r here."
+			""
+			"The &6Apollo 11&r mission brought back samples from the moon, but by &6Apollo 15&r they were bringing the &2Lunar Surface Drill&r with them. "
+			""
+			"Building something like that probably makes good sense."
+			""
+			"If you could find some &atungsten&r, you would be able to make a &o&emuch better&r drill capable of reaching the &9planet core&r."
+		]
+		icon: "gtceu:rose_gold_drill_head"
+		id: "1E57A673B103CB91"
+		subtitle: "and luna-16, and chang-e 6..."
+		tasks: [{
+			id: "4D4C10B4081AF7C3"
+			title: "lore"
+			type: "checkmark"
+		}]
+		title: "Space Miners"
+		x: -8.5d
+		y: -3.0d
+	}]
+	subtitle: ["Anderson-Hyosung Cooperative Industries"]
+	title: "&5PRIME-1&r and &dVIPER&r"
+}

@@ -5,7 +5,7 @@
 	group: "3F9DCC5BE002E182"
 	icon: "gcyr:ore_finder_satellite"
 	id: "41DE684064D9010B"
-	order_index: 1
+	order_index: 2
 	quest_links: [{
 		id: "37AE54EE6ABCB702"
 		linked_quest: "2776EA649E43D833"

@@ -5,7 +5,7 @@
 	group: "3F9DCC5BE002E182"
 	icon: "gcyr:dyson_swarm_satellite"
 	id: "2781D11112213691"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -73,5 +73,6 @@
 			y: 1.5d
 		}
 	]
+	subtitle: ["Billions and Billions"]
 	title: "&6Pioneer&r and &9Voyager&r"
 }

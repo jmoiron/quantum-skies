@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.3.7
+VERSION := 0.3.8
 #WINUSER := jmoir
 WINUSER := jlmoi
 PACKNAME := Quantum-Skies

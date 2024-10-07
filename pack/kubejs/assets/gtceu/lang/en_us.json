@@ -11,12 +11,15 @@
     "gtceu.crucible": "Crucible Melting",
     "gtceu.mudpit": "Mudpit",
     "gtceu.planetary_core_drill": "Core Drilling",
+    "gtceu.lunar_surface_drill": "Lunar Drilling",
     "gtceu.cauldron": "Cauldron",
     "gtceu.industrial_sieve": "Heavy Sieving",
     "gtceu.singleblock_sieve": "Sieving",
     "gtceu.vehicle_assembly_building": "VAB",
-    "qs.vab.tooltip": "Solid Steel Machine Casings are §cdeprecated§r; use Solid Machine Casings",
     "gtceu.greenhouse": "Greenhouse",
+
+    "qs.vab.tooltip": "Solid Steel Machine Casings are §cdeprecated§r; use Solid Machine Casings",
+    "qs.lunar_surface_drill.tooltip": "Drills for ores deep under the §2lunar surface§r",
 
     "material.gtceu.energistic_steel": "Energistic Steel",
     "material.gtceu.bedrock": "Bedrock",
@@ -55,6 +58,7 @@
     "block.gtceu.hv_sieve": "§6Advanced Sieve II §r",
     "block.gtceu.greenhouse": "Greenhouse",
     "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building",
+    "block.gtceu.lunar_surface_drill": "Lunar Surface Drill",
 
     "level.gcyr.jupiter": "Jupiter",
     "level.gcyr.io": "Io",
