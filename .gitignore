@@ -7,3 +7,5 @@ quantum*.zip
 live
 cache/*
 prism/*
+.vscode
+server-files

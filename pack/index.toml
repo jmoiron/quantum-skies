@@ -50,7 +50,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
+hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -63,6 +63,14 @@ hash = "0683b860972d2353400ad7714bbf9766af50e0b0a1aaa6d2aa626ed407aa5c2a"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
+
+[[files]]
+file = "config/enviroseries/materials/materials-client.json"
+hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
+
+[[files]]
+file = "config/enviroseries/materials/materials.json"
+hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
@@ -118,7 +126,7 @@ hash = "5f9305cb219cc9de782666c1e2a6bff211940d6a86fc3e0b9619d9d0b212e14d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "0fe80701cf3d537d82beaabb05dfe919ee2f1e56687af9d733aaf243ea3b29a9"
+hash = "3302a43a6bfce0ea59f3ca62a54427e281a476a9e453215d7def32918b580b06"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -127,6 +135,10 @@ hash = "26052d33c95a83b6b06e69f4b7bacef2a68f305d457af304a0a4252add7f1d71"
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
 hash = "1b8928b6710dffc79111f692caf49170e0c2e97dc68cf415c6f4778b0ec6b750"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
+hash = "40b1a63e68cbbfcebb2b62bb90e3ce6de812b7a0f0ba39338fff51231d80df6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -162,11 +174,11 @@ hash = "b7457b53daa2936298d8e70430397571971a5669273218835116330680959fff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "6057b3ef4dfd3d34acd1edcd285a07b0385090fc9d61d112d83316ac22180356"
+hash = "555a7ef7c41d5957992e0a8d0f362349e283962591c185df6c3bcb87a204ca17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
-hash = "f19b936c730f36868f21bdf27fca016aaa36b12aa5fe21ffb60d0a632317ca6a"
+hash = "1866d5dbdbbc408b9a5ee6f3d1d387a734d136cc4d98f75c3645ee64a6bf173d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -182,7 +194,7 @@ hash = "e746ca744af73aa0d0a0e8a0bd44535d51f96c1fe13f41f9bc62697e4b62ed93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "791c859f276bb95cd5691b91938e8a18980080251a9b664ea5cdf001c675709f"
+hash = "bdfef8db258724b3c2d45c717a724215706017a527044a703faab31543ab90d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -314,7 +326,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "2958bbd82504360e11de9a12edb4dfda5ff8ea9869b1bc005f37308ba68af53d"
+hash = "32edca150fb8a9dbdf72956ad2090334818c74021f42926db8ca3abc5bcba9ea"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -417,6 +429,14 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
+
+[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -431,6 +451,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -466,7 +490,7 @@ hash = "9970a7261784b902b0154e2adb290f385f46cf0280d4dd8a1e7590493bcc6a77"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "01597e63e420a93f5d1dcccf9346c4895154777ee899525ee918ebe39f12d73b"
+hash = "dcb6e8b1c3c67522bd697cf543d2a9b82b7f07f11b19e247bbac2b659f47af94"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -781,6 +805,10 @@ file = "kubejs/server_scripts/multiblocks/crucible.js"
 hash = "1556299f7ea09ecae16e5c3ee0004032bd2ebb82406c351bf96cbc94d006b845"
 
 [[files]]
+file = "kubejs/server_scripts/multiblocks/lunar_surface_drill.js"
+hash = "6678b06a9f59b8d8ca35e35254b75d4e3a3649666f32e44af013661972a84544"
+
+[[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
 hash = "bee168dc3e22d4551fde0465331553b21e21a546e55852b9ae84cab90876431a"
 
@@ -847,6 +875,10 @@ hash = "14c5e5f7233154c67b140a7fb35add19ee17b4efd1becbb96115271f0adf23d0"
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/ex_nihilo.js"
 hash = "a4b2e0ad1d6e1c0938ac2474d6fa5a54a572050fc4f5a5d9e3cc1b58ca0ecc64"
+
+[[files]]
+file = "kubejs/startup_scripts/multiblocks/lunar_surface_drill.js"
+hash = "4f1f8c3dd7d216053188e97fb87e1f3f066d67f0bf8cd60599b9902bf53ec193"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/planetary_core_drill.js"

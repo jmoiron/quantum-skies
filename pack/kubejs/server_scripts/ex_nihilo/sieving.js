@@ -248,7 +248,6 @@ ServerEvents.recipes(event => {
     Object.entries(sieveRecipes).forEach(([meshType, v]) => {
         Object.entries(v).forEach(([input, outputs]) => {
             outputs.forEach((output) => {
-                //console.log(input + " => " + output);
                 event.custom({
                     "type": "exnihilosequentia:sifting",
                     "input": input,
@@ -266,11 +265,8 @@ ServerEvents.recipes(event => {
                 numChances += chances(output[1]).length
             });
 
-            console.log("numChances " + numChances + " " + input);
-
             if (numChances < 7) {
                 let rin = input.replace(/[^a-zA-Z0-9]/g, '')
-                //console.log(`creating sieve_${meshType}_${rin} with ${outputs.length} outputs`)
                 let r = event.recipes.gtceu.singleblock_sieve(`sieve_${meshType}_${rin}`)
                     .EUt(7)
                     .duration(50)

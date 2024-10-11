@@ -809,8 +809,25 @@
 			dependencies: ["483DB4F012FE9B17"]
 			id: "08B31BB40C934FF0"
 			tasks: [{
-				id: "6CD7EDF1F6FFF565"
-				item: "gtceu:concentrated_bromine_solution_bucket"
+				icon: "gtceu:concentrated_bromine_solution_bucket"
+				id: "365DAB8E989174D6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:concentrated_bromine_solution_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Chlorinated Bromine Solution Bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -820,8 +837,25 @@
 			dependencies: ["4CD93AF6D7264F14"]
 			id: "483DB4F012FE9B17"
 			tasks: [{
-				id: "4AAEF88E770A5B90"
-				item: "gtceu:acidic_bromine_solution_bucket"
+				icon: "gtceu:acidic_bromine_solution_bucket"
+				id: "652BF3A4B426E7AE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:acidic_bromine_solution_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Acidic Bromine Solution Bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -831,8 +865,25 @@
 			dependencies: ["48323E1DD42FEE82"]
 			id: "4CD93AF6D7264F14"
 			tasks: [{
-				id: "5EE3714F446E55CD"
-				item: "gtceu:brominated_chlorine_vapor_bucket"
+				icon: "gtceu:brominated_chlorine_vapor_bucket"
+				id: "388CD00EED75F68B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:brominated_chlorine_vapor_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Brominated Chlorine Vapor Bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -842,8 +893,25 @@
 			dependencies: ["5BEBC67DB8FE450B"]
 			id: "48323E1DD42FEE82"
 			tasks: [{
-				id: "2EED6ECF296696AA"
-				item: "gtceu:hot_chlorinated_brominated_brine_bucket"
+				icon: "gtceu:hot_chlorinated_brominated_brine_bucket"
+				id: "513ECD471005F345"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hot_chlorinated_brominated_brine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Hot Chlorinated Brominated Brine Bucket"
 				type: "item"
 			}]
 			x: -9.0d
@@ -853,8 +921,25 @@
 			dependencies: ["3B75DAFE40104122"]
 			id: "5BEBC67DB8FE450B"
 			tasks: [{
-				id: "1D4E3A0E340FDB5C"
-				item: "gtceu:hot_brine_bucket"
+				icon: "gtceu:hot_brine_bucket"
+				id: "7FE907A388278899"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hot_brine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Hot Brine Bucket"
 				type: "item"
 			}]
 			x: -9.0d
@@ -865,10 +950,28 @@
 				"725A0FCB54CA13FA"
 				"404B433260D8C3CF"
 			]
+			dependency_requirement: "one_completed"
 			id: "3B75DAFE40104122"
 			tasks: [{
-				id: "1765BCB4DCEB7FBD"
-				item: "gtceu:raw_brine_bucket"
+				icon: "gtceu:raw_brine_bucket"
+				id: "6D288710D1A343C1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:raw_brine_bucket"
+							}
+							{
+								Count: 1b
+								id: "gtceu:bromine_bucket"
+							}
+						]
+					}
+				}
+				title: "Raw Brine Bucket"
 				type: "item"
 			}]
 			x: -9.0d
@@ -895,6 +998,7 @@
 			y: -10.0d
 		}
 		{
+			description: ["The &2evaporation tower&r can turn &9salt water&r into &6brine&r, the first step towards &cbromine&r."]
 			id: "404B433260D8C3CF"
 			tasks: [{
 				id: "004EC7F127A475C5"

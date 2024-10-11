@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
 
         var base = ["eu", "pattern"].includes(tunnel) ? `mae2:${tunnel}_p2p_tunnel` : `ae2:${tunnel}_p2p_tunnel`;
 
-        console.log("configuring tunnel type " + tunnel + " from base " + base);
+        // console.log("configuring tunnel type " + tunnel + " from base " + base);
 
         greg.assembler(`mae2_${tunnel}_multi_p2p_tunnel`)
             .itemInputs("gtceu:simple_soc")
