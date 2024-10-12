@@ -63,4 +63,13 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV])
         .duration(1200);
 
+    event.remove({id: "gtceu:mixer/orange_metal_catalyst"})
+    greg.mixer("orange_metal_catalyst")
+        .circuit(32)
+        .itemInputs("gtceu:vanadium_dust")
+        .itemInputs("gtceu:palladium_dust")
+        .itemOutputs("64x gtceu:orange_metal_catalyst_dust")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(20*8);
+
 });

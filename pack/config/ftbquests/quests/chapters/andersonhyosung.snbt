@@ -206,6 +206,13 @@
 				"2776EA649E43D833"
 				"634FC8CB49EB10B5"
 			]
+			description: [
+				"The &2planetary core drill&r is a very large multiblock that produces resources by drilling deep under a planet's crust."
+				""
+				"This requires &especial drilling fluid&r capable of withstanding the high pressures and temperatures seen by the drill."
+				""
+				"If placing this is daunting, you should consider investing in a &aTerminal&r."
+			]
 			id: "57AEEEF7367C3432"
 			size: 1.25d
 			tasks: [{
@@ -353,5 +360,5 @@
 		}
 	]
 	subtitle: ["Anderson-Hyosung Cooperative Industries"]
-	title: "&5PRIME-1&r and &dVIPER&r"
+	title: "&5Prime-1&r and &dViper&r"
 }

@@ -461,7 +461,11 @@
 				"1BD4AD579D6BA5AB"
 				"3F25BB3DAEAD7933"
 			]
-			description: ["Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."]
+			description: [
+				"Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."
+				""
+				"You can use the same mud on both &cmars&r and &evenus&r, so you only need to set up one &2mudpit&r provided that you've decided to embrace your many trans-dimensional fluid transfer options."
+			]
 			id: "435C1647875291B2"
 			tasks: [{
 				id: "1BB0B84D7E0EC91B"
