@@ -190,7 +190,7 @@ hash = "ac1b00cc9b9ad27807abe10725d24cb1df77713cf29ad4656290a5a38783a6bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "9e17cf75892122351410e4f30d9a438dd215be826eb780dfe59a288fb66eff50"
+hash = "af73a25cd71bd37998702a688547c2855f173b2c207365f3d3356917f2445508"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -326,7 +326,7 @@ hash = "45f37f0bbd8f22081a05db076a2e561eb8c682bba3d8208c399ee91c86ab7f04"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0a331b8bf5a2230b703ab0c67ebaf2ebcda1043d0aea6f3d0f879658c5c6e239"
+hash = "f3f6a11e4ea9e52d5d66e96a815448601789a2b16b4b72885b0000dfa1d5a49b"
 
 [[files]]
 file = "config/panorama.json"
@@ -366,7 +366,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "9bf25e114f2c286f63823e72eb8c6157d57f640c001aa60604e51dfa1c46bb26"
+hash = "71ca539cbb5680fc14d40d30e3a3f62f726cfd1f59c0dea0e4b8b90abb8304dd"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -838,7 +838,7 @@ hash = "480bd8cd80284b72d7e40dc76612bd5b2d2a5b9a361c38c8c107957e4f9bd8e5"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
-hash = "7e66d0c00aa3c4660dcddc2bd5fb412edd3c026b1e770fbaba14dfe3132e7b3f"
+hash = "f93ad0f97d32ca6673eae76801d5f2ea7bf61e7eb04aaa31a0f5511670f145cb"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
