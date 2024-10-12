@@ -6,29 +6,352 @@
 	icon: "gtceu:ultimet_drill_head"
 	id: "4169B7130025E7B4"
 	order_index: 1
-	quest_links: [ ]
-	quests: [{
-		description: [
-			"The &7Moon&r, despite being made out of a chunk of the &aEarth&r, is rich in minerals that are difficult to access back home.  It probably helps that there's &o&eland&r here."
-			""
-			"The &6Apollo 11&r mission brought back samples from the moon, but by &6Apollo 15&r they were bringing the &2Lunar Surface Drill&r with them. "
-			""
-			"Building something like that probably makes good sense."
-			""
-			"If you could find some &atungsten&r, you would be able to make a &o&emuch better&r drill capable of reaching the &9planet core&r."
-		]
-		icon: "gtceu:rose_gold_drill_head"
-		id: "1E57A673B103CB91"
-		subtitle: "and luna-16, and chang-e 6..."
-		tasks: [{
-			id: "4D4C10B4081AF7C3"
-			title: "lore"
-			type: "checkmark"
-		}]
-		title: "Space Miners"
-		x: -8.5d
-		y: -3.0d
-	}]
+	quest_links: [
+		{
+			id: "4F9902DFA8E9AD1E"
+			linked_quest: "2776EA649E43D833"
+			size: 1.25d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "328AF3B79D59A154"
+			linked_quest: "10A8D82626E851C8"
+			size: 1.25d
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			id: "7E896A0B0D466DBE"
+			linked_quest: "222E7BE2CBBADAE4"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "445D303A280C8FA3"
+			linked_quest: "232BBD7ABE751B56"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "3647EDAD3B60C409"
+			linked_quest: "6DBFD1013B005FC5"
+			x: 1.0d
+			y: -6.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"The &7Moon&r, despite being made out of a chunk of the &aEarth&r, is rich in minerals that are difficult to access back home. It probably helps that there's &o&eland&r here."
+				""
+				"The &6Apollo 11&r mission brought back samples from the moon, but by &6Apollo 15&r they were bringing the &2Lunar Surface Drill&r with them. "
+				""
+				"Building something like that probably makes good sense."
+				""
+				"If you could find some &atungsten&r, you would be able to make a &o&emuch better&r drill capable of reaching the &9planet core&r."
+			]
+			icon: "minecraft:hopper_minecart"
+			id: "1E57A673B103CB91"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "and luna-16, and chang-e 6..."
+			tasks: [{
+				id: "4D4C10B4081AF7C3"
+				title: "lore"
+				type: "checkmark"
+			}]
+			title: "Space Miners"
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["541ADBEBFED70B7F"]
+			id: "7CF90918B332336F"
+			tasks: [{
+				id: "559F5280C44E59D7"
+				item: "gtceu:tantalum_carbide_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"714A44034954167C"
+				"4E82FF7DAE20E3A5"
+				"10A8D82626E851C8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9Scheelite&r and &9Tungstate&r ores both yield &6tungsten&r through a similar processing chain."
+				""
+				"Tungsten unlocks &9RTM alloy&r, the &5EV&r tier coil material for your &2EBF&r, &6Tungstensteel&r, the &1IV&r hull material, and several &6High Speed Steel&r (HSS) alloys that will remain relevant for some time."
+			]
+			id: "264DB50D49CFA06E"
+			tasks: [{
+				id: "6BACCBBF5811B723"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:crushed_scheelite_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:crushed_tungstate_ore"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tungsten Yielding Ores"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["541ADBEBFED70B7F"]
+			id: "33BBF257B100F556"
+			tasks: [{
+				id: "27AA27BD9703B1F9"
+				item: "gtceu:tungsten_carbide_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CD924FA666E6D8"]
+			id: "634FC8CB49EB10B5"
+			tasks: [{
+				id: "32E4F4415C10D71E"
+				item: "gtceu:hsla_steel_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["541ADBEBFED70B7F"]
+			id: "1619D96ECF0946B6"
+			tasks: [{
+				id: "38953675DE1E9777"
+				item: "gtceu:molybdenum_disilicide_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["541ADBEBFED70B7F"]
+			id: "0FBF22BFD9CBA204"
+			tasks: [{
+				id: "08F1BD5212747B77"
+				item: "gtceu:titanium_carbide_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36A1B71C1A6304D4"]
+			id: "12E4C027A4352B1C"
+			tasks: [{
+				id: "572DA005A1C8ECAF"
+				item: "gtceu:titanium_drill_head"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33B6F60F71DA7F4D"]
+			description: [
+				"A &2mudpit&r is a literal pit where drill lubricant is prepared."
+				""
+				"This &2mudpit&r is slightly sophisticated."
+				""
+				"&2Planetary core drill&r lubricants must be produced on site, so in order to create &6diesel-oil mud&r you will need to set up your pit on the &7moon&r."
+			]
+			id: "144BAF5DCE025AD7"
+			size: 1.25d
+			subtitle: "Ridin' dirty"
+			tasks: [{
+				id: "710939056FA69254"
+				item: "gtceu:mudpit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2776EA649E43D833"]
+			id: "33B6F60F71DA7F4D"
+			tasks: [{
+				id: "0FBA31BD41D09784"
+				item: "gtceu:watertight_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"100E54672FCCBEE6"
+				"4F13EBB0458E8180"
+				"2776EA649E43D833"
+				"634FC8CB49EB10B5"
+			]
+			id: "57AEEEF7367C3432"
+			size: 1.25d
+			tasks: [{
+				id: "5927F3A1E2BC9CC9"
+				item: "gtceu:planetary_core_drill"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14DAADBA638FE4B6"]
+			id: "100E54672FCCBEE6"
+			tasks: [{
+				id: "36590B126B1CD1CD"
+				item: "gtceu:maraging_steel_300_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["222E7BE2CBBADAE4"]
+			id: "4F13EBB0458E8180"
+			tasks: [{
+				id: "2D636D752D939C45"
+				item: "gtceu:incoloy_ma_956_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DBFD1013B005FC5"]
+			id: "75E3D0F660CE6492"
+			tasks: [{
+				id: "454044DD97BEF3D9"
+				item: "gtceu:hot_heavy_oil_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"144BAF5DCE025AD7"
+				"232BBD7ABE751B56"
+				"188642EF55E7716C"
+				"1B0874AE8571D54E"
+				"179AA4BFC36F21E4"
+			]
+			id: "18E1960D8F093DBC"
+			tasks: [{
+				id: "2B2C20CDC2220141"
+				item: "gtceu:diesel_oil_mud_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"57AEEEF7367C3432"
+				"18E1960D8F093DBC"
+			]
+			description: [
+				"Unlike the &2lunar surface drill&r, the &2planetary core drill&r can be fully automated and produce lunar resources endlessly. "
+				""
+				"To do this, you will need to establish a the &2PCD&r and a &2mudpit&r on the lunar surface, and supply the drill with &bdiesel-oil mud&r as lubricant. "
+				""
+				"This will yield &6ores&r and &7regolith&r, and has a chance of returning the lubricant in a &chot&r form that can be cooled with a &2vacuum freezer&r."
+				""
+				"This is the only way to generate supply of &dtitanium&r, &eplatinum&r and &alanthanides&r, although a lunar &2PCD&r isn't technically required for progression."
+			]
+			id: "5B27C24236868566"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Giant steps are what you take"
+			tasks: [{
+				id: "3268CE37D66286AB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:moon_tungstate_ore"
+							}
+							{
+								Count: 1b
+								id: "gtceu:moon_scheelite_ore"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Automated Lunar Resources"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75E3D0F660CE6492"]
+			id: "1B0874AE8571D54E"
+			tasks: [{
+				id: "3B8D130F812153A7"
+				item: "gtceu:lubricating_oil_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A138980BAF54A92"]
+			id: "188642EF55E7716C"
+			tasks: [{
+				id: "469442C69F01F470"
+				item: "gtceu:ethylene_glycol_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "2A138980BAF54A92"
+			tasks: [{
+				id: "47AC910217A6231C"
+				item: "gtceu:ethylene_oxide_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75E3D0F660CE6492"]
+			id: "179AA4BFC36F21E4"
+			tasks: [{
+				id: "6BDEE78ACEE212EF"
+				item: "gtceu:bitumen_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+	]
 	subtitle: ["Anderson-Hyosung Cooperative Industries"]
 	title: "&5PRIME-1&r and &dVIPER&r"
 }

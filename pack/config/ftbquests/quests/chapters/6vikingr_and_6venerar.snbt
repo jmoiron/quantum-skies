@@ -6,12 +6,7 @@
 	icon: "gcyr:ore_finder_satellite"
 	id: "41DE684064D9010B"
 	order_index: 2
-	quest_links: [{
-		id: "37AE54EE6ABCB702"
-		linked_quest: "2776EA649E43D833"
-		x: 14.5d
-		y: -4.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -279,6 +274,7 @@
 		}
 		{
 			dependencies: ["6BB0ABC1573F6DEA"]
+			dependency_requirement: "one_started"
 			id: "1ADF34902038EA5A"
 			tasks: [{
 				id: "49D5754E6C97EBAB"
@@ -415,40 +411,17 @@
 				""
 				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
 			]
+			icon: "gtceu:planetary_core_drill"
 			id: "60C017745110DAA0"
 			size: 1.5d
 			subtitle: "To the core!"
 			tasks: [{
-				id: "7B6C70DAD592499D"
-				item: "gtceu:planetary_core_drill"
-				type: "item"
+				id: "3D9ED5C22B12C6CB"
+				title: "Planetary Core Drill"
+				type: "checkmark"
 			}]
 			x: 17.5d
 			y: -7.5d
-		}
-		{
-			dependencies: ["2776EA649E43D833"]
-			id: "71F2F8A581A26230"
-			tasks: [{
-				id: "24B9F3C088E9E3DD"
-				item: "gtceu:watertight_casing"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["71F2F8A581A26230"]
-			id: "6A8F4AABDBCC496F"
-			size: 1.5d
-			subtitle: "Ridin' dirty"
-			tasks: [{
-				id: "5F3BA418685BED95"
-				item: "gtceu:mudpit"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -4.5d
 		}
 		{
 			id: "1434B5BACC58A7E7"
@@ -469,7 +442,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["323ABB6C57636F86"]
@@ -480,15 +453,15 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"1434B5BACC58A7E7"
 				"1BD4AD579D6BA5AB"
 				"3F25BB3DAEAD7933"
-				"6A8F4AABDBCC496F"
 			]
+			description: ["Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."]
 			id: "435C1647875291B2"
 			tasks: [{
 				id: "1BB0B84D7E0EC91B"
@@ -539,7 +512,7 @@
 				item: "gtceu:ethylene_oxide_bucket"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.0d
 			y: -3.0d
 		}
 		{
@@ -550,8 +523,8 @@
 				item: "gtceu:i_decene_bucket"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -564,7 +537,7 @@
 				item: "gtceu:i_decene_olefin_sludge_dust"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: -3.0d
 		}
 		{
@@ -580,7 +553,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4453BE89F75D58C2"]
@@ -598,7 +571,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 17.5d
 			y: -3.0d
 		}
 		{
@@ -624,38 +597,6 @@
 			title: "&cViking&r and &eVenera&r"
 			x: 19.0d
 			y: -10.0d
-		}
-		{
-			dependencies: [
-				"714A44034954167C"
-				"4E82FF7DAE20E3A5"
-			]
-			dependency_requirement: "one_completed"
-			description: ["&9Scheelite&r and &9Tungstate&r ores both yield &6Tungsten&r through a similar processing chain."]
-			id: "7BE3F64271467875"
-			tasks: [{
-				id: "6D1AFCB4CCD55CC1"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:crushed_scheelite_ore"
-							}
-							{
-								Count: 1b
-								id: "gtceu:crushed_tungstate_ore"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Tungsten Yielding Ores"
-			x: 16.0d
-			y: -7.5d
 		}
 	]
 	subtitle: ["Exploring the neighborhood"]

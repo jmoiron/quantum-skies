@@ -453,6 +453,7 @@
 				"7C365D7B15917A38"
 				"4745AE5EC57118AB"
 			]
+			dependency_requirement: "one_completed"
 			id: "5D5D29247E81E19A"
 			tasks: [{
 				icon: "gtceu:overheated_bromine_sulfate_gas_bucket"
@@ -596,6 +597,7 @@
 				"47AFAF23FB7AB33C"
 				"725A0FCB54CA13FA"
 			]
+			dependency_requirement: "one_completed"
 			id: "5F89122136784BC1"
 			tasks: [{
 				icon: "gtceu:iodized_brine_bucket"

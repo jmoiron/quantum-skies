@@ -72,4 +72,19 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(600);
 
+    // create a source of yttrium chained onto the lanthanides
+    // yttrium is not technically a lanthanide, but it's almost always found
+    // along with them in minerals, and behaves a lot like them..  yttrium
+    // is necessary for YBC and for one of the alloys used in the PCD
+
+    event.remove({id: "gtec:large_chemical_reactor/samaric_residue_bastnasite_line_completion"})
+    greg.large_chemical_reactor("samaric_residue_yttrium")
+        .itemInputs("4x gtec:nitrogenated_samarium_terbium_mixture_dust")
+        .itemInputs("gtceu:copper_dust")
+        .itemOutputs("2x gtec:terbium_nitrate_dust")
+        .itemOutputs("2x gtec:samaric_residue_dust")
+        .itemOutputs("2x gtceu:euxenite_dust")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(160*20)
+
 });

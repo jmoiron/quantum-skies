@@ -1,6 +1,14 @@
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
+    // add endstone centrifuge recipe, wh ich can produce ender air
+    // with the same power utilization as the air collector
+    greg.centrifuge("endstone_to_ender_air")
+        .itemInputs("gtceu:endstone_dust")
+        .outputFluids("gtceu:ender_air 500")
+        .EUt(GTValues.VHA[GTValues.HV])
+        .duration(10);
+
     // remove unintended route to uranium 238
     event.remove({id: "gtceu:centrifuge/plutonium_239_separation"});
     greg.centrifuge("plutonium_239_separation_modified")

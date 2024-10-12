@@ -12,6 +12,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         event.create(name).gas().color(color);
     }
 
+    // yttrium
+    event.create("euxenite")
+        .components("2x yttrium", "1x thorium", "6x oxygen")
+        .color(0x0B502B)
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING)
+        .dust();
+
     gas("venus_air", 0xfff9c6);
     gas("mars_air", 0xDB5D4C);
     fluid("liquid_venus_air", 0xfff9c6);

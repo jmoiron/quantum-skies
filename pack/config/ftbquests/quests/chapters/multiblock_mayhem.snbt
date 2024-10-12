@@ -192,13 +192,37 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["3EA54104A5CBE03D"]
+			dependencies: [
+				"3EA54104A5CBE03D"
+				"264DB50D49CFA06E"
+				"1619D96ECF0946B6"
+				"634FC8CB49EB10B5"
+				"33BBF257B100F556"
+				"7CF90918B332336F"
+				"0FBF22BFD9CBA204"
+			]
+			description: ["The &2alloy blast smelter&r smelts unmixed dusts directly into &6molten alloys&r, skipping the need for a &2mixer&r, but requiring a cooling and solidifcation step in a &2freezer&r."]
 			id: "2776EA649E43D833"
-			tasks: [{
-				id: "43382319DC3EE380"
-				item: "gtceu:alloy_blast_smelter"
-				type: "item"
-			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "43382319DC3EE380"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "161A4DD2F5B79A74"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "3E9CF0A8D80EBC99"
+					item: "gtceu:high_temperature_smelting_casing"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -5.5d
 		}
@@ -303,8 +327,8 @@
 				item: "gtceu:large_maceration_tower"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "76561F43490A095F"
@@ -405,8 +429,8 @@
 				item: "gtceu:large_chemical_bath"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			id: "41BD44E9F1DBF1E5"
@@ -597,7 +621,7 @@
 				item: "gtceu:large_wiremill"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -778,6 +802,67 @@
 			}]
 			x: 1.0d
 			y: -7.0d
+		}
+		{
+			dependencies: [
+				"714A44034954167C"
+				"4E82FF7DAE20E3A5"
+				"10A8D82626E851C8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &2Planetary Core Drill&r is a large multiblock drill that extracts materials from the core of a planet. It will produce those materials endlessly provided &epower&r and &dlubricant&r."
+				""
+				"Unfortunately, ordinary &9drilling fluid&r will not hold up to the extreme conditions near the core. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
+				""
+				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
+			]
+			id: "0C584EE0F802DFD9"
+			size: 1.0d
+			subtitle: "To the core!"
+			tasks: [{
+				id: "4BAD7FBC897FD36B"
+				item: "gtceu:planetary_core_drill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12E4C027A4352B1C"]
+			description: [
+				"The &2lunar surface drill&r is your first source of &6tungsten&r, a dense metal that is required in large amounts in late &5EV&r and throughout &1IV&r."
+				""
+				"The &2LSD&r takes &edrilling fluid&r and &6drill heads&r as input, and has a chance of producing a variety of ores, including &6scheelite&r and &6tungstate&r."
+				""
+				"Better &6drill heads&r yield more ores and have less of a chance of breaking down."
+			]
+			id: "10A8D82626E851C8"
+			rewards: [{
+				count: 4
+				id: "1F0F7843506393FC"
+				item: "gtceu:titanium_drill_head"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0321419DAF3046BC"
+				item: "gtceu:lunar_surface_drill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "13528543D75D9586"
+			size: 1.0d
+			subtitle: "Ridin' dirty"
+			tasks: [{
+				id: "6ABA3A3B38ED6586"
+				item: "gtceu:mudpit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
 		}
 	]
 	title: "Multiblock Mayhem"
