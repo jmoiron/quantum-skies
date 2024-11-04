@@ -45,6 +45,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     fluid("diesel_oil_mud", 0x476471);
     fluid("hot_diesel_oil_mud", 0x666677);
+    fluid("hot_diesel_oil_mud_slurry", 0x555566);
 
     fluid("bitumen", 0x2d3533);
     fluid("sulphonated_bitumen", 0x003533);

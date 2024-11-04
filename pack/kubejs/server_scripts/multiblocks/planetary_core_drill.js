@@ -251,6 +251,22 @@ ServerEvents.recipes(event => {
         .EUt(800)
         .duration(300);
 
+    greg.mixer("hot_diesel_oil_mud_slurry")
+        .dimension("gcyr:luna")
+        .inputFluids("gtceu:hot_diesel_oil_mud 100")
+        .itemInputs("gtceu:stone_dust")
+        .itemInputs("4x gtceu:moon_regolith_dust")
+        .outputFluids("gtceu:hot_diesel_oil_mud_slurry 100")
+        .EUt(GTValues.VHA[GTValues.EV])
+        .duration(400);
+
+    greg.centrifuge("hot_diesel_oil_mud_centri")
+        .dimension("gcyr:luna")
+        .inputFluids("gtceu:hot_diesel_oil_mud_slurry 1000")
+        .chancedOutput("gtceu:small_bedrock_dust", 3300, 1100)
+        .EUt(GTValues.VHA[GTValues.EV])
+        .duration(100);
+
     greg.planetary_core_drill("mars_drill")
         .inputFluids("gtceu:poly_alpha_olefin_mud 100")
         .dimension("gcyr:mars")
