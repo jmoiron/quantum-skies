@@ -755,6 +755,13 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"As you build out your &bautocrafting system&r, you'll inevitably encode the results of low-yield recipes, like primitive circuits, into many of your patterns."
+				""
+				"You'll also find that your &2multi-blocks&r should be fed with more than one recipe at a time to truly take advantage of their parallelization."
+				""
+				"The &9pattern modifier&r helps you manage these transitions. It allows you to replace items inputs and to multiply the inputs and outputs in multiple patterns at once."
+			]
 			id: "45F8C141E3E5C72D"
 			tasks: [{
 				id: "2F8B43B25CF896A3"

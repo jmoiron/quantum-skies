@@ -38,6 +38,12 @@
 			x: -7.5d
 			y: -2.5d
 		}
+		{
+			id: "41630B859D7321E6"
+			linked_quest: "3CB6EECA41144C74"
+			x: 6.0d
+			y: 2.0d
+		}
 	]
 	quests: [
 		{
@@ -296,11 +302,18 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4197035F312E58AC"]
+			dependencies: [
+				"4197035F312E58AC"
+				"3CB6EECA41144C74"
+			]
 			description: [
-				"Flux networks allow unlimited, cross-dimensional transfer of &eForge Energy&r. They significantly alter the nature of late game power transfer."
+				"Thanks to the irregularly strong &dquantum fields&r, advanced power distribution technology is within reach earlier than you might have expected."
 				""
-				"They are currently &cnot obtainable&r as their balance, if possible, is being worked out."
+				"The difficulty is finding a material &bresilient&r enough to withstand the high levels of quantum flux, as even your most advanced alloys don't seem to cut it."
+				""
+				"&2Flux networks&r allow unlimited, cross-dimensional transfer of &eForge Energy&r (&cFE&r). They significantly alter the nature of power transfer."
+				""
+				"Although they natively support &aGregtech's EU&r, you may want to consider converting to &cFE&r and distributing power that way, using &2converters&r to turn it back into EU when needed."
 			]
 			id: "5F5867CA3A8803F6"
 			rewards: [{
@@ -308,6 +321,7 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
+			size: 1.25d
 			subtitle: "\"Balanced\""
 			tasks: [
 				{
@@ -321,7 +335,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 3.5d
 		}
 		{
