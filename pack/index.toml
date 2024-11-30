@@ -968,8 +968,8 @@ hash = "545069ceee8188d3c60be5ad35c7bb174f9c5506fa1240f7a532434774549ba7"
 metafile = true
 
 [[files]]
-file = "mods/effortless-building.pw.toml"
-hash = "b353aad34e78b89c10fbe55b0f18e4c3bdba004688e95a29ac098a10be814959"
+file = "mods/eb-patched.pw.toml"
+hash = "98932e010f04c02c6f952c70c29157e9fda252d9cc92a44dc93e6fa28c77a627"
 metafile = true
 
 [[files]]
@@ -984,12 +984,12 @@ metafile = true
 
 [[files]]
 file = "mods/enderchests.pw.toml"
-hash = "7afb25a983355be8d33e51a063d6e85817e37b03ccc331fbecaa863bd1d2f292"
+hash = "ddfd4ecec76622a69f3c73464d5442e3026a76e5c689e7846e88949117b930cf"
 metafile = true
 
 [[files]]
 file = "mods/endertanks.pw.toml"
-hash = "c5bd72b074124418a99ca9f5a6de12f074d2429410b964c6db90196cc5b70856"
+hash = "db3f29caf28a6874f8f26f80c2bfcece58fca1377e7ff3d0e17550d2eda096c7"
 metafile = true
 
 [[files]]
@@ -1054,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "838c8a4cb5e09af28689e7eeb9b729d8aeda4014f40694fa5e9a1d715449f597"
+hash = "e9116f2c546aa04941073c14c5ca5086c428ae410ef0ec2603caa2ffa1ebe6b2"
 metafile = true
 
 [[files]]
@@ -1064,7 +1064,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "e7a40fe1098ebe6927703ba59660eec7b90777cd00cfe9baa8fe48e0a888e2b8"
+hash = "6e12f6c7549e2a4029c61d6849b187d6ec26c286ac216ad2db64178c0f495615"
 metafile = true
 
 [[files]]
@@ -1109,7 +1109,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
-hash = "1f33cfe263882df6d3762e5e57336ebd8373c62207ae82b77b96c24a3cad01ce"
+hash = "a530e83a64d0db036415fe63ea7497e557bce86b66602a7d0f6211ab413d7e75"
 metafile = true
 
 [[files]]
@@ -1119,17 +1119,17 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "d5075c1529b81bab4f3a034376e5c1301a66ffd1c3abbe0973a86334be88dd6f"
+hash = "69c727ffd3d79d725853ad0486dde3dd836ff8ecc3cb7021aeda691e7c28090b"
 metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "c7a8c7a4283d9e18dc1a7d352bdf516aa158a3d3eb36b02edc0d59690f81e744"
+hash = "70568a575ed35b703f10f6343ca668df31de417d0478d43bf83bf7d96dc597cb"
 metafile = true
 
 [[files]]
 file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "d4e22caa10decf47b90d6d5c6319515231c5c3e7056fdd0bff72131739761fbf"
+hash = "b69fb92fec98dc393e59fb63ad1533d8d66c230a1ddec263309dece9ae884ee3"
 metafile = true
 
 [[files]]
@@ -1274,7 +1274,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore.pw.toml"
-hash = "f65634348b0cf61fb2a9b99417f6fc28256ab0a37238baefdb26446a89a3bab0"
+hash = "3636928a6068d4a3884fdfcfcd3a37f823fd1e9f4edccd2ee0be16a1cbf8872a"
 metafile = true
 
 [[files]]
@@ -1304,12 +1304,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8a91a2acc4b2b1b01bf11ab52118de458b81c8c07c02318323a6f4c3b7cd0e00"
+hash = "1abd27aa185c9b2719bf95c12b10413dd5076f4a8cb5640e414982f7bd739053"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "df9eff87b022ebcf805d82a934c0da6620aab87bcb731f07bcac067b6cb553ba"
+hash = "0fb0930b8a0edd72bb5b6b86f5d7ae942e73b8486c25822a5daec7a15c35c564"
 metafile = true
 
 [[files]]
@@ -1354,7 +1354,7 @@ metafile = true
 
 [[files]]
 file = "mods/tool-belt.pw.toml"
-hash = "95d60fd0a890b6b1087de0bc89079e1dd1276b61a9b1241857f3ea414a3592d2"
+hash = "085d67a04dc1c51ab204714b02d4082de957ee8541be4a69a59f1b6895734638"
 metafile = true
 
 [[files]]
@@ -1374,7 +1374,7 @@ metafile = true
 
 [[files]]
 file = "mods/ulv-covers-modern.pw.toml"
-hash = "33b615e3a3e86f6138b810359ca138c06d6fbc4920df9752d87d1a4e990877c6"
+hash = "dbbdeaff777b800749e08d376ff907cf40d3a78498c4315dee1801ba6c47037a"
 metafile = true
 
 [[files]]
@@ -1384,7 +1384,7 @@ metafile = true
 
 [[files]]
 file = "mods/xtones-reworked.pw.toml"
-hash = "cca6d5ec9b58efa3219d4db930c162c556b1a5981a22c055e2723df78b64edf6"
+hash = "ca2bee7b79e843414bdc00784d79beab6eef3bd3574915c16be6c8d6a3c238cc"
 metafile = true
 
 [[files]]
