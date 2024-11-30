@@ -158,7 +158,7 @@ hash = "ac1b00cc9b9ad27807abe10725d24cb1df77713cf29ad4656290a5a38783a6bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "b71e307b9c12215ece8f89576cc3323844b76de042071746ace1c36d55af0210"
+hash = "cb7211c0af73783a8d8dd2d86582aabe725f416157b74dcb3259fd507ba79f32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -1048,6 +1048,11 @@ hash = "5a978c4b0c4a90eeae86c8b0a4ce6724a77bae5c4f1c0b809d8fdb86b3ead6d9"
 metafile = true
 
 [[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "f0985d39c6bb45984378049516de43f8faa6ee52ac74487d67442452cbf84d60"
+metafile = true
+
+[[files]]
 file = "mods/ftb-backups-2.pw.toml"
 hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
 metafile = true
@@ -1090,6 +1095,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "59d22263e36313c43ad7c5e4179cb3554d414f701442b0784d94c0ba2384edfd"
 metafile = true
 
 [[files]]
@@ -1245,6 +1255,11 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "1ea8256d2f284a00b248f735a9f18ca5d6bc8f1d2c61317286940c1200d4bdfd"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
 metafile = true
 
 [[files]]
