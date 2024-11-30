@@ -191,6 +191,27 @@
 			x: -1.5d
 			y: 1.5d
 		}
+		{
+			description: [
+				"The &2Chisel&r is a classic way to increase the variety of your decor."
+				""
+				"Up here in the sky, it can be useful to build your platform out of &achiseled&r blocks to avoid &2vein mining&r your base when crushing stones."
+				""
+				"If you want to do some building, you can use the &2chiselers&r to chisel blocks in bulk."
+			]
+			id: "0EF6084E3B03BE8D"
+			tasks: [{
+				id: "5E71264ABB5472FC"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 	title: "Analog"
 }

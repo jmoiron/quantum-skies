@@ -17,6 +17,7 @@
     "gtceu.singleblock_sieve": "Sieving",
     "gtceu.vehicle_assembly_building": "VAB",
     "gtceu.greenhouse": "Greenhouse",
+    "gtceu.chiseler": "Chiseling",
 
     "qs.vab.tooltip": "Solid Steel Machine Casings are §cdeprecated§r; use Solid Machine Casings",
     "qs.lunar_surface_drill.tooltip": "Drills for ores deep under the §2lunar surface§r",
@@ -58,6 +59,9 @@
     "block.gtceu.lv_sieve": "Basic Sieve",
     "block.gtceu.mv_sieve": "§bAdvanced Sieve §r",
     "block.gtceu.hv_sieve": "§6Advanced Sieve II §r",
+    "block.gtceu.lv_chiseler": "Basic Chiseler",
+    "block.gtceu.mv_chiseler": "§bAdvanced Chiseler §r",
+    "block.gtceu.hv_chiseler": "§6Advanced Chiseler II §r",
     "block.gtceu.greenhouse": "Greenhouse",
     "block.gtceu.vehicle_assembly_building": "Vehicle Assembly Building",
     "block.gtceu.lunar_surface_drill": "Lunar Surface Drill",

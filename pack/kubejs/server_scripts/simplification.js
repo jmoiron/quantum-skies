@@ -66,13 +66,22 @@ ServerEvents.recipes(event => {
         }
     );
 
-
     // make tom's storage available at steam compressor
     event.replaceInput(
         {mod: "toms_storage"},
         "minecraft:ender_pearl",
         "ae2:ender_dust"
     )
+
+    event.remove({output: "rechiseled:chisel"})
+    event.shaped("rechiseled:chisel",
+      ["FP ", "S  ", "   "],
+      {
+        F: "#forge:tools/files",
+        P: "gtceu:iron_plate",
+        S: "minecraft:stick"
+      }
+    );
 
     event.shaped("16x minecraft:stick", ["A", "A"], {A: Ingredient.of("#minecraft:logs")})
     event.shapeless("4x minecraft:clay_ball", ["minecraft:clay"])

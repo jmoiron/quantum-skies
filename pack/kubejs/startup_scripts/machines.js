@@ -9,6 +9,13 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CENTRIFUGE);
 
+    event.create("chiseler")
+        .category("chiseler")
+        .setEUIO("in")
+        .setMaxIOSize(2, 6, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_LATHE, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.MIXER);
+
 })
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
@@ -28,6 +35,11 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("sieve", "electric", GTValues.LV, GTValues.MV, GTValues.HV)
         .recipeType("singleblock_sieve", true, true)
         .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/sifter")
+        .workableTieredHullRenderer("gtceu:block/machines/sifter");
+
+    event.create("chiseler", "electric", GTValues.LV, GTValues.MV, GTValues.HV)
+        .recipeType("chiseler", true, true)
+        .rotationState(RotationState.NON_Y_AXIS)
+        .workableTieredHullRenderer("gtceu:block/machines/lathe");
 
 })
