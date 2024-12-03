@@ -1266,6 +1266,11 @@ hash = "1ea8256d2f284a00b248f735a9f18ca5d6bc8f1d2c61317286940c1200d4bdfd"
 metafile = true
 
 [[files]]
+file = "mods/programmed-circuit-card.pw.toml"
+hash = "d54f8500001345a6836bf1eb81d6b91b6e54a920afabf6850552f6e2db94484e"
+metafile = true
+
+[[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
 metafile = true
