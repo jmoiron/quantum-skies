@@ -93,5 +93,5 @@ default: build
 
 bootstrap:
 	go install github.com/packwiz/packwiz@latest
-	sudo apt install ripgrep dos2unix openjdk-17-jre
+	# sudo apt install ripgrep dos2unix openjdk-17-jre
 
