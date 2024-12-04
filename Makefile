@@ -1,13 +1,14 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.4.2
+VERSION := 0.4.3
 #WINUSER := jmoir
 WINUSER := jlmoi
 PACKNAME := Quantum-Skies
 PACKURL := https://github.com/jmoiron/quantum-skies
 #INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/Quantum Skies/minecraft/
 #INSTALLPATH := /home/jmoiron/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
-INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
+#INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
+INSTALLPATH := /Users/jmoiron/Library/Application Support/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 
 build: refresh preBuild
 	-rm -rf build/config/*
@@ -85,6 +86,7 @@ clean:
 
 dos2unix:
 	-cd pack && ../eoffix.sh
+	-./sort.sh pack/config/skyblockbuilder/data/dimensions.txt
 
 refresh:
 	cd pack && packwiz refresh
@@ -94,4 +96,3 @@ default: build
 bootstrap:
 	go install github.com/packwiz/packwiz@latest
 	# sudo apt install ripgrep dos2unix openjdk-17-jre
-

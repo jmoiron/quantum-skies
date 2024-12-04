@@ -953,6 +953,12 @@
 				"If you did not make &6sulfuric acid&r for PE, you'll need some now."
 			]
 			id: "78ECC25FA3649463"
+			rewards: [{
+				count: 4
+				id: "5AA1FC31C078B0B5"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1B2F4C6582865771"
@@ -994,7 +1000,7 @@
 			}]
 			title: "Circuit Etching Fluids"
 			x: 5.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1036,9 +1042,16 @@
 				""
 				"The &7LV&r and &bMV&r integrated circuits can be made before transistors."
 				""
-				"Because the yield of &bMV&r circuits is 2x that of your electronic circuits, you should start crafting integrated circuits before you're ready to make the transistors needed for the &6HV&r ones. and because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
+				"The yield of &bMV&r integrated circuits is 2x that of your electronic circuits, so you should start crafting integrated circuits before you're ready to make the transistors needed for the &6HV&r ones."
+				""
+				"Because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
 			]
 			id: "37249933D652078D"
+			rewards: [{
+				id: "2AE2097D075CF9F6"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -1101,6 +1114,12 @@
 			]
 			description: ["Although &9advanced integrated circuits&r are &6HV&r tier, &cmicroprocessors&r are the first truly affordable &6HV&r circuits, and will allow you to scale out your production of &6HV&r machines."]
 			id: "1D131CBD6F52741F"
+			rewards: [{
+				count: 2
+				id: "4F1A751BB582C779"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -1164,7 +1183,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -1314,7 +1333,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6Naphtha&r procuces as much energy per litre as &6Light Fuel&r when used in a combustion generator, but the yields are lower and &6Naphtha&r doesn't give you a path towards better fuels."
+				"&6Naphtha&r procuces as much energy per litre as &6Light Fuel&r when used in a combustion generator, but you get less of it from normal &9Oil&r, and &6Naphtha&r doesn't give you a path towards better fuels."
 				""
 				"Furthermore, &ccracking&r &6Naphtha&r in a &bCracker&r (or a &bChem Reactor&r) is one of the better sources of &6Ethylene&r and the only source of &aPara-Xylene&r."
 			]
@@ -1403,7 +1422,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B65A8B097513381"]

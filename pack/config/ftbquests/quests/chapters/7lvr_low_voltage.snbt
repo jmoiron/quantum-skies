@@ -13,7 +13,7 @@
 			description: [
 				"The &dPrimitive Woodcutter&r is an &7LV&r multiblock tree farm.  Given a sapling, water, and power, it will produce wood at a slow rate."
 				""
-				"Once you get to &bMV&r, you will be able to create the &dGreenhouse&r which is a strict upgrade.  It produces wood faster for less power, can overclock, and is boostable with &bfertilizer&r."
+				"Once you get to &bMV&r, you will be able to create the &dGreenhouse&r which is an upgrade in every way: it can grow plants, it produces more wood more quickly for less power, can overclock, and is boostable with &bfertilizer&r."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "7829B13B2DEA6D42"
@@ -60,7 +60,7 @@
 				""
 				"Like steam era machines, these convert steam to power at a rate of &b2mb to 1EU&d."
 				""
-				"TODO: FAQ section on power;  amps, cables, loss, etc"
+				"If you want to know more about &2GregTech&r power, the \"&aEU Power&r\" info quest with the &agreen orb icon&r explains how it works."
 			]
 			id: "1C2F4DA07C29D42F"
 			shape: "gear"
@@ -782,13 +782,19 @@
 				"4D96207354C83C46"
 			]
 			description: [
-				"&6Aluminium&r is the &dhull material&r for &bMedium Voltage&r, and producing them in your &dEBF&r is a major step towards forwards in your &2technological journey&r."
+				"&6Aluminium&r is the &dhull material&r for &bMedium Voltage&r, and producing &6Aluminium Ingots&r in your &dEBF&r is a major step towards forwards in your &2technological journey&r."
 				""
-				"If you are &dCentrifuging&r air for &6oxygen&r, you can use the &6nitrogen&r you are producing to increase the efficiency and reduce the power requirements of &6Aluminium&r."
+				"If you are &2centrifuging&r air for &6oxygen&r, you can use the &6nitrogen&r you are producing to boost the blasting process."
 				""
-				"Unless you've built a lot of steam infrastructure, you might find running this recipe constantly a challenge. Not to worry, &6Aluminium&r is about to unlock better power options."
+				"Unless you've built a lot of steam infrastructure, you might find running this recipe a challenge. Not to worry, &6aluminium&r is about to unlock better power options."
 			]
 			id: "4565F14B36E7CD6C"
+			rewards: [{
+				count: 8
+				id: "283F83393FB4203A"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Aluminum... Whatever That Is"
@@ -946,11 +952,11 @@
 				""
 				"When not powered, it produces lava 10x faster than a &9Fired Crucible&r with its best heat source."
 				""
-				"When powered, it can produce lava 20x faster, and can also produce, at better yield, &6End Stone&r and &6Netherrack&r. "
+				"When powered, it makes lava at twice the unpowered rate, and also produces &6End Stone&r and &6Netherrack&r at 4x the yield of using &2ex nihilo&r barrels."
 				""
-				"The &dLarge Crucible&r can only support &7LV&r energy hatches;  the &dIndustrial Crucible&r later can overclock to higher energy tiers."
+				"The &dLarge Crucible&r can only support &7LV&r energy hatches;  the &dIndustrial Crucible&r can overclock these recipes to higher energy tiers, should you need it."
 				""
-				"In order to form, the &9Cauldron&r at its center &bmust be filled with lava&r."
+				"In order to form, the &9cauldron&r at its center &bmust be filled with lava&r."
 			]
 			id: "1BE745C08F52CA4C"
 			size: 1.25d
@@ -1144,6 +1150,75 @@
 			}]
 			x: -2.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["1C2F4DA07C29D42F"]
+			description: [
+				"As you've learned from &aSteam Power Mechanics&r, 2mb of steam equates to 1EU of power in a steam machine. The same is true in a steam turbine. "
+				""
+				"But what is &9EU&r? What are all of these &6cables and wires&r?"
+				""
+				"The pages in this quest will attempt to give you a quick overview of &2GregTech's&r power system.  If you understand this information, you'll have everything you need to know to get comfortable with &aproducing and transmitting power&r."
+				""
+				"{@pagebreak}"
+				"&9EU&r stands for &6energy unit&r.  "
+				""
+				"Each &avoltage tier's&r &aAmp&r (A) is 4x the EU of the previous, starting with &e32 EU&r at &7LV&r, &e128 EU&r at &bMV&r, and so on. Energy is transmitted in 1A packets."
+				""
+				"When a &2GregTech&r machine's energy buffer can fit 1A of EU for its tier, it requests a packet from adjacent energy sources, such as &dcables&r, &5battery buffers&r, &2generators&r, etc. "
+				""
+				"Machines can request 1A/t, but later on you will have energy hatches that can handle multiple amps at once."
+				""
+				"{@pagebreak}"
+				"Cables have several properties when you hover over them. "
+				"* &bMax Voltage&r"
+				"* &eMax Amperage&r"
+				"* &aLoss/Meter/Amp&r"
+				""
+				"The &bmax voltage&r always corresponds to 1A of a particular voltage tier. If you try to send &6HV&r down an &bMV&r rated cable, the cable will burn. If you try to send 2A down a 1A cable, the cable will burn."
+				""
+				"Early on, generators produce 1A each. Battery buffers can send 1A per battery inside them."
+				""
+				"&aCable loss&r is the last mechanic to keep in mind. Sending 1A &7LV&r down a 3 &6tin cables&r will deliver 29EU instead of 32EU, because &6tin cables&r have a 1EU/m/a loss. Each tier has a superconductor with 0 loss, but they're typically challenging to manufacture."
+				""
+				"{@pagebreak}"
+				"Finally, there is &aoverclocking&r."
+				""
+				"When a higher tier machine runs a lower-tier recipe, it will use 4x the power of that recipe for a 2x speed boost for each tier in between."
+				""
+				"For example, an &6HV&r machine running a 7EU/t &7LV&r recipe that takes 8s will use 112EU/t to run it in 2s, as the 2 tier gap results in 16x power usage for a 4x speed increase."
+				""
+				"Overclocking is &epower inefficient&r, but it is space and material efficient. How much you do is up to you, but your fuel processing system should probably prioritize power efficiency."
+				""
+				"{@pagebreak}"
+				"Here are some emergent behaviors of this system."
+				""
+				"A 4A &7LV&r cable will not transform &bMV&r power itself; it will simply burn. An &6HV&r machine cannot use 4A &dMV&r to fill up 512EU/t, because it can only request 1A/t. Instead, convert power between tiers using a &2transformer&r."
+				""
+				"Higher tier machines &ocan&r accept lower-tier energy, and it's possible to run machines on lower-tier power if the recipes are not using more than 1A of power for that tier."
+				""
+				"It's safe to use higher-tiered cables for lower-tier machines, but it's not recommended. Their voltage loss will still be the same, and if you accidentally hook up a higher tier power source you will blow up all of your machines."
+				""
+				"It's possible to attach a 1A cable to a 2A power source (eg. 2 generators), at least for a little while.  It's only when 2 machines request 1A during the same tick that the cable will burn. If you have a setup that was \"working fine\" and then your cables go poof, this is probably why."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:energy_cluster"
+				tag: {
+					Charge: 20000000000L
+				}
+			}
+			id: "41F358725C1D313F"
+			min_width: 250
+			shape: "circle"
+			tasks: [{
+				id: "04F04A9C8C7393F8"
+				title: "Power"
+				type: "checkmark"
+			}]
+			title: "EU Power"
+			x: 11.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Steel and &7Low Voltage&r Machines"]
