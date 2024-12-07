@@ -122,7 +122,7 @@ hash = "6165236ac6f356a79117a59d9b663ff8f2add0441f6f151de03c139e76608e39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "26052d33c95a83b6b06e69f4b7bacef2a68f305d457af304a0a4252add7f1d71"
+hash = "33dae60829cf50105c959330294e3b020f8d771267efcc79fc5c0f338806fa18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
@@ -134,7 +134,7 @@ hash = "e6e446db5b5b8e3f20707c330c6f7c6309ae3dd77d6867a3fb06f76f67a9059a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "cc56cec08c4eb274b77c5189fd5bd0ed612fbe6966f54abe157ebedea8ea1195"
+hash = "bca77352959c19653e6702f63f6f934897e022bc8d1d85a08629252aba594da2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -318,7 +318,7 @@ hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "e0a1f54c1465500ce6b17d209097e8b0267e7075f8ca504ed0100b6e8e51e369"
+hash = "3cba816abb97af9eac3fb48fbb7fd152f5b9cfe9d20423c4014dd14986322013"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
@@ -1217,7 +1217,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a2aa83a2702bf9d02a5b6f48ccabb1cbce2708c7e9de40e75a06b673494d8f46"
+hash = "2d05084103715228a9fb89d68e68fdc1f0d78e4a5facc9895d26b3ba0b7fd92f"
 metafile = true
 
 [[files]]
@@ -1337,7 +1337,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0fb0930b8a0edd72bb5b6b86f5d7ae942e73b8486c25822a5daec7a15c35c564"
+hash = "9cb855eb3e57e51178c2ecead3e8067af94ea63dbfc48d6062afce25093c65ed"
 metafile = true
 
 [[files]]
