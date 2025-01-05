@@ -158,7 +158,7 @@ hash = "ac1b00cc9b9ad27807abe10725d24cb1df77713cf29ad4656290a5a38783a6bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "cb7211c0af73783a8d8dd2d86582aabe725f416157b74dcb3259fd507ba79f32"
+hash = "6c7e1e02348556d85b1511855b708d99ebd96f6f5fc89d34d1b475480e04dc83"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -854,7 +854,7 @@ hash = "1b371e7b07994bc12f2252bd19c54de611189e39b1d26b4cbadf851349d72128"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "b77f21943482ceebb5e2d854b656b1e4a29aa497a4c6f6a806285946469df405"
+hash = "3f2e991e4b92bc1ba44f6070163a95cc3cb812e55374d429e3da089c8018bed4"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
