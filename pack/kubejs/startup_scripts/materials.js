@@ -1,3 +1,21 @@
+var $FluidPipeProperties = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidPipeProperties");
+
+// modify material properties
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    // with 1.6, fluid pipes can now corrode with acids.
+    // to save most existing worlds and to give some more early game options
+    // other than gold, we allow some common pipe mats to hold acids
+    let mats = [GTMaterials.Bronze, GTMaterials.Steel, GTMaterials.Copper, GTMaterials.Potin];
+
+    mats.forEach((mat) => {
+        var prop = mat.getProperty(PropertyKey.FLUID_PIPE)
+        prop.setCanContain(GTFluidAttributes.ACID, true);
+        mat.setProperty(PropertyKey.FLUID_PIPE, prop)
+    })
+
+});
+
+// add materials
 GTCEuStartupEvents.registry("gtceu:material", event => {
     // bedrock dust
     function dust(name, color) {
