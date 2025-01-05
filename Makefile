@@ -6,8 +6,8 @@ WINUSER := jlmoi
 PACKNAME := Quantum-Skies
 PACKURL := https://github.com/jmoiron/quantum-skies
 #INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/Quantum Skies/minecraft/
-#INSTALLPATH := /home/jmoiron/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 #INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
+#INSTALLPATH := /home/jmoiron/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 INSTALLPATH := /Users/jmoiron/Library/Application Support/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 
 build: refresh preBuild

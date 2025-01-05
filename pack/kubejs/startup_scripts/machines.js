@@ -20,26 +20,29 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
 
 GTCEuStartupEvents.registry("gtceu:machine", event => {
 
-    let _flap = false
-    function flap() {
-        _flap = !_flap
-        return !_flap
-    }
+    event.create("steam_sieve", "steam")
+        .hasHighPressure(true)
+        .definition((hp, builder) => (
+            builder
+                .recipeType("singleblock_sieve")
+                .workableTieredHullRenderer('gtceu:block/machines/macerator')
+        ));
 
-    // will become "gtceu:{lp,hp}_steam_sieve"
-    event.create("steam_sieve", "steam", true)
-        .recipeType("singleblock_sieve")
-        .renderer(() => new $WorkableSteamMachineRenderer(flap(), "gtceu:block/machines/macerator"))
-        .rotationState(RotationState.NON_Y_AXIS)
+    event.create("sieve", "simple")
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV)
+        .definition((tier, builder) =>
+            builder
+                //.langValue(GTValues.VLVH[tier] + " Sieve")
+                .recipeType("singleblock_sieve")
+                .workableTieredHullRenderer("gtceu:block/machines/sifter")
+        );
 
-    event.create("sieve", "electric", GTValues.LV, GTValues.MV, GTValues.HV)
-        .recipeType("singleblock_sieve", true, true)
-        .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/sifter");
-
-    event.create("chiseler", "electric", GTValues.LV, GTValues.MV, GTValues.HV)
-        .recipeType("chiseler", true, true)
-        .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/lathe");
+    event.create("chiseler", "simple")
+        .tiers(GTValues.LV, GTValues.MV, GTValues.HV)
+        .definition((tier, builder) =>
+            builder
+                .recipeType("chiseler")
+                .workableTieredHullRenderer("gtceu:block/machines/lathe")
+        );
 
 })
