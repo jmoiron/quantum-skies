@@ -23,7 +23,7 @@
 		{
 			id: "03BCE335F9718B30"
 			linked_quest: "4745AE5EC57118AB"
-			x: -6.0d
+			x: -4.5d
 			y: -13.0d
 		}
 	]
@@ -306,8 +306,8 @@
 		}
 		{
 			dependencies: [
-				"22161503779A2B13"
-				"6B781EF3E26D62E2"
+				"6E86DD18DFA3DA5A"
+				"6061E30674D8A3F5"
 			]
 			id: "6BFCE0B45F2483E0"
 			tasks: [{
@@ -316,7 +316,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["22161503779A2B13"]
@@ -364,11 +364,7 @@
 		}
 		{
 			dependencies: ["466C6EE4E2E3D039"]
-			description: [
-				"&6Para-Xylene&r can be distilled from &9Lightly Steam-cracked&r &6Naphtha&r."
-				""
-				"It is used to produce both of the next components for &6Para-Aramid&r."
-			]
+			description: ["&6Para-Xylene&r can be distilled from &9Lightly Steam-cracked&r &6Naphtha&r."]
 			id: "22161503779A2B13"
 			tasks: [{
 				id: "68309642FEBB5EBF"
@@ -377,24 +373,6 @@
 			}]
 			x: -3.0d
 			y: -13.0d
-		}
-		{
-			dependencies: [
-				"13B22DF7EBE23DF0"
-				"2B762EE7E5E3BEA1"
-				"5AE26411D1C23E3E"
-				"3A920812E6549DA4"
-			]
-			description: ["Finally, mixing &6Cobalt Bromide&r and &6Manganese Bromide&r produces Cobalt-Manganese Bromide catalyst!  What a relief."]
-			id: "6B781EF3E26D62E2"
-			size: 1.25d
-			tasks: [{
-				id: "198782839AECBF19"
-				item: "gcyr:co_mn_br_catalyst_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -417,7 +395,7 @@
 				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -10.0d
 		}
 		{
@@ -445,7 +423,7 @@
 				title: "Wet Bromine Bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -11.5d
 		}
 		{
@@ -477,7 +455,7 @@
 				title: "Overheated Bromine Sulfate Gas Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -11.5d
 		}
 		{
@@ -505,7 +483,7 @@
 				title: "Bromine Sulfate Solution Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -13.0d
 		}
 		{
@@ -533,7 +511,7 @@
 				title: "Acidic Brominated Brine Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -14.5d
 		}
 		{
@@ -561,7 +539,7 @@
 				title: "Brominated Brine Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -14.5d
 		}
 		{
@@ -589,7 +567,7 @@
 				title: "Iodine Brine Mixture Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -13.0d
 		}
 		{
@@ -598,6 +576,11 @@
 				"725A0FCB54CA13FA"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&6Iodized brine&r can be created with an &2EBF&r or with the &2Evaporation tower&r."
+				""
+				"The &2evaporation tower&r recipe is a lower energy tier, but they use about the same amount of power."
+			]
 			id: "5F89122136784BC1"
 			tasks: [{
 				icon: "gtceu:iodized_brine_bucket"
@@ -621,7 +604,7 @@
 				title: "Iodized Brine Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -11.5d
 		}
 		{
@@ -636,7 +619,7 @@
 				item: "gtceu:saltpeter_dust"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.0d
 			y: -13.0d
 		}
 		{
@@ -699,20 +682,6 @@
 			y: -13.0d
 		}
 		{
-			dependencies: [
-				"01794ECC79094E65"
-				"6061E30674D8A3F5"
-			]
-			id: "13B22DF7EBE23DF0"
-			tasks: [{
-				id: "4953BAC37C3DCCFE"
-				item: "gcyr:manganese_acetate_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -10.0d
-		}
-		{
 			description: [
 				"Although the resulting &9fiberglass&r is probably not very good, you can use &6glue&r instead of racing ahead and doing &6epoxy&r to create it."
 				""
@@ -761,51 +730,20 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"01794ECC79094E65"
-				"6061E30674D8A3F5"
+			dependencies: ["6BFCE0B45F2483E0"]
+			description: [
+				"Wait.. all of that for a catalyst?"
+				""
+				"Well, since you can &3recycle&r your &6bromine&r, you might as well."
 			]
-			id: "5AE26411D1C23E3E"
-			tasks: [{
-				id: "0C3F949D527619B6"
-				item: "gcyr:manganese_bromide_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6061E30674D8A3F5"]
 			id: "2B762EE7E5E3BEA1"
 			tasks: [{
-				id: "7F3F59BF42B62C3A"
-				item: "gcyr:hydrobromic_acid_bucket"
+				id: "0872860640F317A9"
+				item: "gtceu:hydrobromic_acid_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -11.5d
-		}
-		{
-			id: "01794ECC79094E65"
-			tasks: [{
-				id: "162BED4D94AF4E76"
-				item: "gtceu:acetic_acid_bucket"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6061E30674D8A3F5"]
-			hide_dependency_lines: true
-			id: "3A920812E6549DA4"
-			tasks: [{
-				id: "0C5D2ABE021D6613"
-				item: "gcyr:cobalt_bromide_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["483DB4F012FE9B17"]
@@ -832,7 +770,7 @@
 				title: "Chlorinated Bromine Solution Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -8.5d
 		}
 		{
@@ -860,7 +798,7 @@
 				title: "Acidic Bromine Solution Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -7.0d
 		}
 		{
@@ -888,7 +826,7 @@
 				title: "Brominated Chlorine Vapor Bucket"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -916,7 +854,7 @@
 				title: "Hot Chlorinated Brominated Brine Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -5.5d
 		}
 		{
@@ -944,7 +882,7 @@
 				title: "Hot Brine Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -7.0d
 		}
 		{
@@ -976,7 +914,7 @@
 				title: "Raw Brine Bucket"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -8.5d
 		}
 		{
@@ -988,6 +926,8 @@
 				"Going the &6brine&r route requires an &2evaporation tower&r and, if you want good yields, a &2distillation tower&r."
 				""
 				"The &6brine&r route is a fewer steps, but looping its by-products is a bit more complex."
+				""
+				"&aNote&r: you do not need &6bromine&r in bulk!"
 			]
 			id: "725A0FCB54CA13FA"
 			size: 1.5d
@@ -996,18 +936,65 @@
 				item: "gtceu:salt_water_bucket"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -9.0d
 			y: -10.0d
 		}
 		{
-			description: ["The &2evaporation tower&r can turn &9salt water&r into &6brine&r, the first step towards &cbromine&r."]
+			description: [
+				"The &2evaporation tower&r can turn &9salt water&r into &6brine&r, the first step towards &cbromine&r."
+				""
+				"&aNote&r: the standard &2Gregtech&r &2evaporation tower&r is due for removal in an upcoming version. "
+				""
+				"If you made one accidentally, or have made one in the past, you craft the controller into the new version, and macerate the casings back into &3clean stainless steel&r casings."
+			]
 			id: "404B433260D8C3CF"
 			tasks: [{
-				id: "004EC7F127A475C5"
-				item: "gtceu:evaporation_plant"
+				id: "42B45AFA87D578C6"
+				item: "gtceu:evaporation_tower_qs"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6EEB9420E4E0563B"
+				"5D3EAD0A4B198FC3"
+			]
+			id: "6E86DD18DFA3DA5A"
+			tasks: [{
+				id: "4D83F9590B5ECAC5"
+				item: "gcyr:methylbenzaldehyde_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			id: "6EEB9420E4E0563B"
+			tasks: [{
+				id: "54813A4D7763750E"
+				item: "gcyr:aluminium_trichloride_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&6Toluene&r can be &2distilled&r from several different oil byproducts. "
+				""
+				"It is a major component in industrial explosives like &9TNT&r and should be produced in large quantities. "
+				""
+				"You won't need to use much for your space suits, though."
+			]
+			id: "5D3EAD0A4B198FC3"
+			tasks: [{
+				id: "2BD456E2822199CA"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: -1.5d
 			y: -7.0d
 		}
 	]

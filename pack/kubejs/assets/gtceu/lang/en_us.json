@@ -6,6 +6,7 @@
     "block.gtceu.mudpit": "Mudpit",
     "block.gtceu.planetary_core_drill": "§5Planetary Core Drill§r",
     "block.gtceu.industrial_sieve": "Industrial Sieve",
+    "block.gtceu.evaporation_tower_qs": "Evaporation Tower §5QS§r",
 
     "gtceu.bonsai": "Woodcutting",
     "gtceu.crucible": "Crucible Melting",
@@ -18,6 +19,7 @@
     "gtceu.vehicle_assembly_building": "VAB",
     "gtceu.greenhouse": "Greenhouse",
     "gtceu.chiseler": "Chiseling",
+    "gtceu.evaporation_tower_qs": "Evaporation §5QS§r",
 
     "qs.vab.tooltip": "Solid Steel Machine Casings are §cdeprecated§r; use Solid Machine Casings",
     "qs.lunar_surface_drill.tooltip": "Drills for ores deep under the §2lunar surface§r",
@@ -52,6 +54,7 @@
     "material.gtceu.venus_air": "Venusian Air",
     "material.gtceu.liquid_venus_air": "Liquid Venusian Air",
     "material.gtceu.nitrogen_tetroxide": "Nitrogen Tetroxide",
+    "material.gtceu.hydrobromic_acid": "Hydrobromic Acid",
     "material.gtceu.euxenite": "Euxenite",
 
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",

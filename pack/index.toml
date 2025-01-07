@@ -118,7 +118,7 @@ hash = "5f9305cb219cc9de782666c1e2a6bff211940d6a86fc3e0b9619d9d0b212e14d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "6165236ac6f356a79117a59d9b663ff8f2add0441f6f151de03c139e76608e39"
+hash = "9b57fdffdb9a2f51b812a354c7c67a3582e823c2d2c61890900f5789d3fe8626"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -186,7 +186,7 @@ hash = "e746ca744af73aa0d0a0e8a0bd44535d51f96c1fe13f41f9bc62697e4b62ed93"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "88240b3a79b4eb0fb0687cc8847db4d4b8445bfba67313388d9dbd37f57ad6c3"
+hash = "fead835676b808ba67c19c75d2c622021137891fd3611670a5950f39b9acdd73"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -470,7 +470,7 @@ hash = "9970a7261784b902b0154e2adb290f385f46cf0280d4dd8a1e7590493bcc6a77"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "9a3e5afb29403db052b8d30f935893898266673b5f9b33a73c75dd39c4158baa"
+hash = "f047bc1074d63de8a8f16b73da6937f66529a8a4337482c1515bae4b0f4de5c5"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -718,7 +718,7 @@ hash = "fd2db5aa5aff764429ff38ef7a37bb4e8131942add328f44dd4a24a93ba6aecf"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr.js"
-hash = "b6cf0603a949ea66a5a68dffd6d9a176b68fc4495a230fcec7bd63db0c5fe76b"
+hash = "f26ca6b2b46b1ec6234c7a57ff6621d12c99373567d516cb31811fd0171088b5"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -789,6 +789,10 @@ file = "kubejs/server_scripts/multiblocks/crucible.js"
 hash = "1556299f7ea09ecae16e5c3ee0004032bd2ebb82406c351bf96cbc94d006b845"
 
 [[files]]
+file = "kubejs/server_scripts/multiblocks/evaporation_tower.js"
+hash = "29d74c6b59cc4d04a9b641012e14757f7a37426b0008ad0a9482f88f752196c3"
+
+[[files]]
 file = "kubejs/server_scripts/multiblocks/lunar_surface_drill.js"
 hash = "6678b06a9f59b8d8ca35e35254b75d4e3a3649666f32e44af013661972a84544"
 
@@ -854,11 +858,15 @@ hash = "1b371e7b07994bc12f2252bd19c54de611189e39b1d26b4cbadf851349d72128"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "3f2e991e4b92bc1ba44f6070163a95cc3cb812e55374d429e3da089c8018bed4"
+hash = "9a9d11d075cfacce67dc0345701fdf4367a976291d32b732f44e015f062d8562"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
 hash = "14c5e5f7233154c67b140a7fb35add19ee17b4efd1becbb96115271f0adf23d0"
+
+[[files]]
+file = "kubejs/startup_scripts/multiblocks/evaporation_tower.js"
+hash = "c82bb83d068da57ac870dc6a8a44fa9fb479fad938271420f9e09ac8d4e92290"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/ex_nihilo.js"

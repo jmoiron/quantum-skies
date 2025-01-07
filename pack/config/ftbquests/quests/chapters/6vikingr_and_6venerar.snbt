@@ -181,8 +181,8 @@
 			]
 			id: "4ED87AC672093DA1"
 			tasks: [{
-				id: "7F17CAA7CFCD7C00"
-				item: "gtceu:orange_metal_catalyst_dust"
+				id: "26ECEDDF7EF837D6"
+				item: "gtnn:orange_metal_catalyst"
 				type: "item"
 			}]
 			x: 11.5d

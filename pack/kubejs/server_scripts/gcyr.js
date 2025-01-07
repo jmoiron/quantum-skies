@@ -250,4 +250,22 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(100);
 
+
+    // bromine removal fix
+    // instead of crafting several intermediaries, add bromine to the new recipe
+    // which includes some petrochem
+
+    event.remove({id: "gcyr:chemical_reactor/therephthalic_acid"});
+    event.remove({id: "gcyr:large_chemical_reactor/therephthalic_acid"});
+
+    greg.chemical_reactor("terephthalic_acid")
+        .inputFluids("gcyr:methylbenzaldehyde 1000")
+        .inputFluids("minecraft:water 1000")
+        .inputFluids("gtceu:bromine 1000")
+        .outputFluids("gcyr:therephthalic_acid 1000")
+        .outputFluids("gtceu:hydrobromic_acid 1000")
+        .EUt(GTValues.VHA[GTValues.HV])
+        .duration(3*20);
+
+
 });

@@ -96,6 +96,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     fluid("nitrogen_tetroxide", 0x9C9C04);
 
+    // extra output for bromine -> Terephthalic Acid
+    event.create("hydrobromic_acid")
+        .fluid()
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING)
+        .components("1x hydrogen", "1x water", "1x bromine");
+
     // catalyst for PAO production (chem plant)
     event.create("boron_trifluoride")
         .gas()
