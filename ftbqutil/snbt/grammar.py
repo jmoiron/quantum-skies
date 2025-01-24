@@ -12,29 +12,35 @@ from collections import OrderedDict
 
 grammar = Grammar(
     r"""
-    object = lbrace kv* rbrace
+    object = o1 / o2
+    o1   = lbrace sskv? rbrace
+    o2   = lbrace cskv? rbrace
     list = lbrack val* rbrack
+    sskv = kv*
+    cskv = kv (comma kv)*
     kv = symbol colon val
 
-    symbol = ~r"[\w_]+"
+    symbol = ~r"[\w\._]+"
     string = '"' ~r'(?:\\.|[^\"\\])+'? '"'
     bool   = ( "false" / "true" )
 
     digits  = ~r"[0-9]+"
+    long    = int ("L" / "b")
     int     = "-"? digits
-    float   = int "." digits
+    float   = int "." digits "f"?
     decimal = float "d"
-    number  = (decimal / float / int)
+    number  = (decimal / float / long / int)
 
     val = _ (object / list / string / bool / number) _
 
-    ws = ~"\s*"
+    ws = ~r"\s*"
     _ = ws?
     lbrack  = _ "[" _
     rbrack  = _ "]" _
     lbrace  = _ "{" _
     rbrace  = _ "}" _
     colon   = _ ":" _
+    comma   = _ "," _
     """
 )
 
@@ -51,8 +57,13 @@ class SnbtVisitor(NodeVisitor):
     def visit_object(self, node, visited_children):
         obj = OrderedDict()
         for child in _f(visited_children):
-            for c in child:
-                obj.update(c)
+            if isinstance(child, list):
+                for c in child:
+                    obj.update(c)
+            elif isinstance(child, (dict, OrderedDict)):
+                obj.update(child)
+            else:
+                print("unknown type", type(child))
         return obj
 
     def visit_list(self, node, visited_children):
@@ -69,6 +80,10 @@ class SnbtVisitor(NodeVisitor):
         val = node.text
         if val.endswith("d"):
             return Decimal(val[:-1])
+        if val.endswith("f"):
+            return float(val[:-1])
+        if val.endswith("b") or val.endswith("L"):
+            val = val[:-1]
         if "." not in val:
             return int(val)
         return float(val)
@@ -91,7 +106,7 @@ class SnbtVisitor(NodeVisitor):
 
     def generic_visit(self, node, visited_children):
         text = node.text.strip()
-        if text in {"", ":", "[", "]", "{", "}"}:
+        if text in {"", ":", "[", "]", "{", "}", ","}:
             return None
         return hoist(visited_children)
 
