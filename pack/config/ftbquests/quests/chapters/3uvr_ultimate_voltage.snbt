@@ -6,17 +6,42 @@
 	icon: "gtceu:uv_machine_hull"
 	id: "0568DBC3D3636366"
 	order_index: 8
-	quest_links: [ ]
-	quests: [{
-		id: "4CC28DFCBE46105F"
-		tasks: [{
-			id: "740AC1FD188E4784"
-			title: "lore"
-			type: "checkmark"
-		}]
-		x: 1.5d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "719FC8F1530C922D"
+			linked_quest: "44149325D34E6DF4"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5B148C1A4D47E1F2"
+			linked_quest: "155BDB5D3874474A"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			id: "4CC28DFCBE46105F"
+			tasks: [{
+				id: "740AC1FD188E4784"
+				title: "lore"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "345EB2C11A6B5C8E"
+			tasks: [{
+				id: "196C2CD8C67221C9"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
 	subtitle: ["The &3Ultimate Voltage&r"]
 	title: "[&3UV&r] Ultimate Voltage"
 }

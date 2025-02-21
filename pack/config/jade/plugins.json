@@ -66,17 +66,6 @@
     "hud.status": true,
     "hud.contents": true
   },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "exnihilosequentia": {
-    "barrel": true,
-    "crucible": true,
-    "sieve": true,
-    "infesting_leaves": true
-  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -110,8 +99,8 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
-  "gravestone": {
-    "grave": true
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -124,5 +113,19 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "exnihilosequentia": {
+    "barrel": true,
+    "crucible": true,
+    "sieve": true,
+    "infesting_leaves": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }

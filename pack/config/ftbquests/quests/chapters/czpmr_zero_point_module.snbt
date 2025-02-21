@@ -281,6 +281,13 @@
 		}
 		{
 			dependencies: ["1C37068850C07CDD"]
+			description: [
+				"&9Darmstadtium&r is the hull material for &3UV&r.  It must be synthesized from &6Ruthenium&r and &6Arsenic&r in a &2Fusion Mk II&r reactor."
+				""
+				"Although the German city of &3Darmstadt&r has a long history pushing the foundations of chemistry, &9Darmstadtium&r was first synthesized there in 1994."
+				""
+				"Back in &2GTCE&r, it was the \"default\" material for &2GT&r tool recipe lookup."
+			]
 			id: "44149325D34E6DF4"
 			tasks: [{
 				id: "66B31B67F23AB0E7"

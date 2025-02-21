@@ -625,6 +625,8 @@
 				"It is a hollow 3x3x3 cube, but you can hover your cursor over the &9Coke Oven&r controller in your inventory and press &3u&r, then select the &eMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable with this UI for future multiblocks."
 				""
 				"Cells are &estackable buckets&r, and a bit more besides.  These should ease the tedium of crafting &9Treated Planks&r and &9Paper&r slightly."
+				""
+				"If you empty craft an &aempty fluid cell&r, you will get a &auniversal cell&r, which is capable of holding fractional buckets of a single liquid."
 			]
 			icon: "gtceu:coke_oven"
 			id: "518C743F49E7BA04"

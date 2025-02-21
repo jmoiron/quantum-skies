@@ -392,7 +392,7 @@
 			description: [
 				"Each tier has several associated materials."
 				""
-				"The include the materials to build the &ehulls&r, the &esuperconductors&r, and the &ecoils&r used in that tier."
+				"These include the materials to build the &ehulls&r, &esuperconductors&r, and &ecoils&r used in that tier."
 				""
 				"That progression is presented here to help you &dplan ahead&r."
 			]
