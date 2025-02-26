@@ -10,37 +10,289 @@
 		{
 			id: "719FC8F1530C922D"
 			linked_quest: "44149325D34E6DF4"
-			x: 3.0d
-			y: 0.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			id: "5B148C1A4D47E1F2"
 			linked_quest: "155BDB5D3874474A"
 			x: 4.5d
-			y: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "523FBE06FC8038EC"
+			linked_quest: "2EFA7EB110FECA5F"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "15736AB5102038B5"
+			linked_quest: "59C4026AA0F4C06C"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "551C7E7C5082298D"
+			linked_quest: "35D95D1841C5B45F"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "5858A9206D08161C"
+			linked_quest: "31EB748584DCAF0B"
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	quests: [
 		{
+			icon: "gtceu:infinity_block"
 			id: "4CC28DFCBE46105F"
+			shape: "hexagon"
 			tasks: [{
 				id: "740AC1FD188E4784"
 				title: "lore"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "&3Ultimate&r Lore"
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3EB41A9A7098448F"]
+			dependencies: [
+				"3EB41A9A7098448F"
+				"59C4026AA0F4C06C"
+				"155BDB5D3874474A"
+				"09C2A0D7F7BCE9E4"
+				"73C8A46FCF27377F"
+			]
 			id: "345EB2C11A6B5C8E"
 			tasks: [{
 				id: "196C2CD8C67221C9"
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44149325D34E6DF4"]
+			description: [
+				"It's taken a while to unlock the &3UV&r tier, and making the &9machine hulls&r is, as always, the first step."
+				""
+				"Treat yourself to some free casings on the house. You'll need some to make the next &2Fusion Reactor&r."
+			]
+			id: "5ED4D3025B6520C5"
+			rewards: [{
+				count: 8
+				id: "424A12A0567514A9"
+				item: "gtceu:uv_machine_casing"
+				type: "item"
+			}]
+			subtitle: "Why Not?"
+			tasks: [{
+				id: "5A67377421BBAB6F"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"155BDB5D3874474A"
+				"2EFA7EB110FECA5F"
+			]
+			id: "4C73AD46B5A75CAE"
+			tasks: [
+				{
+					id: "360037EA7459D9A4"
+					item: "gtceu:uv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "2F156F1142A9D4B3"
+					item: "gtceu:uv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "2E825EA231C4BD7E"
+					item: "gtceu:uv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "558E3BA60E9730AA"
+					item: "gtceu:uv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "62E55C6EB0C04C00"
+					item: "gtceu:uv_robot_arm"
+					type: "item"
+				}
+			]
+			x: 4.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["23FD1CA94098F870"]
+			id: "09C2A0D7F7BCE9E4"
+			tasks: [{
+				id: "3FD12657337C8BCC"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["09C2A0D7F7BCE9E4"]
+			description: ["You could build &3UV&r versions of all of the single block machines, but you're probably at a state where upgrading your &2multiblocks&r makes more sense."]
+			id: "73C8A46FCF27377F"
+			tasks: [{
+				id: "4791199FC608FEDA"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["345EB2C11A6B5C8E"]
+			id: "1CCA2D9F58882F65"
+			tasks: [{
+				id: "5972B3377B2B9DE1"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CCA2D9F58882F65"]
+			id: "48E4499652ECB3A0"
+			tasks: [
+				{
+					id: "5FCB4709849579E5"
+					item: "gtceu:neutronium_boule"
+					type: "item"
+				}
+				{
+					id: "239F52FC975D26BE"
+					item: "gtceu:neutronium_wafer"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48E4499652ECB3A0"]
+			id: "7ADF9E37438D46E1"
+			tasks: [
+				{
+					id: "67224B74540CE1A3"
+					item: "gtceu:highly_advanced_soc_wafer"
+					type: "item"
+				}
+				{
+					id: "5FB393A8730B7DD8"
+					item: "gtceu:highly_advanced_soc"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CCA2D9F58882F65"]
+			description: [
+				"Given the definition of &3ultimate&r, there should not be any tiers beyond &3UV&r."
+				""
+				"And yet.. &4UHV&r exists."
+			]
+			id: "341267DF3F8C8DC8"
+			subtitle: "But wait, there's.. more?"
+			tasks: [
+				{
+					id: "36CD4D5E62DA0ADE"
+					item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+					type: "item"
+				}
+				{
+					id: "695C15E3E6B4DE80"
+					item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+					type: "item"
+				}
+			]
+			title: "&4UHV&r Superconductors"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["341267DF3F8C8DC8"]
+			description: [
+				"You can technically use these, with your new &4UHV&r superconductors and some &3UV&r &2transformers&r to transmit and terminate large amounts of power to your multiblocks."
+				""
+				"But..  should you?"
+			]
+			id: "0E4AFDB5DEAC07B9"
+			subtitle: "So preoccupied with whether they could.."
+			tasks: [{
+				id: "0963D39280B0623D"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CCA2D9F58882F65"]
+			id: "1AF2326A69998BE1"
+			tasks: [{
+				id: "576A27DAA82139BB"
+				item: "gtceu:gravi_star"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AF2326A69998BE1"]
+			id: "33B157F36D860BF7"
+			tasks: [{
+				id: "720F91F5E2DDE0F4"
+				item: "gtceu:uv_field_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AF2326A69998BE1"]
+			id: "3C7737DBE084B584"
+			tasks: [{
+				id: "1B935608D0DFEBE4"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33B157F36D860BF7"]
+			id: "154F55C5764E0253"
+			tasks: [{
+				id: "38376F9607F347C6"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["The &3Ultimate Voltage&r"]

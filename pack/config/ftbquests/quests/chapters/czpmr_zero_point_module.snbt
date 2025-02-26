@@ -28,6 +28,7 @@
 		{
 			id: "06D2CAF292934C08"
 			linked_quest: "534428A2BB627A79"
+			size: 1.5d
 			x: 5.5d
 			y: -1.5d
 		}
@@ -44,12 +45,6 @@
 			y: 3.0d
 		}
 		{
-			id: "25A8129F6345707A"
-			linked_quest: "31EB748584DCAF0B"
-			x: 8.5d
-			y: 1.5d
-		}
-		{
 			id: "3F3DEEBCA3BF6D7C"
 			linked_quest: "099A22D915371988"
 			x: 13.0d
@@ -64,19 +59,27 @@
 		{
 			id: "62B24BAF27F20F7E"
 			linked_quest: "68F17F12F1CA7F41"
-			x: 10.0d
+			x: 11.5d
 			y: -3.0d
 		}
 		{
 			id: "2381BD880720EBAE"
 			linked_quest: "3452BE188DC53866"
-			x: 11.5d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
 			id: "239418B4A8DA014C"
 			linked_quest: "5A9247C8D13D4C39"
+			shape: "gear"
+			size: 1.25d
 			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "46D1FAA88DD3915F"
+			linked_quest: "5786299144B4FB87"
+			x: 2.5d
 			y: -3.0d
 		}
 	]
@@ -331,6 +334,13 @@
 				"1DE910E2131B3F03"
 				"2EFA7EB110FECA5F"
 			]
+			description: [
+				"The &2Sterile Cleanroom&r is required to run recipes that require the ultimate in cleanliness."
+				""
+				"This cleanroom &cdoesn't act&r as a normal cleanroom, unfortunately, so you will need to build an additional structure."
+				""
+				"You will probably find building a &2cleanroom&r to be quite simple now, compared to the ordeal of the first one."
+			]
 			id: "23FD1CA94098F870"
 			tasks: [{
 				id: "3D9495EA65C5DF12"
@@ -338,22 +348,16 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["534428A2BB627A79"]
-			hide_dependency_lines: true
-			id: "0CF9DA24FFA1613B"
-			tasks: [{
-				id: "1D6917DBFADE131C"
-				item: "gtceu:zpm_sensor"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 3.0d
-		}
-		{
+			description: [
+				"Your options for &cmeat&r might seem limited, but you can farm for fish with a &2GregTech Fisher&r or by allowing fish to fall down a column of water and collecting their remains."
+				""
+				"You'll need a decent amount of it."
+			]
 			id: "6CE73B8109970566"
+			subtitle: "100% Lab Grown"
 			tasks: [{
 				id: "084AE7BBC5EA1DB1"
 				item: "gtceu:meat_dust"

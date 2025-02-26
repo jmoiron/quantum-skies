@@ -585,6 +585,7 @@
 		{
 			dependencies: ["58536D39766CECB8"]
 			id: "6370EBBCF9330E43"
+			subtitle: "It's So Quantum"
 			tasks: [{
 				id: "1D245BC6B4743AFF"
 				item: "gtceu:quantum_star"
