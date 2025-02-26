@@ -269,8 +269,11 @@
 				"15F56ADF57237198"
 				"1FE202EBC9376339"
 				"59533CD2E9928F2C"
+				"0001F36B89327A06"
 			]
 			id: "1C37068850C07CDD"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "30EE0690FDD12426"
 				item: "gtceu:zpm_fusion_reactor"

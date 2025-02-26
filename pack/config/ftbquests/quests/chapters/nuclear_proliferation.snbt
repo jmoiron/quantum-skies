@@ -10,22 +10,149 @@
 		{
 			id: "669800160E2FA31C"
 			linked_quest: "188B86167DB88BA6"
-			x: -1.0d
-			y: 1.0d
-		}
-		{
-			id: "7613DAADDB6C1710"
-			linked_quest: "188B86167DB88BA6"
-			x: 0.5d
-			y: 1.0d
+			shape: "gear"
+			size: 1.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			id: "1D2CEE2487CE144C"
 			linked_quest: "345EB2C11A6B5C8E"
+			shape: "gear"
+			size: 1.5d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "261E519D13FC0588"
+			linked_quest: "1C37068850C07CDD"
+			shape: "gear"
+			size: 1.5d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "4989892C0DF3A4BE"
+			linked_quest: "35D95D1841C5B45F"
 			x: 2.0d
-			y: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "0B4C084C541DB44F"
+			linked_quest: "30ED41EF982F9843"
+			x: 3.5d
+			y: -2.5d
 		}
 	]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Your quest for &amaterial superiority&r will come up against a road block: there are materials you need that do not exist in nature and cannot be &6processed&r from natural materials. "
+				""
+				"You'll have to make them by &6fusing&r together elements in a fusion reactor. You will build the first fusion reactor, the &2Mk 1 Fusion Reactor&r, in &dLuV&r."
+				""
+				"There are 3 tiers of fusion reactor in total. Each tier past Mk 1 will require &6elements&r fused by the previous tier's reactor as well as a controller for the previous reactor for &bresearch&r data."
+				""
+				"This quest line will help you see at a glance what is necessary when."
+			]
+			icon: "gtceu:radioactive_hazard_sign_block"
+			id: "0C0D36C375864856"
+			min_width: 250
+			shape: "circle"
+			size: 2.0d
+			subtitle: "A few people laughed, a few people cried. Most people were silent."
+			tasks: [{
+				id: "7603CB076E6B4FCA"
+				title: "Nuclear Proliferation"
+				type: "checkmark"
+			}]
+			title: "Nuclear Proliferation"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			id: "0001F36B89327A06"
+			tasks: [{
+				id: "7D57E8C05197A2A6"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18DA86AF5943CA4C"
+				"1C37068850C07CDD"
+			]
+			id: "3EB41A9A7098448F"
+			tasks: [{
+				id: "25E873433C757F61"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			id: "18DA86AF5943CA4C"
+			tasks: [{
+				id: "48DE413DDFD069C7"
+				item: "gtceu:lutetium_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["188B86167DB88BA6"]
+			id: "6989F72ED4EE4ADD"
+			tasks: [{
+				id: "2A21E6AC12531071"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C37068850C07CDD"]
+			id: "3D3E94797A3DBEE8"
+			tasks: [{
+				id: "31DA2374FE2475FC"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6989F72ED4EE4ADD"
+				"1C37068850C07CDD"
+			]
+			id: "5E822BB4AA72EBD3"
+			tasks: [{
+				id: "3D9329EEC2EDF778"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["345EB2C11A6B5C8E"]
+			id: "2828F770C9FF2963"
+			tasks: [{
+				id: "7B7DE3548D2E45CE"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
 	title: "&6Nuclear&r Proliferation"
 }
