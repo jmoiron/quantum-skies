@@ -743,7 +743,15 @@
 				"5E6CF88304265435"
 				"75AABEDD8058253E"
 			]
+			description: [
+				"The &2Research Station&r is a multiblock upgrade of the &2scanner&r, which can only write to &bData Sticks&r.  The &2Research Station&r can scan more advanced items that require the larger storage of &bData Orbs&r and &bData Modules&r."
+				""
+				"The station consumes power and &9computation&r, which is supplied to the station by hooking it up to a &2High Performance Computer Array&r (HPCA) via a &6Computation Data Reception Hatch&r and some &9optical fiber cables&r."
+				""
+				"&6Computation Work Units&r (CWU/t) are explained in the quest for the &2HPCA&r."
+			]
 			id: "534428A2BB627A79"
+			subtitle: "The solution to a problem we caused"
 			tasks: [{
 				id: "40D28F0DB7E2ECD4"
 				item: "gtceu:research_station"
@@ -794,7 +802,15 @@
 				"2EFA7EB110FECA5F"
 				"59C4026AA0F4C06C"
 			]
+			description: [
+				"The &2Network Switch&r allows you to connect multiple &2HPCAs&r together to supply your &2Research Station&r with the combined computation of the entire cluster."
+				""
+				"In order for an &2HPCA&r to support being connected to the &2Network Switch&r, it needs to have an &6HPCA Bridge Component&r."
+				""
+				"Yes, this forms a &dHigh Performance Computer Array Array&r."
+			]
 			id: "31EB748584DCAF0B"
+			subtitle: "Distributed Computing"
 			tasks: [{
 				id: "633F6664310B4E52"
 				item: "gtceu:network_switch"
