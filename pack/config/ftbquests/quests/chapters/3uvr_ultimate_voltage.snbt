@@ -22,7 +22,7 @@
 		{
 			id: "523FBE06FC8038EC"
 			linked_quest: "2EFA7EB110FECA5F"
-			x: 6.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -34,7 +34,7 @@
 		{
 			id: "551C7E7C5082298D"
 			linked_quest: "35D95D1841C5B45F"
-			x: 7.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -46,15 +46,24 @@
 	]
 	quests: [
 		{
+			description: [
+				"Look around a world entirely of your creation and ponder: all of this from a &2tree&r?"
+				""
+				"The way back seems &atantalizingly&r close, but you still need &dmore power&r. You may have mastered this dimension, but &abreaking through&r the barrier will require something special."
+				""
+				"Something &3ultimate&r."
+			]
 			icon: "gtceu:infinity_block"
 			id: "4CC28DFCBE46105F"
 			shape: "hexagon"
+			size: 2.0d
+			subtitle: "We set the controls for the heart of the sun"
 			tasks: [{
 				id: "740AC1FD188E4784"
 				title: "lore"
 				type: "checkmark"
 			}]
-			title: "&3Ultimate&r Lore"
+			title: "The &3final&r countdown"
 			x: 2.5d
 			y: -3.0d
 		}
@@ -132,7 +141,7 @@
 				}
 			]
 			x: 4.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23FD1CA94098F870"]
@@ -292,6 +301,29 @@
 				type: "item"
 			}]
 			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["154F55C5764E0253"]
+			description: [
+				"If you've made it here, then you've done something few have the &mpatience&r &aperseverence&r to do and finished the progression in &2GTCEu&r."
+				""
+				"There is post-&3UV&r content planned that involves more &2GCYR&r (rocketry), some more advanced material synthesis (&4i&r&6n&r&ef&r&ai&r&1n&r&9i&dt&5y&r), and a conclusion to the story presented in the chapter lore."
+				""
+				"Thank you for playing!"
+			]
+			icon: "ftbquests:barrier"
+			id: "7BCCEC70A21F946E"
+			shape: "heart"
+			size: 1.5d
+			subtitle: "Or is it?"
+			tasks: [{
+				id: "54240B0886CBC8BE"
+				title: "The End..?"
+				type: "checkmark"
+			}]
+			title: "The End..."
+			x: 13.5d
 			y: -3.0d
 		}
 	]
