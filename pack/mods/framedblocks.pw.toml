@@ -1,6 +1,7 @@
 name = "FramedBlocks"
 filename = "FramedBlocks-9.3.2.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
