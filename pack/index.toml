@@ -5,6 +5,14 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/ae2/client.json"
+hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
+
+[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -59,6 +67,14 @@ hash = "cfc26825890d28930edf5d9864d7bc220a62ac00362c207dbe6cb4727fe3b9d8"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
+
+[[files]]
+file = "config/enviroseries/materials/materials-client.json"
+hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
+
+[[files]]
+file = "config/enviroseries/materials/materials.json"
+hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
@@ -421,6 +437,14 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
+
+[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -435,6 +459,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -523,6 +551,10 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
+
+[[files]]
+file = "kubejs/config/probejs.json"
+hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
@@ -890,7 +922,7 @@ hash = "6c5eb738895085310304d8110f65044c8b32574776d6a50860069b6a880ae85d"
 
 [[files]]
 file = "mods/aeinfinitybooster.pw.toml"
-hash = "dc81747ab4308fc22351e0111bfb0fe57e57d02a1486e35ecb55868f549fd0ba"
+hash = "846831d26250caa2ecb9e68919c685b4501afa6899b38b87c7b3b4260e7f6e66"
 metafile = true
 
 [[files]]
@@ -905,7 +937,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "b517935116a96965c298957ca2920d0d710d7dfd3f6d50f689024fc6de28b872"
+hash = "327edd6ae8f64b2026eeab77c4c9e59a14a0be25b0ef24f6521a3d5446d0b3fb"
 metafile = true
 
 [[files]]
@@ -920,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+hash = "495f83e693dcc0a378757200394ca1cb284cc51fce3c64d8e0d5e37e2eac7b85"
 metafile = true
 
 [[files]]
@@ -970,7 +1002,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "de937c84384b9e99dc858f1e68f1a34789e357e111dd74cf8d8ff87df2d0dc6f"
+hash = "8a06864fc559144e602b08a9ae655374c285590cf66cf1e9a668f7f9665ebad5"
 metafile = true
 
 [[files]]
@@ -1020,7 +1052,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "465a08b94fd481587895e2f23725ed7d62a88a8df9274a15dd647c648e21b63e"
+hash = "cdda8f60752209f61c633cc17e462343fbb29b17b4c2b906e530bc38208c0b1d"
 metafile = true
 
 [[files]]
@@ -1075,12 +1107,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "e4a60dc6d46d1070e33b8972e2c000a200928d3a401af21df57649f39e207bf5"
+hash = "c727cdfb22c0a34cafbdb2e33da7504e6aa9e96a0d78e5d913bf5fa9006d44c7"
 metafile = true
 
 [[files]]
 file = "mods/ftb-essentials-forge.pw.toml"
-hash = "e196c44c69785ae15eb47a10207fee12362d34e63d94f663a00aa58e26313c37"
+hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
 metafile = true
 
 [[files]]
@@ -1090,12 +1122,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "3cac9f3d4dc792068b030c9f260eee8cef70f307d98daa7e6814e0e4375de6e8"
+hash = "2ec083ed1872a8886a63c8f112958fdda1cf802d01c90400272e0d95a82c976d"
 metafile = true
 
 [[files]]
 file = "mods/ftb-ranks-forge.pw.toml"
-hash = "47c9773ffdea65b209557efa75cedbeb612c83bcbc9dbc21606c70445ece9b4f"
+hash = "9142dedf3cfa73a62277eee9922561b1576976ecb4521059c4db4b8994f9f5e5"
 metafile = true
 
 [[files]]
@@ -1115,7 +1147,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "a37ad44a76d8a607f6859319c89f86c80f7c57abb3be02567380e6512f10b4d5"
+hash = "9dfeec9e729c2599a39d005da996ced9ab683e4e5cc51d5d65b554e8b726a73f"
 metafile = true
 
 [[files]]
@@ -1150,7 +1182,12 @@ metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "3a227f0a6fae194f05383d18034902dce09d321d90752e1cf35040ab548caa3b"
+hash = "ecbca9b2d89c329b8c05bc84193eca727217a52f0aa79a0d2a7b2db6669027ba"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "55fe311d176ed6178393f9060141c0165ea37a1b4e87426848019dd6cb5256ba"
 metafile = true
 
 [[files]]
@@ -1205,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
+hash = "e8ffbf5788712fac841e1bb0bff8969697f99be47d6f1c3f41ebe9ac965016d3"
 metafile = true
 
 [[files]]
@@ -1225,7 +1262,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
+hash = "1646b216d49b1f39f36275cd3044c736cc48135c62d53b563646b4f88d29d776"
 metafile = true
 
 [[files]]
@@ -1275,7 +1312,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "e082952366fb0894b75b368a3226c1397e5f0336c399902ab9b03ec3768a6fe8"
+hash = "2623d7c1afbe6d0ccb5c39faaa83b8f0324af8ad1b8814adb8b96502b0620cf0"
 metafile = true
 
 [[files]]
@@ -1330,7 +1367,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "10c001b34c17c2e5b544528fc2c649d3c9356053d24d8aa6db7527cc617b14e3"
+hash = "25d8f2497d483f2b50a96c7e4752e90c3e0ef86aa715800135bf97531e4ec965"
 metafile = true
 
 [[files]]
@@ -1340,12 +1377,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3df251df080ff82fdedb080330c822b30676b162e1fae512e7958499545f9f98"
+hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "22f2a84ff7ddf9952caf0e3df0f906da5d7fb96e51fe6ea5c77c9601b0dd0342"
+hash = "c1784ce7b2e41e87fe86198fba4415e889cea89fb01bb77b87f5166303390533"
 metafile = true
 
 [[files]]
@@ -1355,7 +1392,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "5b08fc9d7d8f47b4b74d8878be37192971fa5770b6bb1abb59d60da0f8780d0b"
+hash = "8dc379388173ef50b19449bb20bda3eefd71bd73b952cef72cae91171f9882e7"
 metafile = true
 
 [[files]]
