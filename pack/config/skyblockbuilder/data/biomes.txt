@@ -1,4 +1,6 @@
 ae2:spatial_storage
+gcyr:europa_ice_spikes
+gcyr:europa_tholin_canyon
 gcyr:martian_canyon_creek
 gcyr:martian_polar_caps
 gcyr:martian_wastelands

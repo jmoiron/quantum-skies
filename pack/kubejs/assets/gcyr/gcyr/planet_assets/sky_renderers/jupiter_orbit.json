@@ -95,7 +95,7 @@
         },
         {
             "texture": "kubejs:textures/sky/callisto.png",
-            "blending": true,
+            "blending": false,
             "render_type": "static",
             "scale": 2,
             "rotation": [10.0, 0.0, 60.0]

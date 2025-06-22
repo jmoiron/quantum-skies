@@ -1,0 +1,65 @@
+{
+    "world": "gcyr:europa",
+    "stars": {
+        "fancy_count": 13000,
+        "fast_count": 6000,
+        "colored_stars": true,
+        "daylight_visible": true
+    },
+    "sunset_color": "vanilla",
+    "dimension_effects": {
+        "type": "none"
+    },
+    "cloud_effects": "none",
+    "weather_effects": "none",
+    "horizon_angle": 0,
+    "sky_objects": [
+        {
+            "texture": "gcyr:textures/sky/sun.png",
+            "blending": true,
+            "render_type": "dynamic",
+            "scale": 15.0,
+            "rotation": [
+                0.0,
+                40.0,
+                -50.0
+            ]
+        },
+        {
+            "texture": "kubejs:textures/sky/ganymede.png",
+            "blending": false,
+            "render_type": "static",
+            "scale": 2.5,
+            "rotation": [-85, 0, 0]
+        },
+        {
+            "texture": "kubejs:textures/sky/callisto.png",
+            "blending": false,
+            "render_type": "static",
+            "scale": 1.25,
+            "rotation": [-75, 0.0, 0.0]
+        },
+        {
+            "texture": "gcyr:textures/sky/jupiter.png",
+            "blending": false,
+            "render_type": "static",
+            "scale": 75.0,
+            "rotation": [0.0, 90.0, 70.0]
+        },
+        {
+            "texture": "gcyr:textures/sky/light.png",
+            "blending": true,
+            "render_type": "static",
+            "scale": 75.0,
+            "color": 8438015,
+            "rotation": [0.0, 90.0, 70.0]
+        },
+        {
+            "texture": "kubejs:textures/sky/io.png",
+            "blending": false,
+            "render_type": "static",
+            "scale": 3,
+            "rotation": [0, 80.0, 70.0]
+        }
+    ]
+}

@@ -4,6 +4,7 @@ gcyr:callisto
 gcyr:europa
 gcyr:ganymede
 gcyr:io
+gcyr:jupiter
 gcyr:jupiter_orbit
 gcyr:luna
 gcyr:luna_orbit

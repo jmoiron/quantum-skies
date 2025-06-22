@@ -1,0 +1,23 @@
+{
+  "temperature_modifier": "frozen",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "creature_spawn_probability": 0,
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 1901073,
+    "sky_color": 3997732,
+    "water_color": 11911641,
+    "water_fog_color": 3487071
+  },
+  "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 0.5
+}
