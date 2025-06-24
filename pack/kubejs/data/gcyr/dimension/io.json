@@ -1,11 +1,36 @@
 {
-  "type": "gcyr:luna",
+  "type": "gcyr:io",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "gcyr:luna",
+    "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "gcyr:moon"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "gcyr:io_basalt_deltas",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": -0.5,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "gcyr:io_wastes",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.5,
+            "offset": 0.0
+          }
+        }
+      ]
     }
   }
 }

@@ -1,3 +1,4 @@
+gcyr:canyon
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground

@@ -1,0 +1,55 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "fog_color": 6840176,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.078093334
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave",
+      "gcyr:canyon"
+    ]
+  },
+  "features": [
+    [
+      "gcyr:io_basalt_spike",
+      "gcyr:io_lava_pools"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:delta",
+      "minecraft:small_basalt_columns"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_lava",
+      "minecraft:patch_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether"
+    ]
+  ]
+}

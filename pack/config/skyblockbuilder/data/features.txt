@@ -1,3 +1,5 @@
+gcyr:io_basalt_spike
+gcyr:io_lava_pools
 gtceu:marble_blob
 gtceu:raw_oil_sprout
 gtceu:red_granite_blob
