@@ -5,20 +5,12 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ae2/client.json"
-hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
-
-[[files]]
-file = "config/ae2/common.json"
-hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
-
-[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
 [[files]]
 file = "config/balm-common.toml"
-hash = "f24f7cede066400c657af13b1aff84e4920ac531bf24ab18cff1ef32fff72835"
+hash = "c167a9e71180341f495a904fa235d1fdd924e99af86e19c360f7dda648bb80ad"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -69,20 +61,12 @@ file = "config/entangled-common.toml"
 hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
 
 [[files]]
-file = "config/enviroseries/materials/materials-client.json"
-hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
-
-[[files]]
-file = "config/enviroseries/materials/materials.json"
-hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
-
-[[files]]
 file = "config/exnihilosequentia-common.toml"
 hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
-hash = "a8805122bd8047b4b9c0a0d2435e655ba8648619a844bb358978c5ddc368e9a1"
+hash = "c4f1dfbd268f001124aded3dc1317baadac0fc79366ab2ea0752bf716f529bda"
 
 [[files]]
 file = "config/fastbench.cfg"
@@ -102,7 +86,7 @@ hash = "1ed9280977d03a3e6d0661ae5c7217b49a4c40e255c88c6811b12b1b28f69ea5"
 
 [[files]]
 file = "config/forgivingvoid-common.toml"
-hash = "e38d92d410954937ecadf8da2a2fd71b51b0bcc837af722bd22dc21aaa4a7ed1"
+hash = "d5a01d06dcbb0c2ec704f8e1fdbf237d51c26d454fd90ed9224628a05cb68388"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -214,7 +198,7 @@ hash = "d1528e0877155e7babd3e90dd6c4ff9859749be4e7cde5fb754fb73f2c2ceda7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "32837e240bd9593d6c984be0268fbe5cf1d17ac94563141e04e4980d5681648e"
+hash = "f62852fe72dc0f1e4a7b35781bdd8bbebc4e00e50c9cb7c64d6d1b56d063cfa3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -302,7 +286,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "9b02b0eb5df90729ef42eae4f69619e6faaeef3aec4585b64e76b59cb198013e"
+hash = "e986422e9f1d339863d05374fd9c4d1a672e4a04929ac703898551686b4a080f"
 
 [[files]]
 file = "config/panorama.json"
@@ -326,19 +310,19 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "981d48815a2504956b16853ec61952ca86dd87875995e7cb1184235e104b87ea"
+hash = "16f010bdb4dd11e1e280d77759ec178e651eb5d69917c0d2608f352b416c8b0b"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
-hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
+hash = "cb43b6f89499f9939fc4a394d43daf1c607829a85b82b4ead03f63d7c04ddef7"
 
 [[files]]
 file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "3cba816abb97af9eac3fb48fbb7fd152f5b9cfe9d20423c4014dd14986322013"
+hash = "23011e1ea8e6b5adc4733e24d203d2bc2f9e247dc4db3c8e8a46182d7a4f5761"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
-hash = "32ef95ade6586521d0155fb3a1404b8516de089f5d7730f700392d2dfde68a7c"
+hash = "377e39c63cd686686d5bc477f1f1956ea952388cb8926a0eafb4932b2eecc0b4"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
@@ -350,7 +334,7 @@ hash = "c8a028450d3d2f9526ea6789ef284efc19a47d67ae9f56309679e9255162ba34"
 
 [[files]]
 file = "config/skyblockbuilder/inventory.json5"
-hash = "39b21198ee1271b42da3ca2dc7fd62e9b70e3e43cbffb27683edcbe8331ebf14"
+hash = "1f01fafd32b6dfd8f354c9e29424ca30812b559b71b490d794f0979909e596c9"
 
 [[files]]
 file = "config/skyblockbuilder/permissions.json5"
@@ -394,7 +378,7 @@ hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "9d7937349756ab204adc24cb5823b644728d5e4b4b13abf6abeee6740674edd1"
+hash = "9bd7696c073595313f30e20e5a4d2e98c343f44d858994c678d6d33c5ebb6e1a"
 
 [[files]]
 file = "config/squatgrow-common.yaml"
@@ -437,14 +421,6 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
-file = "config/valkyrielib/valkyrielib-client.json"
-hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
-
-[[files]]
-file = "config/valkyrielib/valkyrielib.json"
-hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
-
-[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -459,10 +435,6 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -493,16 +465,48 @@ file = "kubejs/assets/emi/index/stacks/hide.json"
 hash = "ac4037e11f39ceabbce98d630cd37e2852a5213ee30e222230ee3a71859098a7"
 
 [[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/europa.json"
+hash = "398d65d4c214acffb11dcf37ea28ee40df622eb2be77b53aa87a71387c847382"
+
+[[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/io.json"
+hash = "1f502d89a8fd54de6933b2a7a9d6c874319b3c7fa705c92f323b887a546a6a5d"
+
+[[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/jupiter_orbit.json"
-hash = "9970a7261784b902b0154e2adb290f385f46cf0280d4dd8a1e7590493bcc6a77"
+hash = "1e5fea905b36c1c6e54f7367b7ad115efb0643a1a4c75780f3282c974b0aa1a6"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
 hash = "f047bc1074d63de8a8f16b73da6937f66529a8a4337482c1515bae4b0f4de5c5"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+file = "kubejs/assets/kubejs/textures/block/europa_ice_block.png"
+hash = "b51758f78367fd12c80585d29fbcd3d54f01e408fc2d91797efdbb933487dd3c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/europa_packed_ice.png"
+hash = "e9f1bc7864f1facec5e6088703cd1134046af411ed16618794d985fd054cf1be"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tholin_ice_block.png"
+hash = "6c6d08b6e4f6af459781b4db6e5092398e91cee6f5a593132c6da1ce98b52ed1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tholin_ice_dark.png"
+hash = "eebaa99954e1d9f7dae61325410ee61e058f6b83e52b562d6f32281e95a0bc85"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tholin_ice_light.png"
+hash = "adb854992c2d701c2f9c3e9fe6f470fbcf9dbbe50b1bf42286a2df350d077c95"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tholin_ice_medium.png"
+hash = "00baa6a153f760e2d786d735f48132d75bf829d1bc87869e986f4dddc48eb3d9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tholin_ice_red.png"
+hash = "6e6c15c24ab0e82da3da4e7eb64aad52ab49f4faf27b60114ad897951bc1a0c4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminium_mesh.png"
@@ -553,16 +557,12 @@ file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
-file = "kubejs/config/probejs.json"
-hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
-
-[[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
 hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/europa.json"
-hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
+hash = "5e44788b326cd75c22b073b42a3e49e4865884fc0fcbbe74e783702fbb5e00ee"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/ganymede.json"
@@ -570,7 +570,11 @@ hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/io.json"
-hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
+hash = "f2b0a197108959d84049a7cc97a602b9e2e546b75e421e390464ea10331a88e3"
+
+[[files]]
+file = "kubejs/data/gcyr/dimension/jupiter.json"
+hash = "388b03e29244dee770e4ff7ab0f831d0a17b447a7747f24f29f6aeb5113a3cc0"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/jupiter_orbit.json"
@@ -603,6 +607,14 @@ hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
 [[files]]
 file = "kubejs/data/gcyr/dimension/uranus_orbit.json"
 hash = "388b03e29244dee770e4ff7ab0f831d0a17b447a7747f24f29f6aeb5113a3cc0"
+
+[[files]]
+file = "kubejs/data/gcyr/dimension_type/europa.json"
+hash = "ea8feb882604755b4eb4f40890ec867f8fca24ec74d4015b445b6a6d8c74bf06"
+
+[[files]]
+file = "kubejs/data/gcyr/dimension_type/io.json"
+hash = "0e01477fdc60b36235d2898dd7f3917c40f643068401d0abd409aea17ae3939b"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/callisto.json"
@@ -651,6 +663,54 @@ hash = "04c753105cd6c9e27ad40c8c10201d5d917397a1e9d980c12d866944977785e4"
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/uranus.json"
 hash = "a11c710b3664935f016330e0bf53d4984a65e8d93a1798918eb1c649cddd16be"
+
+[[files]]
+file = "kubejs/data/gcyr/tags/blocks/infiniburn_icymoon.json"
+hash = "079b89f1b95b95b5e065eb3cd0dd9024f07cfb7dff103fc1f136f29812692a47"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/europa_ice_spikes.json"
+hash = "0f7a2d9587b158f038a0400f51aafdc7a64dae14edd7ee1a02eeb0392909e24f"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/europa_tholin_canyon.json"
+hash = "9aeeaf3bebe254228de341f4796050821f57f49868a10956d294517f2d86cb12"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/io_basalt_deltas.json"
+hash = "d3b8cac784aa02249a2e4f761c283d3879e794f4883d9b58eeeb5a2f78fafaed"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/io_wastes.json"
+hash = "444b9d9f5e8a8ba0ea8166f815679df3fbf18bfffe898288b332a7d73a089e0a"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/configured_carver/canyon.json"
+hash = "d5ec3aa7d4e7d293d5345da42d5aee42bba3b4488cef90ae7cb964eee79e217c"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/configured_feature/io_basalt_spike.json"
+hash = "362e9b8f77cdffa19803259739b2d912a7ba5c8dc88381edd0e1c1ae9ad45567"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/configured_feature/io_lava_pools.json"
+hash = "a818003173899404dd2855a641ea02f421f78e773b7d3b2ce9ae53e9aa552132"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/noise_settings/europa.json"
+hash = "501f7c5515261ac7910f87f9e69d78363ef2647ec8154e40a32f6a7c12b17d1e"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/noise_settings/io.json"
+hash = "0eb4a0b43c5f036fef3bb09f7fdb3be3e7eb2ca4127ddb81d84d0e276a042833"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/placed_feature/io_basalt_spike.json"
+hash = "491eab3fd86413889532ff90037a9135851b05696551b2546fd8e1255751ad03"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/placed_feature/io_lava_pools.json"
+hash = "4581435a9c69857f2949c511b465df1601c4c8e84a360c630e1d87c3b1ef4df2"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -879,6 +939,10 @@ hash = "774ae6031489299f903c489c984c2bae4d4d1c7ea6773547a1335e9ead548c87"
 [[files]]
 file = "kubejs/startup_scripts/fluxnet.js"
 hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
+
+[[files]]
+file = "kubejs/startup_scripts/gcyr/blocks.js"
+hash = "8b48490adf86caaa7e0657c069bebfdf96c2da7f17777c78c41b888e2bdcea40"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"

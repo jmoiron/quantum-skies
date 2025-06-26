@@ -7,23 +7,18 @@ StartupEvents.registry("block", (event) => {
     }
 
     // io
-    let blocks = {
-        "pyroclastic_regolith": "#ff0000",
-        "sulfuric_pumice": "#ddaa99",
-        "cryo_sulfur_deposit": "#0000ff",
-        "tidal_fractured_peridotite": "#00ff00",
-        "io_volcanic_ash": "#dddddd",
-        "lava_skylight_crust": "#444444",
-        "plasma_tempered_basalt": "#777777"
-    }
+    event.create("sulfuric_pumice");
+    event.create("cryo_sulfur_deposit");
+    event.create("tidal_fractured_peridotite");
+    event.create("plasma_tempered_basalt");
+    event.create("pyroclastic_regolith");
+    event.create("pyroclastic_clean_regolith");
+    event.create("io_volcanic_ash");
+    event.create("lava_skylight_crust");
 
-    Object.entries(blocks).forEach(([name, color]) => {
-        tinted(name, color).textureAll("minecraft:block/stone");
-    })
-
+    // europa
     event.create("europa_ice_block");
     event.create("europa_packed_ice");
-
     event.create("tholin_ice_light");
     event.create("tholin_ice_medium");
     event.create("tholin_ice_dark");

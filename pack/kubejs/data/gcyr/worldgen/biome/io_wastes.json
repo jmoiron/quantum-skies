@@ -4,14 +4,14 @@
   "has_precipitation": false,
   "temperature_modifier": "none",
   "effects": {
-    "fog_color": 6840176,
     "particle": {
       "options": {
         "type": "minecraft:white_ash"
       },
       "probability": 0.078093334
     },
-    "sky_color": 7254527,
+    "sky_color": 5062657,
+    "fog_color": 4868919,
     "water_color": 4159204,
     "water_fog_color": 329011
   },

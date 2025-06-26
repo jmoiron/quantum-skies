@@ -56,6 +56,8 @@
     "material.gtceu.nitrogen_tetroxide": "Nitrogen Tetroxide",
     "material.gtceu.hydrobromic_acid": "Hydrobromic Acid",
     "material.gtceu.euxenite": "Euxenite",
+    "material.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
+    "block.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
 
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",
     "block.gtceu.hp_steam_sieve": "High Pressure Steam Sieve",
