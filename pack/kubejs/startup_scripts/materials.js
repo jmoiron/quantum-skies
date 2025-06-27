@@ -1,8 +1,3 @@
-const $FluidPipeProperties = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidPipeProperties");
-const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty');
-const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder');
-const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
-
 // modify material properties
 GTCEuStartupEvents.registry("gtceu:material", event => {
     // with 1.6, fluid pipes can now corrode with acids.
@@ -34,10 +29,6 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     function gas(name, color) {
         event.create(name).gas().color(color);
     }
-
-    event.create("io_sulfuric_lava")
-        .liquid(new $FluidBuilder().block())
-        .color(0xf2c00f);
 
     // yttrium
     event.create("euxenite")

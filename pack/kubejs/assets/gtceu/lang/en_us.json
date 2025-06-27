@@ -58,6 +58,13 @@
     "material.gtceu.euxenite": "Euxenite",
     "material.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
     "block.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
+    "material.gtceu.sulfuric_pumice": "Sulfuric Pumice",
+    "material.gtceu.cryo_sulfur_deposit": "Cryo Sulfur Deposit",
+    "material.gtceu.tidal_fractured_peridotite": "Tidal-Fractured Peridotite",
+    "material.gtceu.plasma_tempered_basalt": "Plasma Tempered Basalt",
+    "material.gtceu.io_volcanic_ash": "Io Volcanic Ash",
+    "material.gtceu.pyroclastic_regolith": "Pyroclastic Regolith",
+    "material.gtceu.lava_skylight_crust": "Lava Skylight Crust",
 
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",
     "block.gtceu.hp_steam_sieve": "High Pressure Steam Sieve",

@@ -25,6 +25,4 @@ StartupEvents.registry("block", (event) => {
     event.create("tholin_ice_red");
     event.create("tholin_ice_block");
 
-
-
 })
