@@ -1,6 +1,8 @@
 ae2:spatial_storage
 gcyr:europa_ice_spikes
 gcyr:europa_tholin_canyon
+gcyr:ganymede_dark_craters
+gcyr:ganymede_ice_plains
 gcyr:io_basalt_deltas
 gcyr:io_wastes
 gcyr:martian_canyon_creek

@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
     const blackstone = "exnihilosequentia:crushed_blackstone";
     const netherrack = "exnihilosequentia:crushed_netherrack";
     const endstone = "exnihilo:crushed_end_stone";
-    const soulsand = "minecraft:soul_sand"
+    const soulsand = "minecraft:soul_sand";
+    const soulsoil = "minecraft:soul_soil";
     const waterloged = "waterlogged";
 
     // we've moved a bunch of seeds and food to the grass block
