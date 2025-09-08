@@ -6,11 +6,11 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
 file = "config/ae2/client.json"
-hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
+hash = "2027651574a37ade3884477451846997da676ae078e0a760ec0a50228089f272"
 
 [[files]]
 file = "config/ae2/common.json"
-hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
+hash = "5a8ecae0292541666f6c3c68964f3fcf8bd0fe97c62208ae122dfc2042984f8b"
 
 [[files]]
 file = "config/attributefix.json"
@@ -54,7 +54,7 @@ hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "ca002e2f1f671460de2c1a929ea845bede07050254145e67d9d836c561a55270"
+hash = "e936de5c6902fa66803b8c3c74925f0cbbf018bcce8201a2fe39ff363feb76cf"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -66,7 +66,7 @@ hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
 
 [[files]]
 file = "config/emi.css"
-hash = "ef29ffa364bb9d68611e126c57a99c3a0aa29f3c080dd935ffbcd66cf17691e6"
+hash = "0de8d7ae7196e32513e10b279df547587791d2aed2209fed49ca7689c761c94a"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -123,10 +123,6 @@ hash = "1ed9280977d03a3e6d0661ae5c7217b49a4c40e255c88c6811b12b1b28f69ea5"
 [[files]]
 file = "config/forgivingvoid-common.toml"
 hash = "d5a01d06dcbb0c2ec704f8e1fdbf237d51c26d454fd90ed9224628a05cb68388"
-
-[[files]]
-file = "config/framedblocks-common.toml"
-hash = "599df95790d200ac55689c0885eba9dc1cdacaae3a4b2649092271173dabff51"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -261,10 +257,6 @@ file = "config/gtnn.json"
 hash = "ab30ba4f61a238f0b2a4e6d7c3e1e9e0e242fc9e5f3e9b43cfa778a2496c5c2a"
 
 [[files]]
-file = "config/guideme.toml"
-hash = "da63104a541560388f8cf6f4f4e7c73e64c54019aeb964f7d67a662e11584b16"
-
-[[files]]
 file = "config/itemcollectors-common.toml"
 hash = "34971334911ba0a32437fb9f7dc90d728db207a85bf7ea94532fdd765b0a9410"
 
@@ -325,10 +317,6 @@ file = "config/lightoverlay.properties"
 hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
 
 [[files]]
-file = "config/mae2-common.toml"
-hash = "ff36b268bc1d0fdf911c5179c286a52b1751528caefeacfb81c369d6d396a2c3"
-
-[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -342,7 +330,7 @@ hash = "e986422e9f1d339863d05374fd9c4d1a672e4a04929ac703898551686b4a080f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7878553d1bda102417b9ac2bb8eefeaa5bbf17268f644162360502f47ff41af9"
+hash = "3df85231942148f6bfd6554d5bf9b405698627f5de0649f9bdcb3fb47fb5491e"
 
 [[files]]
 file = "config/panorama.json"
@@ -370,7 +358,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/customization.json5"
-hash = "832c788572855cded3a382925dc44af4bd16c17fbd97545879d634787c53e6f0"
+hash = "8c5a0c6706bf66424576cc4534b03d68a350b836e346a35dd8b5de715490053c"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
@@ -577,6 +565,10 @@ file = "kubejs/assets/kubejs/textures/block/europa_packed_ice.png"
 hash = "e9f1bc7864f1facec5e6088703cd1134046af411ed16618794d985fd054cf1be"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/io_volcanic_ash.png"
 hash = "aab1170f19f35ba73c879d6a31f51c321bb02976d38eb50a5a2053a1488148b0"
 
@@ -671,10 +663,6 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
-
-[[files]]
-file = "kubejs/config/probejs.json"
-hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
@@ -927,6 +915,10 @@ hash = "e2bbf18b18bee2d325961306ce3b1c8afd2a01d08cc349881f529497accb380a"
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
 hash = "fd2db5aa5aff764429ff38ef7a37bb4e8131942add328f44dd4a24a93ba6aecf"
+
+[[files]]
+file = "kubejs/server_scripts/gcyr.js"
+hash = "b6cf0603a949ea66a5a68dffd6d9a176b68fc4495a230fcec7bd63db0c5fe76b"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"

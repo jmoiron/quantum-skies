@@ -128,6 +128,10 @@ ServerEvents.recipes(event => {
             ],
             "minecraft:soul_sand": [
                 ["minecraft:quartz", [1.0, 0.33]]
+            ],
+            "minecraft:soul_soil": [
+                ["exnihilosequentia:warped_nylium_spores", 0.1],
+                ["exnihilosequentia:crimson_nylium_spores", 0.1]
             ]
         },
         "flint": {
