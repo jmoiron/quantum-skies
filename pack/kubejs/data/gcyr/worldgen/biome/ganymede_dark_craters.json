@@ -1,0 +1,36 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
+    },
+    "sky_color": 5586729,
+    "fog_color": 4868919,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [
+      "gcyr:ganymede_brine_pools"
+    ],
+    [],
+    [],
+    [
+      "minecraft:delta"
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_closed_double"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 0
+}
