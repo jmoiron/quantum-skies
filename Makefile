@@ -11,8 +11,7 @@ INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/q
 #INSTALLPATH := ${HOME}/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 #INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 
-path:
-	@echo ${INSTALLPATH}
+default: build
 
 build: refresh preBuild
 	-rm -rf build/config/*
@@ -80,6 +79,10 @@ pull:
 	-cd pack && find . -type f -exec chmod 644 {} \; && cd ..
 	$(MAKE) dos2unix
 
+push-kubejs:
+	-rm -rf "${INSTALLPATH}/kubejs"
+	-cp -r pack/kubejs "${INSTALLPATH}/kubejs"
+
 preBuild:
 	-rm -rf build/config/*
 	-rm -rf build/kubejs/*
@@ -95,8 +98,15 @@ dos2unix:
 refresh:
 	cd pack && packwiz refresh
 
-default: build
-
 bootstrap:
 	go install github.com/packwiz/packwiz@latest
 	# sudo apt install ripgrep dos2unix openjdk-17-jre
+	#
+test:
+	tsmc --schema-path ${HOME}/mc/mcheck/tsmc/schema/ validate -d ./pack/kubejs/data/ --validator spyglass --ignore-undeclared-symbols
+
+test-verbose:
+	tsmc --schema-path ${HOME}/mc/mcheck/tsmc/schema/ validate -d ./pack/kubejs/data/ -v --validator spyglass --ignore-undeclared-symbols
+
+path:
+	@echo ${INSTALLPATH}

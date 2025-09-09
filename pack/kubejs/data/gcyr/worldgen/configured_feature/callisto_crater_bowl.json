@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "Name": "minecraft:air" }
+    },
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": { "Name": "kubejs:callisto_compact_regolith" }
+    }
+  }
+}
+

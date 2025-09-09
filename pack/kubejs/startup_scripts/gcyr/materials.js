@@ -17,6 +17,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid(new $FluidBuilder().block())
         .color(0xf2c00f);
 
+    // briny subsurface liquid for ganymede pools and aquifers
+    event.create("ganymede_brine")
+        .liquid(new $FluidBuilder().block())
+        .color(0x6b7a6a);
+    // TODO: Add a processing chain for ganymede_brine (e.g., evaporation/chemical bath/electrolyzer outputs)
+
     dust("sulfuric_pumice", 0xd4ab30)
         .components("2x silicon_dioxide", "2x sulfur", "7x aluminium_sulfite")
         .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);

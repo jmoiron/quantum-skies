@@ -25,4 +25,16 @@ StartupEvents.registry("block", (event) => {
     event.create("tholin_ice_red");
     event.create("tholin_ice_block");
 
+    // ganymede
+    event.create("ganymede_compacted_ice").mapColor('terracotta_blue');
+    event.create("ganymede_grooved_ice").mapColor('color_light_blue');
+    event.create("ganymede_regolith").mapColor('stone');
+    event.create("ganymede_dark_dust").mapColor('color_black');
+
+    // callisto (creams, browns, mossy greens)
+    event.create("callisto_regolith").mapColor('dirt');
+    event.create("callisto_compact_regolith").mapColor('terracotta_brown');
+    event.create("callisto_olivine_dust").mapColor('grass');
+    event.create("callisto_light_regolith").mapColor('sand');
+
 })

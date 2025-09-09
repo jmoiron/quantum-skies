@@ -1,0 +1,15 @@
+{
+  "temperature": -1.0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 3489077,
+    "fog_color": 2436389,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [["gcyr:callisto_crater_bowl_common"]]
+}

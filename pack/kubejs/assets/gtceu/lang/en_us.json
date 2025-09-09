@@ -58,6 +58,7 @@
     "material.gtceu.euxenite": "Euxenite",
     "material.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
     "block.gtceu.io_sulfuric_lava": "Io Sulfuric Lava",
+    "block.gtceu.ganymede_brine": "Ganymede Brine",
     "material.gtceu.sulfuric_pumice": "Sulfuric Pumice",
     "material.gtceu.cryo_sulfur_deposit": "Cryo Sulfur Deposit",
     "material.gtceu.tidal_fractured_peridotite": "Tidal-Fractured Peridotite",
@@ -83,6 +84,21 @@
     "level.gcyr.europa": "Europa",
     "level.gcyr.callisto": "Callisto",
     "level.gcyr.ganymede": "Ganymede",
+
+    "biome.gcyr.ganymede_ice_plains": "Ganymede Ice Plains",
+    "biome.gcyr.ganymede_grooved_terrain": "Ganymede Grooved Terrain",
+    "biome.gcyr.ganymede_dark_craters": "Ganymede Dark Craters",
+    "biome.gcyr.ganymede_rift_valley": "Ganymede Rift Valley",
+
+    "biome.gcyr.europa_ice_spikes": "Europa Ice Spikes",
+    "biome.gcyr.europa_tholin_canyon": "Europa Tholin Canyon",
+    "biome.gcyr.io_basalt_deltas": "Io Basalt Deltas",
+    "biome.gcyr.io_wastes": "Io Wastes",
+
+    "biome.gcyr.callisto_crater_plains": "Callisto Crater Plains",
+    "biome.gcyr.callisto_crater_fields": "Callisto Crater Fields",
+    "biome.gcyr.callisto_old_ridges": "Callisto Old Ridges",
+    "biome.gcyr.callisto_megacrater": "Callisto Megacrater"
 
     "level.gcyr.saturn": "Saturn",
     "level.gcyr.titan": "Titan",

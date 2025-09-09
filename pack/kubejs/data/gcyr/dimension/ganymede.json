@@ -1,11 +1,60 @@
 {
-  "type": "gcyr:luna",
+  "type": "gcyr:ganymede",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "gcyr:luna",
+    "settings": "gcyr:ganymede",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "gcyr:moon"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "gcyr:ganymede_ice_plains",
+          "parameters": {
+            "temperature": -0.9,
+            "humidity": 0.0,
+            "continentalness": 0.4,
+            "erosion": 0.2,
+            "weirdness": -0.9,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "gcyr:ganymede_grooved_terrain",
+          "parameters": {
+            "temperature": -0.8,
+            "humidity": 0.0,
+            "continentalness": 0.3,
+            "erosion": 0.0,
+            "weirdness": -0.3,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "gcyr:ganymede_dark_craters",
+          "parameters": {
+            "temperature": -1.0,
+            "humidity": 0.0,
+            "continentalness": 0.1,
+            "erosion": 0.8,
+            "weirdness": 0.9,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "gcyr:ganymede_rift_valley",
+          "parameters": {
+            "temperature": -0.85,
+            "humidity": 0.0,
+            "continentalness": 0.2,
+            "erosion": 1.0,
+            "weirdness": 0.3,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
     }
   }
 }
