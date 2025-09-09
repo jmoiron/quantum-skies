@@ -104,6 +104,7 @@ bootstrap:
 	#
 test:
 	tsmc --schema-path ${HOME}/mc/mcheck/tsmc/schema/ validate -d ./pack/kubejs/data/ --validator spyglass --ignore-undeclared-symbols
+	jq -e .  pack/kubejs/assets/gtceu/lang/en_us.json >/dev/null 2>&1
 
 test-verbose:
 	tsmc --schema-path ${HOME}/mc/mcheck/tsmc/schema/ validate -d ./pack/kubejs/data/ -v --validator spyglass --ignore-undeclared-symbols

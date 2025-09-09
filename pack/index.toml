@@ -645,7 +645,15 @@ file = "kubejs/assets/kubejs/textures/block/callisto_cream_sediment.png"
 hash = "421386228c6aff32cd838f830c814d0649ab4873839b88c0b3b2d582cf80e05b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/callisto_light_regolith.png"
+hash = "421386228c6aff32cd838f830c814d0649ab4873839b88c0b3b2d582cf80e05b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/callisto_mossy_dust.png"
+hash = "a8aaac6619e31d051887d7f60133ccafd62b41953727550cb3eedd6208b19ea1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/callisto_olivine_dust.png"
 hash = "a8aaac6619e31d051887d7f60133ccafd62b41953727550cb3eedd6208b19ea1"
 
 [[files]]
@@ -762,7 +770,7 @@ hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
 
 [[files]]
 file = "kubejs/assets/mktexture.py"
-hash = "3a735deb0a1f386a62e5762909cd18257acafc474a70ece9b4e19f2acb82952f"
+hash = "d8bdb45e056b2fb0df5cc71c3011386c254b9b91ce15993e4070f5da6c6c1d80"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -990,7 +998,7 @@ hash = "6d9c75ea4e348628cc0ef78b17b083de4b71e565db8b7973c0e64bfbdcde1e58"
 
 [[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/callisto.json"
-hash = "1413392b236e312953b8359bf8527e8b08819cf5237720364da093ad885b773d"
+hash = "645ba664666b188c08e60ecb29cc03fb2b8d78139e1873e12e91f665bf00c6fb"
 
 [[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/europa.json"
@@ -1270,7 +1278,7 @@ hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/blocks.js"
-hash = "9b65504379c05984ac94b40d2886315fcc888c2941158412045ba8edf0833d1d"
+hash = "b37a22d0f4e1f0b73599a01b2801a101f589c3df6d326ffaa95770cafe7c781a"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/materials.js"
