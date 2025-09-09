@@ -9,8 +9,10 @@ PACKURL := https://github.com/jmoiron/quantum-skies
 INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 #INSTALLPATH := /Users/jmoiron/Library/Application Support/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
 #INSTALLPATH := ${HOME}/.local/share/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
-
 #INSTALLPATH := /mnt/c/Users/${WINUSER}/AppData/Roaming/PrismLauncher/instances/quantum-skies-${VERSION}/minecraft/
+
+path:
+	@echo ${INSTALLPATH}
 
 build: refresh preBuild
 	-rm -rf build/config/*
