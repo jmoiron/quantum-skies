@@ -11,16 +11,49 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         event.create(name).gas().color(color);
     }
 
-    // this is the surface fluid for io, so we need the fluid builder to
-    // make a block version so it can be placed in world
     event.create("io_sulfuric_lava")
         .liquid(new $FluidBuilder().block())
         .color(0xf2c00f);
+
+    event.create("ionian_air").gas().color(0x9a8b4f);
+    event.create("liquid_ionian_air")
+        .liquid(new $FluidBuilder().block())
+        .color(0x8b7e49);
+
+    event.create("ionized_sulfur_dioxide").gas().color(0xb08f5a);
+
+    // oleum is a stronger version of sulfuric acid
+    event.create("oleum")
+        .liquid(new $FluidBuilder().block())
+        .color(0x9a907e);
+
+    // Quench product from Io sulfuric lava, further separable
+    event.create("quenched_ionian_lava")
+        .liquid(new $FluidBuilder().block())
+        .color(0x6e5b3c);
+
+    // Substrate recovered from quenched slurry, used in catalysis later
+    dust("oleum_substrate", 0xC7B99A);
+
+    // Europa atmospheric and organic chemistry
+    event.create("europan_air").gas().color(0x668a8a);
+    event.create("liquid_europan_air")
+        .liquid(new $FluidBuilder().block())
+        .color(0x5a7b7b);
+
+    // Tholin processing
+    event.create("tholin_solution")
+        .liquid(new $FluidBuilder().block())
+        .color(0x8d6a7a);
+    event.create("tholin_extract")
+        .liquid(new $FluidBuilder().block())
+        .color(0x9b7f88);
 
     // briny subsurface liquid for ganymede pools and aquifers
     event.create("ganymede_brine")
         .liquid(new $FluidBuilder().block())
         .color(0x6b7a6a);
+
     // TODO: Add a processing chain for ganymede_brine (e.g., evaporation/chemical bath/electrolyzer outputs)
 
     dust("sulfuric_pumice", 0xd4ab30)

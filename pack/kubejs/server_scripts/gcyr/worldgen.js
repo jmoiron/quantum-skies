@@ -29,14 +29,4 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VHA[GTValues.MV])
         .duration(20*4);
 
-    greg.centrifuge("io_sulfuric_lava_decomposition")
-        .inputFluids("gtceu:io_sulfuric_lava 100")
-        .outputFluids("minecraft:lava 50")
-        .outputFluids("gtceu:sulfuric_nickel_solution 20")
-        .outputFluids("gtceu:diluted_sulfuric_acid 30")
-        .chancedOutput("1x gtceu:platinum_dust", 2000, 500)
-        .chancedOutput("3x gtceu:olivine_dust", 1500, 500)
-        .EUt(GTValues.VHA[GTValues.HV])
-        .duration(1.5*20);
-
 });

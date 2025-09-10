@@ -1,5 +1,4 @@
 StartupEvents.registry("block", (event) => {
-
     let tinted = function(blockName, color) {
         return event.create(blockName)
             .color(0, color)
@@ -36,5 +35,17 @@ StartupEvents.registry("block", (event) => {
     event.create("callisto_compact_regolith").mapColor('terracotta_brown');
     event.create("callisto_olivine_dust").mapColor('grass');
     event.create("callisto_light_regolith").mapColor('sand');
-
 })
+
+GTCEuStartupEvents.registry("gtceu:dimension_marker", (event) => {
+    // create dimension markers for custom dimensions
+    event.create("gcyr:io")
+        .iconSupplier(() => Item.of("kubejs:lava_skylight_crust").getItem())
+        .tier(0)
+        .overrideName("Io");
+
+    event.create("gcyr:europa")
+        .iconSupplier(() => Item.of("kubejs:tholin_ice_medium").getItem())
+        .tier(0)
+        .overrideName("Europa");
+});
