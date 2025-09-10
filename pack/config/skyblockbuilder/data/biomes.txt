@@ -1,8 +1,14 @@
 ae2:spatial_storage
+gcyr:callisto_crater_fields
+gcyr:callisto_crater_plains
+gcyr:callisto_megacrater
+gcyr:callisto_old_ridges
 gcyr:europa_ice_spikes
 gcyr:europa_tholin_canyon
 gcyr:ganymede_dark_craters
+gcyr:ganymede_grooved_terrain
 gcyr:ganymede_ice_plains
+gcyr:ganymede_rift_valley
 gcyr:io_basalt_deltas
 gcyr:io_wastes
 gcyr:martian_canyon_creek

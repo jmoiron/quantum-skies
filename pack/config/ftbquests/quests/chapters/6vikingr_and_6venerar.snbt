@@ -63,8 +63,8 @@
 			dependencies: ["33AE8B292B528D0C"]
 			id: "42AB9784794AC169"
 			tasks: [{
-				id: "6CA9270B31715AD7"
-				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				id: "5FEA106230A1C67A"
+				item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
 				type: "item"
 			}]
 			x: 13.0d
@@ -225,11 +225,7 @@
 		}
 		{
 			dependencies: ["24C31497E8F7FBCD"]
-			description: [
-				"Mixed with &6Methanol&r, &6Hydrazine&r can form &dDense Hydrazine Mixed Fuel&r, a potent &arocket fuel&r itself."
-				""
-				"What you need it for now is &dMethylhydrazine Nitrate Mixed Fuel&r, which has twice the energy density and is required for building Tier 2 rocket parts."
-			]
+			description: ["Mixed with &6Methanol&r, &6Hydrazine&r can form &dDense Hydrazine Mixed Fuel&r, a potent &arocket fuel&r itself, and required for building Tier 2 rocket parts."]
 			id: "33AE8B292B528D0C"
 			tasks: [{
 				id: "395248FC947E26EE"

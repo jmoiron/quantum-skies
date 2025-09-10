@@ -6,9 +6,19 @@
 	icon: "gcyr:dyson_swarm_satellite"
 	id: "2781D11112213691"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "59B602F965FECE66"
+		linked_quest: "3BAFE6C9425F5857"
+		x: -1.5d
+		y: -1.5d
+	}]
 	quests: [
 		{
+			dependencies: [
+				"5221311FA700DC44"
+				"3BAFE6C9425F5857"
+				"34F25AE7C7AF7EF4"
+			]
 			id: "2B466B45DB2BDD4B"
 			tasks: [{
 				id: "6BFC3C6ABC3916D5"
@@ -19,6 +29,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"5221311FA700DC44"
+				"3BAFE6C9425F5857"
+				"34F25AE7C7AF7EF4"
+			]
 			id: "64D3C3BC53CC16C8"
 			tasks: [{
 				id: "78297301481A7986"
@@ -71,6 +86,47 @@
 			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			description: [
+				"Thankfully, you've already got some &7Hydrazine&r production from producing Tier 2 rocket parts, so cooking up &aMethyl Hydrazine&r should be pretty straight forward."
+				""
+				"This is a primary component in the &6Methylhydrazine Nitrate&r rocket fuel that you need for Tier 3 rocket parts."
+			]
+			id: "5E55E00EADAEE59A"
+			tasks: [{
+				id: "38651AE33DFA391A"
+				item: "gtceu:methyl_hydrazine_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E55E00EADAEE59A"]
+			id: "5221311FA700DC44"
+			tasks: [{
+				id: "0DE875A2EF0A7536"
+				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&5HSS-S&r is a high speed steel that is a combination of &9Osmiridium&r and &2HSS-G&r."
+				""
+				"You will need &5HSS-S&r frames to fashion tier 3 rocket parts."
+			]
+			id: "34F25AE7C7AF7EF4"
+			tasks: [{
+				id: "66F271A79B4B2756"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Billions and Billions"]

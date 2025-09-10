@@ -1,4 +1,7 @@
+gcyr:callisto_crater_bowl
+gcyr:ganymede_boulder_pile
 gcyr:ganymede_brine_pools
+gcyr:ganymede_groove_ridges
 gcyr:io_basalt_spike
 gcyr:io_lava_pools
 gtceu:marble_blob

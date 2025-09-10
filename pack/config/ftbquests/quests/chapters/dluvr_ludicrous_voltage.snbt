@@ -184,7 +184,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -640,6 +640,17 @@
 				type: "item"
 			}]
 			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C6FCB52A3FB05BE"]
+			id: "3BAFE6C9425F5857"
+			tasks: [{
+				id: "062A836E5F206FE3"
+				item: "gtceu:gravitation_engine_unit"
+				type: "item"
+			}]
+			x: -0.5d
 			y: -0.5d
 		}
 	]

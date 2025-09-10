@@ -176,9 +176,9 @@
 				"6370EBBCF9330E43"
 			]
 			description: [
-				"Known affectionately as the &eAssline&r, the &2Assembly Line&r is a multiblock structure that is capable of building things that &2Assemblers&r cannot.  The multiblock version of that machine is called the &2Large Assembling Factory&r; this machine has its own set of distinct recipes."
+				"Known affectionately as the &eAssline&r, the &2Assembly Line&r is a multiblock capable of building things that &2Assemblers&r cannot. The multiblock version of the single block &2assemblers&r you've come to know and love is called the &2Large Assembling Factory&r; this machine has its own set of distinct recipes."
 				""
-				"Automating the &eAssline&r is a significant challenge.  You will eventually want many of these, as they work slowly, and they're needed for mechanical components from &dLuV&r onward."
+				"Automating the &eAssline&r is a significant challenge. You will eventually want many of these, as they work slowly, and they're needed for mechanical components from &dLuV&r onward."
 			]
 			icon: "gtceu:assembly_line"
 			id: "249808AA0E4C27A9"
@@ -584,6 +584,7 @@
 		}
 		{
 			dependencies: ["58536D39766CECB8"]
+			description: ["A star worthy of these &oskies&r."]
 			id: "6370EBBCF9330E43"
 			subtitle: "It's So Quantum"
 			tasks: [{
@@ -596,12 +597,26 @@
 		}
 		{
 			dependencies: ["5A40E9AB0C2C70B9"]
+			description: [
+				"If you are &6enterprising&r and have managed to make a &8wither skeleton&r with &5witch water&r,  you may have noticed that they don't drop their skulls."
+				""
+				"Thankfully, it seems that the we can harness trace grains found deep in the interior of &6Venus&r and &cMars&r to fashion artificial &aNether Stars&r."
+				""
+				"You will need the &1IV&r &2mixer&r as well as an &2Implosion Compressor&r to mix up the dust and turn it into a star."
+			]
 			id: "58536D39766CECB8"
-			tasks: [{
-				id: "31161E2F09D65D4E"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A20C788154D9DB3"
+					item: "gtceu:planetary_nether_star_dust"
+					type: "item"
+				}
+				{
+					id: "6E7AFB4CC762A479"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 3.5d
 		}

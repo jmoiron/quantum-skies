@@ -436,15 +436,20 @@
 				"7720EABBCB8C8EE0"
 				"47834925781BD13B"
 			]
-			description: ["&6Naquadria&r in its liquid form is a major component of &3UV&r mechanical components."]
+			description: [
+				"&6Naquadria&r in its liquid form is a major component of &3UV&r mechanical components."
+				""
+				"You'll want to produce this from your &aNaquadria Sulfate Dust&r in the &2EBF&r; you can't get &6Naquadria Dust&r through any other method. "
+			]
 			id: "15F56ADF57237198"
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "2F4A50E5C4137A8E"
+				id: "53482C09FAF3D636"
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
+			title: "Naquadria"
 			x: 12.0d
 			y: 4.5d
 		}
