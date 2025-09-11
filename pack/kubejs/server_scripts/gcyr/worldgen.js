@@ -4,8 +4,15 @@ ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
     // breakin blocks
-    const blocks = ["sulfuric_pumice", "cryo_sulfur_deposit", "tidal_fractured_peridotite",
-        "plasma_tempered_basalt", "io_volcanic_ash", "pyroclastic_regolith", "lava_skylight_crust"
+    const blocks = [
+        // io
+        "sulfuric_pumice", "cryo_sulfur_deposit", "tidal_fractured_peridotite",
+        "plasma_tempered_basalt", "io_volcanic_ash", "pyroclastic_regolith", "lava_skylight_crust",
+        // europa
+        // ganymede
+        "ganymede_regolith", "ganymede_dark_dust",
+        // callisto
+        "callisto_regolith", "callisto_compact_regolith", "callisto_olivine_crust", "callisto_light_regolith"
     ];
 
     blocks.forEach(name => {

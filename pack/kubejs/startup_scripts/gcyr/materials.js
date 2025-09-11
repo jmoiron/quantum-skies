@@ -15,46 +15,41 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid(new $FluidBuilder().block())
         .color(0xf2c00f);
 
-    event.create("ionian_air").gas().color(0x9a8b4f);
-    event.create("liquid_ionian_air")
-        .liquid(new $FluidBuilder().block())
-        .color(0x8b7e49);
-
-    event.create("ionized_sulfur_dioxide").gas().color(0xb08f5a);
+    gas("ionian_air", 0x9a8b4f);
+    fluid("liquid_ionian_air", 0x8b7e49);
+    gas("ionized_sulfur_dioxide", 0xb08f5a);
 
     // oleum is a stronger version of sulfuric acid
-    event.create("oleum")
-        .liquid(new $FluidBuilder().block())
-        .color(0x9a907e);
+    fluid("oleum", 0x9a907e);
 
     // Quench product from Io sulfuric lava, further separable
-    event.create("quenched_ionian_lava")
-        .liquid(new $FluidBuilder().block())
-        .color(0x6e5b3c);
+    fluid("quenched_ionian_lava", 0x6e5b3c);
 
     // Substrate recovered from quenched slurry, used in catalysis later
     dust("oleum_substrate", 0xC7B99A);
 
+    // Callisto olivine substrate chain
+    dust("olivine_salt", 0x9A8E6B);
+    dust("enriched_olivine_salt", 0x8A7E5B);
+    dust("olivine_substrate", 0x7A9A6B);
+
     // Europa atmospheric and organic chemistry
-    event.create("europan_air").gas().color(0x668a8a);
-    event.create("liquid_europan_air")
-        .liquid(new $FluidBuilder().block())
-        .color(0x5a7b7b);
+    gas("europan_air", 0x668a8a);
+    fluid("liquid_europan_air", 0x5a7b7b);
 
     // Tholin processing
-    event.create("tholin_solution")
-        .liquid(new $FluidBuilder().block())
-        .color(0x8d6a7a);
-    event.create("tholin_extract")
-        .liquid(new $FluidBuilder().block())
-        .color(0x9b7f88);
+    fluid("tholin_solution", 0x8d6a7a);
+    fluid("tholin_extract", 0x9b7f88);
 
     // briny subsurface liquid for ganymede pools and aquifers
     event.create("ganymede_brine")
         .liquid(new $FluidBuilder().block())
         .color(0x6b7a6a);
 
-    // TODO: Add a processing chain for ganymede_brine (e.g., evaporation/chemical bath/electrolyzer outputs)
+    // Ganymede brine processing intermediates
+    fluid("conditioned_ganymede_brine", 0x6e8074);
+    fluid("clarified_ganymede_brine", 0x5c6d63);
+    fluid("refined_ganymede_brine", 0x547060);
 
     dust("sulfuric_pumice", 0xd4ab30)
         .components("2x silicon_dioxide", "2x sulfur", "7x aluminium_sulfite")
@@ -81,5 +76,31 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
 
     dust("lava_skylight_crust", 0x573f31);
+
+    // ganymede surface materials
+    dust("ganymede_regolith", 0x6b6f6a)
+        .components("5x silicon_dioxide", "1x sodium", "1x chlorine")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
+
+    dust("ganymede_dark_dust", 0x3a3a3c)
+        .components("2x silicon_dioxide", "2x carbon", "1x sodium", "1x chlorine")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
+
+    // callisto surface materials
+    dust("callisto_regolith", 0x8e7f67)
+        .components("4x silicon_dioxide", "1x olivine")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
+
+    dust("callisto_compact_regolith", 0x7a6a54)
+        .components("5x silicon_dioxide", "2x olivine")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
+
+    dust("callisto_olivine_crust", 0x6f7f5b)
+        .components("3x olivine", "1x silicon_dioxide")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
+
+    dust("callisto_light_regolith", 0xb9ad93)
+        .components("3x silicon_dioxide", "1x calcite")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
 
 });

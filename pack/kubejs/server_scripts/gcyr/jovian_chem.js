@@ -6,13 +6,13 @@ ServerEvents.recipes(event => {
     .dimension("gcyr:io")
     .outputFluids("gtceu:ionian_air 10000")
     .circuit(6)
-    .EUt(64)
+    .EUt(GTValues.VA[GTValues.LV])
     .duration(200);
 
   greg.vacuum_freezer("freeze_ionian_air")
     .inputFluids("gtceu:ionian_air 4000")
     .outputFluids("gtceu:liquid_ionian_air 4000")
-    .EUt(1920)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(80);
 
   greg.distillation_tower("distill_liquid_ionian_air")
@@ -21,15 +21,38 @@ ServerEvents.recipes(event => {
     .outputFluids("gtceu:oxygen 15000")
     .outputFluids("gtceu:ionized_sulfur_dioxide 1000")
     .chancedOutput("gtceu:sulfur_dust", 1500, 300)
-    .EUt(1920)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(2000);
+
+  // Ganymede brine → conditioned → clarified → refined (basic reagents)
+  greg.mixer("ganymede_brine_precondition")
+    .inputFluids("gtceu:ganymede_brine 1000")
+    .itemInputs("gtceu:quicklime_dust")
+    .outputFluids("gtceu:conditioned_ganymede_brine 1000")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(160);
+
+  greg.chemical_reactor("ganymede_brine_clarify")
+    .inputFluids("gtceu:conditioned_ganymede_brine 1000")
+    .itemInputs("2x gtceu:silicon_dioxide_dust")
+    .outputFluids("gtceu:clarified_ganymede_brine 950")
+    .outputFluids("gtceu:distilled_water 50")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(200);
+
+  greg.chemical_reactor("ganymede_brine_refine")
+    .inputFluids("gtceu:clarified_ganymede_brine 1000")
+    .inputFluids("gtceu:oxygen 250")
+    .outputFluids("gtceu:refined_ganymede_brine 1000")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(200);
 
     // Quench Io sulfuric lava to a metastable slurry for further separation
   greg.chemical_reactor("quench_io_sulfuric_lava")
     .inputFluids("gtceu:io_sulfuric_lava 1000")
     .inputFluids("gtceu:distilled_water 1000")
     .outputFluids("gtceu:quenched_ionian_lava 1000")
-    .EUt(480)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(100);
 
   greg.centrifuge("io_sulfuric_lava_decomposition")
@@ -39,7 +62,7 @@ ServerEvents.recipes(event => {
     .outputFluids("gtceu:diluted_sulfuric_acid 30")
     .chancedOutput("1x gtceu:platinum_dust", 500, 500)
     .chancedOutput("3x gtceu:olivine_dust", 1500, 500)
-    .EUt(GTValues.VHA[GTValues.HV])
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(1.5*20);
 
   // Separate quenched slurry into useful byproducts
@@ -50,7 +73,7 @@ ServerEvents.recipes(event => {
     .outputFluids("gtceu:diluted_sulfuric_acid 30")
     .chancedOutput("1x gtceu:platinum_dust", 2500, 500)
     .chancedOutput("1x gtceu:oleum_substrate_dust", 2500, 300)
-    .EUt(GTValues.VHA[GTValues.HV])
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(30);
 
   // Oxidize ionized SO2 to SO3 (use GTCEu sulfur_trioxide)
@@ -58,7 +81,7 @@ ServerEvents.recipes(event => {
     .inputFluids("gtceu:ionized_sulfur_dioxide 1000")
     .inputFluids("gtceu:oxygen 1000")
     .outputFluids("gtceu:sulfur_trioxide 1000")
-    .EUt(480)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(200);
 
   // Oxidize IO-SO2i -> SO3 already above, then make oleum (SO3 in H2SO4)
@@ -67,7 +90,7 @@ ServerEvents.recipes(event => {
     .inputFluids("gtceu:ionized_sulfur_dioxide 1000")
     .inputFluids("gtceu:sulfuric_acid 1000")
     .outputFluids("gtceu:oleum 1500")
-    .EUt(720)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(160);
 
   // Europa air collection and separation
@@ -75,20 +98,20 @@ ServerEvents.recipes(event => {
     .dimension("gcyr:europa")
     .outputFluids("gtceu:europan_air 10000")
     .circuit(7)
-    .EUt(64)
+    .EUt(GTValues.VA[GTValues.LV])
     .duration(200);
 
   greg.centrifuge("separate_europan_air")
     .inputFluids("gtceu:europan_air 10000")
     .outputFluids("gtceu:oxygen 7000")
     .outputFluids("gtceu:deuterium 2500")
-    .EUt(120)
+    .EUt(GTValues.VA[GTValues.MV])
     .duration(1600);
 
   greg.vacuum_freezer("freeze_europan_air")
     .inputFluids("gtceu:europan_air 4000")
     .outputFluids("gtceu:liquid_europan_air 4000")
-    .EUt(1920)
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(80);
 
   greg.distillation_tower("distill_liquid_europan_air")
@@ -98,59 +121,86 @@ ServerEvents.recipes(event => {
     .outputFluids("gtceu:tritium 2000")
     .outputFluids("gtceu:krypton 1000")
     .outputFluids("gtceu:xenon 500")
-    .outputFluids("gtceu:radon 100")
-    .EUt(1920)
+    .outputFluids("gtceu:radon 500")
+    .EUt(GTValues.VA[GTValues.HV])
     .duration(2000);
 
   // Europa tholin melting (yields vary by ice type)
-  greg.chemical_reactor("melt_tholin_ice_red")
+  greg.extractor("melt_tholin_ice_red")
     .itemInputs("kubejs:tholin_ice_red")
     .outputFluids("gtceu:tholin_solution 700")
-    .EUt(120)
-    .duration(120);
-
-  greg.chemical_reactor("melt_tholin_ice_dark")
-    .itemInputs("kubejs:tholin_ice_dark")
-    .outputFluids("gtceu:tholin_solution 500")
-    .EUt(120)
+    .EUt(GTValues.VA[GTValues.MV])
     .duration(100);
 
-  greg.chemical_reactor("melt_tholin_ice_medium")
+  greg.extractor("melt_tholin_ice_dark")
+    .itemInputs("kubejs:tholin_ice_dark")
+    .outputFluids("gtceu:tholin_solution 500")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(100);
+
+  greg.extractor("melt_tholin_ice_medium")
     .itemInputs("kubejs:tholin_ice_medium")
     .outputFluids("gtceu:tholin_solution 300")
-    .EUt(80)
-    .duration(80);
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(120);
 
-  greg.chemical_reactor("melt_tholin_ice_light")
+  greg.extractor("melt_tholin_ice_light")
     .itemInputs("kubejs:tholin_ice_light")
     .outputFluids("gtceu:tholin_solution 150")
-    .EUt(60)
-    .duration(60);
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(120);
 
-  greg.chemical_reactor("melt_tholin_ice_block")
+  greg.extractor("melt_tholin_ice_block")
     .itemInputs("kubejs:tholin_ice_block")
     .outputFluids("gtceu:tholin_solution 250")
-    .EUt(60)
-    .duration(70);
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(120);
 
-  greg.chemical_reactor("melt_europa_ice_block")
+  greg.extractor("melt_europa_ice_block")
     .itemInputs("kubejs:europa_ice_block")
     .outputFluids("gtceu:tholin_solution 25")
-    .EUt(30)
-    .duration(40);
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(120);
 
-  greg.chemical_reactor("melt_europa_packed_ice")
+  greg.extractor("melt_europa_packed_ice")
     .itemInputs("kubejs:europa_packed_ice")
     .outputFluids("gtceu:tholin_solution 50")
-    .EUt(40)
-    .duration(50);
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(120);
 
   // Concentrate tholin solution
   greg.centrifuge("tholin_solution_concentration")
     .inputFluids("gtceu:tholin_solution 1000")
     .outputFluids("gtceu:tholin_extract 250")
     .outputFluids("gtceu:distilled_water 750")
-    .EUt(120)
+    .EUt(GTValues.VA[GTValues.MV])
     .duration(200);
+
+  // Callisto: olivine substrate chain from moon surface material
+  // 1) Form an olivine salt using basic reagents
+  greg.chemical_reactor("callisto_olivine_salt_form")
+    .itemInputs("kubejs:callisto_olivine_crust_dust")
+    .itemInputs("gtceu:sodium_hydroxide")
+    .itemOutputs("gtceu:olivine_salt_dust")
+    .outputFluids("gtceu:sodium_dust")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(160);
+
+  // 2) Enrich the salt using chlorine wash
+  greg.chemical_bath("callisto_enrich_olivine_salt")
+    .itemInputs("gtceu:olivine_salt_dust")
+    .inputFluids("gtceu:chlorine 250")
+    .itemOutputs("gtceu:enriched_olivine_salt_dust")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(140);
+
+  // 3) Sift to obtain an olivine substrate for later catalysis
+  greg.sifter("callisto_sift_olivine_substrate")
+    .itemInputs("gtceu:enriched_olivine_salt_dust")
+    .itemOutputs("gtceu:olivine_substrate_dust")
+    .chancedOutput("gtceu:olivine_dust", 4000, 500)
+    .chancedOutput("gtceu:pure_olivine_dust", 1000, 100)
+    .EUt(GTValues.VA[GTValues.LV])
+    .duration(120);
 
 });

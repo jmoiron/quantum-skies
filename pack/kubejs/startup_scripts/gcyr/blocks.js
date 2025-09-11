@@ -33,8 +33,22 @@ StartupEvents.registry("block", (event) => {
     // callisto (creams, browns, mossy greens)
     event.create("callisto_regolith").mapColor('dirt');
     event.create("callisto_compact_regolith").mapColor('terracotta_brown');
-    event.create("callisto_olivine_dust").mapColor('grass');
+    event.create("callisto_olivine_crust").mapColor('grass');
     event.create("callisto_light_regolith").mapColor('sand');
+
+    // hearts of the jovian moons
+    event
+        .create("heart_of_io")
+        .displayName("Heart of Io");
+    event
+        .create("heart_of_europa")
+        .displayName("Heart of Europa");
+    event
+        .create("heart_of_ganymede")
+        .displayName("Heart of Ganymede");
+    event
+        .create("heart_of_callisto")
+        .displayName("Heart of Callisto");
 })
 
 GTCEuStartupEvents.registry("gtceu:dimension_marker", (event) => {
