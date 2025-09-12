@@ -39,27 +39,45 @@ StartupEvents.registry("block", (event) => {
     // hearts of the jovian moons
     event
         .create("heart_of_io")
-        .displayName("Heart of Io");
+        .displayName("Heart of Io")
+        .textureAll("kubejs:block/heart_of_io");
     event
         .create("heart_of_europa")
-        .displayName("Heart of Europa");
+        .displayName("Heart of Europa")
+        .textureAll("kubejs:block/heart_of_europa");
     event
         .create("heart_of_ganymede")
-        .displayName("Heart of Ganymede");
+        .displayName("Heart of Ganymede")
+        .textureAll("kubejs:block/heart_of_ganymede");
     event
         .create("heart_of_callisto")
-        .displayName("Heart of Callisto");
+        .displayName("Heart of Callisto")
+        .textureAll("kubejs:block/heart_of_callisto");
 })
 
 GTCEuStartupEvents.registry("gtceu:dimension_marker", (event) => {
     // create dimension markers for custom dimensions
     event.create("gcyr:io")
-        .iconSupplier(() => Item.of("kubejs:lava_skylight_crust").getItem())
+        .iconSupplier(() => Item.of("kubejs:heart_of_io").getItem())
         .tier(0)
         .overrideName("Io");
 
     event.create("gcyr:europa")
-        .iconSupplier(() => Item.of("kubejs:tholin_ice_medium").getItem())
+        .iconSupplier(() => Item.of("kubejs:heart_of_europa").getItem())
         .tier(0)
         .overrideName("Europa");
+
+    /*
+    // this doesn't work because gcyr supplies these but without textures
+
+    event.create("gcyr:venus")
+        .iconSupplier(() => Item.of("gcyr:venus_sand").getItem())
+        .tier(0)
+        .overrideName("Venus");
+
+    event.create("gcyr:mars")
+        .iconSupplier(() => Item.of("gcyr:mars_regolith").getItem())
+        .tier(0)
+        .overrideName("Mars");
+    */
 });

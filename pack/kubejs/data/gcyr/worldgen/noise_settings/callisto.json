@@ -51,7 +51,7 @@
           { "type": "minecraft:condition", "if_true": { "type": "minecraft:noise_threshold", "noise": "minecraft:surface", "min_threshold": -1, "max_threshold": 0.05 }, "then_run": { "type": "minecraft:block", "result_state": { "Name": "kubejs:callisto_regolith" } } },
           { "type": "minecraft:condition", "if_true": { "type": "minecraft:noise_threshold", "noise": "minecraft:erosion", "min_threshold": -1, "max_threshold": -0.4 }, "then_run": { "type": "minecraft:block", "result_state": { "Name": "kubejs:callisto_compact_regolith" } } },
           { "type": "minecraft:condition", "if_true": { "type": "minecraft:noise_threshold", "noise": "minecraft:surface", "min_threshold": 0.05, "max_threshold": 0.5 }, "then_run": { "type": "minecraft:block", "result_state": { "Name": "kubejs:callisto_light_regolith" } } },
-          { "type": "minecraft:condition", "if_true": { "type": "minecraft:noise_threshold", "noise": "minecraft:erosion", "min_threshold": -0.2, "max_threshold": 0.2 }, "then_run": { "type": "minecraft:block", "result_state": { "Name": "kubejs:callisto_olivine_dust" } } }
+          { "type": "minecraft:condition", "if_true": { "type": "minecraft:noise_threshold", "noise": "minecraft:erosion", "min_threshold": -0.2, "max_threshold": 0.2 }, "then_run": { "type": "minecraft:block", "result_state": { "Name": "kubejs:callisto_olivine_crust" } } }
         ] } }
     ]
   }
