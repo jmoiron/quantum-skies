@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
     .inputFluids("gtceu:conditioned_ganymede_brine 1000")
     .itemInputs("2x gtceu:silicon_dioxide_dust")
     .outputFluids("gtceu:clarified_ganymede_brine 950")
-    .outputFluids("gtceu:distilled_water 50")
+    .outputFluids("minecraft:water 50")
     .EUt(GTValues.VA[GTValues.MV])
     .duration(200);
 
@@ -48,11 +48,11 @@ ServerEvents.recipes(event => {
     .duration(200);
 
     // Quench Io sulfuric lava to a metastable slurry for further separation
-  greg.chemical_reactor("quench_io_sulfuric_lava")
+  greg.mixer("quench_io_sulfuric_lava")
     .inputFluids("gtceu:io_sulfuric_lava 1000")
     .inputFluids("gtceu:distilled_water 1000")
     .outputFluids("gtceu:quenched_ionian_lava 1000")
-    .EUt(GTValues.VA[GTValues.HV])
+    .EUt(GTValues.VA[GTValues.LuV])
     .duration(100);
 
   greg.centrifuge("io_sulfuric_lava_decomposition")
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     .itemInputs("1x gtceu:oleum_substrate_dust")
     .inputFluids("gtceu:ionized_sulfur_dioxide 1000")
     .inputFluids("gtceu:sulfuric_acid 1000")
-    .outputFluids("gtceu:oleum 1500")
+    .outputFluids("gtceu:oleum 2000")
     .EUt(GTValues.VA[GTValues.HV])
     .duration(160);
 
@@ -126,63 +126,41 @@ ServerEvents.recipes(event => {
     .duration(2000);
 
   // Europa tholin melting (yields vary by ice type)
-  greg.extractor("melt_tholin_ice_red")
-    .itemInputs("kubejs:tholin_ice_red")
-    .outputFluids("gtceu:tholin_solution 700")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(100);
+  const yields = {
+    tholin_ice_red: 700,
+    tholin_ice_dark: 500,
+    tholin_ice_medium: 300,
+    tholin_ice_light: 150,
+    tholin_ice_block: 250,
+    europa_ice_block: 25,
+    europa_packed_ice: 50,
+  }
 
-  greg.extractor("melt_tholin_ice_dark")
-    .itemInputs("kubejs:tholin_ice_dark")
-    .outputFluids("gtceu:tholin_solution 500")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(100);
-
-  greg.extractor("melt_tholin_ice_medium")
-    .itemInputs("kubejs:tholin_ice_medium")
-    .outputFluids("gtceu:tholin_solution 300")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(120);
-
-  greg.extractor("melt_tholin_ice_light")
-    .itemInputs("kubejs:tholin_ice_light")
-    .outputFluids("gtceu:tholin_solution 150")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(120);
-
-  greg.extractor("melt_tholin_ice_block")
-    .itemInputs("kubejs:tholin_ice_block")
-    .outputFluids("gtceu:tholin_solution 250")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(120);
-
-  greg.extractor("melt_europa_ice_block")
-    .itemInputs("kubejs:europa_ice_block")
-    .outputFluids("gtceu:tholin_solution 25")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(120);
-
-  greg.extractor("melt_europa_packed_ice")
-    .itemInputs("kubejs:europa_packed_ice")
-    .outputFluids("gtceu:tholin_solution 50")
-    .EUt(GTValues.VA[GTValues.MV])
-    .duration(120);
+  Object.entries(yields).forEach(([block, amt]) => {
+    greg.extractor(`melt_${block}`)
+        .itemInputs(`kubejs:${block}`)
+        .outputFluids(`gtceu:tholin_solution ${amt}`)
+        .EUt(GTValues.VA[GTValues.MV])
+        .duration(120);
+  });
 
   // Concentrate tholin solution
   greg.centrifuge("tholin_solution_concentration")
     .inputFluids("gtceu:tholin_solution 1000")
     .outputFluids("gtceu:tholin_extract 250")
-    .outputFluids("gtceu:distilled_water 750")
+    .outputFluids("gtceu:salt_water 750")
     .EUt(GTValues.VA[GTValues.MV])
     .duration(200);
 
   // Callisto: olivine substrate chain from moon surface material
   // 1) Form an olivine salt using basic reagents
   greg.chemical_reactor("callisto_olivine_salt_form")
-    .itemInputs("kubejs:callisto_olivine_crust_dust")
-    .itemInputs("gtceu:sodium_hydroxide")
+    .itemInputs("7x gtceu:callisto_olivine_crust_dust")
+    .itemInputs("3x gtceu:sodium_hydroxide_dust")
+    .inputFluids("gtceu:oleum 1000")
     .itemOutputs("gtceu:olivine_salt_dust")
-    .outputFluids("gtceu:sodium_dust")
+    .itemOutputs("3x gtceu:sodium_dust")
+    .outputFluids("gtceu:diluted_sulfuric_acid 750")
     .EUt(GTValues.VA[GTValues.MV])
     .duration(160);
 

@@ -103,4 +103,16 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("3x silicon_dioxide", "1x calcite")
         .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
 
+    // Low-Grade Naquadah ore and processing intermediates
+    event.create("low_grade_naquadah")
+        .color(0x3e5a4b)
+        .ore().dust()
+        .formula("Nq-")
+        .addOreByproducts(GTMaterials.Sulfur, GTMaterials.Barite);
+
+    // Intermediates and leach agents
+    fluid("olivine_enriched_tholin", 0x7a6b7f);
+    fluid("jovian_leachate", 0x6b7a6a);
+    fluid("low_grade_naquadah_slurry", 0x4a5a4f);
+
 });

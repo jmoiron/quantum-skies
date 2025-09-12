@@ -10,3 +10,4 @@ prism/*
 dev/
 .vscode
 server-files
+probe.registry-definitions.json

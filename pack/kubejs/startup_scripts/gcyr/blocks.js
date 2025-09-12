@@ -37,6 +37,10 @@ StartupEvents.registry("block", (event) => {
     event.create("callisto_light_regolith").mapColor('sand');
 
     // hearts of the jovian moons
+    event.create("heart_of_jupiter")
+        .displayName("Heart of Jupiter")
+        .textureAll("gcyr:sky/jupiter");
+
     event
         .create("heart_of_io")
         .displayName("Heart of Io")
@@ -53,6 +57,8 @@ StartupEvents.registry("block", (event) => {
         .create("heart_of_callisto")
         .displayName("Heart of Callisto")
         .textureAll("kubejs:block/heart_of_callisto");
+
+
 })
 
 GTCEuStartupEvents.registry("gtceu:dimension_marker", (event) => {
