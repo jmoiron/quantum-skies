@@ -9,8 +9,8 @@
 	quest_links: [{
 		id: "59B602F965FECE66"
 		linked_quest: "3BAFE6C9425F5857"
-		x: -1.5d
-		y: -1.5d
+		x: -3.0d
+		y: 0.0d
 	}]
 	quests: [
 		{
@@ -40,8 +40,8 @@
 				item: "gcyr:elite_fuel_tank"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "4E5A841EF0FA57DA"
@@ -51,8 +51,8 @@
 				id: "043F5DFAF351E2D4"
 				type: "dimension"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			id: "6462327157CF2610"
@@ -62,8 +62,8 @@
 				id: "5A146BB68B88357F"
 				type: "dimension"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			id: "55982BD6E6D663A5"
@@ -73,7 +73,7 @@
 				id: "6D22997F81B7218F"
 				type: "dimension"
 			}]
-			x: -1.5d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -84,7 +84,7 @@
 				id: "2371E92662CF79A1"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -99,8 +99,8 @@
 				item: "gtceu:methyl_hydrazine_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5E55E00EADAEE59A"]
@@ -125,8 +125,52 @@
 				item: "gtceu:hsss_ingot"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "7236AE29D219D2AA"
+			tasks: [{
+				dimension: "gcyr:io"
+				icon: "kubejs:heart_of_io"
+				id: "143292EC08D6C0C6"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "75A532D650928D2B"
+			tasks: [{
+				dimension: "gcyr:europa"
+				icon: "kubejs:heart_of_europa"
+				id: "3D84BF632F0F27FF"
+				type: "dimension"
+			}]
+			x: 1.5d
 			y: -1.5d
+		}
+		{
+			id: "55C548E4F04F1D8D"
+			tasks: [{
+				dimension: "gcyr:ganymede"
+				icon: "kubejs:heart_of_ganymede"
+				id: "705C3CF569E3CCB7"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7D73AE90D1D90435"
+			tasks: [{
+				dimension: "gcyr:callisto"
+				icon: "kubejs:heart_of_callisto"
+				id: "66E0B62FD2A006CE"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Billions and Billions"]

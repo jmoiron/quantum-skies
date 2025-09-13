@@ -39,7 +39,7 @@ StartupEvents.registry("block", (event) => {
     // hearts of the jovian moons
     event.create("heart_of_jupiter")
         .displayName("Heart of Jupiter")
-        .textureAll("gcyr:sky/jupiter");
+        .textureAll("kubejs:block/heart_of_jupiter");
 
     event
         .create("heart_of_io")
