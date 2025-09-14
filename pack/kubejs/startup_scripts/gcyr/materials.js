@@ -112,6 +112,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     // Intermediates and leach agents
     fluid("olivine_enriched_tholin", 0x7a6b7f);
+    fluid("chlorosulfuric_brine", 0x5a7065);
     fluid("jovian_leachate", 0x6b7a6a);
     fluid("low_grade_naquadah_slurry", 0x4a5a4f);
 

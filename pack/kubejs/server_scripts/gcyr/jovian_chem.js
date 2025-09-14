@@ -35,16 +35,24 @@ ServerEvents.recipes(event => {
   greg.chemical_reactor("ganymede_brine_clarify")
     .inputFluids("gtceu:conditioned_ganymede_brine 1000")
     .itemInputs("2x gtceu:silicon_dioxide_dust")
-    .outputFluids("gtceu:clarified_ganymede_brine 950")
-    .outputFluids("minecraft:water 50")
+    .outputFluids("gtceu:clarified_ganymede_brine 750")
+    .outputFluids("gtceu:oxygen 250")
     .EUt(GTValues.VA[GTValues.MV])
     .duration(200);
 
   greg.chemical_reactor("ganymede_brine_refine")
     .inputFluids("gtceu:clarified_ganymede_brine 1000")
-    .inputFluids("gtceu:oxygen 250")
+    .inputFluids("gtceu:carbon_monoxide 1000")
     .outputFluids("gtceu:refined_ganymede_brine 1000")
     .EUt(GTValues.VA[GTValues.MV])
+    .duration(200);
+
+  // Synthesize Ganymede Brine from Raw Brine + Ganymede Regolith (IV Brewer)
+  greg.brewery("ganymede_brine_from_regolith")
+    .itemInputs("5x gtceu:ganymede_regolith_dust")
+    .inputFluids("gtceu:raw_brine 1000")
+    .outputFluids("gtceu:ganymede_brine 1000")
+    .EUt(GTValues.VHA[GTValues.EV])
     .duration(200);
 
     // Quench Io sulfuric lava to a metastable slurry for further separation

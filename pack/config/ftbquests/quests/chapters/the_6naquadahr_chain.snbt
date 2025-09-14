@@ -30,7 +30,7 @@
 	quests: [
 		{
 			description: [
-				"&aNaquadah&r and &9Trinium&r are very rare metals found out in space. They form important alloys used in &dLuV&r and &cZPM&r tier."
+				"&aNaquadah&r and &9Trinium&r are very rare metals found in the outer planets. They form important alloys used in &dLuV&r and &cZPM&r tier."
 				""
 				"Processing raw &6Naquadah Ore&r requires a complex chain with many advanced acids and catalysts.  It also requires the use the &2Neutron Reactor&r, which uses kinetic energy (measured in electron volts, or eV) to bombard materials with neutrons, breaking them down."
 				""
@@ -38,7 +38,8 @@
 				""
 				"This processing chain starts in &dLuV&r."
 			]
-			icon: "gtceu:naquadah_alloy_gear"
+			hide_dependent_lines: true
+			icon: "gtceu:naquadah_credit"
 			id: "67F55ABE451C218E"
 			min_width: 250
 			shape: "circle"
@@ -52,6 +53,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"2793B58B5B619163"
+				"351F22DABCD3B4BA"
+			]
 			description: ["Naquadah Ore is &ctemporarily&r available from the &dPlanetary Ore Drill&r when running it on Venus or Mars, but will be moved to the outer planets."]
 			id: "0D8C8F86EB8A88F7"
 			shape: "pentagon"
@@ -149,6 +154,7 @@
 			dependencies: [
 				"38A8CB50C9CEA911"
 				"6B9D57805A08E51B"
+				"67F55ABE451C218E"
 			]
 			id: "0472211411B89514"
 			shape: "octagon"

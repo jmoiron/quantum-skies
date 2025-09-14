@@ -38,7 +38,7 @@
 			shape: "gear"
 			size: 1.5d
 			x: 5.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			id: "6AFAD82BA7E26F18"
@@ -47,16 +47,19 @@
 			y: 2.5d
 		}
 		{
+			icon: "gtceu:naquadah_credit"
 			id: "06E7A085D139E046"
 			linked_quest: "67F55ABE451C218E"
-			x: 5.5d
-			y: 5.5d
+			shape: "hexagon"
+			size: 1.25d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			id: "1F1769B5A4BAA43E"
 			linked_quest: "071CDA5ABDCD9A1B"
 			x: -0.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "13F900CE6B355836"
@@ -74,7 +77,7 @@
 			id: "1C1D2CE671848942"
 			linked_quest: "32A179688162FC11"
 			size: 1.5d
-			x: 5.5d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -87,6 +90,20 @@
 			id: "2BD98D7D95B937E5"
 			linked_quest: "67A5562E1497381B"
 			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "17E4D5B9CB0BC71F"
+			linked_quest: "4C8D9E0C8525C09A"
+			shape: "hexagon"
+			size: 1.25d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "50D36BFBA262183A"
+			linked_quest: "0472211411B89514"
+			x: 4.0d
 			y: 2.5d
 		}
 	]
@@ -113,8 +130,8 @@
 				type: "checkmark"
 			}]
 			title: "The Atomic Age"
-			x: 1.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -145,7 +162,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["24C3CF5EE1073B03"]
@@ -156,10 +173,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["67F55ABE451C218E"]
+			dependencies: ["0472211411B89514"]
 			id: "01698E6BBC301ABD"
 			tasks: [
 				{
@@ -173,8 +190,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 5.5d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			id: "1DA1700B42E2EC87"
@@ -184,7 +201,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -198,7 +215,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DA1700B42E2EC87"]
@@ -209,7 +226,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -350,10 +367,15 @@
 				}
 			]
 			x: 2.5d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["249808AA0E4C27A9"]
+			description: [
+				"Probably not surprising."
+				""
+				"Only the &aemitter&r is necessary to make it to the outer solar system, but you'll probably want access to the &2AE2 wireless&r items."
+			]
 			id: "3C6FCB52A3FB05BE"
 			tasks: [
 				{
@@ -367,6 +389,7 @@
 					type: "item"
 				}
 			]
+			title: "LuV Emitter \\& Sensor"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -385,7 +408,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6834B48D92699C1D"]
@@ -396,7 +419,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["34A684BCA2B41492"]
@@ -406,8 +429,8 @@
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["34A684BCA2B41492"]
@@ -422,7 +445,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -458,7 +481,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01698E6BBC301ABD"]
@@ -475,8 +498,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 5.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			id: "17DE3BDF8299D267"
@@ -550,8 +573,8 @@
 				type: "item"
 			}]
 			title: "A Scanner Darkly"
-			x: 4.0d
-			y: -2.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -575,7 +598,7 @@
 				}
 			]
 			x: 1.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			description: ["An &5IV&r tier &2polarizer&r is required to polarize &6sammarium&r rods."]
@@ -640,17 +663,6 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3C6FCB52A3FB05BE"]
-			id: "3BAFE6C9425F5857"
-			tasks: [{
-				id: "062A836E5F206FE3"
-				item: "gtceu:gravitation_engine_unit"
-				type: "item"
-			}]
-			x: -0.5d
 			y: -0.5d
 		}
 	]
