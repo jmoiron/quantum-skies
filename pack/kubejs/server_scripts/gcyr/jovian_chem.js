@@ -47,6 +47,21 @@ ServerEvents.recipes(event => {
     .EUt(GTValues.VA[GTValues.MV])
     .duration(200);
 
+  // Chlorinated water for Jovian drilling muds
+  greg.mixer("chlorinated_water")
+    .inputFluids("gtceu:distilled_water 950")
+    .inputFluids("gtceu:chlorine 50")
+    .outputFluids("gtceu:chlorinated_water 1000")
+    .EUt(GTValues.VA[GTValues.MV])
+    .duration(80);
+
+  // Superheat chlorinated water to sterilize it (used as drilling mud base)
+  greg.fluid_heater("superheated_sterilized_water")
+    .inputFluids("gtceu:chlorinated_water 1000")
+    .outputFluids("gtceu:superheated_sterilized_water 1000")
+    .EUt(GTValues.VA[GTValues.EV])
+    .duration(120);
+
   // Synthesize Ganymede Brine from Raw Brine + Ganymede Regolith (IV Brewer)
   greg.brewery("ganymede_brine_from_regolith")
     .itemInputs("5x gtceu:ganymede_regolith_dust")
@@ -132,6 +147,15 @@ ServerEvents.recipes(event => {
     .outputFluids("gtceu:radon 500")
     .EUt(GTValues.VA[GTValues.HV])
     .duration(2000);
+
+  // h-BN synthesis (Hexagonal Boron Nitride) in EBF: B + N2 -> BN
+  greg.electric_blast_furnace("hexagonal_boron_nitride")
+    .itemInputs("gtceu:boron_dust")
+    .inputFluids("gtceu:nitrogen 1000")
+    .itemOutputs("gtceu:hexagonal_boron_nitride_dust")
+    .blastFurnaceTemp(1800)
+    .EUt(GTValues.VA[GTValues.HV])
+    .duration(200);
 
   // Europa tholin melting (yields vary by ice type)
   const yields = {

@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     .duration(200);
 
   // Step 2a: Pre-condition Oleum with refined Ganymede brine to produce Chlorosulfuric Brine
-  greg.chemical_reactor("precondition_oleum_with_brine")
+  greg.large_chemical_reactor("precondition_oleum_with_brine")
     .itemInputs("gtceu:titanium_dust")
     .inputFluids("gtceu:oleum 2000")
     .inputFluids("gtceu:refined_ganymede_brine 1000")

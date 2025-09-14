@@ -73,6 +73,16 @@ GTCEuStartupEvents.registry("gtceu:dimension_marker", (event) => {
         .tier(0)
         .overrideName("Europa");
 
+    event.create("gcyr:ganymede")
+        .iconSupplier(() => Item.of("kubejs:heart_of_ganymede").getItem())
+        .tier(0)
+        .overrideName("Ganymede");
+
+    event.create("gcyr:callisto")
+        .iconSupplier(() => Item.of("kubejs:heart_of_callisto").getItem())
+        .tier(0)
+        .overrideName("Callisto");
+
     /*
     // this doesn't work because gcyr supplies these but without textures
 

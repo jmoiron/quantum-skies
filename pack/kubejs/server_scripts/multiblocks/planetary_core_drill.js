@@ -238,6 +238,7 @@ ServerEvents.recipes(event => {
         .EUt(2400)
         .duration(200);
 
+
     greg.planetary_core_drill("moon_drill")
         .inputFluids("gtceu:diesel_oil_mud 100")
         .dimension("gcyr:luna")
@@ -275,7 +276,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("8x gtceu:mars_tungstate_ore", 5000, 250)
         .chancedOutput("8x gtceu:mars_scheelite_ore", 8000, 250)
         .chancedOutput("gtceu:martian_nether_dust", 500, 1000)
-        //.chancedOutput("gtceu:naquadah_ore", 500, 500)
+        .chancedOutput("gtceu:low_grade_naquadah_ore", 500, 500)
         .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
         .circuit(1)
         .EUt(1600)
@@ -289,10 +290,75 @@ ServerEvents.recipes(event => {
         .chancedOutput("8x gtceu:venus_tungstate_ore", 8000, 250)
         .chancedOutput("8x gtceu:venus_scheelite_ore", 5000, 250)
         .chancedOutput("gtceu:venusian_star_dust", 500, 1000)
-        //.chancedOutput("gtceu:naquadah_ore", 500, 500)
+        .chancedOutput("gtceu:low_grade_naquadah_ore", 500, 500)
         .chancedFluidOutput("gtceu:hot_poly_alpha_olefin_mud 100", 6000, 1000)
         .circuit(2)
         .EUt(1600)
+        .duration(300);
+
+        // Io drill – volcanic moon, uses aggressive brine; returns sulfuric gas
+    greg.planetary_core_drill("io_drill")
+        .dimension("gcyr:io")
+        .notConsumable("kubejs:jovian_volcanic_moon_adapter")
+        .chancedInput("gtceu:hexagonal_boron_nitride_dust", 1000, 0)
+        .itemOutputs("4x kubejs:pyroclastic_regolith")
+        .chancedOutput("4x kubejs:sulfuric_pumice", 6000, 250)
+        .chancedOutput("4x kubejs:plasma_tempered_basalt", 5000, 250)
+        .chancedOutput("4x kubejs:io_volcanic_ash", 4000, 250)
+        .chancedOutput("2x kubejs:lava_skylight_crust", 3500, 250)
+        .chancedOutput("gtceu:crushed_low_grade_naquadah_ore", 4000, 500)
+        .chancedOutput("gtceu:boron_dust", 500, 0)
+        .chancedFluidOutput("gtceu:sulfuric_gas 100", 6000, 1200)
+        .circuit(3)
+        .EUt(GTValues.VHA[GTValues.LuV])
+        .duration(300);
+
+    // Europa drill – uses sterilized water mud; returns cooled chlorinated water
+    greg.planetary_core_drill("europa_drill")
+        .inputFluids("gtceu:superheated_sterilized_water 100")
+        .dimension("gcyr:europa")
+        .notConsumable("kubejs:jovian_icy_moon_adapter")
+        .itemOutputs("4x kubejs:tholin_ice_block")
+        .chancedOutput("4x kubejs:tholin_ice_light", 6000, 250)
+        .chancedOutput("4x kubejs:tholin_ice_medium", 5000, 250)
+        .chancedOutput("4x kubejs:tholin_ice_dark", 4000, 250)
+        .chancedOutput("4x kubejs:tholin_ice_red", 3500, 250)
+        .chancedOutput("2x kubejs:europa_ice_block", 7000, 250)
+        .chancedOutput("2x kubejs:europa_packed_ice", 5500, 250)
+        .chancedOutput("gtceu:crushed_low_grade_naquadah_ore", 4000, 500)
+        .chancedFluidOutput("gtceu:chlorinated_water 100", 6000, 1200)
+        .circuit(4)
+        .EUt(GTValues.VHA[GTValues.LuV])
+        .duration(300);
+
+    // Ganymede drill – uses sterilized water mud; returns cooled chlorinated water
+    greg.planetary_core_drill("ganymede_drill")
+        .inputFluids("gtceu:superheated_sterilized_water 100")
+        .dimension("gcyr:ganymede")
+        .notConsumable("kubejs:jovian_icy_moon_adapter")
+        .itemOutputs("4x kubejs:ganymede_grooved_ice")
+        .chancedOutput("4x kubejs:ganymede_compacted_ice", 6000, 250)
+        .chancedOutput("4x kubejs:ganymede_regolith", 5000, 250)
+        .chancedOutput("4x kubejs:ganymede_dark_dust", 4000, 250)
+        .chancedOutput("gtceu:crushed_low_grade_naquadah_ore", 4000, 500)
+        .chancedFluidOutput("gtceu:chlorinated_water 100", 6000, 1200)
+        .circuit(5)
+        .EUt(GTValues.VHA[GTValues.LuV])
+        .duration(300);
+
+    // Callisto drill – uses sterilized water mud; returns cooled chlorinated water
+    greg.planetary_core_drill("callisto_drill")
+        .inputFluids("gtceu:superheated_sterilized_water 100")
+        .dimension("gcyr:callisto")
+        .notConsumable("kubejs:jovian_icy_moon_adapter")
+        .itemOutputs("4x kubejs:callisto_regolith")
+        .chancedOutput("4x kubejs:callisto_compact_regolith", 6000, 250)
+        .chancedOutput("4x kubejs:callisto_olivine_crust", 5000, 250)
+        .chancedOutput("4x kubejs:callisto_light_regolith", 4000, 250)
+        .chancedOutput("gtceu:crushed_low_grade_naquadah_ore", 4000, 500)
+        .chancedFluidOutput("gtceu:chlorinated_water 100", 6000, 1200)
+        .circuit(6)
+        .EUt(GTValues.VHA[GTValues.LuV])
         .duration(300);
 
 });

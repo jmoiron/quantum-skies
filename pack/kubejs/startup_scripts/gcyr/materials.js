@@ -103,6 +103,18 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("3x silicon_dioxide", "1x calcite")
         .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
 
+    // Hexagonal Boron Nitride (h-BN) – Io drilling catalyst
+    event.create("hexagonal_boron_nitride")
+        .components("1x boron", "1x nitrogen")
+        .color(0xC8D2D8)
+        .dust();
+
+    // NiCrAlY powder (bond coat alloy for ceramics)
+    event.create("nicr_aly")
+        .components("1x nickel", "1x chromium", "1x aluminium", "1x yttrium", "1x hafnium")
+        .color(0xB8B9B6)
+        .dust();
+
     // Low-Grade Naquadah ore and processing intermediates
     event.create("low_grade_naquadah")
         .color(0x3e5a4b)
@@ -115,5 +127,14 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     fluid("chlorosulfuric_brine", 0x5a7065);
     fluid("jovian_leachate", 0x6b7a6a);
     fluid("low_grade_naquadah_slurry", 0x4a5a4f);
+
+    // Water treatment for Jovian drilling muds
+    event.create("chlorinated_water")
+        .fluid()
+        .color(0x7ad1b0);
+
+    event.create("superheated_sterilized_water")
+        .fluid()
+        .color(0xa0e6ff);
 
 });

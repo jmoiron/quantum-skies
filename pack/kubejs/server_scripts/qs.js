@@ -46,13 +46,19 @@ ServerEvents.recipes(event => {
         .duration(50);
 
     /* fix naquadah processing line from gt-- */
+
+    /*
+
     event.remove({id: "gtceu:electric_blast_furnace/impure_enriched_naquadah_solution"})
     event.recipes.gtceu.electric_blast_furnace("impure_enriched_naquadah_solution_fixed")
         .inputFluids("gtceu:acidic_naquadria_solution 3000")
         .outputFluids("gtceu:naquadria_waste 1000")
         .itemOutputs("gtceu:enriched_naquadah_oxide_mixture_dust")
         .EUt(GTValues.VA[GTValues.ZPM])
+        .duration(300)
         .blastFurnaceTemp(1280);
+
+    */
 
     // remove broken unattainable marble recipes
     event.remove({type: "gtceu:rock_breaker", output: "gtceu:marble"})

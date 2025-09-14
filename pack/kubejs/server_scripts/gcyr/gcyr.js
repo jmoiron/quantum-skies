@@ -110,6 +110,45 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(300);
 
+    // Jovian Icy Moon Adapter (for Planetary Core Drill recipes on Europa/Ganymede/Callisto)
+    greg.assembler("jovian_icy_moon_adapter")
+        .itemInputs(
+            "4x gtceu:osmiridium_foil",
+            "gtceu:luv_voltage_coil",
+            "#gtceu:circuits/luv",
+            "gtceu:luv_emitter"
+        )
+        .inputFluids("gtceu:black_steel 576")
+        .itemOutputs("kubejs:jovian_icy_moon_adapter")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200);
+
+    // Jovian Volcanic Moon Adapter (for Io)
+    greg.assembler("jovian_volcanic_moon_adapter")
+        .itemInputs(
+            "4x gtceu:osmiridium_foil",
+            "gtceu:luv_voltage_coil",
+            "#gtceu:circuits/luv",
+            "gtceu:luv_emitter",
+            "4x gtceu:nicr_aly_dust",
+            "7x gtec:alumina_dust"
+        )
+        .inputFluids("gtceu:black_steel 576")
+        .itemOutputs("kubejs:jovian_volcanic_moon_adapter")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200);
+
+    // NiCrAlY powder blend (opposite of composition) — LuV Mixer
+    greg.mixer("nicr_aly_powder_blend")
+        .itemInputs("gtceu:nickel_dust")
+        .itemInputs("gtceu:chromium_dust")
+        .itemInputs("gtceu:aluminium_dust")
+        .itemInputs("gtceu:yttrium_dust")
+        .itemInputs("gtceu:hafnium_dust")
+        .itemOutputs("5x gtceu:nicr_aly_dust")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200);
+
     event.remove({id: "gtceu:centrifuge/brominated_brine"});
     greg.centrifuge("brominated_brine_hv")
         .inputFluids("gtceu:iodine_brine_mixture 1000")

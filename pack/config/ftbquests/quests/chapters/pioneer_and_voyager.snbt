@@ -19,6 +19,7 @@
 			dependencies: [
 				"5221311FA700DC44"
 				"34F25AE7C7AF7EF4"
+				"0A25E7021B2E0FDC"
 			]
 			id: "2B466B45DB2BDD4B"
 			tasks: [{
@@ -71,9 +72,11 @@
 		}
 		{
 			description: [
-				"&5HSS-S&r is a high speed steel that is a combination of &9Osmiridium&r and &2HSS-G&r."
+				"&5HSS-S&r is a high speed steel that is a combination of &9Osmiridium&r and &2HSS-G&r, though you can technically make it earlier because the &9Osmiridium&r doesn't have to be mixed up or blasted."
 				""
 				"You will need &5HSS-S&r frames to fashion tier 3 rocket parts."
+				""
+				"&5HSS-S&r is also a very good material for &2plasma turbines&r."
 			]
 			id: "34F25AE7C7AF7EF4"
 			tasks: [{
@@ -137,7 +140,19 @@
 				"2B466B45DB2BDD4B"
 				"64D3C3BC53CC16C8"
 			]
+			description: [
+				"You do not &atechnically&r need to orbit around &cJupiter&r, but why wouldn't you?"
+				""
+				"Jupiter's 4 largest moons are called the &aGalileian Moons&r after their discoverer, Galileo Galilei, and they are your initial destinations of interest in the outer solar system."
+				""
+				"&eIo&r, the innermost moon, is the most volcanically active body in the solar system, constantly being nearly ripped apart by Jupiter's immense tidal forces."
+				""
+				"The 3 outer moons, &9Europa&r, &9Ganymede&r, and &9Callisto&r have icy crusts with subsurface oceans."
+				""
+				"You will need materials from each moon in order to scrap together &6Naquadah ore&r that is rich enough to undergo further processing."
+			]
 			id: "0C0D7CDDCDC717FB"
+			min_width: 250
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -173,6 +188,11 @@
 		}
 		{
 			dependencies: ["7236AE29D219D2AA"]
+			description: [
+				"You can find pools of &eIo Sulfuric Lava&r on the surface and in sub-surface caves and pump it out from there, or set up a &2Planetary Core Drill&r and process the &6Lava Skylight Blocks&r that you get from it."
+				""
+				"Running the drill on Io will require a &6Jovian Volcanic Moon Adapter&r."
+			]
 			id: "46146751BFFA5171"
 			tasks: [{
 				id: "155F15342E076C29"
@@ -217,6 +237,11 @@
 		}
 		{
 			dependencies: ["75A532D650928D2B"]
+			description: [
+				"Nearly all of the ices on &7Europa&r contain traces of &ctholin&r, an organic compound that precipitates onto the surface from its tennuous atmosphere, created by the reaction of UV light and trace amounts of &6methane&r and &6nitrogen&r."
+				""
+				"The dwarf planet &7Pluto&r would be a better source of &ctholin&r, but this will suffice for now."
+			]
 			id: "48BE20227852EED9"
 			tasks: [{
 				id: "5DE0369632270C2C"
@@ -253,6 +278,7 @@
 		}
 		{
 			dependencies: ["55C548E4F04F1D8D"]
+			description: ["You can pump this out of the many lakes of &2Ganymede Brine&r you can find on the surface, or produce it with crushed &aGanymede Regolith&r and a &2brine tower&r."]
 			id: "26C3649AAE4ADDDD"
 			tasks: [{
 				id: "7B8CE68C948A2685"
@@ -381,15 +407,90 @@
 		}
 		{
 			dependencies: ["0C0D7CDDCDC717FB"]
+			description: [
+				"You can use your trusty &2Planetary Core Drill&r on any Jovian moon to get &6low-grade naquadah ore&r."
+				""
+				"This ore must be enriched through a lengthy process that requires retrieval of exotic compounds from each moon. "
+				""
+				"These materials can be gathered manually (eg. you can easily slurp up large quantities of &eIo Sulfuric Lava&r or &aGanemede Brine&r with a regular &2pump&r) or they can be gathered directly or indirectly through the drill."
+			]
 			id: "351F22DABCD3B4BA"
 			shape: "pentagon"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "7D324B130835A255"
 				item: "gtceu:crushed_low_grade_naquadah_ore"
 				type: "item"
 			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C6FCB52A3FB05BE"]
+			id: "0A25E7021B2E0FDC"
+			tasks: [{
+				id: "3458EE5D83B91EE4"
+				item: "gtceu:gravitation_engine_unit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The extreme heat in the &cIonian&r crust makes it difficult to use fluid drilling muds."
+				""
+				"While there's no risk of biotic contamination (hopefully), we do still need to keep the &2drill&r from getting stuck."
+				""
+				"&6h-BN&r, or &7Hexagonal Boron Nitride&r, should do the trick nicely, and is stable up to very high temperatures."
+			]
+			id: "6074F7C75402579E"
+			shape: "circle"
+			tasks: [{
+				id: "526E6261BBBC5F5D"
+				item: "gtceu:hexagonal_boron_nitride_dust"
+				type: "item"
+			}]
 			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&cJupiter's&r icy moons require some care to go drilling. Not only is it a cryogenic environment with very low atmospheric pressures, but we can't go dumping random organic material into the subsurface ocean environment."
+				""
+				"This &6superheated sterilized water&r should give us good mobility in the frozen environment, and keep us from contaminating any potential biota."
+			]
+			id: "46C061B5875E17FA"
+			shape: "circle"
+			tasks: [{
+				id: "79013624D048BE43"
+				item: "gtceu:superheated_sterilized_water_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The extreme &cvolcanic&r and &3cryogenic&r environments of the various moons require some special augmentation for the core drill to function."
+				""
+				"To run a drill on every moon, you will need 1x &cvolcanic moon adapter&r and 3x &9icy moon adapters&r."
+			]
+			id: "42EFCE5A24AEECEC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7A5A8689B5216A3F"
+					item: "kubejs:jovian_icy_moon_adapter"
+					type: "item"
+				}
+				{
+					id: "2937D01E03BDEB0D"
+					item: "kubejs:jovian_volcanic_moon_adapter"
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: -1.5d
 		}
 	]
