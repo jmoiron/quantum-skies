@@ -47,10 +47,10 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where(" ", Predicates.any())
                 .build()
         )
-        .sidedWorkableCasingRenderer(
-            "block/casings/pump_deck",
-            "gtceu:block/multiblock/bedrock_ore_miner",
-            false
+        // TODO: sided?
+        .sidedWorkableCasingModel(
+            "gtceu:block/casings/pump_deck",
+            "gtceu:block/multiblock/bedrock_ore_miner"
         )
 
     // this greenhouse is from GCP
@@ -84,10 +84,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where(" ", Predicates.any())
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/voltage/ulv/side",
-            "gtceu:block/multiblock/implosion_compressor",
-            true
+            "gtceu:block/multiblock/implosion_compressor"
         );
 
 });

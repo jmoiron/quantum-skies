@@ -1,4 +1,4 @@
-const $WorkableSteamMachineRenderer = Java.loadClass("com.gregtechceu.gtceu.client.renderer.machine.WorkableSteamMachineRenderer");
+// const $WorkableSteamMachineRenderer = Java.loadClass("com.gregtechceu.gtceu.client.renderer.machine.WorkableSteamMachineRenderer");
 
 GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
 
@@ -25,7 +25,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .definition((hp, builder) => (
             builder
                 .recipeType("singleblock_sieve")
-                .workableTieredHullRenderer('gtceu:block/machines/macerator')
+                .workableTieredHullModel('gtceu:block/machines/macerator')
         ));
 
     event.create("sieve", "simple")
@@ -34,7 +34,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
             builder
                 //.langValue(GTValues.VLVH[tier] + " Sieve")
                 .recipeType("singleblock_sieve")
-                .workableTieredHullRenderer("gtceu:block/machines/sifter")
+                .workableTieredHullModel("gtceu:block/machines/sifter")
         );
 
     event.create("chiseler", "simple")
@@ -42,7 +42,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .definition((tier, builder) =>
             builder
                 .recipeType("chiseler")
-                .workableTieredHullRenderer("gtceu:block/machines/lathe")
+                .workableTieredHullModel("gtceu:block/machines/lathe")
         );
 
 })

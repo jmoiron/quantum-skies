@@ -18,7 +18,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("vehicle_assembly_building", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("vehicle_assembly_building")
-        .tooltips(Component.translatable("qs.vab.tooltip"))
+        // TODO 7.x tooltips
+        //.tooltips(Component.translatable("qs.vab.tooltip"))
         .tier(GTValues.HV)
         // .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
         .appearanceBlock(GTBlocks.PLASTCRETE)
@@ -46,9 +47,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where(" ", Predicates.any())
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/cleanroom/plascrete_ctm",
-            "gtceu:block/multiblock/cracking_unit",
-            false,
+            "gtceu:block/multiblock/cracking_unit"
         );
 });
