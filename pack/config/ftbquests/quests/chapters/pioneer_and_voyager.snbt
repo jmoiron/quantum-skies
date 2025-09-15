@@ -177,6 +177,7 @@
 			id: "4C8D9E0C8525C09A"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "Just don't touch the monoliths"
 			tasks: [{
 				id: "141551076ADD64EA"
 				title: "Pioneer and Voyager"
