@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ae2/client.json"
-hash = "c1a4e1058ad7970f2f4d83aab93afda83ea713026c8ebc1d63942ee66a6d3c66"
-
-[[files]]
-file = "config/ae2/common.json"
-hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
-
-[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -53,20 +45,8 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "ca002e2f1f671460de2c1a929ea845bede07050254145e67d9d836c561a55270"
-
-[[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
-
-[[files]]
-file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
-
-[[files]]
-file = "config/emi.css"
-hash = "ef29ffa364bb9d68611e126c57a99c3a0aa29f3c080dd935ffbcd66cf17691e6"
 
 [[files]]
 file = "config/enderchests.toml"
@@ -79,14 +59,6 @@ hash = "cfc26825890d28930edf5d9864d7bc220a62ac00362c207dbe6cb4727fe3b9d8"
 [[files]]
 file = "config/entangled-common.toml"
 hash = "e10707e6340c39a57cb6c0d70bbacb9187edc403cce3d1736b5a3136e1f824cc"
-
-[[files]]
-file = "config/enviroseries/materials/materials-client.json"
-hash = "0e6f79e10f22e705d2fb33c319848f790b93cede7dfacee708fb72d7afc9da0c"
-
-[[files]]
-file = "config/enviroseries/materials/materials.json"
-hash = "a59762853a99747f539ce2cac736a56f96bef305887cc6443f419466c4c415fd"
 
 [[files]]
 file = "config/exnihilosequentia-common.toml"
@@ -105,14 +77,6 @@ file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
 
 [[files]]
-file = "config/findme.json"
-hash = "4e0913a2fef137b2ba6345a2ce3e6104fb0872efe194c5eb7cbb75782b933fc6"
-
-[[files]]
-file = "config/flib.toml"
-hash = "0429833f8833ff9ba1d5cc0330c79e272efb8b19d1f9f267136dfce4f075e0e1"
-
-[[files]]
 file = "config/fluxnetworks-common.toml"
 hash = "bc46f72a8ae1b4af00eb561ffc2cdb264893739eeb60f80a45d4b979ca25fa39"
 
@@ -125,10 +89,6 @@ file = "config/forgivingvoid-common.toml"
 hash = "d5a01d06dcbb0c2ec704f8e1fdbf237d51c26d454fd90ed9224628a05cb68388"
 
 [[files]]
-file = "config/framedblocks-common.toml"
-hash = "599df95790d200ac55689c0885eba9dc1cdacaae3a4b2649092271173dabff51"
-
-[[files]]
 file = "config/ftbbackups2.json"
 hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
@@ -138,7 +98,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "6f467be3cb2b2d5b2a494b35f533cff30cd9ae1ad1efc64cd28cda06053ce392"
+hash = "be0331b136fa4c4fe5ad7124185736587beaa49e94a020c10acf5411ee23bc59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -154,7 +114,7 @@ hash = "5f9305cb219cc9de782666c1e2a6bff211940d6a86fc3e0b9619d9d0b212e14d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "9b57fdffdb9a2f51b812a354c7c67a3582e823c2d2c61890900f5789d3fe8626"
+hash = "ee1ea602d13dd632092782a17cf5d0b795b0f70a16fce1e622497614df1bf7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -186,7 +146,7 @@ hash = "807e9af4af321a6d95095542a4e70bfc082434d0b30e6024797f470c67d930d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "a70749a202f14b90c9c46abf21fd65c61d5f42dbd26425e479079046ee852f11"
+hash = "9040dd90ae88d8ad0d76c71e57acb42b4d1a889c626330176ad066c25ae727f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -210,7 +170,7 @@ hash = "2aad270b24172b4aae51a612d9c30d1c81cd6c7acacd340483399edf23c4d2ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
-hash = "1866d5dbdbbc408b9a5ee6f3d1d387a734d136cc4d98f75c3645ee64a6bf173d"
+hash = "77129c23be9d222213ad01f6e7e6e170e40fdc62b1987c8fe4d06c9a85cf965f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -222,7 +182,7 @@ hash = "21b68f3f5086a1616e512e190b692623f0bbdd52e041fe3cc08073110bf7a9fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
-hash = "e746ca744af73aa0d0a0e8a0bd44535d51f96c1fe13f41f9bc62697e4b62ed93"
+hash = "2c141f3a8f7b200e81cb10d6e86122be6c2b4967a21fe086426d7125168fd95e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
@@ -259,10 +219,6 @@ hash = "30d839cb1cf2ad4eb3a61ea9a85cde32746b7bf9d216b0319e19450e004095de"
 [[files]]
 file = "config/gtnn.json"
 hash = "ab30ba4f61a238f0b2a4e6d7c3e1e9e0e242fc9e5f3e9b43cfa778a2496c5c2a"
-
-[[files]]
-file = "config/guideme.toml"
-hash = "da63104a541560388f8cf6f4f4e7c73e64c54019aeb964f7d67a662e11584b16"
 
 [[files]]
 file = "config/itemcollectors-common.toml"
@@ -321,14 +277,6 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "61919215de43f64fa18509a2b4e3f948a581729f7c22b71847cec9ad5c9e727d"
 
 [[files]]
-file = "config/lightoverlay.properties"
-hash = "f26672542348ed68d5ffdfed8671bbe421a8520dc11ee520a375837fc5738d8a"
-
-[[files]]
-file = "config/mae2-common.toml"
-hash = "ff36b268bc1d0fdf911c5179c286a52b1751528caefeacfb81c369d6d396a2c3"
-
-[[files]]
 file = "config/merequester-common.toml"
 hash = "30c82bc5cb0c8a1b855a57c15de4e5111bd334da0208da2154dcd969d9702c9d"
 
@@ -339,10 +287,6 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "e986422e9f1d339863d05374fd9c4d1a672e4a04929ac703898551686b4a080f"
-
-[[files]]
-file = "config/oculus.properties"
-hash = "ce9bc8516b047831f7050d1c39023d6996f3c272d6131b4af39cbe92c78b04f2"
 
 [[files]]
 file = "config/panorama.json"
@@ -357,10 +301,6 @@ file = "config/shetiphiancore.toml"
 hash = "3df8dd0c1ab739e48bd92b098fb3e36b4ddc5578ac5b21839290d6470ed7519a"
 
 [[files]]
-file = "config/showcaseitem-common.toml"
-hash = "8e8d6d09058f0fdb1d2bb1dac724a8399b6861130ff31abb16dad74de3299733"
-
-[[files]]
 file = "config/shrink-common.toml"
 hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
 
@@ -369,12 +309,8 @@ file = "config/sidebar_buttons.json"
 hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
-file = "config/skyblockbuilder/customization.json5"
-hash = "832c788572855cded3a382925dc44af4bd16c17fbd97545879d634787c53e6f0"
-
-[[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "86ad0d98d43b0e7c0ef7cfe4c7312ac8ac3bf80ab7be92d34d08f9a24bce4fd2"
+hash = "ded258a07d20b41dcd87e9373186591a9abfa12f1e9afcbe852c2e73af2a4fea"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
@@ -386,7 +322,7 @@ hash = "23011e1ea8e6b5adc4733e24d203d2bc2f9e247dc4db3c8e8a46182d7a4f5761"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
-hash = "d92f0b3be0c237d4f5f3da97895fcee90643dbc7b07b55168fca49ba2339ad13"
+hash = "ca7bf1767e3bb009643eccd9799a55cb1fda92a07f024c05d226f985fdc12205"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
@@ -433,10 +369,6 @@ file = "config/skyblockbuilder/world.json5"
 hash = "583e090ad95bb7ca5e949a852bdbffcc542d4e88442da92632ec976fa804c15c"
 
 [[files]]
-file = "config/skyguis.json5"
-hash = "a8f25345178d2f733faa3e548bdc54981a66fd2b64749b6a4bdfcc293fdeba32"
-
-[[files]]
 file = "config/smoothboot.json"
 hash = "8fb262662f6ee6d6f88256a2b628f7519f3eede1104d6e20a80523ce4a21cad1"
 
@@ -469,10 +401,6 @@ file = "config/toms_storage-common.toml"
 hash = "facc23f8d9fc85b16d328e567c56628acf6d8f75720938b229b9423b3a9df752"
 
 [[files]]
-file = "config/toolbelt-common.toml"
-hash = "4f979d7ec57b4ed9bd6a8671abd19b687ebb94bf01065db5f36b1dc8eb987cf4"
-
-[[files]]
 file = "config/torchmaster.toml"
 hash = "968522483c909cd663b133543c10aae4c5b5d7dca693ef2bf611c8a55278a51c"
 
@@ -493,14 +421,6 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
-file = "config/valkyrielib/valkyrielib-client.json"
-hash = "c8415ce09d683f9d9288509d1598cf11c9a4b6eabffdb65be95890a04b8b5b03"
-
-[[files]]
-file = "config/valkyrielib/valkyrielib.json"
-hash = "867486151225962a3d27377b97fd54a36690147ecae1dc5d91f19f3509105f5f"
-
-[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -515,10 +435,6 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -541,74 +457,6 @@ file = "icon.png"
 hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
 
 [[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/blocks.json.gz"
-hash = "b978698c8ec78eafbecd3b3afe95432713a9edb34afb41008ba1c26b14110bef"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/blocks.json.gz.commit-sha"
-hash = "d1619e904dad35ecf4b8b9f4604c7c39501503a0e3b996bd83fc3e896f5d24bd"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/commands.json.gz"
-hash = "10368496b3a1a0c01a61708066f4d7a5482aa8e2461fb5d76e325a0e0ae5bac1"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/commands.json.gz.commit-sha"
-hash = "d1619e904dad35ecf4b8b9f4604c7c39501503a0e3b996bd83fc3e896f5d24bd"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/registries.json.gz"
-hash = "a782634f502ef2ae3e6386fb944871e6be8821485023953297e7ebb9f219576b"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.20.1/registries.json.gz.commit-sha"
-hash = "d1619e904dad35ecf4b8b9f4604c7c39501503a0e3b996bd83fc3e896f5d24bd"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/blocks.json.gz"
-hash = "20bd419c16e8edede8e9b5800b522d51fafe2faf467f385800bee0198d4ba688"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/blocks.json.gz.commit-sha"
-hash = "837517a42b251d129c2518932c694313495e79190d34d97ff80bc566112b3084"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/commands.json.gz"
-hash = "dd4a5928e97634b526c75fa7c716dd5652c4a26df7f86d96de3e8a27d0af1c19"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/commands.json.gz.commit-sha"
-hash = "837517a42b251d129c2518932c694313495e79190d34d97ff80bc566112b3084"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/registries.json.gz"
-hash = "51600c8bfd785b35ecff9a6cf9b268cb0e709537ad91ae63a3b90a601fb92f27"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/1.21.8/registries.json.gz.commit-sha"
-hash = "837517a42b251d129c2518932c694313495e79190d34d97ff80bc566112b3084"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/versions.json.gz"
-hash = "85c67cbc8ccd10cbf5b0707e96b8a7610d892ab0a00ba865cdb700cc7208cb4f"
-
-[[files]]
-file = "kubejs/.cache/downloader/mc-je/versions.json.gz.commit-sha"
-hash = "0c6e4cb10e8a7a4e0bd1a4375415c8bcfcb81f2bbe453e7995baff5e2318ddc7"
-
-[[files]]
-file = "kubejs/.cache/symbols/1af7ac51787deac6f92169e32ca2c87b6f9a8276.json.gz"
-hash = "1fe79026ea22902b82b8d84e76c6c6c574a1bdc1a6befb725d31fa65feabddba"
-
-[[files]]
-file = "kubejs/.cache/symbols/25c6bbe132e1b6653396fb9200a18f5489328d67.json.gz"
-hash = "826a05f5d97a52f325cc61f3d9f09f54bac5ddb8e307b979d48ec08e81b7052c"
-
-[[files]]
-file = "kubejs/.cache/symbols/bc7806a6941b09a68fad2c4db68e1c904f47b2ca.json.gz"
-hash = "b6d09b98f54166c73c2ed7a6e20ed2885b757c546ce6715d5f5268b837768061"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -617,12 +465,16 @@ file = "kubejs/assets/emi/index/stacks/hide.json"
 hash = "ac4037e11f39ceabbce98d630cd37e2852a5213ee30e222230ee3a71859098a7"
 
 [[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/callisto.json"
+hash = "182e75ab7330617567211f66d44190cd7fed2e409fb9f9ff3872b9a63dd43618"
+
+[[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/europa.json"
 hash = "398d65d4c214acffb11dcf37ea28ee40df622eb2be77b53aa87a71387c847382"
 
 [[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/ganymede.json"
-hash = "35e7a5ec0050480c32a1a98cd1434f0614028e659c2da33d5e71ef51738e65df"
+hash = "32c021c7fe1be589735a046f81b96a421f67f8597cb299da3e323b6c8ee3da07"
 
 [[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/io.json"
@@ -634,7 +486,7 @@ hash = "1e5fea905b36c1c6e54f7367b7ad115efb0643a1a4c75780f3282c974b0aa1a6"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "3e140b33daca245a95939b0752bd2ee48583739901aab90e3b26fd529f966131"
+hash = "a23cc5f4451d14ad40fe1c09b6f48ba6f4e3775510795f509db8e350c287ca65"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/callisto_compact_regolith.png"
@@ -653,7 +505,7 @@ file = "kubejs/assets/kubejs/textures/block/callisto_mossy_dust.png"
 hash = "a8aaac6619e31d051887d7f60133ccafd62b41953727550cb3eedd6208b19ea1"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/callisto_olivine_dust.png"
+file = "kubejs/assets/kubejs/textures/block/callisto_olivine_crust.png"
 hash = "a8aaac6619e31d051887d7f60133ccafd62b41953727550cb3eedd6208b19ea1"
 
 [[files]]
@@ -687,6 +539,26 @@ hash = "0c1c82127d12eb7ec417e287cd800fc3f04ba7781508d4d0ec766a072e2628fb"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/ganymede_regolith.png"
 hash = "36aed965e8aceb0fca069b147dd654372fd48f23256c329c2e567e853e6cd83f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_callisto.png"
+hash = "55bf95771aa5f33251fc0e20bea4dca83acd9822f872d571fda0b33515a57f69"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_europa.png"
+hash = "2c1f7e136be9d4c5ee15585bb3656ad517498267bae8e2abb82790c74963107e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_ganymede.png"
+hash = "c0433ac7a6b0af2740afc0fefab68ece9f7a5782dfec11746a9fbeaf3dad6679"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_io.png"
+hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_jupiter.png"
+hash = "8bb9340ed827914aec48ad91f461d069b47d5b296c97a48c8247c57d8f185dd7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/io_volcanic_ash.png"
@@ -741,6 +613,14 @@ file = "kubejs/assets/kubejs/textures/item/aluminium_mesh.png"
 hash = "3aa231929fd56b2d6f6b98f2f931da53c408f967cba82af5f0d979da11f9f615"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/jovian_icy_moon_adapter.png"
+hash = "cfa4bb6dcdf3f98da1aa56648c3b797f090592eaa17ce1e2708a64531621f028"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/jovian_volcanic_moon_adapter.png"
+hash = "467d3d7d2d74de0f0454223329975f04d080c7656e6f0b180e6007987ce947ed"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/qs_icon.png"
 hash = "5b64c83115ce9220c1d96aa7bd099ae42228d0c9c887508b2327a7eac02e21f6"
 
@@ -789,24 +669,8 @@ file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
 
 [[files]]
-file = "kubejs/config/probejs.json"
-hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
-
-[[files]]
-file = "kubejs/data/.cache/downloader/mc-je/versions.json.gz"
-hash = "85c67cbc8ccd10cbf5b0707e96b8a7610d892ab0a00ba865cdb700cc7208cb4f"
-
-[[files]]
-file = "kubejs/data/.cache/downloader/mc-je/versions.json.gz.commit-sha"
-hash = "0c6e4cb10e8a7a4e0bd1a4375415c8bcfcb81f2bbe453e7995baff5e2318ddc7"
-
-[[files]]
-file = "kubejs/data/.cache/symbols/d5265561c331ec3b2629a7aa11a22c2d0d28b1a2.json.gz"
-hash = "0c6d6fcedc10ae9efd28511b935d543b406584bc4ea3032eb4cf51e21e0a86fe"
-
-[[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
-hash = "27926f3783155ff4a39159f470e621c5e8d6d156afa643eb8e9c08e7aba5b81a"
+hash = "a4c4eb8acac405569227ddb46e5017912c990b9f2d64234b7255cf3d82d19a36"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/europa.json"
@@ -855,6 +719,10 @@ hash = "8d64bec8bdf2383e48e5662e0dfb80b1004a519d2b9a312f1a1892688f7f9625"
 [[files]]
 file = "kubejs/data/gcyr/dimension/uranus_orbit.json"
 hash = "388b03e29244dee770e4ff7ab0f831d0a17b447a7747f24f29f6aeb5113a3cc0"
+
+[[files]]
+file = "kubejs/data/gcyr/dimension_type/callisto.json"
+hash = "5cd03452ed48b4f966f8ae8db4516bdac924112bfea4361bc49806c8a977c761"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension_type/europa.json"
@@ -998,7 +866,7 @@ hash = "6d9c75ea4e348628cc0ef78b17b083de4b71e565db8b7973c0e64bfbdcde1e58"
 
 [[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/callisto.json"
-hash = "645ba664666b188c08e60ecb29cc03fb2b8d78139e1873e12e91f665bf00c6fb"
+hash = "4b1bc589bcd18b4ad89de99d320a70f4bc95cc1263b86c06f210686b82b95faa"
 
 [[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/europa.json"
@@ -1142,11 +1010,19 @@ hash = "ef25eb634cffef38bedf5261fdb60ddc14e445311c411752bffb870be0634eaa"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
-hash = "bc340134f55adc1c9fdfdb2d9123038efd1d8694b223243f25e5591fbf439e26"
+hash = "a4569b2d94e5269a93b9596c14452d61cf03cf83ff1af8abc9abc19739b79f7e"
+
+[[files]]
+file = "kubejs/server_scripts/gcyr/jovian_chem.js"
+hash = "bbea46b78ce4daeec30cb7c0d4d04697531f4c690c6c62a4daf99545c0d0b32e"
+
+[[files]]
+file = "kubejs/server_scripts/gcyr/naquadah_chain.js"
+hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/worldgen.js"
-hash = "defb4df40c49dbfa771a4cce35ecb16e03ec5abaeef51a31b7578c0c6ea7189b"
+hash = "a1b1511705b3eb120cfb8fae9f3da8db64567f22d9dedbfa49175e4d04b61789"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
@@ -1226,7 +1102,7 @@ hash = "6678b06a9f59b8d8ca35e35254b75d4e3a3649666f32e44af013661972a84544"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "d1056569b283e5849e66e447a4c628a8619e275f8a3198e8b6714fded292c38a"
+hash = "5716a85b5e7743de7f1f275d58f9388e639261433921f14578e5283f5c33e470"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
@@ -1234,7 +1110,7 @@ hash = "b3ff98ebab195d9a2165d8074569b7705a63e7b17aede44e5ae229cdb852afcd"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
-hash = "3566a98426ce97ea811bbe128f23d11312ce00fa79ea9f79d1133dce82f5ad60"
+hash = "c58069e5a7e435b4c8075176706f7deed4849875ae1dc3789b563ef6da177e8d"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
@@ -1242,7 +1118,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "41da2bf2917a8af21ed5545873faa30b39e6953e6c4fdcee7e1f94648fb7f317"
+hash = "e3461ce771ea13bf215a4cf0854db9d31fabe9d1276e5bb2eb79d8bfa85e368d"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"
@@ -1278,11 +1154,15 @@ hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/blocks.js"
-hash = "b37a22d0f4e1f0b73599a01b2801a101f589c3df6d326ffaa95770cafe7c781a"
+hash = "6beb42e6a7eede6b1fe45cb90b0755d9489ecb9227628706e2eee16e4eb393b9"
+
+[[files]]
+file = "kubejs/startup_scripts/gcyr/items.js"
+hash = "12c013c9e3f6474bced7ce08344d347609ab8a0bee958b4b94a6d56f9a83212f"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/materials.js"
-hash = "8020a5838a616773ba65d52fc37140c2b93f8b22fd7346dbcedf756fd8004665"
+hash = "da6e8990e3449f1f40a1860b811ac740e7ab3b586b9b43a7cd3b937df349a9b4"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
