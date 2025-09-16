@@ -10,5 +10,5 @@
   //   SPAWN - when joining world first time
   //   TEAM  - when joining a team for the first time
   // Allowed values: spawn, team
-  "initialInventoryType": "team"
+  "initialInventoryType": "spawn"
 }
