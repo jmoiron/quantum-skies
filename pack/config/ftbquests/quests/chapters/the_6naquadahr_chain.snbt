@@ -3,7 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "the_6naquadahr_chain"
 	group: "09D97B44850738EB"
-	icon: "gtceu:naquadah_credit"
+	icon: "gtmutils:naquadah_credit"
 	id: "7381973DD3F5952F"
 	order_index: 2
 	quest_links: [
@@ -39,7 +39,7 @@
 				"This processing chain starts in &dLuV&r, but you won't be able to produce &6Naquadria&r until &cZPM&r."
 			]
 			hide_dependent_lines: true
-			icon: "gtceu:naquadah_credit"
+			icon: "gtmutils:naquadah_credit"
 			id: "67F55ABE451C218E"
 			min_width: 250
 			shape: "circle"

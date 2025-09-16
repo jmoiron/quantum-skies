@@ -3,7 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "the_platinum_chain"
 	group: "09D97B44850738EB"
-	icon: "gtceu:platinum_credit"
+	icon: "gtmutils:platinum_credit"
 	id: "2EE0E564AFD94630"
 	order_index: 0
 	quest_links: [ ]
