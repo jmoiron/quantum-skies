@@ -59,10 +59,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("G", Predicates.blocks("minecraft:glass"))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/multiblock/cracking_unit",
-            false,
+            "gtceu:block/multiblock/cracking_unit"
         );
 
     /* basic crucible
@@ -94,10 +93,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("G", Predicates.blocks("minecraft:glass"))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/voltage/ulv/side",
-            "gtceu:block/multiblock/cracking_unit",
-            false,
+            "gtceu:block/multiblock/cracking_unit"
         );
 
     /* industrial crucible
@@ -128,10 +126,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("G", Predicates.blocks("gtceu:tempered_glass"))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_heatproof",
-            "gtceu:block/multiblock/cracking_unit",
-            false
+            "gtceu:block/multiblock/cracking_unit"
         );
 
     /* industrial sieve
@@ -167,9 +164,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where(" ", Predicates.any())
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
-            "gtceu:block/multiblock/cracking_unit",
-            false,
+            "gtceu:block/multiblock/cracking_unit"
         );
 });

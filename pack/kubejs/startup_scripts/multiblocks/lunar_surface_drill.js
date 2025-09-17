@@ -26,7 +26,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("lunar_surface_drill", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("lunar_surface_drill")
-        .tooltips(Component.translatable("qs.lunar_surface_drill.tooltip"))
+        // TODO 7.x restore tooltip
+        //.tooltips(Component.translatable("qs.lunar_surface_drill.tooltip"))
         .tier(GTValues.EV)
         // .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK))
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
@@ -54,10 +55,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(setCount(abilities(PartAbility.INPUT_ENERGY), 2, 1)))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_stable_titanium",
-            "gtceu:block/multiblock/bedrock_ore_miner",
-            false,
+            "gtceu:block/multiblock/bedrock_ore_miner"
         );
 
 });

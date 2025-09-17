@@ -52,10 +52,9 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("B", blocks("minecraft:iron_bars"))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_stable_titanium",
-            "gtceu:block/multiblock/distillation_tower",
-            false,
+            "gtceu:block/multiblock/distillation_tower"
         );
 
     event.create("planetary_core_drill", "multiblock")
@@ -101,9 +100,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                     .or(setCount(abilities(PartAbility.INPUT_ENERGY), 2, 1)))
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/gcym/stress_proof_casing",
-            "gtceu:block/multiblock/bedrock_ore_miner",
-            false,
+            "gtceu:block/multiblock/bedrock_ore_miner"
         );
 });

@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(100);
 
-    const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.api.recipe.PlantCasingCondition");
+    const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.common.recipe.PlantCasingCondition");
 
     greg.chemical_plant("i_decene_oligomerization")
         .circuit(10)

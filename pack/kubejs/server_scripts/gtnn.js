@@ -1,8 +1,9 @@
+// rebalance rocket fuels
+const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.common.recipe.PlantCasingCondition");
+
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
-    // rebalance rocket fuels
-    const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.api.recipe.PlantCasingCondition");
 
     event.remove({id: "gtceu:chemical_plant/rp_1_mixed_fuel"})
     greg.chemical_plant("rp_1_mixed_fuel")

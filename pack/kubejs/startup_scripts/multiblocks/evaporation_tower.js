@@ -38,9 +38,8 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where(" ", Predicates.any())
                 .build()
         )
-        .workableCasingRenderer(
+        .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
-            "gtceu:block/multiblock/distillation_tower",
-            false,
+            "gtceu:block/multiblock/distillation_tower"
         );
 });

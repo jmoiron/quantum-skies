@@ -40,7 +40,7 @@
 				"Finally, the authors of the &aGregtech Community Unofficial Pack Modern&r and &aStar Technologies&r, which were great examples on how to make a quest book and a modern skyblock, respectively."
 			]
 			disable_toast: true
-			icon: "gtceu:chocolate_coin"
+			icon: "gtmutils:chocolate_coin"
 			id: "2230CD4C225C6362"
 			shape: "heart"
 			size: 1.5d
@@ -132,7 +132,7 @@
 			id: "162C01C638FBF8AC"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "&aQuantum Skies&r v0.6.1"
+			subtitle: "&aQuantum Skies&r v0.7.0"
 			tasks: [{
 				id: "45DFB8A8F71334B1"
 				title: "Whoah, these sound cool."

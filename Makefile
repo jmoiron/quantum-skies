@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.6.0
+VERSION := 0.7.0
 #WINUSER := jmoir
 WINUSER := jlmoi
 HOME := ${HOME}
@@ -36,18 +36,23 @@ build: refresh preBuild
 
 server: refresh preBuild
 	-rm -rf server-files
-	-mkdir -p server-files/
+	-mkdir -p server-files/mods/
 	-cp cache/forge*.jar server-files/
 	-cp cache/packwiz-installer.jar server-files/
+	-cp cache/mods/*.jar server-files/mods/
 	cd server-files && java -jar ../packwiz-installer-bootstrap.jar -g -s server ../pack/pack.toml && cd ..
 	-mv server-files/packwiz-installer.jar cache/
 	-cp -r pack/defaultconfigs server-files/
 	-cp -r pack/config server-files/
 	-cp -r pack/kubejs server-files/
-	-cp -r pack/icon.png server-files/
+	-cp -r art/server-icon.png server-files/
 	cd server-files && java -jar forge*.jar --installServer
 	rm server-files/forge*.jar*
 	rm server-files/packwiz.json
+	mv server-files quantum-skies-${VERSION}
+	zip -r quantum-skies-${VERSION}-server.zip quantum-skies-${VERSION}
+	mv quantum-skies-${VERSION} server-files
+
 
 cf: refresh preBuild
 	-./setversion.py
