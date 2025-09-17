@@ -1,4 +1,4 @@
-// GTCEu brine→bromine process chain restored from GTCEu v1.6.4
+// GTCEu brine -> bromine process chain restored from GTCEu v1.6.4
 
 ServerEvents.recipes(event => {
   // Heat raw brine
@@ -79,4 +79,3 @@ ServerEvents.recipes(event => {
     .EUt(GTValues.VA[GTValues.MV])
     .duration(60);
 });
-

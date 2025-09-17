@@ -1,13 +1,13 @@
 name = "Gregicality Rocketry"
-filename = "gcyr-1.20.1-0.2.6.jar"
+filename = "gcyr-1.20.1-0.2.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f8377b30b7fe77566134b16e444ae46e5454d821"
+hash = "7dd04f61e275c927678db42e8e39f4e414321166"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6016659
+file-id = 7000797
 project-id = 922713

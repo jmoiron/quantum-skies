@@ -1357,7 +1357,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "2fa350b7c90c3b572965f9728a9acaa59fdd3b58e37e8a2efe267f520f4bad85"
+hash = "12264d35ae3110d1e23a9fb15b21c2a7600bcec5a557a357b79399ad6711c652"
 metafile = true
 
 [[files]]
@@ -1457,7 +1457,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr.pw.toml"
-hash = "de606c962775731a19793a93a7bd3226d6e1c9818c2005e9e40bdad4f05125bb"
+hash = "b12ad8d98ce2f6dbed1f4e4ffa61d99e5746f4cb5dfbcf5d3d5a2a51715204c7"
 metafile = true
 
 [[files]]
@@ -1687,12 +1687,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "7a12f0754ad975f03e4ddd17eaad3d55afea11db1df8cd7e8ad7bf762068c3dc"
+hash = "418891b43d45e9095441b823561ea763ef53b7ae43f97d0a9a9454d7f0cd5fe4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d7155dafeb9728f5aa3eb871e171303d2002e4db518637a70c6c23cf30861bcb"
+hash = "f29ebd5c74fd60b84eac8473af05d63c8da1a76bed0586ba660696f4840e7eaf"
 metafile = true
 
 [[files]]
@@ -1762,7 +1762,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrielib.pw.toml"
-hash = "6876965a1d72b726cf00c6ff07856938093948535434ba1bdcac46ec237cfbd6"
+hash = "e58f0ba961c2950a1e136bbfa93bbda3006779624618783745d2cabc4e533a10"
 metafile = true
 
 [[files]]

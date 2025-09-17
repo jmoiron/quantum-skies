@@ -39,10 +39,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
   // Solutions used just before distillation
   event.create("acidic_bromine_solution")
     .fluid()
-    .color(0x8f5a2b); // approximate visual
+    .color(0x8f5a2b);
 
   event.create("concentrated_bromine_solution")
     .fluid()
-    .color(0x6b3f1e); // approximate visual
+    .color(0x6b3f1e);
 });
-
