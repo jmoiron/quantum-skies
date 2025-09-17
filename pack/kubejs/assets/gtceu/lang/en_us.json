@@ -103,6 +103,18 @@
     "material.gtceu.callisto_light_regolith": "Callisto Light Regolith",
     "material.gtceu.peridotite": "Peridotite",
 
+    // Brine → Bromine chain (restored)
+    "material.gtceu.raw_brine": "Raw Brine",
+    "material.gtceu.hot_brine": "Hot Brine",
+    "material.gtceu.hot_chlorinated_brominated_brine": "Hot Chlorinated Brominated Brine",
+    "material.gtceu.hot_debrominated_brine": "Hot Debrominated Brine",
+    "material.gtceu.hot_alkaline_debrominated_brine": "Hot Alkaline Debrominated Brine",
+    "material.gtceu.debrominated_brine": "Debrominated Brine",
+    "material.gtceu.brominated_chlorine_vapor": "Brominated Chlorine Vapor",
+    "material.gtceu.acidic_bromine_solution": "Acidic Bromine Solution",
+    "material.gtceu.concentrated_bromine_solution": "Concentrated Bromine Solution",
+    "material.gtceu.acidic_bromine_exhaust": "Acidic Bromine Exhaust",
+
     "block.gtceu.lp_steam_sieve": "Low Pressure Steam Sieve",
     "block.gtceu.hp_steam_sieve": "High Pressure Steam Sieve",
     "block.gtceu.lv_sieve": "Basic Sieve",
