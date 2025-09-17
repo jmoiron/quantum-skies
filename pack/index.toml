@@ -1002,7 +1002,7 @@ hash = "3b6b9a25f88c28de91ac8e2cc03c6147aad476b664618cb0edcc417ced68907e"
 
 [[files]]
 file = "kubejs/server_scripts/brine-chain.js"
-hash = "f73e6ab5930b24e03795ebc409feec82a0fe5d0e2994f6a8162fd74a9c0a09f9"
+hash = "20070feed9787055922c81198740a8dac6114fcf6e03a1babd96e786e46b856d"
 
 [[files]]
 file = "kubejs/server_scripts/enviromats.js"
@@ -1158,7 +1158,7 @@ hash = "774ae6031489299f903c489c984c2bae4d4d1c7ea6773547a1335e9ead548c87"
 
 [[files]]
 file = "kubejs/startup_scripts/brine-chain.js"
-hash = "36ad5b81ded9f542e620d2ea6242d93b1e1e7a40123c07ab18f856feaf762ceb"
+hash = "4e297a3cd15c5ed594aeba88360d97444f96a9df89f49c8378ab80aa7cae0f2d"
 
 [[files]]
 file = "kubejs/startup_scripts/fluxnet.js"
