@@ -338,7 +338,7 @@ hash = "c8a028450d3d2f9526ea6789ef284efc19a47d67ae9f56309679e9255162ba34"
 
 [[files]]
 file = "config/skyblockbuilder/inventory.json5"
-hash = "1f01fafd32b6dfd8f354c9e29424ca30812b559b71b490d794f0979909e596c9"
+hash = "d465f8cbbd7f7db5abab87d998e3c026c5717cf359d5c575f8f5b1e2be5ec668"
 
 [[files]]
 file = "config/skyblockbuilder/permissions.json5"
