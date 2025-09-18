@@ -61,7 +61,7 @@ cf: refresh preBuild
 	-cp -r pack/* cfbuild/
 	-cp LICENSE cfbuild/
 	# package any embedded mods we need to provide
-	-cp cache/mods/*.jar cfbuild/mods/
+	# -cp cache/mods/*.jar cfbuild/mods/
 	# remove probejs
 	-rm cfbuild/mods/probejs*
 	# export
