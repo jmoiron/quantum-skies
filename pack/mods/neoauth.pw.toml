@@ -1,0 +1,13 @@
+name = "NeoAuth"
+filename = "NeoAuth-1.20.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb0be8b2b0e6ae8e05ef5fcca64791c48dc48826"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6003074
+project-id = 1140741
