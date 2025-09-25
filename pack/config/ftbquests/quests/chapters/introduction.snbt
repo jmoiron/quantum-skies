@@ -14,7 +14,7 @@
 				""
 				"It aims to provide a classic &2Ex Nihilo&r skyblock experience that guides you from the stone age through the challenges of &2Gregtech&r."
 				""
-				"If you aren't sure what any of that is, don't worry! The quest book is meant to be a &egood enough guide&r for Skyblock and Gregtech novices."
+				"If you aren't sure what any of that is, don't worry! The quest book is meant to be a &egood enough guide&r for Skyblock and &2Gregtech&r novices."
 			]
 			disable_toast: true
 			icon: "minecraft:dark_oak_hanging_sign"
@@ -60,7 +60,7 @@
 				""
 				"Were you asleep? Had you slept?"
 				""
-				"It seems a &5great calamity&r has occured. The very fabric of space and time are not what you remember."
+				"It seems a &5great calamity&r has occurred. The very fabric of space and time are not what you remember."
 				""
 				"The &bpeculiar physics&r of this world give you some hope for survival. Tossing an item over the edge has gravity pull it into the void, but &eplacing&r things seems to defy all forces and logic. "
 				""

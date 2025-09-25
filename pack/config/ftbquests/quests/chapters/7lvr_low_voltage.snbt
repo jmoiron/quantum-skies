@@ -782,7 +782,7 @@
 				"4D96207354C83C46"
 			]
 			description: [
-				"&6Aluminium&r is the &dhull material&r for &bMedium Voltage&r, and producing &6Aluminium Ingots&r in your &dEBF&r is a major step towards forwards in your &2technological journey&r."
+				"&6Aluminium&r is the &dhull material&r for &bMedium Voltage&r, and producing &6Aluminium Ingots&r in your &2EBF&r is a major step towards forwards in your &2technological journey&r."
 				""
 				"If you are &2centrifuging&r air for &6oxygen&r, you can use the &6nitrogen&r you are producing to boost the blasting process."
 				""
@@ -811,7 +811,7 @@
 			description: [
 				"The &bElectric Blast Furnace&r is a high-temperature furnace capable of smelting &6Aluminium&r into ingots.  It's also a significant upgrade on your &bPrimitive Blast Furnace&r for smelting &6Steel&r."
 				""
-				"The &bEBF&r introduces a number of complex mechanics at once. We'll cover three new mechanics in the next pages:"
+				"The &2EBF&r introduces a number of complex mechanics at once. We'll cover three new mechanics in the next pages:"
 				""
 				"* &dMaintenance Hatches&r and how to use them"
 				""
@@ -829,7 +829,7 @@
 				""
 				"{@pagebreak}"
 				""
-				"&bEBF&r recipes require at least 120EU/t. You can't make &bMV&r Energy Hatches yet, but the &bEBF&r allows you to use up to 2 Energy Hatches.  Since each hatch is rated for 2A input, 2 &7LV&r hatches can accept 4A &7LV&r, or 128EU/t."
+				"&2EBF&r recipes require at least 120EU/t. You can't make &bMV&r Energy Hatches yet, but the &2EBF&r allows you to use up to 2 Energy Hatches.  Since each hatch is rated for 2A input, 2 &7LV&r hatches can accept 4A &7LV&r, or 128EU/t."
 				""
 				"Not all multiblocks can take multiple energy input hatches, but those that can will allow you to run &bTIER+1&r recipes at &bTIER&b."
 				""
@@ -841,7 +841,7 @@
 				""
 				"&bHeating Coils&r affect the maximum temperature the EBF can reach."
 				""
-				"Each EBF recipe has a minimum energy and temperature requirement, listed in JEI. If your EBF temperature isn't high enough, then smelting can't start. If you don't have enough energy, smelting can't start."
+				"Each EBF recipe has a minimum energy and temperature requirement, listed in &2JEI&r. If your EBF temperature isn't high enough, then smelting can't start. If you don't have enough energy, smelting can't start."
 				""
 				"Conversely, if you supply more than the required temperature or energy, several bonuses are available:"
 				""
@@ -982,7 +982,7 @@
 				""
 				"* The &aRegulator&r and &aRobot Arm&r give finer control over fluid and item transport, respectively"
 				""
-				"Check JEI for other other useful covers."
+				"Check &2JEI&r for other other useful covers."
 			]
 			icon: "gtceu:advanced_item_voiding_cover"
 			id: "5EF5A636A012BFB1"

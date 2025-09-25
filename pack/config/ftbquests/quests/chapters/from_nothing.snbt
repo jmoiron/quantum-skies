@@ -182,7 +182,7 @@
 			description: [
 				"You can break down the cobblestone you have made into increasingly fine grained blocks using a &9hammer&r.  At this stage, you probably want a &9wooden hammer&r or one of the stone variants."
 				""
-				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials.  Check JEI (by hovering over an item and pressing &3u&r) to see what they are."
+				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials.  Check &2JEI&r (by hovering over an item and pressing &3u&r) to see what they are."
 			]
 			icon: "exnihilosequentia:dust"
 			id: "1B5F2C95282B1E14"
@@ -344,7 +344,7 @@
 		{
 			dependencies: ["1B5F2C95282B1E14"]
 			description: [
-				"&6Iron&r, &6Copper&r, and &6Tin&r are the the foundational elements for early-game Gregtech."
+				"&6Iron&r, &6Copper&r, and &6Tin&r are the the foundational elements for early-game &2Gregtech&r."
 				""
 				"With &6Iron&r, you can make &6Wrought Iron&r and eventually &6Steel&r."
 				""
@@ -378,9 +378,9 @@
 			description: [
 				"Anachronistically, we will work &6Iron&r before we get to &6Bronze&r."
 				""
-				"Usually, Gregtech forces you to smelt &6Iron Nuggets&r for &6Wrought Iron&r, but the gods of this world are generous, and there is a &eblasting&r recipe for the vanilla &9Blast Furnace&r."
+				"Usually, &2Gregtech&r forces you to smelt &6Iron Nuggets&r for &6Wrought Iron&r, but the gods of this world are generous, and there is a &eblasting&r recipe for the vanilla &9Blast Furnace&r."
 				""
-				"&6Wrought Iron&r is the [&8ULV&r] Ultra Low Voltage tier material, but there is no power system for that tier.  Its primary use is for &oGregtech Tools&r, as tools made from it have 50% more durability than &6Iron&r ones."
+				"&6Wrought Iron&r is the [&8ULV&r] Ultra Low Voltage tier material, but there is no power system for that tier.  Its primary use is for &o&2Gregtech&r Tools&r, as tools made from it have 50% more durability than &6Iron&r ones."
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "338399548BB160E3"
@@ -398,7 +398,7 @@
 		{
 			dependencies: ["338399548BB160E3"]
 			description: [
-				"&aGregtech tools&r can be used to create plates from ingots, cut plates into wires, crush ores, assemble machine hulls, and more.  Eventually, you will only use them to configure machines, as mechanization will do these jobs more efficiently."
+				"&2Gregtech tools&r can be used to create plates from ingots, cut plates into wires, crush ores, assemble machine hulls, and more.  Eventually, you will only use them to configure machines, as mechanization will do these jobs more efficiently."
 				""
 				"The &aHammer&r is your first way to create &eplates&r, which are used by many other tools and machines."
 				""
@@ -484,7 +484,7 @@
 					type: "item"
 				}
 			]
-			title: "Gregtech Tools"
+			title: "&2Gregtech&r Tools"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -620,7 +620,7 @@
 		{
 			dependencies: ["1596BF8DD48411AF"]
 			description: [
-				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first Gregtech multiblock machine!  "
+				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first &2Gregtech&r multiblock machine!  "
 				""
 				"It is a hollow 3x3x3 cube, but you can hover your cursor over the &9Coke Oven&r controller in your inventory and press &3u&r, then select the &eMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable with this UI for future multiblocks."
 				""

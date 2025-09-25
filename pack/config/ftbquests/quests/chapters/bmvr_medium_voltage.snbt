@@ -261,7 +261,7 @@
 			description: [
 				"&6Silicon&r is the foundation of the modern microprocessor."
 				""
-				"The &dEBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust."
+				"The &2EBF&r is hot enough to produce &6silicon boules&r, with a little &6gallium arsenide&r dust."
 				""
 				"The next several tiers of circuits involve cutting these boules into &bwafers&r, which can then be etched into various components."
 			]
@@ -562,7 +562,7 @@
 		{
 			dependencies: ["3320E243E14A626A"]
 			description: [
-				"If you've been struggling to produce enough steam for your &bEBF&r, the 4x power requirement of &6MV&r might seem daunting."
+				"If you've been struggling to produce enough steam for your &2EBF&r, the 4x power requirement of &6MV&r might seem daunting."
 				""
 				"Thankfully, we have a number of viable power options that can take us all the way to &1IV&r."
 				""
@@ -762,7 +762,7 @@
 				"6943EEB24AC64081"
 			]
 			description: [
-				"&9Kanthal Coils&r are the first significant upgrade you will make to your &dEBF&r."
+				"&9Kanthal Coils&r are the first significant upgrade you will make to your &2EBF&r."
 				""
 				"Coils increase the &eheat capacity&r, allowing you to run recipes at a higher temperature."
 			]
@@ -781,7 +781,7 @@
 				"4E25CA8F5E23C247"
 				"575C02BE8ACAF483"
 			]
-			description: ["With 2 &bMV&r energy hatches, you can upgrade your &dEBF&r to run at &6HV&r, just like you used 2 LV hatches to run at &bMV&r."]
+			description: ["With 2 &bMV&r energy hatches, you can upgrade your &2EBF&r to run at &6HV&r, just like you used 2 LV hatches to run at &bMV&r."]
 			id: "04FF202CCDE5A998"
 			rewards: [{
 				id: "0C43D27EC3ADE949"
@@ -1044,7 +1044,7 @@
 				""
 				"The yield of &bMV&r integrated circuits is 2x that of your electronic circuits, so you should start crafting integrated circuits before you're ready to make the transistors needed for the &6HV&r ones."
 				""
-				"Because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &dEBF&r to make the transistors."
+				"Because the silicon wafer diode recipe &bsaves a lot of gallium-arsenide&r, it's recommended that you get started on these before you have upgraded your &2EBF&r to make the transistors."
 			]
 			id: "37249933D652078D"
 			rewards: [{
@@ -1366,7 +1366,7 @@
 			]
 			hide_dependency_lines: true
 			id: "00E84EF9FC7009DF"
-			subtitle: "Are you sure this is Iron?"
+			subtitle: "Are you sure this is &6Iron&r?"
 			tasks: [{
 				id: "0205F83726F53F50"
 				item: "exnihilosequentia:iron_mesh"

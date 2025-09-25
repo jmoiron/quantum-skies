@@ -180,9 +180,9 @@
 				""
 				"Each tier of technology has its own machine hull.  The &blow pressure steam&r hulls you have been using are made of &6Bronze&r, but &6Steel&r opens up both high pressure steam and &7Low Voltage&r machines."
 				""
-				"Making steel from &6Wrought Iron&r is more efficient than &6Iron&r, but recipes also vary on the fuel used. Look them up in the &dPBF&r tab for steel ingot. You will need at least 10 stacks until you can build an &dEBF&r and unlock a faster way to produce steel."
+				"Making steel from &6Wrought Iron&r is more efficient than &6Iron&r, but recipes also vary on the fuel used. Look them up in the &2PBF&r tab for steel ingot. You will need at least 10 stacks until you can build an &2EBF&r and unlock a faster way to produce steel."
 				""
-				"Since &6Clay&r is easy to produce, you may want to make &dmore than one&r of these. &dPBFs&r can &bshare their outer walls&r, read up on this in the &3Multiblock Madness&r quest tab."
+				"Since &6Clay&r is easy to produce, you may want to make &dmore than one&r of these. &2PBFs&r can &bshare their outer walls&r, read up on this in the &3Multiblock Madness&r quest tab."
 			]
 			id: "133D5E0B6C137D0E"
 			size: 1.25d
@@ -315,7 +315,7 @@
 				""
 				"You will be needing a &olot&r of it. Here's a small amount to get you going."
 				""
-				"You should consider making at least one more &9Primitive Blast Furnace&r. Like other Gregtech multiblocks, it can &bWall Share&r, so your next one won't need quite so many bricks."
+				"You should consider making at least one more &9Primitive Blast Furnace&r. Like other &2Gregtech&r multiblocks, it can &bWall Share&r, so your next one won't need quite so many bricks."
 			]
 			icon: "gtceu:steel_ingot"
 			id: "6FC2E9C3153249C9"
@@ -356,7 +356,7 @@
 				""
 				"You can move vents without breaking the machine with the &9Wrench&r."
 				""
-				"To target any Gregtech tool, aim it at a block.  You will see a distorted 3x3 grid;  the large center region is the side you are aiming at, the long regions are the adjacent sides, and the small corners are the opposite side."
+				"To target any &2Gregtech&r tool, aim it at a block.  You will see a distorted 3x3 grid;  the large center region is the side you are aiming at, the long regions are the adjacent sides, and the small corners are the opposite side."
 			]
 			icon: "gtceu:steam_machine_casing"
 			id: "0AC40EB5B94CBC1C"

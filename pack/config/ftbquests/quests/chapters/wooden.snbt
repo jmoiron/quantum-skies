@@ -82,7 +82,7 @@
 				""
 				"The \"wireless\" terminal extends your reach by about a chunk, which should save you some running."
 				""
-				"Unlike some Gregtech packs (GTNH), AE2 is not gated too late in the tech tree, which is a good thing, because Tom's storage terminals do not play nicely with Gregtech tool durability."
+				"Unlike some &2Gregtech&r packs (GTNH), AE2 is not gated too late in the tech tree, which is a good thing, because Tom's storage terminals do not play nicely with &2Gregtech&r tool durability."
 			]
 			icon: "toms_storage:ts.wireless_terminal"
 			id: "35FBF2C96DB9290A"

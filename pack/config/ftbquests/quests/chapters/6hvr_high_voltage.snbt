@@ -106,7 +106,7 @@
 		{
 			dependencies: ["778CAC851BC58AB8"]
 			description: [
-				"Although &2Assemblers&r are going to start feeling like less of an accomplishment as you increase in the tiers, you are going to continue to need to make them in order to build new &cEBF coils&r and other assorted tier requirements."
+				"Although &2Assemblers&r are going to start feeling like less of an accomplishment as you increase in the tiers, you are going to continue to need to make them in order to build new &2EBF coils&r and other assorted tier requirements."
 				""
 				"The &6HV&r &2assembler&r is still a good upgrade, unlocking several important recipes, including &9SMD&r components, which will increase your circuit yields."
 			]
@@ -1010,7 +1010,7 @@
 			description: [
 				"You've been getting by with &2primitive pumps&r, which have a maximum output of 50mb/t, for long enough."
 				""
-				"An &9infinite water cover&r can be placed on any GregTech block/tank, and produces 800mb/t. Putting one on a &esupertank&r should handle most of your water needs."
+				"An &9infinite water cover&r can be placed on any &2GregTech&r block/tank, and produces 800mb/t. Putting one on a &esupertank&r should handle most of your water needs."
 			]
 			id: "6A592BB7B9B6D3E2"
 			subtitle: "Non-rotary condensentrator"

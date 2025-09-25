@@ -363,7 +363,7 @@
 			description: [
 				"&6Tungstensteel&r is a strong steel alloy that itself will form the basis of more advanced steel alloys in the coming &2IV&r chapter."
 				""
-				"It is the hull material for &2IV&r, a &eCoil material&r for an upgrade to your &bEBF&r, and a very good base for &aGregtech Tools&r."
+				"It is the hull material for &2IV&r, a &eCoil material&r for an upgrade to your &2EBF&r, and a very good base for &aGregtech Tools&r."
 			]
 			id: "628CBDB7A277054E"
 			shape: "gear"

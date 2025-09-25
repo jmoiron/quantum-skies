@@ -18,9 +18,9 @@
 				""
 				"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
 				""
-				"You will want dedicated machines to make this easier, but that will involve building &bEBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
+				"You will want dedicated machines to make this easier, but that will involve building &2EBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
 				""
-				"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &bEBF&r will get you some useful mud."
+				"The first step: roasting &9Crushed Monazite&r with &6Nitric Acid&r in an &2EBF&r will get you some useful mud."
 				""
 				"&oThis chain is derived from &2GTNH&r&o, altered to fit with &2CEu modern&r."
 			]
@@ -76,7 +76,7 @@
 				""
 				"The first way uses &6magnesium&r in a loop."
 				""
-				"The second way uses &6Aluminium&r and produces &6alumina&r, which can be blasted in the &bEBF&r for &ealuminium ingots&r at a large energy discount over normal &9aluminium dust&r."
+				"The second way uses &6Aluminium&r and produces &6alumina&r, which can be blasted in the &2EBF&r for &ealuminium ingots&r at a large energy discount over normal &9aluminium dust&r."
 			]
 			id: "14526021279CDEBB"
 			tasks: [
