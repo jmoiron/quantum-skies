@@ -45,33 +45,60 @@ ServerEvents.recipes(event => {
         .EUt(16)
         .duration(50);
 
-    /* fix naquadah processing line from gt-- */
+    // light oilsands support
 
-    /*
+    // gtceu 7.2 fixed a bug in the oilsands ore and made it produce heavy oil
+    // like the oilsands dust...  but this invalidated an "alternate" path to oil
+    // and ethylene that I had planned. In the absence of oil spouts, I think a
+    // non-rig route to regular oil is good.. but in skyblock everything is going
+    // to be infinite as well, so it has to be somewhat balanced infra-wise
+    //
+    // for this, qs adds "light oilsands", which produces normal oil from both
+    // ore and dust, though the route to get ore has been removed.
 
-    event.remove({id: "gtceu:electric_blast_furnace/impure_enriched_naquadah_solution"})
-    event.recipes.gtceu.electric_blast_furnace("impure_enriched_naquadah_solution_fixed")
-        .inputFluids("gtceu:acidic_naquadria_solution 3000")
-        .outputFluids("gtceu:naquadria_waste 1000")
-        .itemOutputs("gtceu:enriched_naquadah_oxide_mixture_dust")
-        .EUt(GTValues.VA[GTValues.ZPM])
-        .duration(300)
-        .blastFurnaceTemp(1280);
+    greg.centrifuge("light_oilsands_ore_separation")
+        .itemInputs("gtceu:light_oilsands_ore")
+        .chancedOutput("minecraft:sand", 2500, 0)
+        .outputFluids("gtceu:oil 2000")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
 
-    */
+    greg.centrifuge("light_oilsands_dust_separation")
+        .itemInputs("gtceu:light_oilsands_dust")
+        .chancedOutput("minecraft:sand", 2500, 0)
+        .outputFluids("gtceu:oil 2000")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.LV])
 
-    // remove broken unattainable marble recipes
+    // for existing worlds that might have tons of regular oilsands which are
+    // a little useless now, a recipe to dehydrate it. They get a little salt/chlorine
+    // as reward.
+    greg.dehydrator("oilsands_dust_to_light_oilsands")
+        .itemInputs("gtceu:oilsands_dust")
+        .itemOutputs("gtceu:light_oilsands_dust")
+        .outputFluids("gtceu:salt_water 100")
+        .duration(20*2)
+        .EUt(GTValues.VHA[GTValues.MV])
+
+    // restore a way to get regular oilsands to get heavy oil without looking for
+    // fluid veins.
+    greg.mixer("light_oilsands_to_oilsands")
+        .itemInputs("gtceu:light_oilsands_dust")
+        .inputFluids("gtceu:salt_water 100")
+        .itemOutputs("gtceu:oilsands_dust")
+        .duration(20*2)
+        .EUt(GTValues.VHA[GTValues.MV])
+
+    // remove still-broken marble rock breaker recipe
+    // i'm not sure why this doesn't work, the gtm code looks fine
     event.remove({type: "gtceu:rock_breaker", output: "gtceu:marble"})
-    /*
+    //event.remove({id: "gtceu:macerator/macerate_marble"})
+
     event.recipes.gtceu.rock_breaker(`rock_breaker_marble`)
       .notConsumable("gtceu:marble")
       .itemOutputs("gtceu:marble")
-      .EUt(7)
+      .EUt(GTValues.VHA[GTValues.HV])
       .duration(16)
-      .data({
-        fluidA: "minecraft:lava",
-        fluidB: "minecraft:water",
-      })
-    */
-    event.remove({id: "gtceu:macerator/macerate_marble"})
+      ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
+
 });

@@ -46,6 +46,14 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     const sand = GTMaterialIconSet.SAND;
     const star = GTMaterialIconSet.NETHERSTAR;
 
+    event.create("light_oilsands")
+        .dust(1)
+        .ore()
+        .color(0xEEF2D2)
+        .secondaryColor(0x6E8272)
+        .iconSet(sand)
+        .flags(GTMaterialFlags.FLAMMABLE);
+
     dust("bedrock", 0x565656).iconSet(flint);
     dust("moon_regolith", 0x959595)
         .flags(GTMaterialFlags.FORCE_GENERATE_BLOCK)

@@ -1,16 +1,6 @@
 
 
 ServerEvents.recipes(event => {
-    const gravel = "#forge:gravel";
-    const sand = "#minecraft:sand";
-    const dust = "exnihilosequentia:dust";
-    const blackstone = "exnihilosequentia:crushed_blackstone";
-    const netherrack = "exnihilosequentia:crushed_netherrack";
-    const endstone = "exnihilo:crushed_end_stone";
-    const soulsand = "minecraft:soul_sand";
-    const soulsoil = "minecraft:soul_soil";
-    const waterloged = "waterlogged";
-
     // we've moved a bunch of seeds and food to the grass block
     event.shapeless("minecraft:grass_block", [
         "minecraft:dirt",
@@ -133,6 +123,14 @@ ServerEvents.recipes(event => {
             "minecraft:soul_soil": [
                 ["exnihilosequentia:warped_nylium_spores", 0.1],
                 ["exnihilosequentia:crimson_nylium_spores", 0.1]
+            ],
+            "exnihilosequentia:crushed_basalt": [
+                ["4x exnihilosequentia:basalt_pebble", 0.50],
+                ["exnihilosequentia:dripstone_pebble", 0.25]
+            ],
+            "exnihilosequentia:crushed_diorite": [
+                ["4x exnihilosequentia:diorite_pebble", 0.50],
+                ["exnihilosequentia:calcite_pebble", 0.25]
             ]
         },
         "flint": {
@@ -152,8 +150,7 @@ ServerEvents.recipes(event => {
                 ["minecraft:diamond", 0.05]
             ],
             "minecraft:soul_sand": [
-                ["gtceu:crushed_oilsands_ore", [0.25, 0.1]],
-                ["gtceu:oilsands_ore", [0.1, 0.05]],
+                ["gtceu:crushed_light_oilsands_ore", [0.25, 0.1]]
             ],
             "exnihilosequentia:crushed_netherrack": [
                 ["gtceu:crushed_pyrite_ore", 0.30],

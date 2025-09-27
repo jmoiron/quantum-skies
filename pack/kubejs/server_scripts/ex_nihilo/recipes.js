@@ -73,8 +73,22 @@ ServerEvents.recipes(event => {
     }
   );
 
+  // make some stones available
+  event.shaped("minecraft:tuff",
+    ['AS', 'SA'],
+    {
+        A: "exnihilosequentia:andesite_pebble",
+        S: "exnihilosequentia:stone_pebble"
+    }
+  );
 
-
+  event.shaped("gtceu:marble",
+    ['DC', 'CD'],
+    {
+        C: "exnihilosequentia:calcite_pebble",
+        D: "exnihilosequentia:diorite_pebble"
+    }
+  )
 
   // gating iron mesh on aluminium seems wrong but you gotta toughen up
   // this is gregtech..
