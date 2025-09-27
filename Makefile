@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.7.0
+VERSION := 0.7.1
 #WINUSER := jmoir
 WINUSER := jlmoi
 HOME := ${HOME}

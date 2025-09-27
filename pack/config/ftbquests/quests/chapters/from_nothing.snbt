@@ -422,10 +422,10 @@
 						Count: 1
 						id: "gtceu:wrought_iron_screwdriver"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								Enchantability: 5
 								MaxDamage: 383
 							}
@@ -444,9 +444,7 @@
 						id: "gtceu:wrought_iron_hammer"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -458,9 +456,7 @@
 						id: "gtceu:wrought_iron_wrench"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -471,10 +467,10 @@
 						Count: 1
 						id: "gtceu:wrought_iron_mortar"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								Enchantability: 5
 								MaxDamage: 383
 							}
@@ -525,9 +521,7 @@
 						id: "gtceu:wrought_iron_mortar"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					optional_task: true
@@ -711,13 +705,13 @@
 					Count: 1
 					id: "gtceu:diamond_axe"
 					tag: {
+						Damage: 0
 						DisallowContainerItem: 0b
 						GT.Behaviours: {
 							DisableShields: 1b
 							TreeFelling: 1b
 						}
 						GT.Tool: {
-							Damage: 0
 							Enchantability: 18
 							HarvestLevel: 3
 							MaxDamage: 767
@@ -1087,10 +1081,10 @@
 						Count: 1
 						id: "gtceu:wrought_iron_file"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								Enchantability: 5
 								MaxDamage: 383
 							}
@@ -1106,9 +1100,7 @@
 						id: "gtceu:wrought_iron_saw"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -1120,9 +1112,7 @@
 						id: "gtceu:wrought_iron_wire_cutter"
 						tag: {
 							Damage: 0
-							GT.Tool: {
-								Damage: 0
-							}
+							GT.Tool: { }
 						}
 					}
 					type: "item"
@@ -1133,10 +1123,10 @@
 						Count: 1
 						id: "gtceu:wrought_iron_crowbar"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								Enchantability: 5
 								HarvestLevel: 2
 								MaxDamage: 383
@@ -1153,10 +1143,10 @@
 						Count: 1
 						id: "gtceu:wood_mallet"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								Enchantability: 10
 								MaxDamage: 127
 							}

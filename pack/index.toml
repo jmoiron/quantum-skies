@@ -106,11 +106,11 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "8e3e45268cfa2f83d7d66620d969651c1188ad99a4cd8f6cc868d1ee22983c38"
+hash = "5590bfa69ce1d66b2b8012dbfdfdf179499d62368954f37f1a3b89d983ad98bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "734842f0ce29b7628a967473ff936b64d9d6eeb40ae391c092e8eb90352eec48"
+hash = "4e1064f12d825e985a99180d065b291710bedbaa80b884af0d2b4144be3de989"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -118,19 +118,19 @@ hash = "ee1ea602d13dd632092782a17cf5d0b795b0f70a16fce1e622497614df1bf7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "f0e4ac0f229c35b4268ed28c2168ddfd1d943d569dff9459649e561482559164"
+hash = "25d9f97d3331a17c1615d6282d3640e1d2a27dd390440ec76a660a5225614053"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "bf1c2bbb581756cd9c271837b57125fbc0583037a755e384f0629c7f301c7ede"
+hash = "806eab360f8cf1f07e66b7b840a62e2e7c0eb0d4bea467da7dec80cc7ad11e88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "ecda53b67c5b2edfaf5a8e056b096e5534db15fdced46afae16e12beb8b90e6f"
+hash = "e6e446db5b5b8e3f20707c330c6f7c6309ae3dd77d6867a3fb06f76f67a9059a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "3a2c870dced1118b295a47a26db1fa7f79085e9d0e418d4daae311e0c6e0ff96"
+hash = "c9727a837f1feaa1fdd72944a45ace159c068372929ec801a0c2c50bc55b095c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -150,11 +150,11 @@ hash = "9040dd90ae88d8ad0d76c71e57acb42b4d1a889c626330176ad066c25ae727f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "78284fe32da1f7bb42095815a65f18ab5eed64d0d24f762b24941b12f1754efc"
+hash = "97439475068e47441232e34daf7d48db37c457ce4175cb09201cf675372dd9be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "d6d7f4aa39d9097fb8647e520b99266dfd586be6cd8e9a30423badf5912bea69"
+hash = "722a295b0aa4b630f103168c207e99bb18f1823f480d418a5b512976ef2d34dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -178,7 +178,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "9238727fc5af6eb8707484914f86146c465d3d73adee65e1aeebf1761351abbb"
+hash = "a33d442c6a1ae2d887cd3412655a8b2aed4a9a5e2f39c82919e6ccd824421918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -194,7 +194,7 @@ hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "6bae86a4e5b1b46d22ed05c3d628a01494ecf53a191e90367ddd4a33b3a02dc6"
+hash = "771e72e5f0b6f7fd5a2bc0b512645fd610102f3e410b5c2a1676a16ab4d3ceb8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -278,7 +278,7 @@ hash = "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "61919215de43f64fa18509a2b4e3f948a581729f7c22b71847cec9ad5c9e727d"
+hash = "16091be5f48b8a5223a258e16aa543c1df75c88a4b481e63c0b4685139a13b89"
 
 [[files]]
 file = "config/merequester-common.toml"
@@ -306,7 +306,7 @@ hash = "3df8dd0c1ab739e48bd92b098fb3e36b4ddc5578ac5b21839290d6470ed7519a"
 
 [[files]]
 file = "config/shrink-common.toml"
-hash = "47b287f97fc61a322d7a19087bc9e9696de5b8f6060a5a2eda73d3d4ab3805c2"
+hash = "5fce5fb92ff9b80b04a02e91dd3b08e31696cd10dc4177a5b015235a3efec2a4"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1352,7 +1352,7 @@ metafile = true
 
 [[files]]
 file = "mods/environmental-materials.pw.toml"
-hash = "bda911c3feaba875a4143627ba27f92081bcf3dbdb653f3a42ab23051952ba6c"
+hash = "029383feb1378bcd3fed3f531c74438a42e14273d39afe3fa45a296dd40e9958"
 metafile = true
 
 [[files]]
@@ -1492,17 +1492,17 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "f76dcc4122bcbc77ce67812b83013c7728c84c26b24321ab4ce2e650eb1688f4"
+hash = "405441ee4b2caa3503f94720d00f9d86d804ab5cba09fb65f13cee4be11c3e39"
 metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
-hash = "ee4c018e30277ea7539b62caf91a333944820a0da91a0f09d59015e433e7fde5"
+hash = "030eb475ca7081f8d00d01f31810ed739ca1ea94eace3e37bf92d56034c65393"
 metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "0ffd4cabc4d73f62891f6a663da56691d720f395de1379586807f7b96cdbe239"
+hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
 metafile = true
 
 [[files]]
@@ -1532,7 +1532,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
+hash = "5c93a82eec8d7c98458e112533798402f9664f209d379fcc439f9e9aafe9421b"
 metafile = true
 
 [[files]]
@@ -1632,7 +1632,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "837a1be20e36a34e24a1921952738cbb888e7a14f2c38ae744faf20a51be5113"
+hash = "78c7276b1dfe4f697d4110a2db193dbfa7be972ba62165e3223b4cd4709a6f9c"
 metafile = true
 
 [[files]]
@@ -1697,12 +1697,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "418891b43d45e9095441b823561ea763ef53b7ae43f97d0a9a9454d7f0cd5fe4"
+hash = "befc6403d24a79daa48c6987dad58d5bd89e023ed7ba35ceeef9ba2b302dddf0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f29ebd5c74fd60b84eac8473af05d63c8da1a76bed0586ba660696f4840e7eaf"
+hash = "30af367294471ee277dc5f0aedaddfe60f29c7da2055a6001a7b6a3c4334eeb4"
 metafile = true
 
 [[files]]
@@ -1712,7 +1712,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "8dc379388173ef50b19449bb20bda3eefd71bd73b952cef72cae91171f9882e7"
+hash = "a612d024da7049c8c99c427ba1fe1a1ce5c44dea936a3c27ca39141f94b5197b"
 metafile = true
 
 [[files]]
@@ -1772,7 +1772,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrielib.pw.toml"
-hash = "e58f0ba961c2950a1e136bbfa93bbda3006779624618783745d2cabc4e533a10"
+hash = "631929cd284cc2b5b7e69c36b06dd8dcda73ec7ef57c34ce0bc8cf3ef4fc72e6"
 metafile = true
 
 [[files]]
