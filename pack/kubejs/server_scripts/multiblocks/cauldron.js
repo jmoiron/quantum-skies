@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             L: "exnihilosequentia:witch_water_bucket",
             G: "minecraft:glass",
         }
-    );
+    ).replaceIngredient("exnihilosequentia:witch_water_bucket", "minecraft:bucket");
 
     event.replaceInput({mod: "sophisticatedbackpacks"},
         "minecraft:ender_pearl",
