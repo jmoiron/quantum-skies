@@ -372,7 +372,7 @@
 				"7BF4BE21BD28B97E"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Distillation of &6Heavy Oil&r is &bMV&r, and it is best at producing &6Heavy Fuel&r, which itself is not combustible, making it a a difficult route for early power."]
+			description: ["Processing &6Heavy Oil&r requires an &bMV&r &2distillery&r, and it is best at producing &6Heavy Fuel&r, which is not combustible, making it a poor route for early power."]
 			id: "6DBFD1013B005FC5"
 			tasks: [{
 				id: "28FCE1B0A79677A6"
@@ -385,19 +385,19 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"If you build a &2Large Cauldron&r, you will get a 4x increase in yields for &9clay&r and &9soul sand&r. As with the &2Large Crucible&r, the cauldron at the center of the &2large cauldron&r multiblock must be filled with water."
+				"Sifting &9soul sand&r is a good source of &dcrushed light oilsands ore&r, which can be processed into &dlight oilsands dust&r and then &2centrifuged&r into &6oil&r."
 				""
-				"Sifting &9soul sand&r is a good source of &doilsands&r and &dcrushed oilsands ore&r, which are processed into &6oil&r and &6heavy oil&r, respectively."
+				"If you build a &2Large Cauldron&r, you will get 4x the yield from &6sand&r and &6dust&r for &9soul sand&r and &6clay&r, respectively. As with the &2Large Crucible&r, the cauldron at the center of the multiblock must be filled, but this time with &3water&r."
 				""
-				"You will get more crushed ore, but processing it takes more steps and more energy. The &bheavy fuel&r you get can be further processed into a lot of useful chemicals, but isn't very good as a power source."
+				"&dLight oilsands&r have been introduced in 0.7.x of &aQuantum Skies&r because versions of &2GregTech Modern&r before 7.2 had a bug where centrifuging &doilsands ore&r gave you normal &6oil&r instead of &6heavy oil&r."
 				""
-				"You will get less &doilsands&r, but it's simple to turn into &6oil&r, from which you get a decent yield of &6light fuel&r you can burn directly. It's a good strategy to start there and then build out larger oil processing once you are established."
+				"This bug was a key part of the balance of using the &2sieve&r on &9soul sand&r in this pack, so modifications were made to re-balance it with the &2drilling rig&r."
 				""
-				"Be aware, &6heavy oil&r processing is &bMV&r but &6oil&r processing is only &7LV&r."
+				"If you are upgrading from a pre-0.7.x version of &aQuantum Skies&r, you might have a lot of normal &doilsands&r ore and dust. Recipes have been added to the &2dehydrator&r and &2mixer&r to convert between the two."
 			]
 			id: "7ABFC37B56E8847A"
 			min_width: 250
-			subtitle: "Don't Bother Centrifuging It"
+			subtitle: "Don't bother centrifuging it"
 			tasks: [
 				{
 					id: "0791F83EF8F81210"
@@ -417,22 +417,22 @@
 		{
 			dependencies: ["39339A08E2BEF594"]
 			description: [
-				"The &dFluid Drilling Rig&r can drill for fluids from \"beneath the bedrock.\"  It seems to work out here in the vast, empty void, too."
+				"The &2Fluid Drilling Rig&r drills for fluids from \"bedrock veins\", which conveniently still seem to exist out here in the vast, empty void."
 				""
-				"In this world, there are 4 fluids you can drill for, and they are all distillable into &6Heavy Fuel&r (HF), &6Light Fuel&r (LF), &6Naphtha&r and &6Gas&r. These fluids \"spawn\" per chunk in large fields, viewable later by the &5HV&r prospector. These fluids are:"
+				"In this world, there are 4 fluids you can drill for. They can all be distilled into the 4 main hydrocarbon fuels: &6Heavy Fuel&r (HF), &6Light Fuel&r (LF), &6Naphtha&r and &6Gas&r."
+				""
+				"Bedrock veins \"spawn\" per chunk in large fields, viewable later with an &5HV&r &2prospector&r. They are:"
 				""
 				"* &6Oil&r, which produces more LF"
-				""
 				"* &6Light Oil&r, which produces more Gas"
-				""
 				"* &6Heavy Oil&r, which produces more HF"
-				""
 				"* &6Raw Oil&r, which produces more Naphtha"
 				""
-				"&6Naphtha&r and &6Light Fuel&r have the same energy density when used in a &dCombustion Generator&r. The oil in a chunk is technically unlimited, but the rig will produce less over time."
+				"&6Naphtha&r and &6Light Fuel&r have the same energy density when used in a &2combustion generator&r. The oil/gas in a chunk is unlimited, but the rig will produce it at a slow rate when the field is depleted."
 			]
 			id: "7BF4BE21BD28B97E"
 			min_width: 250
+			subtitle: "Big rig"
 			tasks: [{
 				id: "4375F93F89476165"
 				item: "gtceu:mv_fluid_drilling_rig"
@@ -1333,11 +1333,12 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6Naphtha&r procuces as much energy per litre as &6Light Fuel&r when used in a combustion generator, but you get less of it from normal &9Oil&r, and &6Naphtha&r doesn't give you a path towards better fuels."
+				"&6Naphtha&r produces as much energy per bucket as &6Light Fuel&r when used in a combustion generator. If you rolled the dice with the &2rig&r and didn't get &9Raw Oil&r, then you're probably getting less yield than &6Light Fuel&r, and &6Naphtha&r doesn't put you on a path towards better fuels."
 				""
-				"Furthermore, &ccracking&r &6Naphtha&r in a &bCracker&r (or a &bChem Reactor&r) is one of the better sources of &6Ethylene&r and the only source of &aPara-Xylene&r."
+				"However, &acracking&r &6Naphtha&r in a &2Cracker&r (or a &2Chem Reactor&r) is one of the better sources of &3Ethylene&r and the only source of &aPara-Xylene&r, which you will eventually need to get to the &7Moon&r."
 			]
 			id: "16F8B12D38FAFB4E"
+			subtitle: "Nap-tha? Naf-tha? Na-the?"
 			tasks: [{
 				id: "71DD265207C04D28"
 				item: "gtceu:naphtha_bucket"
@@ -1348,12 +1349,18 @@
 		}
 		{
 			dependencies: ["7BF4BE21BD28B97E"]
+			description: [
+				"&6Raw Oil&r, also called \"medium oil\", is a very good source of &6Naphtha&r. "
+				""
+				"While normal &6Oil&r is better in the long run for making &9diesel&r and other &2combustion generator&r fuels, &6Raw Oil&r is excellent in &bMV&r because &6Naphtha&r is just as good as &6Light Fuel&r for power, but &amuch better&r for producing &3Ethylene&r!"
+			]
 			id: "51EB788B4C504D62"
 			tasks: [{
 				id: "2D5B87FD8398DA8A"
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
+			title: "Happy Medium"
 			x: 6.5d
 			y: -6.0d
 		}
