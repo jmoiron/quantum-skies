@@ -1529,6 +1529,31 @@
 			x: -4.0d
 			y: -3.0d
 		}
+		{
+			dependencies: [
+				"06E4483C49687A3B"
+				"40587175AF3E64BC"
+				"3320E243E14A626A"
+				"0BE3D5D9354D631A"
+			]
+			description: [
+				"If you'd like to be able to &efly&r, you could do worse than build an &9Electric Jetpack&r. Although there is not much exploring to be done, flying makes building tall multiblocks a lot easier!"
+				""
+				"Hit the &ahover keybind&r as you are accelerating to activate/deactivate hover mode."
+			]
+			id: "1F2DE2A3358A9F93"
+			tasks: [{
+				id: "5CCC204B61119FB8"
+				item: {
+					Count: 1
+					id: "gtceu:electric_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
 	]
 	subtitle: ["Aluminium, Oil, and &bMedium Voltage&r"]
 	title: "[&bMV&r] Medium Voltage"

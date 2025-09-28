@@ -746,6 +746,23 @@
 			x: 4.0d
 			y: -4.0d
 		}
+		{
+			description: [
+				"Haven't you suffered enough?"
+				""
+				"It is a challenge at this stage to even get one &1IV&r amp out of this, and it would still require changing turbines every so often."
+			]
+			id: "28B0BCEA3A8F9546"
+			size: 0.5d
+			subtitle: "Best of the Worst"
+			tasks: [{
+				id: "4DE5AAAE79D49BE4"
+				item: "gtceu:tungstensteel_large_boiler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]
 	title: "[&1IV&r] Insane Voltage"
