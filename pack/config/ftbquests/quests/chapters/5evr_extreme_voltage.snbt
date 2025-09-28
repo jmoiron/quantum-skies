@@ -48,7 +48,7 @@
 	quests: [
 		{
 			description: [
-				"The &bLarge Combustion Engine&r is a multiblock generator that can produce &5EV&r power from combustible fuels. "
+				"The &bLarge Combustion Engine&r is a multiblock generator that can produce &5EV&r power from combustible fuels."
 				""
 				"The &bLCE&r is simple to run. Unlike &bLarge Turbines&r, it will not void power when there is nothing using it. Supplying it with &6Oxygen&r provides a &e50% fuel efficiency boost&r and is highly recommended."
 				""
@@ -250,15 +250,15 @@
 				"36A1B71C1A6304D4"
 			]
 			description: [
-				"From here forward, it seems that gains in &2processing byproducts&r will be mostly incremental."
+				"From here forward, it seems that gains in &aprocessing byproducts&r will be mostly incremental."
 				""
 				"There are a great deal of &erare resources&r that can further your technological progress locked up in the various sludges and residues of crushed ores, if only there was a way to &2process&r and extract them."
 				""
-				"With &5Extreme Voltage&r, you should be able to run an industrialized sieving process that could extract more from the &6lava&r you can produce in abundance."
+				"With &5Extreme Voltage&r, you should be able to run an industrialized sieving process that can extract more from the &6lava&r you have been producing in abundance."
 				""
 				"Efficiently compounding these small gains are the order of the day. The technology these new materials enable could begin to force this mysterious world to &eyield its secrets&r."
 				""
-				"The stars are calling."
+				"The &astars&r are calling."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:titanium_gear"
@@ -736,7 +736,7 @@
 			description: [
 				"The simple &6Platinum&r acquisition from main &2GTCEu Modern&r has been replaced with the elaborate &5platinum processing chain&r from &2GTNH&r."
 				""
-				"The relevant materials coming from this process in &5EV&r are &6Platinum&r itself and &6Ruthenium&r, which is used in &eRTM Alloy&r, the next tier of &5coil&r. The rest of the chain becomes much more relevant in &1IV&r and &dLuV&r. "
+				"The relevant materials coming from this process in &5EV&r are &6Platinum&r itself and &6Ruthenium&r, which is used in &eRTM Alloy&r, the next tier of &5coil&r. The rest of the chain becomes much more relevant in &1IV&r and &dLuV&r."
 				""
 				"The &efull chain&r is illustrated in its own quest chapter, \"The &6Platinum&r Chain\"."
 			]
@@ -925,7 +925,7 @@
 				""
 				"&dDense hydrazine mixed fuel&r is needed for &6advanced&r rocket parts, and has ~3m EU/b."
 				""
-				"&5Methylhydrazine nitrate mixed fuel&r is needed for &6elite&r rocket parts, and has ~6m EU/b. "
+				"&5Methylhydrazine nitrate mixed fuel&r is needed for &6elite&r rocket parts, and has ~6m EU/b."
 				""
 				"&aUDMH rocket fuel&r is a great power source at ~12m EU/b."
 				""

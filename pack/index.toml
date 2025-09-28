@@ -130,7 +130,7 @@ hash = "e6e446db5b5b8e3f20707c330c6f7c6309ae3dd77d6867a3fb06f76f67a9059a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "c9727a837f1feaa1fdd72944a45ace159c068372929ec801a0c2c50bc55b095c"
+hash = "273abd898ec056e3e0107a5dd9a8f02f2586fa55618852289efc02d8482aeaa8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"

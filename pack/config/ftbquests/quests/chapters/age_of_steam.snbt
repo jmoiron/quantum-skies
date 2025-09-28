@@ -20,7 +20,7 @@
 			description: [
 				"Although &6Iron&r and &6Wrought Iron&r make good tools, &6Bronze&r seems to have special thermal properties that make it suitable for high temperature applications."
 				""
-				"Using some &9Charcoal&r and suspiciously abundant water, you could build some simple steam boilers.  "
+				"Using some &9Charcoal&r and suspiciously abundant water, you could build some simple steam boilers."
 				""
 				"With that, you can start to mechanize.  Surely steam powered machinery could produce these plates and crush this stone more efficiently than you can with your worn tools."
 			]
@@ -98,11 +98,11 @@
 		{
 			dependencies: ["7015689EEBC11F93"]
 			description: [
-				"The &dForge Hammer&r machine does what your hammer can do, but without losing durability."
+				"The &2Forge Hammer&r machine does what your hammer can do, but without losing durability."
 				""
 				"&dForge hammers&r create 2 plates per 3 ingots, a 50% better yield than doing it manually!"
 				""
-				"Combine &dForge Hammers&r with a &dRock Crusher&r to hammer &6Cobblestone&r into &6Gravel&r, &6Gravel&r into &6Sand&r, &6Sand&r into &6Dust&r, and other sievables to passively automate material gathering."
+				"Combine &2Forge Hammers&r with a &dRock Crusher&r to hammer &6Cobblestone&r into &6Gravel&r, &6Gravel&r into &6Sand&r, &6Sand&r into &6Dust&r, and other sievables to passively automate material gathering."
 			]
 			id: "7EF6C86B728F04E0"
 			subtitle: "Not Quite Mjolnir"
@@ -117,7 +117,7 @@
 		{
 			dependencies: ["2A49DB74D9276F0A"]
 			description: [
-				"The &dRock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
+				"The &2Rock Crusher&r produces a never ending supply of several stone variants, including &6Obsidian&r at [&6HV&r] High Voltage."
 				""
 				"To use, place a source block of &9Lava&r and a source block of &9Water&r on two of its faces, then feed it steam!"
 				""
@@ -311,7 +311,7 @@
 		{
 			dependencies: ["133D5E0B6C137D0E"]
 			description: [
-				"&6Steel&r is the &bhull material&r for [&7LV&r] Low Voltage machines. "
+				"&6Steel&r is the &bhull material&r for [&7LV&r] Low Voltage machines."
 				""
 				"You will be needing a &olot&r of it. Here's a small amount to get you going."
 				""
@@ -344,13 +344,13 @@
 			description: [
 				"Steam Machines come in two varieties, &blow pressure&r and &bhigh pressure&r.  They can handle LV recipes up to 32eu/t at a conversion of 2mb of steam to 1eu."
 				""
-				"Low pressure machines have bronze hulls and are 50% slower, but consume steam at half of the rate.  "
+				"Low pressure machines have bronze hulls and are 50% slower, but consume steam at half of the rate."
 				""
 				"High pressure machines all use their bronze counterparts as crafting ingredients, so don't hold back!"
 				""
 				"{@pagebreak}"
 				""
-				"Steam machines have a &bsquare&r on one of their sides.  This might look like a machine output, but it's a &bsteam vent&r.  "
+				"Steam machines have a &bsquare&r on one of their sides.  This might look like a machine output, but it's a &bsteam vent&r."
 				""
 				"After each operation, steam powered machines &omust&r vent some steam, or they will stop processing.  Do not cover these up by placing blocks adjacent to the side with the vent!"
 				""
@@ -467,9 +467,9 @@
 				"3AEF5A87CDA225B6"
 			]
 			description: [
-				"&6Potin&r is an alloy of &6Copper&r, &6Tin&r, and &6Lead&r.  "
+				"&6Potin&r is an alloy of &6Copper&r, &6Tin&r, and &6Lead&r."
 				""
-				"Despite its humble ingredients, &9fluid pipes&r made with &6Potin&r are very fast. "
+				"Despite its humble ingredients, &9fluid pipes&r made with &6Potin&r are very fast."
 				""
 				"&6Potin&r gears are also used in the &dSteam Grinder&r multiblock."
 			]
@@ -655,7 +655,7 @@
 			description: [
 				"&bSteam Boilers&r output steam automatically to adjacent machines or &9Pipes&r from all faces except their front. The &5low pressure&r and &5high pressure&r tiers are machine variants, &cnot&r different types of steam."
 				""
-				"All steam &bmachines&r and &bturbines&r convert &e2mb of steam to 1eu&r of power. &5Low-pressure&r machines work at half the speed, but require half of the amount of steam. "
+				"All steam &bmachines&r and &bturbines&r convert &e2mb of steam to 1eu&r of power. &5Low-pressure&r machines work at half the speed, but require half of the amount of steam."
 				""
 				"If a recipe says it is &oLV 7 EU/t&r and take 10s, a &5low-pressure&r machine will use 7mb of steam/t and take 20s, and a &5high-pressure&r machine will require 14mb of steam/t and take 10s."
 				""
@@ -908,7 +908,7 @@
 			description: [
 				"The &bInformation Era&r beckons.  That was fast, we don't even have &belectricity&r yet!"
 				""
-				"This circuit unlocks the [&7LV&r] Low Voltage tier and its machines.  "
+				"This circuit unlocks the [&7LV&r] Low Voltage tier and its machines."
 				""
 				"While &7LV&r machines have the same processing speed to &dHigh-Pressure Steam&r machines, they run on electricity, do not need to vent steam, and can auto-output. Electricity can be buffered with high power density &bbatteries&r."
 				""

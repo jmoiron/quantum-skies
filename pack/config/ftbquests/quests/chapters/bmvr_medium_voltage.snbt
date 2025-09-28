@@ -37,7 +37,7 @@
 				"4565F14B36E7CD6C"
 			]
 			description: [
-				"&6Aluminium&r seems to be a strict upgrade over &6Steel&r, at least as far as machinery goes. It should be suitable for &dMedium Voltage&r machines. "
+				"&6Aluminium&r seems to be a strict upgrade over &6Steel&r, at least as far as machinery goes. It should be suitable for &dMedium Voltage&r machines."
 				""
 				"The &bExtruder&r you can build with this new material can handle all sorts of industrial processes that were manual and time intensive before, and could not be achieved with only &7Low Voltage&r."
 				""
@@ -115,7 +115,7 @@
 				""
 				"After &6HV&r, large turbines scale better than combustion engines."
 				""
-				"Why not use &6Benzene&r? "
+				"Why not use &6Benzene&r?"
 				""
 				"Oil is simpler to source at scale, petrochem is required for progress, and large combustion engines at EV+ are much easier to automate."
 			]
@@ -387,7 +387,7 @@
 			description: [
 				"Sifting &9soul sand&r is a good source of &dcrushed light oilsands ore&r, which can be processed into &dlight oilsands dust&r and then &2centrifuged&r into &6oil&r."
 				""
-				"If you build a &2Large Cauldron&r, you will get 4x the yield from &6sand&r and &6dust&r for &9soul sand&r and &6clay&r, respectively. As with the &2Large Crucible&r, the cauldron at the center of the multiblock must be filled, but this time with &3water&r."
+				"A &2Large Cauldron&r will give you a 4x yield from &6sand&r and &6dust&r for &9soul sand&r and &6clay&r, respectively. As with the &2Large Crucible&r, the cauldron at the center of the multiblock must be filled, but this time with &3water&r."
 				""
 				"&dLight oilsands&r have been introduced in 0.7.x of &aQuantum Skies&r because versions of &2GregTech Modern&r before 7.2 had a bug where centrifuging &doilsands ore&r gave you normal &6oil&r instead of &6heavy oil&r."
 				""
@@ -595,7 +595,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6Heavy Fuel&r is not usable as a fuel in a &bcombustion generator&r and thus is not a viable direct source of power.  "
+				"&6Heavy Fuel&r is not usable as a fuel in a &bcombustion generator&r and thus is not a viable direct source of power."
 				""
 				"However, the various &ccracked&r forms of &6Heavy Fuel&r yield useful hydrocarbons, and it is a component in &6Diesel&r, a very good fuel for &bMV&r and early &6HV&r."
 			]
@@ -1007,7 +1007,7 @@
 				"242BA23234A28A29"
 				"152EA6F3161E2B26"
 			]
-			description: ["The &9CPU&r (Central Processing Unit) is the foundation of the next tier of circuits after integrated circuits, &bmicroprocessors&r. "]
+			description: ["The &9CPU&r (Central Processing Unit) is the foundation of the next tier of circuits after integrated circuits, &bmicroprocessors&r."]
 			id: "310C5F4765AAB929"
 			tasks: [
 				{
@@ -1350,7 +1350,7 @@
 		{
 			dependencies: ["7BF4BE21BD28B97E"]
 			description: [
-				"&6Raw Oil&r, also called \"medium oil\", is a very good source of &6Naphtha&r. "
+				"&6Raw Oil&r, also called \"medium oil\", is a very good source of &6Naphtha&r."
 				""
 				"While normal &6Oil&r is better in the long run for making &9diesel&r and other &2combustion generator&r fuels, &6Raw Oil&r is excellent in &bMV&r because &6Naphtha&r is just as good as &6Light Fuel&r for power, but &amuch better&r for producing &3Ethylene&r!"
 			]
@@ -1389,7 +1389,7 @@
 				""
 				"Your best source of this is &delectrolyzing&r &6ruby&r for the near future, which also handily provides you with a decent yield of &6aluminium&r."
 				""
-				"It is an important component in several &6steels&r including &6Vanadium Steel&r and &6Stainless Steel&r, which are immediately relevant to progression through &7MV&r and into &6HV&r. "
+				"It is an important component in several &6steels&r including &6Vanadium Steel&r and &6Stainless Steel&r, which are immediately relevant to progression through &7MV&r and into &6HV&r."
 			]
 			id: "6943EEB24AC64081"
 			rewards: [{
@@ -1468,7 +1468,7 @@
 		{
 			dependencies: ["131C228C88F2DDBF"]
 			description: [
-				"Now that you have &9Kanthal&r coils, you can produce &esilicon ingots&r.  "
+				"Now that you have &9Kanthal&r coils, you can produce &esilicon ingots&r."
 				""
 				"These are mostly useful for making &9silicon plates&r, which are an important ingredient in both &2Applied Energistics&r circuits as well as &9transistors&r."
 			]
