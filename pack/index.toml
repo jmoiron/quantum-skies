@@ -98,7 +98,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "be0331b136fa4c4fe5ad7124185736587beaa49e94a020c10acf5411ee23bc59"
+hash = "9659ce70cee343a12fd995691b3909593fe5b3dfe2129266255f0bc3f918cf52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -106,7 +106,7 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "5590bfa69ce1d66b2b8012dbfdfdf179499d62368954f37f1a3b89d983ad98bd"
+hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -118,11 +118,11 @@ hash = "ee1ea602d13dd632092782a17cf5d0b795b0f70a16fce1e622497614df1bf7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "25d9f97d3331a17c1615d6282d3640e1d2a27dd390440ec76a660a5225614053"
+hash = "300caa618aca38cf5b8400dd2da163fc4523c85cac5e53675faefadd66aa7caa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "806eab360f8cf1f07e66b7b840a62e2e7c0eb0d4bea467da7dec80cc7ad11e88"
+hash = "cbfd9016b3773c939e34205a7cc2ef6c45513ee8d1fbe0a3aee85d9cf7b550a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
@@ -130,7 +130,7 @@ hash = "e6e446db5b5b8e3f20707c330c6f7c6309ae3dd77d6867a3fb06f76f67a9059a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "273abd898ec056e3e0107a5dd9a8f02f2586fa55618852289efc02d8482aeaa8"
+hash = "347a09974eafefeb9f88e9cfbc998a9e282e3a8b4ccc717716b42355656467d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -154,7 +154,7 @@ hash = "693fbfc9cc29d15224501bcc5dc5c3b8082189e8e22edd84e96e8998c3e2b9b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "722a295b0aa4b630f103168c207e99bb18f1823f480d418a5b512976ef2d34dc"
+hash = "3195fdc469972b4bc6b1896df13b27d290d480cfc06b77f9d01382b0855aeed4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -194,7 +194,7 @@ hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "771e72e5f0b6f7fd5a2bc0b512645fd610102f3e410b5c2a1676a16ab4d3ceb8"
+hash = "7b87033e5062292e6a7e3dbeaef53be6fa97ad188ee8faaf7cd69516b54afc8a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1094,7 +1094,7 @@ hash = "2099978b2667b414e4e2a2f898ede3e0c7b59795008de5b87a6d55820452f2de"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/cauldron.js"
-hash = "55378bfab874c02f11d02ac6f24ff18ae6042bf9b9c3e2256d46b99e1049a83e"
+hash = "013793c7da061ca21a3d9d4c6c80453a15c8e4fb6f2819a513ca1f50faf8fc90"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/crucible.js"
@@ -1702,7 +1702,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "30af367294471ee277dc5f0aedaddfe60f29c7da2055a6001a7b6a3c4334eeb4"
+hash = "f298fea193938b13140a70b8df246308d4468b0f3a14dd7c1e62d5513599ad75"
 metafile = true
 
 [[files]]
