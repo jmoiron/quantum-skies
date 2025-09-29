@@ -703,6 +703,7 @@
 				"* A cheaper &bMV&r &aelectronic circuit&r recipe that reduces the number of input circuits from 3 to 2."
 			]
 			id: "7A284CF12EA916D5"
+			size: 1.25d
 			subtitle: "Another Assembler?"
 			tasks: [{
 				id: "5AB0E0561F5457E7"
@@ -1127,29 +1128,6 @@
 			title: "Super Chests"
 			x: 6.5d
 			y: 5.0d
-		}
-		{
-			dependencies: [
-				"06E4483C49687A3B"
-				"40587175AF3E64BC"
-			]
-			description: [
-				"If you'd like to be able to &efly&r, you could do worse than build an &9Electric Jetpack&r. Although there is not much exploring to be done, flying makes building tall multiblocks a lot easier!"
-				""
-				"Hit the &ahover keybind&r as you are accelerating to activate/deactivate hover mode."
-			]
-			id: "0BE3D5D9354D631A"
-			tasks: [{
-				id: "1BFF5608F6C0BF61"
-				item: {
-					Count: 1
-					id: "gtceu:electric_jetpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["1C2F4DA07C29D42F"]
