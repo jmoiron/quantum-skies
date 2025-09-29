@@ -677,9 +677,11 @@
 		{
 			dependencies: ["0EF63A0F090B2B21"]
 			description: [
-				"The &bMV&r assembler makes some important recipes available, including &9Transistors&r, which unlock a cheaper set of chips based on &dsilicon wafers&r."
+				"The &bMV&r assembler makes some important recipes available, including &9transistors&r, which unlock a cheaper set of chips based on &dsilicon wafers&r."
 				""
-				"You will find yourself needing sp,e &6polyethylene&r (PE) shortly after this quest. Be sure to use PE to craft &dcheaper machine hulls&r."
+				"If you haven't already got some, you'll need &6polyethylene&r (PE) shortly after this quest, as it's needed for new circuit components and &enew circuit boards&r."
+				""
+				"Be sure to use &6PE&r to craft &echeaper machine hulls&r."
 			]
 			id: "4E25CA8F5E23C247"
 			subtitle: "More Assembly"
@@ -950,7 +952,7 @@
 			description: [
 				"The &cPlastic PCB&r is the basis for &bMicroprocessor&r circuits."
 				""
-				"If you did not make &6sulfuric acid&r for PE, you'll need some now."
+				"If you did not make &6sulfuric acid&r for &6PE&r, you'll need some now."
 			]
 			id: "78ECC25FA3649463"
 			rewards: [{
@@ -1410,13 +1412,18 @@
 		{
 			dependencies: ["174CEACF8A92FDC3"]
 			description: [
-				"Although a little expensive, the first &9Super Tank&r stores &d8000 buckets&r of fluids."
+				"The first &9Super Tank&r stores &d4000 buckets&r of a single fluid."
 				""
-				"&9Super Tanks&r are an excellent choice for fluid logistics. Not only do they hold a lot of fluid, but they can be &blocked&r to a fluid, automatically &boutput&r in any direction, and &bvoid excess&r fluids to prevent your systems from backing up."
+				"Although the circuit cost might look heavy for now, &9super tanks&r are an excellent option for early fluid logistics. They hold a &eton&r of fluid and are highly configurable:"
 				""
-				"You will want a steady supply of &6Oxygen&r, &6Hydrogen&r, and &6Nitrogen&r; &dcentrifuging&r air and &delectrolyzing&r water and dumping the results into a bank of tanks would not be a bad idea."
+				"* they can be &blocked&r to a single fluid"
+				"* they can &bauto-output&r in any direction"
+				"* they can &bvoid excess&r fluids to prevent your systems from backing up."
+				""
+				"You will need a steady supply of &6oxygen&r, &6hydrogen&r, and &6nitrogen&r. &2Centrifuging&r air and &2electrolyzing&r water and caching the outputs in a &ebank of super tanks&r would not be a bad idea."
 			]
 			id: "4F1154BDCFB9B343"
+			min_width: 250
 			rewards: [{
 				id: "3955F70DD649E02A"
 				item: "gtceu:lv_super_tank"

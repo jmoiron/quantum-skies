@@ -92,7 +92,14 @@ ServerEvents.recipes(event => {
     // remove still-broken marble rock breaker recipe
     // i'm not sure why this doesn't work, the gtm code looks fine
     event.remove({type: "gtceu:rock_breaker", output: "gtceu:marble"})
-    //event.remove({id: "gtceu:macerator/macerate_marble"})
+    event.remove({id: "gtceu:macerator/macerate_marble"})
+
+    event.recipes.gtceu.macerator('macerate_marble')
+        .itemInputs("gtceu:marble")
+        .itemOutputs("gtceu:marble_dust")
+        .chancedOutput("gtceu:marble_dust", 1500, 0)
+        .EUt(2)
+        .duration(150)
 
     event.recipes.gtceu.rock_breaker(`rock_breaker_marble`)
       .notConsumable("gtceu:marble")
