@@ -1265,6 +1265,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/bic-clipboard.pw.toml"
+hash = "70a037c1bca60c79945772cbd5dd8ca5120c5b06fff97c17e89e1bb825fc497e"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
 metafile = true
