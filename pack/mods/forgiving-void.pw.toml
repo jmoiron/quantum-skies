@@ -1,13 +1,13 @@
 name = "Forgiving Void"
-filename = "forgivingvoid-forge-1.20-10.0.1.jar"
+filename = "forgivingvoid-forge-1.20.1-10.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b69b60d7b940891f5646d4e9a596d25f9b75cc3f"
+hash = "af45655c4f144a004888313aa48fd2b2d1aea419"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5478647
+file-id = 7048450
 project-id = 271009
