@@ -1033,6 +1033,10 @@ file = "kubejs/server_scripts/gcyr/worldgen.js"
 hash = "a1b1511705b3eb120cfb8fae9f3da8db64567f22d9dedbfa49175e4d04b61789"
 
 [[files]]
+file = "kubejs/server_scripts/gregification/clipboard.js"
+hash = "5f26d5d9289fb5cab291a098c79833c5f77b18064cba129dac2a46a5017046b5"
+
+[[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
 hash = "9ce8bdd5ca1a3d81ddc363cc77faad7862a14a918cc1e463bf6f7a2807025773"
 

@@ -49,9 +49,9 @@
 				""
 				"Now that the voltage is getting &bhigh&r, machine hulls require some insulation in the form of &6polyethylene&r."
 				""
-				"You can save on some paltes by using the &2assembler&r recipe. Previous tier hulls are also craftable this way."
+				"You can save on some plates by using the &2assembler&r recipe. Previous tier hulls are also craftable this way."
 				""
-				"If you have not set up a dedicated processing chain for &6polyethylene&r, now is a good time to do so."
+				"If you have not set up a dedicated processing chain for &6polyethylene&r, now is a good time to do so!"
 			]
 			id: "778CAC851BC58AB8"
 			rewards: [{
@@ -235,7 +235,7 @@
 		{
 			dependencies: ["778CAC851BC58AB8"]
 			description: [
-				"The &6HV&r &2chem reactor&r is required for processing &6rutile&r into &dtitanium&r and for producing &6Polytetrafluoroethylene&r (PTFE), also known as teflon."
+				"The &6HV&r &2chem reactor&r is required for processing &6rutile&r into &dtitanium&r and for producing &6Polytetrafluoroethylene&r (PTFE), also known as Teflon."
 				""
 				"It's also got enough power to synthesize &6blaze powder&r, which you need for &6ender eyes&r."
 			]
@@ -933,7 +933,7 @@
 				""
 				"These storage vessels have a strong &equantum tunnel&r effect. They can be put on different channels by applying dyes to them in world. Any two tanks/chests on the same channel have the &asame contents&r, regardless of location."
 				""
-				"Their main advantage over &2entangled&r blocks is portability. If you are using eg. a &9blue channel&r for water, you can set up your input tank wherever you want and your other blue tanks will still function."
+				"Their main advantage over &2entangled&r blocks is portability. If you are using e.g. a &9blue channel&r for water, you can set up your input tank wherever you want and your other blue tanks will still function."
 				""
 				"You will probably want to use &2AE2&r for fluid logistics by now, but these are classic GT QoL."
 			]

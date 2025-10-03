@@ -73,9 +73,9 @@
 		{
 			dependencies: ["450F9B10D8FC6FF7"]
 			description: [
-				"Make a &9Wooden Crook&r out of sticks, and then crook leaves to get &9Silkworms&r.  Probably a good job for &2ultimine&r."
+				"Make a &9Wooden Crook&r out of sticks, then crook leaves to get &9Silkworms&r. Probably a good job for &2ultimine&r."
 				""
-				"Once you have &9Silkworms&r, grow another tree and &einfest it&r by right clicking a leaf block with a silkworm.  Once the infestation has completed, you can crook the infested leaves to get &9String&r!"
+				"Once you have &9Silkworms&r, grow another tree and &einfest it&r by right clicking a leaf block with a silkworm. Once the infestation has completed, you can break the &einfested leaves&r with the crook to get &9String&r!"
 			]
 			icon: {
 				Count: 1
@@ -119,9 +119,9 @@
 			description: [
 				"Using a composter, you can break down organic material into bonemeal."
 				""
-				"But if you use an &9oak barrel&r, you can break them down into dirt.  "
+				"But if you use an &9oak barrel&r, you can break down organic material into &edirt&r."
 				""
-				"If you have been using your &9Wooden Crook&r on leaves, you probably have some extra &9oak saplings&r you could use."
+				"If you have been using your &awooden crook&r on leaves, you probably have some extra &9oak saplings&r you could use."
 			]
 			icon: "exnihilosequentia:oak_barrel"
 			id: "4A6FD7DCE495D0FB"
@@ -147,7 +147,7 @@
 			description: [
 				"This humble sieve will be your early game companion."
 				""
-				"Arranging them in a rectangle, up to 5x5, allows you to sieve up to 25 items in parallel.  This quest requires 4 to get started.  "
+				"Arranging them in a rectangle, up to 5x5, allows you to sieve up to 25 items in parallel.  This quest requires 4 to get started."
 				""
 				"Crafting in batches, and planning multiple &eparallel systems&r for important processes are good habits to develop early and will significantly streamline your progress."
 			]
@@ -180,9 +180,9 @@
 		{
 			dependencies: ["2536E4A084745D5A"]
 			description: [
-				"You can break down the cobblestone you have made into increasingly fine grained blocks using a &9hammer&r.  At this stage, you probably want a &9wooden hammer&r or one of the stone variants."
+				"You can break down cobblestone into increasingly fine grained blocks using an &2Ex Nihilo hammer&r. At this stage, you probably want a &9wooden hammer&r or one of the stone variants."
 				""
-				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials.  Check &2JEI&r (by hovering over an item and pressing &3u&r) to see what they are."
+				"&9Gravel&r, &9Sand&r and &9Dust&r can be put through the sieve to gain materials. Check &2EMI&r (by hovering over an item and pressing &3u&r) to see what they are."
 			]
 			icon: "exnihilosequentia:dust"
 			id: "1B5F2C95282B1E14"
@@ -232,11 +232,11 @@
 		{
 			dependencies: ["583F3A986CA3A78A"]
 			description: [
-				"These pebbles can be used to craft stone variants that can be processed and turned into useful materials later. "
+				"These pebbles can be used to craft stone variants that can be processed into useful materials later."
 				""
-				"Don't bother hoarding them, but it may be worth exploring their possibilities now, as they represent &erenewable sources&r of those materials."
+				"Don't bother hoarding them, but it may be worth exploring their possibilities now so you can see what &erenewable sources&r they can provide you."
 				""
-				"You can find other stone variants by sifting &9Coarse Dirt&r."
+				"&3Calcite&r, &3Dripstone&r and &3Tuff&r are attainable by other means. Finding out how is a good opportunity to test your &2EMI&r skills!"
 			]
 			id: "010C045C1EBA07C4"
 			shape: "circle"
@@ -280,9 +280,9 @@
 		{
 			dependencies: ["583F3A986CA3A78A"]
 			description: [
-				"The &mcobble&r cornerstone of every minecraft world.  Slightly more difficult to come by up here in the sky, for now."
+				"The &mcobble&r cornerstone of every Minecraft world.  Slightly more difficult to come by up here in the sky, at least for now."
 				""
-				"You will want to build at least one vanilla &2furnace&r early, as you'll need to cook porcelain clay in order to procure lava for a vanilla cobblestone generator."
+				"Given how much of a &5chore&r making this cobblestone was, your goal at this point should be a &evanilla cobblestone generator&r. You'll need a &2bucket&r of &clava&r for that."
 				""
 				"Unless you enjoy sieving dirt?"
 			]
@@ -310,9 +310,9 @@
 				"505F907674D0821E"
 			]
 			description: [
-				"&9Buckets&r are a little more complicated than you remember.  You'll need to make a &aHammer&r in order to make the &9Iron Plates&r you need to craft one."
+				"&9Buckets&r are a little more complicated than you remember.  You'll need to make a &2GregTech Hammer&r in order to make the &9iron plates&r you need to craft one."
 				""
-				"Once you do, put some water into an &9Oak Barrel&r, and then place some &9Dust&r inside, you'll get clay!"
+				"Once you do, put some water into an &9oak barrel&r, and then place some &9dust&r inside, you'll get clay!"
 				""
 				"You'll be needing it."
 			]
@@ -537,7 +537,7 @@
 			description: [
 				"Place a &9Fired Crucible&r on top of a heat source, and you can melt down &9Cobblestone&r and its variants into Lava.  The best heat source we will have for a while is a &9Campfire&r."
 				""
-				"When water touches a &osource&r lava block, it makes &9Obsidian&r, but if it touches flowing lava, it makes &9Cobblestone&r.  "
+				"When water touches a &osource&r lava block, it makes &9Obsidian&r, but if it touches flowing lava, it makes &9Cobblestone&r."
 				""
 				"It's a good idea to make a basic vanilla Cobblestone Generator so you can stop fiddling with pebbles."
 				""
@@ -614,7 +614,7 @@
 		{
 			dependencies: ["1596BF8DD48411AF"]
 			description: [
-				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first &2Gregtech&r multiblock machine!  "
+				"The &9Coke Oven&r is the biggest pre-steam milestone, and likely your first &2Gregtech&r multiblock machine!"
 				""
 				"It is a hollow 3x3x3 cube, but you can hover your cursor over the &9Coke Oven&r controller in your inventory and press &3u&r, then select the &eMultiblock Preview&r tab to see how to build it.  You'll want to get comfortable with this UI for future multiblocks."
 				""
@@ -740,7 +740,7 @@
 			description: [
 				"This pack includes &2Squat Grow&r."
 				""
-				"When you dash or squat repeatedly (&3shift&r) near trees or crops, a &9Bonemeal&r effect will be applied, speeding up their growth."
+				"When you dash or squat repeatedly (&3shift&r) near trees or crops, a &5bonemeal&r effect will be applied, speeding up their growth."
 				""
 				"Since you have started with only a tree and some dirt, this should come in handy."
 				""
@@ -812,7 +812,7 @@
 				""
 				"You can then crush it down with your &9Hammer&r and sieve the resulting &9Crushed End Stone&r."
 				""
-				"It will be a while until we can create &9ender pearls&r with the resulting &5ender pearl dust&r, but we can compress it into &eender dust&r."
+				"It will be a while until you can create &9ender pearls&r with the resulting &5ender pearl dust&r, but you will soon be able to compress it into &eender dust&r."
 			]
 			icon: "minecraft:end_stone"
 			id: "61898B593512B8B8"
@@ -1020,7 +1020,7 @@
 				""
 				"The &9Item Collector&r can pick up items dropped in the world, with more than enough coverage to pick up sieve drops."
 				""
-				"Combined, you can have basic sieve automation.  You'll have better options later, but any resources you can &ecreate passively&r will save you time later when you are crafting!"
+				"Combined, you can have basic sieve automation. You'll have better options later, but any process you can &erun passively&r allows you to spend your time and energy on other matters."
 			]
 			id: "5500B7E9C7EA7240"
 			subtitle: "Slow But Steady"
@@ -1054,6 +1054,7 @@
 				item: "exnihilosequentia:oak_crucible"
 				type: "item"
 			}]
+			title: "Water, water .. nowhere?"
 			x: 1.0d
 			y: -6.0d
 		}
