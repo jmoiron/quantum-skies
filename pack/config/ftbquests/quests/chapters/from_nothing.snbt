@@ -1221,6 +1221,24 @@
 			x: 8.5d
 			y: -3.0d
 		}
+		{
+			description: [
+				"The amount of things you will have on the go is about to expand rapidly."
+				""
+				"The humble &eclipboard&r can help you manage a TODO list."
+				""
+				"&2GregTech&r packs on earlier versions often relied on &2worktables&r and &2clipboards&r for player organization, to the extent that &2GregTech: CEu&r added them both to the mod. They were so buggy and \"cursed\" that they were eventually removed."
+			]
+			id: "2F1D959F3B3FD999"
+			subtitle: "Myosotis"
+			tasks: [{
+				id: "44591A464DAF001C"
+				item: "bic_clipboard:clipboard"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
 	]
 	subtitle: ["Ex Nihilo Ad Omnia"]
 	title: "From Nothing"
