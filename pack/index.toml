@@ -110,7 +110,7 @@ hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "4e1064f12d825e985a99180d065b291710bedbaa80b884af0d2b4144be3de989"
+hash = "b1dd5378846aa1eec2b5449ab717a6999bf8c6a4d1c40d49469e257bb5ffca01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -150,7 +150,7 @@ hash = "9040dd90ae88d8ad0d76c71e57acb42b4d1a889c626330176ad066c25ae727f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
-hash = "693fbfc9cc29d15224501bcc5dc5c3b8082189e8e22edd84e96e8998c3e2b9b6"
+hash = "285297ae10e71d354174ecf3176c710563049fa362ba7772dc3d281a81fd49e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
