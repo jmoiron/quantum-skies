@@ -1,3 +1,4 @@
+/*
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove("ae2:facade");
     const exNiIngotTypes = ["lead", "nickel", "silver", "tin", "aluminum", "platinum", "uranium", "zinc"];
@@ -9,6 +10,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
         event.remove(`exnihilosequentia:raw_${mat}`);
     });
 });
+*/
 
 JEIEvents.hideItems(event => {
   // hide exnihilo material variants
@@ -33,6 +35,10 @@ JEIEvents.hideItems(event => {
   event.hide("qs_icon_cropped")
 
   event.hide("ae2:facade")
+
+  event.hide("expatternprovider:ex_charger")
+  event.hide("expatternprovider:ex_inscriber")
+  event.hide("expatternprovider:silicon_block")
 
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });

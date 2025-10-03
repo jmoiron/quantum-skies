@@ -30,6 +30,7 @@ ServerEvents.recipes(event => {
     event.remove({type: "minecraft:crafting_shaped", output: "minecraft:ender_eye"});
     event.remove({type: "minecraft:crafting_shapeless", output: "minecraft:ender_eye"});
 
+
     // remove until we know what to do with the end, which right now has no ores and only the central island
     // we might want it for ender air and for an end drill
     event.remove({output: "exnihilosequentia:end_cake"});

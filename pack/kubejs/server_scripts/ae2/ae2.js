@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:decorative/quartz_glass" });
   greg
     .alloy_smelter("gtceu:quartz_glass")
-    .itemInputs("4x #forge:glass", "5x gtceu:certus_quartz_dust")
+    .itemInputs("4x gtceu:tempered_glass", "5x gtceu:certus_quartz_dust")
     .itemOutputs("4x ae2:quartz_glass")
     .duration(100)
     .EUt(8);
