@@ -40,6 +40,9 @@ JEIEvents.hideItems(event => {
   event.hide("expatternprovider:ex_inscriber")
   event.hide("expatternprovider:silicon_block")
 
+  event.hide("ae2:inscriber")
+  event.hide("ae2:name_press")
+
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });
 

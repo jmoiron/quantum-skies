@@ -442,6 +442,13 @@
 		}
 		{
 			dependencies: ["025DB933BE24C8F9"]
+			description: [
+				"The &2molecular assembler&r is a kind of &edigital crafting table&r that your AE2 system can use to auto-craft."
+				""
+				"Place &dpattern providers&r adjacent to the assembler and pack them with crafting patterns, and your system will understand how to craft those items on demand. Pack it with &eacceleration cards&r to increase its crafting speed at the cost of more energy usage."
+				""
+				"&2Molecular assemblers&r themselves do not use channels, but each &dpattern provider&r you attach to it will. Providers with multiple-attached assemblers will parallelize their work across them, provided your network has enough &eco-processors&r."
+			]
 			id: "50196D741C26FD78"
 			tasks: [{
 				id: "6342554A1375E530"
@@ -946,6 +953,55 @@
 			}]
 			x: -8.0d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0AB0496A96AB9A2B"
+				"0E89367A2A3E6CD9"
+			]
+			description: [
+				"Fortunately, you &ccan&r be told what this matrix is."
+				""
+				"The &2Assembler Matrix&r is a cuboid multiblock &2molecular assembler&r with its own pattern storage and parallelism. It is a convenient and &echannel-efficient&r way of encoding your crafting table recipes."
+				""
+				"The edges and corners must be &2Matrix Frames&r, and the walls can be either &eMatrix Walls&r or &eMatrix Glass&r. You must fill its interior with matrix crafters, providers, and optionally speed upgrades."
+				""
+				"For more information, hold &3g&r over any matrix part."
+			]
+			id: "1685AB82EEC65CC9"
+			min_width: 250
+			size: 1.25d
+			subtitle: "You must experience it for yourself"
+			tasks: [
+				{
+					id: "19646BF5071D2B7C"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "348AA54A778E454D"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "020BAAC5D52BFB7D"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "2EE8CF89A5D18AEF"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+				{
+					id: "68418D3E092EBC22"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+			]
+			title: "The Assembler Matrix"
+			x: -5.0d
+			y: 2.0d
 		}
 	]
 	title: "Digital"
