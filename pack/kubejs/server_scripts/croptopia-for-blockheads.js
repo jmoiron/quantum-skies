@@ -12,9 +12,16 @@ ServerEvents.recipes(event => {
         .itemOutputs("4x cookingforblockheads:white_kitchen_floor")
         .EUt(VHA[GTValues.LV]);
 
-    event.replaceInput({mod: "cookingforblockheads"},
-        "#forge:chests/wooden",
-        "gtceu:wood_crate",
-    )
+    const replacements = {
+        "#forge:chests/wooden": "gtceu:wood_crate",
+        "minecraft:iron_nugget": "gtceu:iron_screw",
+        "#minecraft:wooden_slabs": "gtceu:wood_plate",
+        "minecraft:iron_ingot": "gtceu:iron_plate",
+        "minecraft:comparator": "gtceu:lv_voltage_coil",
+    }
+
+    Object.entries(replacements).forEach(([k,v]) => {
+        event.replaceInput({mod: "cookingforblockheads"}, k, v)
+    })
 
 })
