@@ -1,0 +1,13 @@
+name = "TuffBlocks"
+filename = "TuffBlocks-Forge-1.20-1.20.1_1.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76fc6a18d7104a2af98714fd176547838ccf43dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6046397
+project-id = 1068864

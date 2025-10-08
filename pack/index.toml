@@ -1229,6 +1229,11 @@ file = "kubejs/startup_scripts/utils.js"
 hash = "2c0194b883690116dde6dd4e764b5557a74c9b450682e44458fdeb9a05032bb2"
 
 [[files]]
+file = "mods/ae2-network-analyser.pw.toml"
+hash = "59b441c02123a358b138b0e1421fdb085b8138392f2a65ff479e09d3f10098f2"
+metafile = true
+
+[[files]]
 file = "mods/aeinfinitybooster.pw.toml"
 hash = "846831d26250caa2ecb9e68919c685b4501afa6899b38b87c7b3b4260e7f6e66"
 metafile = true
@@ -1776,6 +1781,11 @@ metafile = true
 [[files]]
 file = "mods/travel-anchors.pw.toml"
 hash = "a047d4d26d9d9742352136d14fabf7a461fc9cb397fa4c3b9a398ea3b688d482"
+metafile = true
+
+[[files]]
+file = "mods/tuffblocks.pw.toml"
+hash = "1dfc9aa0d66ff740f63e5c0a8fb5871e2d1a841559c007e460cc66ba023bf1e2"
 metafile = true
 
 [[files]]
