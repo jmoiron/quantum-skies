@@ -867,51 +867,44 @@
 				"A &91K fluid cell&r hold 8128 buckets of a single fluid, or slightly more than a &cSupertank II&r. A &9256K fluid cell&r can hold ~116K buckets of 18 fluids."
 			]
 			id: "6ECF87409008C1B5"
-			tasks: [
-				{
-					id: "7B90A44A57E57D4F"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ae2:fluid_storage_cell_1k"
-									tag: { }
-								}
-								{
-									Count: 1b
-									id: "ae2:fluid_storage_cell_4k"
-									tag: { }
-								}
-								{
-									Count: 1b
-									id: "ae2:fluid_storage_cell_16k"
-									tag: { }
-								}
-								{
-									Count: 1b
-									id: "ae2:fluid_storage_cell_64k"
-									tag: { }
-								}
-								{
-									Count: 1b
-									id: "ae2:fluid_storage_cell_256k"
-									tag: { }
-								}
-							]
-						}
+			tasks: [{
+				id: "7B90A44A57E57D4F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_256k"
+								tag: { }
+							}
+						]
 					}
-					title: "Fluid Storage"
-					type: "item"
 				}
-				{
-					id: "0A311A74C2CE598C"
-					item: "ae2:cell_workbench"
-					type: "item"
-				}
-			]
+				title: "Fluid Storage"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 3.5d
 		}
@@ -1002,6 +995,21 @@
 			title: "The Assembler Matrix"
 			x: -5.0d
 			y: 2.0d
+		}
+		{
+			description: [
+				"The &2ME network analyzer&r will help you visualize your network. "
+				""
+				"Very useful for tracking down where in a long trunk cable you are using channels, or for seeing where your wireless connections are going."
+			]
+			id: "4905647D60A625F3"
+			tasks: [{
+				id: "44E0903E2F392A9C"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 	title: "Digital"

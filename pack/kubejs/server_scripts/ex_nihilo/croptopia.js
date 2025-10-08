@@ -1,10 +1,17 @@
 
 const croptopiaSieveRecipes = {
   "string": {
-    "gtceu:rubber_leaves": [
+    "minecraft:mud": [
+      ["croptopia:rice_seed", 0.05],
       ["croptopia:basil_seed", 0.05],
+      ["croptopia:oat_seed", 0.05],
+      ["croptopia:leek_seed", 0.05],
       ["croptopia:bellpepper_seed", 0.05],
       ["croptopia:chile_pepper_seed", 0.05],
+      ["croptopia:pepper_seed", 0.05],
+      ["croptopia:rhubarb_seed", 0.05],
+    ],
+    "gtceu:rubber_leaves": [
       ["croptopia:corn_seed", 0.05],
       ["croptopia:eggplant_seed", 0.05],
       ["croptopia:garlic_seed", 0.05],
@@ -13,7 +20,6 @@ const croptopiaSieveRecipes = {
       ["croptopia:honeydew_seed", 0.05],
       ["croptopia:mustard_seed", 0.05],
       ["croptopia:peanut_seed", 0.05],
-      ["croptopia:pepper_seed", 0.05],
       ["croptopia:sweetpotato_seed", 0.05]
     ],
     "minecraft:birch_leaves": [
@@ -33,7 +39,6 @@ const croptopiaSieveRecipes = {
       ["croptopia:barley_seed", 0.05],
       ["croptopia:blueberry_seed", 0.05],
       ["croptopia:kale_seed", 0.05],
-      ["croptopia:oat_seed", 0.05],
       ["croptopia:onion_seed", 0.05],
       ["croptopia:raspberry_seed", 0.05],
       ["croptopia:rutabaga_seed", 0.05],
@@ -53,8 +58,6 @@ const croptopiaSieveRecipes = {
       ["croptopia:mango_sapling", 0.05],
       ["croptopia:nutmeg_sapling", 0.05],
       ["croptopia:pineapple_seed", 0.05],
-      ["croptopia:rhubarb_seed", 0.05],
-      ["croptopia:rice_seed", 0.05],
       ["croptopia:vanilla_seeds", 0.05]
     ],
     "minecraft:acacia_leaves": [
@@ -63,7 +66,6 @@ const croptopiaSieveRecipes = {
       ["croptopia:ginger_seed", 0.05],
       ["croptopia:hops_seed", 0.05],
       ["croptopia:kiwi_seed", 0.05],
-      ["croptopia:leek_seed", 0.05],
       ["croptopia:olive_seed", 0.05],
       ["croptopia:saguaro_seed", 0.05],
       ["croptopia:turmeric_seed", 0.05],

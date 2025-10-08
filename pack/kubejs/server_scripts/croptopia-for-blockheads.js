@@ -24,4 +24,7 @@ ServerEvents.recipes(event => {
         event.replaceInput({mod: "cookingforblockheads"}, k, v)
     })
 
+    Object.entries(replacements).forEach(([k,v]) => {
+        event.replaceInput({mod: "croptopia"}, k, v)
+    })
 })
