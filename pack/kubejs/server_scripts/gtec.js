@@ -14,6 +14,18 @@ ServerEvents.recipes(event => {
         // sheldonite is disabled by gtec
     ]
 
+    // remove pre-moon source of bastnasite
+    event.remove({id: "gtec:chemical_bath/rare_earth_recycle"});
+
+    greg.chemical_bath("qs_rare_earth_recycle")
+        .itemInputs("3x gtceu:rare_earth_dust")
+        .inputFluids("gtceu:sulfuric_acid 1000")
+        .itemOutputs("2x gtceu:crushed_bastnasite_ore")
+        .itemOutputs("2x gtceu:crushed_bastnasite_ore")
+        .itemOutputs("2x gtceu:crushed_bastnasite_ore")
+        .EUt(GTValues.VHA[GTValues.EV])
+        .duration(30*20);
+
     // remove pre-moon sources of platinum
     event.remove({id: "gtceu:chemical_reactor/pgs_from_pentlandite"})
     event.remove({id: "gtceu:chemical_reactor/pgs_from_tetrahedrite"})
