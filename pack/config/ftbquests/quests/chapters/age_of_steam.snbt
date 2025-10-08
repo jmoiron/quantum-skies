@@ -653,15 +653,15 @@
 		{
 			dependencies: ["21913378FC451B5B"]
 			description: [
-				"&bSteam Boilers&r output steam automatically to adjacent machines or &9Pipes&r from all faces except their front. The &5low pressure&r and &5high pressure&r tiers are machine variants, &cnot&r different types of steam."
+				"&bSteam Boilers&r output steam automatically to adjacent machines or &9Pipes&r from all faces except their front. The &5low pressure&r and &5high pressure&r are tiers, they do &cnot&r produce different types of steam."
 				""
-				"All steam &bmachines&r and &bturbines&r convert &e2mb of steam to 1eu&r of power. &5Low-pressure&r machines work at half the speed, but require half of the amount of steam."
+				"All steam &2machines&r and &bturbines&r convert &e2mb of steam to 1eu&r of power. &5Low-pressure&r machines work at half the speed, but require half of the amount of steam."
 				""
-				"If a recipe says it is &oLV 7 EU/t&r and take 10s, a &5low-pressure&r machine will use 7mb of steam/t and take 20s, and a &5high-pressure&r machine will require 14mb of steam/t and take 10s."
+				"If a recipe says it is &o7 EU/t&r and take 10s, a &5low-pressure&r machine will use 7mb of steam/t and take 20s, and a &5high-pressure&r machine will use 14mb of steam/t and take 10s."
 				""
 				"Thankfully, CEu shows fluid transfer rates &e&oper tick&r, so choosing the right &9Pipes&r should be easy."
 				""
-				"You may be tempted to &ebuffer steam&r, but has very poor energy density, and the &9Drums&r you have access to are not good options. Better to wait for electricity."
+				"You may be tempted to &ebuffer steam&r, but it has very poor energy density, and the &9drums&r you can make are not much bigger than your boilers. There is a &2multiblock tank&r available, but it's probably better to focus on building towards &7Low Voltage electricity&r."
 			]
 			icon: "gtceu:steam_bucket"
 			id: "76629BD62DA7E658"
@@ -1004,19 +1004,48 @@
 		{
 			dependencies: ["6CF2DB9AD2AC1A0A"]
 			description: [
-				"The &bSteam Sieve&r will sieve your crushed up rocks, given a little bit of steam. It has most of the same recipes and &eoutput chances&r as manual sieves."
+				"The &2steam sieve&r will sieve your crushed up rocks, given a little bit of steam. It has most of the same recipes and &eoutput chances&r as the wooden sieves."
 				""
 				"You might be wondering if this is &ereally&r an upgrade. At this stage, it might not be."
 				""
-				"The &5click machine&r is slow, but parallelizable, and does not use power or steam. It is space inefficient and does not have any &eback pressure&r."
+				"The &5click machine&r is slow, but it's parallelizable, and does not need to use power or steam. It is space inefficient and does not have any &eback pressure&r."
 				""
 				"These &2GregTech Sieves&r are overclockable, produce better yields at higher tiers, are more compact, cleaner to automate, and require fewer meshes."
+				""
+				"Any &2GregTech sieve&r will complete this quest."
 			]
 			id: "532A2B15292C40A2"
 			size: 1.0d
 			tasks: [{
-				id: "5FED8A73D83BDEA5"
-				item: "gtceu:lp_steam_sieve"
+				id: "4C4A665D8E0D21BB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:lp_steam_sieve"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hp_steam_sieve"
+							}
+							{
+								Count: 1b
+								id: "gtceu:lv_sieve"
+							}
+							{
+								Count: 1b
+								id: "gtceu:mv_sieve"
+							}
+							{
+								Count: 1b
+								id: "gtceu:hv_sieve"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			title: "Sieving with steam"

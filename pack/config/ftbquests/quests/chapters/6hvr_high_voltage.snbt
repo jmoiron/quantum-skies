@@ -150,9 +150,9 @@
 		{
 			dependencies: ["4CDAB321466B88F6"]
 			description: [
-				"&aEnergium Crystals&r represent a new line of batteries that store large amounts of energy in crystaline structures."
+				"&aEnergium Crystals&r represent a new line of batteries that store large amounts of energy in crystalline structures."
 				""
-				"These can store much more energy than &cchemical batteries&r, but have more of a complex process."
+				"These can store much more energy than &cchemical batteries&r, but are more complicated to manufacture."
 			]
 			id: "0CBB99D3A3A62D8F"
 			tasks: [
@@ -193,11 +193,11 @@
 				""
 				"The &2cleanroom&r must be cuboid, but the width, height, and depth &edo not need to be equal&r. The tooltip for the controller block has minimum and maximum dimensions."
 				""
-				"The edges and floor of the &bcleanroom&r must be &6plascrete&r. The walls can be &6plascrete&r, &9cleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside.  The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
+				"The edges and floor of the &2cleanroom&r must be &6plascrete&r. You can also place a &atravel anchor&r in the floor. The walls can be &6plascrete&r, &bcleanroom glass&r, or one of several hatches/hulls/diodes that can be used to pass items, fluids, and power in from the outside. The controller itself must be in the center of the ceiling, with the rest of the ceiling made of filters."
 				""
-				"You are not able to run anything that produces &dpollution&r inside the cleanroom. That includes most generators, but you can pass power in from the outside through a machine hull or a diode."
+				"You are not able to run anything that produces &dpollution&r inside the cleanroom. That includes most generators, but you can pass power and AE2 channels in from the outside through a machine hull or a diode."
 				""
-				"The materials for this quest can build the default 5x5x5 &bcleanroom&r in the it's multiblock preview, but building a large one is suggested if you have the &6polyethylene&r."
+				"The materials for this quest are enough to build the 5x5x5 &2cleanroom&r in the controller's multiblock preview, but building a larger one is suggested if you have a good &6polyethylene&r setup."
 			]
 			id: "450C8C0AF82CB7FD"
 			min_width: 275
@@ -428,11 +428,11 @@
 		{
 			dependencies: ["450C8C0AF82CB7FD"]
 			description: [
-				"Your first &5EV&r circuits, and the first that requiring the &2cleanroom&r."
+				"Your first &5EV&r circuits, and your first circuits that need to be produced in the &2cleanroom&r."
 				""
-				"These circuits unlock both the &6HV&r &bcircuit assembler&r and progression into &5EV&r. They also form the basis for the first &9mainframes&r, a 4th tier of the current circuit line."
+				"These circuits unlock both the &6HV&r &bcircuit assembler&r and the &2vacuum freezer&r, vital for progression into &5EV&r. They also form the basis for your first &9mainframes&r, the 4th and final tier of the current circuit line."
 				""
-				"This pattern of having 4 tiers of circuit per circuit board type will continue through the rest of the circuit types. Refresh your memory by checking the &aCircuits&r tab for a visual representation of the progression."
+				"This pattern of having 4 tiers of circuit per circuit board type will continue through the rest of the circuit types. Refresh your memory by checking the &aCircuits&r quest tab for a visual representation of the progression."
 			]
 			id: "4710DCD2C83D3D38"
 			shape: "gear"
@@ -990,18 +990,28 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["454242F0DA2FFBD0"]
 			description: [
-				"&9Blue Steel&r is a decent tool material, but it's a bit of a pain to mix up."
+				"&cRed Steel&r is a very durable tool material, but it's a bit of a pain to mix up."
 				""
-				"It's main use right now is as the material for the buzzsaw in the &2mixer&r.  It's also used later in &2multiblock turbine generators&r."
+				"You will need some to make the &bbuzzsaw&r for the &6HV&r &2cutter&r."
+				""
+				"You'll want a cutter for your &2cleanroom&r, so you might want to make enough steel for two."
 			]
 			id: "54632D8B0DABF798"
-			subtitle: "Or is it Magnum?"
-			tasks: [{
-				id: "48137FA4781F101B"
-				item: "gtceu:blue_steel_ingot"
-				type: "item"
-			}]
+			subtitle: "Or is it blue?"
+			tasks: [
+				{
+					id: "471C993A6AD0064A"
+					item: "gtceu:red_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "1C5BC4F351AD0E90"
+					item: "gtceu:red_steel_buzz_saw_blade"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: -12.0d
 		}

@@ -98,8 +98,11 @@
 				"It's fitting that you make your first escape from the endless sky by flying into it."
 				""
 				"The moon will be your first taste of a terrestrial world, and will be your primary source of &5rutile&r. This &6titanium&r-yielding mineral can be found in &6bauxite&r veins, and can be sieved from &cmoon regolith&r, which you can produce in endless amounts later on with the &2Planetary Core Drill&r."
+				""
+				"Of course, you don't have to get your hands dirty mining. It should be pretty easy to get a single-block miner going on the &7moon&r to get your &5rutile&r acquisition started."
 			]
 			id: "500F47921DD51C83"
+			min_width: 250
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -927,7 +930,7 @@
 				""
 				"The &6brine&r route is a fewer steps, but looping its by-products is a bit more complex."
 				""
-				"&aNote&r: you do not need &6bromine&r in bulk!"
+				"&aNote&r: you do not need &6bromine&r in bulk! You can set up a large processing chain if you want, but it's not necessary."
 			]
 			id: "725A0FCB54CA13FA"
 			size: 1.5d
@@ -943,9 +946,10 @@
 			description: [
 				"The &2evaporation tower&r can turn &9salt water&r into &6brine&r, the first step towards &cbromine&r."
 				""
-				"&aNote&r: the standard &2Gregtech&r &2evaporation tower&r is due for removal in an upcoming version. "
+				"It can also be used to make &9iodized brine&r, which is the first step in the other route towards &cbromine&r."
 				""
-				"If you made one accidentally, or have made one in the past, you craft the controller into the new version, and macerate the casings back into &3clean stainless steel&r casings."
+				""
+				"&aNote&r: this chain used to be part of standard &2GregTech CEu&r, but it wasn't really utilized, and it was removed in version 7.0."
 			]
 			id: "404B433260D8C3CF"
 			tasks: [{

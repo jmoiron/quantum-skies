@@ -667,7 +667,11 @@
 		}
 		{
 			dependencies: ["3AEF5A87CDA225B6"]
-			description: ["An early option for fluid storage, the &2Wooden Multiblock Tank&r can hold 250 buckets of fluids."]
+			description: [
+				"An early option for fluid storage, the &2wooden multiblock tank&r can hold 250 buckets of fluids."
+				""
+				"For a truly breathtaking amount of &6bronze&r, you could also make a &2bronze multiblock tank&r which holds 500 buckets. Or you can wait for &3supertanks&r..."
+			]
 			id: "519211F737787727"
 			tasks: [{
 				id: "25B0A6633A2818B9"
