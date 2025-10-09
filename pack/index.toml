@@ -5,6 +5,10 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/angelring-common.toml"
+hash = "b2569aedce777e571963454b81f60566d70cedb8f646595dee6656a32933283d"
+
+[[files]]
 file = "config/attributefix.json"
 hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
 
@@ -38,7 +42,7 @@ hash = "39069aa41ea5a8b01b5a34a6739aed5050691236a3448ab2829b05c50967975c"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
-hash = "355fe92b906355fb4f2152214a1f8a08fc33f9a722715953c415359a42d40c06"
+hash = "b1a59ce947c5950323fad975197064392b6499943d45585753b626e07be8d154"
 
 [[files]]
 file = "config/effortlessbuilding-common.toml"
@@ -110,7 +114,7 @@ hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "8ee9271b1f074eabf9c9cecf7b6cbf5317470ab5e11a3f27ef83b6889713f983"
+hash = "231f2b8813825422fdfb99fed1d1b37399223280fc0a301893c60a284c4e33c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -466,7 +470,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/hide.json"
-hash = "ac4037e11f39ceabbce98d630cd37e2852a5213ee30e222230ee3a71859098a7"
+hash = "50923c3b4a6970c08688636687a5d440a37b59e7ccc1957aaaed9c81e2c9bfb7"
 
 [[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/callisto.json"
@@ -662,7 +666,7 @@ hash = "1412fdc0d28df8c03f17653e162f1b17114ca316148c11a0aa5c08e57dd6f571"
 
 [[files]]
 file = "kubejs/client_scripts/jei.js"
-hash = "081e2ff6ae4211118d3c24e63cbc6de1d53bb1a90a51d7195d570a0e076bfbeb"
+hash = "b9f3df204f1927f84969f5941881b92e83cc0ff943651375f156a1ffd4426122"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1146,7 +1150,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "ecb3153167c6c0a9d7f2f4b65e053d5493f3a9b93f1b10df46f81947d50d61b2"
+hash = "4caa52598eb789f986bfd5ba363e81daa07bbc642c8d1b16e9a7946f6bfe48a4"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"

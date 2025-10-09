@@ -43,11 +43,13 @@ JEIEvents.hideItems(event => {
   event.hide("ae2:inscriber")
   event.hide("ae2:name_press")
 
+  /*
   event.hide("angelring:diamond_ring")
   event.hide("angelring:energetic_angel_ring")
   event.hide("angelring:hardened_angel_ring")
   event.hide("angelring:reinforced_angel_ring")
   event.hide("angelring:resonant_angel_ring")
+  */
 
   // FIXME: there is a jei blacklist config which is more repetitive but may load faster
 });
