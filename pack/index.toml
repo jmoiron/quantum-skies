@@ -110,7 +110,7 @@ hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "b1dd5378846aa1eec2b5449ab717a6999bf8c6a4d1c40d49469e257bb5ffca01"
+hash = "8ee9271b1f074eabf9c9cecf7b6cbf5317470ab5e11a3f27ef83b6889713f983"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -122,7 +122,7 @@ hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
-hash = "cbfd9016b3773c939e34205a7cc2ef6c45513ee8d1fbe0a3aee85d9cf7b550a5"
+hash = "ed796cce383f510153b4a5b008879cdc9ee959579fd73da822b8ba2efe735354"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
@@ -142,7 +142,7 @@ hash = "835e09c66f1c91822bbbd06b431dbcfd57a52839e313455d52193c82d4d54062"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "d768c272304716a5ef03592cd46abaad34c168c59b62760a96e83307f4ef5344"
+hash = "629dc8ea21b26bd0321f50a7740bbb7b513098e0031c9614cf1dfea7526aa493"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
@@ -162,7 +162,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "79a79921f23e0f8fded93f8921983249c7813eb79f7e20a2c47d77cb54257822"
+hash = "bae80226c9a3879e6d85a7564ac9db377a856df64e15b204e66319ad3fc033d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -186,7 +186,7 @@ hash = "295189bebf8cee8d5aa6fec5b77503cad246dd7cfd16e0f21b1a8cdf6375704c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "fead835676b808ba67c19c75d2c622021137891fd3611670a5950f39b9acdd73"
+hash = "b624da3dd8e8f68c6a235d2508ae3202cfa42a79d642ae60039892053443ec5e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -242,11 +242,11 @@ hash = "8951063f399e5ebeece66336e01daaceacfba10cf4823243635a34db2bff4066"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "83954496a022b2e4c446d09a1c7ca5c737530509a6d22a4bce89acc074e0ba0d"
+hash = "65f6179a235c442f5c6a62a58dbef246d1172d78518235fa4a03440409a85d61"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "48e20bb93aa8376bcfb60bd719a3d3341a8c491e5befa6209137ecd6bcabb4d1"
+hash = "642533f34a50f0816963a065eb280ebac949127432da75fbdb957892061da5bf"
 
 [[files]]
 file = "config/jei/blacklist.cfg"
@@ -326,7 +326,7 @@ hash = "23011e1ea8e6b5adc4733e24d203d2bc2f9e247dc4db3c8e8a46182d7a4f5761"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
-hash = "ca7bf1767e3bb009643eccd9799a55cb1fda92a07f024c05d226f985fdc12205"
+hash = "e9cf95bcc304a98ccd9cd26318f44a4ef835b36c3300b981ee7e9d33a8eea035"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
@@ -1005,8 +1005,20 @@ file = "kubejs/server_scripts/brine-chain.js"
 hash = "20070feed9787055922c81198740a8dac6114fcf6e03a1babd96e786e46b856d"
 
 [[files]]
+file = "kubejs/server_scripts/croptopia-for-blockheads.js"
+hash = "ce40fcdd2c504f98b7df0219a8a9aeb6366bfd7604d8470087e4fb968f24a8eb"
+
+[[files]]
 file = "kubejs/server_scripts/enviromats.js"
 hash = "b74d9b8019fd09ecff214d4ad92b0545b3537e84c266a6e006f246eeb0a89be7"
+
+[[files]]
+file = "kubejs/server_scripts/ex_nihilo/croptopia.js"
+hash = "4c95f494dcb9caf2cb6892037e55aa20387786cfaf3997bc044859a35fb3dac9"
+
+[[files]]
+file = "kubejs/server_scripts/ex_nihilo/qs.js"
+hash = "bb78f1a3742f9b2d7acf544a2c0521f231d5a22d163dd91db6010327e340e49f"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/recipes.js"
@@ -1014,7 +1026,7 @@ hash = "b763dc9652d9501646e49980b34c69acc4fa839a29bd45e6583b3e89ea095c42"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/sieving.js"
-hash = "f7fd94578e8a2078474114eef25b34c54b70be1d7872635765089b0ed1d85c45"
+hash = "dc42a79757c0eb87a7f79419821e29d6a6cd8973acb6f50c76eb792afac47407"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
@@ -1086,7 +1098,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "480bd8cd80284b72d7e40dc76612bd5b2d2a5b9a361c38c8c107957e4f9bd8e5"
+hash = "e3dd059b841cec10dc699ea96e541ac653507567d36627df195e19f711bcd6c0"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
@@ -1244,6 +1256,11 @@ hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
 
 [[files]]
+file = "mods/angel-ring.pw.toml"
+hash = "89fb5ecfdec79afaff8ba0965cbffa7d7b645a68e4ef977cc2d45394acad6300"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
@@ -1331,6 +1348,11 @@ metafile = true
 [[files]]
 file = "mods/croptopia.pw.toml"
 hash = "d8fde87d322c7d8e841658090d41c33120c72b4e6724af94a9fd3cc41603234c"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]

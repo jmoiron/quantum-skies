@@ -4,6 +4,8 @@
         "/exnihilo.*pieces/",
         "/exnihilo.*ingot/",
         "/exnihilo.*nugget/",
-        "/exnihilo.*:raw_.*/"
+        "/exnihilo.*:raw_.*/",
+        "/angelring:diamond_ring/",
+        "/angelring:.*_angel_ring/"
     ]
 }

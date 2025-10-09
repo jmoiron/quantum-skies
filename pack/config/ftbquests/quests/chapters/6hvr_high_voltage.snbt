@@ -878,7 +878,7 @@
 				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: -12.0d
 		}
 		{
@@ -976,6 +976,7 @@
 				""
 				"It might be a good idea to keep a few &cenergium crystals&r on circulation in a &2battery buffer&r somewhere.  &3Sneak-click&r with a crystal in your hand to activate discharge mode, which will charge all energy using items in your inventory."
 			]
+			hide_dependent_lines: true
 			id: "7B660D975D9D98C2"
 			tasks: [{
 				id: "18D06A1D5E5FAC4E"
@@ -1049,6 +1050,37 @@
 			}]
 			x: -2.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["42E1E4B7FF33D3F7"]
+			description: ["&5Energistic Steel&r is a fluix-iron-certus alloy that enables you to create more advanced &2Applied Energistics&r items."]
+			id: "02ABBC6AE25A16F9"
+			tasks: [{
+				id: "73DB57C7679FDD93"
+				item: "gtceu:energistic_steel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"02ABBC6AE25A16F9"
+				"7B660D975D9D98C2"
+			]
+			description: [
+				"The &2angel ring&r enables &dcreative flight&r. It won't use any XP or power, but there's also nowhere to go and nothing to fight."
+				""
+				"You might find it very useful to be able to fly when you get to the &7Moon&r and other planets. Throwing this in your &2curios&r ring slot will allow you to fly even while wearing your spacesuit."
+			]
+			id: "33EBD9044F4650ED"
+			tasks: [{
+				id: "79D1813DD78C809F"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]

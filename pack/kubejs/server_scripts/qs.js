@@ -94,18 +94,32 @@ ServerEvents.recipes(event => {
     event.remove({type: "gtceu:rock_breaker", output: "gtceu:marble"})
     event.remove({id: "gtceu:macerator/macerate_marble"})
 
-    event.recipes.gtceu.macerator('macerate_marble')
+    greg.macerator('macerate_marble')
         .itemInputs("gtceu:marble")
         .itemOutputs("gtceu:marble_dust")
         .chancedOutput("gtceu:marble_dust", 1500, 0)
         .EUt(2)
         .duration(150)
 
-    event.recipes.gtceu.rock_breaker(`rock_breaker_marble`)
+    greg.rock_breaker(`rock_breaker_marble`)
       .notConsumable("gtceu:marble")
       .itemOutputs("gtceu:marble")
       .EUt(GTValues.VHA[GTValues.HV])
       .duration(16)
       ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
+
+
+    event.remove({mod: "angelring"});
+
+    greg.assembler("angelring")
+        .itemInputs("gtceu:gold_ring")
+        .itemInputs("3x gtceu:rose_gold_ingot")
+        .itemInputs("2x minecraft:feather")
+        .itemInputs("gtceu:advanced_electric_jetpack")
+        .itemInputs("ae2:singularity")
+        .inputFluids("gcyr:para_aramid 144")
+        .itemOutputs("angelring:angel_ring")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(600*20);
 
 });
