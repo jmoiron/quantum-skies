@@ -6,10 +6,11 @@ ServerEvents.recipes((event) => {
     event.remove({ output: itemName });
     event.remove({ input: itemName });
   };
-  event.remove({ type: "ae2:transform" });
+
   event.remove({ type: "ae2:entropy" });
   event.remove({ type: "ae2:charger" });
   event.remove({ type: "ae2:inscriber" });
+
   yeet("ae2:network/blocks/inscribers");
   yeet("ae2:network/blocks/crystal_processing_charger");
   yeet("ae2:misc/deconstruction_certus_quartz_pillar");
@@ -23,7 +24,7 @@ ServerEvents.recipes((event) => {
   yeet("ae2:network/blocks/crank");
   yeet("ae2:tools/misctools_entropy_manipulator");
   yeet("ae2:tools/misctools_charged_staff");
-  // yeet("ae2:tools/network_color_applicator");
+  yeet("ae2:tools/network_color_applicator");
   yeet("ae2:tools/matter_cannon");
   yeet("ae2:shaped/not_so_mysterious_cube");
   yeet("ae2:network/blocks/crystal_processing_quartz_growth_accelerator");
@@ -36,4 +37,13 @@ ServerEvents.recipes((event) => {
   yote("ae2:smooth_quartz_block");
   yote("ae2:quartz_wall");
   yote("ae2:quartz_slab");
+
+  // do not remove all transforms otherwise we can't get entangled singularities
+  const transforms = ["fluix_crystals", "flawed_budding_quartz", "certus_quartz_crystals",
+    "fluix_crystal", "chipped_budding_quartz", "damaged_budding_quartz"];
+
+  transforms.forEach((t) => {
+    event.remove({id: `ae2:transform/${t}`});
+  });
+
 });
