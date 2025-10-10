@@ -53,6 +53,7 @@ build: refresh preBuild
 
 server: refresh preBuild
 	-rm -rf server-files
+	-rm -f quantum-skies-${VERSION}-server.zip
 	-mkdir -p server-files/mods/
 	-cp cache/forge*.jar server-files/
 	-cp cache/packwiz-installer.jar server-files/
