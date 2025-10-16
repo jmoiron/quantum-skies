@@ -11,8 +11,8 @@
 		linked_quest: "500F47921DD51C83"
 		shape: "gear"
 		size: 1.5d
-		x: -0.5d
-		y: -9.0d
+		x: 21.5d
+		y: -3.5d
 	}]
 	quests: [
 		{
@@ -39,8 +39,8 @@
 				type: "checkmark"
 			}]
 			title: "Danger! Danger!"
-			x: 8.0d
-			y: -3.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
@@ -60,13 +60,14 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "6444AE6963D52532"
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 12.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
@@ -100,15 +101,15 @@
 				}
 			]
 			title: "HV Mechanical Components"
-			x: 5.5d
-			y: -1.5d
+			x: 14.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
 			description: [
-				"Although &2Assemblers&r are going to start feeling like less of an accomplishment as you increase in the tiers, you are going to continue to need to make them in order to build new &2EBF coils&r and other assorted tier requirements."
+				"In &7LV&r, the &2assembler&r was probably one of your later machines, but from now on, each tier's &2assembler&r will be one of your &efirst&r machines. They're still important for new &2EBF coils&r and &aenergy hatches&r."
 				""
-				"The &6HV&r &2assembler&r is still a good upgrade, unlocking several important recipes, including &9SMD&r components, which will increase your circuit yields."
+				"The &6HV&r &2assembler&r is a good upgrade, unlocking several important recipes, including &9SMD&r components, which will increase your circuit yields."
 			]
 			id: "483F43EF65C69696"
 			tasks: [{
@@ -116,8 +117,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: 14.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -132,11 +133,11 @@
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["778CAC851BC58AB8"]
+			dependencies: ["025DB933BE24C8F9"]
 			description: ["The &6HV&r &2autoclave&r is required to make the first tier of &ccrystal batteries&r, but it will also speed up your production of &9certus&r, &9fluix&r, and other crystals."]
 			id: "4CDAB321466B88F6"
 			tasks: [{
@@ -144,8 +145,8 @@
 				item: "gtceu:hv_autoclave"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 18.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4CDAB321466B88F6"]
@@ -167,8 +168,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: 20.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -183,8 +184,8 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 14.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["239B5AF886B64DEB"]
@@ -202,7 +203,7 @@
 			id: "450C8C0AF82CB7FD"
 			min_width: 275
 			shape: "rsquare"
-			size: 1.0d
+			size: 1.5d
 			subtitle: "Suspended Particulates"
 			tasks: [
 				{
@@ -229,8 +230,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -9.0d
+			x: 17.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -245,8 +246,8 @@
 				item: "gtceu:hv_chemical_reactor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 12.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -274,8 +275,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -6.0d
+			x: 14.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -305,8 +306,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -4.5d
+			x: 15.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -324,8 +325,8 @@
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 15.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["126E88BE9207D849"]
@@ -336,8 +337,8 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.5d
+			x: 15.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5207A7F74C1204FC"]
@@ -360,8 +361,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -3.0d
+			x: 15.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -381,8 +382,8 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: 12.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -404,8 +405,8 @@
 				type: "item"
 			}]
 			title: "Polytetrafluoroethylene (PTFE)"
-			x: -0.5d
-			y: -6.0d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2C1CDE93A0BDB91C"]
@@ -418,14 +419,14 @@
 			]
 			id: "699430D161A19BBC"
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "640857927A486282"
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: 9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["450C8C0AF82CB7FD"]
@@ -444,8 +445,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.5d
+			x: 17.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -458,8 +459,8 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: 17.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4710DCD2C83D3D38"]
@@ -469,19 +470,19 @@
 				"It works much faster than your &2EBF&r, so you can get by with just one... for now."
 			]
 			id: "454242F0DA2FFBD0"
-			size: 1.25d
+			size: 1.5d
 			tasks: [{
 				id: "4670414E4389FDBF"
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -9.0d
+			x: 20.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
-				"483F43EF65C69696"
 				"454242F0DA2FFBD0"
+				"67668A321645BDFE"
 			]
 			id: "42E1E4B7FF33D3F7"
 			tasks: [{
@@ -489,18 +490,17 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: 20.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"450C8C0AF82CB7FD"
-				"496A339808DDDF51"
-			]
+			dependencies: ["496A339808DDDF51"]
 			description: [
 				"Like the previous &2laser engraver&r, but faster. Some wafers are only producible at &6HV&r."
 				""
-				"Get used to producing one of these per tier, they are very central to progression."
+				"Plan on placing this in your &2cleanroom&r, as none of the new recipes it unlocks is runnable outside a clean environment."
+				""
+				"Get used to producing one of these per tier, they are central to progression."
 			]
 			id: "18D57CCC26D52DA6"
 			tasks: [{
@@ -508,8 +508,8 @@
 				item: "gtceu:hv_laser_engraver"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 17.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -536,14 +536,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -10.5d
+			x: 18.5d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"052D83873F917583"
-				"500F47921DD51C83"
-			]
+			dependencies: ["500F47921DD51C83"]
 			description: [
 				"&5Rutile&r is your primary source of &dTitanium&r, but you can't simply toss it in the &2EBF&r and call it a day."
 				""
@@ -564,8 +561,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -7.5d
+			x: 23.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["496A339808DDDF51"]
@@ -580,8 +577,8 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 15.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["40AB84E3209DED53"]
@@ -591,8 +588,8 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.5d
+			x: 20.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["483F43EF65C69696"]
@@ -626,8 +623,8 @@
 				}
 			]
 			title: "SMD Components"
-			x: 2.5d
-			y: -7.5d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["699430D161A19BBC"]
@@ -644,8 +641,8 @@
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["63C6AF455771F032"]
@@ -660,8 +657,8 @@
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["63C6AF455771F032"]
@@ -676,8 +673,8 @@
 				item: "gtceu:tetranitromethane_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: 8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -691,13 +688,14 @@
 				"Despite being less energy dense than &7nitrobenzene&r, &eCBD&r is not the end of your options for combustion fuels, with &6gasoline&r and &chigh-octane gasoline&r also to scale you into &5EV&r."
 			]
 			id: "23CB82881ABB5E72"
+			size: 1.25d
 			tasks: [{
 				id: "05CD28F200337CAC"
 				item: "gtceu:cetane_boosted_diesel_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["454242F0DA2FFBD0"]
@@ -715,8 +713,8 @@
 				item: "gtceu:magnesium_diboride_single_wire"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.5d
+			x: 21.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["778CAC851BC58AB8"]
@@ -731,8 +729,8 @@
 				item: "gtceu:hv_mixer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -752,8 +750,8 @@
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 9.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -784,8 +782,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -10.5d
+			x: 18.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -808,8 +806,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -9.0d
+			x: 23.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -826,8 +824,8 @@
 				item: "gtceu:steam_large_turbine"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -9.0d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -858,8 +856,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -7.5d
+			x: 11.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -880,8 +878,8 @@
 				item: "gtceu:mercury_barium_calcium_cuprate_single_wire"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -12.0d
+			x: 21.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["54632D8B0DABF798"]
@@ -896,8 +894,8 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.5d
+			x: 17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["22BE1992CBCAA2D6"]
@@ -908,8 +906,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: 12.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["37249933D652078D"]
@@ -919,14 +917,14 @@
 				"Most of these explosives are going to require &6toluene&r;  you'll want to figure out a good source for this."
 			]
 			id: "22BE1992CBCAA2D6"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4D964357C863B183"
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.5d
+			x: 11.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["126E88BE9207D849"]
@@ -968,8 +966,8 @@
 				}
 			]
 			title: "Ender Storage"
-			x: 7.0d
-			y: -4.5d
+			x: 14.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0CBB99D3A3A62D8F"]
@@ -978,7 +976,6 @@
 				""
 				"It might be a good idea to keep a few &cenergium crystals&r on circulation in a &2battery buffer&r somewhere.  &3Sneak-click&r with a crystal in your hand to activate discharge mode, which will charge all energy using items in your inventory."
 			]
-			hide_dependent_lines: true
 			id: "7B660D975D9D98C2"
 			tasks: [{
 				id: "18D06A1D5E5FAC4E"
@@ -989,10 +986,11 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 21.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["04FF202CCDE5A998"]
 			description: [
 				"&cRed Steel&r is a very durable tool material, but it's a bit of a pain to mix up."
 				""
@@ -1014,8 +1012,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -12.0d
+			x: 17.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["483F43EF65C69696"]
@@ -1031,8 +1029,8 @@
 				item: "gtceu:infinite_water_cover"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
+			x: 12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6BBECEEDC4DD2B56"]
@@ -1044,13 +1042,14 @@
 				"This will easily power your base through &6HV&r and into &5EV&r."
 			]
 			id: "3F4A0B22F5740A63"
+			size: 1.25d
 			tasks: [{
 				id: "336BEAE0C397FC79"
 				item: "gtceu:nitrobenzene_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["42E1E4B7FF33D3F7"]
@@ -1061,8 +1060,8 @@
 				item: "gtceu:energistic_steel_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -12.0d
+			x: 21.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1080,8 +1079,30 @@
 				item: "angelring:angel_ring"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -12.0d
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["239B5AF886B64DEB"]
+			id: "47C62B923911E645"
+			tasks: [{
+				id: "557A0093B780CD8D"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["239B5AF886B64DEB"]
+			id: "29CC9F2A72F433E1"
+			tasks: [{
+				id: "3FE810EB1349F2CB"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Stainless Steel, Cleanroom and &6High Voltage&r"]
