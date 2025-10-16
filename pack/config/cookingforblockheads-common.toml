@@ -20,3 +20,4 @@ cowJarEnabled = true
 largeCounters = true
 #The fuel multiplier for the cooking oven. Higher values means fuel lasts longer, 1.0 is furnace default.
 ovenFuelTimeMultiplier = 0.33000001311302185
+

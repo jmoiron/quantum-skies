@@ -27,9 +27,9 @@ ServerEvents.recipes(event => {
 
   event.recipes.gtceu.chemical_reactor("brominated_chlorine_vapor_condensation")
     .inputFluids("gtceu:brominated_chlorine_vapor 1000")
-    .inputFluids("gtceu:water 1000")
+    .inputFluids("minecraft:water 1000")
     .outputFluids("gtceu:acidic_bromine_solution 1000")
-    .outputFluids("gtceu:water 1000")
+    .outputFluids("minecraft:water 1000")
     .EUt(GTValues.VA[GTValues.HV])
     .duration(200);
 
