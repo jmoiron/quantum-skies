@@ -123,7 +123,7 @@
 		{
 			dependencies: ["778CAC851BC58AB8"]
 			description: [
-				"The &6HV&r &2macerator&r is the first tier where you can get the byproducts that you see in the recipes in &2JEI&r."
+				"The &6HV&r &2macerator&r is the first tier where you will get the byproducts that you see in the recipes in &2JEI&r. This used to be a little more confusing than it is now, thanks to better tooltips in the recipes."
 				""
 				"It's an important step, as some important materials are unavailable except as byproducts from ore processing."
 			]
@@ -238,7 +238,7 @@
 			description: [
 				"The &6HV&r &2chem reactor&r is required for processing &6rutile&r into &dtitanium&r and for producing &6Polytetrafluoroethylene&r (PTFE), also known as Teflon."
 				""
-				"It's also got enough power to synthesize &6blaze powder&r, which you need for &6ender eyes&r."
+				"It also has enough power to synthesize &6blaze powder&r, which you need for &6ender eyes&r."
 			]
 			id: "052D83873F917583"
 			tasks: [{
@@ -282,11 +282,12 @@
 			dependencies: [
 				"5207A7F74C1204FC"
 				"7BF3FDE52BEFC544"
+				"450C8C0AF82CB7FD"
 			]
 			description: [
-				"In order to make &6HV&r energy hatches, you will &6LPIC&r wafers.  These are made with &6orange glass lenses&r that can be dyed in your new &2chemical bath&r."
+				"In order to make &6HV&r energy hatches, you will &6LPIC&r wafers. These are made with &6orange glass lenses&r that can be dyed in your new &2chemical bath&r."
 				""
-				"In order to &dcut&r those wafers, you'll need the &6HV&r &2cutter&r."
+				"While LPICs are are the last wafers you can make outside the &2cleanroom&2, you'll need to use a &6HV&r &2cutter&r in a &2cleanroom&r environment to produce the LPIC chips."
 			]
 			id: "7B99E9A39EAA5490"
 			tasks: [
@@ -374,7 +375,7 @@
 				""
 				"&9Biotite&r is available by centrifuging deepslate dust. In previous versions, you'd use &6black granite&r."
 				""
-				"Additionally, &6mica&r becomes attainable after getting the &2industrial sieve&r."
+				"Additionally, &6mica&r becomes attainable after getting the &2industrial sieve&r. You can get &6fluorite&r after going to the &7Moon&r."
 			]
 			id: "40922DB70061C9AA"
 			tasks: [{
@@ -393,7 +394,7 @@
 			description: [
 				"&6Polytetrafluoroethylene&r (PTFE) is more widely known as teflon."
 				""
-				"It is a very hard and chemically inert substance that serves as a good lining for things like cooking pans and &2large chemical reactors&r (LCR)."
+				"It is a very chemically inert substance that is a good lining for things like cooking pans and &2large chemical reactors&r (LCR)."
 				""
 				"&6PTFE&r will eventually overtake &6PE&r as a general material for assembling machine hulls, batteries, and even some cables. Once you've made enough to make some &2LCRs&r, you should prioritize setting up a dedicated chain to produce PTFE in large quantities."
 			]
@@ -484,7 +485,15 @@
 				"454242F0DA2FFBD0"
 				"67668A321645BDFE"
 			]
+			description: [
+				"&bNichrome&r is your next coil material."
+				""
+				"You should prioritize upgrading coils as there are efficiency gains for running your &2EBF&r recipes with much hotter coils than recipes require."
+				""
+				"While these aren't needed for &dtitanium&r, you'll want them to cook up another pink metal, &denergistic steel&r, which unlocks a lot of new items in &2extended AE2&r."
+			]
 			id: "42E1E4B7FF33D3F7"
+			subtitle: "At the Heart of the Image"
 			tasks: [{
 				id: "1C3A087A769314BD"
 				item: "gtceu:nichrome_coil_block"
@@ -542,7 +551,7 @@
 		{
 			dependencies: ["500F47921DD51C83"]
 			description: [
-				"&5Rutile&r is your primary source of &dTitanium&r, but you can't simply toss it in the &2EBF&r and call it a day."
+				"&5Rutile&r is your primary source of &dtitanium&r, but you can't simply toss it in the &2EBF&r and call it a day."
 				""
 				"First, you have to react it with &7carbon&r and &6chlorine&r to produce &9titanium tetrachloride&r. From there, you can cook that in the &2EBF&r with some &6magnesium&r as a reagent to produce some &chot titanium ingots&r and some byproducts."
 				""
@@ -567,9 +576,11 @@
 		{
 			dependencies: ["496A339808DDDF51"]
 			description: [
-				"There's not too many ore up here, but there are &5fluids&r."
+				"There's not too much ore up here, but there are &5fluids&r."
 				""
 				"If you were looking for a particular &etype of oil&r, you may be able to use this to go and find it."
+				""
+				"It will come in handy for finding &drutile&r veins on the &7Moon&r."
 			]
 			id: "698DF2D40A52773A"
 			tasks: [{
@@ -629,11 +640,11 @@
 		{
 			dependencies: ["699430D161A19BBC"]
 			description: [
-				"Like many chemicals you will be producing from now on, &6nitric acid&r smells."
+				"Like many chemicals you will be producing from now on, &6nitric acid&r smells terrible."
 				""
-				"It's used in the production of both &6tetranitromethane&r, a component in &ecetane boosted diesel&r, and as a component in &7nitrodiesel&r. Odds are, you will want to use at least one of these fuels."
+				"It's used in the production of both &6tetranitromethane&r, a component in &ecetane boosted diesel&r, and as a component in &3nitrobenzene&r. Odds are high that you'll use at least one of these for power."
 				""
-				"The &2LCR&r provides much more convenient recipes for synthesizing &6nitric acid&r, so you should probably set this up in one of them."
+				"The &2LCR&r provides simpler recipes for synthesizing &6nitric acid&r than single-block &2chem reactors&r, so you should probably set this up in one of them."
 			]
 			id: "63C6AF455771F032"
 			tasks: [{
@@ -685,7 +696,7 @@
 			description: [
 				"&eCetane-boosted diesel&r, previously called &anitrodiesel&r, is the end of the line of combustion fuels that derive directly from &elight fuel&r."
 				""
-				"Despite being less energy dense than &7nitrobenzene&r, &eCBD&r is not the end of your options for combustion fuels, with &6gasoline&r and &chigh-octane gasoline&r also to scale you into &5EV&r."
+				"Despite being less energy dense than &3nitrobenzene&r, &eCBD&r is not the end of your options for combustion fuels. &6Gasoline&r and &chigh-octane gasoline&r can scale you into &5EV&r, but they're derived from secondary petrochem like &9toluene&r and &6octane&r."
 			]
 			id: "23CB82881ABB5E72"
 			size: 1.25d
@@ -719,9 +730,9 @@
 		{
 			dependencies: ["778CAC851BC58AB8"]
 			description: [
-				"In future tiers, the &2mixer&r will be required in order to put together alloys that are important to your progression."
+				"Generally, each tier's &2mixer&r is required to mix their coil material and the following tier's hull material, making it an important stop in your progression."
 				""
-				"In &6HV&r, it's mostly useful for speeding up your production of &6stainless steel&r, which you need in vast quantities, and for mixing &ecetane boosted diesel&r."
+				"In &6HV&r, it's mostly useful for speeding up your production of &6stainless steel&r, which you need in vast quantities for both &6HV&r machines and multi-blocks like the &2distillation tower&r and &2cracker&r, and for mixing &ecetane boosted diesel&r."
 			]
 			id: "74CD924FA666E6D8"
 			tasks: [{
@@ -791,7 +802,7 @@
 				"10E6C543269AD20C"
 			]
 			description: [
-				"&6Titanium&r is an incredibly strong, lightweight, corrosion resistant metal, widely used both in its relatively pure form and as part of alloys."
+				"&6Titanium&r is an incredibly strong, lightweight, corrosion resistant metal, widely used both in its pure form and as part of alloys."
 				""
 				"It is the &5EV&r hull material."
 				""
@@ -884,7 +895,7 @@
 		{
 			dependencies: ["54632D8B0DABF798"]
 			description: [
-				"The &6HV&r &2cutter&r is needed to be able to cut the next tier of &9silicon boule&r as well as new chip types."
+				"The &6HV&r &2cutter&r is needed to cut the next tier of &9silicon boule&r as well as new chip types."
 				""
 				"You'll want to put this in your &2cleanroom&r."
 			]
@@ -899,7 +910,7 @@
 		}
 		{
 			dependencies: ["22BE1992CBCAA2D6"]
-			description: ["&dEnderpearl&r drops from &4Endermen&r are disabled.  In order to get pearls, you will have to process &6ender dust&r in your &bImplosion Compressor&r."]
+			description: ["You may have noticed by now that &denderpearl&r drops from &4Endermen&r are disabled.  In order to get pearls, you will have to process &6ender dust&r in your &2Implosion Compressor&r."]
 			id: "7BF7B57060757546"
 			tasks: [{
 				id: "32846ED2D254E345"
@@ -915,6 +926,8 @@
 				"The &2Implosion Compressor&r uses explosives to compress dusts into gems."
 				""
 				"Most of these explosives are going to require &6toluene&r;  you'll want to figure out a good source for this."
+				""
+				"If you're allergic to the &2cracker&r, you can get started on producing gunpowder once you have &6saltpeter&r from the &2industrial sieve&r."
 			]
 			id: "22BE1992CBCAA2D6"
 			size: 1.0d
