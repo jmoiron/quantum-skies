@@ -11,16 +11,6 @@ ServerEvents.recipes(event => {
         }
     );
 
-    event.shapeless("gtceu:evaporation_tower_qs", ["gtceu:evaporation_plant"]);
-
-    event.recipes.gtceu.macerator("recycle_evaporation_casings")
-        .itemInputs("gtceu:stainless_evaporation_casing")
-        .itemOutputs("gtceu:clean_machine_casing")
-        .itemOutputs("2x gtceu:annealed_copper_double_wire")
-        .itemOutputs("2x gtceu:polyvinyl_chloride_plate")
-        .EUt(GTValues.VA[GTValues.MV])
-        .duration(20);
-
     event.recipes.gtceu.evaporation_tower_qs("evaporate_salt_water_raw_brine")
         .inputFluids("gtceu:salt_water 20000")
         .outputFluids("gtceu:raw_brine 1000")
