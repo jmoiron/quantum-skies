@@ -202,7 +202,7 @@
 			id: "450C8C0AF82CB7FD"
 			min_width: 275
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "Suspended Particulates"
 			tasks: [
 				{
@@ -255,9 +255,11 @@
 				"7BF7B57060757546"
 			]
 			description: [
-				"Although you can't seem to make your way to the &3nether&r, you might have found that you can spawn &4blazes&r with some kind of doll.  Sadly, they don't drop &5blaze rods&r."
+				"Although you can't seem to make your way to the &3nether&r, you might have found that you can spawn &4blazes&r with some kind of doll. Sadly, they don't drop &5blaze rods&r."
 				""
-				"Luckily, &6blaze powder&r is easy to synthesize in an &6HV&r &bchemical reactor&r.  You can extract &aliquid blaze&r from the powder and use your &bchemical bath&r to create &9Eyes of Ender&r."
+				"Luckily, &6blaze powder&r is easy to synthesize in an &6HV&r &2chemical reactor&r. You can extract &aliquid blaze&r from the powder and use your &bchemical bath&r to create &9Eyes of Ender&r."
+				""
+				"Liquid blaze is &cextremely hot&r; there isn't a drum capable of holding it. Either plan ahead by placing your &2extractor&r next to the &2bath&r, or use a supertank to transport it."
 			]
 			id: "126E88BE9207D849"
 			tasks: [
@@ -991,7 +993,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["454242F0DA2FFBD0"]
 			description: [
 				"&cRed Steel&r is a very durable tool material, but it's a bit of a pain to mix up."
 				""
