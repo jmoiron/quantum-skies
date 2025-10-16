@@ -577,6 +577,7 @@
 			dependencies: [
 				"47AFAF23FB7AB33C"
 				"725A0FCB54CA13FA"
+				"404B433260D8C3CF"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -933,7 +934,7 @@
 				"&aNote&r: you do not need &6bromine&r in bulk! You can set up a large processing chain if you want, but it's not necessary."
 			]
 			id: "725A0FCB54CA13FA"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "2E9B19F7435BC4B1"
 				item: "gtceu:salt_water_bucket"
@@ -952,6 +953,7 @@
 				"&aNote&r: this chain used to be part of standard &2GregTech CEu&r, but it wasn't really utilized, and it was removed in version 7.0."
 			]
 			id: "404B433260D8C3CF"
+			size: 1.25d
 			tasks: [{
 				id: "42B45AFA87D578C6"
 				item: "gtceu:evaporation_tower_qs"
