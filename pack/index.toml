@@ -1379,8 +1379,8 @@ hash = "545069ceee8188d3c60be5ad35c7bb174f9c5506fa1240f7a532434774549ba7"
 metafile = true
 
 [[files]]
-file = "mods/eb-patched.pw.toml"
-hash = "98932e010f04c02c6f952c70c29157e9fda252d9cc92a44dc93e6fa28c77a627"
+file = "mods/effortless-building.pw.toml"
+hash = "fdb68bcedaba7e10832e199b017d1fae8767b7292aaf940bccc646910267d96e"
 metafile = true
 
 [[files]]
