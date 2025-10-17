@@ -29,6 +29,10 @@ file = "config/colossalchests-common.toml"
 hash = "4c8bc0f790fdeca6706156dc8c3e119f631f24b5900c49a130d6783b33545775"
 
 [[files]]
+file = "config/cookingforblockheads-common.toml"
+hash = "9af560d51423b3dba1534f6a75d065c791ac59b6663256fe4bd4e564d660ebbc"
+
+[[files]]
 file = "config/cyclopscore-common.toml"
 hash = "af37ef363df1104babc14018be8e35b99df7ed72f2a9a1b5a6146aef00966ab6"
 
@@ -114,7 +118,7 @@ hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "231f2b8813825422fdfb99fed1d1b37399223280fc0a301893c60a284c4e33c1"
+hash = "bd831d30f0563e5347c6a651707c03f5a92993abd61a9373ff6dbbee5ac65e8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -190,7 +194,7 @@ hash = "295189bebf8cee8d5aa6fec5b77503cad246dd7cfd16e0f21b1a8cdf6375704c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "b624da3dd8e8f68c6a235d2508ae3202cfa42a79d642ae60039892053443ec5e"
+hash = "97941c70f06f3c7de2efb19f88d0db2b961eadd07aad080d1bc7bcc87e9e7b59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -1006,7 +1010,7 @@ hash = "3b6b9a25f88c28de91ac8e2cc03c6147aad476b664618cb0edcc417ced68907e"
 
 [[files]]
 file = "kubejs/server_scripts/brine-chain.js"
-hash = "20070feed9787055922c81198740a8dac6114fcf6e03a1babd96e786e46b856d"
+hash = "7ea9090566a195c63000788a378b9e20612ae7471733ce529f81f7bbb46c7ea8"
 
 [[files]]
 file = "kubejs/server_scripts/croptopia-for-blockheads.js"
@@ -1126,7 +1130,7 @@ hash = "1556299f7ea09ecae16e5c3ee0004032bd2ebb82406c351bf96cbc94d006b845"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/evaporation_tower.js"
-hash = "29d74c6b59cc4d04a9b641012e14757f7a37426b0008ad0a9482f88f752196c3"
+hash = "1cec995bd4074d118d328a66f0869bdc196a02d22a4d99e8961f282a9feaf4a9"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/lunar_surface_drill.js"
@@ -1271,7 +1275,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "f44ea751fe59cb853834aba3f0ae4c9a20f02f36020ae40f4c38d073fd2a257b"
+hash = "f8e3f60ea1085489f9c674c180161a2d944163c62927fa77d4f950de37ae5a39"
 metafile = true
 
 [[files]]
@@ -1326,7 +1330,7 @@ metafile = true
 
 [[files]]
 file = "mods/colossal-chests.pw.toml"
-hash = "21244e28a3dbfba53d1cfa58a01aba419720f42641ebcec17d3d59ec2966e995"
+hash = "6581b19c4383f87fde46f076ffb77fec3e4a56e1894f3579376dcd5bd856e47d"
 metafile = true
 
 [[files]]
@@ -1361,7 +1365,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "169ec453c3790188b0fba026b56a75428a8590648b11fe6f2177ce8a13340639"
+hash = "47e99ba51ab53b80a86eb3a2a660414784ed31c7cb1f386a74e457c8f1fe0637"
 metafile = true
 
 [[files]]
@@ -1531,7 +1535,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
-hash = "d0c453d18ecee64f46291300a8521aa13f17b97dfc0d64d33422d9ead2c04bdf"
+hash = "b55f3276124e13e8b3899d4d0400e990dea41d228644be34b341e62fe8abed6e"
 metafile = true
 
 [[files]]
@@ -1686,7 +1690,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "3aac685bebe1d348ee070642fe0aef131fb12f2fdb556de149534290a3a2d1c9"
+hash = "989500cdc8bc5faf48d78bfbea5d2f0c55d74690f2cf7e6d66e4f2a27c9bfb5a"
 metafile = true
 
 [[files]]
@@ -1751,7 +1755,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8d7b790266865c226a319a1c57a4b63a541607232fac8b16d8f4920b05b9bf68"
+hash = "9d32db9060cab4353a68469a3f5c12603644962d3f33c443fab1c230788baa81"
 metafile = true
 
 [[files]]
@@ -1791,7 +1795,7 @@ metafile = true
 
 [[files]]
 file = "mods/tmrv.pw.toml"
-hash = "a2778ab684e74a62a2695e80d3e7eb586d4df6ef85794013b5f7bb3ac056340a"
+hash = "85b4d99a92e8b060aa59760828f351b3772e59e6bd57480ded901f505756d2ff"
 metafile = true
 
 [[files]]
