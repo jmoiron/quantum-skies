@@ -56,15 +56,29 @@ ServerEvents.recipes(event => {
       ["diamond", "gold_backpack", "stainless_steel"]
     ].forEach(([mat, prev, crate]) => {
         event.remove({output: `sophisticatedbackpacks:${mat}_backpack`})
-        event.shaped(`sophisticatedbackpacks:${mat}_backpack`,
-            ['PCP', 'PBP', 'PsP'],
-            {
-                P: `gtceu:${mat}_plate`,
-                B: `sophisticatedbackpacks:${prev}`,
-                C: `gtceu:${crate}_crate`,
-                s: "#forge:tools/hammers"
+        event.custom({
+            "type": "sophisticatedbackpacks:backpack_upgrade",
+            "conditions": [
+                {
+                    "type": "sophisticatedcore:item_enabled",
+                    "itemRegistryName": `sophisticatedbackpacks:${mat}_backpack`
+                }
+            ],
+            "key": {
+                P: { "item": `gtceu:${mat}_plate` },
+                B: { "item": `sophisticatedbackpacks:${prev}` },
+                C: { "item": `gtceu:${crate}_crate` },
+                s: { "tag": "forge:tools/hammers" }
+            },
+            "pattern": [
+                "PCP",
+                "PBP",
+                "PsP"
+            ],
+            "result": {
+                "item": `sophisticatedbackpacks:${mat}_backpack`
             }
-        )
+        })
     });
 
     // make stack upgraedes incredibly expensive

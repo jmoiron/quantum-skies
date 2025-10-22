@@ -70,18 +70,30 @@ ServerEvents.recipes(event => {
         );
     });
 
-    event.replaceInput({output: "gcyr:space_chestplate"},
-        "gtceu:tungstensteel_fluid_cell",
-        "gtceu:stainless_steel_fluid_cell"
-    );
-
-    ["helmet", "chestplate", "boots", "leggings"].forEach(piece => {
+    ["helmet", "boots", "leggings"].forEach(piece => {
         event.replaceInput({output: `gcyr:space_${piece}`},
             "#gtceu:circuits/ev",
             "#gtceu:circuits/hv"
         )
     });
+    
+    /*
+    event.replaceInput({output: "gcyr:space_chestplate"},
+        "gtceu:tungstensteel_fluid_cell",
+        "gtceu:stainless_steel_fluid_cell"
+    );
+    */
 
+    event.remove({output: "gcyr:space_chestplate"});
+
+    event.shaped(Item.of("gcyr:space_chestplate"),
+        ["FLF", "FCF", "FCF"],
+        {
+            F: "gcyr:space_fabric",
+            C: "#gtceu:circuits/hv",
+            L: "gtceu:stainless_steel_fluid_cell",
+        }
+    );
 
     // the builtin electrolizer decomposition creates more than what you get
     event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_co_mn_br_catalyst"});
@@ -106,9 +118,9 @@ ServerEvents.recipes(event => {
     greg.chemical_bath("fiberglass_glue")
         .itemInputs("2x gtceu:silicon_dioxide_dust")
         .inputFluids("gtceu:glue 500")
-        .outputFluids("gcyr:fiberglass 50")
+        .outputFluids("gcyr:fiberglass 125")
         .EUt(480)
-        .duration(300);
+        .duration(600);
 
     // Jovian Icy Moon Adapter (for Planetary Core Drill recipes on Europa/Ganymede/Callisto)
     greg.assembler("jovian_icy_moon_adapter")

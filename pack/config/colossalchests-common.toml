@@ -24,6 +24,8 @@
 		metalVariants = true
 		#Multiplier for the number of inventory slots for this chest material.
 		chestInventoryMaterialFactorSilver = 2.666
+		#If the lid should open when accessing the chest GUI.
+		visuallyOpen = true
 
 	[general.colossal_chest]
 		#If the chest should visually open when someone uses it.
