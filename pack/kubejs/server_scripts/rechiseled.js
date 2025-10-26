@@ -104,7 +104,37 @@ ServerEvents.recipes(event => {
             .EUt(7)
             .duration(10);
       })
-
     });
+
+    /* chiseling recipes for gtceu stone variants */
+
+    let gtOutput = [
+        "gtceu:chiseled_STONE",
+        "gtceu:cracked_STONE_bricks",
+        "gtceu:STONE_bricks",
+        "gtceu:STONE_small_tile",
+        "gtceu:STONE_tile",
+        "gtceu:STONE_windmill_a",
+        "gtceu:STONE_windmill_b",
+        "gtceu:mossy_STONE_bricks",
+        "gtceu:mossy_STONE_cobblestone",
+        "gtceu:polished_STONE",
+        "gtceu:small_STONE_bricks",
+        "gtceu:square_STONE_bricks",
+    ]
+
+    gtOutput.forEach((out) => {
+        let types = ["marble", "red_granite", "light_concrete", "dark_concrete"]
+        types.forEach((type) => {
+            let tpo = out.replace("STONE", type);
+            greg.chiseler(`${type}_${tpo}`)
+                .itemInputs(`gtceu:${type}`)
+                .notConsumable(tpo)
+                .itemOutputs(tpo)
+                .EUt(7)
+                .duration(10);
+        });
+    });
+
 
 });
