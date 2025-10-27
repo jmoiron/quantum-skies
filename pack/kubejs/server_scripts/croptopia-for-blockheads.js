@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
         .itemInputs("2x minecraft:white_concrete")
         .inputFluids("gtceu:concrete 576")
         .itemOutputs("4x cookingforblockheads:white_kitchen_floor")
-        .EUt(VHA[GTValues.LV]);
+        .EUt(VHA[GTValues.LV])
+        .duration(10*20);
 
     const replacements = {
         "#forge:chests/wooden": "gtceu:wood_crate",
