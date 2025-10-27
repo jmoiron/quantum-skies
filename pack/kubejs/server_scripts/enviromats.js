@@ -66,7 +66,6 @@ ServerEvents.recipes(event => {
         return !e.includes("small_");
     }).forEach(slab => {
         let nonSlab = slab.replace("_brick_slab", "");
-        console.log("slab:" + slab + ", nonslab:" + nonSlab);
         event.stonecutting(`2x ${slab}`, nonSlab)
     })
 
