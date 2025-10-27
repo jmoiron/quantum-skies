@@ -1,3 +1,5 @@
+// slabs and stairs don't have a mineable tag meaning they mine at the same speed
+// as fists and don't drop themselves as loot
 ServerEvents.tags("block", event => {
     const slabs = Ingredient.of(/enviromats:.*_slab/).itemIds;
     slabs.forEach(slab => {
@@ -33,14 +35,14 @@ ServerEvents.recipes(event => {
         "pink"
     ]
 
-    // make alabaster dyeable and make it use dye tags instead of minecraft dyes
     dyes.forEach(color => {
+        // make alabaster dye with dye tags instead of minecraft dyes only
         event.replaceInput({mod: "enviromats"},
             `minecraft:${color}_dye`,
             `#forge:dyes/${color}`
         );
 
-        // create a chem bath recipe for alabaster
+        // create a chem bath recipe for dying alabaster
         greg.chemical_bath(`${color}_alabaster`)
             .itemInputs("#enviromats:alabaster")
             .inputFluids(`gtceu:${color}_dye 18`)
@@ -67,6 +69,8 @@ ServerEvents.recipes(event => {
         console.log("slab:" + slab + ", nonslab:" + nonSlab);
         event.stonecutting(`2x ${slab}`, nonSlab)
     })
+
+    // gregify taconite and greenschist to use dusts
 
     event.remove({id: "enviromats:blocks/craft_raw/taconite"})
     event.shaped("enviromats:taconite",
