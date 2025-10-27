@@ -26,7 +26,7 @@ hash = "31a2f7075e7e79e9de80e38827154c65b5529871c143de2da04b9ed4773256de"
 
 [[files]]
 file = "config/colossalchests-common.toml"
-hash = "4c8bc0f790fdeca6706156dc8c3e119f631f24b5900c49a130d6783b33545775"
+hash = "1dd6cc118a3d0a76570fedd5f6fcd887d3211ee20b5ff410edae5c62d91bb123"
 
 [[files]]
 file = "config/cookingforblockheads-common.toml"
@@ -118,7 +118,7 @@ hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "bd831d30f0563e5347c6a651707c03f5a92993abd61a9373ff6dbbee5ac65e8f"
+hash = "5ed8927be61913415e9d30a5e895bc50afb88a06c923032ec195fc7ac3132e08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -162,7 +162,7 @@ hash = "285297ae10e71d354174ecf3176c710563049fa362ba7772dc3d281a81fd49e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "c428db8f1ed1c83f62e781ae1eaa08d2177eefb7e3d0928526711098c2f669ad"
+hash = "3e026e8aaf80956a74579f74fda5e67aa83117a9b2a2f96e3d9f9e81d689425a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -170,7 +170,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "bae80226c9a3879e6d85a7564ac9db377a856df64e15b204e66319ad3fc033d1"
+hash = "150be41019935e3c34df4d16d69e2bbf9dc3f990efd0b59077931880286c00ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -194,7 +194,7 @@ hash = "295189bebf8cee8d5aa6fec5b77503cad246dd7cfd16e0f21b1a8cdf6375704c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "97941c70f06f3c7de2efb19f88d0db2b961eadd07aad080d1bc7bcc87e9e7b59"
+hash = "28c64315e94b048876d0118f026ae772c06e1dff13610746a9b44039c00a1d4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -202,7 +202,7 @@ hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "7b87033e5062292e6a7e3dbeaef53be6fa97ad188ee8faaf7cd69516b54afc8a"
+hash = "a67a5721f8774f74c7aa84962731a953192c35cbd1ac1cf09b2bc08ef7949ed6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -498,7 +498,7 @@ hash = "1e5fea905b36c1c6e54f7367b7ad115efb0643a1a4c75780f3282c974b0aa1a6"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "538b4fb93e4b1642d1b8b1aa0e3ebcbc670ffcdb65d463d03e23fff93e227dca"
+hash = "b49960854c6fdde6100e5d4938b67fe782a34efffc24600db232832981ea176c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/callisto_compact_regolith.png"
@@ -1038,7 +1038,7 @@ hash = "dc42a79757c0eb87a7f79419821e29d6a6cd8973acb6f50c76eb792afac47407"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
-hash = "a4569b2d94e5269a93b9596c14452d61cf03cf83ff1af8abc9abc19739b79f7e"
+hash = "2d7fc11089a44a72c58c3daa18b3c1fa5e5b4955b6fcabcd38c242c3630b146b"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/jovian_chem.js"
@@ -1094,7 +1094,11 @@ hash = "0c6839a2fa751ef4c5a19c4b2b22b4f5878a97ccbdbbf6cab410e2aa45478e52"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/sophisticated_backpacks.js"
-hash = "36c698c0383221763087c9395e9fdb41fb1a2697af604e7c2f246581921488d0"
+hash = "8adbce77656324fd6e009320a3db9548a123b596946d7b36e54efbf7529a9487"
+
+[[files]]
+file = "kubejs/server_scripts/gregification/tempad.js"
+hash = "c5e65fb9af069d7fdc00b70a5d45ee411bf477b2d109f1598288ec268d9b4a55"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/toms.js"
@@ -1142,7 +1146,7 @@ hash = "d0fb0e4955afe2762780870ca711b78410b617f736fb0ba068029dea44438a32"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
-hash = "b3ff98ebab195d9a2165d8074569b7705a63e7b17aede44e5ae229cdb852afcd"
+hash = "2c93f742bff37ab12cc76fb3a1eac789ea6ddf7a92a19a73815cf999c88140b5"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
@@ -1158,7 +1162,7 @@ hash = "9e29026174694c1862a03b7d0be7b57203ae300d97cd830684292836b5b7b18c"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"
-hash = "7e3cd9f0c79302b8bc5b5ab09133f8f0a7f84feb9e13c5c4b22cb6dc01f77f74"
+hash = "4fdaa0b756ad82d6b045d51bcbe672583450385255e8868c4f7d5c4f455c9572"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"
@@ -1214,7 +1218,7 @@ hash = "766ab4dc2c3001cb27bc16fad889a051b8a06435080b3bf8eec72c6dd98228b4"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "2d9e795199291d0faf13c16ecf4f907dad24e44433549f8b3c6318af08bba27a"
+hash = "20623a4b50925052d4d6f861b81c8668453312c18d91f634783bdb02d210b885"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
@@ -1275,7 +1279,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "f8e3f60ea1085489f9c674c180161a2d944163c62927fa77d4f950de37ae5a39"
+hash = "0f4c2198603cd84a14dc6741729d0b0dcf509574776e620c36c3e7180082db32"
 metafile = true
 
 [[files]]
@@ -1365,7 +1369,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "47e99ba51ab53b80a86eb3a2a660414784ed31c7cb1f386a74e457c8f1fe0637"
+hash = "82e250fb7642f7289fe535c15ee883c4f392ddbd6908e0e55bf5cb0cbd186e01"
 metafile = true
 
 [[files]]
@@ -1420,7 +1424,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "b16779d890d9d8fd5f2a1bce670a13698ab8bef58851b4a43b0044495d22d313"
+hash = "dd26fdfebaf39d13c9e57794f2ced8c568fb9020c891076af940a8aec1645b09"
 metafile = true
 
 [[files]]
@@ -1470,7 +1474,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "8fff75bd4157b9ca7f4600fbf9d00a989d33d8bc168806118681c04797699e16"
+hash = "04a41ef460a5aec46f060cffff5b296e663f1dd40ce1ad39f9f618ed2f8828ff"
 metafile = true
 
 [[files]]
@@ -1545,7 +1549,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-modern-utilities.pw.toml"
-hash = "b82e0beadbff1ae1f6138f2152f0cafb037e08601e7a2efa52708654ca2e920a"
+hash = "57edb89acb73ba0b9ce5f822cfdab9af1c430ccf84fbbd56bc1f25dbc1218d9d"
 metafile = true
 
 [[files]]
@@ -1555,7 +1559,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "405441ee4b2caa3503f94720d00f9d86d804ab5cba09fb65f13cee4be11c3e39"
+hash = "a41a7864835b1d67e5b60e13f8189da47f62f4e8da241eed5b233b27bd3c726b"
 metafile = true
 
 [[files]]
@@ -1565,7 +1569,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "8c635c96e2449280329a0d3daaa279886a7e667aaabf122d344d47f72b065546"
+hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
@@ -1690,7 +1694,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "989500cdc8bc5faf48d78bfbea5d2f0c55d74690f2cf7e6d66e4f2a27c9bfb5a"
+hash = "7fc1653e0b9df75f9b0162206bed756db5048e1f6c4f6587baafb99dc656f12d"
 metafile = true
 
 [[files]]
