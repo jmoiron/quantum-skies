@@ -1,6 +1,6 @@
 # adapted from public domain software from Merith-TK/modpack-template
 
-VERSION := 0.7.4
+VERSION := 0.7.5
 
 HOME := ${HOME}
 PACKNAME := Quantum-Skies

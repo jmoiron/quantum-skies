@@ -1,6 +1,6 @@
 name = "quantum-skies"
 author = "jmoiron"
-version = "0.7.4"
+version = "0.7.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
