@@ -1,17 +1,13 @@
 ServerEvents.tags("block", event => {
     const slabs = Ingredient.of(/enviromats:.*_slab/).itemIds;
-
     slabs.forEach(slab => {
         event.add("minecraft:mineable/pickaxe", slab);
     });
 
     const stairs = Ingredient.of(/enviromats:.*_stairs/).itemIds;
-
     stairs.forEach(stair => {
-        console.log("adding minable tag to stair " + stair);
         event.add("minecraft:mineable/pickaxe", stair);
     });
-
 });
 
 ServerEvents.recipes(event => {
@@ -37,7 +33,7 @@ ServerEvents.recipes(event => {
         "pink"
     ]
 
-    // fix some blocks that are not attainable because
+    // make alabaster dyeable and make it use dye tags instead of minecraft dyes
     dyes.forEach(color => {
         event.replaceInput({mod: "enviromats"},
             `minecraft:${color}_dye`,
@@ -52,15 +48,9 @@ ServerEvents.recipes(event => {
             .EUt(7)
             .duration(10);
 
-        event.recipes.gtceu.cutter(`${color}_alabaster_brick_slabs`)
-            .itemInputs(`enviromats:${color}_alabaster_brick`)
-            .inputFluids("gtceu:lubricant 1")
-            .itemOutputs(`2x enviromats:${color}_alabaster_brick_slab`)
-            .EUt(7)
-            .duration(10);
     });
 
-    // missing magenta recipe?
+    // missing magenta alabaster recipe
     event.shaped("enviromats:magenta_alabaster",
         ["AAA", "AMA", "AAA"],
         {
@@ -69,30 +59,13 @@ ServerEvents.recipes(event => {
         }
     );
 
-    const mats = [
-        "hardened_stone",
-        "granodiorite",
-        "basalt",
-        "marble",
-        "pumice",
-        "travertine",
-        "taconite",
-        "blueschist",
-        "greenschist",
-    ];
-
-    mats.forEach((mat) => {
-
-        event.stonecutting(`2x enviromats:${mat}_brick_slab`, `enviromats:${mat}_brick_slab`);
-
-        /*
-        greg.cutter(`cut_${mat}_brick_slabs`)
-            .itemInputs(`enviromats:${mat}_brick`)
-            .inputFluids("gtceu:lubricant 1")
-            .itemOutputs(`2x enviromats:${mat}_brick_slab`)
-            .duration(20)
-            .EUt(7);
-        */
+    // fix all missing brick slab recipes
+    Ingredient.of(/enviromats:.*_brick_slab/).itemIds.filter((e) => {
+        return !e.includes("small_");
+    }).forEach(slab => {
+        let nonSlab = slab.replace("_brick_slab", "");
+        console.log("slab:" + slab + ", nonslab:" + nonSlab);
+        event.stonecutting(`2x ${slab}`, nonSlab)
     })
 
     event.remove({id: "enviromats:blocks/craft_raw/taconite"})
@@ -115,8 +88,9 @@ ServerEvents.recipes(event => {
 
 });
 
+// brick slabs drop stairs for some reason, so lets fix that too
 LootJS.modifiers(event => {
-    const slabs = Ingredient.of(/enviromats:.*_slab/).itemIds;
+    const slabs = Ingredient.of(/enviromats:.*brick_slab/).itemIds;
 
     slabs.forEach(slab => {
         event.addBlockLootModifier(slab)
