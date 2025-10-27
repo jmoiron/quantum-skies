@@ -120,4 +120,17 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(150);
 
+    greg.industrial_sieve("titanium_mesh_mercury")
+        .itemInputs("gtceu:mercury_regolith_dust")
+        .inputFluids("minecraft:water 250", "minecraft:lava 250")
+        .chancedFluidInput("gtceu:lubricant 2", 5000, -250)
+        .chancedOutput("minecraft:netherite_scrap", 500, 250)
+        .chancedOutput("gtceu:raw_bauxite", 3500, 500)
+        .chancedOutput("gtceu:raw_ilmenite", 3500, 500)
+        .chancedOutput("gtceu:raw_tungstate", 2000, 500)
+        .chancedOutput("gtceu:raw_scheelite", 2000, 500)
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(150);
+
+
 });

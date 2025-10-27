@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
             "#gtceu:circuits/hv"
         )
     });
-    
+
     /*
     event.replaceInput({output: "gcyr:space_chestplate"},
         "gtceu:tungstensteel_fluid_cell",
@@ -187,18 +187,20 @@ ServerEvents.recipes(event => {
             .EUt(16).duration(10);
     }
 
-    hammer("moon_stone_to_sand", "gcyr:moon_stone", "gcyr:moon_sand")
-    hammer("moon_sand_to_regolith_block", "gcyr:moon_sand", "gtceu:moon_regolith_block");
-
     event.remove({type: "gtceu:macerator", output: "gtceu:moon_regolith_dust"});
 
+    hammer("moon_stone_to_sand", "gcyr:moon_stone", "gcyr:moon_sand")
+    hammer("moon_sand_to_regolith_block", "gcyr:moon_sand", "gtceu:moon_regolith_block");
     macerate("moon_regolith_block_to_dust", "gtceu:moon_regolith_block", "4x gtceu:moon_regolith_dust");
-    macerate("mars_regolith_to_dust", "gcyr:mars_regolith", "4x gtceu:mars_regolith_d_dust");
+
+    // mercury
+    macerate("mercury_regolith_block_to_dust", "gtceu:mercury_regolith_block", "4x gtceu:mercury_regolith_dust")
+    hammer("mercury_rock_to_regolith", "gcyr:mercury_rock", "gtceu:mercury_regolith_block");
 
     // break down mars rock
     hammer("mars_rock_to_cobble", "gcyr:martian_rock", "gcyr:martian_cobblestone");
     hammer("mars_cobble_to_regolith", "gcyr:martian_cobblestone", "gcyr:mars_regolith");
-    macerate("venus_regolith_to_dust", "gcyr:mars_regolith", "4x gtceu:mars_regolith_d_dust");
+    macerate("mars_regolith_to_dust", "gcyr:mars_regolith", "4x gtceu:mars_regolith_d_dust");
 
     // break down venus rock
     hammer("venus_stone_to_cobble", "gcyr:venus_rock", "gcyr:venus_cobblestone");

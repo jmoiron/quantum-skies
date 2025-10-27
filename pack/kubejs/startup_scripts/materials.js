@@ -55,7 +55,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.FLAMMABLE);
 
     dust("bedrock", 0x565656).iconSet(flint);
+
     dust("moon_regolith", 0x959595)
+        .flags(GTMaterialFlags.FORCE_GENERATE_BLOCK)
+        .iconSet(sand);
+
+    dust("mercury_regolith", 0x555555)
         .flags(GTMaterialFlags.FORCE_GENERATE_BLOCK)
         .iconSet(sand);
 
