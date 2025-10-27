@@ -775,6 +775,11 @@
 				"In &6HV&r, they are still valuable as a component in the extended &2pattern provider&r and &2extended interface&r."
 			]
 			id: "1845C371942ED415"
+			rewards: [{
+				id: "5A19B7733C39CDE9"
+				item: "expatternprovider:pattern_provider_upgrade"
+				type: "item"
+			}]
 			subtitle: "System On a Chip"
 			tasks: [
 				{

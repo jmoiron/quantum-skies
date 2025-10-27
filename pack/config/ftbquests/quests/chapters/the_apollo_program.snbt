@@ -95,9 +95,11 @@
 			description: [
 				"The ultimate goal of the &6Apollo Program&r quest line is, unsurprisingly, to launch a rocket and walk on the &cMoon&r."
 				""
-				"It's fitting that you make your first escape from the endless sky by flying into it."
+				"It's ironic that you make your first escape from the endless sky by flying into it."
 				""
-				"The moon will be your first taste of a terrestrial world, and will be your primary source of &5rutile&r. This &6titanium&r-yielding mineral can be found in &6bauxite&r veins, and can be sieved from &cmoon regolith&r, which you can produce in endless amounts later on with the &2Planetary Core Drill&r."
+				"The moon will be your first taste of a terrestrial world, and will be your primary source of &5rutile&r. "
+				""
+				"This &6titanium&r-yielding mineral can be found in &6bauxite&r veins, and can be sieved from &cmoon regolith&r, which you can produce in endless amounts later on with the &2Planetary Core Drill&r."
 				""
 				"Of course, you don't have to get your hands dirty mining. It should be pretty easy to get a single-block miner going on the &7moon&r to get your &5rutile&r acquisition started."
 			]
@@ -120,7 +122,7 @@
 			description: [
 				"In order to survive on other terrestrial worlds that lack a breathable atmosphere, you will need a &9space suit&r to provide a safe and breathable atmosphere for yourself."
 				""
-				"The chestplate must be filled with &boxygen&r for you to be able to breathe. For now, you can use it like a cell to extract oxygen from fluid storage directly."
+				"The chestplate must be filled with &boxygen&r for you to be able to breathe in space. For now, you can use it like you would a cell or drum to extract oxygen from fluid storage directly."
 			]
 			id: "1C3AE919FB651E93"
 			size: 1.25d
@@ -248,7 +250,7 @@
 			description: [
 				"&9Fiberglass&r is made by suspending &6silicon dioxide&r in a binder."
 				""
-				"If you choose to use &6glue&r, you will need ~240 buckets to make enough fiberglass to build a &dspace suit&r."
+				"If you choose to use &6glue&r, you will need ~47 buckets to make enough fiberglass to build a &dspace suit&r."
 			]
 			id: "585841E09E7C0F8D"
 			tasks: [{
@@ -771,7 +773,7 @@
 						]
 					}
 				}
-				title: "Chlorinated Bromine Solution Bucket"
+				title: "Concentrated Bromine Solution Bucket"
 				type: "item"
 			}]
 			x: -6.0d

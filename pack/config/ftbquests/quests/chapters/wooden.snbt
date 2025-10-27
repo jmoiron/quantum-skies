@@ -210,6 +210,21 @@
 			x: -3.0d
 			y: 1.5d
 		}
+		{
+			description: [
+				"The &9mega torch&r will prevent hostile mob spawns in a 5x5 chunk radius."
+				""
+				"Using these will probably be more reliable than torch spam for keeping your base safe from &acreepers&r."
+			]
+			id: "51183520860080F6"
+			tasks: [{
+				id: "08AA8CF748B88E60"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	title: "Analog"
 }

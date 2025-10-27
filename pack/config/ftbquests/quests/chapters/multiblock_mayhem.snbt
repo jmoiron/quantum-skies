@@ -696,7 +696,7 @@
 			description: [
 				"The &2Chemical Plant&r is a complex multiblock that is capable of running chemical reactions that even the &2LCR&r cannot support.  Its recipes typically involve one or more solid catalists and solid + fluid outputs."
 				""
-				"The &2chemplanet&r was originally from &2GT++&r, and is used for rocket fuels in &3GTNH&r."
+				"The &2chemplant&r was originally from &2GT++&r, and is used for rocket fuels in &3GTNH&r."
 				""
 				"The tier of the &6machine casing&r, &6coil&r, and &6pipe&r blocks determine various recipe capabilities. You will need &6stainless steel casings&r to produce &cRP-1 mixed rocket fuel&r."
 			]
