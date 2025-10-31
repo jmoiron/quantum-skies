@@ -40,11 +40,11 @@
 	#Range: 0 ~ 1000
 	maxBlocksPerAxisLevel0 = 8
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel1 = 12
+	maxBlocksPerAxisLevel1 = 16
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel2 = 16
+	maxBlocksPerAxisLevel2 = 32
 	#Range: 0 ~ 1000
-	maxBlocksPerAxisLevel3 = 20
+	maxBlocksPerAxisLevel3 = 64
 
 [MaxMirrorRadius]
 	#The maximum (radial) mirror radius.
