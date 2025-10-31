@@ -24,11 +24,11 @@
 	#Range: 0 ~ 100000
 	maxBlocksPlacedAtOnceLevel0 = 128
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel1 = 192
+	maxBlocksPlacedAtOnceLevel1 = 256
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel2 = 320
+	maxBlocksPlacedAtOnceLevel2 = 620
 	#Range: 0 ~ 100000
-	maxBlocksPlacedAtOnceLevel3 = 640
+	maxBlocksPlacedAtOnceLevel3 = 1024
 
 [MaxBlocksPerAxis]
 	#How many blocks can be placed at once per axis when using build modes (e.g. walls).
