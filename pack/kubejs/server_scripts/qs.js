@@ -122,4 +122,25 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(600*20);
 
+    // add a way to make prismarine
+
+    greg.chemical_bath("sea_lanterns")
+        .itemInputs("minecraft:quartz_block")
+        .inputFluids("gtceu:cyan_dye 72")
+        .itemOutputs("minecraft:sea_lantern")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(100)
+
+    greg.macerator("prismarine_things")
+        .itemInputs("minecraft:sea_lantern")
+        .itemOutputs("4x minecraft:prismarine_shard", "5x minecraft:prismarine_crystals")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(50)
+
+    greg.compressor("prismarine_crystals_to_shards")
+        .itemInputs("2x minecraft:prismarine_crystals")
+        .itemOutputs("minecraft:prismarine_shard")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(50)
+
 });

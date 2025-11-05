@@ -186,8 +186,8 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -207,8 +207,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -217,12 +217,29 @@
 				"Using these will probably be more reliable than torch spam for keeping your base safe from &acreepers&r."
 			]
 			id: "51183520860080F6"
+			subtitle: "We're in the pipe"
 			tasks: [{
 				id: "08AA8CF748B88E60"
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &2building gadgets&r mod adds items that can help you lay down blocks."
+				""
+				"While the &abuilding gadget&r itself is fairly duplicative with &2effortless building&r, the &9copy-paste&r and &9cut-paste&r gadgets will help you replicate patterns and ease the creation of larger symmetrical structures, should the needs arise."
+			]
+			id: "0D9144A2F7FDC8B5"
+			subtitle: "&29x9&r"
+			tasks: [{
+				id: "366CA0EBF86888E6"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 1.5d
 		}
 	]
