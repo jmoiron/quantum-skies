@@ -17,6 +17,10 @@ file = "config/balm-common.toml"
 hash = "c167a9e71180341f495a904fa235d1fdd924e99af86e19c360f7dda648bb80ad"
 
 [[files]]
+file = "config/buildinggadgets2-common.toml"
+hash = "e7a2371bb4dd8c0e12b6e813aa30a2641dfd6d95eea24adda671a22f79dde163"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "61e43ee29c42374588fe60dfac57a22725fe32718b4139f9c06b1eb19f150918"
 
@@ -114,11 +118,11 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "3dceab4da13af6a56a805fcbf03644d5326d234a0d11561cd7b2367a6495730e"
+hash = "d5e706510748c07cb33f317365aacf282e2bc501f8ee584d8c8fdb76f6ea66b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "5ed8927be61913415e9d30a5e895bc50afb88a06c923032ec195fc7ac3132e08"
+hash = "bdf3c7acf1ad9362fada657b4c0ba15b82a85cfd822f352a50cd053201610c9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
@@ -134,7 +138,7 @@ hash = "ed796cce383f510153b4a5b008879cdc9ee959579fd73da822b8ba2efe735354"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "e6e446db5b5b8e3f20707c330c6f7c6309ae3dd77d6867a3fb06f76f67a9059a"
+hash = "5dde74745461110ac0527882ec41b52380170e49fc793ac18883681025763dbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -150,7 +154,7 @@ hash = "835e09c66f1c91822bbbd06b431dbcfd57a52839e313455d52193c82d4d54062"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "629dc8ea21b26bd0321f50a7740bbb7b513098e0031c9614cf1dfea7526aa493"
+hash = "e3e41a5afbecf4e19d04e400133528ab8a8f834dbca661413b50814006804ec2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
@@ -170,7 +174,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "150be41019935e3c34df4d16d69e2bbf9dc3f990efd0b59077931880286c00ef"
+hash = "f6173f26f454b36a15e3014ec8cd3b5c8c54df1ad7ea106d684584dad8252a83"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -186,7 +190,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "a33d442c6a1ae2d887cd3412655a8b2aed4a9a5e2f39c82919e6ccd824421918"
+hash = "3f9d791b56b78d1c639efa4f6bf0ea879afab7c576cd0d5c26b5b1d0a135aa99"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -202,7 +206,7 @@ hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "a67a5721f8774f74c7aa84962731a953192c35cbd1ac1cf09b2bc08ef7949ed6"
+hash = "5bf3992cdfdcfbde0aa8b6df55b12ea3aa8dccb8dbd21d7c023099ddaf060998"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1053,6 +1057,10 @@ file = "kubejs/server_scripts/gcyr/worldgen.js"
 hash = "a1b1511705b3eb120cfb8fae9f3da8db64567f22d9dedbfa49175e4d04b61789"
 
 [[files]]
+file = "kubejs/server_scripts/gregification/building_gadgets.js"
+hash = "f23e9443c22998f936a058ee69ce0e7eab4e64bfecfb0936f51f9e079601b29e"
+
+[[files]]
 file = "kubejs/server_scripts/gregification/clipboard.js"
 hash = "5f26d5d9289fb5cab291a098c79833c5f77b18064cba129dac2a46a5017046b5"
 
@@ -1110,7 +1118,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "e3dd059b841cec10dc699ea96e541ac653507567d36627df195e19f711bcd6c0"
+hash = "970f1e9c7a45c6797e04c17f3577581cfdc72ca31b83ecc27ccb9345f197e95d"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
@@ -1158,7 +1166,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "9e29026174694c1862a03b7d0be7b57203ae300d97cd830684292836b5b7b18c"
+hash = "340d45b28a99f3a64de920c70ba0f0b44844a83270c3fb9ee917bc0678ed2a3c"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"
@@ -1639,12 +1647,12 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "a1f0c6be468ea6c2dc9a0b228dd189ef024c5449a92106b11fbe00b237b3e72b"
+hash = "503b7b22396c2ae8f720bbba5e659b5618e1a99d3e14b51923afbd314da30025"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7172839c89fed8a57db7ea0fca1bf4305e2c76e15f2277a9e66e6c9aaace4374"
+hash = "53632bd1bded325bc255b1d219e4dd601a588a27b7862ce89d7e5159331faf77"
 metafile = true
 
 [[files]]
@@ -1699,7 +1707,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "7fc1653e0b9df75f9b0162206bed756db5048e1f6c4f6587baafb99dc656f12d"
+hash = "519405fe52918b18e86a006413f5dc503018131ad1d49fb007851f8d53ee15dc"
 metafile = true
 
 [[files]]
