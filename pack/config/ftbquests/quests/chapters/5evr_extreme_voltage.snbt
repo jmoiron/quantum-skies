@@ -734,7 +734,7 @@
 		{
 			dependencies: ["10163F0E75A4227C"]
 			description: [
-				"The simple &6Platinum&r acquisition from main &2GTCEu Modern&r has been replaced with the elaborate &5platinum processing chain&r from &2GTNH&r."
+				"The simple &6Platinum&r process from &2GTCEu Modern&r has been replaced with an elaborate &5platinum processing chain&r descendent from &2GTNH&r."
 				""
 				"The relevant materials coming from this process in &5EV&r are &6Platinum&r itself and &6Ruthenium&r, which is used in &eRTM Alloy&r, the next tier of &5coil&r. The rest of the chain becomes much more relevant in &1IV&r and &dLuV&r."
 				""

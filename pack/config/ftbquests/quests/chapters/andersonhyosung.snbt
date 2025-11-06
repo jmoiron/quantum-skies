@@ -25,7 +25,7 @@
 			id: "7E896A0B0D466DBE"
 			linked_quest: "222E7BE2CBBADAE4"
 			x: -5.0d
-			y: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "445D303A280C8FA3"
@@ -150,8 +150,8 @@
 				item: "gtceu:molybdenum_disilicide_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: -9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
@@ -210,7 +210,6 @@
 			dependencies: [
 				"100E54672FCCBEE6"
 				"4F13EBB0458E8180"
-				"2776EA649E43D833"
 				"634FC8CB49EB10B5"
 			]
 			description: [
@@ -231,26 +230,32 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["14DAADBA638FE4B6"]
+			dependencies: [
+				"14DAADBA638FE4B6"
+				"2776EA649E43D833"
+			]
 			id: "100E54672FCCBEE6"
 			tasks: [{
 				id: "36590B126B1CD1CD"
 				item: "gtceu:maraging_steel_300_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.5d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["222E7BE2CBBADAE4"]
+			dependencies: [
+				"222E7BE2CBBADAE4"
+				"2776EA649E43D833"
+			]
 			id: "4F13EBB0458E8180"
 			tasks: [{
 				id: "2D636D752D939C45"
 				item: "gtceu:incoloy_ma_956_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6DBFD1013B005FC5"]

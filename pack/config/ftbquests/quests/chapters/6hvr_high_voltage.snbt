@@ -1089,7 +1089,9 @@
 			description: [
 				"The &2angel ring&r enables &dcreative flight&r. It won't use any XP or power, but there's also nowhere to go and nothing to fight."
 				""
-				"You might find it very useful to be able to fly when you get to the &7Moon&r and other planets. Throwing this in your &2curios&r ring slot will allow you to fly even while wearing your spacesuit."
+				"You might find it very useful to be able to fly, both to assist in building your private island, and for exploring when you get to the &7Moon&r and other planets. "
+				""
+				"Throwing this in your &2curios&r ring slot will allow you to fly even while wearing your spacesuit. If you are a purist, you're welcome to use the &aspace suit smithing template&r to upgrade some nano armor to fly in space."
 			]
 			id: "33EBD9044F4650ED"
 			tasks: [{

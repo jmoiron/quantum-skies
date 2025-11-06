@@ -32,6 +32,11 @@ ServerEvents.recipes(event => {
     event.remove({id: "gtceu:chemical_reactor/pgs_from_chalcocite"})
     event.remove({id: "gtceu:chemical_reactor/pgs_from_bornite"})
     event.remove({id: "gtceu:chemical_reactor/pgs_from_chalcopyrite"})
+    event.remove({id: "gtceu:large_chemical_reactor/pgs_from_chalcopyrite"})
+    event.remove({id: "gtceu:large_chemical_reactor/pgs_from_chalcocite"})
+    event.remove({id: "gtceu:large_chemical_reactor/pgs_from_tetrahedrite"})
+    event.remove({id: "gtceu:large_chemical_reactor/pgs_from_pentlandite"})
+    event.remove({id: "gtceu:large_chemical_reactor/pgs_from_bornite"})
 
     // remove pre-mars/venus source of tungsten
     event.remove({id: "gtceu:macerator/macerate_end_stone"})
@@ -65,8 +70,6 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:ilmenite_dust", 100, 10)
         .EUt(1920)
         .duration(200);
-
-    // this recipe invalidates the rest of the rhodium line
 
     // gtec-ex fix for sifting changes the platinum line slightly
     // qs made salt -> metallic powder, but in gtec, salt -> refined salt -> metallic powder
