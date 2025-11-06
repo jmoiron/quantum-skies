@@ -301,10 +301,6 @@ file = "config/modernfix-common.toml"
 hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
-file = "config/modernfix-mixins.properties"
-hash = "b5f8434aac38c2cbcffd5f6d232c9171239f42c5d10ce25210d601b883a9e321"
-
-[[files]]
 file = "config/panorama.json"
 hash = "9dcb9e79705a300598ae31c57233ad68f00057f5c4e2e51b520e3d214a1efeda"
 
