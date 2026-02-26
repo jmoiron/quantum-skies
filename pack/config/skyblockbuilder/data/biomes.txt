@@ -11,11 +11,16 @@ gcyr:ganymede_ice_plains
 gcyr:ganymede_rift_valley
 gcyr:io_basalt_deltas
 gcyr:io_wastes
+gcyr:lunar_mare
+gcyr:lunar_plains
 gcyr:martian_canyon_creek
 gcyr:martian_polar_caps
 gcyr:martian_wastelands
 gcyr:mercury_deltas
-gcyr:moon
+gcyr:proxima_centauri_b_middle
+gcyr:proxima_centauri_b_opp_side
+gcyr:proxima_centauri_b_star_side
+gcyr:proxima_centauri_b_underground
 gcyr:space
 gcyr:venus_barren_plains
 gcyr:venus_eroded_plains

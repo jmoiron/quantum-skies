@@ -33,6 +33,9 @@ gcyr:ganymede_brine_pools
 gcyr:ganymede_groove_ridges
 gcyr:io_basalt_spike
 gcyr:io_lava_pools
+gcyr:lunar_mare_crater
+gcyr:lunar_plains_crater
+gcyr:moon_rocks
 gtceu:marble_blob
 gtceu:raw_oil_sprout
 gtceu:red_granite_blob

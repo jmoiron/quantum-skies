@@ -106,7 +106,8 @@ ServerEvents.recipes(event => {
       .itemOutputs("gtceu:marble")
       .EUt(GTValues.VHA[GTValues.HV])
       .duration(16)
-      ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
+      .adjacentFluidTag("minecraft:lava", "minecraft:water")
+      // ["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
 
 
     event.remove({mod: "angelring"});

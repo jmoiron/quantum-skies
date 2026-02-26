@@ -15,6 +15,7 @@ gcyr:mercury_orbit
 gcyr:neptune_orbit
 gcyr:oberon
 gcyr:overworld_orbit
+gcyr:proxima_centauri_b
 gcyr:saturn_orbit
 gcyr:titan
 gcyr:titania

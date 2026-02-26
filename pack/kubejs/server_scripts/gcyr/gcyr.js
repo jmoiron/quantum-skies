@@ -96,6 +96,8 @@ ServerEvents.recipes(event => {
     );
 
     // the builtin electrolizer decomposition creates more than what you get
+
+    /*
     event.remove({id: "gtceu:electrolyzer/decomposition_electrolyzing_co_mn_br_catalyst"});
 
     greg.electrolyzer("decomposition_electrolyzing_co_mn_br_catalyst_fixed")
@@ -104,6 +106,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gcyr:cobalt_bromide 1000")
         .EUt(60)
         .duration(140);
+    */
 
     // lower tier of some recipes to make moon available at HV
     event.remove({id: "gcyr:chemical_bath/fiberglass"});
@@ -293,13 +296,14 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(2000);
 
-    event.remove({id: "gcyr:chemical_reactor/hydrobromic_acid"});
+
+    //event.remove({id: "gcyr:chemical_reactor/hydrobromic_acid"});
 
     greg.chemical_reactor("hydrobromic_acid_deplatinumed")
         .inputFluids("gtceu:hydrogen 1000")
         .inputFluids("gtceu:bromine 1000")
         .inputFluids("minecraft:water 1000")
-        .outputFluids("gcyr:hydrobromic_acid 1000")
+        .outputFluids("gtceu:hydrobromic_acid 1000")
         .EUt(GTValues.VA[GTValues.HV])
         .duration(100);
 

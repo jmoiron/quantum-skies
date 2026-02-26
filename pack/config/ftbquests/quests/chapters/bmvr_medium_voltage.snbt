@@ -526,13 +526,18 @@
 			description: [
 				"The &dLarge Bronze Boiler&r is the first in a succession of large, multi-block boilers."
 				""
-				"They &cchew&r through fuel, but produce large amounts of steam.  The &dLBB&r produces 800mb/t, equivalent to 400EU/t or a little over 3 &6MV&r amps."
+				"Large boilers produce large amounts of steam. The &dLBB&r produces 800mb/t, equivalent to 400EU/t or a little over 3 &bMV&r amps."
 				""
-				"&6Lava&r is a tempting fuel source, but you will need to produce 1 bucket every 3.5 seconds, which would require 72 crucibles or 12 large crucibles."
+				"Since a rebalance in &2GregTech 7.5.x&r, large boilers have &bmuch&r better fuel economy than small boilers, with &clava&r producing 6.6x more steam per bucket. Compared to previous versions, a bucket of lava lasts &a32x&r longer in an &dLBB&r than it used to."
 				""
-				"Steam may feel comfortable, but it's &ehighly&r recommended that you go with a turbine fuel (like &6Benzene&r) or a combustion fuel (like &6Light Fuel&r or &6Diesel&r) as soon as you can."
+				"Like with small boilers, &6creosote&r is no longer viable, but &clava&r should work fine."
+				""
+				"This rework significantly alters the viability of steam power, with a couple &dLBB&r's now being somewhat viable into early &6HV&r."
+				""
+				"HOWEVER, pushing that much steam around is expensive, so it's still &ehighly&r recommended that you start to migrate toward a turbine fuel (like &6Benzene&r) or a combustion fuel (like &6Light Fuel&r or &6Diesel&r) as soon as you can."
 			]
 			id: "592A0965509B948F"
+			min_width: 250
 			optional: true
 			tasks: [{
 				id: "341905D1C386B694"

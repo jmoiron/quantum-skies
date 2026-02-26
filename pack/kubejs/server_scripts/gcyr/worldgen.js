@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     // breakin blocks
     const blocks = [
         // io
-        "sulfuric_pumice", "cryo_sulfur_deposit", "tidal_fractured_peridotite",
+        "sulfuric_pumice", "cryo_sulfur_deposit",
         "plasma_tempered_basalt", "io_volcanic_ash", "pyroclastic_regolith", "lava_skylight_crust",
         // europa
         // ganymede
@@ -22,6 +22,12 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VHA[GTValues.MV])
             .duration(20*4);
     })
+
+    greg.macerator("peridotite_to_dust")
+        .itemInputs("kubejs:tidal_fractured_peridotite")
+        .itemOutputs("4x gtceu:peridotite_dust")
+        .EUt(GTValues.VHA[GTValues.MV])
+        .duration(20*4);
 
     greg.macerator(`pyroclastic_clean_regolith_to_dust`)
         .itemInputs("kubejs:pyroclastic_clean_regolith")

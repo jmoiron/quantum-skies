@@ -5,7 +5,7 @@
     "settings": "gcyr:luna",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "gcyr:moon"
+      "biome": "gcyr:lunar_plains"
     }
   }
 }

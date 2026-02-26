@@ -1,12 +1,12 @@
 name = "quantum-skies"
 author = "jmoiron"
-version = "0.7.6"
+version = "0.8.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c3b47abe60874934a728e813db9462f089402baf04cd6cba6f834f1d33915c60"
+hash = "d863abbe8de97fc999676edeb9c38e8296c840ba932e48e6ffab3c56bcc9a064"
 
 [versions]
 forge = "47.4.0"

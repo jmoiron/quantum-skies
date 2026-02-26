@@ -1,13 +1,13 @@
 name = "Gregtech Steam Additions"
-filename = "steamadditions-1.5.1.jar"
+filename = "steamadditions-1.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "aa42f53fd2090f3b81c6f3c96070236bb88afdeb"
+hash = "5874f81827d90580205ff27a3fd24ea93c12a79a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6925239
+file-id = 7616827
 project-id = 1008510
