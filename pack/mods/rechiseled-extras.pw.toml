@@ -1,13 +1,13 @@
 name = "Rechiseled Extras"
-filename = "rechiseled_extras-1.0.0.jar"
+filename = "rechiseled_extras-1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "154943a8c46e611137db844c943c37ec2b8cbe8a"
+hash = "7361fe650feccd4ec20337e03e663c10bddb3d26"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7676866
+file-id = 7683889
 project-id = 1471604

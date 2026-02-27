@@ -222,7 +222,7 @@ hash = "285297ae10e71d354174ecf3176c710563049fa362ba7772dc3d281a81fd49e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "a87b4b79c18164687fe798743d8a21f8d4c588b6ba674ecf0ad40203f996768a"
+hash = "325ec698ff37abc0d7754e6b5d42cd5ecec8096b925d25f0fda821c625f2b246"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -1820,7 +1820,7 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-extras.pw.toml"
-hash = "a0c0564a8d95e5c3d1a5f21d4114480349f6e71fdf147336461d564defd981e3"
+hash = "88c4eb5d30b2fa3102e05ceb780b9663b4042c2a94df538dbf629f5c66033247"
 metafile = true
 
 [[files]]
