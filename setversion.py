@@ -13,6 +13,7 @@ import re
 
 PACK_CFG_PATH = "pack/pack.toml"
 INTRO_PATH = "pack/config/ftbquests/quests/chapters/introduction.snbt"
+MAKEFILE_PATH = "Makefile"
 
 
 def get_version(path=PACK_CFG_PATH):
@@ -39,6 +40,12 @@ def main():
         subre = re.compile(r'subtitle: "&aQuantum Skies&r v(.+)"')
         text = subre.sub(vs, text)
     with open(INTRO_PATH, "w") as f:
+        f.write(text)
+    with open(MAKEFILE_PATH) as f:
+        text = f.read()
+        makere = re.compile(r'^VERSION := .+$', re.MULTILINE)
+        text = makere.sub("VERSION := %s" % version, text)
+    with open(MAKEFILE_PATH, "w") as f:
         f.write(text)
 
 
