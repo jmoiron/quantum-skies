@@ -1537,6 +1537,11 @@ hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
 metafile = true
 
 [[files]]
+file = "mods/gcyr-extras.pw.toml"
+hash = "587d2b68b94d925bc661a90d19cb55dede9fecec5332db7f68e8cfea7b27dfaa"
+metafile = true
+
+[[files]]
 file = "mods/gcyr.pw.toml"
 hash = "d8352baa5bb6d7e4da4a961127ab159104fbb2506014c3ce6c79fd7dd739bce1"
 metafile = true

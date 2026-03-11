@@ -1,0 +1,13 @@
+name = "Gregicality Rocketry Extras"
+filename = "gcyrextras-1.20.1-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2f6ed8f2afc8028fe69db1cb95cbef0727cb8b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7711546
+project-id = 1477772
