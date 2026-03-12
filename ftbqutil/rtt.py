@@ -3,7 +3,6 @@
 
 """round trip snbt through the parser"""
 
-
 from snbt import grammar, dump
 from argparse import ArgumentParser
 
@@ -16,7 +15,4 @@ with open(args.path) as f:
     s = f.read()
     obj = grammar.parse_snbt(s)
     print(dump.SnbtSerializer(use_tabs=True).dumps(obj))
-
-
-
 
