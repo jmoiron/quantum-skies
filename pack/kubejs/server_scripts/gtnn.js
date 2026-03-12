@@ -4,6 +4,8 @@ const PlantCasingCondition = Java.loadClass("dev.arbor.gtnn.common.recipe.PlantC
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
+    event.remove({id: "gtceu:large_chemical_reactor/hydrogen_peroxide"})
+    event.remove({id: "gtceu:chemical_reactor/hydrogen_peroxide"})
 
     event.remove({id: "gtceu:chemical_plant/rp_1_mixed_fuel"})
     greg.chemical_plant("rp_1_mixed_fuel")
