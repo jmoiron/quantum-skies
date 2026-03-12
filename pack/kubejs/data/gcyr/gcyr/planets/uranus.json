@@ -4,7 +4,7 @@
   "solar_system": "gcyr:solar_system",
   "world": "gcyr:uranus",
   "orbit_world": "gcyr:uranus_orbit",
-  "rocket_tier": 3,
+  "rocket_tier": 5,
   "gravity": 24.79,
   "has_atmosphere": true,
   "days_in_year": 30688,
