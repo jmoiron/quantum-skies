@@ -37,6 +37,9 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(900);
 
+    event.replaceInput({id: "gtceu:shaped/rocket_engine_ev"}, "gtceu:tungsten_steel_gear", "gtceu:titanium_gear");
+    event.replaceInput({id: "gtceu:shaped/rocket_engine_iv"}, "gtceu:titanium_gear", "gtceu:tungsten_steel_gear");
+
     greg.chemical_plant("nitrogen_tetroxide_synthesis")
         .addCondition(PlantCasingCondition(PlantCasingCondition.STAINLESS_STEEL))
         .inputFluids("gtceu:nitric_acid 2000")
