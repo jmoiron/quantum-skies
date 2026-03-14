@@ -851,11 +851,13 @@
 		{
 			dependencies: ["12E4C027A4352B1C"]
 			description: [
-				"The &2lunar surface drill&r is your first source of &6tungsten&r, a dense metal that is required in large amounts in late &5EV&r and throughout &1IV&r."
+				"The &2lunar surface drill&r is primitive space infrastructure capable of drilling for minerals on the moon."
 				""
-				"The &2LSD&r takes &edrilling fluid&r and &6drill heads&r as input, and has a chance of producing a variety of ores, including &6scheelite&r and &6tungstate&r."
+				"The &2LSD&r requires &edrilling fluid&r and &6drill heads&r to function, and such is the stress of the drilling that there's a chance the heads will wear out after use."
 				""
 				"Better &6drill heads&r yield more ores and have less of a chance of breaking down."
+				""
+				"Due to the heavy meteor bombardment on the moon, this is a source of &aMoissanite&r, your only way of making &bSilicon Carbide&r before &1IV&r."
 			]
 			id: "10A8D82626E851C8"
 			rewards: [{
