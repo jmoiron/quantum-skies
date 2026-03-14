@@ -10,53 +10,49 @@
 		{
 			id: "4F9902DFA8E9AD1E"
 			linked_quest: "2776EA649E43D833"
-			size: 1.25d
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			id: "328AF3B79D59A154"
-			linked_quest: "10A8D82626E851C8"
-			size: 1.25d
-			x: -12.5d
-			y: -3.0d
+			x: -9.5d
+			y: -6.0d
 		}
 		{
 			id: "7E896A0B0D466DBE"
 			linked_quest: "222E7BE2CBBADAE4"
-			x: -5.0d
+			x: -6.5d
 			y: -4.5d
 		}
 		{
 			id: "445D303A280C8FA3"
 			linked_quest: "232BBD7ABE751B56"
-			x: -2.0d
-			y: -4.5d
+			x: -5.0d
+			y: -9.0d
 		}
 		{
 			id: "3647EDAD3B60C409"
 			linked_quest: "6DBFD1013B005FC5"
-			x: 1.0d
-			y: -6.0d
+			x: -2.0d
+			y: -10.5d
 		}
 		{
 			id: "3D67116E52AE1FDC"
 			linked_quest: "5F5867CA3A8803F6"
 			size: 1.25d
-			x: -0.5d
-			y: 0.0d
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			id: "5AD748EC01F1830E"
+			linked_quest: "0C584EE0F802DFD9"
+			x: -9.5d
+			y: -3.0d
 		}
 	]
 	quests: [
 		{
 			description: [
-				"The &7Moon&r, despite being made out of a chunk of the &aEarth&r, is rich in minerals that are difficult to access back home. It probably helps that there's &o&eland&r here."
+				"While there are normal ore veins on some of the rocky worlds in this solar system, probing deeper into their interiors can yield more valuable and more esoteric minerals."
 				""
-				"The &6Apollo 11&r mission brought back samples from the moon, but by &6Apollo 15&r they were bringing the &2Lunar Surface Drill&r with them. "
+				"The &7Moon&r, despite being made out of a chunk of the &aEarth&r, is rich in minerals that are difficult to access back home. It probably helps that there's still &o&eland&r."
 				""
-				"Building something like that probably makes good sense."
-				""
-				"If you could find some &atungsten&r, you would be able to make a &o&emuch better&r drill capable of reaching the &9planet core&r."
+				"&cMars&r and &eVenus&r have trace grains of the essence required to forge &anether stars&r."
 			]
 			icon: "minecraft:hopper_minecart"
 			id: "1E57A673B103CB91"
@@ -69,8 +65,8 @@
 				type: "checkmark"
 			}]
 			title: "Space Miners"
-			x: -12.5d
-			y: -5.5d
+			x: -10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
@@ -80,8 +76,8 @@
 				item: "gtceu:tantalum_carbide_ingot"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -4.5d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -117,8 +113,8 @@
 				type: "item"
 			}]
 			title: "Tungsten Yielding Ores"
-			x: -11.0d
-			y: -3.0d
+			x: -12.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
@@ -128,8 +124,8 @@
 				item: "gtceu:tungsten_carbide_ingot"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.5d
+			x: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["74CD924FA666E6D8"]
@@ -139,8 +135,8 @@
 				item: "gtceu:hsla_steel_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
@@ -150,8 +146,8 @@
 				item: "gtceu:molybdenum_disilicide_ingot"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.0d
+			x: -11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["541ADBEBFED70B7F"]
@@ -161,38 +157,27 @@
 				item: "gtceu:titanium_carbide_ingot"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["36A1B71C1A6304D4"]
-			id: "12E4C027A4352B1C"
-			tasks: [{
-				id: "572DA005A1C8ECAF"
-				item: "gtceu:titanium_drill_head"
-				type: "item"
-			}]
-			x: -14.0d
-			y: -3.0d
+			x: -9.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["33B6F60F71DA7F4D"]
 			description: [
-				"A &2mudpit&r is a literal pit where drill lubricant is prepared."
+				"Drill lubricant is colloquially called \"mud\", and a &2mudpit&r is just a literal pit where drilling mud is prepared."
 				""
-				"This &2mudpit&r is slightly sophisticated."
+				"This &2mudpit&r is maybe &oslightly&r more sophisticated."
 				""
-				"&2Planetary core drill&r lubricants must be produced on site, so in order to create &6diesel-oil mud&r you will need to set up your pit on the &7moon&r."
+				"&2Planetary core drill&r lubricants must be produced on site, so creating &6diesel-oil mud&r requires you to be on the &7Moon&r and creating &aOlefin Mud&r requires you to be on either &cMars&r or &eVenus&r."
 			]
 			id: "144BAF5DCE025AD7"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "Ridin' dirty"
 			tasks: [{
 				id: "710939056FA69254"
 				item: "gtceu:mudpit"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -6.0d
 		}
 		{
@@ -203,31 +188,8 @@
 				item: "gtceu:watertight_casing"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: -6.0d
-		}
-		{
-			dependencies: [
-				"100E54672FCCBEE6"
-				"4F13EBB0458E8180"
-				"634FC8CB49EB10B5"
-			]
-			description: [
-				"The &2planetary core drill&r is a very large multiblock that produces resources by drilling deep under a planet's crust."
-				""
-				"This requires &especial drilling fluid&r capable of withstanding the high pressures and temperatures seen by the drill."
-				""
-				"If placing this is daunting, you should consider investing in a &aTerminal&r."
-			]
-			id: "57AEEEF7367C3432"
-			size: 1.25d
-			tasks: [{
-				id: "5927F3A1E2BC9CC9"
-				item: "gtceu:planetary_core_drill"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -240,8 +202,8 @@
 				item: "gtceu:maraging_steel_300_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -254,7 +216,7 @@
 				item: "gtceu:incoloy_ma_956_ingot"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: -4.5d
 		}
 		{
@@ -265,8 +227,8 @@
 				item: "gtceu:hot_heavy_oil_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: -3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -283,13 +245,10 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -4.5d
+			y: -7.5d
 		}
 		{
-			dependencies: [
-				"57AEEEF7367C3432"
-				"18E1960D8F093DBC"
-			]
+			dependencies: ["18E1960D8F093DBC"]
 			description: [
 				"Unlike the &2lunar surface drill&r, the &2planetary core drill&r can be fully automated and produce lunar resources endlessly. "
 				""
@@ -297,7 +256,7 @@
 				""
 				"This will yield &6ores&r and &7regolith&r, and has a chance of returning the lubricant in a &chot&r form that can be cooled with a &2vacuum freezer&r."
 				""
-				"This is the only way to generate a continuous supply of &dtitanium&r, &eplatinum&r and &alanthanides&r, although a lunar &2PCD&r isn't technically required for progression."
+				"The Moon is the a good source of &dtitanium&r, &eplatinum&r, and &alanthanides&r, but drilling the core is your only source of &7bedrock dust&r."
 			]
 			id: "5B27C24236868566"
 			shape: "gear"
@@ -323,9 +282,9 @@
 				}
 				type: "item"
 			}]
-			title: "Automated Lunar Resources"
-			x: -3.5d
-			y: -3.0d
+			title: "Lunar Resources"
+			x: -0.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["75E3D0F660CE6492"]
@@ -335,8 +294,8 @@
 				item: "gtceu:lubricating_oil_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2A138980BAF54A92"]
@@ -346,8 +305,8 @@
 				item: "gtceu:ethylene_glycol_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: -5.0d
+			y: -10.5d
 		}
 		{
 			id: "2A138980BAF54A92"
@@ -356,8 +315,8 @@
 				item: "gtceu:ethylene_oxide_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -6.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["75E3D0F660CE6492"]
@@ -367,11 +326,11 @@
 				item: "gtceu:bitumen_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -2.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["18E1960D8F093DBC"]
+			dependencies: ["5B27C24236868566"]
 			description: [
 				"You can &9cool&r &6hot Diesel-Oil mud&r in a &2vacuum freezer&r, but it appears that some trace amounts of an unusually tough material have come up with the drill."
 				""
@@ -383,8 +342,8 @@
 				item: "gtceu:hot_diesel_oil_mud_slurry_bucket"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: 1.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3F488C7A375785FA"]
@@ -395,8 +354,166 @@
 				item: "gtceu:bedrock_dust"
 				type: "item"
 			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1434B5BACC58A7E7"
+				"1BD4AD579D6BA5AB"
+				"46D6A92676C491BB"
+				"144BAF5DCE025AD7"
+			]
+			description: [
+				"Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."
+				""
+				"You can use the same mud on both &cmars&r and &evenus&r, so you only need to set up one &2mudpit&r provided that you've decided to embrace your many trans-dimensional fluid transfer options."
+			]
+			id: "7A03F2C5F143725F"
+			tasks: [{
+				id: "350BF4235BE9C2C2"
+				item: "gtceu:poly_alpha_olefin_mud_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The &6fluorine&r that you put into &6Boron Trifluoride&r will be recycled, but only a small amount of &6Boron&r will come back out of this process."
+				""
+				"You can get &6boron&r by processing &6Lepidolite&r, or by processing the &6borax&r you get from processing &9salts&r."
+			]
+			id: "489C452F0518740F"
+			tasks: [{
+				id: "208134BE51463C71"
+				item: "gtceu:boron_trifluoride_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"489C452F0518740F"
+				"3FB74466FA2E1BED"
+			]
+			id: "5E3CD223F0CABD5B"
+			tasks: [{
+				id: "086703C7A8222061"
+				item: "gtceu:i_decene_olefin_sludge_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: ["&9Olefin Mud&r is a synthetic lubricant that's based on &eolefins&r, which are a class of hydrocarbon chain.  Olefins are ultimately based on &6Ethylene&r, but the one we'll use as a base is &6Decene&r."]
+			id: "3FB74466FA2E1BED"
+			tasks: [{
+				id: "209460A0698261FA"
+				item: "gtceu:i_decene_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E3CD223F0CABD5B"]
+			description: [""]
+			id: "26912B524697455A"
+			tasks: [
+				{
+					id: "61C11043907A3F16"
+					item: "gtceu:i_decene_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "2318E040AB311BE1"
+					item: "gtceu:hydrogenated_i_decene_solution_bucket"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26912B524697455A"]
+			id: "46D6A92676C491BB"
+			tasks: [{
+				id: "26764E673A73E86D"
+				item: "gtceu:i_decene_tetramer_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "08CB61E78195592C"
+			tasks: [{
+				id: "0163E71902DF75DC"
+				item: "gtceu:ethylene_oxide_bucket"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["08CB61E78195592C"]
+			id: "1BD4AD579D6BA5AB"
+			tasks: [{
+				id: "11C0FDE813A207B2"
+				item: "gtceu:ethylene_glycol_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "1434B5BACC58A7E7"
+			tasks: [{
+				id: "25D874E19F587802"
+				item: "gtec:calcium_fluoride_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A03F2C5F143725F"]
+			id: "0A1CDB60D3F7C075"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "07D8D568AB4467A2"
+					item: "gtceu:martian_nether_dust"
+					type: "item"
+				}
+				{
+					id: "36E02B4D117B3531"
+					item: "gtceu:venusian_star_dust"
+					type: "item"
+				}
+			]
+			title: "Martian and Venusian Resources"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"438972F698DDFEDF"
+				"0A1CDB60D3F7C075"
+			]
+			id: "2EECEEE8B57DC6D7"
+			size: 1.0d
+			tasks: [{
+				id: "44018A725D5271AC"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Anderson-Hyosung Cooperative Industries"]

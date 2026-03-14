@@ -6,12 +6,27 @@
 	icon: "gcyr:ore_finder_satellite"
 	id: "41DE684064D9010B"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "587AF35A264C3036"
+			linked_quest: "1D93E204810369AE"
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			id: "7FA4DACFECF9DA51"
+			linked_quest: "0C584EE0F802DFD9"
+			size: 1.5d
+			x: 17.5d
+			y: -7.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
 				"475DD68AD1548E21"
 				"42AB9784794AC169"
+				"1D93E204810369AE"
 			]
 			id: "392BA4AE76FC60A7"
 			size: 1.25d
@@ -27,6 +42,7 @@
 			dependencies: [
 				"475DD68AD1548E21"
 				"42AB9784794AC169"
+				"1D93E204810369AE"
 			]
 			id: "31CFAEF1267DE4D2"
 			size: 1.25d
@@ -395,87 +411,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"714A44034954167C"
-				"4E82FF7DAE20E3A5"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"The &2Planetary Core Drill&r is a large multiblock drill that extracts materials from the core of a planet. It will produce those materials endlessly provided &epower&r and &dlubricant&r."
-				""
-				"Unfortunately, ordinary &9drilling fluid&r will not hold up to the extreme conditions near the core. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
-				""
-				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
-			]
-			icon: "gtceu:planetary_core_drill"
-			id: "60C017745110DAA0"
-			size: 1.5d
-			subtitle: "To the core!"
-			tasks: [{
-				id: "3D9ED5C22B12C6CB"
-				title: "Planetary Core Drill"
-				type: "checkmark"
-			}]
-			x: 17.5d
-			y: -7.5d
-		}
-		{
-			id: "1434B5BACC58A7E7"
-			tasks: [{
-				id: "25D874E19F587802"
-				item: "gtec:calcium_fluoride_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["695FA3DE16E660DF"]
-			id: "1BD4AD579D6BA5AB"
-			tasks: [{
-				id: "11C0FDE813A207B2"
-				item: "gtceu:ethylene_glycol_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["323ABB6C57636F86"]
-			id: "3F25BB3DAEAD7933"
-			tasks: [{
-				id: "0E168839EDB0F052"
-				item: "gtceu:i_decene_tetramer_bucket"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"1434B5BACC58A7E7"
-				"1BD4AD579D6BA5AB"
-				"3F25BB3DAEAD7933"
-			]
-			description: [
-				"Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."
-				""
-				"You can use the same mud on both &cmars&r and &evenus&r, so you only need to set up one &2mudpit&r provided that you've decided to embrace your many trans-dimensional fluid transfer options."
-			]
-			id: "435C1647875291B2"
-			tasks: [{
-				id: "1BB0B84D7E0EC91B"
-				item: "gtceu:poly_alpha_olefin_mud_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"60C017745110DAA0"
-				"435C1647875291B2"
-			]
+			dependencies: ["0C584EE0F802DFD9"]
 			id: "438972F698DDFEDF"
 			tasks: [
 				{
@@ -504,75 +440,6 @@
 			}]
 			x: 20.5d
 			y: -7.5d
-		}
-		{
-			id: "695FA3DE16E660DF"
-			tasks: [{
-				id: "17BFF85DC777E449"
-				item: "gtceu:ethylene_oxide_bucket"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -3.0d
-		}
-		{
-			description: ["&9Olefin Mud&r is a synthetic lubricant that's based on &eolefins&r, which are a class of hydrocarbon chain.  Olefins are ultimately based on &6Ethylene&r, but the one we'll use as a base is &6Decene&r."]
-			id: "30301D2127D95EDE"
-			tasks: [{
-				id: "01215899386F9A2C"
-				item: "gtceu:i_decene_bucket"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"30301D2127D95EDE"
-				"7F2AE9B6763A60DB"
-			]
-			id: "4453BE89F75D58C2"
-			tasks: [{
-				id: "778F9813824D3F55"
-				item: "gtceu:i_decene_olefin_sludge_dust"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -3.0d
-		}
-		{
-			description: [
-				"The &6fluorine&r that you put into &6Boron Trifluoride&r will be recycled, but only a small amount of &6Boron&r will come back out of this process."
-				""
-				"You can get &6boron&r by processing &6Lepidolite&r, or by processing the &6borax&r you get from processing &9salts&r."
-			]
-			id: "7F2AE9B6763A60DB"
-			tasks: [{
-				id: "716B636F2C7593FB"
-				item: "gtceu:boron_trifluoride_bucket"
-				type: "item"
-			}]
-			x: 14.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4453BE89F75D58C2"]
-			description: [""]
-			id: "323ABB6C57636F86"
-			tasks: [
-				{
-					id: "4954B361B83F5D55"
-					item: "gtceu:i_decene_solution_bucket"
-					type: "item"
-				}
-				{
-					id: "3DF96E46966398B7"
-					item: "gtceu:hydrogenated_i_decene_solution_bucket"
-					type: "item"
-				}
-			]
-			x: 17.5d
-			y: -3.0d
 		}
 		{
 			description: [

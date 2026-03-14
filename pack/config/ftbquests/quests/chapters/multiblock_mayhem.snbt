@@ -828,12 +828,17 @@
 				"714A44034954167C"
 				"4E82FF7DAE20E3A5"
 				"10A8D82626E851C8"
+				"100E54672FCCBEE6"
+				"634FC8CB49EB10B5"
+				"4F13EBB0458E8180"
 			]
 			dependency_requirement: "one_completed"
 			description: [
 				"The &2Planetary Core Drill&r is a large multiblock drill that extracts materials from the core of a planet. It will produce those materials endlessly provided &epower&r and &dlubricant&r."
 				""
 				"Unfortunately, ordinary &9drilling fluid&r will not hold up to the extreme conditions near the core. You will need to craft dimension-specific &ddrilling mud&r on site using a &2Mudpit&r, a specialized multiblock mixer."
+				""
+				"If placing such a large multiblock seems daunting,  you might want to invest in a &aTerminal&r."
 				""
 				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
 			]
@@ -849,9 +854,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["12E4C027A4352B1C"]
+			dependencies: ["46EF29BAEA8E81E2"]
 			description: [
-				"The &2lunar surface drill&r is primitive space infrastructure capable of drilling for minerals on the moon."
+				"The &6Apollo 11&r mission brought back samples from the moon, but by &6Apollo 15&r they were bringing the &2Lunar Surface Drill&r with them."
+				""
+				"The &2Lunar Surface Drill&r is primitive space infrastructure capable of drilling for minerals on the moon."
 				""
 				"The &2LSD&r requires &edrilling fluid&r and &6drill heads&r to function, and such is the stress of the drilling that there's a chance the heads will wear out after use."
 				""
@@ -885,6 +892,24 @@
 			}]
 			x: 2.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["174CEACF8A92FDC3"]
+			description: [
+				"The &2Vehicle Assembly Building&r, affectionately known as the &2VAB&r, is a large multiblock structure that specializes in the construction of rocketry components."
+				""
+				"For some reason, rocket components require &crocket fuel&r to construct. Don't worry, these rocket fuels are useful for generating pwoer in &2rocket engine generators&r and for powering your &6rockets&r."
+			]
+			id: "0DD35B7A23101B0D"
+			size: 1.0d
+			subtitle: "It's a VAB"
+			tasks: [{
+				id: "54917CF31E78873B"
+				item: "gtceu:vehicle_assembly_building"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
 		}
 	]
 	title: "Multiblock Mayhem"

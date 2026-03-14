@@ -17,8 +17,8 @@
 			id: "511DD9ED38D72B9F"
 			linked_quest: "52AD249F52432AF5"
 			size: 1.25d
-			x: 6.0d
-			y: -10.0d
+			x: 7.5d
+			y: -5.5d
 		}
 		{
 			id: "03BCE335F9718B30"
@@ -26,30 +26,26 @@
 			x: -4.5d
 			y: -13.0d
 		}
+		{
+			id: "5FF89EFDFE2FAF9B"
+			linked_quest: "10A8D82626E851C8"
+			size: 1.25d
+			x: 6.0d
+			y: -11.5d
+		}
+		{
+			id: "7817CA74EA3E9E04"
+			linked_quest: "0DD35B7A23101B0D"
+			size: 1.25d
+			x: 4.5d
+			y: -5.5d
+		}
 	]
 	quests: [
 		{
-			dependencies: ["174CEACF8A92FDC3"]
-			description: [
-				"The &2Vehicle Assembly Building&r, affectionately known as the &2VAB&r, is a large multiblock structure that specializes in the construction of rocketry components."
-				""
-				"For some reason, rocket components require &crocket fuel&r to construct."
-			]
-			id: "709DA8BA1D1ABC16"
-			size: 1.25d
-			subtitle: "It's a VAB"
-			tasks: [{
-				id: "4663DEC8AB0AD1E0"
-				item: "gtceu:vehicle_assembly_building"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -5.5d
-		}
-		{
 			dependencies: [
-				"709DA8BA1D1ABC16"
 				"0F62B838EB8BE9EF"
+				"0DD35B7A23101B0D"
 			]
 			description: [
 				"&6Rocket Engines&r are something else; to get to space, you need &9rocket motors&r. Just don't think too hard about that terminology."
@@ -67,8 +63,8 @@
 		}
 		{
 			dependencies: [
-				"709DA8BA1D1ABC16"
 				"0F62B838EB8BE9EF"
+				"0DD35B7A23101B0D"
 			]
 			description: [
 				"The &9basic fuel tank&r is capable of holding 5000mb of fuel."
@@ -176,7 +172,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["709DA8BA1D1ABC16"]
+			dependencies: ["0DD35B7A23101B0D"]
 			description: ["If you want to sit on your rocket, you're going to need a &6seat&r."]
 			id: "004CEF5B489EB762"
 			tasks: [{
@@ -221,7 +217,7 @@
 				type: "item"
 			}]
 			title: "Mining"
-			x: 8.5d
+			x: 7.5d
 			y: -8.5d
 		}
 		{
@@ -307,7 +303,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -11.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -332,7 +328,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -13.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["6C114A2C08AA55C2"]
@@ -376,7 +372,7 @@
 				item: "gcyr:para_xylene_bucket"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: -13.0d
 		}
 		{
@@ -643,8 +639,8 @@
 				item: "gtceu:rp_1_mixed_fuel_bucket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -10.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -663,8 +659,8 @@
 				item: "gcyr:rocket_scanner"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.0d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			description: [
@@ -684,8 +680,8 @@
 				title: "The Apollo Program"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -13.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -748,8 +744,8 @@
 				item: "gtceu:hydrobromic_acid_bucket"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.0d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["483DB4F012FE9B17"]
@@ -1004,6 +1000,51 @@
 			}]
 			x: -1.5d
 			y: -7.0d
+		}
+		{
+			dependencies: [
+				"36A1B71C1A6304D4"
+				"500F47921DD51C83"
+			]
+			id: "46EF29BAEA8E81E2"
+			tasks: [{
+				id: "0AA7D77FFA0CE189"
+				item: "gtceu:titanium_drill_head"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["10A8D82626E851C8"]
+			description: [
+				"&9Silicon carbide&r is a versatile and heat-resistant ceramic usable for a wide array of applications."
+				""
+				"Nearly all silicon carbide is created artificially, but doing so requires &9RTM&r &2EBF&r coils you can't make until you get &6Tungsten&r."
+				""
+				"To work around this chicken and egg problem, you can process the &amoissanite&r ore you get from the &2Lunar Surface Drill&r to scrap together some nuggets."
+				""
+				"Most immediately, it is used as heat shielding for &cTier 2 Rockets&r, required to get to &cMars&r and &eVenus&r. "
+				""
+				"You can also use it to boost the yield of some circuit boards."
+			]
+			id: "1D93E204810369AE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34899B9FFAEE50A6"
+					item: "gtceu:silicon_carbide_nugget"
+					type: "item"
+				}
+				{
+					id: "10D280D90EDE65DC"
+					item: "gtceu:silicon_carbide_plate"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -13.0d
 		}
 	]
 	subtitle: ["Not because it is easy"]
