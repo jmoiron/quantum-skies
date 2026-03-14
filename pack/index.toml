@@ -770,7 +770,7 @@ hash = "b3bd7c64f02c026661ab57d79b7c559e6e1ac8c17be6cf2e5fd18eddfbcdaebd"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/neptune.json"
-hash = "c13119b3069525ec58597454a8c068623c39982de4735143ff7bde6e67d176cc"
+hash = "e6f12e552f14f2080f47e40d3bcf4f230a28d1cf06a731f71fc42704a784b8b4"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/oberon.json"
@@ -778,7 +778,7 @@ hash = "8dbf09476d4ad0cb599320ac59d54dbc9a7ee060342dbca386028ebd0b4b2d22"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/saturn.json"
-hash = "a566a2f4fa7f4db20d1480b5cb6afa73eb53596f67ecbfc485b4ab45fded0c65"
+hash = "c188dbdfea0fbe0b8eabed199ee42eb24e99796cce3e33e44bc97a61d8d82481"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/titan.json"
@@ -794,7 +794,7 @@ hash = "04c753105cd6c9e27ad40c8c10201d5d917397a1e9d980c12d866944977785e4"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/uranus.json"
-hash = "a11c710b3664935f016330e0bf53d4984a65e8d93a1798918eb1c649cddd16be"
+hash = "93ee2d8bd10420fa93864a2e240c05e07e2fe73c3982a337da905a76b6c58545"
 
 [[files]]
 file = "kubejs/data/gcyr/tags/blocks/infiniburn_icymoon.json"
@@ -1045,6 +1045,10 @@ file = "kubejs/server_scripts/gcyr/jovian_chem.js"
 hash = "bbea46b78ce4daeec30cb7c0d4d04697531f4c690c6c62a4daf99545c0d0b32e"
 
 [[files]]
+file = "kubejs/server_scripts/gcyr/lunar_chem.js"
+hash = "e576e2aa7456f37266705b22ef4f95a5f923b0fc6ef05cc19eefcd19a1f16db0"
+
+[[files]]
 file = "kubejs/server_scripts/gcyr/naquadah_chain.js"
 hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
@@ -1118,7 +1122,7 @@ hash = "970f1e9c7a45c6797e04c17f3577581cfdc72ca31b83ecc27ccb9345f197e95d"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
-hash = "793638f13dedc196c02d4a247edb0ffebd0d3a368387786a60e0c371f12e41fe"
+hash = "e9dc260b272288ead1ffb02e6fe5bd09ea152be746a65a0303f0c388a8764035"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
@@ -1146,7 +1150,7 @@ hash = "6678b06a9f59b8d8ca35e35254b75d4e3a3649666f32e44af013661972a84544"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "d0fb0e4955afe2762780870ca711b78410b617f736fb0ba068029dea44438a32"
+hash = "c9821a9d48c7a7b1765e3921f8eadc74d4f48beeb50c9a52aead2b3903486f50"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"
@@ -1207,6 +1211,10 @@ hash = "6beb42e6a7eede6b1fe45cb90b0755d9489ecb9227628706e2eee16e4eb393b9"
 [[files]]
 file = "kubejs/startup_scripts/gcyr/items.js"
 hash = "12c013c9e3f6474bced7ce08344d347609ab8a0bee958b4b94a6d56f9a83212f"
+
+[[files]]
+file = "kubejs/startup_scripts/gcyr/lunar_chem.js"
+hash = "8a753db30746410499d6c7ede88c5cb90d03858a879f6bb19f24c967799eb851"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/materials.js"

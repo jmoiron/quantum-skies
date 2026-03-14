@@ -31,8 +31,8 @@ ServerEvents.recipes(event => {
             .chancedOutput(`${mult(x)}gtceu:moon_regolith_block`, 7500, 0)
             .chancedOutput(`${mult(x)}gtceu:moon_ilmenite_ore`, 3500, 0)
             .chancedOutput(`${mult(x)}gtceu:moon_bauxite_ore`, 3500, 0)
-            .chancedOutput(`${mult(x-1)}gtceu:crushed_tungstate_ore`, 2000, 0)
-            .chancedOutput(`${mult(x-1)}gtceu:crushed_scheelite_ore`, 2000, 0)
+            .chancedOutput(`${mult(x)}gtceu:moon_moissanite_ore`, 1500, 0)
+            .chancedOutput(`${mult(x)}gcyr:moon_fluorite_ore`, 1500, 0)
             .EUt(GTValues.VA[GTValues.HV])
             .duration(90 * 20)
 

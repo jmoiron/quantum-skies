@@ -1,6 +1,34 @@
+Issues:
+
+The Planetary Core Drill appears in 3(!) quest lines due to the tungsten rework.
+Trinium should be explained as a byproduct of the naq line
+
+Ore/Item based gates:
+
+Titanium gates early EV
+Tungsten gates early IV, also ABS and most gcy multis
+Nether Stars gate LuV via the assline req
+Naquadah/Trinium gate the Mk1 Fusion Reactor in mid-LuV
+
+Space Gates:
+
+T1 rocket at HV pre-titanium
+  - unlocks titanium and EV
+  - Lunar Surface Drill unlocks moissanite, required pre-IV for Silicon Carbide
+  - Silicon Carbide unlocks T2 rockets and some nicer circuit board recipes
+T2 rocket at EV (uses titanium but no tungsten)
+  - return to hard gate of tungsten on mars/venus, unlocks late EV/IV
+T3 rocket after Tungsten (IV)
+  - unlocks naquadah & LuV
+T4 rocket (saturnian system) after naquadah (LuV)
+  - unlocks.. ? these are the late game ideas below
+T5 rocket after ? and unlocks ?
+  - unlocks ..? UV? UHV? But what does UHV do?
+
+
 Some general ideas:
 
-* the orbital mining laser is gated on naquadah via the controller recipe.
+* the orbital mining laser is gated on naquadah via the controller recipe
 * orbital mining laser recipes start at 1A EV
 * mining jupiter with the laser gets you a much simpler naquadah path ("cloud deck particulates")
 * kapton-e gate for ZPM casings, this is dependent on getting to saturnian system which requires T4 rockets
