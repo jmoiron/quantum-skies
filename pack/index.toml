@@ -1654,7 +1654,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr-extras.pw.toml"
-hash = "587d2b68b94d925bc661a90d19cb55dede9fecec5332db7f68e8cfea7b27dfaa"
+hash = "392e6f89abd774432ecbbe99a05ad818aa4309b7cdf88f7d4913758e46e1c029"
 metafile = true
 
 [[files]]
@@ -1764,7 +1764,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "aeabb520677e57dbf2adc0ceed50b37927f894bf0c9c0d06cb7bb91bf1343a65"
+hash = "b8b547d9d06d90eaf9e3d48d08fabe87b23a247e9f53384038b6c7be1d0457bc"
 metafile = true
 
 [[files]]
@@ -1824,7 +1824,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "fcf7b8d2cb3a1505854f3f0e2dafad83d582bcd42e7d14fa830d9df34017af83"
+hash = "0ed212fca813f8daf72c36d17e731ceb670c3263a3f27f22df0f9b00a5b44567"
 metafile = true
 
 [[files]]
@@ -1884,7 +1884,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "9f04c8bcaf9b9f37c154c5a76d8bc7b1493f6c1aec0f182ca0ba4b8e3df0bdfc"
+hash = "147c7569ba682ddbd7458906463f87da62d30642e277fdf0a3430fef2c40c3ff"
 metafile = true
 
 [[files]]
@@ -1894,12 +1894,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "4c090681c55b759f90244efee2755f908670e4113502ee9bb03c600c74b18b57"
+hash = "6e05a365647f7094efa4add082f5152d862cf6cf2d04c937d8ae064cbe988709"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "109a24c9f443a27621d182fcb8cffcfc67a8f7918fd4b7199df43cea17432b0b"
+hash = "1b26eb06befa91593f156c50c2474e7c8feab2f1c01447b5a582967a9039c03c"
 metafile = true
 
 [[files]]
