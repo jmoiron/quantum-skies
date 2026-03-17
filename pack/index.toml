@@ -449,6 +449,10 @@ file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
 
 [[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
+
+[[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
 hash = "b882485f06e840273d3d289b6040442b9a93f0c3a7ea01d730e0fea76d246c22"
 
@@ -679,6 +683,10 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
+
+[[files]]
+file = "kubejs/config/probejs.json"
+hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
@@ -1786,7 +1794,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "6e05a365647f7094efa4add082f5152d862cf6cf2d04c937d8ae064cbe988709"
+hash = "7c9293e73993180518455f7efb83682a2c3f0ccc8e8963e48eb8103fd13cd81f"
 metafile = true
 
 [[files]]
