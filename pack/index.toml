@@ -497,6 +497,10 @@ file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/jupiter_orbit.json"
 hash = "1e5fea905b36c1c6e54f7367b7ad115efb0643a1a4c75780f3282c974b0aa1a6"
 
 [[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/saturn_orbit.json"
+hash = "b631172d562733e19eb8048dfe2802179b8a9aab34a891a2f7eef31b5cf6a762"
+
+[[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
 hash = "f14de0ccf55f76f0420f2fa06767c3399d1b33e7dee8d8c13a21842def306b19"
 
@@ -659,6 +663,10 @@ hash = "c0433ac7a6b0af2740afc0fefab68ece9f7a5782dfec11746a9fbeaf3dad6679"
 [[files]]
 file = "kubejs/assets/kubejs/textures/sky/io.png"
 hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/sky/titan.png"
+hash = "bcd0ec7172561ae13e21a89749427f0848154ac847a46ac452e0021eb67562d5"
 
 [[files]]
 file = "kubejs/assets/mktexture.py"
@@ -1053,6 +1061,10 @@ file = "kubejs/server_scripts/gcyr/naquadah_chain.js"
 hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
 [[files]]
+file = "kubejs/server_scripts/gcyr/saturn_chem.js"
+hash = "21e199787614b3ed0e92a20af8a0157b30705e867cb8aff70e0953ddf9caab25"
+
+[[files]]
 file = "kubejs/server_scripts/gcyr/worldgen.js"
 hash = "b9e854e23feb9411a36bf910ad0c844dcff94c08a08cd0ef6e21311acb32d2d2"
 
@@ -1219,6 +1231,10 @@ hash = "170dc1f8aec4f6d334ddd0557f03c093813b65fd920c8e50dbff19546fd939ef"
 [[files]]
 file = "kubejs/startup_scripts/gcyr/materials.js"
 hash = "da6e8990e3449f1f40a1860b811ac740e7ab3b586b9b43a7cd3b937df349a9b4"
+
+[[files]]
+file = "kubejs/startup_scripts/gcyr/saturn_chem.js"
+hash = "6c7324b146a77e7d7dd9cae2c5f60925623d56bb8f6afba5496dd3f2fd262a7d"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"

@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:ammonia 2500")
         .outputFluids("gtceu:helium_3 500")
         .chancedOutput("gtceu:saturn_ring_silicate_dust", 3000, 500)
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(2000);
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:titan_hydrocarbon_mix 3000")
         .outputFluids("gtceu:titanean_tholin 500")
         .outputFluids("gtceu:hydrogen_cyanide 200")
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(2000);
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -84,8 +84,8 @@ ServerEvents.recipes(event => {
     // Four-step chain:
     //   1. Titanean tholin → tholin diamine   (chemical reactor, LuV)
     //   2. Saturn ring silicate → siloxane dianhydride  (chemical reactor, LuV)
-    //   3. Diamine + dianhydride → polyamic acid prepolymer  (LCR, ZPM)
-    //   4. Prepolymer → Kapton-E via thermal imidization  (chemical reactor, ZPM)
+    //   3. Diamine + dianhydride → polyamic acid prepolymer  (LCR, LuV)
+    //   4. Prepolymer + O2/air → Kapton E via polymerization  (chemical reactor, LuV)
     //
     // Both planetary inputs provide exactly one monomer half — the chain cannot
     // be shortcut without sourcing from both the Saturnian and Titanean systems.
@@ -123,18 +123,27 @@ ServerEvents.recipes(event => {
         .itemInputs("2x gtceu:siloxane_dianhydride_dust")
         .inputFluids("gtceu:nitrogen 1000")
         .outputFluids("gtceu:kapton_e_prepolymer 2000")
-        .EUt(GTValues.VA[GTValues.ZPM])
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(400);
 
-    // Step 4 — Thermal imidization (ring closure under vacuum)
-    // Heat drives off water and closes the imide rings, converting the polyamic
-    // acid into the final aromatic polyimide-siloxane film. The vacuum prevents
-    // oxidative chain scission above 300°C.
-    greg.chemical_reactor("kapton_e_imidization")
-        .inputFluids("gtceu:kapton_e_prepolymer 2000")
-        .outputFluids("minecraft:water 500")
-        .itemOutputs("gtceu:kapton_e_ingot")
-        .EUt(GTValues.VA[GTValues.ZPM])
+    // Step 4 — Polymerization (oxygen or air)
+    // Mirrors the GTCEu polyethylene polymerization pattern: oxygen gives a yield
+    // bonus over air. Output is liquid Kapton E; the fluid solidifier turns it into
+    // ingots/plates/foil for free via the material's fluid registration.
+    greg.chemical_reactor("kapton_e_polymerization_oxygen")
+        .circuit(1)
+        .inputFluids("gtceu:oxygen 1000")
+        .inputFluids("gtceu:kapton_e_prepolymer 144")
+        .outputFluids("gtceu:kapton_e 216")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(480);
+
+    greg.chemical_reactor("kapton_e_polymerization_air")
+        .circuit(1)
+        .inputFluids("gtceu:air 1000")
+        .inputFluids("gtceu:kapton_e_prepolymer 144")
+        .outputFluids("gtceu:kapton_e 144")
+        .EUt(GTValues.VA[GTValues.LuV])
         .duration(480);
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -161,12 +170,12 @@ ServerEvents.recipes(event => {
     // shifts the glass-forming window and extends IR transparency further into the
     // mid-IR. The ratio is intentionally simple for gameplay.
     //
-    // TODO: germanium source — currently using kubejs:germanium_dust_additive as a
+    // TODO: germanium source — currently using gtceu:germanium_additive_dust as a
     // placeholder. Either extend GTMaterials.Germanium with GENERATE_DUST or source
     // germanium from an existing ZPM-tier process (galena byproduct, etc.).
     greg.mixer("chalcogenide_glass_mix")
         .itemInputs("4x gtceu:titanean_selenide_dust")
-        .itemInputs("kubejs:germanium_dust_additive")
+        .itemInputs("gtceu:germanium_additive_dust")
         .itemOutputs("5x gtceu:chalcogenide_glass_mix_dust")
         .EUt(GTValues.VA[GTValues.IV])
         .duration(200);
@@ -180,7 +189,7 @@ ServerEvents.recipes(event => {
     // Chalcogenide glasses are thermoplastic above Tg (~170-250°C) and drawable.
     greg.wiremill("chalcogenide_glass_to_fiber")
         .itemInputs("gtceu:chalcogenide_glass_ingot")
-        .itemOutputs("8x gtceu:chalcogenide_glass_fine_wire")
+        .itemOutputs("8x gtceu:fine_chalcogenide_glass_wire")
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(200);
 
@@ -195,7 +204,7 @@ ServerEvents.recipes(event => {
     //       registering this replacement. Confirm the exact output item ID.
     //
     // greg.assembler("optical_fiber_cable_saturnian")
-    //     .itemInputs("4x gtceu:chalcogenide_glass_fine_wire")
+    //     .itemInputs("4x gtceu:fine_chalcogenide_glass_wire")
     //     .itemInputs("2x gtceu:kapton_e_foil")
     //     .itemOutputs("4x gcyr:optical_fiber_cable")  // TODO: confirm item ID
     //     .EUt(GTValues.VA[GTValues.LuV])

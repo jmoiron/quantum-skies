@@ -75,7 +75,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // GTCEu registers Ge as an element reference only (no item forms).
     // Germanium is a trace product of several smelting processes and a minor
     // component of the chalcogenide glass blend.
-    dust("germanium_dust_additive", 0x4A4A4A);
+    dust("germanium_additive", 0x4A4A4A);
     // TODO: extend GTMaterials.Germanium with GENERATE_DUST once KubeJS API
     // for material flag modification is confirmed. For now, use a separate dust.
 
@@ -115,6 +115,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     event.create("kapton_e")
         .ingot()
+        .liquid(new $FluidBuilder())
         .color(0xE8A020)
         .secondaryColor(0xC07800)
         .iconSet(GTMaterialIconSet.SHINY)

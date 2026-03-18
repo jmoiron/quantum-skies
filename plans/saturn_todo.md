@@ -14,7 +14,7 @@
 
 ## Germanium
 
-- `kubejs:germanium_dust_additive` is a placeholder dust used in the chalcogenide glass mix recipe.
+- `gtceu:germanium_additive_dust` is a placeholder dust used in the chalcogenide glass mix recipe.
   The real `GTMaterials.Germanium` exists in GTCEu but has no item forms (element-only). Options:
   1. Use the KubeJS GTCEu material-modify API to add `GENERATE_DUST` to the existing Germanium material
      and rename the recipe input to `gtceu:germanium_dust`.
