@@ -498,11 +498,11 @@ hash = "1e5fea905b36c1c6e54f7367b7ad115efb0643a1a4c75780f3282c974b0aa1a6"
 
 [[files]]
 file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/saturn_orbit.json"
-hash = "b631172d562733e19eb8048dfe2802179b8a9aab34a891a2f7eef31b5cf6a762"
+hash = "e9312570c74c9181b3fda8f1be6cc822c1bde0f5f5622a7bd65c66131205961f"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "f14de0ccf55f76f0420f2fa06767c3399d1b33e7dee8d8c13a21842def306b19"
+hash = "7f123d4ee3f352cf26217accc5832ce1dca33f7879712aa9dbd8e681b8ea21ce"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/callisto_compact_regolith.png"
@@ -585,6 +585,10 @@ file = "kubejs/assets/kubejs/textures/block/lava_skylight_crust.png"
 hash = "adba6305b79f65c13c41d0daefdddaf5a71eff05ad8ffaeab051fc4b854e779a"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/methane_clathrate.png"
+hash = "1e706aa88c1094c708c9d43334e7cbd9643f1d712bc9629a255e0f39ddbbff42"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/plasma_tempered_basalt.png"
 hash = "b9cc49dd09a9e5f33d3e759cdcca28a7d62c7446d0bad395da043bbe8deb199a"
 
@@ -623,6 +627,26 @@ hash = "6e6c15c24ab0e82da3da4e7eb64aad52ab49f4faf27b60114ad897951bc1a0c4"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/tidal_fractured_peridotite.png"
 hash = "b57356117a9ab94cefd7a7ea9a1aae123c1601efbe19b1bef1cbe303b05e30c0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/titan_boulder_conglomerate.png"
+hash = "81bca15a419b9dabb1a75bde7acb487b15a10de948e3607f173c4fe6fdcc97e5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/titan_cryorock.png"
+hash = "93725db306e1522cca07ffe14d8d2ebcf1bb5d4341beb5a26d754253256d3756"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/titan_dirty_ice.png"
+hash = "7291424b947e88510ff861ca3a1ec4a5e425ab49eca015784f3f1152cdf35496"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/titan_hydrocarbon_sand.png"
+hash = "af1355f92fb8bf38351e9c326bb22bf366e5e84de6995811c38753d24cf57293"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/titan_hydrocarbon_sandstone.png"
+hash = "2658a265586b8ae37a1f4ac10e9074fe96d60fdd7340e3f940080eebd47ae76d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminium_mesh.png"
@@ -665,12 +689,12 @@ file = "kubejs/assets/kubejs/textures/sky/io.png"
 hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/sky/titan.png"
-hash = "bcd0ec7172561ae13e21a89749427f0848154ac847a46ac452e0021eb67562d5"
+file = "kubejs/assets/kubejs/textures/sky/saturn.png"
+hash = "c8a6641ec2783fa1715b253bb4fe4ac20140d5ab553cfbdddd8cbb8dd5b34aa3"
 
 [[files]]
-file = "kubejs/assets/mktexture.py"
-hash = "d8bdb45e056b2fb0df5cc71c3011386c254b9b91ce15993e4070f5da6c6c1d80"
+file = "kubejs/assets/kubejs/textures/sky/titan.png"
+hash = "bcd0ec7172561ae13e21a89749427f0848154ac847a46ac452e0021eb67562d5"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
@@ -726,7 +750,7 @@ hash = "388b03e29244dee770e4ff7ab0f831d0a17b447a7747f24f29f6aeb5113a3cc0"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/titan.json"
-hash = "4c74d93cd7019af9db306fe0791b057a42d0ce056bf1d494bc66c3e645d9c6c9"
+hash = "ea6de9655554aa10718a0d43c39306119be5b8ac6020ef2970d69a4e47120f95"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/titania.json"
@@ -755,6 +779,10 @@ hash = "4f96c8418de4b872a07b932014199ee980fb866331cf4a01e4b731f2a8879bbb"
 [[files]]
 file = "kubejs/data/gcyr/dimension_type/io.json"
 hash = "0e01477fdc60b36235d2898dd7f3917c40f643068401d0abd409aea17ae3939b"
+
+[[files]]
+file = "kubejs/data/gcyr/dimension_type/titan.json"
+hash = "7c9d8f8460a543be0215fdcf5acd199bc72cf734b5262a2e3dfd0bfa4089feb7"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/callisto.json"
@@ -857,6 +885,22 @@ file = "kubejs/data/gcyr/worldgen/biome/io_wastes.json"
 hash = "4105fdfb10350bced59c4f92b10c2e901ac9e0f9bb22042f9a88bc946a523de0"
 
 [[files]]
+file = "kubejs/data/gcyr/worldgen/biome/titan_dune_seas.json"
+hash = "f9e6610b8a0129bb161ace83f8b578d33720b8f070041e54e0b8597d69456e38"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/titan_interdune_plains.json"
+hash = "f9e6610b8a0129bb161ace83f8b578d33720b8f070041e54e0b8597d69456e38"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/titan_lake_lowlands.json"
+hash = "3c6c762b92462c9de76770fe05076a93596b4a609a7d618c6df6e691296c0430"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/biome/titan_rocky_uplands.json"
+hash = "f9e006e313ce544786660519d694041cc074ee5679449cb7f3bcbd128981ecf0"
+
+[[files]]
 file = "kubejs/data/gcyr/worldgen/configured_carver/canyon.json"
 hash = "d5ec3aa7d4e7d293d5345da42d5aee42bba3b4488cef90ae7cb964eee79e217c"
 
@@ -885,6 +929,18 @@ file = "kubejs/data/gcyr/worldgen/configured_feature/io_lava_pools.json"
 hash = "6d9c75ea4e348628cc0ef78b17b083de4b71e565db8b7973c0e64bfbdcde1e58"
 
 [[files]]
+file = "kubejs/data/gcyr/worldgen/configured_feature/titan_boulder_pile.json"
+hash = "fffd492a5c51075591b344e86ea559435eed6a34087cac7c760a6827cee4f717"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/configured_feature/titan_dune_ridges.json"
+hash = "282db9fa175e58e8281bb3e4057d0095b0c7d866e754261009126fbdf8322217"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/configured_feature/titan_hydrocarbon_lakes.json"
+hash = "dceb3e8c0bbb469319be288e7991ace6edba6e19346155926658bc1cc792ae3f"
+
+[[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/callisto.json"
 hash = "4b1bc589bcd18b4ad89de99d320a70f4bc95cc1263b86c06f210686b82b95faa"
 
@@ -899,6 +955,10 @@ hash = "f0751dc4c81b8a780a0b1f5e0697a30736d95c78139cfe1ad117582fdf1e8887"
 [[files]]
 file = "kubejs/data/gcyr/worldgen/noise_settings/io.json"
 hash = "a53d57b6306e757165995a49ea85781027e8710ab505e8c909392a36ce7f1c75"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/noise_settings/titan.json"
+hash = "e9a06ee2868d26951e2a43c8c5fbd896e51cc6c30be28608db9bdd4339accd10"
 
 [[files]]
 file = "kubejs/data/gcyr/worldgen/placed_feature/callisto_crater_bowl_common.json"
@@ -927,6 +987,18 @@ hash = "491eab3fd86413889532ff90037a9135851b05696551b2546fd8e1255751ad03"
 [[files]]
 file = "kubejs/data/gcyr/worldgen/placed_feature/io_lava_pools.json"
 hash = "4581435a9c69857f2949c511b465df1601c4c8e84a360c630e1d87c3b1ef4df2"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/placed_feature/titan_boulder_pile.json"
+hash = "414b3bb63aa68cf25e42099066cb6fcd01005a4ff70e4e6aff680cca64b542b1"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/placed_feature/titan_dune_ridges.json"
+hash = "e19cb4db038c0b07294a9393276a5a9d3d60520f1a640970bf1e6b846f7b18e5"
+
+[[files]]
+file = "kubejs/data/gcyr/worldgen/placed_feature/titan_hydrocarbon_lakes.json"
+hash = "12ca38d913e469abf1246dea02fdc75bcb2531c86ce133e658cadb0e768e1f3c"
 
 [[files]]
 file = "kubejs/data/pack.mcmeta"
@@ -1062,7 +1134,11 @@ hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/saturn_chem.js"
-hash = "21e199787614b3ed0e92a20af8a0157b30705e867cb8aff70e0953ddf9caab25"
+hash = "ce9b817adc002e910e5f3edbfb80aa7a584ee942ccfb7d8f8867092822ca5391"
+
+[[files]]
+file = "kubejs/server_scripts/gcyr/titan.js"
+hash = "4fa8bf54f4d15233400e4d2cbe9fbb95c6d7c395925b2293543954b447d0588c"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/worldgen.js"
@@ -1169,6 +1245,10 @@ file = "kubejs/server_scripts/multiblocks/sieve.js"
 hash = "2c93f742bff37ab12cc76fb3a1eac789ea6ddf7a92a19a73815cf999c88140b5"
 
 [[files]]
+file = "kubejs/server_scripts/multiblocks/titan.js"
+hash = "9bb031e2e1426867c16b59fbfc6621c456581ddafc1cd9e28a3fe2be211e9203"
+
+[[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
 hash = "ba98462086473fa1fbea21efb58b38dcb7bd6c6deeb937c05a0c17c161ea70d9"
 
@@ -1218,7 +1298,7 @@ hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/blocks.js"
-hash = "6beb42e6a7eede6b1fe45cb90b0755d9489ecb9227628706e2eee16e4eb393b9"
+hash = "d1b74710efdd294d36db902f392df4e202b5b2ab6ac150736894ae2b2d51f9c0"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/items.js"
@@ -1234,7 +1314,7 @@ hash = "da6e8990e3449f1f40a1860b811ac740e7ab3b586b9b43a7cd3b937df349a9b4"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/saturn_chem.js"
-hash = "6c7324b146a77e7d7dd9cae2c5f60925623d56bb8f6afba5496dd3f2fd262a7d"
+hash = "e04a31fac8bdb061ed688dc4c8302b5fca38f6e5f6cf11e57a56cd0b9b6440fc"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"

@@ -194,6 +194,59 @@ ServerEvents.recipes(event => {
         .duration(200);
 
     // ─────────────────────────────────────────────────────────────────────────
+    // Vanadium gallium cable insulation — add Kapton E foil requirement
+    //
+    // ZPM-tier cables already require PPS and PVC foils. Adding a Kapton E foil
+    // gates all vanadium gallium cables behind the Saturn/Titan processing chain.
+    // Recipe IDs follow GTCEu WireRecipeHandler: cover_<mat>_<wirePrefix>_<rubber>.
+    // Fluid amounts: L=144mB; silicone = L*insulation/2; SBR = L*insulation/4.
+    // ─────────────────────────────────────────────────────────────────────────
+
+    // [wire size, insulation amount]
+    const VG_CABLES = [
+        ["single",    1],
+        ["double",    1],
+        ["quadruple", 2],
+        ["octal",     3],
+        ["hex",       5],
+    ];
+
+    VG_CABLES.forEach(function(entry) {
+        const wire = entry[0];
+        const insulation = entry[1];
+        const gtPrefix = "wire_gt_" + wire;
+        const wireItem = "gtceu:vanadium_gallium_" + wire + "_wire";
+        const cableItem = "gtceu:vanadium_gallium_" + wire + "_cable";
+        const siliconeAmt = 144 * insulation / 2;
+        const sbrAmt = 144 * insulation / 4;
+
+        console.log(gtPrefix);
+
+        event.remove({ id: "gtceu:assembler/cover_vanadium_gallium_" + gtPrefix + "_silicone" });
+        event.remove({ id: "gtceu:assembler/cover_vanadium_gallium_" + gtPrefix + "_styrene_butadiene" });
+
+        greg.assembler("cover_vanadium_gallium_" + gtPrefix + "_silicone")
+            .itemInputs(wireItem)
+            .itemInputs(insulation + "x gtceu:polyphenylene_sulfide_foil")
+            .itemInputs(insulation + "x gtceu:polyvinyl_chloride_foil")
+            .itemInputs(insulation + "x gtceu:kapton_e_foil")
+            .inputFluids("gtceu:silicone_rubber " + siliconeAmt)
+            .itemOutputs(cableItem)
+            .EUt(GTValues.VA[GTValues.ULV])
+            .duration(100);
+
+        greg.assembler("cover_vanadium_gallium_" + gtPrefix + "_styrene_butadiene")
+            .itemInputs(wireItem)
+            .itemInputs(insulation + "x gtceu:polyphenylene_sulfide_foil")
+            .itemInputs(insulation + "x gtceu:polyvinyl_chloride_foil")
+            .itemInputs(insulation + "x gtceu:kapton_e_foil")
+            .inputFluids("gtceu:styrene_butadiene_rubber " + sbrAmt)
+            .itemOutputs(cableItem)
+            .EUt(GTValues.VA[GTValues.ULV])
+            .duration(100);
+    });
+
+    // ─────────────────────────────────────────────────────────────────────────
     // Optical fiber cable — modified recipe
     //
     // The chalcogenide glass core (Titan laser miner) and the Kapton-E jacket

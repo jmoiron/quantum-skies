@@ -1,0 +1,34 @@
+{
+  "temperature": -0.5,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "value": {
+          "r": 0.92549,
+          "g": 0.862745,
+          "b": 0.521569,
+          "scale": 1.25
+        }
+      },
+      "probability": 0.035
+    },
+    "sky_color": 15522949,
+    "fog_color": 15522949,
+    "water_color": 1051664,
+    "water_fog_color": 526344
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [ "gcyr:titan_boulder_pile" ]
+  ]
+}

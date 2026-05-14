@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 5,
+          "data": {
+            "Name": "kubejs:titan_hydrocarbon_sand"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "kubejs:titan_hydrocarbon_sandstone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:tholin_ice_dark"
+          }
+        }
+      ]
+    }
+  }
+}

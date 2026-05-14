@@ -36,6 +36,32 @@ StartupEvents.registry("block", (event) => {
     event.create("callisto_olivine_crust").mapColor('grass');
     event.create("callisto_light_regolith").mapColor('sand');
 
+    // titan (orange-brown haze, hydrocarbon dunes, dirty ice, dark cryorock)
+    // titan_hydrocarbon_sand:
+    //   Fine dark brown to near-black dune sand, with soft wind-blown banding and
+    //   subtle orange tholin staining. Should read as dry organic sediment, not beach sand.
+    event.create("titan_hydrocarbon_sand").mapColor('color_black');
+    // titan_hydrocarbon_sandstone:
+    //   Compacted version of the dune sand with visible horizontal layering,
+    //   slightly lighter brown than the loose sand, and a faint icy/cemented look.
+    event.create("titan_hydrocarbon_sandstone").mapColor('terracotta_brown');
+    // titan_dirty_ice:
+    //   Water-ice crust contaminated by Titan haze fallout; pale gray-blue ice
+    //   under a translucent orange-brown film, mottled rather than striped.
+    event.create("titan_dirty_ice").mapColor('color_light_blue');
+    // methane_clathrate:
+    //   Cold shoreline material; bluish-white clathrate ice with trapped amber/brown
+    //   hydrocarbon inclusions or bubbles. Should look colder and brighter than dirty ice.
+    event.create("methane_clathrate").mapColor('snow');
+    // titan_cryorock:
+    //   Dark cryovolcanic/icy-silicate rock in charcoal gray with desaturated blue
+    //   undertones and a few thin bright frost veins or fracture lines.
+    event.create("titan_cryorock").mapColor('deepslate');
+    // titan_boulder_conglomerate:
+    //   Coarse breccia or impact rubble: angular dark stones locked in a lighter icy
+    //   matrix, with more visual chunkiness than titan_cryorock.
+    event.create("titan_boulder_conglomerate").mapColor('stone');
+
     // hearts of the jovian moons
     event.create("heart_of_jupiter")
         .displayName("Heart of Jupiter")

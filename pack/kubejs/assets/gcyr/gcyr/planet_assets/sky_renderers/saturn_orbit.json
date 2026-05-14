@@ -26,10 +26,10 @@
             ]
         },
         {
-            "texture": "gcyr:textures/sky/saturn.png",
+            "texture": "kubejs:textures/sky/saturn.png",
             "blending": false,
             "render_type": "static",
-            "scale": 120.0,
+            "scale": 200.0,
             "rotation": [
                 0.0,
                 90.0,
@@ -40,7 +40,7 @@
             "texture": "gcyr:textures/sky/light.png",
             "blending": true,
             "render_type": "static",
-            "scale": 120.0,
+            "scale": 200.0,
             "color": 15782032,
             "rotation": [
                 0.0,
