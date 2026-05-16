@@ -22,6 +22,10 @@ gcyr:proxima_centauri_b_opp_side
 gcyr:proxima_centauri_b_star_side
 gcyr:proxima_centauri_b_underground
 gcyr:space
+gcyr:titan_dune_seas
+gcyr:titan_interdune_plains
+gcyr:titan_lake_lowlands
+gcyr:titan_rocky_uplands
 gcyr:venus_barren_plains
 gcyr:venus_eroded_plains
 minecraft:badlands

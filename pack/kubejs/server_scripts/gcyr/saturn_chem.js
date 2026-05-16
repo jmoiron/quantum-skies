@@ -1,23 +1,26 @@
 ServerEvents.recipes(event => {
     const greg = event.recipes.gtceu;
+    const extras = event.recipes.gcyrextras;
+    const SATURN_ORBIT = "gcyr:saturn_orbit";
 
     // ─────────────────────────────────────────────────────────────────────────
     // Saturn gas collection
     //
-    // The gas collector is deployed into Saturn's upper atmosphere (ring plane
-    // altitude), sweeping both atmospheric gas and ring-rain silicate particulate.
+    // The orbital gas miner is deployed into Saturn orbit, sweeping the upper
+    // atmosphere for light gases. Ring solids are sourced separately from the
+    // orbital mining laser so both multiblocks are required.
     //
     // TODO: confirm dimension ID once gcyr:saturn or gcyr:saturn_orbit is registered.
     // TODO: circuit number — using 8 here to follow the planetary sequence
     //       (mars=4, venus=5, io=6, europa=7, saturn=8).
     // ─────────────────────────────────────────────────────────────────────────
 
-    greg.gas_collector("collect_saturnian_atmosphere")
-        .dimension("gcyr:saturn")
+    extras.orbital_gas_miner("collect_saturnian_atmosphere")
+        .dimension(SATURN_ORBIT)
         .outputFluids("gtceu:saturnian_atmospheric_mix 10000")
         .circuit(8)
-        .EUt(GTValues.VA[GTValues.IV])
-        .duration(200);
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20 * 5);
 
     greg.vacuum_freezer("freeze_saturnian_atmosphere")
         .inputFluids("gtceu:saturnian_atmospheric_mix 4000")
@@ -25,17 +28,17 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(80);
 
-    // Ring-rain silicate particulate falls out as a solid fraction during
-    // distillation. Helium-3 (primary Saturn gate material, used for ZPM fusion
-    // ignition) and ammonia (useful for downstream chemistry) are key outputs.
+    // Helium-3 (primary Saturn gate material, used for ZPM fusion ignition) and
+    // ammonia (useful for downstream chemistry) are key outputs.
     greg.distillation_tower("distill_liquid_saturnian_atmosphere")
         .inputFluids("gtceu:liquid_saturnian_atmospheric_mix 100000")
         .outputFluids("gtceu:hydrogen 60000")
         .outputFluids("gtceu:helium 30000")
         .outputFluids("gtceu:methane 4000")
         .outputFluids("gtceu:ammonia 2500")
+        .outputFluids("gtceu:arsine 2000")
+        .outputFluids("gtceu:phosphine 1000")
         .outputFluids("gtceu:helium_3 500")
-        .chancedOutput("gtceu:saturn_ring_silicate_dust", 3000, 500)
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(2000);
 
@@ -43,20 +46,54 @@ ServerEvents.recipes(event => {
     // Titan gas mining
     //
     // Titan's dense N2/CH4 atmosphere is the richest organic-chemical source in
-    // the outer solar system. The gas miner harvests the full atmospheric mix;
-    // distillation separates the light gases, hydrocarbon fraction, and the heavy
-    // tholin residue — our key Kapton-E feedstock.
+    // the outer solar system. The orbital gas miner operates from Saturn orbit,
+    // targeting Titan's upper atmosphere; distillation separates the light gases,
+    // hydrocarbon fraction, and the heavy tholin residue — our key Kapton-E
+    // feedstock.
     //
     // TODO: confirm dimension ID once gcyr:titan is registered.
     // TODO: circuit number — using 9 here.
     // ─────────────────────────────────────────────────────────────────────────
 
-    greg.gas_collector("collect_titanean_atmosphere")
-        .dimension("gcyr:titan")
+    extras.orbital_gas_miner("collect_titanean_atmosphere")
+        .dimension(SATURN_ORBIT)
         .outputFluids("gtceu:titanean_atmospheric_mix 10000")
         .circuit(9)
-        .EUt(GTValues.VA[GTValues.IV])
-        .duration(200);
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20 * 5);
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // Orbital mining laser
+    //
+    // The Saturnian progression requires both GCYR Extras orbital machines:
+    //   circuit 5 — Titan remote surface skimming from Saturn orbit
+    //   circuit 6 — Saturn ring silicate extraction
+    //
+    // Titan keeps its on-world drill route, but the laser now offers a second,
+    // lower-throughput off-world path for the same core materials.
+    // ─────────────────────────────────────────────────────────────────────────
+
+    extras.orbital_miner("collect_titanean_surface_minerals")
+        .dimension(SATURN_ORBIT)
+        .circuit(5)
+        .inputFluids("gtceu:sodium_potassium 5")
+        .chancedOutput("4x kubejs:titan_hydrocarbon_sand", 8000, 0)
+        .chancedOutput("3x kubejs:titan_dirty_ice", 7000, 0)
+        .chancedOutput("2x kubejs:methane_clathrate", 6500, 0)
+        .chancedOutput("2x kubejs:titan_cryorock", 5000, 0)
+        .chancedOutput("kubejs:titan_boulder_conglomerate", 4500, 0)
+        .chancedOutput("gtceu:titanean_selenide_ore", 2500, 0)
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20 * 15);
+
+    extras.orbital_miner("collect_saturn_ring_silicate")
+        .dimension(SATURN_ORBIT)
+        .circuit(6)
+        .inputFluids("gtceu:sodium_potassium 5")
+        .itemOutputs("2x gtceu:saturn_ring_silicate_dust")
+        .chancedOutput("2x gtceu:saturn_ring_silicate_dust", 6000, 0)
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20 * 15);
 
     greg.vacuum_freezer("freeze_titanean_atmosphere")
         .inputFluids("gtceu:titanean_atmospheric_mix 4000")
@@ -64,16 +101,15 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(80);
 
-    // Titan's organic haze is rich enough that the heavy tholin fraction condenses
-    // out at the bottom of the distillation column. HCN is a minor but real
-    // atmospheric component (already registered in GTCEu as a gas).
+    // Titan's atmosphere yields the light gases, hydrocarbon condensates, and HCN
+    // building blocks. The actual hydrocarbon-tholin feedstock is assembled later
+    // through a dedicated reactor chain.
     greg.distillation_tower("distill_liquid_titanean_atmosphere")
         .inputFluids("gtceu:liquid_titanean_atmospheric_mix 100000")
         .outputFluids("gtceu:nitrogen 72000")
         .outputFluids("gtceu:methane 15000")
         .outputFluids("gtceu:ethane 5000")
         .outputFluids("gtceu:titan_hydrocarbon_mix 3000")
-        .outputFluids("gtceu:titanean_tholin 500")
         .outputFluids("gtceu:hydrogen_cyanide 200")
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(2000);
@@ -81,28 +117,54 @@ ServerEvents.recipes(event => {
     // ─────────────────────────────────────────────────────────────────────────
     // Kapton-E synthesis
     //
-    // Four-step chain:
-    //   1. Titanean tholin → tholin diamine   (chemical reactor, LuV)
-    //   2. Saturn ring silicate → siloxane dianhydride  (chemical reactor, LuV)
-    //   3. Diamine + dianhydride → polyamic acid prepolymer  (LCR, LuV)
-    //   4. Prepolymer + O2/air → Kapton E via polymerization  (chemical reactor, LuV)
+    // Six-step chain:
+    //   1. Tholin extract + Titan hydrocarbon mix → hydrocarbon tholin solution
+    //   2. Hydrocarbon tholin solution + selenium → selenized tholin
+    //   3. Selenized tholin + HCN → hydrocarbon tholin
+    //   4. Hydrocarbon tholin → tholin diamine
+    //   5. Saturn ring silicate → siloxane dianhydride
+    //   6. Diamine + dianhydride → Kapton E intermediates and polymer
     //
     // Both planetary inputs provide exactly one monomer half — the chain cannot
     // be shortcut without sourcing from both the Saturnian and Titanean systems.
     // ─────────────────────────────────────────────────────────────────────────
 
-    // Step 1 — Tholin diamine synthesis
+    // Step 1 — Hydrocarbon enrichment of extracted tholins
+    greg.chemical_reactor("tholin_extract_hydrocarbonation")
+        .inputFluids("gtceu:tholin_extract 1000")
+        .inputFluids("gtceu:titan_hydrocarbon_mix 1000")
+        .outputFluids("gtceu:hydrocarbon_tholin_solution 1000")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(240);
+
+    // Step 2 — Selenium doping
+    greg.chemical_reactor("selenize_hydrocarbon_tholin")
+        .itemInputs("gtceu:selenium_dust")
+        .inputFluids("gtceu:hydrocarbon_tholin_solution 1000")
+        .outputFluids("gtceu:selenized_tholin 1000")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(220);
+
+    // Step 3 — Nitrile fixation into final hydrocarbon tholin feedstock
+    greg.chemical_reactor("hydrocarbon_tholin_finish")
+        .inputFluids("gtceu:selenized_tholin 1000")
+        .inputFluids("gtceu:hydrogen_cyanide 250")
+        .outputFluids("gtceu:hydrocarbon_tholin 1000")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(260);
+
+    // Step 4 — Tholin diamine synthesis
     // The nitrile groups in tholin's HCN-derived fragments are reductively aminated
     // with H2 and NH3 under pressure to yield aromatic primary amines.
     greg.chemical_reactor("tholin_to_diamine")
-        .inputFluids("gtceu:titanean_tholin 2000")
+        .inputFluids("gtceu:hydrocarbon_tholin 2000")
         .inputFluids("gtceu:hydrogen 2000")
         .inputFluids("gtceu:ammonia 1000")
         .outputFluids("gtceu:tholin_diamine 2000")
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(320);
 
-    // Step 2 — Siloxane dianhydride from ring silicate
+    // Step 5 — Siloxane dianhydride from ring silicate
     // Acetic anhydride reacts with surface silanol groups on the ring silicate
     // particles, functionalising the silica surface into a siloxane-dianhydride
     // monomer. Acetic acid is the condensation byproduct.
@@ -114,7 +176,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(280);
 
-    // Step 3 — Polyamic acid prepolymer (diamine + dianhydride condensation)
+    // Step 6 — Polyamic acid prepolymer (diamine + dianhydride condensation)
     // The two monomers combine in nitrogen atmosphere at moderate temperature
     // (standard polyimide synthesis conditions). The soluble polyamic acid
     // prepolymer is the last fluid-phase intermediate.
@@ -253,15 +315,14 @@ ServerEvents.recipes(event => {
     // (Titan gas miner + Saturn gas collector) together mean that optical fiber
     // cable now requires sourcing from both Titan processes — a natural LuV gate.
     //
-    // TODO: find the existing optical fiber cable recipe ID and remove it before
-    //       registering this replacement. Confirm the exact output item ID.
-    //
-    // greg.assembler("optical_fiber_cable_saturnian")
-    //     .itemInputs("4x gtceu:fine_chalcogenide_glass_wire")
-    //     .itemInputs("2x gtceu:kapton_e_foil")
-    //     .itemOutputs("4x gcyr:optical_fiber_cable")  // TODO: confirm item ID
-    //     .EUt(GTValues.VA[GTValues.LuV])
-    //     .duration(300);
+    event.remove({ id: "gtceu:assembler/optical_pipe" });
+    greg.assembler("optical_fiber_cable_saturnian")
+        .itemInputs("8x gtceu:fine_chalcogenide_glass_wire")
+        .itemInputs("8x gtceu:silver_foil")
+        .itemInputs("4x gtceu:kapton_e_foil")
+        .itemOutputs("gtceu:normal_optical_pipe")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(200);
     // ─────────────────────────────────────────────────────────────────────────
 
 });

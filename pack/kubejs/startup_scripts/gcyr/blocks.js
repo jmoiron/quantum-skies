@@ -83,6 +83,18 @@ StartupEvents.registry("block", (event) => {
         .create("heart_of_callisto")
         .displayName("Heart of Callisto")
         .textureAll("kubejs:block/heart_of_callisto");
+    event
+        .create("heart_of_saturn")
+        .displayName("Heart of Saturn")
+        .textureAll("kubejs:block/heart_of_saturn");
+    event
+        .create("heart_of_uranus")
+        .displayName("Heart of Uranus")
+        .textureAll("kubejs:block/heart_of_uranus");
+    event
+        .create("heart_of_neptune")
+        .displayName("Heart of Neptune")
+        .textureAll("kubejs:block/heart_of_neptune");
 
 
 })

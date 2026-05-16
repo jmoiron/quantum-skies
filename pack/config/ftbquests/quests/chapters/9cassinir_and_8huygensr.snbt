@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "9cassinir_and_8huygensr"
+	group: "3F9DCC5BE002E182"
+	icon: "gcyr:empty_satellite"
+	id: "1296BCA41368EDE4"
+	order_index: 4
+	quest_links: [
+		{
+			id: "58F8DC9D41A8A8CD"
+			linked_quest: "0472211411B89514"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "422E797602E2D19B"
+			linked_quest: "4C605D381C27875A"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "0B431BE5BE2E7DC9"
+			linked_quest: "279973130AF30849"
+			x: 2.5d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			id: "4368A058AFFC701C"
+			tasks: [{
+				id: "138FC673A7E0399F"
+				item: "gtceu:udmh_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0632657128509AAF"
+			tasks: [{
+				id: "4550E56C06DE6178"
+				item: "gcyrextras:stellar_fuel_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "36F4F8789EF38164"
+			tasks: [{
+				id: "39FD6DDA2C1D5A1D"
+				item: "gcyrextras:stellar_rocket_motor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Unlike &cJupiter&r, which has 4 major moons, &eSaturn&r has only one, but what a moon it is."
+				""
+				"&9Titan&r is a frozen world with a hydrocarbon fluid cycle that drives rains and lakes full of &dmethane&r and &bethane&r."
+				""
+				"&eSaturn's&r own rings offer another potential source of exotic materials with which to upgrade your technology."
+			]
+			id: "21AC2A75676ED514"
+			min_width: 250
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "gcyr:saturn_orbit"
+				icon: "kubejs:heart_of_saturn"
+				id: "12035DBE6A105E5D"
+				type: "dimension"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C605D381C27875A"]
+			id: "665101FF22A5A8D5"
+			tasks: [{
+				id: "37DA34A32475B3F7"
+				item: "gtceu:saturn_ring_silicate_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["665101FF22A5A8D5"]
+			id: "7F44D5B24E8465D4"
+			tasks: [{
+				id: "0B1A8007C6274BDC"
+				item: "gtceu:siloxane_dianhydride_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			id: "272F13DDF3B1FF86"
+			tasks: [{
+				id: "29BBEA5CF67A50C4"
+				item: "gtceu:kapton_e_foil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["279973130AF30849"]
+			id: "61AFA59BFE14C148"
+			tasks: [{
+				id: "408B0142D9CB5077"
+				item: "gtceu:saturnian_atmospheric_mix_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["279973130AF30849"]
+			id: "3EA6F22D740AEFE1"
+			tasks: [{
+				id: "175968506C446F0A"
+				item: "gtceu:titanean_atmospheric_mix_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61AFA59BFE14C148"]
+			id: "2C38FEC49C415F42"
+			tasks: [{
+				id: "797F870C75544A59"
+				item: "gtceu:phosphine_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3EA6F22D740AEFE1"]
+			id: "07358DC827122A9F"
+			tasks: [{
+				id: "2D36CB406AA2EB60"
+				item: "gtceu:titan_hydrocarbon_mix_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C605D381C27875A"]
+			id: "203B2567DD611BAC"
+			tasks: [{
+				id: "1F1C4253F0DAC7C8"
+				item: "gtceu:titanean_selenide_ore"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["203B2567DD611BAC"]
+			id: "3466D60F841927B8"
+			tasks: [{
+				id: "2F888B9A845A7DD7"
+				item: "gtceu:selenium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"07358DC827122A9F"
+				"3466D60F841927B8"
+			]
+			id: "4179E01F66B50401"
+			tasks: [{
+				id: "5A0D168AB8DB1CB8"
+				item: "gtceu:selenized_tholin_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4179E01F66B50401"]
+			id: "7686896A5EB9F693"
+			tasks: [{
+				id: "5650775408F52D7A"
+				item: "gtceu:hydrocarbon_tholin_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7686896A5EB9F693"]
+			id: "703E6B60D419D8D2"
+			tasks: [{
+				id: "013058CF86C76F51"
+				item: "gtceu:tholin_diamine_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "7A00CE66CF164528"
+			tasks: [{
+				id: "344C15744A77F795"
+				item: "gtceu:kapton_e_prepolymer_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Rings around the world"]
+	title: "&9Cassini&r and &2Huygens&r"
+}

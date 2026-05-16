@@ -44,13 +44,25 @@ ServerEvents.recipes(event => {
         .duration(1200);
 
     greg.vehicle_assembly_building("elite_rocket_motor")
-        .itemInputs("4x gtceu:gravitation_engine_unit")
+        .itemInputs("8x gtceu:advanced_power_thruster")
         .itemInputs("6x gcyr:kapton_k_plate")
         .itemInputs("gtceu:hsss_frame")
+        .itemInputs("4x gtceu:silicon_carbide_plate")
         .inputFluids("gtceu:methylhydrazine_nitrate_rocket_fuel 16000")
         .itemOutputs("gcyr:elite_rocket_motor")
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(1600);
+
+    greg.vehicle_assembly_building("stellar_rocket_motor")
+        .itemInputs("gcyr:elite_rocket_motor")
+        .itemInputs("2x gtceu:gravitation_engine_unit")
+        .itemInputs("4x gtceu:double_naquadah_plate")
+        .itemInputs("8x gtceu:trinium_foil")
+        .itemInputs("6x gcyr:kapton_k_plate")
+        .inputFluids("gtceu:udmh_rocket_fuel 8000")
+        .itemOutputs("gcyrextras:stellar_rocket_motor")
         .EUt(GTValues.VA[GTValues.LuV])
-        .duration(1200);
+        .duration(2400);
 
 
     greg.vehicle_assembly_building("basic_fuel_tank")
@@ -75,13 +87,24 @@ ServerEvents.recipes(event => {
         .duration(1200);
 
     greg.vehicle_assembly_building("elite_fuel_tank")
-        .itemInputs("2x gtceu:luv_quantum_tank")
+        .itemInputs("2x gtceu:tungsten_steel_fluid_cell")
         .itemInputs("6x gcyr:kapton_k_plate")
         .itemInputs("gtceu:hsss_frame")
         .inputFluids("gtceu:methylhydrazine_nitrate_rocket_fuel 16000")
         .itemOutputs("gcyr:elite_fuel_tank")
-        .EUt(GTValues.VA[GTValues.LuV])
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(1200);
+
+    greg.vehicle_assembly_building("stellar_fuel_tank")
+        .itemInputs("gcyr:elite_fuel_tank")
+        .itemInputs("2x gtceu:luv_quantum_tank")
+        .itemInputs("4x gtceu:double_naquadah_plate")
+        .itemInputs("8x gtceu:trinium_foil")
+        .itemInputs("6x gcyr:kapton_k_plate")
+        .inputFluids("gtceu:udmh_rocket_fuel 8000")
+        .itemOutputs("gcyrextras:stellar_fuel_tank")
+        .EUt(GTValues.VA[GTValues.LuV])
+        .duration(2400);
 
     greg.vehicle_assembly_building("rocket_seat")
         .itemInputs("minecraft:light_gray_carpet")

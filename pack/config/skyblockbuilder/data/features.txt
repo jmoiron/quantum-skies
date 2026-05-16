@@ -36,6 +36,9 @@ gcyr:io_lava_pools
 gcyr:lunar_mare_crater
 gcyr:lunar_plains_crater
 gcyr:moon_rocks
+gcyr:titan_boulder_pile
+gcyr:titan_dune_ridges
+gcyr:titan_hydrocarbon_lakes
 gtceu:marble_blob
 gtceu:raw_oil_sprout
 gtceu:red_granite_blob

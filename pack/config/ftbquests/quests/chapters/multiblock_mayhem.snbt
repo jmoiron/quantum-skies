@@ -851,7 +851,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["46EF29BAEA8E81E2"]
@@ -879,7 +879,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			id: "13528543D75D9586"
@@ -891,7 +891,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["174CEACF8A92FDC3"]
@@ -909,7 +909,27 @@
 				type: "item"
 			}]
 			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "4C605D381C27875A"
+			tasks: [{
+				id: "5F8BC8AAD9C13FE2"
+				item: "gcyrextras:orbital_mining_laser"
+				type: "item"
+			}]
+			x: 2.5d
 			y: -7.0d
+		}
+		{
+			id: "279973130AF30849"
+			tasks: [{
+				id: "62C4C65DF7894F44"
+				item: "gcyrextras:orbital_gas_miner"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
 		}
 	]
 	title: "Multiblock Mayhem"

@@ -818,7 +818,7 @@ hash = "c188dbdfea0fbe0b8eabed199ee42eb24e99796cce3e33e44bc97a61d8d82481"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/titan.json"
-hash = "8b8487417eeeba528bcde647c01ae5cb0b8999f902fd31739df7ccbfafc9de95"
+hash = "cb9ca63e20b70b955dfbb5fb1727442e0be39b858d64073937010223cc7b64d2"
 
 [[files]]
 file = "kubejs/data/gcyr/gcyr/planets/titania.json"
@@ -1134,7 +1134,11 @@ hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/saturn_chem.js"
-hash = "ce9b817adc002e910e5f3edbfb80aa7a584ee942ccfb7d8f8867092822ca5391"
+hash = "3bcc581c16f5a6285f036b7424fcbd3cca034a43b0df0622339b4c28f4d7ed53"
+
+[[files]]
+file = "kubejs/server_scripts/gcyr/saturn_progression.js"
+hash = "c12005d127d1e381af5d9dbbf74037923772c400aee1327f01599bc2c581f2b2"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/titan.js"

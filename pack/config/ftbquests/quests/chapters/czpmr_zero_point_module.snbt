@@ -82,6 +82,12 @@
 			x: 2.5d
 			y: -3.0d
 		}
+		{
+			id: "14F4A30A0430475D"
+			linked_quest: "2C38FEC49C415F42"
+			x: 4.0d
+			y: 3.0d
+		}
 	]
 	quests: [
 		{
@@ -273,6 +279,7 @@
 				"1FE202EBC9376339"
 				"59533CD2E9928F2C"
 				"0001F36B89327A06"
+				"2C38FEC49C415F42"
 			]
 			id: "1C37068850C07CDD"
 			shape: "gear"

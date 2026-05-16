@@ -9,7 +9,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     }
 
     function gas(name, color) {
-        event.create(name).gas().color(color);
+        return event.create(name).gas().color(color);
     }
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -27,6 +27,14 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 
     gas("saturnian_atmospheric_mix", 0xD4C060);
     fluid("liquid_saturnian_atmospheric_mix", 0xC8B050);
+    gas("phosphine", 0xE8D890)
+        .formula("PH₃")
+        .components("1x phosphorus", "3x hydrogen")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
+    gas("arsine", 0xB89A74)
+        .formula("AsH₃")
+        .components("1x arsenic", "3x hydrogen")
+        .flags(GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING);
 
     // Fine-grained silicate/ice particulate from Saturn's B ring.
     // Mixed SiO2 with water-ice and trace carbonaceous organics; falls out of the
@@ -53,11 +61,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // Titan's lakes are liquid ethane; propane and butane are also present at altitude.
     fluid("titan_hydrocarbon_mix", 0xD4A060);
 
-    // Heavy organic fraction — tholins. These are complex N/C/H macromolecules formed
-    // when N2 and CH4 are irradiated by UV and cosmic rays. They are the source of
-    // Titan's characteristic orange haze and contain HCN-derived pyrimidines, purines,
-    // and aromatic amines — the key feedstock for Kapton-E diamine synthesis.
-    fluid("titanean_tholin", 0x8B3D1A);
+    // Titan chemistry now produces a hydrocarbon-rich tholin feedstock through a
+    // dedicated reactor chain rather than condensing finished tholin directly out
+    // of the atmosphere.
+    fluid("hydrocarbon_tholin_solution", 0x9A5A28);
+    fluid("selenized_tholin", 0x7A4A24);
+    fluid("hydrocarbon_tholin", 0x8B3D1A);
 
     // Titanean selenide — arsenic selenide mineral (As₂Se₃) with germanium and
     // tellurium impurities, found in Titan's icy-silicate subsurface rock.
@@ -87,7 +96,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     // the resulting polyamic acid under vacuum to close the imide rings.
     //
     // Monomer sources:
-    //   Diamine  ← Titanean Tholin (gas miner, Titan)
+    //   Diamine  ← Hydrocarbon Tholin (Titan atmosphere + tholin extract + selenium)
     //   Dianhydride ← Saturn Ring Silicate (gas collector byproduct, Saturn)
     // ─────────────────────────────────────────────────────────────────────────
 
