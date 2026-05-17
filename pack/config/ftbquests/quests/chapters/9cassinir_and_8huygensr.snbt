@@ -17,13 +17,13 @@
 			id: "422E797602E2D19B"
 			linked_quest: "4C605D381C27875A"
 			x: 2.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "0B431BE5BE2E7DC9"
 			linked_quest: "279973130AF30849"
 			x: 2.5d
-			y: 2.0d
+			y: 3.0d
 		}
 	]
 	quests: [
@@ -35,9 +35,13 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: [
+				"0472211411B89514"
+				"4368A058AFFC701C"
+			]
 			id: "0632657128509AAF"
 			tasks: [{
 				id: "4550E56C06DE6178"
@@ -48,6 +52,10 @@
 			y: -1.5d
 		}
 		{
+			dependencies: [
+				"0472211411B89514"
+				"4368A058AFFC701C"
+			]
 			id: "36F4F8789EF38164"
 			tasks: [{
 				id: "39FD6DDA2C1D5A1D"
@@ -55,9 +63,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: [
+				"36F4F8789EF38164"
+				"0632657128509AAF"
+			]
 			description: [
 				"Unlike &cJupiter&r, which has 4 major moons, &eSaturn&r has only one, but what a moon it is."
 				""
@@ -101,6 +113,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7A00CE66CF164528"]
 			id: "272F13DDF3B1FF86"
 			tasks: [{
 				id: "29BBEA5CF67A50C4"
@@ -108,7 +121,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["279973130AF30849"]
@@ -119,7 +132,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["279973130AF30849"]
@@ -130,7 +143,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["61AFA59BFE14C148"]
@@ -141,7 +154,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3EA6F22D740AEFE1"]
@@ -152,7 +165,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4C605D381C27875A"]
@@ -199,7 +212,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7686896A5EB9F693"]
@@ -213,6 +226,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"703E6B60D419D8D2"
+				"7F44D5B24E8465D4"
+			]
 			id: "7A00CE66CF164528"
 			tasks: [{
 				id: "344C15744A77F795"
@@ -220,7 +237,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -1.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Rings around the world"]
