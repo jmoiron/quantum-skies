@@ -882,18 +882,6 @@
 			y: -1.0d
 		}
 		{
-			id: "13528543D75D9586"
-			size: 1.0d
-			subtitle: "Ridin' dirty"
-			tasks: [{
-				id: "6ABA3A3B38ED6586"
-				item: "gtceu:mudpit"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["174CEACF8A92FDC3"]
 			description: [
 				"The &2Vehicle Assembly Building&r, affectionately known as the &2VAB&r, is a large multiblock structure that specializes in the construction of rocketry components."
@@ -912,6 +900,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["21AC2A75676ED514"]
 			id: "4C605D381C27875A"
 			tasks: [{
 				id: "5F8BC8AAD9C13FE2"
@@ -922,6 +911,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["21AC2A75676ED514"]
 			id: "279973130AF30849"
 			tasks: [{
 				id: "62C4C65DF7894F44"
@@ -930,6 +920,26 @@
 			}]
 			x: 2.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["33B6F60F71DA7F4D"]
+			description: [
+				"Drill lubricant is colloquially called \"mud\", and a &2mudpit&r is just a literal pit where drilling mud is prepared."
+				""
+				"This &2mudpit&r is maybe &oslightly&r more sophisticated."
+				""
+				"&2Planetary core drill&r lubricants must be produced on site, so creating &6diesel-oil mud&r requires you to be on the &7Moon&r and creating &aOlefin Mud&r requires you to be on either &cMars&r or &eVenus&r."
+			]
+			id: "1315E169B2777C94"
+			size: 1.0d
+			subtitle: "Ridin' dirty"
+			tasks: [{
+				id: "3B57CF7BCA40864A"
+				item: "gtceu:mudpit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
 		}
 	]
 	title: "Multiblock Mayhem"

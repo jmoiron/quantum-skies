@@ -103,6 +103,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components("3x silicon_dioxide", "1x calcite")
         .flags(GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING);
 
+    // Titan surface materials
+    dust("titan_cryorock", 0x4a5259);
+    dust("titan_boulder_conglomerate", 0x6a655f);
+
     // Hexagonal Boron Nitride (h-BN) – Io drilling catalyst
     event.create("hexagonal_boron_nitride")
         .components("1x boron", "1x nitrogen")

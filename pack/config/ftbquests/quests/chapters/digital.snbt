@@ -37,6 +37,12 @@
 			x: -3.5d
 			y: -2.5d
 		}
+		{
+			id: "7D968059A1BDABCA"
+			linked_quest: "02ABBC6AE25A16F9"
+			x: 4.0d
+			y: -5.5d
+		}
 	]
 	quests: [
 		{
@@ -1010,6 +1016,39 @@
 			}]
 			x: 5.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["02ABBC6AE25A16F9"]
+			id: "007DC1E13A244558"
+			tasks: [{
+				id: "27D79FDC16FF8D42"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["007DC1E13A244558"]
+			description: [
+				"Slip through &aspace and time&r with a &2Tempad&r."
+				""
+				"These will be handy once you truly start exploring the solar system."
+			]
+			id: "765124C6CCAC2DC4"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "37C329BFC1E82829"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["&dApplying Energistics&r Twice"]

@@ -16,13 +16,21 @@
 		{
 			id: "422E797602E2D19B"
 			linked_quest: "4C605D381C27875A"
-			x: 2.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
 			id: "0B431BE5BE2E7DC9"
 			linked_quest: "279973130AF30849"
-			x: 2.5d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "48FCB38D384F0415"
+			linked_quest: "1C37068850C07CDD"
+			shape: "gear"
+			size: 1.5d
+			x: 6.0d
 			y: 3.0d
 		}
 	]
@@ -87,7 +95,7 @@
 				id: "12035DBE6A105E5D"
 				type: "dimension"
 			}]
-			x: 0.75d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -98,7 +106,7 @@
 				item: "gtceu:saturn_ring_silicate_dust"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -109,7 +117,7 @@
 				item: "gtceu:siloxane_dianhydride_dust"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -120,7 +128,7 @@
 				item: "gtceu:kapton_e_foil"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -131,7 +139,7 @@
 				item: "gtceu:saturnian_atmospheric_mix_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -142,18 +150,23 @@
 				item: "gtceu:titanean_atmospheric_mix_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["61AFA59BFE14C148"]
+			description: [
+				"&6Phosphine&r is only produced by industrial and biological processes, and breaks down under UV radiation."
+				""
+				"Maybe it's being pulled from deep within &eSaturn&r, or maybe..."
+			]
 			id: "2C38FEC49C415F42"
 			tasks: [{
 				id: "797F870C75544A59"
 				item: "gtceu:phosphine_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -164,7 +177,7 @@
 				item: "gtceu:titan_hydrocarbon_mix_bucket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -175,7 +188,7 @@
 				item: "gtceu:titanean_selenide_ore"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -186,7 +199,7 @@
 				item: "gtceu:selenium_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -200,7 +213,7 @@
 				item: "gtceu:selenized_tholin_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -211,7 +224,7 @@
 				item: "gtceu:hydrocarbon_tholin_bucket"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -222,7 +235,7 @@
 				item: "gtceu:tholin_diamine_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -236,7 +249,25 @@
 				item: "gtceu:kapton_e_prepolymer_bucket"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["272F13DDF3B1FF86"]
+			description: [
+				"The base cable for &cZPM&r tier that goes into hulls, motors, etc."
+				""
+				"As you surely know by now, you need these in great quantities."
+			]
+			id: "24577B86A95BF269"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "628819F2690CDB62"
+				item: "gtceu:vanadium_gallium_single_cable"
+				type: "item"
+			}]
+			x: 12.0d
 			y: 0.0d
 		}
 	]

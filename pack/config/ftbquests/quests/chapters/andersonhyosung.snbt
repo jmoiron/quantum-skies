@@ -41,8 +41,16 @@
 		{
 			id: "5AD748EC01F1830E"
 			linked_quest: "0C584EE0F802DFD9"
+			size: 1.25d
 			x: -9.5d
 			y: -3.0d
+		}
+		{
+			id: "2A62B7D20359A2F1"
+			linked_quest: "1315E169B2777C94"
+			size: 1.25d
+			x: -5.0d
+			y: -6.0d
 		}
 	]
 	quests: [
@@ -161,26 +169,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["33B6F60F71DA7F4D"]
-			description: [
-				"Drill lubricant is colloquially called \"mud\", and a &2mudpit&r is just a literal pit where drilling mud is prepared."
-				""
-				"This &2mudpit&r is maybe &oslightly&r more sophisticated."
-				""
-				"&2Planetary core drill&r lubricants must be produced on site, so creating &6diesel-oil mud&r requires you to be on the &7Moon&r and creating &aOlefin Mud&r requires you to be on either &cMars&r or &eVenus&r."
-			]
-			id: "144BAF5DCE025AD7"
-			size: 1.0d
-			subtitle: "Ridin' dirty"
-			tasks: [{
-				id: "710939056FA69254"
-				item: "gtceu:mudpit"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["2776EA649E43D833"]
 			id: "33B6F60F71DA7F4D"
 			tasks: [{
@@ -232,11 +220,11 @@
 		}
 		{
 			dependencies: [
-				"144BAF5DCE025AD7"
 				"232BBD7ABE751B56"
 				"188642EF55E7716C"
 				"1B0874AE8571D54E"
 				"179AA4BFC36F21E4"
+				"1315E169B2777C94"
 			]
 			id: "18E1960D8F093DBC"
 			tasks: [{
@@ -362,7 +350,7 @@
 				"1434B5BACC58A7E7"
 				"1BD4AD579D6BA5AB"
 				"46D6A92676C491BB"
-				"144BAF5DCE025AD7"
+				"1315E169B2777C94"
 			]
 			description: [
 				"Like &6diesel-oil mud&r, &6poly-α-olefin&r must be produced in a &2mudpit&r on site."

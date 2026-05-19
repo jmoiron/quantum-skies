@@ -133,6 +133,10 @@ file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
 hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/9cassinir_and_8huygensr.snbt"
+hash = "019da3c353083d7c35e0d4cd7883527445423efbb239113a96aed356045e64fd"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
 hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
@@ -150,11 +154,11 @@ hash = "1a86ab0382a3dd113c0868253af8c21cbdc9ca2e47ae47a6e9b66b3bd8e0556d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
-hash = "835e09c66f1c91822bbbd06b431dbcfd57a52839e313455d52193c82d4d54062"
+hash = "f2cffd1b36143ef386b7168610803adffffe200a0389b2ce92eb747363632271"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "e3e41a5afbecf4e19d04e400133528ab8a8f834dbca661413b50814006804ec2"
+hash = "7189f0a55418b3074353ed37fbe027bb33fe20b64678740071f0fb699dc68024"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
@@ -174,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "1d52dbdfd6692839e58335bbf126753e557bf7873364dea8b1d04511cb3ad344"
+hash = "4b745bebb30f6c23b9ab5d9f3a5d58e04472075d58ebcf628d57ad6f5f5da685"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -182,7 +186,7 @@ hash = "2aad270b24172b4aae51a612d9c30d1c81cd6c7acacd340483399edf23c4d2ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
-hash = "eaea761de1d01090248bdcbb262c7f1e95d3e75875e99f195ab4d317f016dcd0"
+hash = "9743c92d982e800714c44d09c4ad785b6180705b0a42cbc4bf95723b799f7d5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
@@ -206,7 +210,7 @@ hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
-hash = "5bf3992cdfdcfbde0aa8b6df55b12ea3aa8dccb8dbd21d7c023099ddaf060998"
+hash = "7afb0c8809663c7c0e21ad63883176ed02c926b3178e33cfad14b31aff988c7e"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -322,7 +326,7 @@ hash = "33c7071e289295153b0457303c2d903f24d538ab9d10fdcf959e2a1cccd819ed"
 
 [[files]]
 file = "config/skyblockbuilder/data/biomes.txt"
-hash = "cffaa17ae42c5cb35c8b4debb5d171a9d066ee826f0ba2608a163b0f7197e65a"
+hash = "f883dd21a2544f87a42416591a790d75b5d5c5421cfd32efff9bcf5c266ab1f1"
 
 [[files]]
 file = "config/skyblockbuilder/data/carvers.txt"
@@ -334,7 +338,7 @@ hash = "8d7f9b2e4429212ce5116d5de3232ab8775a84d62317dc459935ce98d15fdcda"
 
 [[files]]
 file = "config/skyblockbuilder/data/features.txt"
-hash = "a7706a9b2d1a86d707800329e06557c19645262c398ea7b590b451055ae634ed"
+hash = "2d6c876d3f3064370a311f1d5fccd2fbe5e93fffdc81a20318377af361cca250"
 
 [[files]]
 file = "config/skyblockbuilder/data/structures.txt"
@@ -501,8 +505,12 @@ file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/saturn_orbit.json"
 hash = "e9312570c74c9181b3fda8f1be6cc822c1bde0f5f5622a7bd65c66131205961f"
 
 [[files]]
+file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/titan.json"
+hash = "fddc2be61086ec34d658efb14a4ba834dfa5fcd02bccdafe19ca9555d7a11ebc"
+
+[[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
-hash = "7f123d4ee3f352cf26217accc5832ce1dca33f7879712aa9dbd8e681b8ea21ce"
+hash = "01e7bd7bd4eab37ce45d46074c1706d07e56ccb203265f09d1af860601c8a28a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/callisto_compact_regolith.png"
@@ -575,6 +583,18 @@ hash = "75cd986d17ceb4415208f5dc8ed1407d0df14cb518ec651a1d76f4181662e8fb"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/heart_of_jupiter.png"
 hash = "8bb9340ed827914aec48ad91f461d069b47d5b296c97a48c8247c57d8f185dd7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_neptune.png"
+hash = "6dc237e91b21940cc339fee3e205be9aa790022a7a6fc84d0d0756bfa9b074f3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_saturn.png"
+hash = "f7df51e791651195ffb31195822f0bd186cbacc0780a9d6170a47e5f7bcafa11"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/heart_of_uranus.png"
+hash = "63a2184bc9bba16f7b5db312767e09deb6d1dd01007f3d9eb7a457aecf3d991d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/io_volcanic_ash.png"
@@ -1134,15 +1154,15 @@ hash = "8c482ee4cbeb32fedd1d75c4c54fe6e45481c02161a9c07d8ff575bc462b2726"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/saturn_chem.js"
-hash = "3bcc581c16f5a6285f036b7424fcbd3cca034a43b0df0622339b4c28f4d7ed53"
+hash = "03aa78cce637f6767bf3a1dd71593476410a8e48858473b3d5f8d77db26a651e"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/saturn_progression.js"
-hash = "c12005d127d1e381af5d9dbbf74037923772c400aee1327f01599bc2c581f2b2"
+hash = "6205c7db5730986e7e0d9913f75629c0ce900792d8151e8f8b82e98f8fac8062"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/titan.js"
-hash = "4fa8bf54f4d15233400e4d2cbe9fbb95c6d7c395925b2293543954b447d0588c"
+hash = "4d3b2f05e85b0df2eda1a2b05457e957b0d2304b4ad7e602660a1d18cde31283"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/worldgen.js"
@@ -1254,7 +1274,7 @@ hash = "9bb031e2e1426867c16b59fbfc6621c456581ddafc1cd9e28a3fe2be211e9203"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/vab.js"
-hash = "ba98462086473fa1fbea21efb58b38dcb7bd6c6deeb937c05a0c17c161ea70d9"
+hash = "648825fdc565996ea40132d0af6242c365f7f5ac0e1128d57b6d8ffc6e99dbd0"
 
 [[files]]
 file = "kubejs/server_scripts/ore_data.js"
@@ -1302,7 +1322,7 @@ hash = "b7464fcd830bd66631931fd98fb3619a9fa4a1e317a9e67f2a793a2f69e72a71"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/blocks.js"
-hash = "d1b74710efdd294d36db902f392df4e202b5b2ab6ac150736894ae2b2d51f9c0"
+hash = "3de3ddac8a1dc3996e28da832402c2fe167d06cd8fc710e728977399519db3da"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/items.js"
@@ -1314,11 +1334,15 @@ hash = "170dc1f8aec4f6d334ddd0557f03c093813b65fd920c8e50dbff19546fd939ef"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/materials.js"
-hash = "da6e8990e3449f1f40a1860b811ac740e7ab3b586b9b43a7cd3b937df349a9b4"
+hash = "e07b12041d96f9c9fe0b5bcfa01f9bd739f1d3f4f06b4936b4dadc100f40fb46"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/saturn_chem.js"
-hash = "e04a31fac8bdb061ed688dc4c8302b5fca38f6e5f6cf11e57a56cd0b9b6440fc"
+hash = "fb5ddd2b96354009a103da92468dd42aaa22151e60502eebb8b11a044add0efc"
+
+[[files]]
+file = "kubejs/startup_scripts/gcyr/titan.js"
+hash = "02eba96d9608b6635d3b977a06a984446db0dd5a7d408b8ded008eb17ee39133"
 
 [[files]]
 file = "kubejs/startup_scripts/icons.js"
