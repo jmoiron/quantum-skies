@@ -63,6 +63,17 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(200);
 
+    event.remove({output: "gcyrextras:spacestation_core"});
+    greg.assembler("spacestation_core")
+        .itemInputs("gtceu:stainless_steel_frame")
+        .itemInputs("4x gtceu:stainless_steel_plate")
+        .itemInputs("8x gtceu:stainless_steel_screw")
+        .itemInputs("#gtceu:circuits/hv")
+        .itemInputs("4x gtceu:advanced_power_thruster")
+        .itemOutputs("gcyrextras:spacestation_core")
+        .EUt(GTValues.VA[GTValues.HV])
+        .duration(400);
+
     ["gcyr:space_fabric", "gcyr:space_upgrade_smithing_template"].forEach(item => {
         event.replaceInput({output: item},
             "gtceu:polybenzimidazole_foil",
