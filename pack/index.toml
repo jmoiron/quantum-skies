@@ -1674,7 +1674,7 @@ metafile = true
 
 [[files]]
 file = "mods/gcyr-extras.pw.toml"
-hash = "392e6f89abd774432ecbbe99a05ad818aa4309b7cdf88f7d4913758e46e1c029"
+hash = "0a1c54b28d3afe445272301a070e52105c3b86c801ef382e96aaed286f18c471"
 metafile = true
 
 [[files]]
