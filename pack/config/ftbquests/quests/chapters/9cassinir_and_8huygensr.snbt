@@ -16,12 +16,14 @@
 		{
 			id: "422E797602E2D19B"
 			linked_quest: "4C605D381C27875A"
+			size: 1.25d
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			id: "0B431BE5BE2E7DC9"
 			linked_quest: "279973130AF30849"
+			size: 1.25d
 			x: 1.5d
 			y: 3.0d
 		}
