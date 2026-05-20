@@ -134,7 +134,7 @@ hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/9cassinir_and_8huygensr.snbt"
-hash = "019da3c353083d7c35e0d4cd7883527445423efbb239113a96aed356045e64fd"
+hash = "8d55ef2521a9c504dbaa0cf285420b9c231951ebdfdb3e5571c2c24c7af82ae6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
@@ -142,7 +142,7 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "7826805d823e34a7d88b9fcb01ea7964a065cdafbd637f5d635bbf825329c135"
+hash = "cf884dfc9b599499f6f2cabafeba8b6f15ebc3555cd7834229ffd4dba4b60342"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -178,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "4b745bebb30f6c23b9ab5d9f3a5d58e04472075d58ebcf628d57ad6f5f5da685"
+hash = "27fc64f2a36c389b64b768b199bb375f693cb0dc3f5a424336f4551a1968f020"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -451,6 +451,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -1338,7 +1342,7 @@ hash = "e07b12041d96f9c9fe0b5bcfa01f9bd739f1d3f4f06b4936b4dadc100f40fb46"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/saturn_chem.js"
-hash = "fb5ddd2b96354009a103da92468dd42aaa22151e60502eebb8b11a044add0efc"
+hash = "34344739a221369ff60d28bf4182e313e96f73d480bdda09493034121be71209"
 
 [[files]]
 file = "kubejs/startup_scripts/gcyr/titan.js"

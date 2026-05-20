@@ -1,3 +1,5 @@
+const $DustProperty = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty");
+
 GTCEuStartupEvents.registry("gtceu:material", event => {
 
     function dust(name, color) {
@@ -77,8 +79,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x4A6B3A)
         .secondaryColor(0x2A4B1A)
         .iconSet(GTMaterialIconSet.SHINY)
-        .formula("As₂Se₃")
-        .addOreByproducts(GTMaterials.Selenium, GTMaterials.Tellurium);
+        .formula("As₂Se₃");
+
+    GTMaterials.Selenium.setProperty(PropertyKey.DUST, new $DustProperty());
+    GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty());
 
     // Germanium — element material needs a dust form for use as a recipe input.
     // GTCEu registers Ge as an element reference only (no item forms).

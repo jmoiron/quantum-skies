@@ -178,7 +178,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C605D381C27875A"]
@@ -192,14 +192,14 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["203B2567DD611BAC"]
+			dependencies: ["0B429A347ED6D2CF"]
 			id: "3466D60F841927B8"
 			tasks: [{
 				id: "2F888B9A845A7DD7"
 				item: "gtceu:selenium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -236,7 +236,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -269,6 +269,29 @@
 			}]
 			x: 12.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["203B2567DD611BAC"]
+			id: "0B429A347ED6D2CF"
+			tasks: [
+				{
+					id: "5C370C1AE0D729CF"
+					item: "gtceu:copper_anode_slime_dust"
+					type: "item"
+				}
+				{
+					id: "24E39AF01BD3D094"
+					item: "gtceu:selenium_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "66CB97A871ED42AA"
+					item: "gtceu:selenious_acid_bucket"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["Rings around the world"]
