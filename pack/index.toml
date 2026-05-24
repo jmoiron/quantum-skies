@@ -182,7 +182,7 @@ hash = "285297ae10e71d354174ecf3176c710563049fa362ba7772dc3d281a81fd49e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "e1ad8985009811d34d95ba62df51c356c139acd295209a2c406120f3489ba659"
+hash = "8c3867895871d13031010282cbf6c934649a7d3cb64c5eeaf1fc9a2bf5e0da19"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -1559,7 +1559,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "d48a1ea93de8cd5febb95ba52989d8d9ab4e998cfbdf9c1076a9f2e571d2fcbe"
+hash = "e6608ff32a9fd87af5fadfb7ad57ac58686f6f76da45c97bd7a33c6df33b56bc"
 metafile = true
 
 [[files]]
@@ -1809,7 +1809,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "16451920c0072df521f94325819ffa0cd7bc1e5fd1dcf7ddb153aac07a3225c6"
+hash = "58f088499ada5038ff4530583dc9374810bfdbfb20a2d945d945d53cac7f4fc5"
 metafile = true
 
 [[files]]
@@ -1869,7 +1869,7 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-extras.pw.toml"
-hash = "88c4eb5d30b2fa3102e05ceb780b9663b4042c2a94df538dbf629f5c66033247"
+hash = "27008bb7957770ca70199405b673c91eba35f9cfaff09ba2a1e57db684a70f0e"
 metafile = true
 
 [[files]]
@@ -1934,12 +1934,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "cd7465e4bc3458c262b664e698135ede23bd2c276039bf3565b64634bdf845ca"
+hash = "256495f243e8edd16ed92c7889bda02855355aa42727f3583f9ef7714db3dea5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b6f0327e3c195f0bfdbe9a1705abea330494fa7452a5e2437afc7ae694ef9e38"
+hash = "611865b3bb8822a41253001de124cc0110e4349eddb8bb6b89c0882a3d922b5d"
 metafile = true
 
 [[files]]
