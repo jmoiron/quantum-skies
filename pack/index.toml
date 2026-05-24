@@ -5,12 +5,20 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/ae2/client.json"
+hash = "963acbfdc0b2bdcdadcc84dfc83c3e9cbb239ac37e00633e589e2195ea516c96"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
+
+[[files]]
 file = "config/angelring-common.toml"
 hash = "b2569aedce777e571963454b81f60566d70cedb8f646595dee6656a32933283d"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "3be892a0c66418b41d471201c65aab180c2336018f70bc0c1f3660fa92f0ce7e"
+hash = "ab283d331d7000c57d69fcd63da6ca276ea9c7e33a308e4a97149272475a7381"
 
 [[files]]
 file = "config/balm-common.toml"
@@ -35,6 +43,10 @@ hash = "1dd6cc118a3d0a76570fedd5f6fcd887d3211ee20b5ff410edae5c62d91bb123"
 [[files]]
 file = "config/cookingforblockheads-common.toml"
 hash = "9af560d51423b3dba1534f6a75d065c791ac59b6663256fe4bd4e564d660ebbc"
+
+[[files]]
+file = "config/croptopia/croptopia_v3.conf"
+hash = "244186038e292563fcfc0c19c5d12d44189c108ea3c35d578281b5ecf27b445d"
 
 [[files]]
 file = "config/cyclopscore-common.toml"
@@ -78,7 +90,7 @@ hash = "2c9eb301383501eb190ef0336ad2387bc6485762119ef600ae379eb21e87ac70"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
-hash = "65a2888f3b676e2399e4733cdc02af09c05523bd66b95988180b3ff5ea2eb696"
+hash = "85f7b8a764d8cb3934f0fa372b0ff89b8ce25526b5fa3770f65bd63bd6b2131a"
 
 [[files]]
 file = "config/fastbench.cfg"
@@ -134,7 +146,7 @@ hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/9cassinir_and_8huygensr.snbt"
-hash = "951fbf3b9e15e7ed022e7bc9a3ebdb8ede59044f67dc09b1b1f0df9e226eb52a"
+hash = "e3cfb597c5c217a2bacdfcfe1b37a2f7900bbc8a0a31826d750022bbe7f897a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
@@ -234,7 +246,7 @@ hash = "3ea93b4667a7dc523f794359a0cff0cc1283ff0838cb29d689768c3425ce91ec"
 
 [[files]]
 file = "config/gtmutils.yaml"
-hash = "19ba894f7b0957880af8c5bc1a739bcff0702055c88437f0b9ec381edfd4eba6"
+hash = "de5079b0d202c2b5a669d49250eb28ada84be83c2174cd76d27058bad5fc5704"
 
 [[files]]
 file = "config/gtnn.json"
@@ -346,7 +358,7 @@ hash = "c57c66a24a410f751767542fe8448ee3133e5e50a6b8ea6ffc0d320fd2f0edce"
 
 [[files]]
 file = "config/skyblockbuilder/dimensions.json5"
-hash = "c8a028450d3d2f9526ea6789ef284efc19a47d67ae9f56309679e9255162ba34"
+hash = "c3cca3adb01f742e77fddc780f7adfeeb1c1849b1e16c1bcc9c877b7c3716bff"
 
 [[files]]
 file = "config/skyblockbuilder/inventory.json5"
@@ -437,6 +449,14 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
+file = "config/valkyrielib/valkyrielib-client.json"
+hash = "f0c956d4fa29f29b6e41fb36b889ed4c52dc060e4dc02fc36569037d5dcc9ccf"
+
+[[files]]
+file = "config/valkyrielib/valkyrielib.json"
+hash = "b27110a047cebab08bd91482a73d325409ca006c1ad4dd2110bc1694c4a53f33"
+
+[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -451,6 +471,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
