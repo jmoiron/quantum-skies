@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         .itemInputs("minecraft:iron_door")
         .itemInputs("3x gtceu:silicone_rubber_plate")
         .itemInputs("2x gtceu:stainless_steel_ring")
-        .inputFluids("gtceu:tetrafluoroethylene 288")
+        .inputFluids("gtceu:polytetrafluoroethylene 288")
         .itemOutputs("gcyr:airlock_door")
         .EUt(GTValues.VA[GTValues.HV])
         .duration(200);
