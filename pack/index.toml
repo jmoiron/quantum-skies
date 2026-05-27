@@ -1142,7 +1142,7 @@ hash = "4c94cc9742bc8fd2bb9b0d9db460c89a65066e9e9b906f6d599bf915dac29967"
 
 [[files]]
 file = "kubejs/server_scripts/enviromats.js"
-hash = "5111f75cb293695b6f7366683561d1038974c61b2cea7bfa9b6efc06d37b38e6"
+hash = "68c830632eb7367fa84c7c3497ac5d8034a541018fd586349ee680f155828029"
 
 [[files]]
 file = "kubejs/server_scripts/ex_nihilo/croptopia.js"
@@ -1162,7 +1162,7 @@ hash = "dc42a79757c0eb87a7f79419821e29d6a6cd8973acb6f50c76eb792afac47407"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
-hash = "509cfdcd666e1f23140789dff4f91010994df864ddcecfa6852409130f7ac297"
+hash = "36e2433b51ec1bb41fa05d26558228f683596aef8be1303f7a1608be938f5ce2"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/jovian_chem.js"
@@ -1202,7 +1202,7 @@ hash = "5f26d5d9289fb5cab291a098c79833c5f77b18064cba129dac2a46a5017046b5"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/colossal_chests.js"
-hash = "9ce8bdd5ca1a3d81ddc363cc77faad7862a14a918cc1e463bf6f7a2807025773"
+hash = "9b88f989b5f2b173f44af5123b9b5469b6b4dfb766615af30e56676258c76d53"
 
 [[files]]
 file = "kubejs/server_scripts/gregification/effortless_building.js"
@@ -1306,7 +1306,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "cdc7d9d9645847aa2eeec423bf19076d33994fac88a04601481d43962e62d29d"
+hash = "582e56b62da6a1eaba04cd555484a5cc981e5da35e828176dc4bf6897353ec48"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"

@@ -10,6 +10,7 @@ ServerEvents.tags("block", event => {
     stairs.forEach(stair => {
         event.add("minecraft:mineable/pickaxe", stair);
     });
+
 });
 
 ServerEvents.recipes(event => {

@@ -1,3 +1,8 @@
+ServerEvents.tags("block", event => {
+    event.add("minecraft:mineable/pickaxe", "travelanchors:travel_anchor");
+    event.add("minecraft:mineable/pickaxe", "clickmachine:auto_clicker");
+});
+
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
