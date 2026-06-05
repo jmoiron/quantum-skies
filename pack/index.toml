@@ -509,6 +509,10 @@ file = "kubejs/assets/gcyr/gcyr/planet_assets/sky_renderers/titan.json"
 hash = "fddc2be61086ec34d658efb14a4ba834dfa5fcd02bccdafe19ca9555d7a11ebc"
 
 [[files]]
+file = "kubejs/assets/gcyr/models/item/moon_sand.json"
+hash = "28025753c5bd7ff0396973671453f29a09915d619f48726217e9f388eac13cba"
+
+[[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
 hash = "01e7bd7bd4eab37ce45d46074c1706d07e56ccb203265f09d1af860601c8a28a"
 
