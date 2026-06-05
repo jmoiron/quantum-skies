@@ -102,4 +102,17 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(160*20)
 
+    // work around recipe conflict in gtec w/ formic acid
+    //
+
+    event.remove({id: "gtceu:chemical_reactor/formic_acid"})
+    greg.chemical_reactor("formic_acid")
+        .inputFluids("gtceu:carbon_dioxide 1000")
+        .inputFluids("minecraft:water 1000")
+        .outputFluids("gtceu:formic_acid 1000")
+        .outputFluids("gtceu:oxygen 1000")
+        .circuit(1)
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(5*20);
+
 });
