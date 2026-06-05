@@ -74,12 +74,20 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.HV])
         .duration(400);
 
-    ["gcyr:space_fabric", "gcyr:space_upgrade_smithing_template"].forEach(item => {
-        event.replaceInput({output: item},
-            "gtceu:polybenzimidazole_foil",
-            "gtceu:silicone_rubber_foil"
-        );
-    });
+    event.replaceInput({output: "gcyr:space_fabric"},
+        "gtceu:polybenzimidazole_foil",
+        "gtceu:silicone_rubber_foil"
+    );
+
+    event.remove({id: "gcyr:assembler/space_upgrade_smithing_template"})
+    greg.assembler("space_upgrade_smithing_template")
+        .itemInputs("5x gcyr:space_fabric")
+        .itemInputs("2x gtceu:titanium_plate")
+        .itemInputs("4x gtceu:silicone_rubber_foil")
+        .itemOutputs("gcyr:space_upgrade_smithing_template")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(2.5*5);
+
 
     ["helmet", "boots", "leggings"].forEach(piece => {
         event.replaceInput({output: `gcyr:space_${piece}`},

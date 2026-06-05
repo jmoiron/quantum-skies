@@ -6,6 +6,15 @@ ServerEvents.tags("block", event => {
 ServerEvents.recipes(event => {
     let greg = event.recipes.gtceu;
 
+    event.shaped("minecraft:netherite_upgrade_smithing_template",
+        ["BIB", "BDB", "BBB"],
+        {
+            B: "minecraft:nether_bricks",
+            I: "minecraft:netherite_ingot",
+            D: "minecraft:diamond_block",
+        }
+    )
+
     // add endstone centrifuge recipe, wh ich can produce ender air
     // with the same power utilization as the air collector
     greg.centrifuge("endstone_to_ender_air")
