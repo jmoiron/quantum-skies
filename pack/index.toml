@@ -5,14 +5,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/ae2/client.json"
-hash = "963acbfdc0b2bdcdadcc84dfc83c3e9cbb239ac37e00633e589e2195ea516c96"
-
-[[files]]
-file = "config/ae2/common.json"
-hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
-
-[[files]]
 file = "config/angelring-common.toml"
 hash = "b2569aedce777e571963454b81f60566d70cedb8f646595dee6656a32933283d"
 
@@ -43,10 +35,6 @@ hash = "1dd6cc118a3d0a76570fedd5f6fcd887d3211ee20b5ff410edae5c62d91bb123"
 [[files]]
 file = "config/cookingforblockheads-common.toml"
 hash = "9af560d51423b3dba1534f6a75d065c791ac59b6663256fe4bd4e564d660ebbc"
-
-[[files]]
-file = "config/croptopia/croptopia_v3.conf"
-hash = "244186038e292563fcfc0c19c5d12d44189c108ea3c35d578281b5ecf27b445d"
 
 [[files]]
 file = "config/cyclopscore-common.toml"
@@ -130,7 +118,7 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "128f76f119acacb1f5d9c2805e9ce761ad0d111fd0d82e28ccd3d58027e2bc60"
+hash = "d1cd7a2c48375b41f48b728510d724191679d9e5e6e81419104735b518f8ddab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -138,7 +126,7 @@ hash = "bdf3c7acf1ad9362fada657b4c0ba15b82a85cfd822f352a50cd053201610c9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "848ff0e265fc1c6dbad364b9289061d3b19c717c0bd823d04f66e0600f7afb1f"
+hash = "53f49ae80bd559cc90bf4e74b0d488749afc7329777d4e2706f1e8491679ab5a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -406,7 +394,7 @@ hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "9bd7696c073595313f30e20e5a4d2e98c343f44d858994c678d6d33c5ebb6e1a"
+hash = "29ea9d127591fc56f2bab14a03d81635344dd29eac63c70590cc377c484bed94"
 
 [[files]]
 file = "config/squatgrow-common.yaml"
@@ -449,14 +437,6 @@ file = "config/ulvcovm-common.toml"
 hash = "efe0b63392166a4b37c21dbe759f8e3c7466b2e8f677d84cb7f5cb3dada9c2cf"
 
 [[files]]
-file = "config/valkyrielib/valkyrielib-client.json"
-hash = "f0c956d4fa29f29b6e41fb36b889ed4c52dc060e4dc02fc36569037d5dcc9ccf"
-
-[[files]]
-file = "config/valkyrielib/valkyrielib.json"
-hash = "b27110a047cebab08bd91482a73d325409ca006c1ad4dd2110bc1694c4a53f33"
-
-[[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
 hash = "183411b8c08164b4c554825dbdcc063bf1b1258e8c886ad62b08ae17aeb09fcd"
 
@@ -471,10 +451,6 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
-
-[[files]]
-file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -1162,7 +1138,7 @@ hash = "dc42a79757c0eb87a7f79419821e29d6a6cd8973acb6f50c76eb792afac47407"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
-hash = "36e2433b51ec1bb41fa05d26558228f683596aef8be1303f7a1608be938f5ce2"
+hash = "2f11d9aec02664d644c07d08287ac5a695198fce9d732100277d7bcd65086458"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/jovian_chem.js"
@@ -1254,7 +1230,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "970f1e9c7a45c6797e04c17f3577581cfdc72ca31b83ecc27ccb9345f197e95d"
+hash = "c2248278e8fc20be62c5bb443dcbeeef8b52c1741c269ac734b3ce25fadd3e1b"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"
@@ -1306,7 +1282,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "582e56b62da6a1eaba04cd555484a5cc981e5da35e828176dc4bf6897353ec48"
+hash = "6d267ab47bdbab714364bc92da6257622d38154d9c60ef55132f9f3d4f431ba7"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"
@@ -1322,7 +1298,7 @@ hash = "2dfed45c244145c9af7c8867368aea34e481d8b3e23360ae1893c2329d08fb27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/ae2.js"
-hash = "f9571c138452d6764fb0f7fc564812a50dfc599d877f842448bad107cf93e0dc"
+hash = "500ff54ac5b987caaad2240c2731cda2d2200c13200571e3d60c4987a0a3edb2"
 
 [[files]]
 file = "kubejs/server_scripts/tags/gregtech.js"
@@ -1714,7 +1690,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
-hash = "cab404de34f9a975fb55ea9982a1137049520a39d0e41a7c33d825704339fb5a"
+hash = "b4291fb88a11a0b5598fc988df96f0098407167cf53877f01382054616db3d1c"
 metafile = true
 
 [[files]]
