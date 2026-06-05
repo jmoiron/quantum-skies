@@ -129,6 +129,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:raw_ilmenite", 3500, 500)
         .chancedOutput("gtceu:raw_tungstate", 2000, 500)
         .chancedOutput("gtceu:raw_scheelite", 2000, 500)
+        .notConsumable("kubejs:titanium_mesh")
         .EUt(GTValues.VA[GTValues.HV])
         .duration(150);
 
