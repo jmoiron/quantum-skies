@@ -5,4 +5,6 @@ ServerEvents.tags("item", (event) => {
   event.remove("forge:silicon", "ae2:silicon");
 
   event.add("forge:silicon", "gtceu:silicon_plate");
+  event.add("curios:curio", "ae2:wireless_terminal");
+  event.add("curios:curio", "ae2:wireless_crafting_terminal");
 });
