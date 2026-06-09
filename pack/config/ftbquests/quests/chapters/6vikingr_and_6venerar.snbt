@@ -5,7 +5,7 @@
 	group: "3F9DCC5BE002E182"
 	icon: "gcyr:ore_finder_satellite"
 	id: "41DE684064D9010B"
-	order_index: 2
+	order_index: 1
 	quest_links: [
 		{
 			id: "587AF35A264C3036"
@@ -18,6 +18,12 @@
 			id: "7FA4DACFECF9DA51"
 			linked_quest: "0C584EE0F802DFD9"
 			size: 1.5d
+			x: 19.0d
+			y: -7.5d
+		}
+		{
+			id: "7F11898D49E7380F"
+			linked_quest: "264DB50D49CFA06E"
 			x: 17.5d
 			y: -7.5d
 		}
@@ -78,6 +84,11 @@
 		}
 		{
 			dependencies: ["33AE8B292B528D0C"]
+			description: [
+				"&5Dense Hydrazine&r technically involves slowly chewing through &7palladium&r, so it's perhaps not the most viable fuel source, but it's required to build the Tier 2 rocket parts."
+				""
+				"You will need &dstable titanium machine casings&r on your &2chemplant&r to produce it."
+			]
 			id: "42AB9784794AC169"
 			tasks: [{
 				id: "5FEA106230A1C67A"
@@ -181,7 +192,11 @@
 				"4F7CEDAC0563F240"
 				"50E6C5FCC54DA2F0"
 			]
-			description: ["&aEthyl Anthra Quinone&r is used in the production of &6Hydrogen Peroxide&r.  Do not bother making this in bulk, it can be recycled in the chem plant."]
+			description: [
+				"&aEthyl Anthra Quinone&r is used in the production of &6Hydrogen Peroxide&r."
+				""
+				"This can be recycled in the chem plant, so you don't need to produce it in bulk."
+			]
 			id: "50E241E988932C06"
 			tasks: [{
 				id: "0A2BF9BBC6C51E19"
@@ -426,7 +441,7 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
+			x: 20.5d
 			y: -7.5d
 		}
 		{
@@ -439,7 +454,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: -7.5d
 		}
 		{

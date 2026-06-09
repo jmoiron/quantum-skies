@@ -5,7 +5,7 @@
 	group: "3F9DCC5BE002E182"
 	icon: "gtceu:ultimet_drill_head"
 	id: "4169B7130025E7B4"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "4F9902DFA8E9AD1E"

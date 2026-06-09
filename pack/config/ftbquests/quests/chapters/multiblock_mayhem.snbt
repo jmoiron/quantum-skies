@@ -696,9 +696,11 @@
 			description: [
 				"The &2Chemical Plant&r is a complex multiblock that is capable of running chemical reactions that even the &2LCR&r cannot support.  Its recipes typically involve one or more solid catalists and solid + fluid outputs."
 				""
-				"The &2chemplant&r was originally from &2GT++&r, and is used for rocket fuels in &3GTNH&r."
+				"The &2chemplant&r was originally from &2GT++&r, and is used for rocket fuels in &3GTNH&r. In &2GTCEu modern&r, it's provided by the addon &2GT--&r. Fun programming joke for you."
 				""
-				"The tier of the &6machine casing&r, &6coil&r, and &6pipe&r blocks determine various recipe capabilities. You will need the &bbronze casings&r in the multiblock preview to be &6stainless steel casings&r to be able to produce &cRP-1 mixed rocket fuel&r."
+				"The tier of the &6machine casing&r, &6coil&r, and &6pipe&r blocks determine various recipe capabilities. You will need the &bbronze casings&r in the multiblock preview to be &6clean stainless steel casings&r to be able to produce &cRP-1 mixed rocket fuel&r."
+				""
+				"If you build a \"good\" &2chemplant&r, pay attention to its parallelism. It may not start with only one copy of the recipe available in its inputs if it wants to run >1 parallel recipe."
 			]
 			id: "52AD249F52432AF5"
 			size: 1.25d
@@ -825,12 +827,11 @@
 		}
 		{
 			dependencies: [
-				"714A44034954167C"
-				"4E82FF7DAE20E3A5"
 				"10A8D82626E851C8"
 				"100E54672FCCBEE6"
 				"634FC8CB49EB10B5"
 				"4F13EBB0458E8180"
+				"264DB50D49CFA06E"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -843,6 +844,7 @@
 				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
 			]
 			id: "0C584EE0F802DFD9"
+			min_required_dependencies: 1
 			size: 1.0d
 			subtitle: "To the core!"
 			tasks: [{

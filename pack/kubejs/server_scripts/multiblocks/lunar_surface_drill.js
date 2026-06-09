@@ -33,8 +33,9 @@ ServerEvents.recipes(event => {
             .chancedOutput(`${mult(x)}gtceu:moon_bauxite_ore`, 3500, 0)
             .chancedOutput(`${mult(x)}gtceu:moon_moissanite_ore`, 1500, 0)
             .chancedOutput(`${mult(x)}gcyr:moon_fluorite_ore`, 1500, 0)
+            .dimension("gcyr:luna")
             .EUt(GTValues.VA[GTValues.HV])
-            .duration(90 * 20)
+            .duration(30 * 20)
 
     });
 

@@ -434,6 +434,11 @@
 				"433629DA1946D1E0"
 				"325CF49F37018A77"
 			]
+			description: [
+				"Although &auranium&r is generally prized as a fissile material for energy production and some other less savory applications, such uses are not possible up here in the sky."
+				""
+				"It is, however, your only source of &dradon&r until you are able to reach &bEuropa&r."
+			]
 			id: "5337584F0630F308"
 			shape: "gear"
 			size: 1.5d
