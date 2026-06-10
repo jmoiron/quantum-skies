@@ -284,9 +284,14 @@
 			dependencies: ["0F7B9EAEF4103A8F"]
 			id: "084B000F8254AFA9"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:para_phenylenediamine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:para_phenylenediamine"
+				}]
 				id: "450E8302D98A089C"
-				item: "gcyr:para_phenylenediamine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 0.0d
 			y: -11.5d
@@ -298,9 +303,14 @@
 			]
 			id: "6A9B308A036AB81B"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:terephthaloyl_chloride"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:terephthaloyl_chloride"
+				}]
 				id: "7BB96796E74CF9FE"
-				item: "gcyr:terephthaloyl_chloride_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.5d
 			y: -10.0d
@@ -312,9 +322,14 @@
 			]
 			id: "6BFCE0B45F2483E0"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:therephthalic_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:therephthalic_acid"
+				}]
 				id: "33032074A1B67C56"
-				item: "gcyr:therephthalic_acid_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: -10.0d
@@ -323,9 +338,14 @@
 			dependencies: ["22161503779A2B13"]
 			id: "3C5235C6C7D6C73B"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:bis_trichloromethyl_benzene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:bis_trichloromethyl_benzene"
+				}]
 				id: "6E63663368215770"
-				item: "gcyr:bis_trichloromethyl_benzene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.5d
 			y: -11.5d
@@ -334,9 +354,14 @@
 			dependencies: ["6C114A2C08AA55C2"]
 			id: "0F7B9EAEF4103A8F"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:nitroaniline"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:nitroaniline"
+				}]
 				id: "52B9C85910AE8199"
-				item: "gcyr:nitroaniline_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 0.0d
 			y: -13.0d
@@ -350,14 +375,24 @@
 			id: "6C114A2C08AA55C2"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:chlorobenzene"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:chlorobenzene"
+					}]
 					id: "697029AC1943352C"
-					item: "gtceu:chlorobenzene_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:nitrochlorobenzene"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:nitrochlorobenzene"
+					}]
 					id: "7AB92707F1C0A2F3"
-					item: "gtceu:nitrochlorobenzene_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 0.0d
@@ -368,9 +403,14 @@
 			description: ["&6Para-Xylene&r can be distilled from &9Lightly Steam-cracked&r &6Naphtha&r."]
 			id: "22161503779A2B13"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:para_xylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:para_xylene"
+				}]
 				id: "68309642FEBB5EBF"
-				item: "gcyr:para_xylene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.5d
 			y: -13.0d
@@ -392,9 +432,14 @@
 			size: 1.25d
 			subtitle: "All of that for Bromine?"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:bromine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:bromine"
+				}]
 				id: "69A01D1D7D5220D1"
-				item: "gtceu:bromine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -4.5d
 			y: -10.0d
@@ -635,9 +680,14 @@
 			]
 			id: "0F62B838EB8BE9EF"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:rp_1_mixed_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:rp_1_mixed_fuel"
+				}]
 				id: "7B57130AC14E15DE"
-				item: "gtceu:rp_1_mixed_fuel_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.0d
 			y: -5.5d
@@ -740,9 +790,14 @@
 			]
 			id: "2B762EE7E5E3BEA1"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:hydrobromic_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:hydrobromic_acid"
+				}]
 				id: "0872860640F317A9"
-				item: "gtceu:hydrobromic_acid_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: -11.5d
@@ -934,9 +989,14 @@
 			id: "725A0FCB54CA13FA"
 			size: 1.25d
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:salt_water"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:salt_water"
+				}]
 				id: "2E9B19F7435BC4B1"
-				item: "gtceu:salt_water_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -9.0d
 			y: -10.0d
@@ -967,9 +1027,14 @@
 			]
 			id: "6E86DD18DFA3DA5A"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:methylbenzaldehyde"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:methylbenzaldehyde"
+				}]
 				id: "4D83F9590B5ECAC5"
-				item: "gcyr:methylbenzaldehyde_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: -8.5d
@@ -994,9 +1059,14 @@
 			]
 			id: "5D3EAD0A4B198FC3"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:toluene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:toluene"
+				}]
 				id: "2BD456E2822199CA"
-				item: "gtceu:toluene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.5d
 			y: -7.0d

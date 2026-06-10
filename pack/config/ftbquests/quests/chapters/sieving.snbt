@@ -117,9 +117,14 @@
 		{
 			id: "7B20443355692188"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:polyethylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polyethylene"
+				}]
 				id: "5186DB6688555E9F"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -0.5d
 			y: -7.5d
@@ -137,9 +142,14 @@
 		{
 			id: "527C4566752DC537"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:polytetrafluoroethylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polytetrafluoroethylene"
+				}]
 				id: "4B50A8BDCC004FD5"
-				item: "gtceu:polytetrafluoroethylene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 2.5d
 			y: -7.5d
@@ -157,9 +167,14 @@
 		{
 			id: "214D4B78E1C88798"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:styrene_butadiene_rubber"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:styrene_butadiene_rubber"
+				}]
 				id: "15F1AC0A26BD9D56"
-				item: "gtceu:styrene_butadiene_rubber_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.0d
 			y: -7.5d

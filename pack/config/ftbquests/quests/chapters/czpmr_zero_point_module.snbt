@@ -380,9 +380,14 @@
 			]
 			id: "171FBDDE7E21DA87"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:sterilized_growth_medium"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:sterilized_growth_medium"
+				}]
 				id: "353504A3C769E94F"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: 1.5d
@@ -391,9 +396,14 @@
 			dependencies: ["465EECD3DC9C989F"]
 			id: "1F5B3DB9CB597E47"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:mutagen"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:mutagen"
+				}]
 				id: "2FB7AB7285ED109D"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: 1.5d
@@ -402,9 +412,14 @@
 			dependencies: ["23FD1CA94098F870"]
 			id: "465EECD3DC9C989F"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:enriched_bacterial_sludge"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:enriched_bacterial_sludge"
+				}]
 				id: "683B6812BC0E1AB8"
-				item: "gtceu:enriched_bacterial_sludge_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: 0.0d

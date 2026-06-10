@@ -570,9 +570,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:titanium_tetrachloride"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:titanium_tetrachloride"
+					}]
 					id: "2F190134178F24B0"
-					item: "gtceu:titanium_tetrachloride_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 23.0d

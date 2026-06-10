@@ -99,9 +99,14 @@
 			dependencies: ["188B86167DB88BA6"]
 			id: "18DA86AF5943CA4C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:lutetium"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:lutetium"
+				}]
 				id: "48DE413DDFD069C7"
-				item: "gtceu:lutetium_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.0d
 			y: 0.5d

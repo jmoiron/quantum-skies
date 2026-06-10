@@ -40,9 +40,14 @@
 		{
 			id: "4368A058AFFC701C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:udmh_rocket_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:udmh_rocket_fuel"
+				}]
 				id: "138FC673A7E0399F"
-				item: "gtceu:udmh_rocket_fuel_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: 1.5d
@@ -137,9 +142,14 @@
 			dependencies: ["279973130AF30849"]
 			id: "61AFA59BFE14C148"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:saturnian_atmospheric_mix"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:saturnian_atmospheric_mix"
+				}]
 				id: "408B0142D9CB5077"
-				item: "gtceu:saturnian_atmospheric_mix_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.0d
 			y: 3.0d
@@ -148,9 +158,14 @@
 			dependencies: ["279973130AF30849"]
 			id: "3EA6F22D740AEFE1"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:titanean_atmospheric_mix"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:titanean_atmospheric_mix"
+				}]
 				id: "175968506C446F0A"
-				item: "gtceu:titanean_atmospheric_mix_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.0d
 			y: 1.5d
@@ -164,9 +179,14 @@
 			]
 			id: "2C38FEC49C415F42"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:phosphine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:phosphine"
+				}]
 				id: "797F870C75544A59"
-				item: "gtceu:phosphine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: 3.0d
@@ -175,9 +195,14 @@
 			dependencies: ["3EA6F22D740AEFE1"]
 			id: "07358DC827122A9F"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:titan_hydrocarbon_mix"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:titan_hydrocarbon_mix"
+				}]
 				id: "2D36CB406AA2EB60"
-				item: "gtceu:titan_hydrocarbon_mix_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: 0.0d
@@ -211,9 +236,14 @@
 			]
 			id: "4179E01F66B50401"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:selenized_tholin"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:selenized_tholin"
+				}]
 				id: "5A0D168AB8DB1CB8"
-				item: "gtceu:selenized_tholin_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.0d
 			y: 0.0d
@@ -222,9 +252,14 @@
 			dependencies: ["4179E01F66B50401"]
 			id: "7686896A5EB9F693"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:hydrocarbon_tholin"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:hydrocarbon_tholin"
+				}]
 				id: "5650775408F52D7A"
-				item: "gtceu:hydrocarbon_tholin_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.0d
 			y: 1.5d
@@ -233,9 +268,14 @@
 			dependencies: ["7686896A5EB9F693"]
 			id: "703E6B60D419D8D2"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:tholin_diamine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:tholin_diamine"
+				}]
 				id: "013058CF86C76F51"
-				item: "gtceu:tholin_diamine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.5d
 			y: 1.5d
@@ -247,9 +287,14 @@
 			]
 			id: "7A00CE66CF164528"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:kapton_e_prepolymer"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:kapton_e_prepolymer"
+				}]
 				id: "344C15744A77F795"
-				item: "gtceu:kapton_e_prepolymer_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.0d
 			y: 0.0d
@@ -287,9 +332,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:selenious_acid"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:selenious_acid"
+					}]
 					id: "66CB97A871ED42AA"
-					item: "gtceu:selenious_acid_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 4.5d

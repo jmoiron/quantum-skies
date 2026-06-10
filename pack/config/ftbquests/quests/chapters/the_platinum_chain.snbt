@@ -53,9 +53,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:aqua_regia"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:aqua_regia"
+					}]
 					id: "437D2CF6EED9CEFD"
-					item: "gtceu:aqua_regia_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: -3.5d
@@ -65,9 +70,14 @@
 			dependencies: ["0541BA78C74FB318"]
 			id: "128F097CBC34C20C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:platinum_concentrate"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:platinum_concentrate"
+				}]
 				id: "59E1AB829DDA4B39"
-				item: "gtec:platinum_concentrate_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -2.0d
 			y: -8.0d
@@ -104,9 +114,14 @@
 			dependencies: ["128F097CBC34C20C"]
 			id: "4CD5EC72558360C6"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:palladium_enriched_ammonia"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:palladium_enriched_ammonia"
+				}]
 				id: "4C82004363758249"
-				item: "gtec:palladium_enriched_ammonia_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -0.5d
 			y: -8.0d
@@ -175,9 +190,14 @@
 		{
 			id: "7E72D93B6C8F88FE"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:formic_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:formic_acid"
+				}]
 				id: "2E5DA5077408AA28"
-				item: "gtceu:formic_acid_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 2.5d
 			y: -9.5d
@@ -240,9 +260,14 @@
 			]
 			id: "3EC722153957C8A8"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:rhodium_sulfate"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:rhodium_sulfate"
+				}]
 				id: "39E8DD8DA92AD472"
-				item: "gtceu:rhodium_sulfate_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -2.0d
 			y: -5.0d
@@ -262,9 +287,14 @@
 			dependencies: ["3EC722153957C8A8"]
 			id: "15DD2CD939709FB9"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:diluted_rhodium_sulfate_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:diluted_rhodium_sulfate_solution"
+				}]
 				id: "1921275C5DFAB73A"
-				item: "gtec:diluted_rhodium_sulfate_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -0.5d
 			y: -5.0d
@@ -296,9 +326,14 @@
 			id: "6FBD91772541CAA8"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:rhodium_salt_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:rhodium_salt_solution"
+					}]
 					id: "529EA9F93457A8A7"
-					item: "gtec:rhodium_salt_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "70B53153096F4097"
@@ -325,9 +360,14 @@
 			id: "17A6DDA752227600"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:rhodium_filter_cake_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:rhodium_filter_cake_solution"
+					}]
 					id: "7E2CE4786C13BAF9"
-					item: "gtec:rhodium_filter_cake_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "690CB696BF86B296"
@@ -389,14 +429,24 @@
 			id: "67B49AF24DDBDB72"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:ruthenium_tetroxide_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:ruthenium_tetroxide_solution"
+					}]
 					id: "5F4CCEEE8B001409"
-					item: "gtec:ruthenium_tetroxide_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:hot_ruthenium_tetroxide_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:hot_ruthenium_tetroxide_solution"
+					}]
 					id: "582770DC6E0D2DC3"
-					item: "gtec:hot_ruthenium_tetroxide_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 1.0d
@@ -454,9 +504,14 @@
 			dependencies: ["41F01633138183CE"]
 			id: "531398D847EA4BAB"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:acidic_osmium_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:acidic_osmium_solution"
+				}]
 				id: "62095A4A7DE1B56B"
-				item: "gtceu:acidic_osmium_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -0.5d
 			y: -0.5d
@@ -487,9 +542,14 @@
 			dependencies: ["3B569332D61045A7"]
 			id: "63FADBC54C4DB24C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:acidic_iridium_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:acidic_iridium_solution"
+				}]
 				id: "7663F07791934097"
-				item: "gtec:acidic_iridium_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 2.5d
 			y: -2.0d
@@ -538,9 +598,14 @@
 			dependencies: ["531398D847EA4BAB"]
 			id: "2278B8E3FA2CB3A4"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:osmium_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:osmium_solution"
+				}]
 				id: "13CF42C120EBCDAC"
-				item: "gtec:osmium_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 1.0d
 			y: -0.5d

@@ -52,9 +52,14 @@
 			]
 			id: "5E55E00EADAEE59A"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:methyl_hydrazine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:methyl_hydrazine"
+				}]
 				id: "38651AE33DFA391A"
-				item: "gtceu:methyl_hydrazine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -4.5d
 			y: -1.5d
@@ -63,9 +68,14 @@
 			dependencies: ["5E55E00EADAEE59A"]
 			id: "5221311FA700DC44"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:methylhydrazine_nitrate_rocket_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:methylhydrazine_nitrate_rocket_fuel"
+				}]
 				id: "0DE875A2EF0A7536"
-				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: -1.5d
@@ -196,9 +206,14 @@
 			]
 			id: "46146751BFFA5171"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:io_sulfuric_lava"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:io_sulfuric_lava"
+				}]
 				id: "155F15342E076C29"
-				item: "gtceu:io_sulfuric_lava_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.0d
 			y: -4.5d
@@ -207,9 +222,14 @@
 			dependencies: ["46146751BFFA5171"]
 			id: "166BAB655261DEB3"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:quenched_ionian_lava"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:quenched_ionian_lava"
+				}]
 				id: "07B6950D25204A6A"
-				item: "gtceu:quenched_ionian_lava_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: -4.5d
@@ -229,9 +249,14 @@
 			dependencies: ["14B5F6AA4063EDDF"]
 			id: "7218EC6E06DE085F"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:oleum"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:oleum"
+				}]
 				id: "3482F0A2C4D6DF48"
-				item: "gtceu:oleum_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.0d
 			y: -4.5d
@@ -245,9 +270,14 @@
 			]
 			id: "48BE20227852EED9"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:tholin_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:tholin_solution"
+				}]
 				id: "5DE0369632270C2C"
-				item: "gtceu:tholin_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.0d
 			y: -3.0d
@@ -256,9 +286,14 @@
 			dependencies: ["48BE20227852EED9"]
 			id: "5A86F0E8D053F65C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:tholin_extract"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:tholin_extract"
+				}]
 				id: "6E3F9694F0F85529"
-				item: "gtceu:tholin_extract_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: -3.0d
@@ -270,9 +305,14 @@
 			]
 			id: "32D38D77C8431389"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:olivine_enriched_tholin"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:olivine_enriched_tholin"
+				}]
 				id: "2A0E1F7EA6955110"
-				item: "gtceu:olivine_enriched_tholin_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.5d
 			y: -3.0d
@@ -282,9 +322,14 @@
 			description: ["You can pump this out of the many lakes of &2Ganymede Brine&r you can find on the surface, or produce it with crushed &aGanymede Regolith&r and a &2brine tower&r."]
 			id: "26C3649AAE4ADDDD"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ganymede_brine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ganymede_brine"
+				}]
 				id: "7B8CE68C948A2685"
-				item: "gtceu:ganymede_brine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.0d
 			y: 1.5d
@@ -325,9 +370,14 @@
 			dependencies: ["26C3649AAE4ADDDD"]
 			id: "6A5E2D42B7B4A81F"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:conditioned_ganymede_brine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:conditioned_ganymede_brine"
+				}]
 				id: "23A4DFCB6F2D65D1"
-				item: "gtceu:conditioned_ganymede_brine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: 1.5d
@@ -336,9 +386,14 @@
 			dependencies: ["6A5E2D42B7B4A81F"]
 			id: "35981C9A394F94D7"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:clarified_ganymede_brine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:clarified_ganymede_brine"
+				}]
 				id: "09FD269E6C958179"
-				item: "gtceu:clarified_ganymede_brine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.0d
 			y: 1.5d
@@ -347,9 +402,14 @@
 			dependencies: ["35981C9A394F94D7"]
 			id: "1FE048B06275C406"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:refined_ganymede_brine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:refined_ganymede_brine"
+				}]
 				id: "428660CF70421AFB"
-				item: "gtceu:refined_ganymede_brine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.5d
 			y: 1.5d
@@ -361,9 +421,14 @@
 			]
 			id: "334C6083A0811318"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:chlorosulfuric_brine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:chlorosulfuric_brine"
+				}]
 				id: "079366548648D11D"
-				item: "gtceu:chlorosulfuric_brine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.0d
 			y: 1.5d
@@ -399,9 +464,14 @@
 			shape: "gear"
 			size: 1.25d
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:jovian_leachate"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:jovian_leachate"
+				}]
 				id: "51E23E955A30A306"
-				item: "gtceu:jovian_leachate_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.0d
 			y: -1.5d
@@ -464,9 +534,14 @@
 			id: "46C061B5875E17FA"
 			shape: "circle"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:superheated_sterilized_water"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:superheated_sterilized_water"
+				}]
 				id: "79013624D048BE43"
-				item: "gtceu:superheated_sterilized_water_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.5d
 			y: -1.5d

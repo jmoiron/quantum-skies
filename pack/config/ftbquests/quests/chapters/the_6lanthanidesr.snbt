@@ -37,9 +37,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:muddy_monazite_rare_earth_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:muddy_monazite_rare_earth_solution"
+					}]
 					id: "0D4739C1B1C6F789"
-					item: "gtec:muddy_monazite_rare_earth_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			title: "The &6Monazite&r Chain"
@@ -51,9 +56,14 @@
 			id: "4BC0FF32249861EB"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:diluted_monazite_rare_earth_mud"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:diluted_monazite_rare_earth_mud"
+					}]
 					id: "31AA6C944D7EB9DD"
-					item: "gtec:diluted_monazite_rare_earth_mud_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "3D027930209210E0"
@@ -115,9 +125,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:hafnium_tetrachloride_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:hafnium_tetrachloride_solution"
+					}]
 					id: "49559A93DBB5C898"
-					item: "gtec:hafnium_tetrachloride_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "1AADE17E329AD9C5"
@@ -188,9 +203,14 @@
 			id: "1236BA6B63D0B6D1"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:diluted_monazite_sulfate"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:diluted_monazite_sulfate"
+					}]
 					id: "0F67499EDD015C1F"
-					item: "gtec:diluted_monazite_sulfate_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "1DF11AC338D279DE"
@@ -235,14 +255,24 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:nitrogenated_monazite_rare_earth_concentrate"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:nitrogenated_monazite_rare_earth_concentrate"
+					}]
 					id: "0029499811418959"
-					item: "gtec:nitrogenated_monazite_rare_earth_concentrate_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:nitric_leached_monazite_mixture"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:nitric_leached_monazite_mixture"
+					}]
 					id: "026C9935E66C471F"
-					item: "gtec:nitric_leached_monazite_mixture_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: -3.5d
@@ -288,9 +318,14 @@
 			id: "6861B1B00AA4A7FA"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:nitric_monazatie_leached_concentrate"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:nitric_monazatie_leached_concentrate"
+					}]
 					id: "1AE0A01708A242D9"
-					item: "gtec:nitric_monazatie_leached_concentrate_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "52BF27ACBECE1374"
@@ -474,9 +509,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:muddy_bastnasite_rare_earth_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:muddy_bastnasite_rare_earth_solution"
+					}]
 					id: "4C125442A169D5FD"
-					item: "gtec:muddy_bastnasite_rare_earth_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: -11.0d
@@ -487,9 +527,14 @@
 			description: ["First up, &2cracking&r the &6bastnasite&r mud you created with steam gets you &9steam cracked&r mud."]
 			id: "33DD490885E2CF0D"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:steam_cracked_muddy_bastnasite_rare_earth_solution"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:steam_cracked_muddy_bastnasite_rare_earth_solution"
+				}]
 				id: "4F86F85358F8C8DE"
-				item: "gtec:steam_cracked_muddy_bastnasite_rare_earth_solution_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			title: "Steam Cracking Bastnasite Solution"
 			x: -9.5d
@@ -499,9 +544,14 @@
 			dependencies: ["4A3EA94683C4EDB5"]
 			id: "5408D84C82FBED09"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:sodiumfluorosilicate"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:sodiumfluorosilicate"
+				}]
 				id: "02C3942460346FD9"
-				item: "gtec:sodiumfluorosilicate_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -9.5d
 			y: 1.5d
@@ -514,9 +564,14 @@
 			]
 			id: "4A3EA94683C4EDB5"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:hexafluorosilic_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:hexafluorosilic_acid"
+				}]
 				id: "7DE6EF2A594674BC"
-				item: "gtec:hexafluorosilic_acid_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -11.0d
 			y: 1.5d
@@ -528,9 +583,14 @@
 			]
 			id: "7B7A2CAC8023B205"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:conditioned_bastnasite_mud"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:conditioned_bastnasite_mud"
+				}]
 				id: "66DA6029A1FE4180"
-				item: "gtec:conditioned_bastnasite_mud_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -8.0d
 			y: 0.0d
@@ -540,9 +600,14 @@
 			description: ["&2Centrifuging&r this brown mud gets you another source of &6Red Zircon&r for &6Zirconium&r, as well as some traces of &6Titanium&r."]
 			id: "5048F3F5D49300BB"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:diluted_bastnasite_mud"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:diluted_bastnasite_mud"
+				}]
 				id: "4B7B48EBD7161065"
-				item: "gtec:diluted_bastnasite_mud_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -6.5d
 			y: 0.0d
@@ -559,9 +624,14 @@
 			id: "71DDF1A71039B8A6"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:filtered_bastnasite_mud"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:filtered_bastnasite_mud"
+					}]
 					id: "76D727FCD37C96F6"
-					item: "gtec:filtered_bastnasite_mud_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "556A1A0B800CA161"
@@ -598,9 +668,14 @@
 			dependencies: ["71DDF1A71039B8A6"]
 			id: "39570F65579A1FC5"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:nitrogenated_rarer_earth_oxides"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:nitrogenated_rarer_earth_oxides"
+				}]
 				id: "4D6D9A3E88ABABA7"
-				item: "gtec:nitrogenated_rarer_earth_oxides_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -5.0d
 			y: 1.5d
@@ -637,9 +712,14 @@
 			dependencies: ["39570F65579A1FC5"]
 			id: "2E0F8EDC2276B9BC"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtec:bastnasite_rarer_earth_oxides_suspension"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtec:bastnasite_rarer_earth_oxides_suspension"
+				}]
 				id: "3497214E4CE8A005"
-				item: "gtec:bastnasite_rarer_earth_oxides_suspension_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.5d
 			y: 0.0d
@@ -818,9 +898,14 @@
 					type: "item"
 				}
 				{
+					consume_fluid: "FALSE"
+					fluid: "gtec:zirconium_tetrachloride_solution"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtec:zirconium_tetrachloride_solution"
+					}]
 					id: "3AF17FB0908B34C7"
-					item: "gtec:zirconium_tetrachloride_solution_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: -9.5d

@@ -69,9 +69,14 @@
 			id: "475DD68AD1548E21"
 			tasks: [
 				{
+					consume_fluid: "FALSE"
+					fluid: "gcyr:kapton_k"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gcyr:kapton_k"
+					}]
 					id: "6C019AA9A44C2EA0"
-					item: "gcyr:kapton_k_bucket"
-					type: "item"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
 					id: "7586FDE06BA5884C"
@@ -91,9 +96,14 @@
 			]
 			id: "42AB9784794AC169"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:dense_hydrazine_mixed_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:dense_hydrazine_mixed_fuel"
+				}]
 				id: "5FEA106230A1C67A"
-				item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 13.0d
 			y: -9.0d
@@ -124,9 +134,14 @@
 			dependencies: ["7EEB0FF1C5CB1391"]
 			id: "0871701BC9F8D615"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:coal_gas"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:coal_gas"
+				}]
 				id: "4C198F1FD9269E50"
-				item: "gtceu:coal_gas_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.0d
 			y: -10.5d
@@ -135,9 +150,14 @@
 			dependencies: ["0871701BC9F8D615"]
 			id: "6BB0ABC1573F6DEA"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:coal_tar"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:coal_tar"
+				}]
 				id: "236779F02C1C1947"
-				item: "gtceu:coal_tar_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.0d
 			y: -9.0d
@@ -146,9 +166,14 @@
 			dependencies: ["0871701BC9F8D615"]
 			id: "50E6C5FCC54DA2F0"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethylbenzene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethylbenzene"
+				}]
 				id: "1FD007EA5DC88D52"
-				item: "gtceu:ethylbenzene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -10.5d
@@ -157,9 +182,14 @@
 			dependencies: ["6BB0ABC1573F6DEA"]
 			id: "1BE30A8E8CB8431B"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:naphthalene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:naphthalene"
+				}]
 				id: "38EF55B9AED1C981"
-				item: "gtceu:naphthalene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -9.0d
@@ -169,9 +199,14 @@
 			id: "1AA7C82B24BF1512"
 			subtitle: "Not Anthropocene"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:anthracene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:anthracene"
+				}]
 				id: "429DAA4BB2882F22"
-				item: "gtceu:anthracene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -7.5d
@@ -199,9 +234,14 @@
 			]
 			id: "50E241E988932C06"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethyl_anthra_quinone"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethyl_anthra_quinone"
+				}]
 				id: "0A2BF9BBC6C51E19"
-				item: "gtceu:ethyl_anthra_quinone_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: -10.5d
@@ -227,9 +267,14 @@
 			]
 			id: "20B1DEEDEB0562C7"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethyl_anthra_hydro_quinone"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethyl_anthra_hydro_quinone"
+				}]
 				id: "2E84D76D3B72E964"
-				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: -9.0d
@@ -248,9 +293,14 @@
 			size: 1.25d
 			subtitle: "Bubbly Water"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:hydrogen_peroxide"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:hydrogen_peroxide"
+				}]
 				id: "7917D790CED90326"
-				item: "gtceu:hydrogen_peroxide_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: -7.5d
@@ -260,9 +310,14 @@
 			description: ["Mixed with &6Methanol&r, &6Hydrazine&r can form &dDense Hydrazine Mixed Fuel&r, a potent &arocket fuel&r itself, and required for building Tier 2 rocket parts."]
 			id: "33AE8B292B528D0C"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:hydrazine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:hydrazine"
+				}]
 				id: "395248FC947E26EE"
-				item: "gtceu:hydrazine_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: -7.5d
@@ -271,9 +326,14 @@
 			dependencies: ["6BB0ABC1573F6DEA"]
 			id: "0EA2AC775127AB16"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:durene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:durene"
+				}]
 				id: "2323A49C834F3014"
-				item: "gcyr:durene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.0d
 			y: -7.5d
@@ -282,9 +342,14 @@
 			dependencies: ["0EA2AC775127AB16"]
 			id: "599CB00100901A65"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:pyrometillic_dianhydride"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:pyrometillic_dianhydride"
+				}]
 				id: "4B00A6CCED4937C1"
-				item: "gcyr:pyrometillic_dianhydride_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -6.0d
@@ -293,9 +358,14 @@
 			dependencies: ["4577586A500AE9B5"]
 			id: "110BEDB4A7393717"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:oxydianiline"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:oxydianiline"
+				}]
 				id: "652CEA112FC8DDE5"
-				item: "gcyr:oxydianiline_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: -4.5d
@@ -305,9 +375,14 @@
 			dependency_requirement: "one_started"
 			id: "1ADF34902038EA5A"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:phenol"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:phenol"
+				}]
 				id: "49D5754E6C97EBAB"
-				item: "gtceu:phenol_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 7.0d
 			y: -4.5d
@@ -316,9 +391,14 @@
 			dependencies: ["1ADF34902038EA5A"]
 			id: "48705EBF12ACE9D2"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:aminophenol"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:aminophenol"
+				}]
 				id: "2A9BFC9DA643FBAF"
-				item: "gtceu:aminophenol_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -4.5d
@@ -332,9 +412,14 @@
 			]
 			id: "4577586A500AE9B5"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:oxydianiline_sludge"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:oxydianiline_sludge"
+				}]
 				id: "64E8D852CE68E577"
-				item: "gcyr:oxydianiline_sludge_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: -4.5d
@@ -343,9 +428,14 @@
 			description: ["There are several ways to make &anitrochlorobenzine&r;  the most straightforward is going to be &6Benzene&r and &6Chlorine&r.  This is also an important component in &6PBI&r."]
 			id: "46F4EB12912C98FF"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:nitrochlorobenzene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:nitrochlorobenzene"
+				}]
 				id: "59731744DA9CA877"
-				item: "gtceu:nitrochlorobenzene_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.5d
 			y: -3.0d
@@ -358,9 +448,14 @@
 			]
 			id: "6BBF7DD4DB0C3DEA"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gcyr:dimethylformamide"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gcyr:dimethylformamide"
+				}]
 				id: "43500F5029ABE55C"
-				item: "gcyr:dimethylformamide_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: -3.0d

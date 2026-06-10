@@ -504,9 +504,14 @@
 		{
 			id: "17DE3BDF8299D267"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:polychlorinated_biphenyl"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polychlorinated_biphenyl"
+				}]
 				id: "63DFB3C593D45C21"
-				item: "gtceu:polychlorinated_biphenyl_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: 2.5d
@@ -515,9 +520,14 @@
 			dependencies: ["17DE3BDF8299D267"]
 			id: "12ACFB64A63FF516"
 			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:pcb_coolant"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:pcb_coolant"
+				}]
 				id: "6BCBFB8869D165EE"
-				item: "gtceu:pcb_coolant_bucket"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 10.0d
 			y: 4.0d
