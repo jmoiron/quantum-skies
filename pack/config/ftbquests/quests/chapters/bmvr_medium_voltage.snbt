@@ -97,9 +97,14 @@
 			id: "16935534AA79DBEE"
 			size: 1.25d
 			tasks: [{
-				id: "10EB0CE3D44EAA8B"
-				item: "gtceu:light_fuel_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:light_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:light_fuel"
+				}]
+				id: "45DAF9C2FA545059"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.5d
 			y: -4.5d
@@ -124,9 +129,14 @@
 			size: 1.25d
 			subtitle: "Beloved hexagonal carcinogen"
 			tasks: [{
-				id: "018EDDA49E6EFD7D"
-				item: "gtceu:benzene_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:benzene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:benzene"
+				}]
+				id: "27B6637D50FDFC75"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 12.5d
 			y: -4.5d
@@ -140,9 +150,14 @@
 			]
 			id: "6E4B65DC3B9FB178"
 			tasks: [{
-				id: "6DAF3F105A0E004C"
-				item: "gtceu:lpg_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:lpg"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:lpg"
+				}]
+				id: "5FF30F4737C159B5"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.0d
 			y: -3.0d
@@ -158,9 +173,14 @@
 			]
 			id: "3AE5A171DA834F6C"
 			tasks: [{
-				id: "3B8B532BF2C2A2D9"
-				item: "gtceu:refinery_gas_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:refinery_gas"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:refinery_gas"
+				}]
+				id: "331C308881BD2B0E"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.0d
 			y: -4.5d
@@ -308,9 +328,14 @@
 			]
 			id: "4BDC24DF26BB7502"
 			tasks: [{
-				id: "064D75DCB6FAE6F5"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethylene"
+				}]
+				id: "7998F1720BEC7699"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.5d
 			y: -4.5d
@@ -328,9 +353,14 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				id: "67EA80234F36B970"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:polyethylene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polyethylene"
+				}]
+				id: "588FE0DCD4AEAB0B"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.5d
 			y: -3.0d
@@ -344,9 +374,14 @@
 			description: ["If you choose to go the &6biomass&r route for &6polyethylene&r (PE), you will need to combine &6sulfuric acid&r with &6ethanol&r in a &dchemical reactor&r."]
 			id: "6CEC31CA4F75BCF3"
 			tasks: [{
-				id: "7545842C71ED0973"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:sulfuric_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:sulfuric_acid"
+				}]
+				id: "483AD20A50237261"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 3.5d
 			y: -6.0d
@@ -357,11 +392,21 @@
 				"7ABFC37B56E8847A"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Regular old &6Oil&r produces a good mix of fuels, naphtha, and natural gas, but doesn't excel at any of them."
+				""
+				"It's a great resource for making &6diesel&r as it gives you light and heavy fuel in roughly the right quantities."
+			]
 			id: "207B8A217A5CB777"
 			tasks: [{
-				id: "0CFE93754D7A4579"
-				item: "gtceu:oil_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:oil"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:oil"
+				}]
+				id: "6991A967A63935C1"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.5d
 			y: -6.0d
@@ -375,9 +420,14 @@
 			description: ["Processing &6Heavy Oil&r requires an &bMV&r &2distillery&r, and it is best at producing &6Heavy Fuel&r, which is not combustible, making it a poor route for early power."]
 			id: "6DBFD1013B005FC5"
 			tasks: [{
-				id: "28FCE1B0A79677A6"
-				item: "gtceu:oil_heavy_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:oil_heavy"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:oil_heavy"
+				}]
+				id: "7596F334490F512F"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.0d
 			y: -6.0d
@@ -473,9 +523,14 @@
 			id: "55A31B874037ABC1"
 			subtitle: "The Worst Oil"
 			tasks: [{
-				id: "3FB6DCDDC0C4A748"
-				item: "gtceu:oil_light_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:oil_light"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:oil_light"
+				}]
+				id: "3633DAFC6D3DBABE"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.0d
 			y: -6.0d
@@ -606,9 +661,14 @@
 			]
 			id: "5B6C29247F5D6E21"
 			tasks: [{
-				id: "1998031978AABA20"
-				item: "gtceu:heavy_fuel_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:heavy_fuel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:heavy_fuel"
+				}]
+				id: "7A51BFCE69F79699"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.0d
 			y: -4.5d
@@ -626,25 +686,21 @@
 			]
 			id: "40C281751C24CBFA"
 			tasks: [{
-				id: "1A9263EBD4623D47"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:severely_steam_cracked_light_fuel_bucket"
-							}
-							{
-								Count: 1b
-								id: "gtceu:severely_steam_cracked_naphtha_bucket"
-							}
-						]
+				consume_fluid: "FALSE"
+				fluid: "gtceu:severely_steam_cracked_naphtha"
+				fluids: [
+					{
+						Amount: 1000
+						FluidName: "gtceu:severely_steam_cracked_naphtha"
 					}
-				}
+					{
+						Amount: 1000
+						FluidName: "gtceu:severely_steam_cracked_light_fuel"
+					}
+				]
+				id: "3D0DA2E75BC76E8F"
 				title: "Severely Cracked"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 5.0d
 			y: -4.5d
@@ -657,9 +713,14 @@
 			description: ["&6Ethanol&r is a combustible fuel, and its production is energy positive, but it's typically pursued in order to create &6Polyethylene&r (PE)."]
 			id: "77F7117768090539"
 			tasks: [{
-				id: "0783DC65BA35574C"
-				item: "gtceu:ethanol_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:ethanol"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:ethanol"
+				}]
+				id: "7E1A34F7FC7E2E1F"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 2.0d
 			y: -4.5d
@@ -672,9 +733,14 @@
 			]
 			id: "04A283CCD426FB53"
 			tasks: [{
-				id: "34130AE4490F1B5D"
-				item: "gtceu:biomass_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:biomass"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:biomass"
+				}]
+				id: "3CF59DC47108B1C0"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 0.5d
 			y: -4.5d
@@ -986,24 +1052,21 @@
 			description: ["You may have already created either &6Iron (III) Chloride&r or &6Sodium Persulfate&r to save on &6silver&r for your phenolic circuit boards, but from here on out, they will be &brequired&r."]
 			id: "6448A28D81FCFBCF"
 			tasks: [{
-				id: "250C7F64AD2A8EE1"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:iron_iii_chloride_bucket"
-							}
-							{
-								Count: 1b
-								id: "gtceu:sodium_persulfate_bucket"
-							}
-						]
+				consume_fluid: "FALSE"
+				fluid: "gtceu:iron_iii_chloride"
+				fluids: [
+					{
+						Amount: 1000
+						FluidName: "gtceu:iron_iii_chloride"
 					}
-				}
-				type: "item"
+					{
+						Amount: 1000
+						FluidName: "gtceu:sodium_persulfate"
+					}
+				]
+				id: "48B0DB36A584CEB5"
+				title: "Circuit Etching Fluids"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			title: "Circuit Etching Fluids"
 			x: 5.0d
@@ -1347,9 +1410,14 @@
 			id: "16F8B12D38FAFB4E"
 			subtitle: "Nap-tha? Naf-tha? Na-the?"
 			tasks: [{
-				id: "71DD265207C04D28"
-				item: "gtceu:naphtha_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:naphtha"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:naphtha"
+				}]
+				id: "2E743687E42B301F"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.5d
 			y: -4.5d
@@ -1363,9 +1431,14 @@
 			]
 			id: "51EB788B4C504D62"
 			tasks: [{
-				id: "2D5B87FD8398DA8A"
-				item: "gtceu:oil_medium_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:oil_medium"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:oil_medium"
+				}]
+				id: "158406E2C3663E76"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			title: "Happy Medium"
 			x: 6.5d

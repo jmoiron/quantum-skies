@@ -96,9 +96,14 @@
 			]
 			id: "7F1CE5F538BD509C"
 			tasks: [{
-				id: "391BDDB7C7F7E7B8"
-				item: "gtceu:gasoline_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:gasoline"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:gasoline"
+				}]
+				id: "042134863F533FD4"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -6.0d
 			y: -2.5d
@@ -114,9 +119,14 @@
 			]
 			id: "131A00281F318C2C"
 			tasks: [{
-				id: "1D2E283F4AEF0904"
-				item: "gtceu:high_octane_gasoline_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:high_octane_gasoline"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:high_octane_gasoline"
+				}]
+				id: "37596FD57C0384C2"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -6.0d
 			y: -4.0d
@@ -138,45 +148,44 @@
 		{
 			id: "2C075F720F7C394D"
 			tasks: [{
-				id: "67A3B70D0A6D5703"
-				item: "gtceu:epichlorohydrin_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:epichlorohydrin"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:epichlorohydrin"
+				}]
+				id: "7DB5BC5D5426E576"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -3.0d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"44957CFD2BDD50F4"
-				"4B00F98FFDFB8B5B"
-			]
+			dependencies: ["4B00F98FFDFB8B5B"]
 			description: [
 				"Producing &6Bisphenol-A&r is an optional step on the way to &9epoxy&r."
 				""
-				"If you've decided to make &2LCRs&r for this chain, you can skip this step. This quest will complete with an &6epoxy sheet&r."
+				"If you've decided to make &2LCRs&r for this chain, you can skip this step."
+				""
+				"This quest will also complete with an &6liquid epoxy&r."
 			]
 			id: "630FEB4A24EE7767"
 			tasks: [{
-				icon: "gtceu:bisphenol_a_bucket"
-				id: "1122F0A283130D6B"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:bisphenol_a_bucket"
-							}
-							{
-								Count: 1b
-								id: "gtceu:epoxy_plate"
-							}
-						]
+				consume_fluid: "FALSE"
+				fluid: "gtceu:bisphenol_a"
+				fluids: [
+					{
+						Amount: 1000
+						FluidName: "gtceu:bisphenol_a"
 					}
-				}
-				title: "Bisphenol A Bucket"
-				type: "item"
+					{
+						Amount: 1000
+						FluidName: "gtceu:epoxy"
+					}
+				]
+				id: "39FC7EEC3A467CB8"
+				title: "Bisphenol A"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -4.5d
 			y: -1.0d
@@ -185,29 +194,34 @@
 			description: [
 				"&6Acetone&r is attainable several ways."
 				""
-				"If you have a decent &cpetrochem&r setup, you may be able to synthesize it from &6benzene&r, &6propene&r and some &6phosphorous&r."
+				"If you have a decent &cpetrochem&r setup, you can synthesize both &6Acetone&r and &rPhenol&r from &6cumene&r, which you can make with &6benzene&r, &6propene&r and some spare &6phosphorous&r."
 				""
-				"If you have been producing &6acetic acid&r, either through petro-chem or for &ecetane-boosted diesel&r, you might want to convert some of that to &6Acetone&r."
-				""
-				"If you have been stockpiling &6ethylene&r, you can also synthesize it wth a little bit of &boxygen&r."
+				"If you have been producing &6acetic acid&r, eg. from &2pyrolyse ovens&r to make &1ethenone&r for &ecetane-boosted diesel&r, you might want to convert some of that to &6acetone&r, as you can get &6Phenol&r from several other petrochem setups."
 			]
 			id: "4B00F98FFDFB8B5B"
-			tasks: [{
-				id: "285B70081AA33CC0"
-				item: "gtceu:acetone_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:acetone"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:acetone"
+					}]
+					id: "55AF864628BB73D8"
+					type: "ftbq_better_fluids:fluid_plus"
+				}
+				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:phenol"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:phenol"
+					}]
+					id: "207BD27C0810D1F0"
+					type: "ftbq_better_fluids:fluid_plus"
+				}
+			]
 			x: -4.5d
-			y: -2.5d
-		}
-		{
-			id: "44957CFD2BDD50F4"
-			tasks: [{
-				id: "5CDB10C4A4F584C9"
-				item: "gtceu:phenol_bucket"
-				type: "item"
-			}]
-			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -628,9 +642,14 @@
 			]
 			id: "4ECF13D81CF3AF9C"
 			tasks: [{
-				id: "49CE5C002A87C114"
-				item: "gtceu:radon_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:radon"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:radon"
+				}]
+				id: "13707D3035F2F224"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: -1.5d
 			y: 3.5d
@@ -928,29 +947,49 @@
 				""
 				"&aUDMH rocket fuel&r is a great power source at ~12m EU/b."
 				""
-				"The last two tiers unlock with &9tungstensteel&r, but you won't be able to build &2rocket engines&r until you have it."
+				"The last two tiers unlock with &9tungstensteel&r, but you can start using rocket engines before then."
 			]
 			id: "49CC1AC92227C24E"
 			tasks: [
 				{
-					id: "5E42DC3659551185"
-					item: "gtceu:rp_1_mixed_fuel_bucket"
-					type: "item"
+					consume_fluid: "FALSE"
+					fluid: "gtceu:rp_1_mixed_fuel"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:rp_1_mixed_fuel"
+					}]
+					id: "4FBF18E752F0E5A1"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
-					id: "58E97EA69B89B367"
-					item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
-					type: "item"
+					consume_fluid: "FALSE"
+					fluid: "gtceu:dense_hydrazine_mixed_fuel"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:dense_hydrazine_mixed_fuel"
+					}]
+					id: "02BA55DB60CBFCF9"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
-					id: "28298A7E5C28FC53"
-					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
-					type: "item"
+					consume_fluid: "FALSE"
+					fluid: "gtceu:methylhydrazine_nitrate_rocket_fuel"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:methylhydrazine_nitrate_rocket_fuel"
+					}]
+					id: "1F35F41D869B4A91"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 				{
-					id: "004FE8228F8706C5"
-					item: "gtceu:udmh_rocket_fuel_bucket"
-					type: "item"
+					consume_fluid: "FALSE"
+					fluid: "gtceu:udmh_rocket_fuel"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:udmh_rocket_fuel"
+					}]
+					id: "76D2ACBA5B9F95D6"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			title: "Rocket Fuels"

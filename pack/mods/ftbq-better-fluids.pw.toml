@@ -1,0 +1,13 @@
+name = "FTBQ Better Fluids"
+filename = "ftbq_better_fluids-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88b335711c8e9ee81bf84ba94ec0ba5abe33a2e7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8222414
+project-id = 1569344

@@ -379,9 +379,14 @@
 			]
 			id: "40922DB70061C9AA"
 			tasks: [{
-				id: "2D2392533AE93E94"
-				item: "gtceu:fluorine_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:fluorine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:fluorine"
+				}]
+				id: "458A45C41ABEA75B"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 12.5d
 			y: -9.5d
@@ -648,9 +653,14 @@
 			]
 			id: "63C6AF455771F032"
 			tasks: [{
-				id: "504F3B1BD2B8A7B6"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:nitric_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:nitric_acid"
+				}]
+				id: "37FA5DF7E6AD7544"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.0d
 			y: -8.0d
@@ -664,9 +674,14 @@
 			]
 			id: "6BBECEEDC4DD2B56"
 			tasks: [{
-				id: "34202E2855C171EF"
-				item: "gtceu:nitration_mixture_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:nitration_mixture"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:nitration_mixture"
+				}]
+				id: "144578F100EAEA3E"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.5d
 			y: -6.5d
@@ -680,9 +695,14 @@
 			]
 			id: "273648ED9BD786F9"
 			tasks: [{
-				id: "0AB7BA91D66F5895"
-				item: "gtceu:tetranitromethane_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:tetranitromethane"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:tetranitromethane"
+				}]
+				id: "1337EC8DC6E6C84F"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.0d
 			y: -6.5d
@@ -701,9 +721,14 @@
 			id: "23CB82881ABB5E72"
 			size: 1.25d
 			tasks: [{
-				id: "05CD28F200337CAC"
-				item: "gtceu:cetane_boosted_diesel_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:cetane_boosted_diesel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:cetane_boosted_diesel"
+				}]
+				id: "451666C3DEA35F07"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 8.0d
 			y: -5.0d
@@ -757,9 +782,14 @@
 			]
 			id: "232BBD7ABE751B56"
 			tasks: [{
-				id: "1DB458DB1B62BD2D"
-				item: "gtceu:diesel_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:diesel"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:diesel"
+				}]
+				id: "688C2F848B606905"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 9.5d
 			y: -6.5d
@@ -1062,9 +1092,14 @@
 			id: "3F4A0B22F5740A63"
 			size: 1.25d
 			tasks: [{
-				id: "336BEAE0C397FC79"
-				item: "gtceu:nitrobenzene_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:nitrobenzene"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:nitrobenzene"
+				}]
+				id: "09ADEFFA2342398C"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 6.5d
 			y: -5.0d

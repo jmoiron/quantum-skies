@@ -328,9 +328,14 @@
 					type: "item"
 				}
 				{
-					id: "75D73C6084CC22BD"
-					item: "gtceu:indium_concentrate_bucket"
-					type: "item"
+					consume_fluid: "FALSE"
+					fluid: "gtceu:indium_concentrate"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:indium_concentrate"
+					}]
+					id: "4739ECE7E4CEDD23"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 10.0d
@@ -398,15 +403,20 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "1CA58E5D5C13C10A"
-					item: "gtceu:polybenzimidazole_bucket"
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "7A067DEBC854FA1D"
 					item: { Count: 4, id: "gtceu:polybenzimidazole_foil" }
 					type: "item"
+				}
+				{
+					consume_fluid: "FALSE"
+					fluid: "gtceu:polybenzimidazole"
+					fluids: [{
+						Amount: 1000
+						FluidName: "gtceu:polybenzimidazole"
+					}]
+					id: "3EE4B31E830248C1"
+					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
 			x: 10.0d
@@ -623,9 +633,14 @@
 		{
 			id: "2DB9CE7D8F82EF46"
 			tasks: [{
-				id: "25B7BE4E0439A65A"
-				item: "gtceu:phthalic_acid_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:phthalic_acid"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:phthalic_acid"
+				}]
+				id: "3134F5CD6955600F"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 13.0d
 			y: -4.0d
@@ -634,9 +649,14 @@
 			dependencies: ["2DB9CE7D8F82EF46"]
 			id: "4ACDAEA8E0568026"
 			tasks: [{
-				id: "739B9D020BDA699F"
-				item: "gtceu:diphenyl_isophthalate_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:diphenyl_isophthalate"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:diphenyl_isophthalate"
+				}]
+				id: "3054B710339956A5"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: -4.0d
@@ -645,9 +665,14 @@
 			dependencies: ["2E458D632F2EDDA1"]
 			id: "13B76DB33F9DB275"
 			tasks: [{
-				id: "5F0B83A8078FD4C5"
-				item: "gtceu:diaminobenzidine_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:diaminobenzidine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:diaminobenzidine"
+				}]
+				id: "566D3994C5A17052"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 11.5d
 			y: -2.5d
@@ -655,9 +680,14 @@
 		{
 			id: "2E458D632F2EDDA1"
 			tasks: [{
-				id: "3FF059FC10F3EB67"
-				item: "gtceu:dichlorobenzidine_bucket"
-				type: "item"
+				consume_fluid: "FALSE"
+				fluid: "gtceu:dichlorobenzidine"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:dichlorobenzidine"
+				}]
+				id: "6B60DEC3B0949EAB"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 13.0d
 			y: -2.5d
@@ -723,25 +753,21 @@
 			]
 			id: "29A518F69A188BB6"
 			tasks: [{
-				id: "4C3AD09342EC6E3E"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:silicone_rubber_bucket"
-							}
-							{
-								Count: 1b
-								id: "gtceu:styrene_butadiene_rubber_bucket"
-							}
-						]
+				consume_fluid: "FALSE"
+				fluid: "gtceu:styrene_butadiene_rubber"
+				fluids: [
+					{
+						Amount: 1000
+						FluidName: "gtceu:styrene_butadiene_rubber"
 					}
-				}
+					{
+						Amount: 1000
+						FluidName: "gtceu:silicone_rubber"
+					}
+				]
+				id: "2954E74211E1ED9A"
 				title: "Better Rubber"
-				type: "item"
+				type: "ftbq_better_fluids:fluid_plus"
 			}]
 			x: 4.0d
 			y: -4.0d

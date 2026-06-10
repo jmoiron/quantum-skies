@@ -126,7 +126,7 @@ hash = "bdf3c7acf1ad9362fada657b4c0ba15b82a85cfd822f352a50cd053201610c9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "53f49ae80bd559cc90bf4e74b0d488749afc7329777d4e2706f1e8491679ab5a"
+hash = "40cefca8c618f0b5d5be644533320d9babcd1ac76eeb9b1898eca400fdc2b91c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "cf884dfc9b599499f6f2cabafeba8b6f15ebc3555cd7834229ffd4dba4b60342"
+hash = "06ca3e19ba71f8836400cf535d897deb5c61c3e9fdb549e634bdb5cc1ef787e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -178,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "27fc64f2a36c389b64b768b199bb375f693cb0dc3f5a424336f4551a1968f020"
+hash = "146f0abb4821a89ba71c668dc24dfacfe9e1de07f660387ae4488f3f3579a7a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -194,7 +194,7 @@ hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "3f9d791b56b78d1c639efa4f6bf0ea879afab7c576cd0d5c26b5b1d0a135aa99"
+hash = "2a1eea6df5222b8793d8d1e1fe4e2e77d37b35990859be21124b54a680d5cd16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -1262,7 +1262,7 @@ hash = "1cec995bd4074d118d328a66f0869bdc196a02d22a4d99e8961f282a9feaf4a9"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/lunar_surface_drill.js"
-hash = "ff892bbc337ade2b78cd3b38e8e5000e271fb3c6f64defec1134e30de4f13c87"
+hash = "483f3447c24e886b1fe2f5d3140f52cf0a55a74c642c91f79903a2990e42e42d"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
@@ -1590,6 +1590,11 @@ metafile = true
 [[files]]
 file = "mods/fastworkbench.pw.toml"
 hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
+metafile = true
+
+[[files]]
+file = "mods/fbtq-better-fluids.pw.toml"
+hash = "2da3304c45bb036dd5fead7d17f8bcb98098d6b940915af2bb4f09fff9857542"
 metafile = true
 
 [[files]]
