@@ -170,7 +170,7 @@ hash = "285297ae10e71d354174ecf3176c710563049fa362ba7772dc3d281a81fd49e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "4ee64284841957abe1d45131107ecb20ea048eb7da903ae3ec3ee6d4db13d068"
+hash = "3ffbd1aaf5a58ca8da50cca567d8b8eb12355c00ae4323a550774b865f40f0b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/materials.snbt"
@@ -202,7 +202,7 @@ hash = "58d7994899f511dbe95b831e168b710a649872cddf3f405e4c3826b34607a953"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "965085f76dc6c17b01591133413eae40d5a640b76e0b19f547fbc37f28d0a236"
+hash = "b9285b494c323efa227eec5573f31b871c8adc17ad982e2cd9439a68c2453452"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
@@ -1391,6 +1391,11 @@ hash = "a8ebb04ea9d2b23361e3d751021e56de7a9fce9efc1da392a9af6693c8a3c3b9"
 [[files]]
 file = "kubejs/startup_scripts/utils.js"
 hash = "2c0194b883690116dde6dd4e764b5557a74c9b450682e44458fdeb9a05032bb2"
+
+[[files]]
+file = "mods/ae2-ftbquest-detector.pw.toml"
+hash = "066c0a3bbd48eeb60e12bca950b10613369876468207b8df6bb3858af50c9d55"
+metafile = true
 
 [[files]]
 file = "mods/ae2-network-analyser.pw.toml"

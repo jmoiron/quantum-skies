@@ -923,6 +923,7 @@
 				"Combined, you can use these to create a compact storage system that can ingest a stream of items and not back up when a single item exceeds capacity."
 			]
 			id: "6E61DA31AA8E8281"
+			subtitle: "But what of my Supertank wall?"
 			tasks: [
 				{
 					id: "1D9D85308688CF77"
@@ -935,6 +936,7 @@
 					type: "item"
 				}
 			]
+			title: "Quantity Control"
 			x: -6.5d
 			y: 3.5d
 		}
@@ -1049,6 +1051,50 @@
 			}]
 			x: 5.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["02ABBC6AE25A16F9"]
+			description: [
+				"Tired of pulling buckets and cells of intermediate fluids out of your &2AE2&r system to tick that next box in the &bquestbook&r?"
+				""
+				"Slap one of these on your &2AE2&r system and it will automatically submit or register items and fluids in your system to complete quests."
+				""
+				"&cNote&r: For fluid quests with multiple options, this will only detect the &o&afirst&r option. You can still complete these by pulling out a cell or drum of the fluid."
+			]
+			hide_dependency_lines: true
+			id: "1CCD890ED201CD18"
+			tasks: [{
+				id: "31C3270DD0BF71BA"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"You have probably noticed that a lot of &2GregTech&r recipes require machines to have a certain &bcircuit&r set to run the recipe."
+				""
+				"In the good old days, this meant setting up at least one machine for each circuit you need. You'll find that &2assemblers&r and &2mixers&r have a lot of circuits that you will need quite early in your journey towards energistic automation."
+				""
+				"The &2programmed circuit card&r, or &2pcc&r, lets you sidestep that. An upgrade for &3pattern providers&r, it allows you to encode circuit requirements into your patterns and have the provider apply that circuit to the machine when running each recipe. You'll want to enable &eblocking mode&r when you use these."
+				""
+				"&cBe forewarned&r, these can be an accelerant and a crutch. You'll need to come up with other solutions for multiblocks, and over-reliance on &2pcc&r can delay scale out, bottleneck your automation and slow you down."
+				""
+				"This pack has recipe chains you need to run in bulk, like the &eplatinum line&r, and others you don't. Be thoughtful with &2pcc&r."
+				""
+				"&oCaveat emptor!&r"
+			]
+			id: "1BDB750826EFC05D"
+			min_width: 250
+			subtitle: "The Monkey's Paw"
+			tasks: [{
+				id: "002D8B41E99DEFE1"
+				item: "pccard:card_programmed_circuit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["&dApplying Energistics&r Twice"]

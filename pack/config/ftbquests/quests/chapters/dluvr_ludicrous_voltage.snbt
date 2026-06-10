@@ -317,7 +317,7 @@
 				}
 			]
 			title: "Cheaper Crystal Circuits"
-			x: 10.0d
+			x: 11.5d
 			y: -2.0d
 		}
 		{
@@ -429,7 +429,7 @@
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
@@ -674,6 +674,22 @@
 			}]
 			x: 7.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["5786299144B4FB87"]
+			description: [
+				"The &dME Pattern Buffer&r is your solution to running complex recipes in your multiblocks."
+				""
+				"It won't set circuits for you like the &2pcc&r, but with these you can finally start using your multiblocks in a more straightforward way."
+			]
+			id: "588FEDA452EF8FC9"
+			tasks: [{
+				id: "49BF28CA21B9B565"
+				item: "gtceu:me_pattern_buffer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Fusion and &dLudicrous Voltage&r"]
