@@ -110,7 +110,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "9659ce70cee343a12fd995691b3909593fe5b3dfe2129266255f0bc3f918cf52"
+hash = "cfb3918b29f2dab2469a6b0ca615efcc2e5553f7aa7930588100f39f2e6f2b2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -118,15 +118,15 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "d1cd7a2c48375b41f48b728510d724191679d9e5e6e81419104735b518f8ddab"
+hash = "280a1d743eec350c5795853faecba86bc72d23a25f5b2d6f8eebac320a81adb6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
-hash = "bdf3c7acf1ad9362fada657b4c0ba15b82a85cfd822f352a50cd053201610c9a"
+hash = "7011764e46c81e9b422d0d45447a80a040260d420415636789d5cef4929763ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "40cefca8c618f0b5d5be644533320d9babcd1ac76eeb9b1898eca400fdc2b91c"
+hash = "52a4d4ed9bb184f84427a860b4e8f4cc91e7ec459de9b2d93ef03505c8e0967c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -134,7 +134,7 @@ hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/9cassinir_and_8huygensr.snbt"
-hash = "e3cfb597c5c217a2bacdfcfe1b37a2f7900bbc8a0a31826d750022bbe7f897a2"
+hash = "6a94bc48fc53683dc08c15e560f48e12bec34c28b4f2f485389962c6b8538305"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age_of_steam.snbt"
@@ -142,11 +142,11 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "06ca3e19ba71f8836400cf535d897deb5c61c3e9fdb549e634bdb5cc1ef787e9"
+hash = "f946386fcb4ee6f8ed8886ec6dfd2f8039ab8ad175f92be39915109ff6922007"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
-hash = "6909c24aeafc36faab3253f5627cf6d2d3c21618a79918a827a7117f238055c4"
+hash = "6c21545dfd52209ad53ecfc3015bff74a0aedd10b9735c8e1afd7f899012ffd3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/circuits.snbt"
@@ -154,7 +154,7 @@ hash = "1a86ab0382a3dd113c0868253af8c21cbdc9ca2e47ae47a6e9b66b3bd8e0556d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/czpmr_zero_point_module.snbt"
-hash = "f2cffd1b36143ef386b7168610803adffffe200a0389b2ce92eb747363632271"
+hash = "f82d403b0d5be319c668f0fd3eea13bb3a12e703bc679cd495694e8e925f5bc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
@@ -162,7 +162,7 @@ hash = "7189f0a55418b3074353ed37fbe027bb33fe20b64678740071f0fb699dc68024"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "9040dd90ae88d8ad0d76c71e57acb42b4d1a889c626330176ad066c25ae727f6"
+hash = "66862ae0fbb16336289f17deca57e37de477035767215f702f1c73133480aa44"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -182,31 +182,31 @@ hash = "146f0abb4821a89ba71c668dc24dfacfe9e1de07f660387ae4488f3f3579a7a9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
-hash = "2aad270b24172b4aae51a612d9c30d1c81cd6c7acacd340483399edf23c4d2ba"
+hash = "5beac5d9daee219fb987f50074080d1f172d99f482ee4dbcd38cce60d933c03b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pioneer_and_voyager.snbt"
-hash = "9743c92d982e800714c44d09c4ad785b6180705b0a42cbc4bf95723b799f7d5f"
+hash = "24af0c7ddeec9fa750cfbb4049f44a279944ffebcc1d829cc7ea3e7baabff4d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sieving.snbt"
-hash = "b7ad9071ade15742c041113abd88a84ddff8550f205df7d8d1b075dc507316ae"
+hash = "4e61672abc586bf3fe1f38599c9009811afc4d49757f8b75cf614a23db17f511"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "2a1eea6df5222b8793d8d1e1fe4e2e77d37b35990859be21124b54a680d5cd16"
+hash = "2d60e2eb945e00cb42855aa66a9adad3592cc7efcdc609a83249d3fbdb109efe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
-hash = "295189bebf8cee8d5aa6fec5b77503cad246dd7cfd16e0f21b1a8cdf6375704c"
+hash = "58d7994899f511dbe95b831e168b710a649872cddf3f405e4c3826b34607a953"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_apollo_program.snbt"
-hash = "65d411099459bd05c5670b93dc6aee9a18461f6cd2c30afb0e7f33a093a2d8c2"
+hash = "965085f76dc6c17b01591133413eae40d5a640b76e0b19f547fbc37f28d0a236"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
-hash = "6b8ec50d98af82d71684ddf99c681b04175c4d0d7837025a03dcf9518a3fda88"
+hash = "5f7f81f57cb2bf34a076af6b9dc782833ee66ab6927dd965a693f28599a564cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
@@ -1593,11 +1593,6 @@ hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
 metafile = true
 
 [[files]]
-file = "mods/fbtq-better-fluids.pw.toml"
-hash = "2da3304c45bb036dd5fead7d17f8bcb98098d6b940915af2bb4f09fff9857542"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "e5264eb103970e9148e18d2b6ed50584d1d897e679db8c74be7b34b940574867"
 metafile = true
@@ -1670,6 +1665,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
+metafile = true
+
+[[files]]
+file = "mods/ftbq-better-fluids.pw.toml"
+hash = "af7355e250f01b784e7890a26f20c0e41b4e555f68029762d78729a8e490a42d"
 metafile = true
 
 [[files]]
