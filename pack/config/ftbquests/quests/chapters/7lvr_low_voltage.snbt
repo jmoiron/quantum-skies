@@ -659,9 +659,9 @@
 		{
 			dependencies: ["4A021C94B02EFF7A"]
 			description: [
-				"The &bSensor&r is used infrequently in the low tiers, finding their way only into &9Prospectors Scanners&r and &9Miners&r, which have limited uses up in the sky."
+				"The &bSensor&r is used infrequently in the low tiers, finding their way only into &9Prospectors Scanners&r and &2miners&r, which have limited uses up in the sky."
 				""
-				"Late on, you'll need higher tier &bSensors&r in &9Processing Arrays&r."
+				"You'll probably want a &2miner&r by the time you explore the solar system."
 			]
 			id: "1D1E0E7942066E3F"
 			tasks: [{

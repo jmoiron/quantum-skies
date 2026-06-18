@@ -305,16 +305,29 @@
 				"541ADBEBFED70B7F"
 			]
 			description: [
-				"&9Flux Dust&r is ... not obtainable until a way to generate bedrock dust is made."
+				"The scraps of &7bedrock&r you've managed to salvage from the &7Moon&r with your &2Planetary Core Miner&r can be used to produce &6flux dust&r."
 				""
-				"Expect this to be moved to &dLuV&r or later."
+				"Using this dust, you can create &aflux cores&r, which can be used to create incredibly powerful wireless cross-dimensional power distribution."
 			]
 			id: "4197035F312E58AC"
-			tasks: [{
-				id: "36D4999EE0F87BFA"
-				item: "fluxnetworks:flux_dust"
+			rewards: [{
+				count: 8
+				id: "6BDE94A3B8F93670"
+				item: "fluxnetworks:flux_core"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "36D4999EE0F87BFA"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "4AC694A299EA453B"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 2.0d
 		}
@@ -327,7 +340,7 @@
 				""
 				"&2Flux networks&r allow unlimited, cross-dimensional transfer of &eForge Energy&r (&cFE&r). They significantly alter the nature of power transfer."
 				""
-				"Although they natively support &aGregtech's EU&r, you may want to consider converting to &cFE&r and distributing power that way, using &2converters&r to turn it back into EU when needed."
+				"Although they natively support &aGregtech's EU&r, you may want to consider converting to &cFE&r and distributing power that way, using &2converters&r to turn it back into EU when needed. Or not, you do you."
 			]
 			id: "5F5867CA3A8803F6"
 			rewards: [{
@@ -491,7 +504,11 @@
 				"28016100F20EBB6C"
 				"5F4121AA8AE00145"
 			]
-			description: ["Prior to its introduction, this tier of coils was made purely out of &5Tungstensteel&r, which isn't the progression detour that most other coil materials are."]
+			description: [
+				"Prior to its introduction, this tier of coils was made purely out of &5Tungstensteel&r, which isn't the progression detour that most other coil materials are."
+				""
+				"You may want to aim for 40 of these initially, as you'll want these for the &2Alloy Blast Furnace&r as well."
+			]
 			id: "14DAADBA638FE4B6"
 			tasks: [{
 				id: "61CF39EFDED73142"
@@ -807,7 +824,7 @@
 				""
 				"For &6Ruthenium&r, check &aThe Platinum Chain&r quest line."
 				""
-				"You can get &6Mo&r by processing &5Scheelite&r."
+				"You can get &6Molybdenum&r by processing &5Scheelite&r."
 			]
 			id: "5F4121AA8AE00145"
 			tasks: [{

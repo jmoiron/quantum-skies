@@ -637,7 +637,7 @@
 				""
 				"There are two main reasons to use multis: to upgrade machines in place and to save energy."
 				""
-				"Upgrading machines in place by swapping out &denergy hatches&r means not having to redo any automation. Additionally, more input/output options for automation means that you don't need to make eg. an &2extruder&r for each mold or an &2assembler&r per fluid."
+				"Upgrading machines in place by swapping out &denergy hatches&r means not having to redo any automation. Additionally, more input/output options for automation means that you don't need to make eg. an &2extruder&r for each mold; you can have an input bus per mold instead."
 				""
 				"The multiblocks save energy by preferring &o&dparallelism&r to overclocking. Recall that overclocking is energy wasteful, consuming 4x power to reduce the processing time by half. These multiblocks parallelize first, then overclock if possible."
 				""

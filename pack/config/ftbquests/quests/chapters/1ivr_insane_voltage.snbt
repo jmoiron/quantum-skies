@@ -41,9 +41,9 @@
 			id: "3A4FF254603B3412"
 			linked_quest: "466C8E5C4C3BF53E"
 			shape: "circle"
-			size: 1.25d
+			size: 1.5d
 			x: 2.5d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			id: "571F1DCBDF147E1E"
@@ -365,6 +365,11 @@
 			dependencies: [
 				"6E10792E66D3E281"
 				"46CF5445253CFBEB"
+			]
+			description: [
+				"This &2High Speed Steel&r coil used to be a glorious green color."
+				""
+				"Never forget what they've taken away from you."
 			]
 			id: "1B4FF273257F4829"
 			size: 1.25d
