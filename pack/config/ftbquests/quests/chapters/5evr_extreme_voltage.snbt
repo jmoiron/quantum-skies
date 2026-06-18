@@ -41,8 +41,8 @@
 		{
 			id: "41630B859D7321E6"
 			linked_quest: "3CB6EECA41144C74"
-			x: 6.0d
-			y: 2.0d
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -300,7 +300,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["541ADBEBFED70B7F"]
+			dependencies: [
+				"3CB6EECA41144C74"
+				"541ADBEBFED70B7F"
+			]
 			description: [
 				"&9Flux Dust&r is ... not obtainable until a way to generate bedrock dust is made."
 				""
@@ -316,10 +319,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4197035F312E58AC"
-				"3CB6EECA41144C74"
-			]
+			dependencies: ["4197035F312E58AC"]
 			description: [
 				"Thanks to the irregularly strong &dquantum fields&r, advanced power distribution technology is within reach earlier than you might have expected."
 				""

@@ -158,4 +158,12 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
         .duration(50)
 
+    event.remove({output: "gtceu:magnetic_iron_foil"});
+    greg.bender("bend_magnetic_iron_plate_to_foil")
+        .itemInputs("gtceu:magnetic_iron_plate")
+        .circuit(1)
+        .itemOutputs("4x gtceu:magnetic_iron_foil")
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(100)
+
 });

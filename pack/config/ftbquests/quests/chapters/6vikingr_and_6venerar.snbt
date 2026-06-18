@@ -511,7 +511,11 @@
 			y: -6.0d
 		}
 		{
-			description: ["You can craft &6Potassium Carbonate&r with a little &6potash&r and some &6carbon dioxide&r.  Surely you have something producing lots of ashes by now, right?"]
+			description: [
+				"You can craft &6Potassium Carbonate&r with a little &6potassium hydroxide&r and some &6carbon dioxide&r."
+				""
+				"You used to be able to make this out of &6potash&r, but we can't give a use to &6potash&r, can we?"
+			]
 			id: "42C6883F97ED1D42"
 			tasks: [{
 				id: "243AA302C0A86F68"

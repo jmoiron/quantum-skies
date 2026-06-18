@@ -16,7 +16,9 @@
 			description: [
 				"&6Monazite&r is an important source of &erare earth minerals&r, specifically the &6lanthanides&r. Processing the lanthanides requires building a complex chain."
 				""
-				"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r."
+				"The first time you will &eneed&r the &6monazite&r chain is for &auranium&r for making &dradon&r."
+				""
+				"This process produces elements that are relevant in &5EV&r, &1IV&r, and &dLuV&r, but the entire chain can be completed in &5EV&r. "
 				""
 				"You will want dedicated machines to make this easier, but that will involve building &2EBFs&r, &bLCRs&r, etc, which may be a strain on your current automation. Consider this a reason to improve!"
 				""
@@ -496,6 +498,8 @@
 			description: [
 				"The &6Bastnasite&r chain rounds out the other &arare earth metals&r."
 				""
+				"The first time you will &eneed&r materials from the &6bastnasite&r chain is when you need &3yttrium&r to make a &2Lunar Surface Drill&r."
+				""
 				"You can get &9bastnasite crushed ore&r by &2heavy sieving&r moon regolith. Treating it with &6Nitric Acid&r, like with &6monazite&r, starts off the processing chain and yields some delicious mud."
 			]
 			icon: "gtceu:raw_bastnasite"
@@ -938,7 +942,7 @@
 		{
 			dependencies: ["48B6E77C02F44DBA"]
 			description: [
-				"Although &6yttrium&r is considered a &erare earth element&r, and is almost exclusively found in minerals bearing the lanthanides, it is not itself a lanthanide."
+				"Although &6yttrium&r is considered a &erare earth element&r, and is almost exclusively found in minerals bearing the lanthanides, it is not actually a lanthanide."
 				""
 				"I think we can forgive it."
 			]
