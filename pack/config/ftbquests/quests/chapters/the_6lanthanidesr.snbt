@@ -474,7 +474,7 @@
 			description: [
 				"Although &auranium&r is generally prized as a fissile material for energy production and some other less savory applications, such uses are not possible up here in the sky."
 				""
-				"It is, however, your only source of &dradon&r until you are able to reach &bEuropa&r."
+				"It is, however, still an important material. &aUranium Tri-platinum&r is the &1EV&r superconductor, and processing uranium with &cplutonium&r will be your only source of &dradon&r until you are able to reach &bEuropa&r."
 			]
 			id: "5337584F0630F308"
 			shape: "gear"
@@ -562,9 +562,9 @@
 		}
 		{
 			description: [
-				"&6Hexafluorosilic Acid&r is a simple acid made of &6fluorine&r and &6silicon&r."
+				"&6Hexafluorosilic Acid&r is a simple acid made of &6hydrofluoric acid&r and &6silicon&r."
 				""
-				"Where's that &6hydrogen&r coming from?"
+				"Well, \"simple.\" You'll need an &2LCR&r to make it."
 			]
 			id: "4A3EA94683C4EDB5"
 			tasks: [{
@@ -585,6 +585,7 @@
 				"5408D84C82FBED09"
 				"33DD490885E2CF0D"
 			]
+			description: ["&2Mixing&r your cracked mud with some &6Sodiumfluorosilicate&r is the next step in the process."]
 			id: "7B7A2CAC8023B205"
 			tasks: [{
 				consume_fluid: "FALSE"
@@ -624,6 +625,8 @@
 				"If you treat the &6bastnasite rare earth oxides&r with &6hydrochloric acid&r, you'll head down a fairly straight line chain that ends with a decent amount of &6Cerium&r production."
 				""
 				"If you treat it with &6nitric acid&r, you'll head down a complex and branching chain towards &6Lanthanum&r, &6Neodymium&r, &6Sammarium&r and &6Gadolinium&r."
+				""
+				"The &6cerium&r chain loops back to this step with ~95% yield. This makes it pretty self sustaining, but you can also consider the entire chain to be linear, with a 95% chance of completing towards the other 4 lanthanides."
 			]
 			id: "71DDF1A71039B8A6"
 			tasks: [
@@ -849,11 +852,18 @@
 		{
 			dependencies: ["6B875A0EC579E7D5"]
 			id: "7A895DAA668BA188"
-			tasks: [{
-				id: "2ABDD992C8372445"
-				item: "gtec:nitrogenated_samarium_terbium_mixture_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "70D7ED37B0606378"
+					item: "gtec:samarium_terbium_mixture_dust"
+					type: "item"
+				}
+				{
+					id: "035D505897A18971"
+					item: "gtec:nitrogenated_samarium_terbium_mixture_dust"
+					type: "item"
+				}
+			]
 			title: "Nitrogenated Mixture Dust"
 			x: -0.5d
 			y: 0.0d
