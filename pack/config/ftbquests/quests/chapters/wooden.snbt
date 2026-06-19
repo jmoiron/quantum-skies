@@ -84,6 +84,8 @@
 			description: [
 				"&2Tom's Simple Storage System&r allows you to connect inventories together to form a simple storage network.  It is similar to the &2Simple Storage Netowrk&r mod, or an &2RFTools&r &9Storage Scanner&r, or an incredibly basic early-game &2Applied Energistics&r ME system."
 				""
+				"The &5inventory connector&r connects all &etouching&r inventories together. This works on a bank of &2superchests&r, making it a low-cost &adrawer controller&r. Be warned, since &2GregTech&r pipes all have inventories, you will need to airgap your connector somehow if you want to pipe into it. Piping into a linked &5inventory cable connector&r does the trick."
+				""
 				"The &5crafting terminal&r makes a great interface for a &2Colossal Chest&r."
 				""
 				"The \"wireless\" terminal extends your reach by about a chunk, which should save you some running."
@@ -92,6 +94,7 @@
 			]
 			icon: "toms_storage:ts.wireless_terminal"
 			id: "35FBF2C96DB9290A"
+			min_width: 250
 			subtitle: "Deliver me from Chest Spam"
 			tasks: [
 				{
@@ -184,7 +187,7 @@
 				""
 				"These backpacks can be upgraded to perform a large number of tasks, like smelting, blasting, smoking, etc."
 				""
-				"If you create a grassy area and spend some time away from it, passive mobs like &ecows&r should spawn."
+				"If you create a grassy area and spend some time away from it, passive mobs like &ecows&r should spawn. If you've managed to spawn in an ocean, you can use &akelp&r to make some leather."
 			]
 			id: "608740A321560418"
 			subtitle: "Sophisticated"

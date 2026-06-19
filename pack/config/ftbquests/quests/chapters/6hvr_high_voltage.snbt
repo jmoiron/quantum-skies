@@ -333,6 +333,11 @@
 			dependencies: ["126E88BE9207D849"]
 			description: ["The &9emitter&r gates access to the next tier of &2circuit assembler&r and &2laser engraver&r, requiring that you produce the &6HV&r tier's \"gem\", which is an &aeye of ender&r."]
 			id: "496A339808DDDF51"
+			rewards: [{
+				id: "77C9380F8FDCA7D0"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
 			tasks: [{
 				id: "34975AC52EC7214F"
 				item: "gtceu:hv_emitter"
@@ -986,11 +991,14 @@
 				""
 				"These storage vessels have a strong &equantum tunnel&r effect. They can be put on different channels by applying dyes to them in world. Any two tanks/chests on the same channel have the &asame contents&r, regardless of location."
 				""
+				"They start pitifully small, but you can upgrade them by hitting them with &9ender pearls&r. Place a diamond by &3shift-clicking&r to make the channel private to your player on a server."
+				""
 				"Their main advantage over &2entangled&r blocks is portability. If you are using e.g. a &9blue channel&r for water, you can set up your input tank wherever you want and your other blue tanks will still function."
 				""
 				"You will probably want to use &2AE2&r for fluid logistics by now, but these are classic GT QoL."
 			]
 			id: "22FD756BB5413C3C"
+			min_width: 250
 			subtitle: "Did you even miss them?"
 			tasks: [
 				{

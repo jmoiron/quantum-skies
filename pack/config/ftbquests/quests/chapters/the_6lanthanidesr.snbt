@@ -498,9 +498,9 @@
 			description: [
 				"The &6Bastnasite&r chain rounds out the other &arare earth metals&r."
 				""
-				"The first time you will &eneed&r materials from the &6bastnasite&r chain is when you need &3yttrium&r to make a &2Lunar Surface Drill&r."
+				"The first time you will &eneed&r materials from the &6bastnasite&r chain is when you need &3yttrium&r to make a &2Lunar Surface Drill&r. From ore to dust, you will need &a1x&r &2cracker&r, &a3x&r &2EBF&r, and &a4x&r &2LCR&r, though it's possible to combine some of the steps."
 				""
-				"You can get &9bastnasite crushed ore&r by &2heavy sieving&r moon regolith. Treating it with &6Nitric Acid&r, like with &6monazite&r, starts off the processing chain and yields some delicious mud."
+				"You can get &9bastnasite crushed ore&r by &2heavy sieving&r moon regolith. &eBlasting&r it with &6Nitric Acid&r, like with &6monazite&r, starts off the processing chain and yields some delicious mud."
 			]
 			icon: "gtceu:raw_bastnasite"
 			id: "366518AC74B67126"
