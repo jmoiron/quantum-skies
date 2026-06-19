@@ -110,7 +110,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "cfb3918b29f2dab2469a6b0ca615efcc2e5553f7aa7930588100f39f2e6f2b2b"
+hash = "9e600334278e6bdddee66b3e4c003f8d25995a1f14ec88989026655d8c326c4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -118,7 +118,7 @@ hash = "ea42632036799f41695059a79429b6b71369ace845d81565cd3109d2cd12d869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5evr_extreme_voltage.snbt"
-hash = "280a1d743eec350c5795853faecba86bc72d23a25f5b2d6f8eebac320a81adb6"
+hash = "f2f4448dc48411c48cb7ec36329fff3cc8269b181d1fc3efaefe14927006df52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6hvr_high_voltage.snbt"
@@ -126,11 +126,11 @@ hash = "7011764e46c81e9b422d0d45447a80a040260d420415636789d5cef4929763ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "52a4d4ed9bb184f84427a860b4e8f4cc91e7ec459de9b2d93ef03505c8e0967c"
+hash = "c32ec0c155ca5cc68e3c2cf088ea4dc44ec0311792836f46fed096d4090bd1ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
-hash = "42d587f4077e8395f941ae951408758598ba5b6774936500eeb3a911501890e7"
+hash = "3629cba4a9d8312ff5acd26d19c77fafe557b7c9bf21c0226a20eae100242d11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/9cassinir_and_8huygensr.snbt"
@@ -142,7 +142,7 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "f946386fcb4ee6f8ed8886ec6dfd2f8039ab8ad175f92be39915109ff6922007"
+hash = "4d081fdee7455b1196077f6700df14dcc3f8bec1b8040601676795f8fe3f0a1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -178,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "146f0abb4821a89ba71c668dc24dfacfe9e1de07f660387ae4488f3f3579a7a9"
+hash = "f534ab4f0037fe52e7bdf8fd39c5decd9d01c5a80a42d481614057d1b27c742c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -194,7 +194,7 @@ hash = "4e61672abc586bf3fe1f38599c9009811afc4d49757f8b75cf614a23db17f511"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "2d60e2eb945e00cb42855aa66a9adad3592cc7efcdc609a83249d3fbdb109efe"
+hash = "f3228310fa56a16634e453ee026b27b75764ceae686fc2e5de4af048502bae81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -1578,7 +1578,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "1710bdc01ee77fcc6d36de14ef3d77fae162d98f99855a51a78d0b3ef29f9992"
+hash = "7a5252d11f15554cf3c93ae0b152fe64c78bc668b25c79362672660980c10308"
 metafile = true
 
 [[files]]
@@ -1638,7 +1638,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "6c6893267694003c8fc8a2c1a89e961d28add27991a26b60abedda1eafb0eb57"
+hash = "3e76939f890545ba722d145aee2e44bbac1c658b5e907d9f69d6e8299fe73127"
 metafile = true
 
 [[files]]
@@ -1648,7 +1648,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
+hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
 metafile = true
 
 [[files]]
@@ -1683,7 +1683,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
+hash = "38ec3a3169c9e95a1552657077fcf920fb18571a20d721fbaa3c11733f2688ef"
 metafile = true
 
 [[files]]
@@ -1733,7 +1733,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
+hash = "606e38058a2913795ecebcd9b407a453d8fc24cfd3409a9eb431ff56e10bcfe8"
 metafile = true
 
 [[files]]
@@ -1803,7 +1803,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "0bd6bab35d46b3f58978625f9f612e1b09c14ab146f40704cb06e93700799eb6"
+hash = "c542e5e9661a7fb46bc58fe71559352500cce3605b904697cd71f97b5e924c33"
 metafile = true
 
 [[files]]
@@ -1918,7 +1918,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-builder.pw.toml"
-hash = "438b845f95283a8bff5a7615bba0d978bc50e98996e74c1025bda259119e8762"
+hash = "f134655a51ed155042d164acbcb837ffe034d0e074e273477179ddc8f2f3d7a1"
 metafile = true
 
 [[files]]
@@ -1928,12 +1928,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "05a21e06ab8b2bfb9ffdf33186055db5567e2ceb1626d3d9308ddc38af617bac"
+hash = "cb1f3c0436536d4843f5ff8930d6c8b36bc288d359e7b6ffc89403e19e087f26"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a017d5d3fe7758e0122f19251d978d3a1d08010e5f1a2229f9c4a9b7f6a7b666"
+hash = "0fdad5f16721578f133711af8f5fa5fae704c090512c2d539da2b298a399c9ab"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Skyblock Builder"
-filename = "SkyblockBuilder-1.20.1-5.1.32.jar"
+filename = "SkyblockBuilder-1.20.1-5.1.33.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d024959bd0859524ed0872e7cd9896e89c446969"
+hash = "620ae88776fdd3b43ca7cbaacdda0a3b6f2e7d8c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7951172
+file-id = 8209496
 project-id = 446691
