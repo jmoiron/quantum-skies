@@ -625,19 +625,20 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["173C6B4E5D6F17D7"]
 			description: [
 				"At &1IV&r, you gain access to the multiblock versions of all of the single block machines you've been using. Many of these are inspired by &2GT++&r, and share a lineage from the &2GTCE&r addon mod &2Gregicality&r."
 				""
-				"The &2LCR&r does perfect overclocking.  The &2multi smelter&r parallelizes and consumes less energy based on coils. The &2distillation tower&r yields all outputs instead of just one."
+				"The &dquantum star&r is required to make your first &eparallel control hatch&r, though you can make the bulk of the machines themselves as soon as you have an &2Alloy Blast Furnace&r."
 				""
-				"Why should you bother building these instead of single block machines?"
+				"The &2LCR&r does perfect overclocking. The &2multi smelter&r parallelizes and consumes less energy based on coils. The &2distillation tower&r yields all outputs instead of just one."
+				""
+				"Why should you bother building these other multiblocks?"
 				""
 				"{@pagebreak}"
 				""
-				"There are two main reasons to use multis: to upgrade machines in place and to save energy."
+				"There are two main reasons to use multis: upgrading in place and energy efficiency."
 				""
-				"Upgrading machines in place by swapping out &denergy hatches&r means not having to redo any automation. Additionally, more input/output options for automation means that you don't need to make eg. an &2extruder&r for each mold; you can have an input bus per mold instead."
+				"Upgrading machines in place by swapping out &denergy hatches&r lets you keep your existing automation. Additionally, more input/output options for automation means that you don't need to make eg. an &2extruder&r for each mold; you can have an input bus per mold instead."
 				""
 				"The multiblocks save energy by preferring &o&dparallelism&r to overclocking. Recall that overclocking is energy wasteful, consuming 4x power to reduce the processing time by half. These multiblocks parallelize first, then overclock if possible."
 				""
@@ -645,7 +646,7 @@
 				""
 				"With the parallelism-first strategy, &alatency&r goes up (the amount of time it takes to run a recipe), but so does &athroughput&r (the amount of recipes run over any given period of time)."
 				""
-				"For example, crushing &9granite&r in a &2macerator&r uses 2EU/t and takes 7.5s (150t). An &5EV&r &2macerator&r runs this 8x faster for 128EU/t, whereas 8 &7LV&r &2macerators&r would only use 16EU/t.  After 7.5s, they would both produce 8 &9crushed granite&r, but the &5EV&r machine has used 8x more power."
+				"For example, crushing &9granite&r in a &2macerator&r uses 2EU/t and takes 7.5s (150t). An &5EV&r &2macerator&r runs this 8x faster for 128EU/t, whereas 8 &7LV&r &2macerators&r would only use 16EU/t. After 7.5s, they would both produce 8 &9crushed granite&r, but the &5EV&r machine has used 8x more power."
 				""
 				"An &5EV&r &2large maceration tower&r will run as many 2EU/t recipes as its &eparallel control hatch&r allows. With a 64x control hatch, that is a new base cost of 128EU/t.  This can be overclocked twice (4x each time) to 2048EU/t, before it runs out of its 1A &5EV&r power source."
 				""
@@ -830,6 +831,7 @@
 				"10A8D82626E851C8"
 				"100E54672FCCBEE6"
 				"4F13EBB0458E8180"
+				"49B15468CF60665B"
 			]
 			dependency_requirement: "one_completed"
 			description: [

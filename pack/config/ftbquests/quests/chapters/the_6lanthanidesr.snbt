@@ -840,6 +840,7 @@
 				"0CEA3722533D346B"
 				"7A895DAA668BA188"
 			]
+			dependency_requirement: "one_completed"
 			id: "2EACB7FF022B9956"
 			tasks: [{
 				id: "41C6C7C654095C4F"

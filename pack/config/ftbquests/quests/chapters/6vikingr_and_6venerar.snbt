@@ -483,12 +483,18 @@
 				type: "dimension"
 			}]
 			x: 16.0d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
-			dependencies: [
-				"31CFAEF1267DE4D2"
-				"392BA4AE76FC60A7"
+			dependencies: ["5B18697CC7D4E961"]
+			description: [
+				"&eVenus&r, our sister planet."
+				""
+				"Fantasists once imagined lush jungles underneath its clouds, but reality turned out to be not quite so inviting."
+				""
+				"You will need heat resistant clothing to survive on its surface."
+				""
+				"For the most part, the resources available on &eVenus&r are identical to those on &cMars&r, but you will need to visit both."
 			]
 			icon: "gcyr:venus_sand"
 			id: "714A44034954167C"
@@ -507,7 +513,7 @@
 				id: "5D55F8BE3D16F5E4"
 				type: "dimension"
 			}]
-			x: 16.0d
+			x: 20.5d
 			y: -6.0d
 		}
 		{
@@ -526,7 +532,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0C584EE0F802DFD9"]
+			dependencies: [
+				"0C584EE0F802DFD9"
+				"714A44034954167C"
+			]
 			id: "438972F698DDFEDF"
 			tasks: [
 				{
@@ -579,6 +588,35 @@
 			title: "&cViking&r and &eVenera&r"
 			x: 19.0d
 			y: -10.0d
+		}
+		{
+			dependencies: ["475DD68AD1548E21"]
+			description: [
+				"You might have expected that your &5kevlar&r space suit had adequate heat and cold shielding, and it does!"
+				""
+				"For normal places. "
+				""
+				"But for &eVenus&r and &cMercury&r, you're going to need to go the extra mile."
+				""
+				"You can apply &6heat shielding fabric&r with the &6thermal upgrade template&r to any space suit part, including any armor that you've used the space suit smithing template on. Once your whole set is upgraded, you can safely visit hotter destinations."
+				""
+				"You'll have to do this with &bthermal insulation&r later to visit cold destinations."
+			]
+			id: "5B18697CC7D4E961"
+			tasks: [
+				{
+					id: "6E8B3CBF2EC2746B"
+					item: "gcyr:heat_shielding_fabric"
+					type: "item"
+				}
+				{
+					id: "211DB24712C23FD6"
+					item: "gcyr:space_suit_thermal_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Exploring the neighborhood"]

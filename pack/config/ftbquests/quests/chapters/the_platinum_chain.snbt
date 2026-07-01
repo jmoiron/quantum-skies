@@ -566,18 +566,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2DC82CC375142B4A"]
-			id: "7B8F4DD0931E4083"
-			tasks: [{
-				id: "2F1EE55BD711133D"
-				item: "gtceu:iridium_dust"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7B8F4DD0931E4083"]
+			dependencies: ["1929E040EEDE2744"]
 			description: [
 				"&6Iridium&r is a silvery metal that is used heavily in &1IV&r and beyond, both on its own, and in alloys like &6Ruridit&r and &6Osmiridium&r. I suppose it looks quite..  brown in this universe."
 				""
@@ -611,18 +600,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2278B8E3FA2CB3A4"]
-			id: "19526F57F6FAA10F"
-			tasks: [{
-				id: "1A348A28FC915660"
-				item: "gtceu:osmium_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["19526F57F6FAA10F"]
+			dependencies: ["4B7E5E56A0612B52"]
 			id: "0ADE563032F9DF5C"
 			shape: "octagon"
 			size: 1.5d
@@ -633,6 +611,28 @@
 			}]
 			x: 4.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["2278B8E3FA2CB3A4"]
+			id: "4B7E5E56A0612B52"
+			tasks: [{
+				id: "3CB6128846015DA9"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DC82CC375142B4A"]
+			id: "1929E040EEDE2744"
+			tasks: [{
+				id: "38CA5795CAE51DC0"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Never break the chain"]

@@ -1021,6 +1021,11 @@
 		}
 		{
 			dependencies: ["02ABBC6AE25A16F9"]
+			description: [
+				"You can pipe &1water&r or &6items&r into the matter condenser to make matter balls or &dsingularities&r."
+				""
+				"Note that the &dentangled singularity&r recipe only works with &2ender pearls&r."
+			]
 			id: "007DC1E13A244558"
 			tasks: [{
 				id: "27D79FDC16FF8D42"

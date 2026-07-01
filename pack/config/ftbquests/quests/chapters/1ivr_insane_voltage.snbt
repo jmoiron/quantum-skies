@@ -8,48 +8,47 @@
 	order_index: 5
 	quest_links: [
 		{
-			id: "2A2E8EFC9BE3B9D5"
-			linked_quest: "249B838E00970B93"
-			x: 7.0d
-			y: 0.5d
-		}
-		{
-			id: "314A2AB448976418"
-			linked_quest: "0ADE563032F9DF5C"
-			x: 5.5d
-			y: -5.5d
-		}
-		{
 			id: "36B412AB7DE04220"
 			linked_quest: "6519AED20FF95071"
-			x: 1.0d
-			y: -4.0d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			id: "0264A6131F9C4FB6"
 			linked_quest: "4241FB5CE8C7C01C"
-			x: 11.5d
-			y: -1.0d
+			x: 16.0d
+			y: -4.0d
 		}
 		{
 			id: "74CF6C5446D4EA87"
 			linked_quest: "158BF04DA0392374"
-			x: 7.0d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
 			id: "3A4FF254603B3412"
 			linked_quest: "466C8E5C4C3BF53E"
 			shape: "circle"
-			size: 1.5d
-			x: 2.5d
-			y: -4.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			id: "571F1DCBDF147E1E"
 			linked_quest: "7328FC5D6340DA70"
-			x: 8.5d
+			x: 7.0d
 			y: 3.5d
+		}
+		{
+			id: "7EDD03280009755E"
+			linked_quest: "4B7E5E56A0612B52"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			id: "642A66B40E4ADF21"
+			linked_quest: "249B838E00970B93"
+			x: 7.0d
+			y: 0.5d
 		}
 	]
 	quests: [
@@ -79,7 +78,12 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4EF925DCE097068A"]
+			dependencies: ["5F0A83558061E69C"]
+			description: [
+				"Unlike the previous hull materials, the &dLuV&r hull material, &6rhodium plated palladium&r, doesn't really require much investment in the previous tier. You don't even need new coils!"
+				""
+				"With a couple &5EV&r &2energy hatches&r and an &2Alloy Blast Smelter&r, you should be able to produce &6RPP&r before exploring much of &1IV&r. Don't worry, though, it won't be actually useful for a while."
+			]
 			id: "0F63BB395521825B"
 			shape: "gear"
 			size: 1.5d
@@ -88,8 +92,8 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -5.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -105,8 +109,8 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 17.5d
+			y: -1.0d
 		}
 		{
 			id: "630429E0D0BC2ACC"
@@ -122,8 +126,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -5.5d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["630429E0D0BC2ACC"]
@@ -133,11 +137,10 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["44CCB4C16016C746"]
 			id: "0E951B93CC47F10D"
 			tasks: [
 				{
@@ -151,29 +154,30 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
 			dependencies: [
 				"0E951B93CC47F10D"
 				"1F8EDC83C3E264E3"
+				"44CCB4C16016C746"
 			]
 			id: "4808C14BE63CD3D2"
+			subtitle: "That's more like it"
 			tasks: [{
 				id: "32CB3F573691A833"
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 13.0d
 			y: -2.5d
 		}
 		{
 			dependencies: [
-				"249B838E00970B93"
 				"41F4069383B3488E"
 				"11CD6CC9E9DC541F"
-				"6370EBBCF9330E43"
+				"5081F651C1A17801"
 			]
 			description: [
 				"Known affectionately as the &eAssline&r, the &2Assembly Line&r is a multiblock capable of building things that &2Assemblers&r cannot. The multiblock version of the single block &2assemblers&r you've come to know and love is called the &2Large Assembling Factory&r; this machine has its own set of distinct recipes."
@@ -204,8 +208,8 @@
 				}
 			]
 			title: "Assembly Line"
-			x: 7.0d
-			y: 2.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["173C6B4E5D6F17D7"]
@@ -215,13 +219,13 @@
 				item: "gtceu:iv_assembler"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"173C6B4E5D6F17D7"
 				"6519AED20FF95071"
+				"5081F651C1A17801"
 			]
 			id: "1F8EDC83C3E264E3"
 			tasks: [{
@@ -229,7 +233,7 @@
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
@@ -240,14 +244,14 @@
 				item: "gtceu:hpic_wafer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"69D165ED00FF7338"
-				"6E10792E66D3E281"
 				"249B838E00970B93"
+				"6E10792E66D3E281"
 			]
 			id: "3451BF82CA25878C"
 			tasks: [{
@@ -255,8 +259,8 @@
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["173C6B4E5D6F17D7"]
@@ -266,8 +270,8 @@
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -305,8 +309,8 @@
 				}
 			]
 			title: "Indium And IGP"
-			x: 8.5d
-			y: -1.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["74CD924FA666E6D8"]
@@ -338,8 +342,8 @@
 					type: "ftbq_better_fluids:fluid_plus"
 				}
 			]
-			x: 10.0d
-			y: -1.0d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -359,7 +363,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -372,13 +376,13 @@
 				"Never forget what they've taken away from you."
 			]
 			id: "1B4FF273257F4829"
-			size: 1.25d
+			size: 1.0d
 			tasks: [{
 				id: "4E8AD50568D2ABC8"
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -405,34 +409,25 @@
 				"13B76DB33F9DB275"
 			]
 			id: "52F200048E35D8C7"
-			size: 1.25d
-			tasks: [
-				{
-					count: 4L
-					id: "7A067DEBC854FA1D"
-					item: { Count: 4, id: "gtceu:polybenzimidazole_foil" }
-					type: "item"
-				}
-				{
-					consume_fluid: "FALSE"
-					fluid: "gtceu:polybenzimidazole"
-					fluids: [{
-						Amount: 1000
-						FluidName: "gtceu:polybenzimidazole"
-					}]
-					id: "3EE4B31E830248C1"
-					type: "ftbq_better_fluids:fluid_plus"
-				}
-			]
-			x: 10.0d
-			y: -2.5d
+			size: 1.0d
+			subtitle: "Polywhatnow"
+			tasks: [{
+				consume_fluid: "FALSE"
+				fluid: "gtceu:polybenzimidazole"
+				fluids: [{
+					Amount: 1000
+					FluidName: "gtceu:polybenzimidazole"
+				}]
+				id: "3EE4B31E830248C1"
+				type: "ftbq_better_fluids:fluid_plus"
+			}]
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"4EF925DCE097068A"
 				"1B4FF273257F4829"
-				"0ADE563032F9DF5C"
-				"249B838E00970B93"
+				"4B7E5E56A0612B52"
 			]
 			id: "4CD35CAEE04B7B31"
 			tasks: [{
@@ -440,17 +435,25 @@
 				item: "gtceu:hsss_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
+			description: [
+				"The &1IV&r &2mixer&r is the first tier that you don't &eneed&r to build right away, because all of the new alloys are directly smeltable in the &2Alloy Blast Furnace&r."
+				""
+				"You might want one anyway, as you will need the dusts of some of these alloys to make future alloys, and it's faster to mix up the dusts than it is to smelt them."
+				""
+				"You might also find yourself preferring &2EBFs&r for alloys again later, as it scales better. Regardless, this one is up to you!"
+			]
 			id: "4EF925DCE097068A"
+			subtitle: "Forever Alone"
 			tasks: [{
 				id: "35862C5C5CF69A5E"
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 1.0d
 			y: -5.5d
 		}
 		{
@@ -461,7 +464,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 14.5d
 			y: -2.5d
 		}
 		{
@@ -472,6 +475,8 @@
 				"52F200048E35D8C7"
 			]
 			id: "6834B48D92699C1D"
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					id: "15549817E2DF751F"
@@ -500,19 +505,18 @@
 				}
 			]
 			title: "Advanced SMD Components"
-			x: 8.5d
-			y: -2.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4EF925DCE097068A"]
 			id: "7A7AC2A686303133"
 			tasks: [{
 				id: "49732ED92CF2C689"
 				item: "gtceu:hsse_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["715BEA8E0C8D2767"]
@@ -545,8 +549,8 @@
 				}
 			]
 			title: "IV Mechanical Components"
-			x: 4.0d
-			y: 0.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07D874EDFBD18771"]
@@ -557,7 +561,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 14.5d
 			y: -4.0d
 		}
 		{
@@ -568,8 +572,8 @@
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -583,19 +587,19 @@
 				item: "gtceu:polyvinyl_butyral_plate"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4EF925DCE097068A"]
+			dependencies: ["4B7E5E56A0612B52"]
 			id: "11CD6CC9E9DC541F"
 			tasks: [{
 				id: "66702A2C7DBFF314"
 				item: "gtceu:ruridit_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["58536D39766CECB8"]
@@ -608,7 +612,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A40E9AB0C2C70B9"]
@@ -633,7 +637,7 @@
 				}
 			]
 			x: 5.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "2DB9CE7D8F82EF46"
@@ -647,8 +651,8 @@
 				id: "3134F5CD6955600F"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 13.0d
-			y: -4.0d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2DB9CE7D8F82EF46"]
@@ -663,8 +667,8 @@
 				id: "3054B710339956A5"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 11.5d
-			y: -4.0d
+			x: 8.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2E458D632F2EDDA1"]
@@ -679,8 +683,8 @@
 				id: "566D3994C5A17052"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			id: "2E458D632F2EDDA1"
@@ -694,8 +698,8 @@
 				id: "6B60DEC3B0949EAB"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 13.0d
-			y: -2.5d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
 			description: ["The efficiency is even worse than before at 70%, but these little guys can be handy in a pinch."]
@@ -706,8 +710,8 @@
 				item: "gtnn:iv_rocket_engine"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 16.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4241FB5CE8C7C01C"]
@@ -724,8 +728,8 @@
 				item: "gtnn:iv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 16.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -748,7 +752,7 @@
 			}]
 			title: "Outland"
 			x: 4.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -774,8 +778,8 @@
 				title: "Better Rubber"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -791,8 +795,81 @@
 				item: "gtceu:tungstensteel_large_boiler"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44CCB4C16016C746"]
+			id: "58541A7624B60D4F"
+			tasks: [{
+				id: "1E32D9089428BC8E"
+				item: "gtceu:lapotronic_energy_orb"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"466C8E5C4C3BF53E"
+				"5081F651C1A17801"
+			]
+			id: "136AEC8A8FE66A30"
+			tasks: [{
+				id: "68284C0CDE751833"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"249B838E00970B93"
+				"6370EBBCF9330E43"
+			]
+			description: [
+				"A lot of important progression in &5IV&r is gated behind its &bsensor&r and &bemitter&r. You need them to:"
+				""
+				"* Build the &2Assembly Line&r"
+				"* Build the &5IV&r &2Circuit Assembler&r"
+				"* Make &2Multiblock&r machine &eparallel control hatches&r"
+				""
+				"The &5quantum star&r and &3iridium&r required to make these should be high priority goals."
+			]
+			id: "5081F651C1A17801"
+			size: 1.5d
+			tasks: [
+				{
+					id: "606086B36CDB9656"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "0B94F17E3FA5833A"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			x: 8.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4EF925DCE097068A"]
+			description: [
+				"Maybe I wasn't completely exhaustive with my reasons to make the &5IV&r &2mixer&r."
+				""
+				"It allows you to cheaply produce &6silicon carbide&r from &7silicon dioxide&r and &8carbon&r. This could convince you to settle on using SiC's boosted recipes while you get your &2planetary core drills&r online."
+			]
+			id: "6BDBA796095C4CEB"
+			subtitle: "No more Moissanite"
+			tasks: [{
+				id: "63DD19F5F70D3024"
+				item: "gtceu:silicon_carbide_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Automation, Assembly Lines, and &1Insane Voltage&r"]

@@ -42,8 +42,8 @@
 			id: "5AD748EC01F1830E"
 			linked_quest: "0C584EE0F802DFD9"
 			shape: "gear"
-			size: 1.5d
-			x: -3.5d
+			size: 2.0d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -90,7 +90,6 @@
 		}
 		{
 			dependencies: [
-				"714A44034954167C"
 				"4E82FF7DAE20E3A5"
 				"10A8D82626E851C8"
 			]
@@ -589,6 +588,45 @@
 			}]
 			x: 1.0d
 			y: -4.5d
+		}
+		{
+			description: [
+				"The structural blocks required for the &2Planetary Core Drill&r take up 14 inventory slots, not including the hatches you need to make it go."
+				""
+				"This can be a lot to keep track of, but you can use &2AE2&r's &ainscriber name press&r to assist you both in planning out that craft and in actually executing it."
+				""
+				"Put an &6iron ingot&r into an &2ae2&r &5quartz cutting knife&r, and you can turn it into a named press. This press is an item with unique NBT."
+				""
+				"Next, go into the &2pattern encoding terminal&r and load up the multiblock preview for a multiblock. You'll see you can add it as a recipe with the &3+&r button in the UI. Replace the output with your named press, modify or remove the hatches according to your preferences, and now you have a way to craft the entire multiblock."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:name_press"
+				tag: { }
+			}
+			id: "49B15468CF60665B"
+			min_width: 250
+			rewards: [{
+				id: "67410DFB5D987DF3"
+				item: {
+					Count: 1
+					id: "ae2:nether_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.85d
+			subtitle: "Quick and maybe not so easy"
+			tasks: [{
+				id: "4679E752F642CF44"
+				title: "Crafting Multis"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.95d
 		}
 	]
 	subtitle: ["Anderson-Hyosung Cooperative Industries"]
