@@ -844,7 +844,7 @@
 				"These will be your primary source of materials for several tech tiers, until you need to visit the &bGas Giants&r."
 			]
 			id: "0C584EE0F802DFD9"
-			min_required_dependencies: 1
+			min_required_dependencies: 2
 			size: 1.0d
 			subtitle: "To the core!"
 			tasks: [{

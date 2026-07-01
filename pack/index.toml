@@ -42,7 +42,7 @@ hash = "af37ef363df1104babc14018be8e35b99df7ed72f2a9a1b5a6146aef00966ab6"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
+hash = "bfbd6710c6b47febc368b35c0a76ca62e84aec7554dcdca0f75f4645d6155f65"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
@@ -110,7 +110,7 @@ hash = "eca11a34dd45e58b78ab1aba4d4d9abd67b3298824119c372f7824e9763bec8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1ivr_insane_voltage.snbt"
-hash = "9e600334278e6bdddee66b3e4c003f8d25995a1f14ec88989026655d8c326c4e"
+hash = "0d062f2dba0ecd2faddc24a6c81dc1c3f69ed31e48bc3799db7bb661e4eff2f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3uvr_ultimate_voltage.snbt"
@@ -126,7 +126,7 @@ hash = "9376a02fd44e423af5389d64a1b663533396981d427d6c3c8a4b5a3eaa03c673"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "c32ec0c155ca5cc68e3c2cf088ea4dc44ec0311792836f46fed096d4090bd1ae"
+hash = "c40f547ed58b125da6e0f989612fcecff4da6f88920fc1404bc4c4fdf12798b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "4d081fdee7455b1196077f6700df14dcc3f8bec1b8040601676795f8fe3f0a1b"
+hash = "1828dc096d3146d77acda86e1a9b17f387d0893d1b7675932c66eda58bc50981"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -158,7 +158,7 @@ hash = "f82d403b0d5be319c668f0fd3eea13bb3a12e703bc679cd495694e8e925f5bc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/digital.snbt"
-hash = "8f55d3b1676c88a12d4a913475ba809abd32f651f2f2f98447b5da6ad4aa095c"
+hash = "7945c7d27068441419f093c5b0bc38a0a4fba6af83fc4467c504ed9be05a4919"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
@@ -178,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "f534ab4f0037fe52e7bdf8fd39c5decd9d01c5a80a42d481614057d1b27c742c"
+hash = "c01cd9097868a39c5c41d01cd34640007cf9a23a0b37ae3d52379cc0e040fd08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -194,7 +194,7 @@ hash = "4e61672abc586bf3fe1f38599c9009811afc4d49757f8b75cf614a23db17f511"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "ae1b2a53707f2241740924acd2c626726b40f408b36636d1edc34ffcf44a17f9"
+hash = "37efc56c8cf73aed34c0be5e2054a88e2a2e052ffbc6c1877672c2f3ec482039"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -206,7 +206,7 @@ hash = "b9285b494c323efa227eec5573f31b871c8adc17ad982e2cd9439a68c2453452"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
-hash = "5f7f81f57cb2bf34a076af6b9dc782833ee66ab6927dd965a693f28599a564cf"
+hash = "2c1da96d1d5bc70de8d6660e07d39e30bda32f41e20456f01d94527b1982eef2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
@@ -1290,7 +1290,7 @@ hash = "1e7d124a9ec8bedceda8eab5ec20c26dacb650abb5502a93cf74004e46103223"
 
 [[files]]
 file = "kubejs/server_scripts/qs.js"
-hash = "e16caf021455956747dc91d1818aeb309d3ca5953e0dc4fcf2ab846983832661"
+hash = "6d267ab47bdbab714364bc92da6257622d38154d9c60ef55132f9f3d4f431ba7"
 
 [[files]]
 file = "kubejs/server_scripts/rechiseled.js"
