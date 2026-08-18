@@ -201,7 +201,11 @@
 				"7CF90918B332336F"
 				"0FBF22BFD9CBA204"
 			]
-			description: ["The &2alloy blast smelter&r smelts unmixed dusts directly into &6molten alloys&r, skipping the need for a &2mixer&r, but requiring a cooling and solidifcation step in a &2freezer&r."]
+			description: [
+				"The &2alloy blast smelter&r smelts unmixed dusts directly into &6molten alloys&r, skipping the need for a &2mixer&r, but requiring a cooling and solidifcation step in a &2freezer&r."
+				""
+				"Unlike the &2EBF&r, the &2ABS&r does not benefit from the coil based 4x overclocking. Eventually, the speed and energy savings from 4x overclocking will overtake the time saved not having to mix alloy dusts."
+			]
 			id: "2776EA649E43D833"
 			size: 1.25d
 			tasks: [

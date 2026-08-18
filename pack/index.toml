@@ -162,7 +162,7 @@ hash = "7945c7d27068441419f093c5b0bc38a0a4fba6af83fc4467c504ed9be05a4919"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dluvr_ludicrous_voltage.snbt"
-hash = "6a887f87013437d3608ce58b26e3e41c11afb35ffe81c899616504bd210cf8a2"
+hash = "f811d17ad9172e88e55b464118f7c1464c236508ec6ad3606a9df815243d75e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/from_nothing.snbt"
@@ -178,7 +178,7 @@ hash = "461a5d5cb32eaa6954b52b1aa57fb517ae164f851ba5d6ec89d1eb0398477cff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_mayhem.snbt"
-hash = "c01cd9097868a39c5c41d01cd34640007cf9a23a0b37ae3d52379cc0e040fd08"
+hash = "683417ffffbba3fe01cca458fb8861ae6e0997ba1beedb29c0b9eb866d90a007"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_proliferation.snbt"
@@ -206,7 +206,7 @@ hash = "b9285b494c323efa227eec5573f31b871c8adc17ad982e2cd9439a68c2453452"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_platinum_chain.snbt"
-hash = "2c1da96d1d5bc70de8d6660e07d39e30bda32f41e20456f01d94527b1982eef2"
+hash = "70f674e20cdf4578d5833c8e39cc28a50b39320e1e36be2a747d105222837491"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wooden.snbt"
@@ -1146,7 +1146,7 @@ hash = "dc42a79757c0eb87a7f79419821e29d6a6cd8973acb6f50c76eb792afac47407"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/gcyr.js"
-hash = "2f11d9aec02664d644c07d08287ac5a695198fce9d732100277d7bcd65086458"
+hash = "e408f5a947b0c3fbd80a6edb42f12b801946fdf9531409c9f91e7e4c226dabc7"
 
 [[files]]
 file = "kubejs/server_scripts/gcyr/jovian_chem.js"
@@ -1238,7 +1238,7 @@ hash = "d943230d9b8d5278414d8e1e9a49e6a0fbf7ef4a4ddb4f791ea664c0e3f6d24b"
 
 [[files]]
 file = "kubejs/server_scripts/gtec.js"
-hash = "c2248278e8fc20be62c5bb443dcbeeef8b52c1741c269ac734b3ce25fadd3e1b"
+hash = "17137b724694ecf253724cc12c6500399ced3d1b6883c0b2350f551ddc4368ca"
 
 [[files]]
 file = "kubejs/server_scripts/gtnn.js"

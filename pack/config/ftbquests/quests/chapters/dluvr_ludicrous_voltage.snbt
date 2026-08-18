@@ -11,25 +11,25 @@
 			id: "37E10775DDE49EEA"
 			linked_quest: "249808AA0E4C27A9"
 			size: 1.25d
-			x: 2.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
 			id: "5D186A43905322E7"
 			linked_quest: "0919ED8ED9FAD4A4"
-			x: 8.5d
-			y: 1.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			id: "2C3E3ED6638F99C2"
 			linked_quest: "1C72E9C3FB501D61"
-			x: 11.5d
+			x: 13.0d
 			y: 1.0d
 		}
 		{
 			id: "49648E035510634F"
 			linked_quest: "6834B48D92699C1D"
-			x: 13.0d
+			x: 14.5d
 			y: 1.0d
 		}
 		{
@@ -37,13 +37,13 @@
 			linked_quest: "1190CC62E02B9FF6"
 			shape: "gear"
 			size: 1.5d
-			x: 5.5d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
 			id: "6AFAD82BA7E26F18"
 			linked_quest: "58E3546712717A58"
-			x: 7.0d
+			x: 8.5d
 			y: 2.5d
 		}
 		{
@@ -52,7 +52,7 @@
 			linked_quest: "67F55ABE451C218E"
 			shape: "hexagon"
 			size: 1.25d
-			x: 4.0d
+			x: 5.5d
 			y: 4.0d
 		}
 		{
@@ -64,32 +64,32 @@
 		{
 			id: "13F900CE6B355836"
 			linked_quest: "1A850FA3065CD625"
-			x: 11.5d
+			x: 13.0d
 			y: 2.5d
 		}
 		{
 			id: "3C4330AB60E21174"
 			linked_quest: "5F2D60E3CA84A84B"
-			x: 11.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
 			id: "1C1D2CE671848942"
 			linked_quest: "32A179688162FC11"
 			size: 1.5d
-			x: 8.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
 			id: "4B8DE41F3FDBA95F"
 			linked_quest: "3CEAFC4D88132679"
-			x: 8.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
 			id: "2BD98D7D95B937E5"
 			linked_quest: "67A5562E1497381B"
-			x: 5.5d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -103,7 +103,7 @@
 		{
 			id: "50D36BFBA262183A"
 			linked_quest: "0472211411B89514"
-			x: 4.0d
+			x: 5.5d
 			y: 2.5d
 		}
 	]
@@ -130,49 +130,17 @@
 				type: "checkmark"
 			}]
 			title: "The Atomic Age"
-			x: 0.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: [
-				"You need an &dLuV&r tier mixer to mix &6osmium&r and &6iridium&r into &6osmiridium&r."
-				""
-				"If you've started to look into &2Gregicality Multiblocks&r, you'll be able to achive this by using two &5IV&r energy hatches in your &2large mixing vessel&r."
-			]
-			id: "24C3CF5EE1073B03"
-			tasks: [{
-				id: "77A79945DF65D55C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:large_mixer"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_mixer"
-							}
-						]
-					}
-				}
-				title: "LuV Mixer"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["24C3CF5EE1073B03"]
 			id: "73FCD28D902AD2D1"
 			tasks: [{
 				id: "7BE5C3A990393A77"
 				item: "gtceu:osmiridium_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -190,7 +158,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 7.0d
 			y: 4.0d
 		}
 		{
@@ -200,7 +168,7 @@
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -214,7 +182,7 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -225,8 +193,8 @@
 				item: "gtceu:niobium_titanium_single_cable"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -243,7 +211,7 @@
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -260,7 +228,7 @@
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -270,7 +238,7 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: -0.5d
 		}
 		{
@@ -282,7 +250,7 @@
 				item: "gtceu:raw_crystal_chip"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -317,7 +285,7 @@
 				}
 			]
 			title: "Cheaper Crystal Circuits"
-			x: 11.5d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -328,7 +296,7 @@
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
@@ -337,6 +305,7 @@
 				"5E7E1D81530C4B8F"
 				"0E79BC21BEDA47ED"
 				"7D973D97A30D655C"
+				"02AA6B6D60FA1F44"
 			]
 			id: "65DE8D10CCC71642"
 			tasks: [
@@ -407,7 +376,7 @@
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -418,7 +387,7 @@
 				item: "gtceu:lapotronic_energy_orb_cluster"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: -0.5d
 		}
 		{
@@ -429,7 +398,7 @@
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: -2.0d
 		}
 		{
@@ -444,7 +413,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: -2.0d
 		}
 		{
@@ -480,8 +449,8 @@
 				title: "LuV Energy Hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["01698E6BBC301ABD"]
@@ -498,7 +467,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -513,7 +482,7 @@
 				id: "63DFB3C593D45C21"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 2.5d
 		}
 		{
@@ -529,7 +498,7 @@
 				id: "6BCBFB8869D165EE"
 				type: "ftbq_better_fluids:fluid_plus"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 4.0d
 		}
 		{
@@ -552,11 +521,20 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3148A5D311E18315"]
+			description: [
+				"&dLuV&r introduces a new mechanic: &5research&r."
+				""
+				"Many &2Assembly Line&r recipes will require a &adata stick&r with the appropriate research."
+				""
+				"For example, tye &dLuV&r motor requires you to scan an &1IV&r motor in a &2scanner&r. The resulting stick goes into a &ddata hatch&r in the &2Assline&r."
+				""
+				"Don't worry, it won't stay this simple for long."
+			]
 			id: "0E79BC21BEDA47ED"
 			tasks: [{
 				id: "7B1DA36B19AB04DA"
@@ -583,7 +561,7 @@
 				type: "item"
 			}]
 			title: "A Scanner Darkly"
-			x: 2.5d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -635,10 +613,19 @@
 			}]
 			title: "Polarization"
 			x: 4.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["188B86167DB88BA6"]
+			description: [
+				"Late game power in standard &2GregTech&r comes from scaling out &2Plasma Turbines&r fed by &2Fusion Reactors&r."
+				""
+				"You can get started with &aplasma&r with the &2Mk I Fusion Reactor&r, which can produce &bhelium plasma&r from &edeuterium&r and &ctritium&r. You can get these two heavy forms of &6hydrogen&r in bulk from the trace atmosphere on &bEuropa&r."
+				""
+				"If you have used &2multiblock turbines&r for steam or gas, there aren't any new mechanics."
+				""
+				"At this stage, the &5High Speed Steel&r variants are still your best bets for rotor materials, especially &dHSS-S&r and &aHSS-E&r. You won't have access to anything better until you build the &2Mk II&r reactor and can synthesize &cTritanium&r."
+			]
 			icon: {
 				Count: 1
 				id: "gtceu:turbine_rotor"
@@ -649,13 +636,14 @@
 				}
 			}
 			id: "532D8418424EF6EE"
+			min_width: 250
 			subtitle: "Power through fusion"
 			tasks: [{
 				id: "449F3EF80FFFBC1A"
 				title: "Plasma Fuels"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -672,7 +660,7 @@
 				item: "gtceu:duranium_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: -0.5d
 		}
 		{
@@ -688,7 +676,30 @@
 				item: "gtceu:me_pattern_buffer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3C6FCB52A3FB05BE"
+				"0919ED8ED9FAD4A4"
+			]
+			description: [
+				"If you haven't by now, the &916x parallel hatch&r should start your foray into &2Gregicality Multiblocks&r."
+				""
+				"You should move your processes one by one over to multiblocks. Their ability to parallelize at lower voltage tiers gets you very flexible high-throughput high-efficiency processing on a variety of recipes."
+				""
+				"In order to feed some of the machines with enough inputs, you might want to look into a &bpattern modifier&r, which can multiply the inputs and outputs of your &2AE2&r patterns."
+			]
+			id: "3FB2787D4D154F1D"
+			size: 1.0d
+			subtitle: "16 bit Color"
+			tasks: [{
+				id: "0ECCCC97C07ACC91"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: 1.0d
 			y: -2.0d
 		}
 	]

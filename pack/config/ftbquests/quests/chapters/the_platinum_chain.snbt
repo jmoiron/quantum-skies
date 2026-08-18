@@ -601,6 +601,11 @@
 		}
 		{
 			dependencies: ["4B7E5E56A0612B52"]
+			description: [
+				"&9Osmium&r is the most dense stable elemental metal, weighing more per unit volume than even &8Tungsten&r."
+				""
+				"Unlike in &2Mekanism&r, it's mostly used in alloys, like &bosmiridium&r and various &eHigh Speed Steels&r."
+			]
 			id: "0ADE563032F9DF5C"
 			shape: "octagon"
 			size: 1.5d
