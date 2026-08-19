@@ -14,12 +14,6 @@
 			y: -6.0d
 		}
 		{
-			id: "7E896A0B0D466DBE"
-			linked_quest: "222E7BE2CBBADAE4"
-			x: -6.5d
-			y: -4.5d
-		}
-		{
 			id: "445D303A280C8FA3"
 			linked_quest: "232BBD7ABE751B56"
 			x: -5.0d
@@ -197,6 +191,7 @@
 			dependencies: [
 				"222E7BE2CBBADAE4"
 				"2776EA649E43D833"
+				"1823E56E35CD75D3"
 			]
 			id: "4F13EBB0458E8180"
 			tasks: [{
@@ -627,6 +622,39 @@
 			}]
 			x: 0.0d
 			y: -5.95d
+		}
+		{
+			description: [
+				"You will need some &aYttrium&r to build the planetary core drill."
+				""
+				"You can get it from &erare earths&r, which can be obtained as a secondary by processing various ores, including &credstone&r."
+				""
+				"The &2Euxenite&r you get from treating &erare earths&r with acid will yield &aYttrium&r as well as some other elements through a fairly straightforward process."
+				""
+				"Alternatively, you can do the &9entire&r &6bastnasite&r lanthanides chain. It's really up to you!"
+			]
+			id: "1823E56E35CD75D3"
+			tasks: [
+				{
+					id: "173481EF6B59928F"
+					item: "gtceu:rare_earth_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23A3D1BAE404F019"
+					item: "gtec:crushed_euxenite_ore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60C25D58AFC68F7D"
+					item: "gtceu:yttrium_dust"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Anderson-Hyosung Cooperative Industries"]

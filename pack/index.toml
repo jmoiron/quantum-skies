@@ -126,7 +126,7 @@ hash = "9376a02fd44e423af5389d64a1b663533396981d427d6c3c8a4b5a3eaa03c673"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6vikingr_and_6venerar.snbt"
-hash = "c40f547ed58b125da6e0f989612fcecff4da6f88920fc1404bc4c4fdf12798b7"
+hash = "8ca7af5106d7a4ca10055fea3029d4647eaa27c98fd35dd200a7742b4c8d7442"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7lvr_low_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "81f6ed78189782fa2dd376bc212de65e814dbf1c18f7bd630bb3cc34a52d591a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andersonhyosung.snbt"
-hash = "1828dc096d3146d77acda86e1a9b17f387d0893d1b7675932c66eda58bc50981"
+hash = "cd234089122b3f749c6624b73c11b5af341c3735f7989d492ff83ac8a03c2841"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bmvr_medium_voltage.snbt"
@@ -194,7 +194,7 @@ hash = "4e61672abc586bf3fe1f38599c9009811afc4d49757f8b75cf614a23db17f511"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6lanthanidesr.snbt"
-hash = "37efc56c8cf73aed34c0be5e2054a88e2a2e052ffbc6c1877672c2f3ec482039"
+hash = "ec9c347c01cd11c04cb914559d2cf3445b9b620cf9f6adbf1222da880d674cfd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_6naquadahr_chain.snbt"
@@ -451,6 +451,10 @@ hash = "a9937d9ca25ce9ec55c67f0be78c2f60db3f4aad21d2a66abd41e60c2c981d43"
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
 hash = "b4864f78b6d0646c8dd6f6bbc37d893b5e2681faae72781140c6fb81cd09424d"
+
+[[files]]
+file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+hash = "d9370c264daed232a167d23424db1d1ae8c01ac00377700fdd345a8a1b7afd75"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -735,6 +739,10 @@ hash = "f55186a7bcd4e55ee5ac64239bb8d2d6e2f6508144d8475d7d0e7ccab780f5de"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "e9263a0fd495668ca0d26e1dbd8d88070dbcfd2e5af414c1042abf1e3c467dfc"
+
+[[files]]
+file = "kubejs/config/probejs.json"
+hash = "eb0bfaed60482e4e159ff4e2452cc098de57689f7cc82b4c9d9f112548173da6"
 
 [[files]]
 file = "kubejs/data/gcyr/dimension/callisto.json"
@@ -1362,7 +1370,7 @@ hash = "766ab4dc2c3001cb27bc16fad889a051b8a06435080b3bf8eec72c6dd98228b4"
 
 [[files]]
 file = "kubejs/startup_scripts/materials.js"
-hash = "20623a4b50925052d4d6f861b81c8668453312c18d91f634783bdb02d210b885"
+hash = "ea94a500c5f1d2802dcd56b5334ababd9e06ccc7af2ca3527715d3908bba91a5"
 
 [[files]]
 file = "kubejs/startup_scripts/multiblocks/bonsai.js"
@@ -1443,7 +1451,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
+hash = "ddff810b39bb8873325aa34230c2a174073ad9bbf002e04a66835735550a1b7b"
 metafile = true
 
 [[files]]
@@ -1578,7 +1586,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "b03708e6de0c0afd4a1b202d7da5b258d60e7e5a10a171aef42c6d35935f4859"
+hash = "945b821d82d9558ed6e026cf4bb5d57d8c794aee95799cdd8061c2c56ffa6815"
 metafile = true
 
 [[files]]
@@ -1708,12 +1716,12 @@ metafile = true
 
 [[files]]
 file = "mods/gregtech-extended-chemistry-extended.pw.toml"
-hash = "b4291fb88a11a0b5598fc988df96f0098407167cf53877f01382054616db3d1c"
+hash = "781a5fefe1e58303a45e925c06acf0376e788f9b4b7eec6d80bf8c922832e8b2"
 metafile = true
 
 [[files]]
 file = "mods/gregtech-modern-utilities.pw.toml"
-hash = "c4fada5710a876b1c4f504e32c67f11aa92f98f7d0a4dd12e47673f6c5e98ca5"
+hash = "7789e10ca61ded02ec6bfcf5d24bd0fc2e740f3291c9056957bd4af019f40620"
 metafile = true
 
 [[files]]
@@ -1753,7 +1761,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
+hash = "a2277a000bcab08a8e0939dae7c8ef3b1db5327e2fa7bd37919e4e2f1b3c174d"
 metafile = true
 
 [[files]]
@@ -1803,7 +1811,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "ce79c9c2caaeff5bab9cbc657b1e09c43c6fca32f1e3095e9b84bd4923e3be7e"
+hash = "81944098c68a16f1e763fde0e9892656605d1c6ca1e02470d1534f3287f0499b"
 metafile = true
 
 [[files]]
@@ -1858,7 +1866,7 @@ metafile = true
 
 [[files]]
 file = "mods/programmed-circuit-card.pw.toml"
-hash = "09b2f652a6d3f4e848016db8fdd663c4289495d24065282cb18ede8e6e748e2d"
+hash = "4f3094ca6086de73fe5332be5ce3bb225e7fc43f69d2d18a22c360844686d851"
 metafile = true
 
 [[files]]
@@ -1928,12 +1936,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2e72d1c4db42473f8b7166f2fc8ff368b319ff2e367d8fade05f0a1c5b0e4979"
+hash = "9905db30a583c939eb7b4ebe6d89fed2382983ea1e3b1020b8d86490b111f954"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "db7617e6478e6e3885f20f08a4604daa1cada5d8755bc52dceba0b1239c4ef40"
+hash = "a54a398627e1b9069ba26ee32f3a291cb891843aa290aa0a618bd3c7a4ca07ac"
 metafile = true
 
 [[files]]
@@ -1953,7 +1961,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "b6a895f1b93c2e70488e8b0ae289ef03257bf25d91e5d92211bfaedd54889dde"
+hash = "664b98ebed2d34ec58c2700228fd45a923857d0675753290739e1d95f5e69a51"
 metafile = true
 
 [[files]]
@@ -1993,7 +2001,7 @@ metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "13af80b2b1274ebea8a8afdd31340b98280ae70ae7a64061162d0b07e75e0929"
+hash = "dd8d7d0adad9825b19419a51da58fc757c0080fc5e88262b1dcacdd3bcdc5a77"
 metafile = true
 
 [[files]]

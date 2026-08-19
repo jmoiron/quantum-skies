@@ -1,13 +1,13 @@
 name = "Programmed Circuit Card"
-filename = "Programmed Circuit Card-1.20.1-1.2.10.jar"
+filename = "Programmed Circuit Card-1.20.1-1.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "323ffc69fbebb974fa75b0c98e32a930b14d3ae4"
+hash = "14667353e073c0daa77848476e6037e3e896ab95"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8310486
+file-id = 8560090
 project-id = 1150540

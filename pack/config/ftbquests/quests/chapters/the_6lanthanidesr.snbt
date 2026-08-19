@@ -331,7 +331,7 @@
 				}
 				{
 					id: "52BF27ACBECE1374"
-					item: "gtec:monaziterarer_earth_sediment_dust"
+					item: "gtec:monazite_rarer_earth_sediment_dust"
 					type: "item"
 				}
 				{
@@ -665,7 +665,7 @@
 			id: "1896D8E772A76EF0"
 			tasks: [{
 				id: "7031B6190D03293F"
-				item: "gtec:acid_leached_astnasite_rare_earth_oxides_dust"
+				item: "gtec:acid_leached_bastnasite_rare_earth_oxides_dust"
 				type: "item"
 			}]
 			x: -5.0d
@@ -944,7 +944,7 @@
 			id: "48B6E77C02F44DBA"
 			tasks: [{
 				id: "1EFA38F152C0A740"
-				item: "gtceu:euxenite_dust"
+				item: "gtec:euxenite_dust"
 				type: "item"
 			}]
 			x: 1.0d
