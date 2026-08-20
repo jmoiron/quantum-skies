@@ -1278,7 +1278,7 @@ hash = "483f3447c24e886b1fe2f5d3140f52cf0a55a74c642c91f79903a2990e42e42d"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/planetary_core_drill.js"
-hash = "761ee82590bd048e96f451c5582311acb890d1c52e95d9bb504f18acca8b7f86"
+hash = "ffe167b46b12cac369b061dcd3b573a89790f285d45f83db953887be43d9e0e5"
 
 [[files]]
 file = "kubejs/server_scripts/multiblocks/sieve.js"

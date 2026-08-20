@@ -248,7 +248,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("16x gtceu:moon_aluminium_ore", 8000, 250)
         .chancedOutput("4x gtceu:moon_moissanite_ore", 6000, 250)
         .chancedOutput("4x gcyr:moon_fluorite_ore", 6000, 250)
-        .chancedOutput("4x gtceu:moon_sheldonite_ore", 2000, 0)
+        .chancedOutput("4x gtceu:moon_cooperite_ore", 2000, 0)
         .chancedFluidOutput("gtceu:hot_diesel_oil_mud 100", 6000, 1000)
         .EUt(800)
         .duration(300);
